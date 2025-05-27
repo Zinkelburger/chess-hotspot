@@ -1,0 +1,22 @@
+[
+  {
+    "id": "harvard_sq",
+    "name": "Harvard Square (Smith Campus Center)",
+    "lat": 42.3736,
+    "lng": -71.1199,
+    "photo": "/img/harvard-square-chess.png",
+    "gmap": "https://goo.gl/maps/nhPxgjZBXEm4SDh39",
+    "website": null,
+    "notes": "Outdoor tables; $5 blitz games common."
+  },
+  {
+    "id": "retiro_madrid",
+    "name": "La Cabaña – Asociación Amigos del Retiro",
+    "lat": 40.41404,
+    "lng": -3.68307,
+    "photo": "/img/retiro.png",
+    "gmap": "https://goo.gl/maps/298UN4y1kHqgspYh8",
+    "website": "https://64.place/directory-chess_places/entry/la-cabana-asociacion-amigos-del-retiro/",
+    "notes": "Weekend club, casual boards available."
+  }
+]
