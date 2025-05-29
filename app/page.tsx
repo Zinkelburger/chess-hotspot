@@ -1,13 +1,6 @@
 'use client';
-
-import dynamic from 'next/dynamic';
-
-const Map = dynamic(() => import('./components/Map'), { ssr: false });
+import MapView from './components/MapView';
 
 export default function Home() {
-  return (
-    <main className="h-screen w-screen">
-      <Map />
-    </main>
-  );
+  return <div className="h-screen w-screen"><MapView /></div>;
 }

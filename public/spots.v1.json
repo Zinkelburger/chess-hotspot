@@ -4,19 +4,32 @@
     "name": "Harvard Square (Smith Campus Center)",
     "lat": 42.3736,
     "lng": -71.1199,
+    "category": "park",
     "photo": "/img/harvard-square-chess.png",
-    "gmap": "https://goo.gl/maps/nhPxgjZBXEm4SDh39",
+    "gmap": "https://www.google.com/maps/place/42%C2%B022'23.3%22N+71%C2%B007'07.0%22W/@42.3731279,-71.1234719,17z/data=!3m1!4b1!4m13!1m8!3m7!1s0x89e37742da469cd9:0xf3c15cfa78742364!2s1350+Massachusetts+Ave,+Cambridge,+MA+02138!3b1!8m2!3d42.3728138!4d-71.1186007!16s%2Fg%2F11t5vf5jpr!3m3!8m2!3d42.373128!4d-71.118601?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
     "website": null,
     "notes": "Outdoor tables; $5 blitz games common."
   },
   {
     "id": "retiro_madrid",
-    "name": "La Cabaña – Asociación Amigos del Retiro",
+    "name": "La Cabaña - Asociación Amigos del Retiro",
     "lat": 40.41404,
     "lng": -3.68307,
+    "category": "park",
     "photo": "/img/retiro.png",
-    "gmap": "https://goo.gl/maps/298UN4y1kHqgspYh8",
+    "gmap": "https://maps.app.goo.gl/uoShpGpvbHc5PVXr6",
     "website": "https://64.place/directory-chess_places/entry/la-cabana-asociacion-amigos-del-retiro/",
-    "notes": "Weekend club, casual boards available."
+    "notes": "People play in their free time, lots on Fridays/weekends"
+  },
+  {
+    "id": "tanner_coffee_la",
+    "name": "Tanner's Coffee Co.",
+    "lat": 34.0040417,
+    "lng": -118.4109087,
+    "category": "park",
+    "photo": "/img/retiro.png",
+    "gmap": "https://www.google.com/maps/place/Tanner's+Coffee+Co./@34.0040417,-118.4109087,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2ba1658458b1b:0xdf2041bfa9b51521!8m2!3d34.0040417!4d-118.4083338!16s%2Fg%2F1td_yw6d?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
+    "website": "https://64.place/directory-chess_places/entry/la-cabana-asociacion-amigos-del-retiro/",
+    "notes": "Come by on a weekend between 12p-5p for unrated chess games, or after 5pm for USCF rated tournaments."
   }
 ]
