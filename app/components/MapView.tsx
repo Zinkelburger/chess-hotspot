@@ -1,21 +1,31 @@
 // components/MapView.tsx
 'use client';
 
-import { useRef, useState, useMemo } from 'react';
-import Map, { Source, Layer } from 'react-map-gl/maplibre';
-import type { MapRef } from 'react-map-gl/maplibre';
-import type { CircleLayer, SymbolLayer } from 'mapbox-gl';
+import { useRef, useState, useMemo, useCallback } from 'react';
+import Map, {
+  Source,
+  Layer,
+  type MapRef,
+  type LayerProps
+} from 'react-map-gl/maplibre';
+import type { MapLayerMouseEvent } from 'maplibre-gl';
+import type {
+  Feature,
+  FeatureCollection,
+  Point,
+  GeoJsonProperties
+} from 'geojson';
 
 import spots from '@/public/spots.v1.json';
 import type { SpotRaw, DayOfWeek } from '@/types/spot';
 import LegendFilter, { CategoryColors } from './LegendFilter';
 import SpotPopup from './SpotPopup';
 
-/* ------------------------------------------------------------------ */
-/*  Layer definitions — keep them right here for clarity               */
-/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ *
+ *  Layer definitions                                                  *
+ * ------------------------------------------------------------------ */
 
-const clusterLayer: CircleLayer = {
+const clusterLayer: LayerProps = {
   id: 'clusters',
   type: 'circle',
   filter: ['has', 'point_count'],
@@ -25,7 +35,7 @@ const clusterLayer: CircleLayer = {
   }
 };
 
-const clusterCountLayer: SymbolLayer = {
+const clusterCountLayer: LayerProps = {
   id: 'cluster-count',
   type: 'symbol',
   filter: ['has', 'point_count'],
@@ -33,7 +43,7 @@ const clusterCountLayer: SymbolLayer = {
   paint: { 'text-color': '#ffffff' }
 };
 
-const unclusteredLayer: CircleLayer = {
+const unclusteredLayer: LayerProps = {
   id: 'unclustered',
   type: 'circle',
   filter: ['!', ['has', 'point_count']],
@@ -45,44 +55,57 @@ const unclusteredLayer: CircleLayer = {
   }
 };
 
-/* ------------------------------------------------------------------ */
-/*  Main component                                                     */
-/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ *
+ *  Types for our GeoJSON                                             *
+ * ------------------------------------------------------------------ */
+
+type SpotProps = SpotRaw & { __color: string }; // extra colour per feature
+type SpotFeature = Feature<Point, SpotProps>;
+type SpotCollection = FeatureCollection<Point, SpotProps>;
+
+/* ------------------------------------------------------------------ *
+ *  Main component                                                     *
+ * ------------------------------------------------------------------ */
+
+const SOURCE_ID = 'spots';
 
 export default function MapView() {
   const mapRef = useRef<MapRef>(null);
 
   const [activeSpot, setActiveSpot] = useState<SpotRaw | null>(null);
-  const [selectedCategories, setSelectedCategories] = useState<SpotRaw['category'][]>(
-    Object.keys(CategoryColors) as SpotRaw['category'][]
-  );
+  const [selectedCategories, setSelectedCategories] = useState<
+    Set<SpotRaw['category']>
+  >(new Set(Object.keys(CategoryColors) as SpotRaw['category'][]));
   const [selectedDays, setSelectedDays] = useState<DayOfWeek[]>([]);
 
   /* -------- Build filtered GeoJSON on the fly -------- */
-  const filteredGeojson = useMemo(() => ({
-    type: 'FeatureCollection' as const,
-    features: (spots as SpotRaw[])
-      .filter(s => selectedCategories.includes(s.category))
-      .filter(s =>
+  const filteredGeojson: SpotCollection = useMemo(() => {
+    const features: SpotFeature[] = (spots as SpotRaw[])
+      .filter((s) => selectedCategories.has(s.category))
+      .filter((s) =>
         selectedDays.length
-          ? selectedDays.some(d => !!s.hours?.[d])
+          ? selectedDays.some((d) => !!s.hours?.[d])
           : true
       )
-      .map(s => ({
-        type: 'Feature' as const,
+      .map((s) => ({
+        type: 'Feature',
         geometry: { type: 'Point', coordinates: [s.lng, s.lat] },
         properties: { ...s, __color: CategoryColors[s.category] }
-      }))
-  }), [selectedCategories, selectedDays]);
+      }));
+
+    return { type: 'FeatureCollection', features };
+  }, [selectedCategories, selectedDays]);
 
   /* -------------- click handler (MapLibre-safe) -------------- */
-  const handleClick = (e: mapboxgl.MapLayerMouseEvent) => {
+  const handleClick = useCallback((e: MapLayerMouseEvent) => {
     const map = mapRef.current?.getMap();
     if (!map) return;
 
-    const feats = map.queryRenderedFeatures(e.point, { layers: ['unclustered'] });
+    const feats = map.queryRenderedFeatures(e.point, {
+      layers: ['unclustered']
+    });
     if (feats.length) setActiveSpot(feats[0].properties as SpotRaw);
-  };
+  }, []);
 
   /* ------------------------- UI ------------------------ */
   return (
@@ -91,14 +114,18 @@ export default function MapView() {
       <div className="flex-1 overflow-hidden relative">
         <Map
           ref={mapRef}
-          initialViewState={{ longitude: -71.1199, latitude: 42.3736, zoom: 3 }}
+          initialViewState={{
+            longitude: -71.1199,
+            latitude: 42.3736,
+            zoom: 3
+          }}
           mapStyle={process.env.NEXT_PUBLIC_MAP_STYLE!}
           style={{ width: '100%', height: '100%' }}
           interactiveLayerIds={['clusters', 'unclustered']}
           onClick={handleClick}
         >
           <Source
-            id="spots"
+            id={SOURCE_ID}
             type="geojson"
             data={filteredGeojson}
             cluster
@@ -115,11 +142,13 @@ export default function MapView() {
       {/* 10 % legend / filters */}
       <div style={{ height: '10%' }} className="z-10">
         <LegendFilter
-          selectedCategories={selectedCategories}
-          toggleCategory={c =>
-            setSelectedCategories(cs =>
-              cs.includes(c) ? cs.filter(x => x !== c) : [...cs, c]
-            )
+          selectedCategories={[...selectedCategories]}
+          toggleCategory={(c) =>
+            setSelectedCategories((s) => {
+              const next = new Set(s);
+              next.has(c) ? next.delete(c) : next.add(c);
+              return next;
+            })
           }
           selectedDays={selectedDays}
           onDaysChange={setSelectedDays}
@@ -127,7 +156,9 @@ export default function MapView() {
       </div>
 
       {/* spot details dialog */}
-      {activeSpot && <SpotPopup spot={activeSpot} onClose={() => setActiveSpot(null)} />}
+      {activeSpot && (
+        <SpotPopup spot={activeSpot} onClose={() => setActiveSpot(null)} />
+      )}
     </div>
   );
 }
