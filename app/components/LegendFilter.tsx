@@ -1,6 +1,6 @@
 'use client';
 
-import { useId } from 'react';
+import clsx from 'clsx';
 import type { SpotCategory, DayOfWeek } from '@/types/spot';
 
 /* ------------------------------------------------------------------ *
@@ -20,8 +20,8 @@ export const CategoryColors: Record<SpotCategory, string> = {
 type Props = {
   selectedCategories: SpotCategory[];
   toggleCategory: (c: SpotCategory) => void;
-  selectedDay: DayOfWeek | '';
-  onDayChange: (d: DayOfWeek | '') => void;
+  selectedDays: DayOfWeek[];
+  onDaysChange: (d: DayOfWeek[]) => void;
 };
 
 const WEEK_DAYS: DayOfWeek[] = [
@@ -32,12 +32,9 @@ const WEEK_DAYS: DayOfWeek[] = [
 export default function LegendFilter({
   selectedCategories,
   toggleCategory,
-  selectedDay,
-  onDayChange
+  selectedDays,
+  onDaysChange
 }: Props) {
-  /* give the <select> a unique id for a11y */
-  const selectId = useId();
-
   return (
     <div
       className="w-full bg-gray-100/90 border-t border-gray-200
@@ -52,15 +49,22 @@ export default function LegendFilter({
             <button
               key={cat}
               onClick={() => toggleCategory(cat as SpotCategory)}
-              className="flex items-center space-x-1 whitespace-nowrap select-none"
-              style={{ opacity: active ? 1 : 0.35 }}
+              className={clsx(
+                'flex items-center space-x-1 whitespace-nowrap select-none px-2 py-0.5 rounded-full border',
+                active ? 'text-white' : 'text-gray-700'
+              )}
+              style={{
+                opacity: active ? 1 : 0.4,
+                backgroundColor: active ? color : 'white',
+                borderColor: color
+              }}
               aria-pressed={active}
             >
               <span
-                className="w-4 h-4 rounded-full flex-shrink-0"
+                className="w-3 h-3 rounded-full flex-shrink-0"
                 style={{ backgroundColor: color }}
               />
-              <span className="text-sm capitalize">{cat}</span>
+              <span className="text-sm font-medium capitalize">{cat}</span>
             </button>
           );
         })}
@@ -68,20 +72,38 @@ export default function LegendFilter({
 
       {/* ------- Day-of-week filter ------- */}
       <div className="flex items-center space-x-2">
-        <label htmlFor={selectId} className="text-sm">Open&nbsp;on:</label>
-        <select
-          id={selectId}
-          value={selectedDay}
-          onChange={e =>
-            onDayChange((e.target.value as DayOfWeek) || '')
-          }
-          className="text-sm bg-white border rounded px-1 py-0.5"
-        >
-          <option value="">Any</option>
-          {WEEK_DAYS.map(d => (
-            <option key={d} value={d}>{d}</option>
-          ))}
-        </select>
+         <span className="text-sm flex-shrink-0">Open&nbsp;on:</span>
+        <div className="flex space-x-1 overflow-x-auto">
+          {['', ...WEEK_DAYS].map(day => {
+            const active = day
+              ? selectedDays.includes(day as DayOfWeek)
+              : selectedDays.length === 0;
+            return (
+              <button
+                key={day || 'any'}
+                onClick={() => {
+                  if (day === '') return onDaysChange([]);
+                  const d = day as DayOfWeek;
+                  onDaysChange(
+                    active
+                      ? selectedDays.filter(x => x !== d)
+                      : [...selectedDays, d]
+                  );
+                }}
+                className={clsx(
+                  'px-3 py-1 rounded-full border font-medium text-base whitespace-nowrap',
+                  active
+                    ? 'bg-emerald-500 text-white border-emerald-500'
+                    : 'bg-white text-gray-700 border-gray-300'
+                )}
+                style={{ opacity: active ? 1 : 0.4 }}
+                aria-pressed={active}
+              >
+                {day || 'Any'}
+              </button>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

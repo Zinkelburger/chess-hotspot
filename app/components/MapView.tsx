@@ -56,20 +56,24 @@ export default function MapView() {
   const [selectedCategories, setSelectedCategories] = useState<SpotRaw['category'][]>(
     Object.keys(CategoryColors) as SpotRaw['category'][]
   );
-  const [selectedDay, setSelectedDay] = useState<DayOfWeek | ''>('');
+  const [selectedDays, setSelectedDays] = useState<DayOfWeek[]>([]);
 
   /* -------- Build filtered GeoJSON on the fly -------- */
   const filteredGeojson = useMemo(() => ({
     type: 'FeatureCollection' as const,
     features: (spots as SpotRaw[])
       .filter(s => selectedCategories.includes(s.category))
-      .filter(s => (selectedDay ? !!s.hours?.[selectedDay] : true))
+      .filter(s =>
+        selectedDays.length
+          ? selectedDays.some(d => !!s.hours?.[d])
+          : true
+      )
       .map(s => ({
         type: 'Feature' as const,
         geometry: { type: 'Point', coordinates: [s.lng, s.lat] },
         properties: { ...s, __color: CategoryColors[s.category] }
       }))
-  }), [selectedCategories, selectedDay]);
+  }), [selectedCategories, selectedDays]);
 
   /* -------------- click handler (MapLibre-safe) -------------- */
   const handleClick = (e: mapboxgl.MapLayerMouseEvent) => {
@@ -117,8 +121,8 @@ export default function MapView() {
               cs.includes(c) ? cs.filter(x => x !== c) : [...cs, c]
             )
           }
-          selectedDay={selectedDay}
-          onDayChange={setSelectedDay}
+          selectedDays={selectedDays}
+          onDaysChange={setSelectedDays}
         />
       </div>
 
