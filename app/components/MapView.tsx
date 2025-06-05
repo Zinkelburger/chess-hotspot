@@ -20,6 +20,7 @@ import spots from '@/public/spots.v1.json';
 import type { SpotRaw, DayOfWeek } from '@/types/spot';
 import LegendFilter, { CategoryColors } from './LegendFilter';
 import SpotPopup from './SpotPopup';
+import SubmitClub from './SubmitClub';
 
 /* ------------------------------------------------------------------ *
  *  Layer definitions                                                  *
