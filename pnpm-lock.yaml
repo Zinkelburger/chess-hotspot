@@ -30,6 +30,9 @@ importers:
         specifier: ^8.0.4
         version: 8.0.4(maplibre-gl@5.5.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     devDependencies:
+      '@cloudflare/workers-types':
+        specifier: ^4.20250605.0
+        version: 4.20250605.0
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.1.7
@@ -61,6 +64,9 @@ packages:
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
+
+  '@cloudflare/workers-types@4.20250605.0':
+    resolution: {integrity: sha512-e3/ZCXcpmk3jUNfq/2gyVYqeOqUhuQ0hsSdohSGscCgTkUI37QraVeCAOQtciKPDFXKOkaGGkmxg+RLYunbKuw==}
 
   '@emnapi/runtime@1.4.3':
     resolution: {integrity: sha512-pBPWdu6MLKROBX05wSNKcNb++m5Er+KQ9QkB+WVM+pW2Kx9hoSrVTnu3BdkI5eBLZoKu/J6mW/B6i6bJB2ytXQ==}
@@ -929,6 +935,8 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
+
+  '@cloudflare/workers-types@4.20250605.0': {}
 
   '@emnapi/runtime@1.4.3':
     dependencies:

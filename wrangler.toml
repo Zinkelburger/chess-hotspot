@@ -1,0 +1,14 @@
+name = "chess-hotspot"
+compatibility_date = "2025-06-01"
+main = "src/index.ts" 
+
+#[[kv_namespaces]]
+#binding = "chess_hotspot"
+#id = "${KV_NAMESPACE_ID}"
+#preview_id = "${KV_NAMESPACE_PREVIEW_ID}"
+
+[[kv_namespaces]]
+binding = "SPOTS_KV"
+id = "2dd0b728d5db4613b3908f3b7267a6df"
+preview_id = "af5424dc76974423bbdfb6017f03aeb4"
+

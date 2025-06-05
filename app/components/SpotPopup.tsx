@@ -1,5 +1,6 @@
 // components/SpotPopup.tsx
 'use client';
+import { useEffect, useState } from 'react';
 
 type Props = {
   spot: any;
@@ -7,7 +8,34 @@ type Props = {
 };
 
 export default function SpotPopup({ spot, onClose }: Props) {
-  if (!spot) return null;         // safety: nothing selected
+  if (!spot) return null; // safety: nothing selected
+
+  const [rating, setRating] = useState(0);
+  const [visitedAt, setVisitedAt] = useState('');
+  const [stats, setStats] = useState<{ visits: number; rating: number | null }>({
+    visits: 0,
+    rating: null
+  });
+
+  useEffect(() => {
+    fetch(`/api/visit?spotId=${spot.id}`)
+      .then((r) => r.json())
+      .then(setStats)
+      .catch(() => {});
+  }, [spot.id]);
+
+  const submit = async () => {
+    if (!rating || !visitedAt) return;
+    await fetch('/api/visit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ spotId: spot.id, rating, visitedAt })
+    });
+    setRating(0);
+    setVisitedAt('');
+    const data = await fetch(`/api/visit?spotId=${spot.id}`).then((r) => r.json());
+    setStats(data);
+  };
 
   return (
     /* ----- simple fixed wrapper, no backdrop, no special z CSS ----- */
@@ -82,15 +110,60 @@ export default function SpotPopup({ spot, onClose }: Props) {
             </a>
           )}
           {spot.website && (
-            <a
-              href={spot.website}
-              target="_blank"
-              rel="noopener"
-              style={{ color: '#059669', textDecoration: 'underline' }}
-            >
-              Club site
-            </a>
+          <a
+            href={spot.website}
+            target="_blank"
+            rel="noopener"
+            style={{ color: '#059669', textDecoration: 'underline' }}
+          >
+            Club site
+          </a>
+        )}
+      </div>
+
+        <div style={{ fontSize: '0.875rem', lineHeight: 1.4 }}>
+          <div>Visited {stats.visits} times</div>
+          {stats.rating !== null && (
+            <div>Average busy rating: {stats.rating.toFixed(1)}</div>
           )}
+        </div>
+
+         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+          <label>
+            <span style={{ fontSize: '0.875rem' }}>Visited on</span>
+            <input
+              type="datetime-local"
+              value={visitedAt}
+              onChange={(e) => setVisitedAt(e.target.value)}
+              style={{ width: '100%', border: '1px solid #ccc', borderRadius: '4px', padding: '4px' }}
+            />
+          </label>
+          <label>
+            <span style={{ fontSize: '0.875rem' }}>Busy rating</span>
+            <select
+              value={rating}
+              onChange={(e) => setRating(parseInt(e.target.value))}
+              style={{ width: '100%', border: '1px solid #ccc', borderRadius: '4px', padding: '4px' }}
+            >
+              <option value={0}>Select</option>
+              {[1, 2, 3, 4, 5].map((n) => (
+                <option key={n} value={n}>
+                  {n}
+                </option>
+              ))}
+            </select>
+          </label>
+          <button
+            onClick={submit}
+            style={{
+              background: '#2563eb',
+              color: '#fff',
+              padding: '0.4rem',
+              borderRadius: '0.375rem'
+            }}
+          >
+            Submit visit
+          </button>
         </div>
 
         <button
