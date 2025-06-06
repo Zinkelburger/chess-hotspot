@@ -7,3 +7,11 @@ body,
 #__next {
   height: 100%;
 }
+
+:root {
+  --text: #090304;
+  --background: #fcf8f8;
+  --primary: #be4751;
+  --secondary: #dad595;
+  --accent: #b2ce74;
+}
