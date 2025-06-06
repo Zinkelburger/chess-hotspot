@@ -12,6 +12,7 @@ export default function SpotPopup({ spot, onClose }: Props) {
 
   const [rating, setRating] = useState(0);
   const [visitedAt, setVisitedAt] = useState('');
+  const [reportOpen, setReportOpen] = useState(false);
   const [stats, setStats] = useState<{ visits: number; rating: number | null }>({
     visits: 0,
     rating: null
@@ -60,12 +61,13 @@ export default function SpotPopup({ spot, onClose }: Props) {
           width: 'min(90vw, 360px)',
           background: '#fff',
           borderRadius: '1rem',
-          padding: '1.25rem',
+          padding: '1rem',
           boxShadow: '0 10px 30px rgba(0,0,0,.1)',
           display: 'flex',
           flexDirection: 'column',
-          gap: '1rem',
+          gap: '0.5rem',
           pointerEvents: 'auto', // re-enable interaction on the card
+          position: 'relative',
         }}
       >
         <img
@@ -76,10 +78,13 @@ export default function SpotPopup({ spot, onClose }: Props) {
             height: '160px',
             objectFit: 'cover',
             borderRadius: '0.5rem',
+            display: 'block',
           }}
         />
 
-        <h2 style={{ fontSize: '1.25rem', fontWeight: 600 }}>{spot.name}</h2>
+        <h2 style={{ fontSize: '1.25rem', fontWeight: 600, margin: 0 }}>
+          {spot.name}
+        </h2>
 
         {spot.category && (
           <span
@@ -90,6 +95,7 @@ export default function SpotPopup({ spot, onClose }: Props) {
               padding: '0.125rem 0.5rem',
               fontSize: '0.75rem',
               textTransform: 'capitalize',
+              margin: 0,
             }}
           >
             {spot.category.replace(/_/g, ' ')}
@@ -97,7 +103,14 @@ export default function SpotPopup({ spot, onClose }: Props) {
         )}
 
         {spot.notes && (
-          <p style={{ fontSize: '0.875rem', lineHeight: 1.4, color: '#374151' }}>
+          <p
+            style={{
+              fontSize: '0.875rem',
+              lineHeight: 1.4,
+              color: '#374151',
+              margin: 0,
+            }}
+          >
             {spot.notes}
           </p>
         )}
@@ -125,50 +138,24 @@ export default function SpotPopup({ spot, onClose }: Props) {
         )}
       </div>
 
-        <div style={{ fontSize: '0.875rem', lineHeight: 1.4 }}>
+        <div style={{ fontSize: '0.875rem', lineHeight: 1.4, margin: 0 }}>
           <div>Visited {stats.visits} times</div>
           {stats.rating !== null && (
             <div>Average busy rating: {stats.rating.toFixed(1)}</div>
           )}
         </div>
 
-         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-          <label>
-            <span style={{ fontSize: '0.875rem' }}>Visited on</span>
-            <input
-              type="datetime-local"
-              value={visitedAt}
-              onChange={(e) => setVisitedAt(e.target.value)}
-              style={{ width: '100%', border: '1px solid #ccc', borderRadius: '4px', padding: '4px' }}
-            />
-          </label>
-          <label>
-            <span style={{ fontSize: '0.875rem' }}>Busy rating</span>
-            <select
-              value={rating}
-              onChange={(e) => setRating(parseInt(e.target.value))}
-              style={{ width: '100%', border: '1px solid #ccc', borderRadius: '4px', padding: '4px' }}
-            >
-              <option value={0}>Select</option>
-              {[1, 2, 3, 4, 5].map((n) => (
-                <option key={n} value={n}>
-                  {n}
-                </option>
-              ))}
-            </select>
-          </label>
-          <button
-            onClick={submit}
-            style={{
-              background: '#2563eb',
-              color: '#fff',
-              padding: '0.4rem',
-              borderRadius: '0.375rem'
-            }}
-          >
-            Submit visit
-          </button>
-        </div>
+        <button
+          onClick={() => setReportOpen(true)}
+          style={{
+            background: '#2563eb',
+            color: '#fff',
+            padding: '0.4rem',
+            borderRadius: '0.375rem'
+          }}
+        >
+          Report visit
+        </button>
 
         <button
           onClick={onClose}
@@ -183,6 +170,90 @@ export default function SpotPopup({ spot, onClose }: Props) {
         >
           Close
         </button>
+
+        {reportOpen && (
+          <div
+            style={{
+              position: 'absolute',
+              inset: 0,
+              background: 'rgba(0,0,0,0.2)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <div
+              style={{
+                width: 'min(90vw, 280px)',
+                background: '#fff',
+                borderRadius: '0.75rem',
+                padding: '1rem',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '0.5rem',
+              }}
+            >
+              <label>
+                <span style={{ fontSize: '0.875rem' }}>Visited on</span>
+                <input
+                  type="datetime-local"
+                  value={visitedAt}
+                  onChange={(e) => setVisitedAt(e.target.value)}
+                  style={{
+                    width: '100%',
+                    border: '1px solid #ccc',
+                    borderRadius: '4px',
+                    padding: '4px',
+                  }}
+                />
+              </label>
+              <label>
+                <span style={{ fontSize: '0.875rem' }}>Busy rating</span>
+                <select
+                  value={rating}
+                  onChange={(e) => setRating(parseInt(e.target.value))}
+                  style={{
+                    width: '100%',
+                    border: '1px solid #ccc',
+                    borderRadius: '4px',
+                    padding: '4px',
+                  }}
+                >
+                  <option value={0}>Select</option>
+                  {[1, 2, 3, 4, 5].map((n) => (
+                    <option key={n} value={n}>
+                      {n}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '0.5rem' }}>
+                <button
+                  onClick={submit}
+                  style={{
+                    background: '#2563eb',
+                    color: '#fff',
+                    padding: '0.4rem',
+                    borderRadius: '0.375rem',
+                  }}
+                >
+                  Submit
+                </button>
+                <button
+                  onClick={() => setReportOpen(false)}
+                  style={{
+                    background: '#6b7280',
+                    color: '#fff',
+                    padding: '0.4rem',
+                    borderRadius: '0.375rem',
+                  }}
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
