@@ -154,7 +154,6 @@ export default function MapView() {
           selectedDays={selectedDays}
           onDaysChange={setSelectedDays}
         />
-        <SubmitClub />
       </div>
 
       {/* spot details dialog */}
