@@ -1,11 +1,12 @@
 name = "chess-hotspot"
 compatibility_date = "2025-06-01"
-main = "src/index.ts" 
+pages_build_output_dir = "./out"
 
-#[[kv_namespaces]]
-#binding = "chess_hotspot"
-#id = "${KV_NAMESPACE_ID}"
-#preview_id = "${KV_NAMESPACE_PREVIEW_ID}"
+# main = "src/index.ts" 
+
+#[assets]
+#bucket = "./out"
+#binding = "ASSETS"
 
 [[kv_namespaces]]
 binding = "SPOTS_KV"

@@ -1,14 +1,15 @@
-/*  src/index.ts  --------------------------------------------------------- */
+/// <reference types="@cloudflare/workers-types" />
 export interface Env {
   SPOTS_KV: KVNamespace;
+  ASSETS: Fetcher;
 }
 
 /* Import your endpoint functions */
-import { onRequestPost as submitPost } from '../functions/submit';
+import { onRequestPost as submitPost } from '../functions/api/submit';
 import {
   onRequestGet as visitGet,
   onRequestPost as visitPost,
-} from '../functions/visit';
+} from '../functions/api/visit';
 
 /* Tiny hand-rolled router */
 export default {
@@ -26,7 +27,7 @@ export default {
       if (request.method === 'POST') return visitPost({ request, env, ctx });
     }
 
-    /* Anything else */
-    return new Response('Not found', { status: 404 });
+    /* Anything else → serve static files from ./out via ASSETS binding */
+    return env.ASSETS.fetch(request);
   },
 };

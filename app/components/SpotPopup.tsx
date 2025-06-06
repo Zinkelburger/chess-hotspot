@@ -19,8 +19,10 @@ export default function SpotPopup({ spot, onClose }: Props) {
 
   useEffect(() => {
     fetch(`/api/visit?spotId=${spot.id}`)
-      .then((r) => r.json())
-      .then(setStats)
+      .then((r) =>
+        r.json() as Promise<{ visits: number; rating: number | null }>
+      )
+      .then((data) => setStats(data))
       .catch(() => {});
   }, [spot.id]);
 
@@ -33,7 +35,9 @@ export default function SpotPopup({ spot, onClose }: Props) {
     });
     setRating(0);
     setVisitedAt('');
-    const data = await fetch(`/api/visit?spotId=${spot.id}`).then((r) => r.json());
+    const data: { visits: number; rating: number | null } = await fetch(
+      `/api/visit?spotId=${spot.id}`
+    ).then((r) => r.json());
     setStats(data);
   };
 
