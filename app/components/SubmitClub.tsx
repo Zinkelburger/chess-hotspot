@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, type FormEvent } from 'react';
 import type { SpotCategory } from '@/types/spot';
 
 const categories: SpotCategory[] = ['park', 'tournament', 'club'];
@@ -12,7 +12,8 @@ export default function SubmitClub() {
   const [notes, setNotes] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
-  const submit = async () => {
+  const submit = async (e: FormEvent) => {
+    e.preventDefault();
     if (!name) return;
     await fetch('/api/submit', {
       method: 'POST',
@@ -30,13 +31,14 @@ export default function SubmitClub() {
   if (submitted) return <p className="p-4">Thanks for your submission!</p>;
 
   return (
-    <div className="p-4 space-y-3 bg-gray-50 rounded border">
+    <form onSubmit={submit} className="space-y-4 bg-gray-50 rounded border p-6">
       <h3 className="font-semibold text-lg">Submit a club</h3>
       <input
         className="border p-1 w-full rounded"
         placeholder="Club name"
         value={name}
         onChange={(e) => setName(e.target.value)}
+        required
       />
       <label className="block text-sm font-medium" htmlFor="category">
         Category
@@ -58,6 +60,7 @@ export default function SubmitClub() {
         placeholder="Google Maps link"
         value={gmap}
         onChange={(e) => setGmap(e.target.value)}
+        required
       />
       <input
         className="border p-1 w-full rounded"
@@ -72,11 +75,11 @@ export default function SubmitClub() {
         onChange={(e) => setNotes(e.target.value)}
       />
       <button
-        className="bg-emerald-500 text-white px-3 py-1 rounded"
-        onClick={submit}
+        type="submit"
+        className="bg-emerald-500 text-white px-4 py-2 rounded w-full"
       >
         Submit
       </button>
-    </div>
+    </form>
   );
 }

@@ -6,8 +6,8 @@ export const metadata = {
 
 export default function ClubSubmissionPage() {
   return (
-    <div className="p-4 space-y-4 max-w-md mx-auto">
-      <h1 className="text-xl font-semibold">Suggest a new club</h1>
+    <div className="p-6 space-y-4 max-w-xl mx-auto">
+      <h1 className="text-xl font-semibold text-center">Suggest a new club</h1>
       <SubmitClub />
       <div className="pt-4 flex justify-center">
         <a href="https://github.com/Zinkelburger/chess-hotspot" target="_blank" rel="noopener">
