@@ -2,11 +2,8 @@ name = "chess-hotspot"
 compatibility_date = "2025-06-01"
 pages_build_output_dir = "./out"
 
-# main = "src/index.ts" 
-
-#[assets]
-#bucket = "./out"
-#binding = "ASSETS"
+[vars]
+NEXT_PUBLIC_MAP_STYLE = "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json"
 
 [[kv_namespaces]]
 binding = "SPOTS_KV"
