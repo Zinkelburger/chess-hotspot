@@ -141,7 +141,7 @@ export default function MapView() {
       </div>
 
       {/* 10 % legend / filters */}
-      <div style={{ height: '10%' }} className="z-10">
+      <div style={{ height: '6%' }} className="z-10">
         <LegendFilter
           selectedCategories={[...selectedCategories]}
           toggleCategory={(c) =>

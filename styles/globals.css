@@ -30,6 +30,7 @@ body,
   transition: all 0.3s ease;
   display: block;
   margin: 0 auto; /* top margin */
+  text-decoration: none; /* remove underline when used on a <a> */
 }
 
 .button-style:hover {
