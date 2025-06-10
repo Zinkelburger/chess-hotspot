@@ -10,7 +10,7 @@ export default function SubmitClub() {
   const [gmap, setGmap]         = useState('');
   const [website, setWebsite]   = useState('');
   const [notes, setNotes]       = useState('');
-    const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   const submit = async (e: FormEvent) => {
     e.preventDefault();
@@ -25,64 +25,103 @@ export default function SubmitClub() {
   };
 
   if (submitted) {
-    return <p className="p-6 text-center text-primary font-medium">
-             Thanks for your submission!
-           </p>;
+    return (
+      <p className="p-6 text-center text-primary font-medium">
+        Thanks for your submission!
+      </p>
+    );
   }
 
+  // shared style for all fields
+  const fieldStyle: React.CSSProperties = {
+    display:     'block',
+    width:       '100%',
+    background:  '#f8f8f8',
+    boxSizing:    'border-box',
+    color:       '#333333',
+    border:      '1px solid #ccc',
+    borderRadius:'0.375rem',
+    padding:     '0.25rem 0.15rem',
+  };
+
   return (
-    <form onSubmit={submit} className="space-y-5">
-      <h3 className="font-semibold text-lg text-primary">Submit a club</h3>
-
-      <input
-        className="block"
-        placeholder="Club name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-        required
-      />
-
-      <label htmlFor="category" className="text-sm font-medium">
-        Category
+    <form
+      onSubmit={submit}
+      className="w-full max-w-sm mx-auto"
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        rowGap: '0.75rem',
+      }}
+    >
+      {/* Name */}
+      <label className="block text-sm font-medium">
+        Club name
+        <input
+          type="text"
+          style={fieldStyle}
+          placeholder="Club name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          required
+        />
       </label>
-      <select
-        id="category"
-        className="block"
-        value={category}
-        onChange={(e) => setCategory(e.target.value as SpotCategory)}
-      >
-        {categories.map((c) => (
-          <option key={c} value={c}>{c}</option>
-        ))}
-      </select>
 
-      <input
-        className="block"
-        placeholder="Google Maps link"
-        value={gmap}
-        onChange={(e) => setGmap(e.target.value)}
-        required
-      />
+      {/* Category */}
+      <label className="block text-sm font-medium">
+        Category
+        <select
+          style={fieldStyle}
+          value={category}
+          onChange={(e) => setCategory(e.target.value as SpotCategory)}
+        >
+          {categories.map((c) => (
+            <option key={c} value={c}>
+              {c}
+            </option>
+          ))}
+        </select>
+      </label>
 
-      <input
-        className="block"
-        placeholder="Website (optional)"
-        value={website}
-        onChange={(e) => setWebsite(e.target.value)}
-      />
+      {/* Google Maps */}
+      <label className="block text-sm font-medium">
+        Google Maps link
+        <input
+          type="url"
+          style={fieldStyle}
+          placeholder="https://maps.google.com/..."
+          value={gmap}
+          onChange={(e) => setGmap(e.target.value)}
+          required
+        />
+      </label>
 
-      <textarea
-        rows={3}
-        className="block"
-        placeholder="Notes"
-        value={notes}
-        onChange={(e) => setNotes(e.target.value)}
-      />
+      {/* Website */}
+      <label className="block text-sm font-medium">
+        Website (optional)
+        <input
+          type="url"
+          style={fieldStyle}
+          placeholder="https://example.com"
+          value={website}
+          onChange={(e) => setWebsite(e.target.value)}
+        />
+      </label>
 
-      <button
-        type="submit"
-        className=""
-      >
+      {/* Notes */}
+      <label className="block text-sm font-medium">
+        Notes
+        <textarea
+          rows={3}
+          style={fieldStyle}
+          placeholder="Any extra details"
+          value={notes}
+          onChange={(e) => setNotes(e.target.value)}
+        />
+      </label>
+
+      {/* Submit button */}
+      <button type="submit" className="button-style mx-auto">
         Submit
       </button>
     </form>
