@@ -70,6 +70,7 @@ export default function SpotPopup({ spot, onClose }: Props) {
           position: 'relative',
         }}
       >
+        <button onClick={onClose} className="close-circle">&#x2715;</button>
         <img
           src={spot.photo ?? '/img/default.jpg'}
           alt={spot.name}
@@ -156,21 +157,6 @@ export default function SpotPopup({ spot, onClose }: Props) {
         >
           Report visit
         </button>
-
-        <button
-          onClick={onClose}
-          style={{
-            marginTop: '0.75rem',
-            width: '100%',
-            background: '#059669',
-            color: '#fff',
-            padding: '0.4rem 0',
-            borderRadius: '0.375rem',
-          }}
-        >
-          Close
-        </button>
-
         {reportOpen && (
           <div
             style={{

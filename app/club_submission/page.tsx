@@ -30,6 +30,7 @@ export default function ClubSubmissionPage() {
   return (
     <div style={pageStyle}>
       <div style={cardStyle}>
+        <a href="/" className="close-circle">&#x2715;</a>
         <h1
           style={{
             margin: 0,
