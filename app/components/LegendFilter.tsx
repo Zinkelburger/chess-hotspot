@@ -29,9 +29,9 @@ export default function LegendFilter({
   onDaysChange,
 }: Props) {
   return (
-    <div className="w-full h-full bg-gray-100/90 border-t border-gray-200 flex items-center justify-between px-3 py-0">
+    <div className="w-full h-full bg-gray-100/90 flex items-center justify-between px-0 py-0">
       {/* ← LEFT GROUP */}
-      <div className="flex items-center overflow-x-auto">
+      <div className="flex items-center overflow-x-auto flex-none space-x-3">
         {/* 1) Category chips */}
         <div className="flex items-center space-x-3">
           {Object.entries(CategoryColors).map(([cat, color]) => {
@@ -74,7 +74,7 @@ export default function LegendFilter({
               marginRight: '0.25rem',
             }}
           >
-            <span>Suggest a Club</span>
+              <span>Suggest a Club</span>
           </Link>
 
           <a
@@ -89,9 +89,9 @@ export default function LegendFilter({
       </div>
 
       {/* → RIGHT GROUP: day-of-week filter */}
-      <div className="flex items-center justify-end gap-1 max-w-[50%]">
-        <span className="text-[0.6rem] font-medium flex-none">Open:</span>
-        <div className="flex flex-wrap gap-1 overflow-visible">
+      <div className="flex items-center justify-end gap-1 flex-1 overflow-hidden">
+        <span className="text-xs font-medium flex-none">Open:</span>
+        <div className="grid grid-cols-8 gap-1 flex-1 overflow-hidden">
           {['', ...WEEK_DAYS].map((day) => {
             const active = day
               ? selectedDays.includes(day as DayOfWeek)
@@ -110,7 +110,7 @@ export default function LegendFilter({
                   );
                 }}
                 className={clsx(
-                  'flex-none px-0 py-[2px] rounded-full border text-[0.6rem] font-medium text-center truncate transition-opacity',
+                  'w-full px-1 py-px rounded-full border text-[0.65rem] font-medium text-center truncate transition-opacity',
                   active
                     ? 'bg-emerald-500 text-white border-emerald-500'
                     : 'bg-white text-gray-700 border-gray-300'

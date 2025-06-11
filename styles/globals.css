@@ -28,11 +28,13 @@ html,
 body,
 #__next {
   height: 100%;
+  width: 100%;
 }
 
 @layer base {
   body {
     font-family: "Ubuntu", ui-sans-serif, system-ui, sans-serif;
+    margin: 0;
   }
 }
 

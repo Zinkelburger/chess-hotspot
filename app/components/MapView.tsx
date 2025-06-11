@@ -110,7 +110,7 @@ export default function MapView() {
 
   /* ------------------------- UI ------------------------ */
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-full">
       {/* 90 % map area */}
       <div className="flex-1 overflow-hidden relative">
         <Map
