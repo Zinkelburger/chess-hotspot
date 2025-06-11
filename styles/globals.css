@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('/fonts/ubuntu/Ubuntu-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('/fonts/ubuntu/Ubuntu-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('/fonts/ubuntu/Ubuntu-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +28,12 @@ html,
 body,
 #__next {
   height: 100%;
+}
+
+@layer base {
+  body {
+    font-family: "Ubuntu", ui-sans-serif, system-ui, sans-serif;
+  }
 }
 
 :root {
