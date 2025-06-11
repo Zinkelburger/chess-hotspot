@@ -24,6 +24,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 18px;
+}
+
 html,
 body,
 #__next {
@@ -35,15 +39,19 @@ body,
   body {
     font-family: "Ubuntu", ui-sans-serif, system-ui, sans-serif;
     margin: 0;
+    background-color: var(--background);
+    color: var(--text);
   }
 }
 
 :root {
   --text: #090304;
   --background: #fcf8f8;
-  --primary: #be4751;
-  --secondary: #dad595;
-  --accent: #b2ce74;
+  --primary: #f9163d;
+  --secondary: #00e67f;
+  --secondary2: #a2fc7b;
+  --accent: #4afa7d;
+  --accent2: #4decda;
   --radius: 0.75rem;
 }
 
@@ -53,7 +61,7 @@ body,
   border-radius: 0.5rem;                    /* gently rounded corners */
   font-size: 1.5rem;
   line-height: 2rem;
-  background-color: var(--accent);
+  background-color: var(--secondary);
   color: var(--text);
   cursor: pointer;
   border: none;
