@@ -12,7 +12,7 @@
     "photo": "/img/harvard_sq.png",
     "gmap": "https://www.google.com/maps/place/42%C2%B022'23.3%22N+71%C2%B007'07.0%22W/@42.3731279,-71.1234719,17z/data=!3m1!4b1!4m13!1m8!3m7!1s0x89e37742da469cd9:0xf3c15cfa78742364!2s1350+Massachusetts+Ave,+Cambridge,+MA+02138!3b1!8m2!3d42.3728138!4d-71.1186007!16s%2Fg%2F11t5vf5jpr!3m3!8m2!3d42.373128!4d-71.118601?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
     "website": null,
-    "notes": "Outdoor, indoor tables; $5 blitz games common in good weather. Boylston Chess Club hosts events here on Fridays in the summer."
+    "notes": "Outdoor, indoor tables; $5 blitz games common in good weather.\n\nBoylston Chess Club hosts events here on Fridays in the summer."
   },
   {
     "id": "retiro_madrid",
@@ -94,7 +94,7 @@
       "https://lowellchessclub.com/",
       "https://chessinlowell.com/"
     ],
-    "notes": "Tuesday, Thursday, Sunday. Different locations. I went once and was threatened by a homeless guy. Your mileage may vary."
+    "notes": "Tuesday, Thursday, Sunday. Different locations.\n\nI went once and was threatened by a homeless guy. Your mileage may vary."
   },
   {
     "id": "maynard_chess_club",
@@ -177,7 +177,7 @@
     "photo": "/img/quincy_chess_club.jpg",
     "gmap": "https://www.google.com/maps/dir//Bethany+Congregational+Church,+18+Spear+St,+Quincy,+MA+02169/@42.2765627,-71.0901886,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e3634b60ec10bd:0xc51fd595fe5df1e5!2m2!1d-71.0007012!2d42.252246?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
     "website": "https://www.facebook.com/groups/888056919564322/",
-    "notes": "Wednesday 3-9pm. My friend went and got kicked out for being too good, lol. May be a cult!"
+    "notes": "Wednesday 3-9pm.\n\nMy friend went and got kicked out for being too good, lol. May be a cult!"
   },
   {
     "id": "boylston_chess_club",
@@ -185,9 +185,15 @@
     "lat": 42.3535593,
     "lng": -71.0593018,
     "category": "club",
+    "hours": {
+      "Tuesday": {},
+      "Friday": {},
+      "Saturday": {},
+      "Sunday": {}
+    },
     "photo": "/img/boylston_chess_club.jpg",
     "gmap": "https://www.google.com/maps/dir//Boylston+Chess+Club,+35+Kingston+St+STE+1,+Boston,+MA+02111/@42.2951917,-71.0731207,11.08z/data=!4m8!4m7!1m0!1m5!1m1!1s0x405c67e63088a045:0xff21795efa128e73!2m2!1d-71.0593018!2d42.3535593?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
     "website": "https://boylstonchess.org/",
-    "notes": "Extremely strong club. Some casual blitz events on Fridays, mostly weekend Tournaments. Check their schedule"
+    "notes": "Some casual blitz events on Fridays, mostly host weekend Tournaments. Check their schedule"
   }
 ]

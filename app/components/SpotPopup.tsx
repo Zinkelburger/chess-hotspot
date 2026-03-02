@@ -57,7 +57,7 @@ export default function SpotPopup({ spot, onClose }: Props) {
     );
     return days;
   }, [spot.hours]);
-  const displayCategory = spot.category === 'club' ? 'park' : spot.category;
+  const displayCategory = spot.category;
   const categoryPillClass =
     displayCategory === 'park'
       ? 'pretty-pill pretty-pill-green'
@@ -196,7 +196,7 @@ export default function SpotPopup({ spot, onClose }: Props) {
         )}
 
         {spot.notes && (
-          <p className="text-sm leading-snug text-gray-600" style={{ margin: 0 }}>
+          <p className="text-sm leading-snug text-gray-600 whitespace-pre-line" style={{ margin: 0 }}>
             {spot.notes}
           </p>
         )}
