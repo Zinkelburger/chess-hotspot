@@ -1,7 +1,7 @@
 'use client';
 
 import { useRef, useState, useMemo, useCallback } from 'react';
-import Map, {
+import MapGL, {
   Source,
   Layer,
   type MapRef,
@@ -52,19 +52,28 @@ type SpotCollection = FeatureCollection<Point, SpotProps>;
 
 const SOURCE_ID = 'spots';
 const MAP_STYLE_FALLBACK = 'https://demotiles.maplibre.org/style.json';
+type ViewMode = 'park' | 'tournament';
 
 export default function MapView() {
   const mapRef = useRef<MapRef>(null);
 
   const [activeSpot, setActiveSpot] = useState<SpotRaw | null>(null);
-  const [selectedCategories, setSelectedCategories] = useState<
-    Set<SpotRaw['category']>
-  >(new Set(Object.keys(CATEGORY_COLORS) as SpotRaw['category'][]));
+  const [viewMode, setViewMode] = useState<ViewMode>('park');
   const [selectedDays, setSelectedDays] = useState<DayOfWeek[]>([]);
+
+  const spotsById = useMemo(() => {
+    const map = new Map<string, SpotRaw>();
+    for (const s of spots as SpotRaw[]) map.set(s.id, s);
+    return map;
+  }, []);
 
   const filteredGeojson: SpotCollection = useMemo(() => {
     const features: SpotFeature[] = (spots as SpotRaw[])
-      .filter((s) => selectedCategories.has(s.category))
+      .filter((s) =>
+        viewMode === 'park'
+          ? s.category === 'park' || s.category === 'club'
+          : s.category === 'tournament',
+      )
       .filter((s) =>
         selectedDays.length
           ? selectedDays.some((d) => !!s.hours?.[d])
@@ -77,22 +86,30 @@ export default function MapView() {
       }));
 
     return { type: 'FeatureCollection', features };
-  }, [selectedCategories, selectedDays]);
+  }, [viewMode, selectedDays]);
 
-  const handleClick = useCallback((e: MapLayerMouseEvent) => {
-    const map = mapRef.current?.getMap();
-    if (!map) return;
+  const closePopup = useCallback(() => setActiveSpot(null), []);
 
-    const feats = map.queryRenderedFeatures(e.point, {
-      layers: ['unclustered'],
-    });
-    if (feats.length) setActiveSpot(feats[0].properties as SpotRaw);
-  }, []);
+  const handleClick = useCallback(
+    (e: MapLayerMouseEvent) => {
+      const map = mapRef.current?.getMap();
+      if (!map) return;
+
+      const feats = map.queryRenderedFeatures(e.point, {
+        layers: ['unclustered'],
+      });
+      if (feats.length) {
+        const original = spotsById.get(feats[0].properties?.id);
+        if (original) setActiveSpot(original);
+      }
+    },
+    [spotsById],
+  );
 
   return (
     <div className="flex flex-col h-full">
       <div className="flex-1 overflow-hidden relative min-h-0">
-        <Map
+        <MapGL
           ref={mapRef}
           initialViewState={{ longitude: -71.1199, latitude: 42.3736, zoom: 3 }}
           mapStyle={process.env.NEXT_PUBLIC_MAP_STYLE ?? MAP_STYLE_FALLBACK}
@@ -112,26 +129,20 @@ export default function MapView() {
             <Layer {...clusterCountLayer} />
             <Layer {...unclusteredLayer} />
           </Source>
-        </Map>
+        </MapGL>
       </div>
 
       <div className="shrink-0 z-10">
         <LegendFilter
-          selectedCategories={[...selectedCategories]}
-          toggleCategory={(c) =>
-            setSelectedCategories((s) => {
-              const next = new Set(s);
-              next.has(c) ? next.delete(c) : next.add(c);
-              return next;
-            })
-          }
+          selectedView={viewMode}
+          onViewChange={setViewMode}
           selectedDays={selectedDays}
           onDaysChange={setSelectedDays}
         />
       </div>
 
       {activeSpot && (
-        <SpotPopup spot={activeSpot} onClose={() => setActiveSpot(null)} />
+        <SpotPopup spot={activeSpot} onClose={closePopup} />
       )}
     </div>
   );

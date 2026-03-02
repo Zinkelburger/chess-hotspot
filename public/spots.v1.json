@@ -9,7 +9,7 @@
       "Friday": {}
     },
     "seasonal": "Summer",
-    "photo": "/img/harvard-square-chess.png",
+    "photo": "/img/harvard_sq.png",
     "gmap": "https://www.google.com/maps/place/42%C2%B022'23.3%22N+71%C2%B007'07.0%22W/@42.3731279,-71.1234719,17z/data=!3m1!4b1!4m13!1m8!3m7!1s0x89e37742da469cd9:0xf3c15cfa78742364!2s1350+Massachusetts+Ave,+Cambridge,+MA+02138!3b1!8m2!3d42.3728138!4d-71.1186007!16s%2Fg%2F11t5vf5jpr!3m3!8m2!3d42.373128!4d-71.118601?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
     "website": null,
     "notes": "Outdoor, indoor tables; $5 blitz games common in good weather. Boylston Chess Club hosts events here on Fridays in the summer."
@@ -25,7 +25,7 @@
       "Saturday": {},
       "Sunday": {}
     },
-    "photo": "/img/retiro.png",
+    "photo": "/img/retiro_madrid.png",
     "gmap": "https://maps.app.goo.gl/uoShpGpvbHc5PVXr6",
     "website": "https://64.place/directory-chess_places/entry/la-cabana-asociacion-amigos-del-retiro/",
     "notes": "People play in their free time, lots on Fridays/weekends/afternoons"
@@ -46,7 +46,7 @@
         "close": "22:00"
       }
     },
-    "photo": "/img/tanner-chess1.webp",
+    "photo": "/img/tanner_coffee_la.webp",
     "gmap": "https://www.google.com/maps/place/Tanner's+Coffee+Co./@34.0040417,-118.4109087,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2ba1658458b1b:0xdf2041bfa9b51521!8m2!3d34.0040417!4d-118.4083338!16s%2Fg%2F1td_yw6d?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
     "website": "https://www.chess-la.com/chess-site/tanners_culver_city",
     "notes": "Come by on a weekend between 12p-5p for unrated chess games, or after 5pm for USCF rated tournaments."
@@ -63,7 +63,7 @@
         "close": "21:00"
       }
     },
-    "photo": "/img/jp_chess.avif",
+    "photo": "/img/jamaica_plain.avif",
     "gmap": "https://www.google.com/maps?client=firefox-b-1-d&channel=entpr&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KSdODW5ueeOJMY_L4tJQGV_o&daddr=659+Centre+St,+Boston,+MA+02130",
     "website": "https://www.jpchess.org/",
     "notes": "Thursdays 6-9pm. Club meets in J.P. Licks (ice cream shop). Nice group, active club"
@@ -88,6 +88,7 @@
         "close": "19:00"
       }
     },
+    "photo": "/img/lowell_chess_club.jpg",
     "gmap": "https://www.google.com/maps/dir//Little+Delights+Bakery,+138+Merrimack+St,+Lowell,+MA+01852/@42.3690874,-71.1073547,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e3a43f4623b755:0x178d731f704cfc09!2m2!1d-71.3100259!2d42.6455825?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
     "website": [
       "https://lowellchessclub.com/",
@@ -102,9 +103,11 @@
     "lng": -71.4486993,
     "category": "club",
     "hours": {
-      "Sunday": { "open": "14:10" }
+      "Sunday": {
+        "open": "14:10"
+      }
     },
-    "photo": "/img/maynard_chess.jpg",
+    "photo": "/img/maynard_chess_club.jpg",
     "gmap": "https://www.google.com/maps/dir//Maynard-area+Chess+Club,+8+Waltham+St+%231337,+Maynard,+MA+01754/@42.369024,-71.1072689,14z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e391ec81a221bb:0x232eee03cc73e0be!2m2!1d-71.4486993!2d42.4323461?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
     "website": "https://maynard.wiki/index.php/Maynard-area_Chess_Club",
     "notes": "Social group. Sundays 2:10pm at Excelsior Comics and Games Lounge"
@@ -116,8 +119,11 @@
     "lng": -71.149649,
     "category": "club",
     "hours": {
-      "Sunday": { "open": "13:00" }
+      "Sunday": {
+        "open": "13:00"
+      }
     },
+    "photo": "/img/andover_adult_chess.webp",
     "gmap": "https://www.google.com/maps/place/Oak+%26+Iron+Brewing+Co./@42.6563599,-71.149649,17z/data=!3m1!4b1!4m6!3m5!1s0x89e3086186251733:0xd21fae64a73afce!8m2!3d42.6563599!4d-71.1470741!16s%2Fg%2F11g68_vwbd?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
     "website": "https://www.andover-adult-chess.org/",
     "notes": "Casual Club, every other Sunday at 1pm"
@@ -129,9 +135,12 @@
     "lng": -71.1429485,
     "category": "club",
     "hours": {
-      "Friday": { "open": "19:00", "close": "20:30" }
+      "Friday": {
+        "open": "19:00",
+        "close": "20:30"
+      }
     },
-    "photo": "/img/andover_youth.avif",
+    "photo": "/img/andover_youth_chess_club.avif",
     "gmap": "https://www.google.com/maps/dir//Andover+Chess+Club,+35+Essex+St,+Andover,+MA+01810/@42.5159697,-71.0771648,11.42z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e3088996700001:0xae9b6596d18a3953!2m2!1d-71.1429485!2d42.6568899?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
     "website": "https://www.andoverchessclub.org/",
     "notes": "Scholastic club, meets Fridays 7-8:30pm"
@@ -143,8 +152,12 @@
     "lng": -71.1221892,
     "category": "club",
     "hours": {
-      "Thursday": { "open": "18:00", "close": "19:00" }
+      "Thursday": {
+        "open": "18:00",
+        "close": "19:00"
+      }
     },
+    "photo": "/img/merrimack_college_chess_club.png",
     "gmap": "https://www.google.com/maps/dir//Palmisano+Hall,+Mendel+Center,+Aherne+Rd,+North+Andover,+MA+01845/@42.6694424,-71.1248242,16.71z/data=!4m17!1m7!3m6!1s0x89e3070f8a5cc6a7:0xebd4b8536f67dcfc!2sPalmisano+Hall!8m2!3d42.6692267!4d-71.1221892!16s%2Fg%2F11rx4klc_4!4m8!1m0!1m5!1m1!1s0x89e3070f8a5cc6a7:0xebd4b8536f67dcfc!2m2!1d-71.1221892!2d42.6692267!3e3?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
     "website": "https://www.instagram.com/mcchessclub/?hl=en",
     "notes": "Thursdays, 6-7pm, Palmisano Hall"
@@ -156,10 +169,25 @@
     "lng": -71.0007012,
     "category": "club",
     "hours": {
-      "Wednesday": { "open": "15:00", "close": "21:00" }
+      "Wednesday": {
+        "open": "15:00",
+        "close": "21:00"
+      }
     },
+    "photo": "/img/quincy_chess_club.jpg",
     "gmap": "https://www.google.com/maps/dir//Bethany+Congregational+Church,+18+Spear+St,+Quincy,+MA+02169/@42.2765627,-71.0901886,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e3634b60ec10bd:0xc51fd595fe5df1e5!2m2!1d-71.0007012!2d42.252246?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
     "website": "https://www.facebook.com/groups/888056919564322/",
     "notes": "Wednesday 3-9pm. My friend went and got kicked out for being too good, lol. May be a cult!"
+  },
+  {
+    "id": "boylston_chess_club",
+    "name": "Boylston Chess Club",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "category": "club",
+    "photo": "/img/boylston_chess_club.jpg",
+    "gmap": "https://www.google.com/maps/dir//Boylston+Chess+Club,+35+Kingston+St+STE+1,+Boston,+MA+02111/@42.2951917,-71.0731207,11.08z/data=!4m8!4m7!1m0!1m5!1m1!1s0x405c67e63088a045:0xff21795efa128e73!2m2!1d-71.0593018!2d42.3535593?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
+    "website": "https://boylstonchess.org/",
+    "notes": "Extremely strong club. Some casual blitz events on Fridays, mostly weekend Tournaments. Check their schedule"
   }
 ]

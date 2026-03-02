@@ -80,3 +80,80 @@ body,
   opacity: 0.8;
   filter: brightness(0.9);
 }
+
+/* Reusable "pretty pill" controls used across app actions and filters */
+.pretty-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.34rem 0.72rem;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  font-size: 0.82rem;
+  line-height: 1.15;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease,
+    border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+}
+
+.pretty-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(2, 6, 23, 0.12);
+}
+
+.pretty-pill:active {
+  transform: translateY(0);
+}
+
+.pretty-pill:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.pretty-pill-blue {
+  background: #eff6ff;
+  border-color: #2563eb;
+  color: #1d4ed8;
+}
+
+.pretty-pill-green {
+  background: #ecfdf5;
+  border-color: #10b981;
+  color: #047857;
+}
+
+.pretty-pill-amber {
+  background: #fffbeb;
+  border-color: #f59e0b;
+  color: #92400e;
+}
+
+.pretty-pill-neutral {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+  color: #334155;
+}
+
+.pretty-pill-ghost {
+  background: #ffffff;
+  border-color: #d1d5db;
+  color: #4b5563;
+}
+
+.pretty-pill-solid-blue {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.pretty-pill-solid-gray {
+  background: #6b7280;
+  border-color: #6b7280;
+  color: #ffffff;
+}

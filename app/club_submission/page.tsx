@@ -10,7 +10,12 @@ export default function ClubSubmissionPage() {
         className="relative rounded-2xl border-2 border-black bg-white px-6 py-4 shadow-xl flex flex-col gap-3"
         style={{ width: 'min(90vw, 360px)' }}
       >
-        <a href="/" aria-label="Close" className="close-circle">
+        <a
+          href="/"
+          aria-label="Close"
+          className="pretty-pill pretty-pill-neutral"
+          style={{ position: 'absolute', top: '0.5rem', right: '0.5rem', padding: '0.2rem 0.5rem' }}
+        >
           &#x2715;
         </a>
 
@@ -24,7 +29,7 @@ export default function ClubSubmissionPage() {
           href={GITHUB_URL}
           target="_blank"
           rel="noopener"
-          className="self-center transition-opacity duration-200 hover:opacity-70"
+          className="pretty-pill pretty-pill-neutral self-center"
         >
           <img src="/github.svg" alt="GitHub" width={28} height={28} />
         </a>

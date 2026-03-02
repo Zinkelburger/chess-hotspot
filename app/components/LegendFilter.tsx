@@ -2,8 +2,10 @@
 
 import clsx from 'clsx';
 import Link from 'next/link';
-import type { SpotCategory, DayOfWeek } from '@/types/spot';
-import { CATEGORY_COLORS, GITHUB_URL } from '@/lib/constants';
+import type { DayOfWeek } from '@/types/spot';
+import { GITHUB_URL } from '@/lib/constants';
+
+type ViewMode = 'park' | 'tournament';
 
 const DAYS: (DayOfWeek | '')[] = [
   '', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday',
@@ -13,50 +15,51 @@ const DAY_LABELS: string[] = [
 ];
 
 type Props = {
-  selectedCategories: SpotCategory[];
-  toggleCategory: (c: SpotCategory) => void;
+  selectedView: ViewMode;
+  onViewChange: (view: ViewMode) => void;
   selectedDays: DayOfWeek[];
   onDaysChange: (d: DayOfWeek[]) => void;
 };
 
 export default function LegendFilter({
-  selectedCategories,
-  toggleCategory,
+  selectedView,
+  onViewChange,
   selectedDays,
   onDaysChange,
 }: Props) {
   return (
     <div className="w-full bg-gray-100/90 grid grid-cols-[auto_1fr_auto] items-center py-2">
-      {/* Category chips */}
+      {/* View chips */}
       <div className="flex items-center overflow-x-auto gap-2 px-4">
-        {Object.entries(CATEGORY_COLORS).map(([cat, color]) => {
-          const active = selectedCategories.includes(cat as SpotCategory);
-          return (
-            <button
-              key={cat}
-              onClick={() => toggleCategory(cat as SpotCategory)}
-              className={clsx(
-                'flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-sm whitespace-nowrap',
-                'transition hover:brightness-90 hover:shadow-md',
-                active ? 'text-white' : 'text-gray-700 opacity-70 hover:opacity-100',
-              )}
-              style={{ backgroundColor: active ? color : 'white', borderColor: color }}
-            >
-              <span
-                className="w-2.5 h-2.5 rounded-full shrink-0"
-                style={{ backgroundColor: color }}
-              />
-              <span className="capitalize">{cat}</span>
-            </button>
-          );
-        })}
+        <button
+          onClick={() => onViewChange('park')}
+          className={clsx(
+            'pretty-pill min-w-[7.5rem]',
+            selectedView === 'park'
+              ? 'pretty-pill-green'
+              : 'pretty-pill-ghost opacity-75 hover:opacity-100',
+          )}
+        >
+          <span>Club</span>
+        </button>
+        <button
+          onClick={() => onViewChange('tournament')}
+          className={clsx(
+            'pretty-pill min-w-[7.5rem]',
+            selectedView === 'tournament'
+              ? 'pretty-pill-blue'
+              : 'pretty-pill-ghost opacity-75 hover:opacity-100',
+          )}
+        >
+          <span>Tournament</span>
+        </button>
       </div>
 
       {/* Center links */}
       <div className="justify-self-center flex items-center gap-3">
         <Link
           href="/club_submission"
-          className="inline-flex items-center rounded-full bg-secondary text-text px-3 py-1 text-sm font-medium no-underline transition-all hover:brightness-90 hover:-translate-y-px hover:shadow-lg"
+          className="pretty-pill pretty-pill-green"
         >
           Suggest a Club
         </Link>
@@ -64,7 +67,7 @@ export default function LegendFilter({
           href={GITHUB_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center p-1 transition hover:opacity-80"
+          className="pretty-pill pretty-pill-neutral"
         >
           <img src="/github.svg" alt="GitHub" width={24} height={24} />
         </a>
@@ -91,10 +94,10 @@ export default function LegendFilter({
                 );
               }}
               className={clsx(
-                'shrink-0 rounded-full border px-2.5 py-1 text-xs whitespace-nowrap transition-all',
+                'pretty-pill text-xs',
                 active
-                  ? 'bg-emerald-500 text-white border-emerald-500'
-                  : 'bg-white text-gray-500 border-gray-300 hover:text-gray-700 hover:border-gray-400',
+                  ? 'pretty-pill-green'
+                  : 'pretty-pill-ghost',
               )}
             >
               {label}

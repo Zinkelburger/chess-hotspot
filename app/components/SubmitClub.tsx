@@ -3,14 +3,14 @@
 import { useState, type FormEvent } from 'react';
 import type { SpotCategory } from '@/types/spot';
 
-const CATEGORIES: SpotCategory[] = ['park', 'tournament', 'club'];
+const CATEGORIES: SpotCategory[] = ['park', 'tournament'];
 
 const fieldClass =
   'block w-full rounded-md border border-gray-300 bg-gray-50 text-gray-800 px-2 py-1.5 text-sm focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 focus:outline-none';
 
 export default function SubmitClub() {
   const [name, setName] = useState('');
-  const [category, setCategory] = useState<SpotCategory>('club');
+  const [category, setCategory] = useState<SpotCategory>('park');
   const [gmap, setGmap] = useState('');
   const [website, setWebsite] = useState('');
   const [notes, setNotes] = useState('');
@@ -64,7 +64,7 @@ export default function SubmitClub() {
         >
           {CATEGORIES.map((c) => (
             <option key={c} value={c}>
-              {c}
+              {c[0].toUpperCase() + c.slice(1)}
             </option>
           ))}
         </select>
@@ -112,7 +112,7 @@ export default function SubmitClub() {
 
       <button
         type="submit"
-        className="mx-auto rounded-lg bg-secondary text-text px-6 py-2 text-base font-medium transition-all hover:brightness-90 hover:-translate-y-px hover:shadow-lg"
+        className="pretty-pill pretty-pill-green mx-auto px-6 py-2 text-base"
       >
         Submit
       </button>

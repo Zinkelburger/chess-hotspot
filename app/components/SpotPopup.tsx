@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useCallback, useRef } from 'react';
+import { useEffect, useState, useCallback, useRef, useMemo } from 'react';
 import type { SpotRaw } from '@/types/spot';
 
 type Stats = { visits: number; rating: number | null };
@@ -9,6 +9,18 @@ type Props = {
   spot: SpotRaw;
   onClose: () => void;
 };
+
+function formatWebsiteLabel(rawUrl: string): string {
+  try {
+    const parsed = new URL(rawUrl);
+    const host = parsed.hostname.replace(/^www\./, '');
+    const path = parsed.pathname.replace(/\/+$/, '');
+    const full = `${host}${path}` || host;
+    return full.length > 34 ? `${full.slice(0, 31)}...` : full;
+  } catch {
+    return rawUrl.length > 34 ? `${rawUrl.slice(0, 31)}...` : rawUrl;
+  }
+}
 
 export default function SpotPopup({ spot, onClose }: Props) {
   const [rating, setRating] = useState(0);
@@ -20,6 +32,17 @@ export default function SpotPopup({ spot, onClose }: Props) {
   const [statsLoaded, setStatsLoaded] = useState(false);
   const [stats, setStats] = useState<Stats>({ visits: 0, rating: null });
   const abortRef = useRef<AbortController | null>(null);
+  const urls = useMemo(
+    () => (spot.website ? [spot.website].flat() : []),
+    [spot.website],
+  );
+  const displayCategory = spot.category === 'club' ? 'park' : spot.category;
+  const categoryPillClass =
+    displayCategory === 'park'
+      ? 'pretty-pill pretty-pill-green'
+      : displayCategory === 'tournament'
+        ? 'pretty-pill pretty-pill-blue'
+        : 'pretty-pill pretty-pill-green';
 
   const fetchStats = useCallback(
     (signal?: AbortSignal) =>
@@ -43,15 +66,13 @@ export default function SpotPopup({ spot, onClose }: Props) {
     };
   }, [fetchStats]);
 
-  const stableClose = useCallback(() => onClose(), [onClose]);
-
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') stableClose();
+      if (e.key === 'Escape') onClose();
     };
     document.addEventListener('keydown', onKey);
     return () => document.removeEventListener('keydown', onKey);
-  }, [stableClose]);
+  }, [onClose]);
 
   const submit = async () => {
     if (!rating || !visitedAt) return;
@@ -78,74 +99,106 @@ export default function SpotPopup({ spot, onClose }: Props) {
       role="dialog"
       aria-modal="true"
       aria-label={spot.name}
-      className="fixed inset-0 flex items-center justify-center"
-      style={{ pointerEvents: 'none', zIndex: 100 }}
+      style={{
+        position: 'fixed',
+        inset: 0,
+        zIndex: 1000,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: 'rgba(2, 6, 23, 0.45)',
+      }}
+      onClick={onClose}
     >
       <div
-        className="relative rounded-2xl bg-white p-4 shadow-xl flex flex-col gap-2"
-        style={{ pointerEvents: 'auto', width: 'min(90vw, 360px)' }}
+        className="relative"
+        style={{
+          width: 'min(92vw, 390px)',
+          maxHeight: '84vh',
+          overflowY: 'auto',
+          background: '#ffffff',
+          borderRadius: '1rem',
+          padding: '1rem',
+          boxShadow: '0 18px 50px rgba(0,0,0,0.28)',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '0.35rem',
+        }}
+        onClick={(e) => e.stopPropagation()}
       >
         <button
           onClick={onClose}
           aria-label="Close"
-          className="close-circle"
+          className="pretty-pill pretty-pill-neutral"
+          style={{
+            position: 'absolute',
+            top: '0.5rem',
+            right: '0.5rem',
+            padding: '0.2rem 0.5rem',
+            lineHeight: 1,
+          }}
         >
           &#x2715;
         </button>
 
-        <img
-          src={spot.photo ?? '/img/default.jpg'}
-          alt={spot.name}
-          className="w-full h-40 rounded-lg object-cover"
-        />
+        {spot.photo && (
+          <img
+            src={spot.photo}
+            alt={spot.name}
+            style={{
+              width: '100%',
+              height: '10rem',
+              borderRadius: '0.5rem',
+              objectFit: 'cover',
+            }}
+          />
+        )}
 
-        <h2 className="text-xl font-semibold">{spot.name}</h2>
+        <h2 className="text-xl font-semibold" style={{ margin: 0, paddingRight: '2rem' }}>
+          {spot.name}
+        </h2>
 
         {spot.category && (
-          <span className="self-start rounded-full bg-gray-100 px-2 py-0.5 text-xs capitalize">
-            {spot.category.replace(/_/g, ' ')}
+          <span className={`${categoryPillClass} self-start text-xs capitalize`}>
+            {displayCategory.replace(/_/g, ' ')}
           </span>
         )}
 
         {spot.notes && (
-          <p className="text-sm leading-snug text-gray-600">{spot.notes}</p>
+          <p className="text-sm leading-snug text-gray-600" style={{ margin: 0 }}>
+            {spot.notes}
+          </p>
         )}
 
-        <div className="flex gap-3 text-sm">
+        <div
+          style={{
+            display: 'flex',
+            gap: '0.5rem',
+            flexWrap: 'wrap',
+            marginTop: '0.15rem',
+          }}
+        >
           {spot.gmap && (
             <a
               href={spot.gmap}
               target="_blank"
               rel="noopener"
-              className="text-emerald-600 underline"
+              className="pretty-pill pretty-pill-green"
             >
               Google Maps
             </a>
           )}
-          {spot.website && (
-            Array.isArray(spot.website) ? (
-              spot.website.map((url, i) => (
-                <a
-                  key={url}
-                  href={url}
-                  target="_blank"
-                  rel="noopener"
-                  className="text-emerald-600 underline"
-                >
-                  {spot.website!.length > 1 ? `Site ${i + 1}` : 'Club site'}
-                </a>
-              ))
-            ) : (
-              <a
-                href={spot.website}
-                target="_blank"
-                rel="noopener"
-                className="text-emerald-600 underline"
-              >
-                Club site
-              </a>
-            )
-          )}
+          {urls.map((url) => (
+            <a
+              key={url}
+              href={url}
+              target="_blank"
+              rel="noopener"
+              className="pretty-pill pretty-pill-blue"
+            >
+              {formatWebsiteLabel(url)}
+            </a>
+          ))}
         </div>
 
         {statsLoaded && (
@@ -159,19 +212,33 @@ export default function SpotPopup({ spot, onClose }: Props) {
 
         <button
           onClick={() => setReportOpen(true)}
-          className="rounded-md bg-blue-600 px-3 py-1.5 text-sm text-white transition hover:bg-blue-700"
+          className="pretty-pill pretty-pill-solid-blue self-start"
         >
           Report visit
         </button>
 
         {reportOpen && (
           <div
-            className="absolute inset-0 flex items-center justify-center rounded-2xl"
-            style={{ background: 'rgba(0,0,0,0.2)' }}
+            style={{
+              position: 'absolute',
+              inset: 0,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              borderRadius: '1rem',
+              background: 'rgba(0,0,0,0.2)',
+            }}
           >
             <div
-              className="rounded-xl bg-white p-4 flex flex-col gap-3"
-              style={{ width: 'min(90vw, 280px)' }}
+              style={{
+                width: 'min(90vw, 280px)',
+                borderRadius: '0.75rem',
+                background: '#ffffff',
+                padding: '1rem',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '0.75rem',
+              }}
             >
               <label className="flex flex-col gap-1 text-sm">
                 Date visited
@@ -204,13 +271,13 @@ export default function SpotPopup({ spot, onClose }: Props) {
                 <button
                   onClick={submit}
                   disabled={submitting}
-                  className="rounded-md bg-blue-600 px-3 py-1.5 text-sm text-white transition hover:bg-blue-700 disabled:opacity-50"
+                  className="pretty-pill pretty-pill-solid-blue disabled:opacity-50"
                 >
                   {submitting ? 'Sending\u2026' : 'Submit'}
                 </button>
                 <button
                   onClick={() => setReportOpen(false)}
-                  className="rounded-md bg-gray-500 px-3 py-1.5 text-sm text-white transition hover:bg-gray-600"
+                  className="pretty-pill pretty-pill-solid-gray"
                 >
                   Cancel
                 </button>
