@@ -13,6 +13,7 @@ export const onRequestGet = async (ctx: any) => {
   const url = new URL(ctx.request.url);
   const spotId = url.searchParams.get('spotId');
   if (!spotId) return new Response('Missing spotId', { status: 400 });
+
   const key = `spot:${spotId}`;
   const data: VisitData | null = await ctx.env.SPOTS_KV.get(key, { type: 'json' });
   const visits = data?.visits ?? 0;
@@ -21,10 +22,20 @@ export const onRequestGet = async (ctx: any) => {
 };
 
 export const onRequestPost = async (ctx: any) => {
-  const body: VisitRequest = await ctx.request.json();
-  if (!body.spotId || !body.rating || !body.visitedAt) {
-    return new Response('Invalid body', { status: 400 });
+  let body: VisitRequest;
+  try {
+    body = await ctx.request.json();
+  } catch {
+    return new Response('Invalid JSON', { status: 400 });
   }
+
+  if (!body.spotId || !body.visitedAt) {
+    return new Response('Missing required fields', { status: 400 });
+  }
+  if (typeof body.rating !== 'number' || body.rating < 1 || body.rating > 5) {
+    return new Response('Rating must be 1–5', { status: 400 });
+  }
+
   const key = `spot:${body.spotId}`;
   const data: VisitData =
     (await ctx.env.SPOTS_KV.get(key, { type: 'json' })) || { visits: 0, ratingSum: 0 };

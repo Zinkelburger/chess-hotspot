@@ -1,27 +1,36 @@
 'use client';
+
 import { useState, type FormEvent } from 'react';
 import type { SpotCategory } from '@/types/spot';
 
-const categories: SpotCategory[] = ['park', 'tournament', 'club'];
+const CATEGORIES: SpotCategory[] = ['park', 'tournament', 'club'];
+
+const fieldClass =
+  'block w-full rounded-md border border-gray-300 bg-gray-50 text-gray-800 px-2 py-1.5 text-sm focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 focus:outline-none';
 
 export default function SubmitClub() {
-  const [name, setName]         = useState('');
+  const [name, setName] = useState('');
   const [category, setCategory] = useState<SpotCategory>('club');
-  const [gmap, setGmap]         = useState('');
-  const [website, setWebsite]   = useState('');
-  const [notes, setNotes]       = useState('');
+  const [gmap, setGmap] = useState('');
+  const [website, setWebsite] = useState('');
+  const [notes, setNotes] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState(false);
 
   const submit = async (e: FormEvent) => {
     e.preventDefault();
     if (!name) return;
-    await fetch('/api/submit', {
-      method:  'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body:    JSON.stringify({ name, category, gmap, website, notes }),
-    });
-    setSubmitted(true);
-    setName(''); setCategory('club'); setGmap(''); setWebsite(''); setNotes('');
+    setError(false);
+    try {
+      await fetch('/api/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, category, gmap, website, notes }),
+      });
+      setSubmitted(true);
+    } catch {
+      setError(true);
+    }
   };
 
   if (submitted) {
@@ -32,34 +41,13 @@ export default function SubmitClub() {
     );
   }
 
-  // shared style for all fields
-  const fieldStyle: React.CSSProperties = {
-    display:     'block',
-    width:       '100%',
-    background:  '#f8f8f8',
-    boxSizing:    'border-box',
-    color:       '#333333',
-    border:      '1px solid #ccc',
-    borderRadius:'0.375rem',
-    padding:     '0.25rem 0.15rem',
-  };
-
   return (
-    <form
-      onSubmit={submit}
-      className="w-full max-w-sm mx-auto"
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        rowGap: '0.75rem',
-      }}
-    >
-      {/* Name */}
-      <label className="block text-sm font-medium">
+    <form onSubmit={submit} className="flex flex-col gap-3 w-full max-w-sm mx-auto">
+      <label className="flex flex-col gap-1 text-sm font-medium">
         Club name
         <input
           type="text"
-          style={fieldStyle}
+          className={fieldClass}
           placeholder="Club name"
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -67,15 +55,14 @@ export default function SubmitClub() {
         />
       </label>
 
-      {/* Category */}
-      <label className="block text-sm font-medium">
+      <label className="flex flex-col gap-1 text-sm font-medium">
         Category
         <select
-          style={fieldStyle}
+          className={fieldClass}
           value={category}
           onChange={(e) => setCategory(e.target.value as SpotCategory)}
         >
-          {categories.map((c) => (
+          {CATEGORIES.map((c) => (
             <option key={c} value={c}>
               {c}
             </option>
@@ -83,12 +70,11 @@ export default function SubmitClub() {
         </select>
       </label>
 
-      {/* Google Maps */}
-      <label className="block text-sm font-medium">
+      <label className="flex flex-col gap-1 text-sm font-medium">
         Google Maps link
         <input
           type="url"
-          style={fieldStyle}
+          className={fieldClass}
           placeholder="https://maps.google.com/..."
           value={gmap}
           onChange={(e) => setGmap(e.target.value)}
@@ -96,32 +82,38 @@ export default function SubmitClub() {
         />
       </label>
 
-      {/* Website */}
-      <label className="block text-sm font-medium">
+      <label className="flex flex-col gap-1 text-sm font-medium">
         Website (optional)
         <input
           type="url"
-          style={fieldStyle}
+          className={fieldClass}
           placeholder="https://example.com"
           value={website}
           onChange={(e) => setWebsite(e.target.value)}
         />
       </label>
 
-      {/* Notes */}
-      <label className="block text-sm font-medium">
+      <label className="flex flex-col gap-1 text-sm font-medium">
         Notes
         <textarea
           rows={3}
-          style={fieldStyle}
+          className={fieldClass}
           placeholder="Any extra details"
           value={notes}
           onChange={(e) => setNotes(e.target.value)}
         />
       </label>
 
-      {/* Submit button */}
-      <button type="submit" className="button-style mx-auto">
+      {error && (
+        <p className="text-red-600 text-sm text-center">
+          Something went wrong. Please try again.
+        </p>
+      )}
+
+      <button
+        type="submit"
+        className="mx-auto rounded-lg bg-secondary text-text px-6 py-2 text-base font-medium transition-all hover:brightness-90 hover:-translate-y-px hover:shadow-lg"
+      >
         Submit
       </button>
     </form>

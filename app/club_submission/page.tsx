@@ -1,59 +1,30 @@
 import SubmitClub from '../components/SubmitClub';
+import { GITHUB_URL } from '@/lib/constants';
 
 export const metadata = { title: 'Suggest a club' };
 
-/* full-page wrapper */
-const pageStyle: React.CSSProperties = {
-  minHeight: '100vh',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  background: '#f8f8f8',
-  padding: '1rem',
-};
-
-/* the card itself – rounded with inline CSS */
-const cardStyle: React.CSSProperties = {
-  width: 'min(90vw, 360px)',   // clamps to 360 px on desktop
-  background: '#fff',
-  border: '2px solid #000',
-  borderRadius: '1rem',        // <- the 16 px curve you want
-  padding: '1rem 1.5rem 0.5rem 1.5rem',           // outer padding (textboxes won’t hit the border)
-  boxShadow: '0 10px 30px rgba(0,0,0,.1)',
-  display: 'flex',
-  flexDirection: 'column',
-  gap: '0.75rem',
-  position: 'relative',
-};
-
 export default function ClubSubmissionPage() {
   return (
-    <div style={pageStyle}>
-      <div style={cardStyle}>
-        <a href="/" className="close-circle">&#x2715;</a>
-        <h1
-          style={{
-            margin: 0,
-            fontSize: '1.5rem',
-            fontWeight: 700,
-            textAlign: 'center',
-            color: 'var(--text, #000)',
-          }}
-        >
-          Suggest a new club
-        </h1>
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
+      <div
+        className="relative rounded-2xl border-2 border-black bg-white px-6 py-4 shadow-xl flex flex-col gap-3"
+        style={{ width: 'min(90vw, 360px)' }}
+      >
+        <a href="/" aria-label="Close" className="close-circle">
+          &#x2715;
+        </a>
 
-        {/* extra inner padding so the inputs don’t span 100 % of the card */}
-        <div style={{ paddingInline: '0.5rem' }}>
+        <h1 className="text-2xl font-bold text-center">Suggest a new club</h1>
+
+        <div className="px-2">
           <SubmitClub />
         </div>
 
         <a
-          href="https://github.com/Zinkelburger/chess-hotspot"
+          href={GITHUB_URL}
           target="_blank"
           rel="noopener"
-          /* Tailwind handles the hover fade—no JS, no server-component error */
-          className="self-center opacity-90 transition-opacity duration-200 hover:opacity-70"
+          className="self-center transition-opacity duration-200 hover:opacity-70"
         >
           <img src="/github.svg" alt="GitHub" width={28} height={28} />
         </a>

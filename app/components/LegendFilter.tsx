@@ -3,16 +3,14 @@
 import clsx from 'clsx';
 import Link from 'next/link';
 import type { SpotCategory, DayOfWeek } from '@/types/spot';
+import { CATEGORY_COLORS, GITHUB_URL } from '@/lib/constants';
 
-export const CategoryColors: Record<SpotCategory, string> = {
-  park: '#00e67f',
-  tournament: '#3B82F6',
-  club: '#F59E0B',
-};
-
-// '' represents “Any” (no filter)
-const DAYS: (DayOfWeek | '')[] = ['', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-const DAY_LABELS: string[] = ['Any', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun'];
+const DAYS: (DayOfWeek | '')[] = [
+  '', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday',
+];
+const DAY_LABELS: string[] = [
+  'Any', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun',
+];
 
 type Props = {
   selectedCategories: SpotCategory[];
@@ -28,76 +26,81 @@ export default function LegendFilter({
   onDaysChange,
 }: Props) {
   return (
-    <div className="w-full h-full bg-gray-100/90 grid grid-cols-[auto_1fr_auto] items-center px-0 py-0">
-      {/* LEFT GROUP — category chips */}
-      <div className="flex items-center overflow-x-auto space-x-3 px-4">
-        {Object.entries(CategoryColors).map(([cat, color]) => {
+    <div className="w-full bg-gray-100/90 grid grid-cols-[auto_1fr_auto] items-center py-2">
+      {/* Category chips */}
+      <div className="flex items-center overflow-x-auto gap-2 px-4">
+        {Object.entries(CATEGORY_COLORS).map(([cat, color]) => {
           const active = selectedCategories.includes(cat as SpotCategory);
           return (
             <button
               key={cat}
               onClick={() => toggleCategory(cat as SpotCategory)}
               className={clsx(
-                'flex items-center space-x-2 rounded-full border',
-                'transition-transform duration-200 ease-out hover:brightness-90 hover:shadow-lg',
-                active ? 'text-white opacity-100' : 'text-gray-700 opacity-90 hover:opacity-100'
+                'flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-sm whitespace-nowrap',
+                'transition hover:brightness-90 hover:shadow-md',
+                active ? 'text-white' : 'text-gray-700 opacity-70 hover:opacity-100',
               )}
-              style={{ backgroundColor: active ? color : 'white', borderColor: color, padding: '0.15rem 0.5rem', fontSize: '0.9rem', lineHeight: '1rem' }}
+              style={{ backgroundColor: active ? color : 'white', borderColor: color }}
             >
-              <span className="w-3 h-3 rounded-full" style={{ backgroundColor: color }} />
+              <span
+                className="w-2.5 h-2.5 rounded-full shrink-0"
+                style={{ backgroundColor: color }}
+              />
               <span className="capitalize">{cat}</span>
             </button>
           );
         })}
       </div>
 
-      {/* MIDDLE GROUP — Suggest & GitHub (locked together) */}
-      <div className="justify-self-center flex items-center space-x-3">
+      {/* Center links */}
+      <div className="justify-self-center flex items-center gap-3">
         <Link
           href="/club_submission"
-          className="button-style inline-flex items-center rounded-full"
-          style={{ fontSize: '1rem', lineHeight: '1rem', padding: '0.4rem 0.7rem' }}
+          className="inline-flex items-center rounded-full bg-secondary text-text px-3 py-1 text-sm font-medium no-underline transition-all hover:brightness-90 hover:-translate-y-px hover:shadow-lg"
         >
-          <span>Suggest a Club</span>
+          Suggest a Club
         </Link>
         <a
-          href="https://github.com/Zinkelburger/chess-hotspot"
+          href={GITHUB_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center p-1 hover:opacity-80 transition"
+          className="inline-flex items-center p-1 transition hover:opacity-80"
         >
-          <img src="/github.svg" alt="GitHub" width={28} height={28} />
+          <img src="/github.svg" alt="GitHub" width={24} height={24} />
         </a>
       </div>
 
-      {/* RIGHT GROUP — Open & weekday buttons (single horizontal row) */}
-      <div className="justify-self-end flex items-center gap-2 overflow-x-auto px-4 whitespace-nowrap mr-4">
-        <span className="font-medium leading-none mr-1" style={{ position: 'relative', top: '-1px', fontSize: '0.9rem' }}>
-          Open:
-        </span>
-        <div className="flex flex-nowrap gap-2" style={{ paddingRight: '1rem' }}>
-          {DAYS.map((day, idx) => {
-            const label = DAY_LABELS[idx];
-            const active = day ? selectedDays.includes(day as DayOfWeek) : selectedDays.length === 0;
-            return (
-              <button
-                key={`${label}-${idx}`}
-                onClick={() => {
-                  if (day === '') return onDaysChange([]);
-                  const d = day as DayOfWeek;
-                  onDaysChange(active ? selectedDays.filter((x) => x !== d) : [...selectedDays, d]);
-                }}
-                className={clsx(
-                  'flex-shrink-0 px-2 py-1 rounded-full border leading-none transition-opacity',
-                  active ? 'bg-emerald-500 text-white border-emerald-500' : 'bg-white text-gray-700 border-gray-300'
-                )}
-                style={{ opacity: active ? 1 : 0.4, fontSize: '0.8rem', lineHeight: '1rem', padding: '0.1rem 0.15rem' }}
-              >
-                {label}
-              </button>
-            );
-          })}
-        </div>
+      {/* Day-of-week filters */}
+      <div className="justify-self-end flex items-center gap-1.5 overflow-x-auto px-4">
+        <span className="font-medium text-sm whitespace-nowrap mr-1">Open:</span>
+        {DAYS.map((day, idx) => {
+          const label = DAY_LABELS[idx];
+          const active = day
+            ? selectedDays.includes(day as DayOfWeek)
+            : selectedDays.length === 0;
+          return (
+            <button
+              key={label}
+              onClick={() => {
+                if (day === '') return onDaysChange([]);
+                const d = day as DayOfWeek;
+                onDaysChange(
+                  active
+                    ? selectedDays.filter((x) => x !== d)
+                    : [...selectedDays, d],
+                );
+              }}
+              className={clsx(
+                'shrink-0 rounded-full border px-2.5 py-1 text-xs whitespace-nowrap transition-all',
+                active
+                  ? 'bg-emerald-500 text-white border-emerald-500'
+                  : 'bg-white text-gray-500 border-gray-300 hover:text-gray-700 hover:border-gray-400',
+              )}
+            >
+              {label}
+            </button>
+          );
+        })}
       </div>
     </div>
   );

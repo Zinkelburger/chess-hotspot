@@ -6,10 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "spots:add": "node scripts/add-spot.mjs"
   },
   "dependencies": {
-    "@headlessui/react": "^2.2.4",
     "clsx": "^2.1.1",
     "maplibre-gl": "^5.5.0",
     "next": "15.3.2",

@@ -1,14 +1,13 @@
-// types/spot.ts
-export type SpotCategory = 'park' | 'tournament' | 'club' /* add more here */;
+export type SpotCategory = 'park' | 'tournament' | 'club';
 
 export type DayOfWeek =
   | 'Monday' | 'Tuesday' | 'Wednesday'
   | 'Thursday' | 'Friday' | 'Saturday' | 'Sunday';
 
-/** simple opening hours for a given day */
+/** Opening hours for a given day. Times optional when only the day is known. */
 export interface Hours {
-  open: string;   // e.g. "09:00"
-  close: string;  // e.g. "17:30"
+  open?: string;   // e.g. "09:00"
+  close?: string;  // e.g. "17:30"
 }
 
 export interface SpotRaw {
@@ -16,10 +15,12 @@ export interface SpotRaw {
   name: string;
   lat: number;
   lng: number;
-  category: SpotCategory;      
+  category: SpotCategory;
   hours?: Partial<Record<DayOfWeek, Hours>>;
+  /** e.g. "Summer", "May–September", null if year-round */
+  seasonal?: string | null;
   photo?: string | null;
   gmap?: string | null;
-  website?: string | null;
+  website?: string | string[] | null;
   notes?: string | null;
 }
