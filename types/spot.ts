@@ -1,4 +1,4 @@
-export type SpotCategory = 'park' | 'tournament' | 'club';
+export type SpotCategory = 'park' | 'club';
 
 export type DayOfWeek =
   | 'Monday' | 'Tuesday' | 'Wednesday'

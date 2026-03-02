@@ -11,6 +11,7 @@ Goal: only show very active spots
 Continuously verify and remove inactive spots
 
 What does a user want to do?
+Casual/non-master user wants to play chess and find events near them
 - Find active chess clubs in their area
 - Filter by day of the week, easily see the times
 

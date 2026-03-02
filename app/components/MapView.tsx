@@ -11,10 +11,14 @@ import type { MapLayerMouseEvent } from 'maplibre-gl';
 import type { Feature, FeatureCollection, Point } from 'geojson';
 
 import spots from '@/public/spots.v1.json';
+import allEvents from '@/public/events.v1.json';
 import type { SpotRaw, DayOfWeek } from '@/types/spot';
+import type { ChessEvent } from '@/types/event';
 import { CATEGORY_COLORS } from '@/lib/constants';
-import LegendFilter from './LegendFilter';
+import LegendFilter, { type ViewMode } from './LegendFilter';
 import SpotPopup from './SpotPopup';
+
+const EVENT_COLOR = '#3B82F6';
 
 const clusterLayer: LayerProps = {
   id: 'clusters',
@@ -46,20 +50,21 @@ const unclusteredLayer: LayerProps = {
   },
 };
 
-type SpotProps = SpotRaw & { __color: string };
-type SpotFeature = Feature<Point, SpotProps>;
-type SpotCollection = FeatureCollection<Point, SpotProps>;
+type MarkerProps = { id: string; __color: string; __kind: 'spot' | 'event' };
+type MarkerFeature = Feature<Point, MarkerProps>;
+type MarkerCollection = FeatureCollection<Point, MarkerProps>;
 
 const SOURCE_ID = 'spots';
 const MAP_STYLE_FALLBACK = 'https://demotiles.maplibre.org/style.json';
-type ViewMode = 'park' | 'tournament';
 
 export default function MapView() {
   const mapRef = useRef<MapRef>(null);
 
-  const [activeSpot, setActiveSpot] = useState<SpotRaw | null>(null);
-  const [viewMode, setViewMode] = useState<ViewMode>('park');
+  const [viewMode, setViewMode] = useState<ViewMode>('clubs');
   const [selectedDays, setSelectedDays] = useState<DayOfWeek[]>([]);
+  const [activeSpot, setActiveSpot] = useState<SpotRaw | null>(null);
+  const [activeEvent, setActiveEvent] = useState<ChessEvent | null>(null);
+  const [defaultTab, setDefaultTab] = useState<'club' | 'events'>('club');
 
   const spotsById = useMemo(() => {
     const map = new Map<string, SpotRaw>();
@@ -67,28 +72,55 @@ export default function MapView() {
     return map;
   }, []);
 
-  const filteredGeojson: SpotCollection = useMemo(() => {
-    const features: SpotFeature[] = (spots as SpotRaw[])
-      .filter((s) =>
-        viewMode === 'park'
-          ? s.category === 'park' || s.category === 'club'
-          : s.category === 'tournament',
-      )
-      .filter((s) =>
-        selectedDays.length
-          ? selectedDays.some((d) => !!s.hours?.[d])
-          : true,
-      )
-      .map((s) => ({
-        type: 'Feature',
-        geometry: { type: 'Point', coordinates: [s.lng, s.lat] },
-        properties: { ...s, __color: CATEGORY_COLORS[s.category] },
-      }));
+  const eventsById = useMemo(() => {
+    const map = new Map<string, ChessEvent>();
+    for (const e of allEvents as ChessEvent[]) map.set(e.id, e);
+    return map;
+  }, []);
 
+  const resolvedEvents = useMemo(() => {
+    const today = new Date().toISOString().slice(0, 10);
+    return (allEvents as ChessEvent[])
+      .filter((e) => (e.endDate ?? e.date) >= today)
+      .map((e) => {
+        if (e.lat != null && e.lng != null) return { event: e, lat: e.lat, lng: e.lng };
+        if (e.hostClubId) {
+          const club = spotsById.get(e.hostClubId);
+          if (club) return { event: e, lat: club.lat, lng: club.lng };
+        }
+        return null;
+      })
+      .filter((x): x is { event: ChessEvent; lat: number; lng: number } => x !== null);
+  }, [spotsById]);
+
+  const geojson: MarkerCollection = useMemo(() => {
+    if (viewMode === 'clubs') {
+      const features: MarkerFeature[] = (spots as SpotRaw[])
+        .filter((s) =>
+          selectedDays.length
+            ? selectedDays.some((d) => !!s.hours?.[d])
+            : true,
+        )
+        .map((s) => ({
+          type: 'Feature',
+          geometry: { type: 'Point', coordinates: [s.lng, s.lat] },
+          properties: { id: s.id, __color: CATEGORY_COLORS[s.category], __kind: 'spot' },
+        }));
+      return { type: 'FeatureCollection', features };
+    }
+
+    const features: MarkerFeature[] = resolvedEvents.map(({ event, lat, lng }) => ({
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: [lng, lat] },
+      properties: { id: event.id, __color: EVENT_COLOR, __kind: 'event' },
+    }));
     return { type: 'FeatureCollection', features };
-  }, [viewMode, selectedDays]);
+  }, [viewMode, selectedDays, resolvedEvents]);
 
-  const closePopup = useCallback(() => setActiveSpot(null), []);
+  const closePopup = useCallback(() => {
+    setActiveSpot(null);
+    setActiveEvent(null);
+  }, []);
 
   const handleClick = useCallback(
     (e: MapLayerMouseEvent) => {
@@ -98,13 +130,32 @@ export default function MapView() {
       const feats = map.queryRenderedFeatures(e.point, {
         layers: ['unclustered'],
       });
-      if (feats.length) {
-        const original = spotsById.get(feats[0].properties?.id);
-        if (original) setActiveSpot(original);
+      if (!feats.length) return;
+
+      const props = feats[0].properties;
+      if (!props) return;
+
+      if (viewMode === 'clubs') {
+        const spot = spotsById.get(props.id);
+        if (spot) {
+          setActiveSpot(spot);
+          setActiveEvent(null);
+          setDefaultTab('club');
+        }
+      } else {
+        const event = eventsById.get(props.id);
+        if (event) {
+          setActiveEvent(event);
+          const club = event.hostClubId ? spotsById.get(event.hostClubId) ?? null : null;
+          setActiveSpot(club);
+          setDefaultTab('events');
+        }
       }
     },
-    [spotsById],
+    [viewMode, spotsById, eventsById],
   );
+
+  const popupOpen = activeSpot !== null || activeEvent !== null;
 
   return (
     <div className="flex flex-col h-full">
@@ -120,7 +171,7 @@ export default function MapView() {
           <Source
             id={SOURCE_ID}
             type="geojson"
-            data={filteredGeojson}
+            data={geojson}
             cluster
             clusterMaxZoom={14}
             clusterRadius={50}
@@ -141,8 +192,13 @@ export default function MapView() {
         />
       </div>
 
-      {activeSpot && (
-        <SpotPopup spot={activeSpot} onClose={closePopup} />
+      {popupOpen && (
+        <SpotPopup
+          spot={activeSpot}
+          activeEvent={activeEvent}
+          defaultTab={defaultTab}
+          onClose={closePopup}
+        />
       )}
     </div>
   );

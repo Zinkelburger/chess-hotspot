@@ -5,7 +5,7 @@ import Link from 'next/link';
 import type { DayOfWeek } from '@/types/spot';
 import { GITHUB_URL } from '@/lib/constants';
 
-type ViewMode = 'park' | 'tournament';
+export type ViewMode = 'clubs' | 'events';
 
 const DAYS: (DayOfWeek | '')[] = [
   '', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday',
@@ -32,26 +32,26 @@ export default function LegendFilter({
       {/* View chips */}
       <div className="flex items-center overflow-x-auto gap-2 px-4">
         <button
-          onClick={() => onViewChange('park')}
+          onClick={() => onViewChange('clubs')}
           className={clsx(
             'pretty-pill min-w-[7.5rem]',
-            selectedView === 'park'
+            selectedView === 'clubs'
               ? 'pretty-pill-green'
               : 'pretty-pill-ghost opacity-75 hover:opacity-100',
           )}
         >
-          <span>Club</span>
+          <span>Clubs</span>
         </button>
         <button
-          onClick={() => onViewChange('tournament')}
+          onClick={() => onViewChange('events')}
           className={clsx(
             'pretty-pill min-w-[7.5rem]',
-            selectedView === 'tournament'
+            selectedView === 'events'
               ? 'pretty-pill-blue'
               : 'pretty-pill-ghost opacity-75 hover:opacity-100',
           )}
         >
-          <span>Tournament</span>
+          <span>Events</span>
         </button>
       </div>
 
@@ -73,38 +73,43 @@ export default function LegendFilter({
         </a>
       </div>
 
-      {/* Day-of-week filters */}
-      <div className="justify-self-end flex items-center gap-1.5 overflow-x-auto px-4">
-        <span className="font-medium text-sm whitespace-nowrap mr-1">Open:</span>
-        {DAYS.map((day, idx) => {
-          const label = DAY_LABELS[idx];
-          const active = day
-            ? selectedDays.includes(day as DayOfWeek)
-            : selectedDays.length === 0;
-          return (
-            <button
-              key={label}
-              onClick={() => {
-                if (day === '') return onDaysChange([]);
-                const d = day as DayOfWeek;
-                onDaysChange(
+      {/* Day-of-week filters (only relevant for clubs view) */}
+      {selectedView === 'clubs' && (
+        <div className="justify-self-end flex items-center gap-1.5 overflow-x-auto px-4">
+          <span className="font-medium text-sm whitespace-nowrap mr-1">Open:</span>
+          {DAYS.map((day, idx) => {
+            const label = DAY_LABELS[idx];
+            const active = day
+              ? selectedDays.includes(day as DayOfWeek)
+              : selectedDays.length === 0;
+            return (
+              <button
+                key={label}
+                onClick={() => {
+                  if (day === '') return onDaysChange([]);
+                  const d = day as DayOfWeek;
+                  onDaysChange(
+                    active
+                      ? selectedDays.filter((x) => x !== d)
+                      : [...selectedDays, d],
+                  );
+                }}
+                className={clsx(
+                  'pretty-pill text-xs',
                   active
-                    ? selectedDays.filter((x) => x !== d)
-                    : [...selectedDays, d],
-                );
-              }}
-              className={clsx(
-                'pretty-pill text-xs',
-                active
-                  ? 'pretty-pill-green'
-                  : 'pretty-pill-ghost',
-              )}
-            >
-              {label}
-            </button>
-          );
-        })}
-      </div>
+                    ? 'pretty-pill-green'
+                    : 'pretty-pill-ghost',
+                )}
+              >
+                {label}
+              </button>
+            );
+          })}
+        </div>
+      )}
+
+      {/* Placeholder to keep grid balanced in events view */}
+      {selectedView === 'events' && <div />}
     </div>
   );
 }

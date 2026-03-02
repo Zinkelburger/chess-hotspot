@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 
 export const metadata = {
   title: 'Chess Hotspots',
-  description: 'Find pick-up games, clubs and tournaments'
+  description: 'Find pick-up games, clubs and events'
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

@@ -1,0 +1,398 @@
+[
+  {
+    "id": "cca-the-atlantic-city-open-2026-04-01-2c321108",
+    "name": "The Atlantic City Open",
+    "date": "2026-04-01",
+    "type": "tournament",
+    "endDate": "2026-04-05",
+    "venue": "Casino And Resort",
+    "address": "2831 Broadwalk (near the corner of Slowa and Pacific Avenues), Atlantic City, NJ 08401",
+    "lat": 39.3642852,
+    "lng": -74.4229351,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60,
+      "raw": "G/60, d10",
+      "delaySeconds": 10
+    },
+    "rated": true,
+    "ratingSystem": "FIDE",
+    "entryFeeText": "$218 online",
+    "entryFeeUsdMin": 218,
+    "entryFeeUsdMax": 218,
+    "prizeFundGuaranteedUsd": 40000,
+    "topPrizeUsd": 5000,
+    "sections": [
+      {
+        "name": "Open",
+        "raw": "Open Section: $5000-2500-1500-1200-1000-800-500, clear",
+        "minRating": 1900,
+        "prizes": [
+          {
+            "amountUsd": 5000
+          }
+        ],
+        "unratedAllowed": false
+      },
+      {
+        "name": "Under 2200/Unr",
+        "raw": "Under 2200/Unr: $2000-1000-600-500-300-200. FIDE rated.",
+        "maxRating": 2200,
+        "prizes": [
+          {
+            "amountUsd": 2000
+          }
+        ],
+        "unratedAllowed": true
+      },
+      {
+        "name": "Under 2000/Unr",
+        "raw": "Under 2000/Unr: $2000-1000-600-500-300-200. FIDE rated.",
+        "maxRating": 2000,
+        "prizes": [
+          {
+            "amountUsd": 2000
+          }
+        ],
+        "unratedAllowed": true
+      },
+      {
+        "name": "Under 1800/Unr",
+        "raw": "Under 1800/Unr: $2000-1000-600-500-300-200.",
+        "maxRating": 1800,
+        "prizes": [
+          {
+            "amountUsd": 2000
+          }
+        ],
+        "unratedAllowed": true
+      },
+      {
+        "name": "Under 1600/Unr",
+        "raw": "Under 1600/Unr: $1600-800-500-300-200-100.",
+        "maxRating": 1600,
+        "prizes": [
+          {
+            "amountUsd": 1600
+          }
+        ],
+        "unratedAllowed": true
+      },
+      {
+        "name": "Under 1400/Unr",
+        "raw": "Under 1400/Unr: $1200-600-400-300-200-100.",
+        "maxRating": 1400,
+        "prizes": [
+          {
+            "amountUsd": 1200
+          }
+        ],
+        "unratedAllowed": true
+      },
+      {
+        "name": "Under 1100/Unr",
+        "raw": "Under 1100/Unr: $800-400-300-200.",
+        "maxRating": 1100,
+        "prizes": [
+          {
+            "amountUsd": 800
+          }
+        ],
+        "unratedAllowed": true
+      }
+    ],
+    "scheduleOptions": [
+      {
+        "name": "4-Day",
+        "startDate": "2026-04-01",
+        "endDate": "2026-04-05",
+        "raw": "4-Day schedule, April 2-5: Under 2200 Under 1100 Sections,"
+      },
+      {
+        "name": "3-Day",
+        "startDate": "2026-04-01",
+        "endDate": "2026-04-05",
+        "raw": "3-Day schedule, April 3-5: Under 2200 Under 1100 Sections, Rounds 1-2 G/60, d10, then merges with 4-Day."
+      },
+      {
+        "name": "4-Day",
+        "startDate": "2026-04-01",
+        "endDate": "2026-04-05",
+        "raw": "4-Day schedule (no 4-Day Open), Rounds: Thu 7 pm;"
+      }
+    ],
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/aco26.htm",
+    "notes": "Auto-scraped from CCA tournament page. Verify details before attending."
+  },
+  {
+    "id": "cca-35th-annual-chicago-open-2026-05-21-13207b08",
+    "name": "35th annual CHICAGO OPEN",
+    "date": "2026-05-21",
+    "type": "tournament",
+    "endDate": "2026-05-25",
+    "venue": "Westin Chicago North Shore Hotel",
+    "address": "601 N Milwaukee Ave, Wheeling, IL 60090",
+    "lat": 42.1505358,
+    "lng": -87.9114906,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60,
+      "raw": "G/60, d10",
+      "delaySeconds": 10
+    },
+    "rated": true,
+    "ratingSystem": "FIDE",
+    "entryFeeText": "\u00b7 Open",
+    "prizeFundGuaranteedUsd": 100000,
+    "topPrizeUsd": 3000,
+    "scheduleOptions": [
+      {
+        "name": "4-Day",
+        "startDate": "2026-05-21",
+        "endDate": "2026-05-25",
+        "raw": "U1300 (4-Day schedule): Rounds: Fri 7"
+      },
+      {
+        "name": "3-Day",
+        "startDate": "2026-05-21",
+        "endDate": "2026-05-25",
+        "raw": "U1300 (3-Day schedule): Rounds: Sat 11"
+      }
+    ],
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/chio26.htm",
+    "notes": "Auto-scraped from CCA tournament page. Verify details before attending."
+  },
+  {
+    "id": "cca-10th-annual-george-washington-open-2026-02-27-4e16a9a7",
+    "name": "10th annual GEORGE WASHINGTON OPEN",
+    "date": "2026-02-27",
+    "type": "tournament",
+    "endDate": "2026-03-01",
+    "venue": "Washington Dulles Marriott Hotel",
+    "address": "45020 Aviation Drive, Dulles, VA 20166",
+    "lat": 38.9581721,
+    "lng": -77.4479513,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60,
+      "raw": "G/60, d10",
+      "delaySeconds": 10
+    },
+    "rated": false,
+    "ratingSystem": "none",
+    "entryFeeText": "surcharges, based on players\u2019",
+    "prizeFundGuaranteedUsd": 17000,
+    "topPrizeUsd": 1300,
+    "sections": [
+      {
+        "name": "Major (1900/up)",
+        "raw": "Major Section (1900/up):",
+        "minRating": 1900,
+        "unratedAllowed": false
+      }
+    ],
+    "scheduleOptions": [
+      {
+        "name": "3-Day",
+        "startDate": "2026-02-27",
+        "endDate": "2026-03-01",
+        "raw": "3-day schedule: Reg. ends"
+      },
+      {
+        "name": "2-Day",
+        "startDate": "2026-02-27",
+        "endDate": "2026-03-01",
+        "raw": "2-day schedule: Reg. ends"
+      }
+    ],
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/gwo26.htm",
+    "notes": "Auto-scraped from CCA tournament page. Verify details before attending."
+  },
+  {
+    "id": "cca-30th-annual-mid-america-open-2026-03-20-2ccf0551",
+    "name": "30th annual MID-AMERICA OPEN",
+    "date": "2026-03-20",
+    "type": "tournament",
+    "endDate": "2026-03-22",
+    "venue": "Clayton Plaza Hotel",
+    "address": "7750 Carondelet Ave., Clayton, MO 63105",
+    "lat": 38.648383,
+    "lng": -90.3368354,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60,
+      "raw": "G/60, d10",
+      "delaySeconds": 10
+    },
+    "rated": true,
+    "ratingSystem": "FIDE",
+    "entryFeeText": "$123 online at chessaction.com by 3/17,",
+    "entryFeeUsdMin": 123,
+    "entryFeeUsdMax": 123,
+    "prizeFundGuaranteedUsd": 20000,
+    "topPrizeUsd": 1500,
+    "scheduleOptions": [
+      {
+        "name": "3-Day",
+        "startDate": "2026-03-20",
+        "endDate": "2026-03-22",
+        "raw": "3-day schedule: Rounds."
+      },
+      {
+        "name": "2-Day",
+        "startDate": "2026-03-20",
+        "endDate": "2026-03-22",
+        "raw": "2-day schedule: Rounds. Sat. 11 am, 2 pm & 5 pm, Sun. 10 & 3:30."
+      }
+    ],
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/mao26.htm",
+    "notes": "Auto-scraped from CCA tournament page. Verify details before attending."
+  },
+  {
+    "id": "cca-the-new-york-state-senior-championship-2026-02-28-8f634657",
+    "name": "The New York State Senior Championship",
+    "date": "2026-02-28",
+    "type": "tournament",
+    "endDate": "2026-03-01",
+    "venue": "Saratoga Springs Hilton Hotel",
+    "address": "534 Broadway, Saratoga Springs, NY 12866",
+    "lat": 43.0855799,
+    "lng": -73.7824187,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90,
+      "raw": "G/90, d10",
+      "delaySeconds": 10
+    },
+    "rated": false,
+    "ratingSystem": "none",
+    "entryFeeText": "$7 less to NYSCA",
+    "entryFeeUsdMin": 7,
+    "entryFeeUsdMax": 7,
+    "prizeFundGuaranteedUsd": 4200,
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/nyssc26.htm",
+    "notes": "Auto-scraped from CCA tournament page. Verify details before attending."
+  },
+  {
+    "id": "cca-33rd-annual-western-class-championships-2026-03-06-da50af2c",
+    "name": "33rd annual WESTERN CLASS CHAMPIONSHIPS",
+    "date": "2026-03-06",
+    "type": "tournament",
+    "endDate": "2026-03-08",
+    "address": "18800 Macarthur Blvd, Irvine, CA 92612",
+    "lat": 33.6746811,
+    "lng": -117.8610313,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60,
+      "raw": "G/60, d10",
+      "delaySeconds": 10
+    },
+    "rated": true,
+    "ratingSystem": "FIDE",
+    "entryFeeText": "$138 online at chessaction.com by 3/3, $160 online or at site",
+    "entryFeeUsdMin": 138,
+    "entryFeeUsdMax": 160,
+    "prizeFundGuaranteedUsd": 20000,
+    "sections": [
+      {
+        "name": "Master (2100/up)",
+        "raw": "Master Section (2100/up):",
+        "minRating": 1900,
+        "unratedAllowed": false
+      },
+      {
+        "name": "Expert (1900-2199)",
+        "raw": "Expert Section (1900-2199): $1500-700-400-200. FIDE rated.",
+        "prizes": [
+          {
+            "amountUsd": 1500
+          }
+        ],
+        "unratedAllowed": false
+      },
+      {
+        "name": "Class A (1700-1999)",
+        "raw": "Class A Section (1700-1999):",
+        "unratedAllowed": false
+      },
+      {
+        "name": "Class B (1500-1799/Unr)",
+        "raw": "Class B Section (1500-1799/Unr):",
+        "unratedAllowed": true
+      },
+      {
+        "name": "Class C (1300-1599/Unr)",
+        "raw": "Class C Section (1300-1599/Unr):",
+        "unratedAllowed": true
+      },
+      {
+        "name": "Class D (1100-1399/Unr)",
+        "raw": "Class D Section (1100-1399/Unr):",
+        "unratedAllowed": true
+      },
+      {
+        "name": "Class E (Under 1200/Unr)",
+        "raw": "Class E Section (Under 1200/Unr):",
+        "maxRating": 1200,
+        "unratedAllowed": true
+      },
+      {
+        "name": "Class E entry fee",
+        "raw": "Class E Section entry fee: all $40 less than top 6 sections entry fee.",
+        "prizes": [
+          {
+            "amountUsd": 40
+          }
+        ],
+        "unratedAllowed": false
+      }
+    ],
+    "scheduleOptions": [
+      {
+        "name": "3-Day",
+        "startDate": "2026-03-06",
+        "endDate": "2026-03-08",
+        "raw": "3-day schedule: Reg."
+      },
+      {
+        "name": "2-Day",
+        "startDate": "2026-03-06",
+        "endDate": "2026-03-08",
+        "raw": "2-day schedule: Reg. Sat to 10 am, rounds begin Sat 11 am, 2 pm & 5 pm,"
+      }
+    ],
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/wcc26.htm",
+    "notes": "Auto-scraped from CCA tournament page. Verify details before attending."
+  }
+]

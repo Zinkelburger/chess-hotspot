@@ -3,7 +3,7 @@
 import { useState, type FormEvent } from 'react';
 import type { SpotCategory } from '@/types/spot';
 
-const CATEGORIES: SpotCategory[] = ['park', 'tournament'];
+const CATEGORIES: SpotCategory[] = ['park', 'club'];
 
 const fieldClass =
   'block w-full rounded-md border border-gray-300 bg-gray-50 text-gray-800 px-2 py-1.5 text-sm focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 focus:outline-none';

@@ -42,3 +42,9 @@ next-env.d.ts
 
 # cloudflare
 .wrangler
+
+# scraper artifacts / local caches
+public/events.scraped.v1.json
+scripts/events_scrapers/geocode_cache.json
+__pycache__/
+*.pyc

@@ -11,7 +11,7 @@ const publicDir = resolve(__dirname, '../public');
 const rl = createInterface({ input: process.stdin, output: process.stdout });
 const ask = (q) => new Promise((r) => rl.question(q, r));
 
-const VALID_CATEGORIES = ['park', 'club', 'tournament'];
+const VALID_CATEGORIES = ['park', 'club'];
 
 async function askRequired(prompt) {
   while (true) {
@@ -32,7 +32,7 @@ async function askCoord(prompt) {
 
 async function askCategory() {
   while (true) {
-    const raw = (await ask('  Category (park/club/tournament) [park]: ')).trim().toLowerCase() || 'park';
+    const raw = (await ask('  Category (park/club) [park]: ')).trim().toLowerCase() || 'park';
     if (VALID_CATEGORIES.includes(raw)) return raw;
     console.log(`  Must be one of: ${VALID_CATEGORIES.join(', ')}`);
   }
