@@ -7,6 +7,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        toolbar: 'auto auto minmax(0, 1fr)',
+      },
       colors: {
         text:       'var(--text)',
         background: 'var(--background)',

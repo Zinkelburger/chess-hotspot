@@ -26,3 +26,25 @@ Casual/non-master user wants to play chess and find events near them
 
 TODO:
 - Lower PNG resolution sizes
+
+Stretch idea:
+- "live hotspots" of where people are playing chess right now, can organize a temporary meetup via the app
+
+## Event scrapers (Python)
+
+Run:
+
+`pnpm events:scrape:py`
+
+Output:
+
+`public/events.v1.json`
+
+Current implementation:
+
+- `scripts/events_scrapers/base.py`: abstract base + shared event model
+- `scripts/events_scrapers/cca.py`: CCA scraper
+  - starts at `https://www.chesstour.com/refs.html`
+  - collects tournament links
+  - prefers non-blitz canonical pages (e.g. keeps `aco26.htm`, drops `acob26.htm`)
+  - parses broad metadata from event pages (dates, schedule, prizes, sections, fees, ratings, contact, full text)
