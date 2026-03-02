@@ -19,7 +19,7 @@
     "name": "La Cabaña - Asociación Amigos del Retiro",
     "lat": 40.41404,
     "lng": -3.68307,
-    "category": "park",
+    "category": "club",
     "hours": {
       "Friday": {},
       "Saturday": {},
@@ -35,7 +35,7 @@
     "name": "Tanner's Coffee Co.",
     "lat": 34.0040417,
     "lng": -118.4109087,
-    "category": "park",
+    "category": "club",
     "hours": {
       "Saturday": {
         "open": "12:00",

@@ -157,3 +157,12 @@ body,
   border-color: #6b7280;
   color: #ffffff;
 }
+
+.pretty-pill-static {
+  cursor: default;
+}
+
+.pretty-pill-static:hover {
+  transform: none;
+  box-shadow: none;
+}

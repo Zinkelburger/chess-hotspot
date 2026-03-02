@@ -22,6 +22,16 @@ function formatWebsiteLabel(rawUrl: string): string {
   }
 }
 
+const WEEKDAY_ORDER = [
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+  'Sunday',
+] as const;
+
 export default function SpotPopup({ spot, onClose }: Props) {
   const [rating, setRating] = useState(0);
   const [visitedAt, setVisitedAt] = useState(
@@ -36,6 +46,17 @@ export default function SpotPopup({ spot, onClose }: Props) {
     () => (spot.website ? [spot.website].flat() : []),
     [spot.website],
   );
+  const openDays = useMemo(() => {
+    const days = Object.keys(spot.hours ?? {}).filter((d) =>
+      WEEKDAY_ORDER.includes(d as (typeof WEEKDAY_ORDER)[number]),
+    );
+    days.sort(
+      (a, b) =>
+        WEEKDAY_ORDER.indexOf(a as (typeof WEEKDAY_ORDER)[number]) -
+        WEEKDAY_ORDER.indexOf(b as (typeof WEEKDAY_ORDER)[number]),
+    );
+    return days;
+  }, [spot.hours]);
   const displayCategory = spot.category === 'club' ? 'park' : spot.category;
   const categoryPillClass =
     displayCategory === 'park'
@@ -159,9 +180,19 @@ export default function SpotPopup({ spot, onClose }: Props) {
         </h2>
 
         {spot.category && (
-          <span className={`${categoryPillClass} self-start text-xs capitalize`}>
-            {displayCategory.replace(/_/g, ' ')}
-          </span>
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <span className={`${categoryPillClass} pretty-pill-static self-start text-xs capitalize`}>
+              {displayCategory.replace(/_/g, ' ')}
+            </span>
+            {openDays.map((day) => (
+              <span
+                key={day}
+                className="pretty-pill pretty-pill-neutral pretty-pill-static self-start text-xs"
+              >
+                {day}
+              </span>
+            ))}
+          </div>
         )}
 
         {spot.notes && (
