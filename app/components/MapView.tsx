@@ -138,7 +138,7 @@ export default function MapView() {
   const geojson: MarkerCollection = useMemo(() => {
     if (viewMode === 'clubs') {
       const features: MarkerFeature[] = (spots as SpotRaw[])
-        .filter((s) => s.has_weekly_club_meetings !== false)
+        .filter((s) => s.has_weekly_club_meetings !== false && s.skip !== true)
         .filter((s) => s.lat != null && s.lng != null)
         .filter((s) =>
           selectedDays.length
@@ -209,19 +209,18 @@ export default function MapView() {
           initialViewState={{ longitude: -71.1199, latitude: 42.3736, zoom: 3 }}
           mapStyle={process.env.NEXT_PUBLIC_MAP_STYLE ?? MAP_STYLE_FALLBACK}
           style={{ width: '100%', height: '100%' }}
-          interactiveLayerIds={['clusters', 'unclustered']}
+          interactiveLayerIds={['unclustered']}
           onClick={handleClick}
         >
           <Source
             id={SOURCE_ID}
             type="geojson"
             data={geojson}
-            cluster
-            clusterMaxZoom={14}
-            clusterRadius={50}
+            // Temporary preview mode: disable clustering to render only individual dots.
+            cluster={false}
           >
-            <Layer {...clusterLayer} />
-            <Layer {...clusterCountLayer} />
+            {/* <Layer {...clusterLayer} /> */}
+            {/* <Layer {...clusterCountLayer} /> */}
             <Layer {...unclusteredLayer} />
           </Source>
         </MapGL>

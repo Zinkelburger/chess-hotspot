@@ -19,6 +19,7 @@ import sys
 import time
 from html import unescape
 from pathlib import Path
+from urllib.parse import urlencode, urljoin
 from urllib.request import Request, urlopen
 
 BASE_URL = "https://new.uschess.org/club-search-and-affiliate-directory"
@@ -236,26 +237,61 @@ def parse_clubs_from_html(html: str) -> list[dict]:
     return clubs
 
 
-def scrape_state(state_id: str, state_name: str) -> list[dict]:
-    url = (
-        f"{BASE_URL}"
-        f"?display_name="
-        f"&state_province_id[]={state_id}"
-        f"&proximity[city]="
-        f"&proximity[state_province_id]="
-        f"&proximity[value]="
-        f"&proximity[distance]="
-        f"&proximity[distance_unit]=miles"
+def _extract_next_page_url(html: str, current_url: str) -> str | None:
+    """Return absolute URL for the pager's next link, if present."""
+    m = re.search(
+        r'<a[^>]+href="([^"]+)"[^>]*rel="next"',
+        html,
+        re.IGNORECASE,
     )
-    print(f"  Fetching {state_name} (id={state_id})...", end=" ", flush=True)
-    try:
-        html = _fetch(url)
-    except Exception as exc:
-        print(f"FAILED ({exc})")
-        return []
+    if not m:
+        return None
+    return urljoin(current_url, unescape(m.group(1)))
 
-    clubs = parse_clubs_from_html(html)
-    print(f"{len(clubs)} clubs")
+
+def scrape_state(state_id: str, state_name: str) -> list[dict]:
+    query = urlencode(
+        {
+            "display_name": "",
+            "state_province_id[]": state_id,
+            "proximity[city]": "",
+            "proximity[state_province_id]": "",
+            "proximity[value]": "",
+            "proximity[distance]": "",
+            "proximity[distance_unit]": "miles",
+        }
+    )
+    url = f"{BASE_URL}?{query}"
+    print(f"  Fetching {state_name} (id={state_id})...", end=" ", flush=True)
+
+    clubs: list[dict] = []
+    seen_pages: set[str] = set()
+    seen_club_keys: set[str] = set()
+    next_url: str | None = url
+    page_count = 0
+
+    while next_url and next_url not in seen_pages:
+        seen_pages.add(next_url)
+        try:
+            html = _fetch(next_url)
+        except Exception as exc:
+            if page_count == 0:
+                print(f"FAILED ({exc})")
+                return []
+            print(f"partial ({exc})")
+            break
+
+        page_count += 1
+        for club in parse_clubs_from_html(html):
+            key = (club.get("uscf_id") or club.get("name", "")).strip().lower()
+            if not key or key in seen_club_keys:
+                continue
+            seen_club_keys.add(key)
+            clubs.append(club)
+
+        next_url = _extract_next_page_url(html, next_url)
+
+    print(f"{len(clubs)} clubs across {page_count} page(s)")
     return clubs
 
 

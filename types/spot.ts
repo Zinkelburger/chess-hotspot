@@ -19,6 +19,8 @@ export interface SpotRaw {
   uscf_id?: string | null;
   is_active_uscf?: boolean;
   has_weekly_club_meetings?: boolean;
+  skip?: boolean;
+  claude_added?: boolean;
   hours?: Partial<Record<DayOfWeek, Hours>>;
   /** e.g. "Summer", "May–September", null if year-round */
   seasonal?: string | null;
