@@ -10,6 +10,9 @@ Just wanna have all the chess clubs/parks in one place so I can search them and 
 Goal: only show very active spots
 Continuously verify and remove inactive spots
 
+Data source attribution:
+- City population data from [SimpleMaps US Cities](https://simplemaps.com/data/us-cities).
+
 What does a user want to do?
 Casual/non-master user wants to play chess and find events near them
 - Find active chess clubs in their area
@@ -29,6 +32,12 @@ TODO:
 
 Stretch idea:
 - "live hotspots" of where people are playing chess right now, can organize a temporary meetup via the app
+
+- Incentives for contributing
+- Leaderboard/karma score. Titles/achievements
+- "just steal everything from gacha games"
+
+- Investigate all clubs with no hours?
 
 ## Event scrapers (Python)
 
