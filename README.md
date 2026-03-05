@@ -7,6 +7,10 @@ Just wanna have all the chess clubs/parks in one place so I can search them and 
 
 2. `pnpm dev`
 
+## Future: self-hosted map tiles
+
+If Carto CDN tile loading becomes too slow at scale, switch to self-hosted PMTiles on Cloudflare R2. Host a single `.pmtiles` basemap file from https://maps.protomaps.com/builds/ on R2 (free egress, ~cents/month storage). Uses `pmtiles` + `@protomaps/basemaps` npm packages with MapLibre's `addProtocol` API. See https://docs.protomaps.com/pmtiles/.
+
 Goal: only show very active spots
 Continuously verify and remove inactive spots
 
@@ -50,6 +54,12 @@ How to get the data: You can use the Overpass API (a tool built for querying OSM
 - How to get images for all sites? Seems very time consuming
 
 - Search Bar (I.e. "Denver" boom you're zoomed to denver)
+
+# Chess.com postprocessing
+Cursor prompt:
+Each chess club: please identify is it a real club, a meme, etc. Its a big file, i suggest tou find some way to go entry-by-entry
+
+For each club, if it seems to be a real club (member count >1, not a meme, references a real life place), put it in its own file. Like chesscom_postprocessed.json or something. Skip high school and middle school clubs. College clubs are generally open to the public in my expereince, so keep those in.
 
 ## Event scrapers (Python)
 

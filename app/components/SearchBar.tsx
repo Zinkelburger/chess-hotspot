@@ -97,22 +97,8 @@ export default function SearchBar({ onSelectSpot, onFlyTo }: Props) {
   const showDropdown = open && query.trim().length >= 2;
 
   return (
-    <div ref={wrapperRef} className="absolute top-3 left-3 z-10 w-72 max-w-[calc(100%-1.5rem)]">
+    <div ref={wrapperRef} className="absolute z-10 w-[15rem] max-w-[calc(100%-2rem)]" style={{ top: '1rem', left: '1rem' }}>
       <div className="relative">
-        <svg
-          className="absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"
-          width="16"
-          height="16"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <circle cx="11" cy="11" r="8" />
-          <line x1="21" y1="21" x2="16.65" y2="16.65" />
-        </svg>
         <input
           ref={inputRef}
           type="text"
@@ -123,26 +109,28 @@ export default function SearchBar({ onSelectSpot, onFlyTo }: Props) {
           }}
           onFocus={() => setOpen(true)}
           placeholder="Search clubs or cities..."
-          className="w-full rounded-full border border-gray-300 bg-white/95 backdrop-blur-sm pl-8 pr-3 py-1.5 text-sm shadow-md focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent"
+          className="w-full rounded-full border border-gray-300 bg-white/95 text-base text-gray-800 shadow-lg backdrop-blur-sm placeholder:text-gray-400 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-emerald-400"
+          style={{ padding: '1.1rem 1.25rem', fontSize: '1.15rem' }}
         />
       </div>
 
       {showDropdown && (
-        <div className="mt-1 rounded-xl border border-gray-200 bg-white shadow-lg overflow-hidden max-h-72 overflow-y-auto">
+        <div className="mt-2 max-h-80 overflow-y-auto overflow-hidden rounded-2xl border border-gray-200 shadow-xl" style={{ background: '#ffffff' }}>
           {!hasResults && !loadingPlaces && (
-            <div className="px-3 py-2.5 text-xs text-gray-400">No results</div>
+            <div className="px-4 py-3 text-sm text-gray-400">No results</div>
           )}
 
           {clubResults.length > 0 && (
             <div>
-              <div className="px-3 pt-2 pb-1 text-[0.65rem] font-semibold text-gray-400 uppercase tracking-wider">
+              <div className="px-4 pt-3 pb-1 text-xs font-semibold uppercase tracking-wider text-gray-400">
                 Clubs
               </div>
               {clubResults.map((spot) => (
                 <button
                   key={spot.id}
                   onClick={() => handleSelect(() => onSelectSpot(spot))}
-                  className="w-full text-left px-3 py-1.5 text-sm hover:bg-emerald-50 transition-colors flex items-center gap-2"
+                  className="flex w-full items-center gap-2 text-left transition-colors hover:bg-emerald-50"
+                  style={{ padding: '0.65rem 1.1rem', fontSize: '1.05rem' }}
                 >
                   <span
                     className="inline-block w-2 h-2 rounded-full shrink-0"
@@ -157,7 +145,7 @@ export default function SearchBar({ onSelectSpot, onFlyTo }: Props) {
           {places.length > 0 && (
             <div>
               {clubResults.length > 0 && <div className="border-t border-gray-100" />}
-              <div className="px-3 pt-2 pb-1 text-[0.65rem] font-semibold text-gray-400 uppercase tracking-wider">
+              <div className="px-4 pt-3 pb-1 text-xs font-semibold uppercase tracking-wider text-gray-400">
                 Places
               </div>
               {places.map((p) => (
@@ -166,12 +154,13 @@ export default function SearchBar({ onSelectSpot, onFlyTo }: Props) {
                   onClick={() =>
                     handleSelect(() => onFlyTo(parseFloat(p.lat), parseFloat(p.lon)))
                   }
-                  className="w-full text-left px-3 py-1.5 text-sm hover:bg-blue-50 transition-colors flex items-center gap-2"
+                  className="flex w-full items-center gap-2 text-left transition-colors hover:bg-blue-50"
+                  style={{ padding: '0.65rem 1.1rem', fontSize: '1.05rem' }}
                 >
                   <svg
                     className="shrink-0 text-gray-400"
-                    width="12"
-                    height="12"
+                    width="13"
+                    height="13"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -189,7 +178,7 @@ export default function SearchBar({ onSelectSpot, onFlyTo }: Props) {
           )}
 
           {loadingPlaces && places.length === 0 && clubResults.length === 0 && (
-            <div className="px-3 py-2.5 text-xs text-gray-400">Searching...</div>
+            <div className="px-4 py-3 text-sm text-gray-400">Searching...</div>
           )}
         </div>
       )}
