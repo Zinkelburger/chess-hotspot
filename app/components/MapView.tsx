@@ -200,7 +200,7 @@ export default function MapView() {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="flex-1 overflow-hidden min-h-0">
+      <div className="flex-1 overflow-hidden min-h-[40vh]">
         <MapGL
           ref={mapRef}
           initialViewState={{ longitude: -71.1199, latitude: 42.3736, zoom: 3 }}

@@ -55,12 +55,12 @@ export default function LegendFilter({
 }: Props) {
   return (
     <div className="w-full bg-gray-100/95 border-t border-gray-200 px-4 py-3">
-      <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-start gap-y-3 gap-x-4 sm:gap-y-4 sm:gap-x-6 lg:gap-y-6 lg:gap-x-8">
-        <div className="flex items-center gap-2 shrink-0 justify-self-start sm:pl-4 sm:border-l sm:border-gray-300/80">
+      <div className="flex flex-wrap items-start gap-x-4 gap-y-3 sm:gap-x-6 lg:gap-x-8">
+        <div className="flex items-center gap-2 shrink-0">
           <button
             onClick={() => onViewChange('clubs')}
             className={clsx(
-              'pretty-pill min-w-[7.5rem] shrink-0',
+              'pretty-pill sm:min-w-[7.5rem] shrink-0',
               selectedView === 'clubs'
                 ? 'pretty-pill-green'
                 : 'pretty-pill-ghost opacity-75 hover:opacity-100',
@@ -71,7 +71,7 @@ export default function LegendFilter({
           <button
             onClick={() => onViewChange('events')}
             className={clsx(
-              'pretty-pill min-w-[7.5rem] shrink-0',
+              'pretty-pill sm:min-w-[7.5rem] shrink-0',
               selectedView === 'events'
                 ? 'pretty-pill-blue'
                 : 'pretty-pill-ghost opacity-75 hover:opacity-100',
@@ -79,11 +79,14 @@ export default function LegendFilter({
           >
             <span>Events</span>
           </button>
-        </div>
-
-        <div className="flex items-center gap-2 shrink-0 justify-self-center">
-          <Link href="/club_submission" className="pretty-pill pretty-pill-green shrink-0">
-            Suggest a Club
+          <Link
+            href={selectedView === 'events' ? '/event_submission' : '/club_submission'}
+            className={clsx(
+              'pretty-pill shrink-0',
+              selectedView === 'events' ? 'pretty-pill-blue' : 'pretty-pill-green',
+            )}
+          >
+            {selectedView === 'events' ? 'Suggest an Event' : 'Suggest a Club'}
           </Link>
           <a
             href={GITHUB_URL}
@@ -95,49 +98,42 @@ export default function LegendFilter({
           </a>
         </div>
 
-        <div
-          className={clsx(
-            'min-w-0 justify-self-end sm:pl-4 sm:border-l sm:border-gray-300/80',
-            selectedView === 'events' && 'sm:min-h-[4.75rem]',
-          )}
-        >
+        <div className="grow basis-[16rem] min-w-0 md:pl-4 md:border-l md:border-gray-300/80">
           {selectedView === 'clubs' && (
-            <div className="flex justify-end">
-              <div className="flex flex-wrap items-center justify-end gap-1.5">
-                <span className="text-xs font-semibold text-gray-500 whitespace-nowrap">Open:</span>
-                {DAYS.map((day, idx) => {
-                  const label = DAY_LABELS[idx];
-                  const active = day
-                    ? selectedDays.includes(day as DayOfWeek)
-                    : selectedDays.length === 0;
-                  return (
-                    <button
-                      key={label}
-                      onClick={() => {
-                        if (day === '') return onDaysChange([]);
-                        const d = day as DayOfWeek;
-                        onDaysChange(
-                          active
-                            ? selectedDays.filter((x) => x !== d)
-                            : [...selectedDays, d],
-                        );
-                      }}
-                      className={clsx(
-                        'pretty-pill text-xs',
-                        active ? 'pretty-pill-green' : 'pretty-pill-ghost',
-                      )}
-                    >
-                      {label}
-                    </button>
-                  );
-                })}
-              </div>
+            <div className="flex flex-wrap items-center gap-1.5">
+              <span className="text-xs font-semibold text-gray-500 whitespace-nowrap">Open:</span>
+              {DAYS.map((day, idx) => {
+                const label = DAY_LABELS[idx];
+                const active = day
+                  ? selectedDays.includes(day as DayOfWeek)
+                  : selectedDays.length === 0;
+                return (
+                  <button
+                    key={label}
+                    onClick={() => {
+                      if (day === '') return onDaysChange([]);
+                      const d = day as DayOfWeek;
+                      onDaysChange(
+                        active
+                          ? selectedDays.filter((x) => x !== d)
+                          : [...selectedDays, d],
+                      );
+                    }}
+                    className={clsx(
+                      'pretty-pill text-xs',
+                      active ? 'pretty-pill-green' : 'pretty-pill-ghost',
+                    )}
+                  >
+                    {label}
+                  </button>
+                );
+              })}
             </div>
           )}
 
           {selectedView === 'events' && (
-            <div className="grid grid-cols-[1fr_auto] gap-x-6 gap-y-2">
-              <div className="flex items-center gap-1.5">
+            <div className="flex flex-wrap items-start gap-x-5 gap-y-2">
+              <div className="flex flex-wrap items-center gap-1.5">
                 <span className="text-xs font-semibold text-gray-500 whitespace-nowrap">Type:</span>
                 {EVENT_TYPES.map((type, idx) => {
                   const active = type
@@ -166,7 +162,7 @@ export default function LegendFilter({
                 })}
               </div>
 
-              <div className="flex items-center gap-1.5">
+              <div className="flex flex-wrap items-center gap-1.5">
                 <span className="text-xs font-semibold text-gray-500 whitespace-nowrap">Rated:</span>
                 {[
                   { value: 'any' as const, label: 'Any' },
@@ -186,7 +182,7 @@ export default function LegendFilter({
                 ))}
               </div>
 
-              <div className="flex items-center gap-1.5">
+              <div className="flex flex-wrap items-center gap-1.5">
                 <span className="text-xs font-semibold text-gray-500 whitespace-nowrap">Format:</span>
                 {EVENT_FORMATS.map((format, idx) => (
                   <button
@@ -202,7 +198,7 @@ export default function LegendFilter({
                 ))}
               </div>
 
-              <div className="flex items-center gap-1.5">
+              <div className="flex flex-wrap items-center gap-1.5">
                 <span className="text-xs font-semibold text-gray-500 whitespace-nowrap">When:</span>
                 {[
                   { value: 'any' as const, label: 'Any' },
