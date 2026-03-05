@@ -90,7 +90,8 @@ export default function MapView() {
         if (e.lat != null && e.lng != null) return { event: e, lat: e.lat, lng: e.lng };
         if (e.hostClubId) {
           const club = spotsById.get(e.hostClubId);
-          if (club) return { event: e, lat: club.lat, lng: club.lng };
+          if (club && club.lat != null && club.lng != null)
+            return { event: e, lat: club.lat, lng: club.lng };
         }
         return null;
       })
@@ -137,6 +138,8 @@ export default function MapView() {
   const geojson: MarkerCollection = useMemo(() => {
     if (viewMode === 'clubs') {
       const features: MarkerFeature[] = (spots as SpotRaw[])
+        .filter((s) => s.has_weekly_club_meetings !== false)
+        .filter((s) => s.lat != null && s.lng != null)
         .filter((s) =>
           selectedDays.length
             ? selectedDays.some((d) => !!s.hours?.[d])
@@ -144,7 +147,7 @@ export default function MapView() {
         )
         .map((s) => ({
           type: 'Feature',
-          geometry: { type: 'Point', coordinates: [s.lng, s.lat] },
+          geometry: { type: 'Point', coordinates: [s.lng!, s.lat!] },
           properties: { id: s.id, __color: CATEGORY_COLORS[s.category], __kind: 'spot' },
         }));
       return { type: 'FeatureCollection', features };

@@ -48,3 +48,15 @@ Current implementation:
   - collects tournament links
   - prefers non-blitz canonical pages (e.g. keeps `aco26.htm`, drops `acob26.htm`)
   - parses broad metadata from event pages (dates, schedule, prizes, sections, fees, ratings, contact, full text)
+
+## USCF club import & fill (Python)
+
+1. **Scrape** USCF clubs: `python3 scripts/scrape_clubs.py` → `data/uscf_clubs.json`
+2. **Import** into spots: `pnpm spots:import:uscf` — adds all clubs with blank lat/lng/photo/gmap
+3. **Fill** one by one: `pnpm spots:fill` — walks through each blank club, prompts for Maps link, image, etc.
+
+The fill script shows USCF context (city, address, email) for each club and:
+
+- Extracts lat/lng from any Google Maps URL you paste
+- Generates a standard image filename (`/img/{club_id}.{ext}`) — just provide the extension
+- Automatically picks up where you left off — only shows clubs that still need coordinates

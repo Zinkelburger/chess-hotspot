@@ -55,7 +55,7 @@ export default function LegendFilter({
 }: Props) {
   return (
     <div className="w-full bg-gray-100/95 border-t border-gray-200 px-4 py-3">
-      <div className="flex flex-wrap items-start gap-x-4 gap-y-3 sm:gap-x-6 lg:gap-x-8">
+      <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-3 sm:gap-x-6 lg:gap-x-8">
         <div className="flex items-center gap-2 shrink-0">
           <button
             onClick={() => onViewChange('clubs')}
@@ -79,6 +79,9 @@ export default function LegendFilter({
           >
             <span>Events</span>
           </button>
+        </div>
+
+        <div className="flex items-center gap-2 shrink-0">
           <Link
             href={selectedView === 'events' ? '/event_submission' : '/club_submission'}
             className={clsx(

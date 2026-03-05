@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "spots:add": "node scripts/add-spot.mjs",
+    "spots:import:uscf": "python3 scripts/import_uscf_clubs.py",
+    "spots:fill": "python3 scripts/fill_clubs.py",
     "events:scrape:py": "python3 scripts/scrape_events.py"
   },
   "dependencies": {

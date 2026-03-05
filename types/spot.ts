@@ -13,9 +13,12 @@ export interface Hours {
 export interface SpotRaw {
   id: string;
   name: string;
-  lat: number;
-  lng: number;
+  lat: number | null;
+  lng: number | null;
   category: SpotCategory;
+  uscf_id?: string | null;
+  is_active_uscf?: boolean;
+  has_weekly_club_meetings?: boolean;
   hours?: Partial<Record<DayOfWeek, Hours>>;
   /** e.g. "Summer", "May–September", null if year-round */
   seasonal?: string | null;
