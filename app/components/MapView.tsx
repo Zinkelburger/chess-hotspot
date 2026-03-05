@@ -209,6 +209,7 @@ export default function MapView() {
           initialViewState={{ longitude: -71.1199, latitude: 42.3736, zoom: 3 }}
           mapStyle={process.env.NEXT_PUBLIC_MAP_STYLE ?? MAP_STYLE_FALLBACK}
           style={{ width: '100%', height: '100%' }}
+          dragRotate={false}
           interactiveLayerIds={['unclustered']}
           onClick={handleClick}
         >
