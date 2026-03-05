@@ -826,30 +826,6 @@
     "uscf_affiliate_type": "Club"
   },
   {
-    "id": "chesspirit",
-    "name": "Chess Spirit",
-    "lat": null,
-    "lng": null,
-    "category": "club",
-    "website": "https://chesspirit.org/",
-    "uscf_id": "A9520739",
-    "is_active_uscf": true,
-    "has_weekly_club_meetings": false,
-    "skip": true,
-    "notes": "Scholastic chess program. No regular public club meetings found.",
-    "claude_added": true,
-    "uscf_affiliate_type": "Club",
-    "uscf_activities": [
-      "Beginners Welcome",
-      "Chess Camps",
-      "Club Championship",
-      "Lessons",
-      "US Chess Rated Play",
-      "Under 18 Permitted"
-    ],
-    "skip_reason": "no_info"
-  },
-  {
     "id": "northland_preparatory_academy",
     "name": "Northland Preparatory Academy",
     "lat": null,
@@ -5844,35 +5820,6 @@
     "skip_reason": "no_info"
   },
   {
-    "id": "chessdreams",
-    "name": "Chess Dreams",
-    "lat": null,
-    "lng": null,
-    "category": "club",
-    "uscf_id": "A6032107",
-    "is_active_uscf": true,
-    "has_weekly_club_meetings": false,
-    "skip": true,
-    "claude_added": true,
-    "uscf_affiliate_type": "Organizer",
-    "uscf_activities": [
-      "Book Library",
-      "Classes",
-      "Lectures",
-      "Refreshments",
-      "Sets",
-      "Clocks",
-      "Lessons",
-      "Matches",
-      "Beginners Welcome",
-      "Casual Play",
-      "US Chess Rated Play",
-      "Simuls",
-      "Under 18 Permitted"
-    ],
-    "skip_reason": "organizer"
-  },
-  {
     "id": "creative_arts_center_chess_club",
     "name": "Creative Arts Center Chess Club",
     "lat": null,
@@ -7489,20 +7436,6 @@
       "US Chess Rated Play",
       "Under 18 Permitted"
     ],
-    "skip_reason": "no_info"
-  },
-  {
-    "id": "gfchess",
-    "name": "GF Chess",
-    "lat": null,
-    "lng": null,
-    "category": "club",
-    "uscf_id": "A6053502",
-    "is_active_uscf": true,
-    "has_weekly_club_meetings": false,
-    "skip": true,
-    "claude_added": true,
-    "uscf_affiliate_type": "Club",
     "skip_reason": "no_info"
   },
   {
@@ -12487,41 +12420,6 @@
     "skip_reason": "no_info"
   },
   {
-    "id": "tricitychessacademy",
-    "name": "Tri-City Chess Academy",
-    "lat": null,
-    "lng": null,
-    "category": "club",
-    "uscf_id": "A9282988",
-    "is_active_uscf": true,
-    "has_weekly_club_meetings": false,
-    "skip": true,
-    "claude_added": true,
-    "uscf_affiliate_type": "Club",
-    "uscf_activities": [
-      "Beginners Welcome",
-      "Blitz Play",
-      "Book Library",
-      "Casual Play",
-      "Chess Camps",
-      "Classes",
-      "Club Championship",
-      "Handicap Accessible",
-      "Items for Sale",
-      "League Play",
-      "Lectures",
-      "Lessons",
-      "Matches",
-      "Refreshments",
-      "Sets",
-      "Simuls",
-      "US Chess Rated Play",
-      "Unrated Events",
-      "Under 18 Permitted"
-    ],
-    "skip_reason": "academy"
-  },
-  {
     "id": "utuado_chess_club",
     "name": "Utuado Chess Club",
     "lat": null,
@@ -16065,46 +15963,6 @@
     "skip_reason": "state_org"
   },
   {
-    "id": "chesskidsnation_2",
-    "name": "ChessKidsNation",
-    "lat": null,
-    "lng": null,
-    "category": "club",
-    "uscf_id": "A6031036",
-    "is_active_uscf": true,
-    "has_weekly_club_meetings": false,
-    "website": "http://www.ChessKidsNation.com",
-    "uscf_affiliate_type": "Club",
-    "uscf_activities": [
-      "Beginners Welcome",
-      "Blitz Play",
-      "Book Library",
-      "Bughouse",
-      "Casual Play",
-      "Chess Camps",
-      "Classes",
-      "Clocks",
-      "Club Championship",
-      "Club Memb Not Req",
-      "Handicap Accessible",
-      "Items for Sale",
-      "Ladders",
-      "League Play",
-      "Lectures",
-      "Lessons",
-      "Matches",
-      "Sets",
-      "Simuls",
-      "US Chess Rated Play",
-      "Unrated Events",
-      "Under 18 Permitted"
-    ],
-    "skip": true,
-    "skip_reason": "youth_only",
-    "claude_added": true,
-    "notes": "Kids-only chess program"
-  },
-  {
     "id": "chesspirit_2",
     "name": "CHESSpirit",
     "lat": 37.54827,
@@ -16126,47 +15984,6 @@
     "gmap": "https://www.google.com/maps/search/?api=1&query=CHESSpirit+chess+club+Fremont+CA",
     "notes": "USCF-affiliated club in the Fremont, CA area. Offers chess camps, lessons, club championship, and USCF-rated play. Beginners and juniors welcome.",
     "claude_added": true
-  },
-  {
-    "id": "chesspalace_2",
-    "name": "ChessPalace",
-    "lat": 33.78104,
-    "lng": -118.041251,
-    "category": "club",
-    "uscf_id": "A6010042",
-    "is_active_uscf": true,
-    "has_weekly_club_meetings": true,
-    "website": "http://www.chesspalace.com",
-    "uscf_affiliate_type": "Club",
-    "uscf_activities": [
-      "Beginners Welcome",
-      "Casual Play",
-      "Chess Camps",
-      "Classes",
-      "Clocks",
-      "Club Memb Not Req",
-      "Handicap Accessible",
-      "Items for Sale",
-      "Lectures",
-      "Lessons",
-      "Matches",
-      "Sets",
-      "US Chess Rated Play",
-      "Unrated Events"
-    ],
-    "gmap": "https://www.google.com/maps/search/?api=1&query=5246+Lampson+Ave+Garden+Grove+CA+92845",
-    "notes": "5246 Lampson Ave, Garden Grove. Southern California's premier chess club, store, and school since 1990. Open play Thursday & Friday evenings 5–9pm. Weekly tournaments, lessons, and a retail chess store with books, sets, and equipment.",
-    "claude_added": true,
-    "hours": {
-      "Thursday": {
-        "open": "17:00",
-        "close": "21:00"
-      },
-      "Friday": {
-        "open": "17:00",
-        "close": "21:00"
-      }
-    }
   },
   {
     "id": "hanley_chess_academy",
@@ -17836,40 +17653,6 @@
     "skip_reason": "no_info",
     "claude_added": true,
     "notes": "No website or meeting info"
-  },
-  {
-    "id": "jamaica_plain_chess_club_jp_chess",
-    "name": "Jamaica Plain Chess Club (JP Chess)",
-    "lat": 42.3128273,
-    "lng": -71.114292,
-    "category": "club",
-    "uscf_id": "A7514201",
-    "is_active_uscf": true,
-    "has_weekly_club_meetings": true,
-    "website": "https://www.jpchess.org",
-    "uscf_affiliate_type": "Club",
-    "uscf_activities": [
-      "Beginners Welcome",
-      "Blitz Play",
-      "Casual Play",
-      "Clocks",
-      "Club Memb Not Req",
-      "Ladders",
-      "Lectures",
-      "Sets",
-      "Simuls",
-      "Unrated Events",
-      "Under 18 Permitted"
-    ],
-    "gmap": "https://www.google.com/maps/search/?api=1&query=JP+Licks+Centre+Street+Jamaica+Plain+Boston+MA",
-    "notes": "Meets at J.P. Licks on Centre St, Jamaica Plain, Boston. Thursdays 6–9pm. Non-profit (JP Chess Foundation, Inc.). No membership fees — donation-based. USCF affiliate, nominated for USCF 'Best Chess Club' in 2025.",
-    "claude_added": true,
-    "hours": {
-      "Thursday": {
-        "open": "18:00",
-        "close": "21:00"
-      }
-    }
   },
   {
     "id": "gfchess_2",

@@ -10,9 +10,6 @@ Just wanna have all the chess clubs/parks in one place so I can search them and 
 Goal: only show very active spots
 Continuously verify and remove inactive spots
 
-Data source attribution:
-- City population data from [SimpleMaps US Cities](https://simplemaps.com/data/us-cities).
-
 What does a user want to do?
 Casual/non-master user wants to play chess and find events near them
 - Find active chess clubs in their area
@@ -38,6 +35,21 @@ Stretch idea:
 - "just steal everything from gacha games"
 
 - Investigate all clubs with no hours?
+
+- "OSM has a specific, official tag for chess: sport=chess. People use this to tag giant outdoor chess boards, permanent park tables, and public chess pavilions.
+How to get the data: You can use the Overpass API (a tool built for querying OSM data). You can literally write a query that says, "Give me the latitude and longitude of every single location on Earth tagged with sport=chess"
+
+- scrape chess reddit api for chess in the park + city name
+
+- meetup.com
+
+- ChessPlaces.com or the European Chess Union's ChessWhere project.
+- https://www.chess-la.com/
+- https://sites.google.com/site/louisianachess/chess-club-locations-info
+
+- How to get images for all sites? Seems very time consuming
+
+- Search Bar (I.e. "Denver" boom you're zoomed to denver)
 
 ## Event scrapers (Python)
 

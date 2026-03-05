@@ -17,6 +17,7 @@ import type { ChessEvent, EventType, TimeControlKind } from '@/types/event';
 import { CATEGORY_COLORS } from '@/lib/constants';
 import LegendFilter, { type ViewMode } from './LegendFilter';
 import SpotPopup from './SpotPopup';
+import SearchBar from './SearchBar';
 
 const EVENT_COLOR = '#3B82F6';
 
@@ -199,11 +200,31 @@ export default function MapView() {
     [viewMode, spotsById, eventsById],
   );
 
+  const handleSearchSelectSpot = useCallback(
+    (spot: SpotRaw) => {
+      if (spot.lat != null && spot.lng != null) {
+        mapRef.current?.flyTo({ center: [spot.lng, spot.lat], zoom: 13, duration: 1400 });
+        setActiveSpot(spot);
+        setActiveEvent(null);
+        setDefaultTab('club');
+      }
+    },
+    [],
+  );
+
+  const handleSearchFlyTo = useCallback(
+    (lat: number, lng: number) => {
+      mapRef.current?.flyTo({ center: [lng, lat], zoom: 11, duration: 1400 });
+    },
+    [],
+  );
+
   const popupOpen = activeSpot !== null || activeEvent !== null;
 
   return (
     <div className="flex flex-col h-full">
-      <div className="flex-1 overflow-hidden min-h-[40vh]">
+      <div className="relative flex-1 overflow-hidden min-h-[40vh]">
+        <SearchBar onSelectSpot={handleSearchSelectSpot} onFlyTo={handleSearchFlyTo} />
         <MapGL
           ref={mapRef}
           initialViewState={{ longitude: -71.1199, latitude: 42.3736, zoom: 3 }}
