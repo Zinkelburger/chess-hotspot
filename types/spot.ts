@@ -41,7 +41,9 @@ export interface SpotRaw {
   photo?: string | null;
   gmap?: string | null;
   website?: string | string[] | null;
-  /** Per-URL confidence from manual review. Only URLs needing a flag are listed. */
+  /** Per-URL confidence from browser verification. Every custom URL is listed. */
   website_confidence?: Record<string, WebsiteConfidence>;
+  /** Explanation for questionable/mismatch URLs. Keyed by URL. */
+  website_confidence_reason?: Record<string, string>;
   notes?: string | null;
 }
