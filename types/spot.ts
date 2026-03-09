@@ -19,6 +19,8 @@ export type SkipReason =
   | 'academy' | 'organizer' | 'no_info' | 'online_only'
   | 'military' | 'library_program' | 'youth_only' | 'other';
 
+export type WebsiteConfidence = 'verified' | 'questionable' | 'mismatch';
+
 export interface SpotRaw {
   id: string;
   name: string;
@@ -39,5 +41,7 @@ export interface SpotRaw {
   photo?: string | null;
   gmap?: string | null;
   website?: string | string[] | null;
+  /** Per-URL confidence from manual review. Only URLs needing a flag are listed. */
+  website_confidence?: Record<string, WebsiteConfidence>;
   notes?: string | null;
 }
