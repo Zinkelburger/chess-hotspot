@@ -1,0 +1,324 @@
+[
+  {
+    "json_index": 1982,
+    "id": "miami_chess_club",
+    "city": "Miami",
+    "state": "FL",
+    "address": "5880 SW 8th St, Miami, FL 33144"
+  },
+  {
+    "json_index": 1983,
+    "id": "ocala_chess_club",
+    "city": "Ocala",
+    "state": "FL",
+    "address": "2720 Silver Springs Blvd, Ocala, FL 34470"
+  },
+  {
+    "json_index": 1984,
+    "id": "downers_grove_chess_club",
+    "city": "Downers Grove",
+    "state": "IL",
+    "address": "200 Village Drive, Downers Grove, IL 60516"
+  },
+  {
+    "json_index": 1985,
+    "id": "acpl_all_ages_chess_club",
+    "city": "Fort Wayne",
+    "state": "IN",
+    "address": "900 Library Plaza, Fort Wayne, IN 46802"
+  },
+  {
+    "json_index": 1986,
+    "id": "springfield_city_chess_club",
+    "city": "Springfield",
+    "state": "MO",
+    "address": "2215 S. Freemont, Springfield, MO 65804"
+  },
+  {
+    "json_index": 1987,
+    "id": "kneighborhood_knightz2",
+    "city": "Columbia",
+    "state": "MO",
+    "address": "Garth and Sexton Ave, Columbia, MO 65201"
+  },
+  {
+    "json_index": 1988,
+    "id": "hampton_roads_chess_club2",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "address": "3229 MacDonald Road, Virginia Beach, VA 23464"
+  },
+  {
+    "json_index": 1989,
+    "id": "midway_chess_club",
+    "city": "Chicago",
+    "state": "IL",
+    "address": "5627-29 West 63rd Street, Chicago, IL 60638"
+  },
+  {
+    "json_index": 1990,
+    "id": "tea_lounge_vultures",
+    "city": "Brooklyn",
+    "state": "NY",
+    "address": "837 Union St, Brooklyn, NY 11215"
+  },
+  {
+    "json_index": 1991,
+    "id": "janesville_chess_association",
+    "city": "Janesville",
+    "state": "WI",
+    "address": "316 South Main Street, Janesville, WI 53545"
+  },
+  {
+    "json_index": 1992,
+    "id": "nyc_chess_community",
+    "city": "New York",
+    "state": "NY",
+    "address": "273 Bowery St, New York, NY"
+  },
+  {
+    "json_index": 1993,
+    "id": "scappoose_chess_club",
+    "city": "Scappoose",
+    "state": "OR",
+    "address": "52469 SE 2nd St, Scappoose, OR 97056"
+  },
+  {
+    "json_index": 1994,
+    "id": "alley_cat_nerd_night",
+    "city": "Carrollton",
+    "state": "GA",
+    "address": "120 Newnan St, Carrollton, GA 30117"
+  },
+  {
+    "json_index": 1995,
+    "id": "beaners_blitz",
+    "city": "Duluth",
+    "state": "MN",
+    "address": "324 N Central Ave, Duluth, MN 55807"
+  },
+  {
+    "json_index": 1996,
+    "id": "en_passant_chess2",
+    "city": "San Benito",
+    "state": "TX",
+    "address": "210 E. Heywood, San Benito, TX 78586"
+  },
+  {
+    "json_index": 1997,
+    "id": "waco_chess_club2",
+    "city": "Waco",
+    "state": "TX",
+    "address": "2617 Cole Ave, Apt. #13, Waco, TX 76707"
+  },
+  {
+    "json_index": 1998,
+    "id": "the_columbian_connection2",
+    "city": "Columbia",
+    "state": "TN",
+    "address": "Lion's Parkway, Columbia, TN 38401"
+  },
+  {
+    "json_index": 1999,
+    "id": "winchester_parks_and_rec_chess_club",
+    "city": "Winchester",
+    "state": "KY",
+    "address": "15 Wheeler Ave, Winchester, KY"
+  },
+  {
+    "json_index": 2000,
+    "id": "kernersville_chess_club",
+    "city": "Kernersville",
+    "state": "NC",
+    "address": "South Main Street, Kernersville, NC 27284"
+  },
+  {
+    "json_index": 2002,
+    "id": "brattleboro_chess_club",
+    "city": "Brattleboro",
+    "state": "VT",
+    "address": "Main Street, Brattleboro, VT 05301"
+  },
+  {
+    "json_index": 2003,
+    "id": "silver_city_chess_club",
+    "city": "Silver City",
+    "state": "NM",
+    "address": "102 W Kelly St, Silver City, NM 88061"
+  },
+  {
+    "json_index": 2005,
+    "id": "elkhart_county_chess_club",
+    "city": "Elkhart",
+    "state": "IN",
+    "address": null
+  },
+  {
+    "json_index": 2006,
+    "id": "monroeville_chess_club_monroeville_pa",
+    "city": "Monroeville",
+    "state": "PA",
+    "address": "2310 Haymaker Road, Monroeville, PA 15146"
+  },
+  {
+    "json_index": 2007,
+    "id": "columbus_indiana_chess_club",
+    "city": "Columbus",
+    "state": "IN",
+    "address": "2580 Grissom Street, Columbus, IN"
+  },
+  {
+    "json_index": 2008,
+    "id": "pittsfield_chess_club",
+    "city": "Pittsfield",
+    "state": "MA",
+    "address": "165 Tor Court, Pittsfield, MA"
+  },
+  {
+    "json_index": 2009,
+    "id": "montgomery_chess_club",
+    "city": "Montgomery",
+    "state": "AL",
+    "address": "1751 Cong W. L. Dickinson Dr, Montgomery, AL 36107"
+  },
+  {
+    "json_index": 2010,
+    "id": "poteau_chess_club",
+    "city": "Poteau",
+    "state": "OK",
+    "address": "113 S Witte St, Poteau, OK 74953"
+  },
+  {
+    "json_index": 2011,
+    "id": "nevada_state_chess_association2",
+    "city": "Las Vegas",
+    "state": "NV",
+    "address": "2323 South Decatur, Las Vegas, NV 89102"
+  },
+  {
+    "json_index": 2012,
+    "id": "fccd_chess",
+    "city": "Dyer",
+    "state": "IN",
+    "address": "704 Joliet St, Dyer, IN 46311"
+  },
+  {
+    "json_index": 2013,
+    "id": "lewisville_chess_club",
+    "city": "Frisco",
+    "state": "TX",
+    "address": "6101 Frisco Square Blvd, Suite 3000, Frisco, TX 75034"
+  },
+  {
+    "json_index": 2014,
+    "id": "willows_senior_center_chess",
+    "city": "San Jose",
+    "state": "CA",
+    "address": "2175 Lincoln Ave, San Jose, CA 95125"
+  },
+  {
+    "json_index": 2015,
+    "id": "woodlawn_chessnuts",
+    "city": "Wilmington",
+    "state": "DE",
+    "address": "2020 West 9th Street, Wilmington, DE 19805"
+  },
+  {
+    "json_index": 2016,
+    "id": "hemet_chess_club",
+    "city": "Hemet",
+    "state": "CA",
+    "address": "4400 W. Florida Ave, Hemet, CA 92545"
+  },
+  {
+    "json_index": 2017,
+    "id": "solid_grounds_cafe_chess_club",
+    "city": "Benton Harbor",
+    "state": "MI",
+    "address": "124 Water Street, Benton Harbor, MI 49022"
+  },
+  {
+    "json_index": 2018,
+    "id": "noble_mind_chess_club",
+    "city": "Memphis",
+    "state": "TN",
+    "address": "3482 Plaza Ave, Memphis, TN 38111"
+  },
+  {
+    "json_index": 2019,
+    "id": "drunken_knights_chess_club",
+    "city": "Seattle",
+    "state": "WA",
+    "address": "534 15th Ave E, Seattle, WA 98122"
+  },
+  {
+    "json_index": 2020,
+    "id": "port_washington_chess_night",
+    "city": "Port Washington",
+    "state": "WI",
+    "address": "116 W. Grand Ave, Port Washington, WI 53074"
+  },
+  {
+    "json_index": 2021,
+    "id": "marshfield_area_chess_association",
+    "city": "Marshfield",
+    "state": "WI",
+    "address": "211 E. Second Street, Marshfield, WI 54449"
+  },
+  {
+    "json_index": 2022,
+    "id": "32_pieces_phoenix",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "address": "7366 E Shea Blvd, Scottsdale, AZ 85260"
+  },
+  {
+    "json_index": 2023,
+    "id": "mizpahhaddon_heights_community_chess_club",
+    "city": "Haddon Heights",
+    "state": "NJ",
+    "address": "511 Station Avenue, Haddon Heights, NJ 08035"
+  },
+  {
+    "json_index": 2024,
+    "id": "st_charles_chess_club2",
+    "city": "St. Charles",
+    "state": "IL",
+    "address": "101 S. 2nd St, St. Charles, IL 60174"
+  },
+  {
+    "json_index": 2025,
+    "id": "manitowoc_chess_club",
+    "city": "Two Rivers",
+    "state": "WI",
+    "address": "Washington St, Two Rivers, WI 54220"
+  },
+  {
+    "json_index": 2026,
+    "id": "garden_city_chess_club",
+    "city": "Garden City",
+    "state": "NY",
+    "address": "74 First Street, Garden City, NY 11530"
+  },
+  {
+    "json_index": 2027,
+    "id": "lebanon_county_chess_club",
+    "city": "Lebanon",
+    "state": "PA",
+    "address": "125 North 7th Street, Lebanon, PA 17046"
+  },
+  {
+    "json_index": 2028,
+    "id": "caf_chess_collectif",
+    "city": "Portland",
+    "state": "OR",
+    "address": "710 NW 21st Ave, Portland, OR 97209"
+  },
+  {
+    "json_index": 2029,
+    "id": "mechanics_institute_chess_club_wannabe",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": "57 Post Street, 4th Floor, San Francisco, CA 94104"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "json_index": 974,
+    "id": "pionner_joes_chess_club_lincoln_county",
+    "hours": {
+      "Sunday": {"open": "14:00", "close": "18:00"},
+      "Tuesday": {"open": "15:30", "close": "17:30"}
+    },
+    "website": null
+  },
+  {
+    "json_index": 981,
+    "id": "taos_chess_club",
+    "hours": {"Sunday": {"open": "13:00"}},
+    "website": "https://taoschess.com"
+  },
+  {
+    "json_index": 982,
+    "id": "van_tx_chess_club",
+    "hours": {"Friday": {"open": "18:00"}},
+    "website": "https://www.facebook.com/groups/vantxchessclub/"
+  },
+  {
+    "json_index": 987,
+    "id": "glastonbury_ct_chess_club",
+    "hours": {"Thursday": {"open": "16:30", "close": "20:00"}},
+    "website": "https://www.facebook.com/groups/GlastonburyCTChessClub"
+  },
+  {
+    "json_index": 994,
+    "id": "tptmus",
+    "hours": {
+      "Monday": {"open": "17:00"},
+      "Thursday": {"open": "18:00", "close": "20:00"}
+    },
+    "website": null
+  },
+  {
+    "json_index": 999,
+    "id": "bushwick_chess",
+    "hours": {"Tuesday": {"open": "19:00"}},
+    "website": null
+  },
+  {
+    "json_index": 1000,
+    "id": "elite_chess_club_for_adults",
+    "hours": null,
+    "website": "https://www.elitechess.net/adult-club"
+  },
+  {
+    "json_index": 1001,
+    "id": "altoona_library_chess_club",
+    "hours": {"Thursday": {"open": "16:30", "close": "19:30"}},
+    "website": "https://altoonachessclub.com"
+  },
+  {
+    "json_index": 1009,
+    "id": "monterey_county_chess_club",
+    "hours": null,
+    "website": "https://www.meetup.com/monterey-county-chess-club/"
+  },
+  {
+    "json_index": 1014,
+    "id": "aaco_of_arizona_chess_club",
+    "hours": null,
+    "website": "https://www.assyrianamerican.org/"
+  }
+]

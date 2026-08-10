@@ -1,0 +1,652 @@
+[
+  {
+    "json_index": 1592,
+    "id": "vermillion_chess_club",
+    "name": "Vermillion Chess Club",
+    "city": "Vermillion",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Taco Johns",
+    "notes": "Starts at 6pm ends in 2-3 hours825 E Cherry StreetVermillion, SD, 57069Contact Email: GlassTiger@rocketmail.com"
+  },
+  {
+    "json_index": 1593,
+    "id": "conway_chess_club",
+    "name": "Conway Chess Club",
+    "city": "Conway",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Conway, Arkansas",
+    "notes": "The Conway Chess Club is a place where members can learn, teach, play, and grow their chess skills casually. Players meet in various locations in Conway, AR throughout the week to play. All skill levels are invited to participate. We currently run a ladder where players can challenge others who are at a similar level. Players are encouraged to bring a board and chess clock if they have it."
+  },
+  {
+    "json_index": 1594,
+    "id": "everett_chess_club",
+    "name": "Everett Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Everett, WA",
+    "notes": "Club for those who play at or are interested in the Everett Chess Club. Check out www.everettchessclub.com for club info."
+  },
+  {
+    "json_index": 1595,
+    "id": "pawn_and_pint",
+    "name": "Pawn and Pint",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Pawn and Pint",
+    "notes": "Pawn and Pint is a new local KC board game cafe (serving alcohol) in the vibrant crossroads district which now hosts bimonthly chess tournaments on sundays. They are casual and just for fun, though there are small prizes for winners as well as a $5 entry fee which includes access to unlimited playability for all the stores games. I'm Dylan Mize, chess coach and organizer of the Pawn and Pint chess events. Contact me at 9139569530 with any questions. We hope to see you at the tournaments. A wider variety of events may be soon to come. 221 southwest blvdKansas City, Mo, 641089139569530Contact Email: Dylancmize@gmail.com"
+  },
+  {
+    "json_index": 1596,
+    "id": "burlington_chess_meetup",
+    "name": "Burlington Chess Meetup",
+    "city": "Burlington",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Vermont Pub n Brewery (corner of College & Saint Paul St.)",
+    "notes": "Players of all skill levels are welcome. Don't know how to play, but wanna learn? You are also welcome. Come have fun and enjoy this timeless game of strategy and wit! Tuesdays, 7:30p. www.meetup.com/Burlington-Chess-Meetup/Contact Email: aciuranafbc@gmail.com"
+  },
+  {
+    "json_index": 1597,
+    "id": "rva_pieces_a_richmond_chess_club",
+    "name": "RVA Pieces: A Richmond Chess Club",
+    "city": "Rva Pieces: A Richmond",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Gallery 5",
+    "notes": "Whereas the club focuses on chess, RVA Pieces encourage all forms of gaming. All skill levels are welcome. We meet once a week at Gallery5, which is located in the historic arts district of Jackson Ward. We offer a relaxed cafe style enviroment in Virginia’s oldest firehouse and Richmond’s oldest police station and jailhouse. Both Gallery5 and RVA Pieces are Non-Profit Organizations and community supported. Look for us on Facebook and come join us every Wednesday, from 5:00 to Midnight. 200 W Marshall St.Richmond, Va, 23220rvapieces.org/Contact Email: RVAPieces@gmail.com"
+  },
+  {
+    "json_index": 1598,
+    "id": "tricity_chess_club2",
+    "name": "Tri-City Chess Club2",
+    "city": "Tri-City",
+    "state": null,
+    "address": null,
+    "chesscom_location": "YMCA Saginaw, Mi",
+    "notes": "We play in the lobby Saturdays 12-4 free to play free to learnFordney StSaginawMi, 48601, USContact Email:"
+  },
+  {
+    "json_index": 1599,
+    "id": "tricity_chess_club",
+    "name": "Tri-City Chess Club",
+    "city": "Tri-City",
+    "state": null,
+    "address": null,
+    "chesscom_location": "YMCA Saginaw, Mi",
+    "notes": "We play in the lobby Saturdays 12-4 free to play free to learnFordney StSaginawMi, 48601, USContact Email:"
+  },
+  {
+    "json_index": 1600,
+    "id": "rockys_vegas_chess_club",
+    "name": "Rocky's Vegas Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Las Vegas, NV",
+    "notes": "CALL and join www.facebook.com/groups/rockychess at first., that all.E Cheyenne AveNorth Las Vegas, NVwww.facebook.com/groups/rockychessContact Email:"
+  },
+  {
+    "json_index": 1601,
+    "id": "south_miami_chess_club",
+    "name": "South Miami Chess Club",
+    "city": "South Miami",
+    "state": null,
+    "address": null,
+    "chesscom_location": "South Miami",
+    "notes": "We are a start-up Chess Club in South Miami. Our objective is to become the premier chess facility in Florida by taking a multi-level approach to promoting the game of chess. We are a chess community where players of all skill levels and abilities, from beginner to expert are welcome to participate in tournaments, attend lectures, private lessons and more. Miami, Florida 786-226-5514 www.southmiamichessclub.com Contact Email: southmiamicc@gmail.com"
+  },
+  {
+    "json_index": 1602,
+    "id": "center_square_chess_club",
+    "name": "Center Square Chess Club",
+    "city": "Center Square",
+    "state": null,
+    "address": null,
+    "chesscom_location": "The Altland House Bar and Grill",
+    "notes": "Chess club that meets and eats one thursday a month at The Altland House in the center circle of Abbottstown Pa. Look for our page on facebook under Center Square Chess Club for dates and times or email me at bcostella23@yahoo.com1 Center SquareAbbottstown, Pennsylvania, 173014103025803Contact Email: bcostella23@yahoo.com"
+  },
+  {
+    "json_index": 1603,
+    "id": "whittier_chess_club",
+    "name": "Whittier Chess Club",
+    "city": "Whittier",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Whittier High School Library",
+    "notes": "The Whittier Chess Club generally holds one-day tournaments once or twice each month. Typically these events have three (3) sections: 2000+, ABC (1400-1999), and Under 1400.12417 Philadelphia StreetWhittier, CA, 90601Contact Email: keleperkins@gmail.com"
+  },
+  {
+    "json_index": 1604,
+    "id": "davie_chess_club",
+    "name": "Davie Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "At Sparez Bowling Alley",
+    "notes": "5324 S . University Dr.Davie, Florida, 33314954-589-4198Contact Email: chesslight4983@yahoo.com"
+  },
+  {
+    "json_index": 1605,
+    "id": "lee_county_chess_club",
+    "name": "Lee County Chess Club",
+    "city": "Lee County",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Lee County Public Libray",
+    "notes": "We also meet at the Starbucks on Meredyth n Sunday from about noon - ???Walnut StLeesburg, GA, 31763229-759-2639Contact Email: bryanhaas73@gmail.com"
+  },
+  {
+    "json_index": 1606,
+    "id": "urban_town_chess2",
+    "name": "URBAN TOWN CHESS2",
+    "city": "Urban Town",
+    "state": null,
+    "address": null,
+    "chesscom_location": "knoxvill tn",
+    "notes": "This place is AWESOME!!! Remids me of chess in the parks of NY City. They have casual games, rated games, ladder matches, and even player of the month as well as most improved player. They give out awards to the players who achieves these awards. With out queston the best place to play chess in Knoxville. By the way they have free WIFI so if you just want to browse the net you can do that as well..705 central aveKnoxville, TN, 37917865)560-6413Contact Email: urbantownchess@gmail.com"
+  },
+  {
+    "json_index": 1607,
+    "id": "austin_chess_community",
+    "name": "Austin Chess Community",
+    "city": "Austin",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Austin, TX",
+    "notes": "This group is strictly for Chess.com members who live in the Austin area. To join, simply send a request. Please do mention your name. Thanks! :)"
+  },
+  {
+    "json_index": 1608,
+    "id": "deland_area_chess_group",
+    "name": "DeLand Area Chess Group",
+    "city": "Deland Area",
+    "state": null,
+    "address": null,
+    "chesscom_location": "DeLand Regional Library, Sat 1-5 PM",
+    "notes": "Meetings Wednesday and Saturday at the DeLand regional library (130 E. Howry Ave. DeLand, Florida, 32724) mostly upstairs on the North side 1:00pm. Usually in the auditorium downstairs at the end of the month on Saturday. Call or text Brian for details. (386) 747-6401. All skill levels are welcome!"
+  },
+  {
+    "json_index": 1609,
+    "id": "the_knights_tour_chess_club",
+    "name": "The Knight's Tour Chess Club",
+    "city": "The Knight'S Tour",
+    "state": null,
+    "address": null,
+    "chesscom_location": "West Hall",
+    "notes": "'The Knight's Tour' is a non-profit, community chess club for people of all ages and skill levels. We have continuous open enrollment, and we provide instruction to beginners and novices. Although there are minimal fees associated with your participation, the money that's not recycled back into our club's activities goes toward merchandise that becomes your personal property (e.g. chess sets). Email me for more information.206 E. 2nd Street.Weston, West Virginia, 26452Contact Email: chesscoacharmando@gmail.com"
+  },
+  {
+    "json_index": 1610,
+    "id": "lee_county_library_chess_club",
+    "name": "Lee County Library Chess Club",
+    "city": "Lee County Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Lee County Library",
+    "notes": "We officially meet on the third Saturday of every month at the main branch of the library. Unofficially we meet at theStarbucks on Meredyth Dr. Sunday around 12:30. Walnut Ave.Leesburg, GA, 31763229-759-2369Contact Email: honeycutt@leecountylibrary.org"
+  },
+  {
+    "json_index": 1611,
+    "id": "georgetown_chess_club",
+    "name": "Georgetown Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Georgetown, TX",
+    "notes": "Chess Heroes in central Texas."
+  },
+  {
+    "json_index": 1612,
+    "id": "ukiah_chess_club",
+    "name": "Ukiah Chess Club",
+    "city": "Ukiah",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Ukiah, CA",
+    "notes": "Ukiah Chess club is a local group for all ages and all levels. We play for fun and also offer free lessons for children on Thursday nights. We have multiple meeting times for games. please check out our website for more information at http://ukiahchess.com Thank you"
+  },
+  {
+    "json_index": 1613,
+    "id": "junction_city_chess_club",
+    "name": "Junction City Chess Club",
+    "city": "Junction City",
+    "state": null,
+    "address": null,
+    "chesscom_location": "GEM Studios",
+    "notes": "Tuesdays at 7 pm All ages and experience levels are welcomed to come play.815 N. Jefferson StreetJunction City, Kansas, 66441www.gemstudiosjc.comContact Email: gemstudiosjc@gmail.com"
+  },
+  {
+    "json_index": 1614,
+    "id": "huntsville_chess_club2",
+    "name": "Huntsville Chess Club2",
+    "city": "Huntsville",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Sunny Street Cafe",
+    "notes": "The Huntsville Chess Club is a newly consolidated chess club serving Madison, Huntsville and the surrounding area. We meet Mondays at 6pm and Adult Quads start at 7. We close the cafe when we're tired of playing. Hope to see you there.7143 B Hwy 72 WestMadisonAlabama, 35758www.huntsvillecc.comContact Email: huntsvillechessclub@gmail.com"
+  },
+  {
+    "json_index": 1615,
+    "id": "big_rapids_chess",
+    "name": "Big Rapids Chess",
+    "city": "Big Rapids",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Big Rapids, MI",
+    "notes": "A community chess club for the city of Big Rapids, Michigan. Beginning September 27, 2023 we will be meeting at Cranker's Brewery on Wednesdays from 7:00 pm to 9:00 pm. We are a USCF affiliate but mostly play casual games. People of all ages and abilities are welcome."
+  },
+  {
+    "json_index": 1616,
+    "id": "epoch_chess_club",
+    "name": "Epoch Chess Club",
+    "city": "Epoch",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Epoch Coffee 221 W North Loop Blvd, Austin, TX 78751",
+    "notes": "We like to meet at Epoch Coffee for two-way chess every weekend. Feel free to come by for a casual blitz or untimed game. We also play bughouse and other variants."
+  },
+  {
+    "json_index": 1617,
+    "id": "free_chess_club_of_harlingen",
+    "name": "Free Chess Club of Harlingen",
+    "city": "Free",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Harlingen Public Library",
+    "notes": "Thursdays, 6:30pm-8:00pm at the Harlingen Public Library76 driveHarlingen, Texas, 78551Contact Email: freechessclub@gmail.com"
+  },
+  {
+    "json_index": 1618,
+    "id": "south_tampa_chess",
+    "name": "South Tampa Chess",
+    "city": "South Tampa",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Charles J. Fendig Public Library",
+    "notes": "New South Tampa Chess Club, held at the local library on Neptune. First meeting: 2/24/2016 4:00pm - 6:00pm3909 W Neptune StTampa, FL, 33629southtampachess.wordpress.comContact Email:"
+  },
+  {
+    "json_index": 1619,
+    "id": "claremont_chess_club2",
+    "name": "Claremont Chess Club2",
+    "city": "Claremont",
+    "state": null,
+    "address": null,
+    "chesscom_location": "campus of Pomona College",
+    "notes": "Claremont Chess Club is Los Angeles' fastest-growing chess club. All chess players in the Inland Empire area are invited to join us Sunday afternoons (2-5) for casual chess, snacks and camaraderie. Our group on chess.com serves as a place for discussion, vote chess, team matches, and whatever else you want. All are welcome. Email ClaremontChess@outlook.com for more information. 170 E 6TH STCLAREMONT, CA, 91711www.chess.com/groups/view/claremont-chess-clubContact Email: ClaremontChess@outlook.com"
+  },
+  {
+    "json_index": 1620,
+    "id": "west_haven_renegade_knights",
+    "name": "West Haven Renegade Knights",
+    "city": "West Haven",
+    "state": "CT",
+    "address": null,
+    "chesscom_location": "West Haven, CT",
+    "notes": "Thursdays 6-10pm West Haven Police Department 200 Saw Mill Rd, West Haven, CT 06516 All chessplayers, young and old, are welcome! Sets and clocks provided! Sponsored by www.edutechchess.com"
+  },
+  {
+    "json_index": 1621,
+    "id": "ps166_manhattan_knights",
+    "name": "PS166 Manhattan Knights",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "New York City",
+    "notes": "We have won first place 7 times in city championship. This club is for PS166 students, coaches, and alumni."
+  },
+  {
+    "json_index": 1622,
+    "id": "coastal_chess_marco_island_naples_fl",
+    "name": "Coastal Chess - Marco Island Naples FL",
+    "city": "Coastal",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Marco Island, FL",
+    "notes": "This is the Chess.com group for members and friends of \"Coastal Chess\", located in Marco Island and Naples, Florida. This club has moved to the Jewish Congregation of Marco Island. The address is 991 Winterberry Dr, Marco Island, FL 34145. The group meets on Tuesday mornings starting at 9:30 am. All are welcome. Wade Keller has historically been the local coordinator for this club. I (Steve Etzel) have created this on-line presence for the club."
+  },
+  {
+    "json_index": 1623,
+    "id": "marshall_chess_club2",
+    "name": "Marshall Chess Club2",
+    "city": "Marshall",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Kiel's House",
+    "notes": "The Marshall Chess Club is open to everyone who wants to play chess in a fun and relaxed enviorment. Feel free to email me, Kiel, if you want to play a game.340 North Liberty StreetMarshall, Michigan, 49068Contact Email: kielclenney@hotmail.com"
+  },
+  {
+    "json_index": 1624,
+    "id": "grand_junction_chess_club",
+    "name": "Grand Junction Chess Club",
+    "city": "Grand Junction",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Safeway, Starbucks",
+    "notes": "Hello my name is Henry,we play chess monday nights at starbucks in the Safeway on 29 th and patterson. Drop in and play some chess. We start at 6:30 till 11:45.29 th Patterson RoadGrand Junction, Colorado, 81504970-243-1073jctchess.comContact Email:"
+  },
+  {
+    "json_index": 1625,
+    "id": "whittier_senior_chess_club_55",
+    "name": "Whittier Senior Chess Club (55+)",
+    "city": "Whittier Senior",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Whittier, Ca.",
+    "notes": "You don't have to be a City of Whittier resident but must be 55+. There is no cost to join. We have all skill levels and provide a supportive environment for Beginners. Tuesdays 9:00 - 11.30 a.m. Parnell Park Senior Center 15390 Lambert Road Whittier, Ca. 90604 Thursdays 9:00 - 11:30a.m. Uptown Senior Center 15390 Lambert Road Whittier, Ca. 90602 Phone # (562) 567-9470 Website: Cityofwhittier.org Email: Dlbarraza@gmail.com"
+  },
+  {
+    "json_index": 1626,
+    "id": "galveston_chess_club2",
+    "name": "Galveston chess club2",
+    "city": "Galveston",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Sonny's",
+    "notes": "We meet on Tuesdays from 7pm - closing. approximately 10-20 players19th st. & ave. MGalveston409-762-0004Contact Email:"
+  },
+  {
+    "json_index": 1627,
+    "id": "whittier_senior_chess_club_552",
+    "name": "Whittier Senior Chess Club (55+)2",
+    "city": "Whittier Senior",
+    "state": null,
+    "address": null,
+    "chesscom_location": "15390 Lambert Road",
+    "notes": "You don't have to be a City of Whittier resident. Must be 55+. There is no cost to join. We have all skill levels and provide a supportive environment for Beginners. We meet Tuesdays 9 - 11:30 a.m. at the Lambert Road/Parnell Park Senior Center. We meet Thursday's 9 - 11:30a.m. at the Uptown Senior Center. Some members meet Sunday afternoon. If you have any questions, please call the Center or you can email me at any time. 13225 Walnut St.WhittierCa., 90604 (address 1), Los Angeles(562) 567-9470Cityofwhittier.orgContact Email: Dlbarraza@gmail.com"
+  },
+  {
+    "json_index": 1628,
+    "id": "chino_chess_club",
+    "name": "Chino Chess Club",
+    "city": "Chino",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Chino Hills, CA",
+    "notes": "If you're in the Chino Hills / Chino, CA area, let's play some chess at the Public Library! -------------------------------------------------- ===----====----====----====----====----====----====----====--==== Once we have a few people ready to play, we'll set a weekly schedule to meet together and chess it out! --------------------------- ====----====----====----====----====----====----====----====--== Location: Chino Hills James S. Thalman Branch Library 14020 City Center Dr Chino, CA, 91709 United States"
+  },
+  {
+    "json_index": 1629,
+    "id": "eastside_chess_club_chesscom",
+    "name": "Eastside Chess Club",
+    "city": "Eastside",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Tucson Jewish Community Center",
+    "notes": "Eastside Chess Club The Eastside Chess Club welcomes chess enthusiasts of all ages to participate in club activities including club rated play, USCF rated events, ESCC Championship, informal play, and speed chess. Meeting Times and Location The Eastside Chess Club meets Wednesday nights from 6:00pm to 9:45pm at the Tucson Jewish Community Center (JCC) located on River Rd. and Dodge Blvd. Adult club members pay a $2 site fee each week they attend Children under 18 pay a $1 site fee each week they attend Site fee is waived for JCC members Every non-JCC player must pay the site fee, even those who do not get paired for rated games. Parents and friends who accompany players, but do not play chess themselves, are not expected to pay. Note: The fees go directly to the JCC for the use of the site3800 E River RoadTucson, AZ, 85718sazchess.orgContact Email: vice_president@sazchess.org"
+  },
+  {
+    "json_index": 1630,
+    "id": "oxford_public_library_chess_club",
+    "name": "Oxford Public Library Chess Club",
+    "city": "Oxford Public Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Oxford Public Library",
+    "notes": "The Chess Club is a drop in club for people of all ages and levels to stop in and start a game of chess. Chess Boards will be provided. We begin at 6:00 PM on Tuesday evenings.48 South 2nd StreetOxford, PA, 193636109329625oxfordpubliclibrary.org/Contact Email:"
+  },
+  {
+    "json_index": 1631,
+    "id": "chino_hills_chino_chess_club",
+    "name": "Chino Hills / Chino Chess Club",
+    "city": "Chino Hills / Chino",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Chino Hills James S. Thalman Branch Library",
+    "notes": "Join the group! --------------------------- If you're in the Chino Hills / Chino, CA area, let's play some chess at the Public Library! --------------------------- Once we have a few people ready to play, we'll set a weekly schedule to meet together and chess it out! ---------------------------14020 City Center DrChino, CA, 91709www.sbclib.org/LibraryLocations/JamesSThalmanChinoHillsBranchLibrary.aspxContact Email: chinochessclub@gmail.com"
+  },
+  {
+    "json_index": 1632,
+    "id": "dunham_public_library_chess_club",
+    "name": "Dunham Public Library Chess Club",
+    "city": "Dunham Public Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Dunham Public Library",
+    "notes": "Every Wednesday night from 6 - 8 pm.76 Main StreetWhitesboro, New York, 13492(315)736-9734www.whitesborolibrary.orgContact Email: tchromcz@roadrunner.com"
+  },
+  {
+    "json_index": 1633,
+    "id": "university_of_oklahoma_chess_club",
+    "name": "University of Oklahoma Chess Club",
+    "city": "University Of",
+    "state": "OK",
+    "address": null,
+    "chesscom_location": "Norman Oklahoma",
+    "notes": "The University of Oklahoma Chess Club is a student organization designed for people that like playing and learning chess. We regularly and provide chess training and open play possibilities for every skill level; from early beginner to U.S National master. All meetings are open and free to the public! Meeting Info: Mondays 6pm Felgar Hall, Room 300 For further information, contact Alexander Zapata(jzapat16@ou.edu) or Florian Helff(fhelff@ou.edu)865 Asp Ave.Felgar Hall 300Norman, Oklahoma, 730722098705522oklahoma.orgsync.com/org/chessContact Email: fhelff@ou.edu"
+  },
+  {
+    "json_index": 1634,
+    "id": "community_chess_club_of_rochester",
+    "name": "Community Chess Club of Rochester",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "The Chess Center",
+    "notes": "Plz. Check our web site: rochesterchessclub.org221 Norris Dr.Rochester, NY, 14610585 442 2430Community Chess Club of RochesterContact Email: dvdwrl@gmail.com"
+  },
+  {
+    "json_index": 1635,
+    "id": "beyond_chess_club",
+    "name": "Beyond Chess Club",
+    "city": "Beyond",
+    "state": null,
+    "address": null,
+    "chesscom_location": "",
+    "notes": "This is for all the people who go to Beyond Chess Club to teach or to learn. All masters to coach us are also welcome. Please tell me your name and who you are in a message if you wish to join."
+  },
+  {
+    "json_index": 1636,
+    "id": "chess_mates_nj2",
+    "name": "Chess Mates NJ2",
+    "city": "Rahway",
+    "state": "NJ",
+    "address": null,
+    "chesscom_location": "Suite 10A",
+    "notes": "HOURS OF OPERATION SUNDAY 10:00 A.M. - 7:00 P.M.MONDAYCLOSEDTUESDAY CLOSED WEDNESDAY 7:00 P.M. - 10:30 P.M.THURSDAY CLOSEDFRIDAY CLOSED SATURDAY 12:15 - 8:00 P.M.(MOST WEEKS) FOR NEWS AND TOURNAMENT RESULTS,VISIT THE CHESS MATES BLOG.75 East Cherry St.Rahway, NJ, 07065(732) 499-0118www.chessmatesnj.com/Contact Email: chessmates@chessmatesnj.com"
+  },
+  {
+    "json_index": 1637,
+    "id": "urban_town_chess",
+    "name": "Urban TOWN CHESS",
+    "city": "Urban Town",
+    "state": null,
+    "address": null,
+    "chesscom_location": "1309 N BROADWAY",
+    "notes": "Urban town Chess is a place for beginners to masters, we meet every day of the week.. Open at 6:00 pm till 10:00. We are affiliated with the United States Chess Federation, and have club tournaments once a week.1309 N BROADWAYKNOXVILLETn, 37917, Knoxchess37914@gmail.com865)560-6413Contact Email:"
+  },
+  {
+    "json_index": 1638,
+    "id": "miami_chess_team",
+    "name": "MIAMI CHESS TEAM",
+    "city": "Miami",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Miami, FL",
+    "notes": "Club for Miami locals. Would like to hold monthly chess meetings at alternating locations. Please join our group but be open minded and respectful of each other."
+  },
+  {
+    "json_index": 1639,
+    "id": "the_north_houston_chess_club",
+    "name": "The North Houston Chess Club",
+    "city": "The North Houston",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Oklahoma Community Center",
+    "notes": "The North Houston Chess Club was Created to help new chess players and Scholastic Chess players have a safe and fun environment where they can play and learn the great game of chess. We offer chess tournaments with prizes and there are strong players available for coaching. Please contact Dr. Nicholas Chrysanthou: Phone: (775)-240-5524 Facebook: https://www.facebook.com/profile.php?id=10000905394293727222 Conroe Huffsmith Magnolia, TexasConroe/ The Woddlands/ Magnolia/ Tombal, Texas(775)-240-5524www.northhoustonchess.orgContact Email:"
+  },
+  {
+    "json_index": 1640,
+    "id": "borderland_chess_central",
+    "name": "Borderland Chess Central",
+    "city": "Borderland",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Tx",
+    "notes": "Hi My team is Augy, Mark , Will , Davis We run K-12 grade non rated events and rated events of uscf members. We meet on Tuesdays at yarbrough library 4-7pm and after we meet @ 7-10 pm @ Couner Bakery area of Yarbrough or Dunkin Donuts. All players are welcome to join our events and meet ups. Like page on facebook borderchesscentralchess and EndGameChess, 915443-5892 facebookContact Email: kingmysetry@yahoo.com or markierockstar@gmail.com"
+  },
+  {
+    "json_index": 1641,
+    "id": "belvedere_tiburon_library_chess_club",
+    "name": "Belvedere Tiburon Library Chess Club",
+    "city": "Belvedere Tiburon Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Tiburon, CA",
+    "notes": "This is the group for the Belvedere Tiburon Library chess club, so we can stay in touch, discuss chess and play some games even when we aren't meeting. Let's have some fun!"
+  },
+  {
+    "json_index": 1642,
+    "id": "gwinnett_chess_club",
+    "name": "Gwinnett Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Panera Bread - Mall of Georgia",
+    "notes": "Contact Jim Cabiness 770-377-6870 for more information. 3235 Woodward Crossing BoulevardBuford, GA, 30519770-377-6870Contact Email:"
+  },
+  {
+    "json_index": 1643,
+    "id": "chippewa_valley_chess_club",
+    "name": "Chippewa Valley Chess Club",
+    "city": "Chippewa Valley",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Chippewa Falls Public Library",
+    "notes": "Hello chess players! The Chippewa Valley Chess Club meets on Monday evenings at 6PM at the library in Chippewa Falls. All ages and skill levels are welcome. 105 W Central StChippewa Falls, WI, 54729715-723-1146 x3Contact Email: infoservice@mycfpl.org"
+  },
+  {
+    "json_index": 1644,
+    "id": "rax",
+    "name": "RAX",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "The Castle, Windcrest, TX",
+    "notes": "unofficial group for Rackspace chess players"
+  },
+  {
+    "json_index": 1645,
+    "id": "the_carriage_house_of_florence_chess_club",
+    "name": "The Carriage house of Florence chess club",
+    "city": "The Carriage House Of Florence",
+    "state": null,
+    "address": null,
+    "chesscom_location": "in the dinning room and the patio area",
+    "notes": "All players of all age welcome. Willing to teach beginners to intermediate players. Regular games as well as blitz chess. No club fees required. Meets mon-sun at 7pm till 9pm.739 S parker driveFlorence, SC, 29502843-687-7598Contact Email: laferjrmike@gmail.com"
+  },
+  {
+    "json_index": 1646,
+    "id": "detroit_chess_club",
+    "name": "Detroit Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Joy Road and Telegraph",
+    "notes": "A Detroit chess club."
+  },
+  {
+    "json_index": 1647,
+    "id": "chesscom_backend",
+    "name": "Chesscom backend",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "",
+    "notes": "Chess.com Backend staff"
+  },
+  {
+    "json_index": 1648,
+    "id": "shaq_attack",
+    "name": "Shaq Attack",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Dallas",
+    "notes": "Praise be unto Shaquille, may he bestow his skills upon us."
+  },
+  {
+    "json_index": 1649,
+    "id": "greenwood_chess_club23",
+    "name": "Greenwood Chess Club23",
+    "city": "Greenwood",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Kroger Marketplace",
+    "notes": "Mondays 5-10:00 pm in the Kroger store (in the Deli-Starbucks area), 8745 S. Emerson Ave, Indianapolis, Indiana. This store is barely north of the intersection of South Emerson and County Line Road. Contact John Coffey john2001plus@gmail.com 801-856-4812. Email: john2001plus@gmail.com"
+  },
+  {
+    "json_index": 1650,
+    "id": "epic_chess_team",
+    "name": "epic chess team",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "",
+    "notes": "If you post news a lot, then you can be a super admin or an admin (depends on how many news you post.)"
+  },
+  {
+    "json_index": 1651,
+    "id": "chessfun",
+    "name": "chess=fun!!!!!!!!!!!!!!!!",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "",
+    "notes": "fun chess group"
+  },
+  {
+    "json_index": 1652,
+    "id": "daytona_beach_chess_club2",
+    "name": "Daytona Beach Chess Club2",
+    "city": "Daytona Beach",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Seabreeze United Church",
+    "notes": "Wednesday evening from 6:30 pm to 11:30 pm Contact: Paul B Tomaino, 386-239-9485 at pibit@cfl.rr.com orTony Cipollina, 386-316-3700 at tonyc@htmsdaytona.com501 N Wild Olive AveDaytona Beach, FL, 32118386-239-9485www.daytonabchcc.orgContact Email: pibit@cfl.rr.com"
+  },
+  {
+    "json_index": 1653,
+    "id": "brandywine_chess_club_chesscom",
+    "name": "Brandywine Chess Club ♔",
+    "city": "Brandywine",
+    "state": null,
+    "address": null,
+    "chesscom_location": "",
+    "notes": "The Brandywine Chess Club is a fun club for players of all ages and abilities. Feel free to join us every 1st Friday of the month!"
+  },
+  {
+    "json_index": 1654,
+    "id": "chess_players_anonymous_boston_meetup",
+    "name": "Chess Players Anonymous (Boston Meetup)",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Boston, MA",
+    "notes": "http://www.meetup.com/Chess-Players-Anonymous-CPA/ Hello people, welcome to our new official chess.com group. This group is primarily for the members of our Boston Meetup group. Our main priority is to play in person. This online thing is just a backup to prevent withdrawal symptoms. CPA is about reenergizing our passion for chess and having lots of fun in the process. CPA is meant to be an aggregation of chess players throughout the Boston area who probably do many other things but still maintain a passion for chess. On a bi-weekly basis, members will come together to challenge each other to friendly chess matches and conversation. Tournaments will be organized as membership allows."
+  },
+  {
+    "json_index": 1655,
+    "id": "chargers_chess_sherman_tx",
+    "name": "Chargers Chess Sherman TX",
+    "city": "Chargers",
+    "state": null,
+    "address": null,
+    "chesscom_location": "North Texas",
+    "notes": "Welcome to Chargers Chess! This group was created to provide an online meeting place for our club members and friends, where we can share games, play matches, provide training, and just expand our club's enjoyment of the game overall. We are located in North Texas and meet weekly on Tuesday evenings 6pm, at the United Way facility in Sherman. All ages are welcome to join us in person. We provide monthly USCF tournaments, and training for beginners through 2000 level strength. You have just discovered an excellent group of people to play and share chess with. If you live in the area, we would love for you to join us!"
+  },
+  {
+    "json_index": 1656,
+    "id": "maryvale_chess_team",
+    "name": "Maryvale chess team",
+    "city": "Maryvale",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Phoenix",
+    "notes": "We are maryvale's chess team"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "json_index": 1462,
+    "id": "chess_club_the_village_library",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "address": null
+  },
+  {
+    "json_index": 1463,
+    "id": "pocahontas_county_chess_club",
+    "city": "Marlinton",
+    "state": "WV",
+    "address": null
+  },
+  {
+    "json_index": 1464,
+    "id": "the_real_austin_chess_club",
+    "city": "Austin",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1465,
+    "id": "fairfield_chess_club",
+    "city": "Fairfield",
+    "state": "CT",
+    "address": null
+  },
+  {
+    "json_index": 1466,
+    "id": "newburgh_chess_club",
+    "city": "Newburgh",
+    "state": "IN",
+    "address": null
+  },
+  {
+    "json_index": 1467,
+    "id": "wcpld_chess_club",
+    "city": "West Chicago",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1468,
+    "id": "northeast_ohio_chess_club",
+    "city": null,
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1469,
+    "id": "potsdam_chess_club",
+    "city": "Potsdam",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1470,
+    "id": "cherokee_chess",
+    "city": null,
+    "state": "GA",
+    "address": null
+  },
+  {
+    "json_index": 1471,
+    "id": "marshall_members_only_tournaments",
+    "city": "New York City",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1472,
+    "id": "fallon_chess_club",
+    "city": "Fallon",
+    "state": "NV",
+    "address": null
+  },
+  {
+    "json_index": 1474,
+    "id": "south_florida_chess_hobbyists",
+    "city": null,
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1475,
+    "id": "southern_knights",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1476,
+    "id": "danville_chess_club",
+    "city": "Danville",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1477,
+    "id": "canaan_chess_club",
+    "city": "Canaan",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1478,
+    "id": "elizabethtown_chess_club",
+    "city": "Elizabethtown",
+    "state": "KY",
+    "address": null
+  },
+  {
+    "json_index": 1479,
+    "id": "saint_paul_chess_association",
+    "city": "Saint Paul",
+    "state": "MN",
+    "address": null
+  },
+  {
+    "json_index": 1480,
+    "id": "mistral_1st",
+    "city": "Mountain View",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1481,
+    "id": "proctorscitymissionchess",
+    "city": "Schenectady",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1482,
+    "id": "chessli",
+    "city": null,
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1483,
+    "id": "columbia_sc_chess_club",
+    "city": "Columbia",
+    "state": "SC",
+    "address": "6169 St Andrews Rd, Columbia, SC 29212"
+  },
+  {
+    "json_index": 1484,
+    "id": "congress_heights_dc",
+    "city": "Washington",
+    "state": "DC",
+    "address": null
+  },
+  {
+    "json_index": 1485,
+    "id": "mission_viejo_chess_club",
+    "city": "Mission Viejo",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1486,
+    "id": "crusader_chess_club_of_elptx",
+    "city": "El Paso",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1487,
+    "id": "chess_square",
+    "city": "Dayton",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1488,
+    "id": "frederick_chess_club",
+    "city": "Frederick",
+    "state": "MD",
+    "address": "401 Rosemont Ave, Frederick, MD 21701"
+  },
+  {
+    "json_index": 1489,
+    "id": "chesslamoni",
+    "city": "Lamoni",
+    "state": "IA",
+    "address": null
+  },
+  {
+    "json_index": 1490,
+    "id": "carol_stream_public_library_chess_club",
+    "city": "Carol Stream",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1491,
+    "id": "federal_way_chess_club",
+    "city": "Federal Way",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1492,
+    "id": "emmorton_rec_chess_club",
+    "city": "Bel Air",
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 1493,
+    "id": "fbc_club",
+    "city": "Sugar Land",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1495,
+    "id": "ihop_chess_club",
+    "city": "Centreville",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1496,
+    "id": "capital_area_chess",
+    "city": "Centreville",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1497,
+    "id": "bpl_chess_club",
+    "city": "Burlington",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1498,
+    "id": "sheboygan_tuesday_knight_chess_club",
+    "city": "Sheboygan",
+    "state": "WI",
+    "address": null
+  },
+  {
+    "json_index": 1499,
+    "id": "san_joaquin_chess_club",
+    "city": null,
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1500,
+    "id": "imater_chess_club",
+    "city": "Miami",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1501,
+    "id": "north_tampa_chess_club",
+    "city": "Tampa",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1502,
+    "id": "tri_state_chess_club",
+    "city": "Ridley Park",
+    "state": "PA",
+    "address": "501 N Swarthmore Ave, Ridley Park, PA"
+  },
+  {
+    "json_index": 1503,
+    "id": "highland_chess",
+    "city": "Louisville",
+    "state": "KY",
+    "address": "1140 Bardstown Rd, Louisville, KY 40204; 2200 Bardstown Rd, Louisville, KY 40205"
+  },
+  {
+    "json_index": 1504,
+    "id": "dolton_chess",
+    "city": "Dolton",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1505,
+    "id": "pawns_are_sole_of_the_game",
+    "city": "Seattle",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1506,
+    "id": "hub_city_chess_club_ky",
+    "city": "Elizabethtown",
+    "state": "KY",
+    "address": null
+  },
+  {
+    "json_index": 1507,
+    "id": "como_chess_club",
+    "city": "Columbia",
+    "state": "MO",
+    "address": null
+  },
+  {
+    "json_index": 1509,
+    "id": "waterville_chess_club",
+    "city": "Waterville",
+    "state": "ME",
+    "address": null
+  },
+  {
+    "json_index": 1510,
+    "id": "sarasota_county_libraries_chess_club",
+    "city": "Sarasota",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1512,
+    "id": "30th_st_chess_club",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1513,
+    "id": "troop_526_tournament_club",
+    "city": "North Royalton",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1514,
+    "id": "corpus_christi_chess_community",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1515,
+    "id": "capital_city_chess_club_rva",
+    "city": "Richmond",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1516,
+    "id": "bozeman_chess_club",
+    "city": "Bozeman",
+    "state": "MT",
+    "address": null
+  },
+  {
+    "json_index": 1517,
+    "id": "rockford_chess_club",
+    "city": "Rockford",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1518,
+    "id": "az_chess_central",
+    "city": "Gilbert",
+    "state": "AZ",
+    "address": null
+  },
+  {
+    "json_index": 1519,
+    "id": "napa_valley_chess_club",
+    "city": "Napa",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1520,
+    "id": "wyoming_chess_club",
+    "city": null,
+    "state": "WY",
+    "address": null
+  },
+  {
+    "json_index": 1521,
+    "id": "friday_knights_chess_club_tn",
+    "city": "Memphis",
+    "state": "TN",
+    "address": null
+  },
+  {
+    "json_index": 1522,
+    "id": "chessaholics",
+    "city": "Houston",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1523,
+    "id": "chess_vets",
+    "city": "Temple",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1524,
+    "id": "social_chess_in_the_mission",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": "1132 Valencia St, San Francisco, CA"
+  },
+  {
+    "json_index": 1526,
+    "id": "sacramento_pawns",
+    "city": "Sacramento",
+    "state": "CA",
+    "address": null
+  }
+]

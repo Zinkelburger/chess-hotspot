@@ -1,0 +1,652 @@
+[
+  {
+    "json_index": 747,
+    "id": "warwick_chess_club",
+    "name": "Warwick Chess Club",
+    "city": "Warwick",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Warwick, NY",
+    "notes": "The Warwick Chess Club hosts regular meetings for families to gather and play chess. Players of all skill levels are welcome! Basic instruction available."
+  },
+  {
+    "json_index": 748,
+    "id": "lexington_mo_chess_club",
+    "name": "Lexington MO Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Lexington, MO",
+    "notes": "Come join to help our brand new community grow! Whether you're a talented grandmaster, or just learning how to move the pieces, we try to keep the club welcoming to all people! Rules: 1. Always be respectful to your opponents. 2. Language must stay clean and positive. In-club rules: 3. Only drinks in bottles with secure lids are allowed (No food allowed). 4. Board supply is limited. So if you have the ability to bring a board then please do so. 5. Have a great time. Keep in mind we're a brand new community so please follow the rules and be welcoming to new members!"
+  },
+  {
+    "json_index": 749,
+    "id": "newton_ia_chess_club",
+    "name": "Newton Ia Chess Club",
+    "city": "Newton",
+    "state": "IA",
+    "address": null,
+    "chesscom_location": "118 N 2nd Ave E, Newton, IA 50208",
+    "notes": "We meet at Grey Moon Market Thursday night from 6pm-9pm for causal OTB blitz, bullet, and slow chess. Come join for a fun night of chess with."
+  },
+  {
+    "json_index": 750,
+    "id": "marksville_chess_club",
+    "name": "Marksville Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Marksville Louisiana",
+    "notes": "contact me about joining the local club if you are in the 318 area code"
+  },
+  {
+    "json_index": 751,
+    "id": "box_office_brewery_chess_club",
+    "name": "Box Office Brewery Chess Club",
+    "city": "Box Office Brewery",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Strasburg, VA",
+    "notes": "We are the Box Office Brewery Chess Club. We are located in Strasburg, Virginia. We meet every Wednesday from 6:30 PM - 8 PM at Box Office Brewery. All levels are welcome!"
+  },
+  {
+    "json_index": 752,
+    "id": "blount_county_library_chess_club",
+    "name": "Blount County Library Chess Club",
+    "city": "Blount County Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "508 North Cusick Street Maryville Tennessee 37804",
+    "notes": "This chess club meets every Wednesday evening 5 pm to 8 pm and every Saturday afternoon 12 pm to 4 pm at the Blount County Library 508 North Cusick Street Maryville Tennessee 37804 everyone of all chess skill levels is welcome to come and play at anytime at this chess club"
+  },
+  {
+    "json_index": 753,
+    "id": "seaside_oregon_chess_club",
+    "name": "Seaside Oregon Chess Club",
+    "city": "Seaside",
+    "state": "OR",
+    "address": null,
+    "chesscom_location": "Seaside, Oregon",
+    "notes": "This club is for chess enthusiasts who live in Seaside, Oregon or the surrounding areas. Everyone is welcome to join: all ages from beginners to experts. We are happy to teach those who are curious. Check the annoucements for a list of events (casual play, social events and hopefully local tournaments soon)."
+  },
+  {
+    "json_index": 754,
+    "id": "chess_for_change",
+    "name": "Chess for Change",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Raleigh, North Carolina",
+    "notes": "Organizing meet-ups for friendly games, a great place to make friends with like-minded progressives in the Raleigh-Durham area"
+  },
+  {
+    "json_index": 755,
+    "id": "westside_chess_club",
+    "name": "Westside chess club",
+    "city": "Westside",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Beaverton/Tigard/Portland",
+    "notes": "The Westside Chess Club is a group of players from the west side of the Willamette River (primarily Tigard/Beaverton/West Portland) We meet every Saturday night from six till nine pm at Ava Roasteria (15135 SW Barrows Rd Beaverton OR)."
+  },
+  {
+    "json_index": 756,
+    "id": "peoria_sunday_chess",
+    "name": "Peoria Sunday Chess",
+    "city": "Peoria Sunday",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Peoria, Illinois",
+    "notes": "Casual chess club in Peoria, Illinois. Players of all skill levels are welcomed to stop by for a game! Currently meeting every Sunday from 11 a.m. to 1 p.m. at the CxT-Campustown Coffee Shop."
+  },
+  {
+    "json_index": 757,
+    "id": "cedar_creek_chess_club",
+    "name": "Cedar Creek Chess Club",
+    "city": "Cedar Creek",
+    "state": null,
+    "address": null,
+    "chesscom_location": "East Texas",
+    "notes": "Informal Chess meetup for all ages & abilities!"
+  },
+  {
+    "json_index": 758,
+    "id": "blunders_and_brews",
+    "name": "Blunders and Brews",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "North Carolina",
+    "notes": "Blunders and Brews is a social community in the Piedmont Triad area of North Carolina. We enjoy good drinks, good company, and a good blunder."
+  },
+  {
+    "json_index": 759,
+    "id": "ourchess",
+    "name": "OurChess",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "NYC",
+    "notes": "OurChess is a New York community driven Chess club that does it for the love of the game and for the love of the people. Founded in the summer of 2025, OurChess has become a home for casual and competitive chess players, all with the one motive: getting better at their game. Hosting weekly events from Flatbush to Harlem, OurChess invites you to show up as you are and learn something. Always free, open to every Body and every skill level; to be apart of the OurChess family, all you need to do is come!"
+  },
+  {
+    "json_index": 760,
+    "id": "lower_alabama_chess_club_lacc",
+    "name": "Lower Alabama Chess Club LACC",
+    "city": "Lower",
+    "state": "AL",
+    "address": null,
+    "chesscom_location": "Bay MInette, Alabama",
+    "notes": "♟ Welcome to the Lower Alabama Chess Club!! Whether you’re a curious beginner or a seasoned strategist, our chess club is the perfect place to sharpen your skills, meet fellow enthusiasts, and enjoy the timeless game of kings and queens. We offer: Casual & Competitive Play – Friendly matches, tournaments, and puzzle challenges. Learning Opportunities – Tips, lessons, and strategy discussions for all levels. A Welcoming Community – A supportive space to connect, share ideas, and have fun. Join us to make your next move—on the board and in friendship!"
+  },
+  {
+    "json_index": 761,
+    "id": "dupont_circle_chess_club_dccc",
+    "name": "Dupont Circle Chess Club - DCCC",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Washington DC",
+    "notes": "Washington DC Dupont Circle Club"
+  },
+  {
+    "json_index": 762,
+    "id": "spotsylvania_chess",
+    "name": "Spotsylvania Chess",
+    "city": "Spotsylvania",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Spotsylvania and surrounding area",
+    "notes": "This online club is for our local in person players! In order to join you must fill out this form and be approved. This is to make sure that we are keeping the club open to local players so we can better build and server our 'over the board' community of chess players. Players must live in Spotsylvania or the Surrounding areas (~30mile radius) Players must be identified as youth or adult players (With the understanding that MOST of our events focus on Scholastic level play)"
+  },
+  {
+    "json_index": 763,
+    "id": "bookmelons_chess_club",
+    "name": "Bookmelon's Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "America",
+    "notes": "Let's Play Chess"
+  },
+  {
+    "json_index": 764,
+    "id": "the_claremont_chess_club",
+    "name": "The Claremont Chess Club",
+    "city": "The Claremont",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Claremont, California",
+    "notes": "Chess club based in Claremont California"
+  },
+  {
+    "json_index": 765,
+    "id": "the_geekery_chess_club",
+    "name": "The Geekery Chess Club",
+    "city": "The Geekery",
+    "state": null,
+    "address": null,
+    "chesscom_location": "1324 S 2100 E Salt Lake City, UT  84108 United States",
+    "notes": "The Geekery is an after school enrichment business where everyone gets to play. We offer Improv, DnD, Chess, and so much more! This is the official page for our Chess club that meets bi-weekly on Saturdays! Come check us out."
+  },
+  {
+    "json_index": 766,
+    "id": "casual_chess_club_alamosa",
+    "name": "Casual Chess Club - Alamosa",
+    "city": "Casual",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Alamosa, Colorado",
+    "notes": "Welcome to Casual Chess Club Clubhouse on Chess.com! Friendly chess players of all genders, ages and levels from beginners to masters are welcome. Casual Chess Club™ members currently meet both online and in-person for over-the-board play. Online events appear here. Click here for details on how to join our Clubhouse on Chess.com. Visit our website at: www.casualchessclub.com ."
+  },
+  {
+    "json_index": 767,
+    "id": "paris_ky_chess_club",
+    "name": "Paris KY Chess Club",
+    "city": "Paris",
+    "state": "KY",
+    "address": null,
+    "chesscom_location": "517 Pleasant St. Paris, Ky 40361",
+    "notes": "Paris Chess Club is located in Paris, Kentucky. We meet every Tuesday night at 6PM in the First Presbyterian Church basement (517 Pleasant St., Paris, Ky 40361). We have a fun and casual atmosphere where you may enjoy free chess games with peers. Come on Tuesday's. have a blast, and enjoy some face-to-face chess matches! All ages welcome."
+  },
+  {
+    "json_index": 768,
+    "id": "wendell_chess",
+    "name": "Wendell Chess",
+    "city": "Wendell",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Wendell, NC",
+    "notes": "Wendell Chess Club is committed to growing a strong and welcoming chess community. Through our love of chess — and our passion for teaching and learning alongside the community — our admins work to bring in players from across the Triangle: Raleigh, Wendell, Knightdale, Zebulon, Wake Forest, and even Durham. Together, we’re building a club that’s not only a local favorite, but a recognizable, must-visit chess destination on the national stage."
+  },
+  {
+    "json_index": 769,
+    "id": "mchenry_county_homeschool_chess_club",
+    "name": "McHenry County Homeschool Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Illinois",
+    "notes": "Local club, play, socialize, and have fun!"
+  },
+  {
+    "json_index": 770,
+    "id": "lancaster_chess_society",
+    "name": "Lancaster Chess Society",
+    "city": "Lancaster",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Lancaster, PA",
+    "notes": "Social chess club meeting every Monday night. Grab a beer and play a game with your local community! Hildy's Tavern 448 W. Frederick Street Lancaster, PA"
+  },
+  {
+    "json_index": 771,
+    "id": "iron_horse_chess_association_spring_hill_tn",
+    "name": "Iron Horse Chess Association Spring Hill TN",
+    "city": "Iron Horse",
+    "state": null,
+    "address": null,
+    "chesscom_location": "2001 Campbell Station Pkwy Ste C11, Spring Hill, TN 37174",
+    "notes": "Hi, I'm Jared, the Tournament Director. We host US Chess-rated events for players of all levels — from casual match nights to competitive tournaments. Our club is built on fairness, growth, and community. Whether you're chasing your first rating or climbing toward master level, you'll find a place here. Join us for weekly events, skill clinics, and prize-supported tournaments. All formats are welcome — blitz, rapid, classical — and we’re always open to new ideas."
+  },
+  {
+    "json_index": 772,
+    "id": "dpad_new_braunfels_chess_club",
+    "name": "DPAD New Braunfels Chess Club",
+    "city": "Dpad New Braunfels",
+    "state": null,
+    "address": null,
+    "chesscom_location": "1024 W San Antonio St  Suite A New Braunfels, TX 78130",
+    "notes": "Join us Every Thursday at 6PM at DPAD for fun games of chess. All ages welcome."
+  },
+  {
+    "json_index": 773,
+    "id": "saturday_morning_chess_club_in_colorado_springs",
+    "name": "Saturday Morning Chess Club in Colorado Springs",
+    "city": "Saturday Morning",
+    "state": null,
+    "address": null,
+    "chesscom_location": "330 N Institute Street Colorado Springs, CO 80903",
+    "notes": "Saturday Morning Chess Club at Switchback Coffee Roaster - Shooks Run location (330 N Institute Street, Colorado Springs, CO 80903) Every Saturday morning 7:30-9:30, all levels, ages, etc. welcome for casual, over the board play and feel free to get a cup of coffee or food while there! Please bring any extra boards/pieces you may have for more people to play on!"
+  },
+  {
+    "json_index": 774,
+    "id": "the_battleground_cafe_chess_club",
+    "name": "The Battleground Cafe Chess Club",
+    "city": "The Battleground Cafe",
+    "state": null,
+    "address": null,
+    "chesscom_location": "White Bear Lake Minnesota",
+    "notes": "Step into the Battle Grounds Café, where every Tuesday night transforms into an arena of strategy, focus, and fun. From 6:30 PM to 10:00 PM, players of all skill levels gather to sharpen their tactics, challenge new opponents, and enjoy the warm, welcoming atmosphere of our weekly chess meet up. Whether you’re a seasoned competitor or just learning the ropes, you’ll find friendly faces, thoughtful matches, and a community that loves the game as much as you do. Bring your favorite openings, your boldest ideas, and your curiosity. There’s always a new battle waiting across the board. FaceBook Page! Instagram Page!"
+  },
+  {
+    "json_index": 775,
+    "id": "franklin_tn_chess_club",
+    "name": "Franklin TN Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Franklin, TN",
+    "notes": "For active, in-person members of the Franklin Chess Club."
+  },
+  {
+    "json_index": 776,
+    "id": "tremont_chess_club",
+    "name": "Tremont Chess Club",
+    "city": "Tremont",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Pace Cafe 2670 W 14th st Cleveland, Ohio",
+    "notes": "A new kind of club culture! All levels welcome, people from 300-2100 thus far have been attending weekly."
+  },
+  {
+    "json_index": 777,
+    "id": "the_columbus_chess_club",
+    "name": "The Columbus Chess Club",
+    "city": "The Columbus",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Columbus, OH",
+    "notes": "Welcome to the Columbus Chess Club. We meet at 80 Parsons Ave 43215 every Sunday from 12-4pm except for holiday weekends. Players of all ages and skills are welcome at no cost and no enrollment. Wednesday evenings, members of the club have casual gatherings a couple doors down from the club space at The Olde Oak for Beer & Blitz Night. Feel free to reach out to an administrator or through our Columbus Chess Club Facebook page with any questions."
+  },
+  {
+    "json_index": 778,
+    "id": "rahway_chess_club",
+    "name": "Rahway Chess Club",
+    "city": "Rahway",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Rahway New Jersey",
+    "notes": "Format: 3 Rounds Quad, G/30 d/05 Entry fee $60. Rounds 1, promptly at 1:15 PM Rounds1, 1:15 PM Rounds 2, 2:30 PM Rounds 3, 3:45 PM Register Today! First four Online registration will receive a 40% Discount !!! Online Registration only:. club capacity cap @ 20 participants registration will close when accommodations is full! advance entry will be updated daily Rahway Chess Club (chessmatesnj.com) 75E Cherry St Rahway NJ 07065. Enter thru Mini Mall Entrance come to Stairs in the center the Club is the first door on top of stairs if any problems site works best on iPhone, Android and in safari"
+  },
+  {
+    "json_index": 779,
+    "id": "martinsville_chess_club",
+    "name": "Martinsville Chess Club",
+    "city": "Martinsville",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Martinsville, IL",
+    "notes": "Welcome to the Martinsville library chess club!"
+  },
+  {
+    "json_index": 780,
+    "id": "flagler_chess_club",
+    "name": "Flagler Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Flagler County, FL",
+    "notes": "https://flaglerchess.com/ https://www.facebook.com/groups/flaglerchess"
+  },
+  {
+    "json_index": 781,
+    "id": "jackson_hole_chess_club",
+    "name": "Jackson Hole Chess Club",
+    "city": "Jackson Hole",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Jackson, WY",
+    "notes": "A casual community promoting over-the-board chess in the shadow of the Tetons. Beginners welcome!"
+  },
+  {
+    "json_index": 782,
+    "id": "marion_county_chess_club",
+    "name": "Marion County Chess Club",
+    "city": "Marion County",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Silver Springs Shores, Florida",
+    "notes": "Welcome to the Marion County Chess Club — the home for players of all ages and skill levels in Central Florida! We meet regularly for friendly games, lessons, and rated tournaments. Whether you’re a beginner looking to learn or a seasoned player chasing rating points, you’ll find a welcoming, competitive community here. Join us online and over the board!"
+  },
+  {
+    "json_index": 783,
+    "id": "mckinney_online_chess_club",
+    "name": "McKinney Online Chess Club",
+    "city": "Mckinney Online",
+    "state": null,
+    "address": null,
+    "chesscom_location": "6861 Eldorado Pkwy, McKinney, TX 75070",
+    "notes": "The McKinney Online Chess Club was created to serve as the online location for all members and participants of local clubs and events within the city of McKinney and McKinney Library System. The club hosts a large amount of tournaments at a broad range of times and dates to ensure all club members are able to participate, regardless of schedule. It is also used as a platform to organize in-person events for the people and residents of McKinney."
+  },
+  {
+    "json_index": 784,
+    "id": "north_east_tennessee_chess_club",
+    "name": "North East Tennessee Chess Club",
+    "city": "North East",
+    "state": "TN",
+    "address": null,
+    "chesscom_location": "Tri-Cities Tennessee / Elizabethton / Johnson City / Bristol / Kingsport",
+    "notes": "We’re a brand-new group of chess enthusiasts in the Northeast Tennessee area, just starting to find one another and build a local community. Whether you're a total beginner or an experienced player, you're welcome to join us as we grow, learn, and start meeting in person for casual games, study sessions, and (eventually!) tournaments. If you love chess — or just want to learn — and you’re in the region, we’d love to connect with you. Let’s build something great together, one move at a time."
+  },
+  {
+    "json_index": 785,
+    "id": "portsmouth_ohio_chess_club",
+    "name": "Portsmouth Ohio Chess Club",
+    "city": "Portsmouth",
+    "state": "OH",
+    "address": null,
+    "chesscom_location": "Portsmouth, OH",
+    "notes": "This is the Portsmouth Chess Club located in Portsmouth, OH. If you are local to the Southern Ohio area and have been searching for a local club to further your Chess skills and have fun in the process, please join! All ratings are welcome!"
+  },
+  {
+    "json_index": 786,
+    "id": "shaolin_kung_fu",
+    "name": "Shaolin Kung Fu",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Denver, Colorado",
+    "notes": "Chess and Shaolin Kung Fu are a way of life! With Chess, just as in Kung Fu, controlling the center controls the match. Your opponent will need to go around your defenses; their attack will take more time, and you will gain the initiative with faster counterattacks. Both in Chess and in Kung Fu the road to mastery takes persistence, tenacity, and imagination. It is the literal translation of the Word Kung Fu, which means \"Time and Effort\" or rather \"Mastery of a skill, through time and effort.\" While I have achieved the level of Elder Master \"Lau Shifu\" in Shaolin Kung Fu I have yet to attain the level of Master in Chess, but I will continue to enjoy the journey along the way, and hopefully a few of you will join me on this lifelong endeavor. Come try our Shaolin Chess Club out, and if you want you can look up Shaolin Kung Fu at Shao-lin.com to start your Shaolin Kung Fu journey as well. djemir.com If you want to play over the board, live chess games, we also have a Chess Club every Friday from 4PM-5:45PM at The Tallyn's Reach Library in Aurora, Colorado."
+  },
+  {
+    "json_index": 787,
+    "id": "sherman_chess_club_in_texas",
+    "name": "Sherman Chess Club in Texas",
+    "city": "Sherman",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Sherman, TX",
+    "notes": "Anyone of any age or skill level is welcome at our weekly casual meetings. Nothing required to become a member besides showing up."
+  },
+  {
+    "json_index": 788,
+    "id": "lumen_chess_club",
+    "name": "Lumen Chess Club",
+    "city": "Lumen",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Waltham, MA",
+    "notes": "Hi everyone, We meet Mondays from 6-8pm at Lumen Academy, 175 Main St, in Waltham. We are open to all, adults and kids, beginners and experts! It is free and chess sets are provided! Please join our group if you think you might be interested in coming some times - you can also join our facebook group: https://www.facebook.com/share/g/1ET53FXCbA/ Thanks! Luke"
+  },
+  {
+    "json_index": 789,
+    "id": "marshfield_chess_club",
+    "name": "Marshfield Chess Club",
+    "city": "Marshfield",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Marshfield, WI",
+    "notes": "Casual chess for all ages and experience levels - located in Marshfield, WI."
+  },
+  {
+    "json_index": 790,
+    "id": "plaza_midwood_chess_club",
+    "name": "Plaza Midwood Chess Club",
+    "city": "Plaza Midwood",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Charlotte, NC",
+    "notes": "Plaza Midwood Chess Club ♟️ is the place where chess enthusiasts gather to enjoy the game without the fuss of ratings or formal education. Our club is all about connecting with like-minded people, fostering a stronger community, and making new friends. Chess is the excuse! Here, it’s all about easygoing matches mixed with the occasional eureka moment when inspiration strikes! If you're an adult in the Charlotte area looking forward to make some new friends and play some Chess PMCC is your perfect match. Grab your chess gear, bring your personable self, and get ready for a cool, fun, and friendly chess experience! Whether you're a newbie figuring out your first moves or Magnus Carlsen, everyone’s welcome to join in the fun. Feel free to engage in games with or without time controls, whatever suits your style. We’ve got some chess sets ready for action, but you’re totally free to bring your own setup, including a chess clock if timed games are your thing. We'll keep it classy with chess etiquette, no trash talk needed. Find us on: 📷 instagram.com/plazamidwood_chessclub 🎟️ meetup.com/plaza-midwood-chess-club"
+  },
+  {
+    "json_index": 791,
+    "id": "union_square_nyc",
+    "name": "Union Square NYC",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "14th Street Union Square New York",
+    "notes": "The heart of NYC street Chess, join if you’ve ever played Chess in Union or Washington Square Park!"
+  },
+  {
+    "json_index": 792,
+    "id": "cobb_county_rooks",
+    "name": "Cobb County Rooks",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Cobb County Georgia",
+    "notes": "While based in Cobb County Georgia, not required to be located in Cobb County to participate. Family friendly, no language, education, chess book club, lessons, local tournaments, etc... Language: English, Español"
+  },
+  {
+    "json_index": 793,
+    "id": "east_bay_chess",
+    "name": "East Bay Chess",
+    "city": "East Bay",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Oakland Berkeley Emeryville",
+    "notes": "East Bay Chess Hopefully some in person casual meetups!"
+  },
+  {
+    "json_index": 794,
+    "id": "greater_knoxville_area_chess_club",
+    "name": "Greater Knoxville Area Chess Club",
+    "city": "Greater Knoxville Area",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Knoxville Tennessee",
+    "notes": "Greater Knoxville Area Chess Club we meet Thursdays at the Tennessee Valley Unitarian Universality Church 2931 Kingston Pike Knoxville Tennessee 37919 from 5:30 pm to 9:00 pm"
+  },
+  {
+    "json_index": 795,
+    "id": "kakaako_oahu_chess",
+    "name": "Kakaako Oahu Chess",
+    "city": "Kakaako Oahu",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Oahu Hawaii",
+    "notes": "Purpose of group is to enable scheduling chess meetups for over the board play. Meetup locations and times (Kakaako & Kapolei) will be posted. This group will be for over the board play only."
+  },
+  {
+    "json_index": 796,
+    "id": "tehachapi_chess_club",
+    "name": "Tehachapi chess club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Tehachapi CA",
+    "notes": "A club starting out in Tehachpi for mainly beginners in chess."
+  },
+  {
+    "json_index": 797,
+    "id": "windy_city_chess_collective",
+    "name": "Windy City Chess Collective",
+    "city": "Windy City",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Chicagoland Area",
+    "notes": "The Windy City Chess Collective is a community of passionate chess players who gather at Chicagoland events and beyond. Our group was created for players of similar strength who want to learn, compete, and grow together in a supportive environment. We welcome anyone who loves the game—whether you’re sharpening your openings, grinding endgames, or just enjoying the thrill of OTB competition. Together, we study, play, and share in the excitement of every move. 📍 Based in Chicago, with a focus on local tournaments and meetups. ♟️ Open to players of all ratings, especially those looking to build skills through friendly competition. 🌟 Our mission: community, improvement, and the love of chess."
+  },
+  {
+    "json_index": 798,
+    "id": "chessqueen_club_charlotte",
+    "name": "ChessQueen Club Charlotte",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Charlotte",
+    "notes": "ChessQueen Club, Charlotte welcomes you all. Visit our website for all tournament information https://chessqueenclub.org/ Avail all benefits by becoming a club member !"
+  },
+  {
+    "json_index": 799,
+    "id": "pacific_trails_chessy_chess_club_i_like_cheese",
+    "name": "Pacific Trails Chessy Chess Club - I Like Cheese",
+    "city": "Pacific Trails",
+    "state": null,
+    "address": null,
+    "chesscom_location": "San Diego",
+    "notes": "A chess club for Pacific Trails Chess Club. All welcome as long you come to the onsite chess club. In case if you haven't checked out our slides either because you joined via Club Fair or you only clicked on 1 of the links on the club slides (unlikely), here is some extra information about our club: https://docs.google.com/presentation/d/14ldixms10YMnsJx3NpiZqyGHbhIccZnOYi7kvj8oQng/edit?slide=id.p#slide=id.p"
+  },
+  {
+    "json_index": 800,
+    "id": "san_tan_brewing_chess_club",
+    "name": "San Tan Brewing Chess Club",
+    "city": "San Tan Brewing",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Chandler, AZ",
+    "notes": "This is the official chess club of San Tan Brewing Co. Join here to participate in upcoming tournaments, including our first ever on September 20th!"
+  },
+  {
+    "json_index": 801,
+    "id": "lake_county_chess_club",
+    "name": "Lake County Chess Club",
+    "city": "Lake County",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Lake County, IL",
+    "notes": "We're located in Lake County, Illinois, USA. We get together a few times per month to play over the board. Join us online when we're not in person."
+  },
+  {
+    "json_index": 802,
+    "id": "the_new_egyptians",
+    "name": "The New Egyptians",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "New Egypt, New Jersey",
+    "notes": "The Official Chess Club in New Egypt"
+  },
+  {
+    "json_index": 803,
+    "id": "chesapeake_chess_club",
+    "name": "Chesapeake Chess Club",
+    "city": "Chesapeake",
+    "state": null,
+    "address": null,
+    "chesscom_location": "",
+    "notes": "Running semi-weekly tournaments in the Chesapeake, VA area. Rating restrictions are 2000+ or was once 2000+ We run these on Saturdays at 10AM, 3 rounds of G45+5 If this interests you contact me at chessmastertyson@gmail.com"
+  },
+  {
+    "json_index": 804,
+    "id": "balanced_rook_chess_club",
+    "name": "Balanced Rook Chess Club",
+    "city": "Balanced Rook",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Colorado Springs",
+    "notes": "Colorado Springs, Colorado's Social Chess Club A friendly, social atmosphere for players of all skill levels and ages to connect, learn, and play. We meet on Thursdays, 6:00-9:00pm at Wackadoo Brewing in Colorado Springs ♖♘♗♕♔♗♘♖"
+  },
+  {
+    "json_index": 805,
+    "id": "shreveportbossier_chess_club",
+    "name": "Shreveport-Bossier Chess Club",
+    "city": "Shreveport-Bossier",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Shreveport Lousiana",
+    "notes": "We meet every Tuesday night from 6PM - 8PM at Cafe Boba Tea at 3950 Youree Drive #160. All ages welcome."
+  },
+  {
+    "json_index": 806,
+    "id": "henderson_tn_chess_club",
+    "name": "Henderson TN Chess Club",
+    "city": "Henderson",
+    "state": "TN",
+    "address": null,
+    "chesscom_location": "Henderson, TN, U.S.",
+    "notes": "Henderson, TN Chess Club Welcome to the official Chess.com club for all players in the area! Whether you're a beginner just learning the moves or a veteran looking for a challenge, this is the place to connect with your local chess community online. We're dedicated to bringing together chess enthusiasts from Henderson, TN and its surrounding neighborhoods and Cities (Jackson, Lexington, Bethel Springs, etc.) for friendly competition, learning, and fun. In this club, you can expect: Regular Tournaments: Compete for local bragging rights in our scheduled live and daily tournaments. Club Matches: Represent our Henderson, TN chess community in team matches against other clubs from around the world. Active Forums: Discuss games, openings, and strategies, or simply connect with fellow chess players in our area!"
+  },
+  {
+    "json_index": 807,
+    "id": "bay_ridge_chessmates",
+    "name": "Bay Ridge Chessmates",
+    "city": "Bay Ridge",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Bay Ridge, Brooklyn, New York",
+    "notes": "Weekly chess group meeting in Bay Ridge Brooklyn. Beginners to Advanced all welcome. Children through Adults. Day/Time: Wednesdays 6:30pm Location: Greenhouse Cafe, 77-17 3rd Avenue, Brooklyn, NY 11209 No fee to play. Just buy a drink or food item to support our hosts and waiters. IG: @bayridgechessmates FB: facebook.com/groups/bayridgechessmates"
+  },
+  {
+    "json_index": 808,
+    "id": "opl_lakeview_chess_club",
+    "name": "OPL Lakeview Chess Club",
+    "city": "Opl Lakeview",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Oakland",
+    "notes": "Chess club at Lakeview Branch of Oakland Public Library 1st and 3rd Saturday of the month, 12 pm to 2 pm"
+  },
+  {
+    "json_index": 809,
+    "id": "first_city_chess_uscf_unrated",
+    "name": "First City Chess - USCF Unrated",
+    "city": "First City",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Leavenworth, Kansas",
+    "notes": "This is the official Chess.com page for First City Chess Club (FC3) . We are a local chess club based in Leavenworth, Kansas , currently in the process of building out both our in-person playing location and our over-the-board tournament schedule . This Chess.com club serves as an open, unrated online space for players of all ages and skill levels to connect, play, and participate in online events. It is designed to be welcoming to new, casual, and scholastic players, as well as adult players who simply want to play chess and be part of the local community. Please note that membership in the official USCF-rated First City Chess Club is separate and requires rating verification. This club exists to make participation easy and accessible while the organization continues to grow."
+  },
+  {
+    "json_index": 810,
+    "id": "first_city_chess_club_uscf_rated",
+    "name": "First City Chess Club - USCF Rated",
+    "city": "First City",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Leavenworth, Kansas",
+    "notes": "This is the Private Chess.com page for the USCF Affiliate \"First City Chess Club (A9754602)\". Verified membership with USCF is required to join this page. You will need to first be vetted as a member with the US Chess Federation. Please validate using this Google Form https://docs.google.com/forms/d/e/1FAIpQLSeOcUdiFZDIbNeRNp2cdRw-4BI4xwQIxJlYN6jwiO8eQ4qrbw/viewform?usp=dialog USCF validation will occur on a monthly basis. If your membership will expire in less than 15 days from the monthly verification, you will be removed from the group until your USCF status is current. All tournaments hosted on this site will be USCF-Online-Rated. All times listed in all event listings and announcements are Central Standard Time (CST) This homepage is the official chess.com page for the First City Chess Club (FC3). We are a local club in Leavenworth, Kansas. We currently meet at KCKCC Annex, 1901 Spruce Street, Room 146, Leavenworth, KS 66048. We meet most Thursdays, from 6:00-8:30 PM, with the exception of Thanksgiving and the two Thursdays before and after Christmas. More Information is available on Https://firstcitychess.com"
+  },
+  {
+    "json_index": 811,
+    "id": "wildwood_davis_chess_club",
+    "name": "Wildwood Davis Chess Club",
+    "city": "Wildwood Davis",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Bethesda",
+    "notes": "A chess club in the DMV area that meets on the weekend at Joe's & The Juice in Wildwood Shopping Plaza, Davis Library, or Montgomery Mall (Westfield Montgomery)."
+  }
+]

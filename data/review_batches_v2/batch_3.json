@@ -1,0 +1,576 @@
+[
+  {
+    "json_index": 912,
+    "id": "maze_books_chess_club",
+    "name": "Maze Books Chess Club",
+    "notes": "Maze Books Chess Club meets at the heart of downtown Rockford every Wednesdays from 6-7pm.",
+    "current_hours": {
+      "Wednesday": {
+        "open": "18:00",
+        "close": "19:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/maze-books-chess-club",
+    "chesscom_url": "https://www.chess.com/club/maze-books-chess-club"
+  },
+  {
+    "json_index": 913,
+    "id": "daybreak_utah_chess_club",
+    "name": "Daybreak Utah Chess Club",
+    "notes": "We meet on the first Thursday of every month at 6:30 pm to 9:00 pm at the Daybreak Community Center room A 4544 W Harvest Moon Dr, South Jordan, UT 84009. Please bring a board if you have one. All ages and skill levels are welcome. Children under 12 need to be accompanied by an adult. We strive to create a friendly and inclusive environment where we can all enjoy the game of chess and improve our skills. Experienced players are always available to mentor newcomers. Join us to enjoy the intellectual challenge of chess while building friendships and contributing to a supportive community.",
+    "current_hours": {
+      "Thursday": {
+        "open": "18:30",
+        "close": "21:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/daybreak-utah-chess-club",
+    "chesscom_url": "https://www.chess.com/club/daybreak-utah-chess-club"
+  },
+  {
+    "json_index": 914,
+    "id": "aspen_hill_chess_club",
+    "name": "Aspen Hill Chess Club",
+    "notes": "Yo this is for the Aspen Hill Library chess club",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/aspen-hill-chess-club",
+    "chesscom_url": "https://www.chess.com/club/aspen-hill-chess-club"
+  },
+  {
+    "json_index": 915,
+    "id": "eastvalenorco_chess_club",
+    "name": "Eastvale-Norco Chess Club",
+    "notes": "A chess club that meets at the Norco Library.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/eastvale-norco-chess-club",
+    "chesscom_url": "https://www.chess.com/club/eastvale-norco-chess-club"
+  },
+  {
+    "json_index": 916,
+    "id": "pax_chess_and_strategy",
+    "name": "Pax Chess and Strategy",
+    "notes": "Located near Patuxent River MD. We are a chess club meeting on Thursdays over the board and Tuesdays for online chess.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/pax-chess-and-strategy",
+    "chesscom_url": "https://www.chess.com/club/pax-chess-and-strategy"
+  },
+  {
+    "json_index": 917,
+    "id": "slc_chess_club",
+    "name": "SLC Chess Club",
+    "notes": "SLC Chess Club hosted in person every other Friday from 3pm to 6pm at the Salt Lake City Public Library. All are welcome!",
+    "current_hours": {
+      "Friday": {
+        "open": "15:00",
+        "close": "18:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/slc-chess-club-1",
+    "chesscom_url": "https://www.chess.com/club/slc-chess-club-1"
+  },
+  {
+    "json_index": 918,
+    "id": "wise_chess_club",
+    "name": "Wise Chess Club",
+    "notes": "The Wise Chess Club started in May of 2016. Since then, there have been weekly play at Slim Chickens every Tuesday in Southaven, Mississippi.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/wise-chess-club-1",
+    "chesscom_url": "https://www.chess.com/club/wise-chess-club-1"
+  },
+  {
+    "json_index": 919,
+    "id": "georges_mexican_restaurant",
+    "name": "George's Mexican Restaurant",
+    "notes": "We are a Mandeville, LA based club that meets every Monday at 5:00 pm at George's Mexican Restaurant 1461 N. Causeway Blvd Mandeville, LA 70471",
+    "current_hours": {
+      "Monday": {
+        "open": "17:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/georges-mexican-restaurant",
+    "chesscom_url": "https://www.chess.com/club/georges-mexican-restaurant"
+  },
+  {
+    "json_index": 920,
+    "id": "daring_moves_chess_club",
+    "name": "Daring Moves Chess Club",
+    "notes": "A Chess Club for all ages, abilities, and skill levels, meeting the first Wednesday of the month at the Lewis and Clark County Library from 6-7pm.",
+    "current_hours": {
+      "Wednesday": {
+        "open": "18:00",
+        "close": "19:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/daring-moves-chess-club",
+    "chesscom_url": "https://www.chess.com/club/daring-moves-chess-club"
+  },
+  {
+    "json_index": 921,
+    "id": "krave_kava_raleigh_chess_club",
+    "name": "Krave Kava Raleigh Chess Club",
+    "notes": "Chess club for Krave Kava bar in Raleigh, NC.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/krave-kava-raleigh-chess-club",
+    "chesscom_url": "https://www.chess.com/club/krave-kava-raleigh-chess-club"
+  },
+  {
+    "json_index": 922,
+    "id": "gold_beach_oregon_chess_club",
+    "name": "Gold Beach Oregon Chess Club",
+    "notes": "Official chess club of Gold Beach Oregon. We meet at First Chapter Coffee House in Gold Beach Oregon every Saturday at 10:00 am pst, All are welcomed.",
+    "current_hours": {
+      "Saturday": {
+        "open": "10:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/gold-beach-oregon-chess-club",
+    "chesscom_url": "https://www.chess.com/club/gold-beach-oregon-chess-club"
+  },
+  {
+    "json_index": 923,
+    "id": "palmer_chess_club",
+    "name": "Palmer Chess Club",
+    "notes": "The Chess.com branch of Palmer Chess Club. We meet in person every Tuesday night from 5:30-8:00 at 203 Kombucha, Palmer Alaska. All ages and skill levels welcome.",
+    "current_hours": {
+      "Tuesday": {
+        "open": "17:30",
+        "close": "20:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/palmer-chess-club",
+    "chesscom_url": "https://www.chess.com/club/palmer-chess-club"
+  },
+  {
+    "json_index": 924,
+    "id": "seminole_county_chess",
+    "name": "Seminole County Chess",
+    "notes": "Chess club playing in Oviedo and elsewhere in Seminole County, Florida in the Greater Orlando area.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/seminole-county-chess",
+    "chesscom_url": "https://www.chess.com/club/seminole-county-chess"
+  },
+  {
+    "json_index": 925,
+    "id": "knob_noster_chess_club",
+    "name": "Knob Noster Chess Club",
+    "notes": "Held every Friday at the Trails Regional Library at 6pm Free coffee for those who attend.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/knob-noster-chess-club",
+    "chesscom_url": "https://www.chess.com/club/knob-noster-chess-club"
+  },
+  {
+    "json_index": 926,
+    "id": "bixby_ok_chess_club",
+    "name": "Bixby OK Chess Club",
+    "notes": "Chess lovers and players of all ages! Good afternoon, The goal of this club is to gather like minded individuals in a less competitive environment. Groups will be assigned by rating within a 200-300 Elo range based on what you tell us at check in. SETS ARE NOT PROVIDED. Blitz 5+3s --- 3+3s and rapid --- 10+3s will be the only events played. Kids, Adults, and the elderly are all welcome. Zero tolerance for discrimination. Zero tolerance for cheating. (touch piece move will be replaced with 'clock touch' to help newer players) no notation. no official USCF rated tournaments. In order for an event to occur we need enough people signed up. Friday/Saturday/Sunday. You can find my CONTACT INFORMATION LISTED BELOW Ryan Garansuay importantemailz@yahoo.com 806-673-2971",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/bixby-ok-chess-club",
+    "chesscom_url": "https://www.chess.com/club/bixby-ok-chess-club"
+  },
+  {
+    "json_index": 927,
+    "id": "vintage_paris_coffee_shop_chess_club",
+    "name": "Vintage Paris Coffee Shop Chess Club",
+    "notes": "The official chess club for Vintage Paris Coffee Shop! Our club brings together our community of chess players in the Ozarks region that love chess, coffee, and community.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/vintage-paris-coffee-shop-chess-club",
+    "chesscom_url": "https://www.chess.com/club/vintage-paris-coffee-shop-chess-club"
+  },
+  {
+    "json_index": 928,
+    "id": "chess_and_cigars",
+    "name": "Chess And Cigars",
+    "notes": "Chess & Cigars Gather round, chess enthusiasts (and those who can't tell a pawn from a knight ) at Empire Cigars Lounge in downtown Dadeland, every Monday at 9PM! We'll indulge in the electrifying world of 12-minute chess games, paired with the pulse-pounding excitement of cigars and drinks! All skill levels welcome (seriously, we mean it even if you're still trying to figure out how the pieces move). Join us for a night of mind-blowing chess strategies (or, you know, just making moves and hoping for the best, like me). See you there!",
+    "current_hours": {
+      "Monday": {
+        "open": "21:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/chess-and-cigars",
+    "chesscom_url": "https://www.chess.com/club/chess-and-cigars"
+  },
+  {
+    "json_index": 929,
+    "id": "humboldt_county_chess_kids",
+    "name": "Humboldt County Chess Kids",
+    "notes": "Chess Club for kids in Humboldt County, we meet at the Arcata Library the 2nd and 4th Saturdays of every month. All are welcome.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/humboldt-county-chess-kids",
+    "chesscom_url": "https://www.chess.com/club/humboldt-county-chess-kids"
+  },
+  {
+    "json_index": 930,
+    "id": "impactchess",
+    "name": "ImpactChess",
+    "notes": "Welcome to the Impact Chess Club! We play chess each Thursday from 6-8pm at 717 S 5th street. Everyone is welcome.",
+    "current_hours": {
+      "Thursday": {
+        "open": "18:00",
+        "close": "20:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/impactchess",
+    "chesscom_url": "https://www.chess.com/club/impactchess"
+  },
+  {
+    "json_index": 931,
+    "id": "temescal_valley_chessclub",
+    "name": "Temescal Valley Chess-Club",
+    "notes": "Welcome to our chess club, we're glad you're here! We're an in person chess club located in Temescal Valley, California. All ages and levels are welcome.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/temescal-valley-chess-club-1",
+    "chesscom_url": "https://www.chess.com/club/temescal-valley-chess-club-1"
+  },
+  {
+    "json_index": 932,
+    "id": "leroy_collins_library_chess",
+    "name": "Leroy Collins Library Chess",
+    "notes": "Public library chess club in Tallahassee, Florida. Newly created, all members are welcome!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/leroy-collins-library-chess",
+    "chesscom_url": "https://www.chess.com/club/leroy-collins-library-chess"
+  },
+  {
+    "json_index": 933,
+    "id": "foco_barbershop_chess_club",
+    "name": "Foco Barbershop Chess Club",
+    "notes": "Just a fun meeting place for any chess players that get their hair cut at our barbershop! Join the club, pick up your tag at the shop, and challenge each other for pride and glory!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/foco-barbershop-chess-club",
+    "chesscom_url": "https://www.chess.com/club/foco-barbershop-chess-club"
+  },
+  {
+    "json_index": 934,
+    "id": "family_chess_club_nc",
+    "name": "Family Chess Club - NC",
+    "notes": "Located in Greenville, NC, the Family Chess Club fosters a welcoming environment where players of all ages and skill levels can come together and enjoy the beautiful game of chess! WELCOME TO THE FAMILY!!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/family-chess-club-nc",
+    "chesscom_url": "https://www.chess.com/club/family-chess-club-nc"
+  },
+  {
+    "json_index": 935,
+    "id": "alta_boulders_chess_club",
+    "name": "Alta Boulders Chess Club",
+    "notes": "Group of climbers who also play chess. This is a place for all of our players to meet throughout the week. We play Mondays at 5:30 pm at Alta Boulders in Chandler, AZ.",
+    "current_hours": {
+      "Monday": {
+        "open": "17:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/alta-boulders-chess-club",
+    "chesscom_url": "https://www.chess.com/club/alta-boulders-chess-club"
+  },
+  {
+    "json_index": 936,
+    "id": "princeton_public_library_chess_club",
+    "name": "Princeton Public Library Chess Club",
+    "notes": "You have been invited to the Princeton Public Library Chess Club! Join for information regarding upcoming club meetings and unrated over-the-board tournaments.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/princeton-public-library-chess-club",
+    "chesscom_url": "https://www.chess.com/club/princeton-public-library-chess-club"
+  },
+  {
+    "json_index": 937,
+    "id": "savage_river_chess_denali_alaska",
+    "name": "Savage River Chess - Denali Alaska",
+    "notes": "Chess reaches all corners of the globe and interior Alaska is no different. Hosted on Tuesday nights, 5-7 pm, Mid May- Mid September at the Otto Lake Park Pavilion in Healy, Alaska; The Savage River Chess Club is meant to welcome all players, of all experience levels. Bring a board if you've got one, but if not- no worries at all, it's still free to play. Hope to see you there!",
+    "current_hours": {
+      "Tuesday": {
+        "open": "17:00",
+        "close": "19:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/savage-river-chess-denali-alaska",
+    "chesscom_url": "https://www.chess.com/club/savage-river-chess-denali-alaska"
+  },
+  {
+    "json_index": 938,
+    "id": "savage_river_chess_club",
+    "name": "Savage River Chess Club",
+    "notes": "Chess reaches all corners of the globe and interior Alaska is no different. Hosted on Tuesday nights, 5-7 pm, Mid May- Mid September at the Otto Lake Park Pavilion in Healy, Alaska; The Savage River Chess Club is meant to welcome all players, of all experience levels. Bring a board if you've got one, but if not- no worries at all, it's still free to play. Hope to see you there!",
+    "current_hours": {
+      "Tuesday": {
+        "open": "17:00",
+        "close": "19:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/savage-river-chess-club",
+    "chesscom_url": "https://www.chess.com/club/savage-river-chess-club"
+  },
+  {
+    "json_index": 939,
+    "id": "bend_knights",
+    "name": "Bend Knights",
+    "notes": "Bend Knights is a private club of adults who want to share in friendly competition amongst one another, and with others. We promote positive engagement, improvement, and an opportunity to connect in person for over-the-board games.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/bend-knights",
+    "chesscom_url": "https://www.chess.com/club/bend-knights"
+  },
+  {
+    "json_index": 940,
+    "id": "quail_hollow_chess",
+    "name": "Quail Hollow Chess",
+    "notes": "Quail Hollow Park Community Chess Club.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/quail-hollow-chess",
+    "chesscom_url": "https://www.chess.com/club/quail-hollow-chess"
+  },
+  {
+    "json_index": 941,
+    "id": "221_chess_society",
+    "name": "221 Chess Society",
+    "notes": "221 Chess Society is a group dedicated to providing an academic outlet to the general public along with serving a platform for Chess Players of all ages, backgrounds, and skill levels.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/221-chess-society",
+    "chesscom_url": "https://www.chess.com/club/221-chess-society"
+  },
+  {
+    "json_index": 942,
+    "id": "mulligan_chess_club_tupelo_ms",
+    "name": "Mulligan Chess Club ..... Tupelo - MS",
+    "notes": "Do you want to play chess in person? We are a new chess club with a wide range of player age/experience from beginner to experienced club player (best players are around 1500 USCF rated). We play all timing formats and have chess boards/pieces/clocks for you to use. No club membership fees/cost and all are welcome. We communicate our regular chess club meeting dates, times, locations, and cancellations on our Facebook page (see above QR code) or search “Mulligan Chess Club” on Facebook. Message us on Facebook with any questions. Come to play, learn, or teach us a lesson! See you there!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/mulligan-chess-club-tupelo-ms",
+    "chesscom_url": "https://www.chess.com/club/mulligan-chess-club-tupelo-ms"
+  },
+  {
+    "json_index": 943,
+    "id": "westborough_chess",
+    "name": "Westborough Chess",
+    "notes": "We welcome chess players from all ages that live in Westborough Massachusetts.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/westborough-chess",
+    "chesscom_url": "https://www.chess.com/club/westborough-chess"
+  },
+  {
+    "json_index": 944,
+    "id": "southof5thchessclub",
+    "name": "SouthOf5thChessClub",
+    "notes": "Welcome to the South of Fifth Chess Club, where strategy meets community and growth meets renewal. Our club is a supportive haven for individuals seeking a positive and healthy environment to share their passion for chess. We meet every Sunday from 5 pm to sunset at South Pointe Park, where we foster a culture of camaraderie, self-improvement, and personal growth. Our club is built on the belief that chess can be a powerful tool for building resilience, developing critical thinking, and cultivating a sense of purpose. We strive to create a safe and inclusive space where members can connect, learn, and thrive together. Whether you're a seasoned player or just starting out, we invite you to join us for a game, a chat, and a beautiful sunset. Come discover the best of SoFi's chess community and find support on your journey towards a healthier, happier you!",
+    "current_hours": {
+      "Sunday": {
+        "open": "17:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/southof5thchessclub",
+    "chesscom_url": "https://www.chess.com/club/southof5thchessclub"
+  },
+  {
+    "json_index": 945,
+    "id": "avon_park_chess_club",
+    "name": "Avon Park Chess Club",
+    "notes": "The chess club for Avon Park, Florida.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/avon-park-chess-club",
+    "chesscom_url": "https://www.chess.com/club/avon-park-chess-club"
+  },
+  {
+    "json_index": 946,
+    "id": "kingsville_chess_community",
+    "name": "Kingsville Chess Community",
+    "notes": "A community for chess players who live in Kingsville.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/kingsville-chess-community",
+    "chesscom_url": "https://www.chess.com/club/kingsville-chess-community"
+  },
+  {
+    "json_index": 947,
+    "id": "st_cloud_chess_club",
+    "name": "St. Cloud Chess Club",
+    "notes": "This is the official USCF-affiliated club of Saint Cloud, Minnesota USA.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/st-cloud-chess-club-2",
+    "chesscom_url": "https://www.chess.com/club/st-cloud-chess-club-2"
+  },
+  {
+    "json_index": 948,
+    "id": "mountain_green_chess",
+    "name": "Mountain Green Chess",
+    "notes": "Welcome to Mountain Green Chess club, the one and only place where you can play, learn, and compete with players from the Mountain Green community.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/mountain-green-chess",
+    "chesscom_url": "https://www.chess.com/club/mountain-green-chess"
+  },
+  {
+    "json_index": 949,
+    "id": "missoula_chess",
+    "name": "Missoula chess",
+    "notes": "If you are from Missoula join up and slay the day away gang gang checkmate those bots. Missoula Premier chess club.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/missoula-chess-1",
+    "chesscom_url": "https://www.chess.com/club/missoula-chess-1"
+  },
+  {
+    "json_index": 950,
+    "id": "delmar_public_library_youth_chess_club",
+    "name": "Delmar Public Library Youth Chess Club",
+    "notes": "My name is Brian Banks, a.k.a. coachbrian. I am the founder and administrator of the Delmar Library Online Chess Club and a USCF-certified chess instructor. Our club promotes and teaches chess to kids and adults aged six and above in Delmar and the surrounding area. Our goal is to help people learn and improve their chess skills and to have fun. Chess is more than just a game; it's a powerful educational tool that enhances critical thinking, problem-solving skills, and strategic planning. Studies have shown that students engaged in chess develop improved concentration, memory, and creativity. These cognitive skills acquired through chess transcend the game and prove invaluable in academic pursuits and real-life situations.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/delmar-public-library-youth-chess-club",
+    "chesscom_url": "https://www.chess.com/club/delmar-public-library-youth-chess-club"
+  },
+  {
+    "json_index": 951,
+    "id": "hutch_chess_club",
+    "name": "Hutch Chess Club",
+    "notes": "Club for local player from in and around Hutchinson, MN",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/hutch-chess-club",
+    "chesscom_url": "https://www.chess.com/club/hutch-chess-club"
+  },
+  {
+    "json_index": 952,
+    "id": "the_knights_order",
+    "name": "The Knight's Order",
+    "notes": "The Cottondale Hornets Chess Club in Cottondale, Florida, is a vibrant community of chess enthusiasts dedicated to promoting the game of chess and fostering strategic thinking among its members. From beginners to experienced players, the club welcomes individuals of all ages and skill levels to participate in friendly competition, improve their chess skills, and build lasting friendships. Meetings are held regularly at a local venue, providing a supportive environment where members can learn from each other, share strategies, and engage in challenging matches. With experienced players offering guidance and coaching, beginners have the opportunity to develop their understanding of the game, while seasoned players can refine their skills and strategies through practice and competition. The Cottondale Hornets Chess Club hosts a variety of events, including casual game nights, organized tournaments, and instructional workshops, catering to the diverse interests and preferences of its members. Whether you're looking to sharpen your tactics, meet fellow chess enthusiasts, or simply enjoy the thrill of the game, the club offers something for everyone. Joining the Cottondale Hornets Chess Club is not just about playing chess; it's about becoming part of a supportive community united by a passion for the game and a commitment to intellectual growth and camaraderie.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/the-knights-order",
+    "chesscom_url": "https://www.chess.com/club/the-knights-order"
+  },
+  {
+    "json_index": 953,
+    "id": "northwestern_ohio_chess_club",
+    "name": "Northwestern Ohio Chess Club",
+    "notes": "Do you love chess and live in Northwest Ohio? If you do, you’re in for a treat! The Northwestern Ohio Chess Club is open to all chess players living in Northwest Ohio. Join and have fun!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/northwestern-ohio-chess-club",
+    "chesscom_url": "https://www.chess.com/club/northwestern-ohio-chess-club"
+  },
+  {
+    "json_index": 954,
+    "id": "washington_county_chess_club",
+    "name": "Washington County Chess Club",
+    "notes": "The Official Washington County Chess Club for Maine",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/washington-county-chess-club",
+    "chesscom_url": "https://www.chess.com/club/washington-county-chess-club"
+  },
+  {
+    "json_index": 955,
+    "id": "the_brooklyn_knights",
+    "name": "The Brooklyn Knights",
+    "notes": "We are all about sharing the game of chess with everyone who is willing to learn. We're all about creating a community in which people come together to play.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/the-brooklyn-knights",
+    "chesscom_url": "https://www.chess.com/club/the-brooklyn-knights"
+  },
+  {
+    "json_index": 956,
+    "id": "shoals_chess_club",
+    "name": "Shoals Chess Club",
+    "notes": "A chess club for online and in-person players from the Shoals area.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/shoals-chess-club",
+    "chesscom_url": "https://www.chess.com/club/shoals-chess-club"
+  },
+  {
+    "json_index": 957,
+    "id": "profes_chess_club",
+    "name": "Profe's Chess club",
+    "notes": "Profe's Chess Club is an esteemed institution dedicated to the promotion and advancement of chess in both its competitive and recreational aspects. Nestled in the heart of the community, it serves as a haven for chess enthusiasts of all ages and skill levels, from beginners to seasoned masters. Founded by a passionate chess aficionado known simply as \"Profe,\" the club embodies his vision of fostering a vibrant chess culture and nurturing the talents of aspiring players. Location: Situated in a cozy yet spacious venue, Profe's Chess Club exudes an atmosphere of intellectual stimulation and camaraderie. The club's location is carefully chosen to be accessible to its members, with ample parking and convenient public transport links. Facilities: The club boasts state-of-the-art facilities tailored to cater to the needs of its diverse membership. Equipped with tournament-grade chess sets, digital chess clocks, and comfortable seating arrangements, the playing area provides an ideal environment for serious games and friendly matches alike. Additionally, the club features a well-stocked chess library, offering a treasure trove of instructional books, classic game collections, and chess periodicals for members to peruse at their leisure. Programs and Activities: Profe's Chess Club offers a comprehensive array of programs and activities designed to engage and inspire chess enthusiasts of all ages and skill levels. Weekly group lessons led by experienced instructors provide invaluable insights into various aspects of the game, covering everything from opening theory and middle game strategy to endgame techniques and tactical motifs. For those seeking personalized instruction, private coaching sessions are available upon request, allowing students to receive individualized guidance tailored to their specific needs and goals. In addition to its instructional offerings, the club hosts a vibrant calendar of events and tournaments throughout the year. From casual blitz and rapid tournaments to more prestigious classical events, there's something for everyone to enjoy. Special themed events and simultaneous exhibitions featuring guest grandmasters add an extra layer of excitement and intrigue, drawing chess enthusiasts from far and wide to participate and spectate. Community Engagement: Beyond its role as a hub for competitive play and skill development, Profe's Chess Club is deeply committed to fostering a sense of community and camaraderie among its members. Regular social events such as pizza nights, movie screenings, and chess-themed parties provide opportunities for players to relax, unwind, and forge lasting friendships with like-minded individuals who share their passion for the game. Moreover, the club actively collaborates with local schools, community centers, and charitable organizations to promote chess education and outreach initiatives, instilling a love of the game in future generations and enriching the broader community. Overall, Profe's Chess Club stands as a beacon of excellence and innovation in the world of chess, embodying the timeless values of sportsmanship, intellectual pursuit, and lifelong learning. Whether you're a novice eager to learn the ropes or a seasoned competitor seeking to hone your skills, there's no better place to experience the joy and beauty of chess than at Profe's Chess Club.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/profes-chess-club",
+    "chesscom_url": "https://www.chess.com/club/profes-chess-club"
+  },
+  {
+    "json_index": 958,
+    "id": "stoughton_area_chess_club_sacc",
+    "name": "Stoughton Area Chess Club - SACC",
+    "notes": "This club if for individuals in Stoughton, Wisconsin and surrounding areas to locate each other and play online when they can't make it to club meetings on Sundays Noon-3pm.",
+    "current_hours": {
+      "Sunday": {
+        "open": "12:00",
+        "close": "15:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/stoughton-area-chess-club-sacc",
+    "chesscom_url": "https://www.chess.com/club/stoughton-area-chess-club-sacc"
+  },
+  {
+    "json_index": 959,
+    "id": "cass_county_chess_club",
+    "name": "Cass County Chess Club",
+    "notes": "The Cass County Chess Club is a local chess club for chess enthusiasts in Cass County, Missouri. Cass County is a growing community with a lot of rural land located south of the Kansas City metro area.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/cass-county-chess-club",
+    "chesscom_url": "https://www.chess.com/club/cass-county-chess-club"
+  },
+  {
+    "json_index": 960,
+    "id": "fossil_ridge_public_library_chess_club",
+    "name": "Fossil Ridge Public Library Chess Club",
+    "notes": "Fossil Ridge Public Library's Chess Club Braidwood, IL and surrounding communities local chess club. Age requirement to join: 18 and older.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/fossil-ridge-public-library-chess-club",
+    "chesscom_url": "https://www.chess.com/club/fossil-ridge-public-library-chess-club"
+  },
+  {
+    "json_index": 961,
+    "id": "northwest_philly_chess_club",
+    "name": "Northwest Philly Chess Club",
+    "notes": "We are playing chess online or on our porches among the beautiful tree-lined streets of Mt. Airy, Germantown, or Chestnut Hill. Surrounding areas are welcome to join, too! All chess levels are welcome.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/northwest-philly-chess-club",
+    "chesscom_url": "https://www.chess.com/club/northwest-philly-chess-club"
+  },
+  {
+    "json_index": 962,
+    "id": "rooks_chess",
+    "name": "Rook's Chess",
+    "notes": "Live chess, no charge, boards and pieces provided. Join our fun and growing group! All ages and skill levels attend. Live chess at Babo's Cafe in Terre Haute, IN Friday at 5:30-8pm & Sunday from 12:30-3pm.",
+    "current_hours": {
+      "Friday": {
+        "open": "17:30",
+        "close": "20:00"
+      },
+      "Sunday": {
+        "open": "12:30",
+        "close": "15:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/rooks-chess",
+    "chesscom_url": "https://www.chess.com/club/rooks-chess"
+  },
+  {
+    "json_index": 963,
+    "id": "silicon_valley_chess_community",
+    "name": "Silicon Valley Chess Community",
+    "notes": "The Bay Area’s most active and social chess scene. Weekly events, real people, good vibes All levels",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/silicon-valley-chess-community",
+    "chesscom_url": "https://www.chess.com/club/silicon-valley-chess-community"
+  },
+  {
+    "json_index": 964,
+    "id": "santa_rita_knights",
+    "name": "Santa Rita Knights",
+    "notes": "Welcome to the Online Section of the Santa Rita Knights Chess Club! We are a small, local chess club in Liberty Hill, Texas, where young and old (all levels) is welcome to come connect, learn and play! check out www.SantaRitaKnights.com ! Go Knights!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/santa-rita-knights",
+    "chesscom_url": "https://www.chess.com/club/santa-rita-knights"
+  },
+  {
+    "json_index": 965,
+    "id": "johnson_county_chess_team",
+    "name": "Johnson County Chess Team",
+    "notes": "Team for all Johnson County Residents who are interested in chess.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/johnson-county-chess-team",
+    "chesscom_url": "https://www.chess.com/club/johnson-county-chess-team"
+  },
+  {
+    "json_index": 966,
+    "id": "ratskeller_chess_club",
+    "name": "Ratskeller Chess Club",
+    "notes": "The Ratskeller, 929 York street Quincy Illinois Wednesday Night 6-9PM",
+    "current_hours": {
+      "Wednesday": {
+        "open": "18:00",
+        "close": "21:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/ratskeller-chess-club",
+    "chesscom_url": "https://www.chess.com/club/ratskeller-chess-club"
+  }
+]

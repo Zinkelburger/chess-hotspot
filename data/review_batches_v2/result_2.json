@@ -1,0 +1,22 @@
+[
+  {"json_index": 858, "id": "mountain_city_chess_club", "hours": {"Tuesday": {"open": "17:00", "close": "19:00"}}, "website": null},
+  {"json_index": 859, "id": "knight_byte_chess_club", "hours": null, "website": "https://rose-shallot-4ekt.squarespace.com/"},
+  {"json_index": 862, "id": "auburn_public_library_chess_club", "hours": {"Wednesday": {"open": "16:00", "close": "18:00"}}, "website": null},
+  {"json_index": 864, "id": "raleighcary_chess_club", "hours": {"Sunday": {"open": "14:00"}, "Wednesday": {"open": "17:00"}}, "website": null},
+  {"json_index": 868, "id": "edgewater_chess_club", "hours": {"Thursday": {"open": "17:30", "close": "19:55"}}, "website": null},
+  {"json_index": 869, "id": "king_sacrifice_pbc_chess_club", "hours": {"Wednesday": {"open": "18:30", "close": "20:30"}}, "website": null},
+  {"json_index": 882, "id": "noble_kava_chess_club", "hours": {"Wednesday": {"open": "17:00", "close": "20:00"}}, "website": null},
+  {"json_index": 883, "id": "kodiak_chess_masters", "hours": {"Saturday": {"open": "19:00", "close": "21:00"}}, "website": null},
+  {"json_index": 888, "id": "mt_pleasant", "hours": {"Wednesday": {"open": "18:00", "close": "20:00"}}, "website": null},
+  {"json_index": 890, "id": "gnvchess", "hours": {"Wednesday": {"open": "18:45"}}, "website": null},
+  {"json_index": 892, "id": "bushwickchess", "hours": null, "website": "https://bushwickchess.com"},
+  {"json_index": 893, "id": "aiken_chess_club", "hours": {"Friday": {"open": "17:00", "close": "19:30"}}, "website": null},
+  {"json_index": 898, "id": "saint_croix_valley_chess_club", "hours": {"Tuesday": {"open": "16:00", "close": "17:30"}, "Saturday": {"open": "13:00", "close": "17:00"}}, "website": null},
+  {"json_index": 901, "id": "san_clemente_chess", "hours": {"Sunday": {"open": "18:00"}}, "website": null},
+  {"json_index": 903, "id": "cooper_city_chess", "hours": {"Saturday": {"open": "09:00", "close": "11:00"}}, "website": null},
+  {"json_index": 904, "id": "pease_park_chess_club", "hours": {"Saturday": {"open": "13:00"}}, "website": "https://www.facebook.com/groups/866344480633533/"},
+  {"json_index": 907, "id": "nobles_knights", "hours": {"Tuesday": {"open": "15:00", "close": "17:00"}}, "website": null},
+  {"json_index": 908, "id": "edmonton_chess_club_kentucky", "hours": null, "website": "https://www.sunbee.org/chess-club"},
+  {"json_index": 910, "id": "queen_city_chess", "hours": {"Tuesday": {"open": "18:30"}}, "website": "https://discord.gg/MrKUzTmTJS"},
+  {"json_index": 911, "id": "golden_knights_chess_club_severna_park_chapter", "hours": {"Sunday": {"open": "13:00", "close": "18:00"}, "Tuesday": {"open": "13:00", "close": "18:00"}, "Thursday": {"open": "13:00", "close": "18:00"}}, "website": null}
+]

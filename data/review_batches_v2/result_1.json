@@ -1,0 +1,19 @@
+[
+  {"json_index": 803, "id": "chesapeake_chess_club", "hours": {"Saturday": {"open": "10:00"}}, "website": null},
+  {"json_index": 804, "id": "balanced_rook_chess_club", "hours": {"Thursday": {"open": "18:00", "close": "21:00"}}, "website": null},
+  {"json_index": 805, "id": "shreveportbossier_chess_club", "hours": {"Tuesday": {"open": "18:00", "close": "20:00"}}, "website": null},
+  {"json_index": 807, "id": "bay_ridge_chessmates", "hours": {"Wednesday": {"open": "18:30"}}, "website": "https://www.facebook.com/groups/bayridgechessmates"},
+  {"json_index": 808, "id": "opl_lakeview_chess_club", "hours": {"Saturday": {"open": "12:00", "close": "14:00"}}, "website": null},
+  {"json_index": 810, "id": "first_city_chess_club_uscf_rated", "hours": {"Thursday": {"open": "18:00", "close": "20:30"}}, "website": "https://firstcitychess.com"},
+  {"json_index": 812, "id": "home_grown_chess", "hours": {"Monday": {"open": "16:00", "close": "17:00"}}, "website": null},
+  {"json_index": 814, "id": "gastonia_booksamillion_chess_club", "hours": {"Wednesday": {"open": "18:00", "close": "19:30"}}, "website": null},
+  {"json_index": 815, "id": "payson_library_chess_club", "hours": {"Tuesday": {"open": "18:30"}}, "website": null},
+  {"json_index": 816, "id": "point_chess_club", "hours": {"Tuesday": {"open": "19:00"}}, "website": null},
+  {"json_index": 819, "id": "motor_city_knights_chess_club", "hours": {"Sunday": {"open": "09:00", "close": "12:00"}}, "website": null},
+  {"json_index": 821, "id": "axehead_beverage_co_chess_club", "hours": null, "website": "https://www.facebook.com/share/1GUMoxnFZD/"},
+  {"json_index": 827, "id": "collinsville_library_chess_club", "hours": {"Saturday": {"open": "15:30", "close": "17:30"}}, "website": null},
+  {"json_index": 839, "id": "old_east_dallas_chess_club", "hours": {"Thursday": {"open": "19:00", "close": "23:00"}}, "website": null},
+  {"json_index": 842, "id": "livingston_mt_games", "hours": {"Wednesday": {"open": "15:45"}, "Friday": {"open": "15:45"}}, "website": null},
+  {"json_index": 851, "id": "new_braunfels_2025", "hours": null, "website": "https://www.facebook.com/groups/986171379171001/"},
+  {"json_index": 854, "id": "new_york_city_chess_meetups", "hours": null, "website": "https://www.meetup.com/chesscom-group-new-york/"}
+]

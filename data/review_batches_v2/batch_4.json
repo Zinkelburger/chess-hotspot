@@ -1,0 +1,538 @@
+[
+  {
+    "json_index": 967,
+    "id": "grand_island_competitive_chess",
+    "name": "Grand Island Competitive Chess",
+    "notes": "Grand Island Chess Club is for all players who want to play Chess competitively.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/grand-island-competitive-chess",
+    "chesscom_url": "https://www.chess.com/club/grand-island-competitive-chess"
+  },
+  {
+    "json_index": 968,
+    "id": "west_little_rock_chess_club",
+    "name": "West Little Rock Chess Club",
+    "notes": "This is a close group. Members, friends and volunteers of our club are the only ones that are accepted to join. Email me with your name, LiChess username and email address plus a phone number where you can be reached. We are Participants of the West Little Rock Chess Club located in Little Rock. Kristie Harper, West Little Rock Chess Club WLRchessclub@gmail.com LiChess username: WLRchessclub",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/west-little-rock-chess-club",
+    "chesscom_url": "https://www.chess.com/club/west-little-rock-chess-club"
+  },
+  {
+    "json_index": 969,
+    "id": "worlds_safest_chess_club",
+    "name": "World's Safest Chess Club",
+    "notes": "All ages in Carpinteria, CA.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/worlds-safest-chess-club",
+    "chesscom_url": "https://www.chess.com/club/worlds-safest-chess-club"
+  },
+  {
+    "json_index": 970,
+    "id": "the_nashville_order_of_kings",
+    "name": "The Nashville Order of Kings",
+    "notes": "This is a chess club for players living in the greater Nashville, TN area (Nashville, Brentwood, Clarksville, Gallatin, Hendersonville, Murfreesboro, Mount Juliet, Hermitage, and Old Hickory) who want to learn, compete, and have fun together through online and in-person matches.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/the-nashville-order-of-kings",
+    "chesscom_url": "https://www.chess.com/club/the-nashville-order-of-kings"
+  },
+  {
+    "json_index": 971,
+    "id": "plymouth_district_library",
+    "name": "Plymouth District Library",
+    "notes": "A place for members of the chess club at the Plymouth District Library to play online.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/plymouth-district-library",
+    "chesscom_url": "https://www.chess.com/club/plymouth-district-library"
+  },
+  {
+    "json_index": 972,
+    "id": "crestview_okaloosa_county_chess_club",
+    "name": "Crestview Okaloosa County Chess Club",
+    "notes": "Hello! this is the official page of okaloosa county chess club!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/crestview-okaloosa-county-chess-club",
+    "chesscom_url": "https://www.chess.com/club/crestview-okaloosa-county-chess-club"
+  },
+  {
+    "json_index": 973,
+    "id": "casual_santa_ana_chess_group",
+    "name": "Casual Santa Ana Chess Group",
+    "notes": "Welcome to our Chess Club! Join us for a social and enjoyable environment where chess enthusiasts of all levels can come together to play and learn. Whether you're a seasoned player or just starting, you'll find a place here. We play both traditional chess and various chess variants. This is a Meetup group that meets every Sunday. To check out our events, check up our Meetup page here .",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/casual-santa-ana-chess-group",
+    "chesscom_url": "https://www.chess.com/club/casual-santa-ana-chess-group"
+  },
+  {
+    "json_index": 974,
+    "id": "pionner_joes_chess_club_lincoln_county",
+    "name": "Pionner Joes Chess Club Lincoln County",
+    "notes": "We will be meeting Sundays 2-6 @ Pioneer Joe's in the Salishan Market Place! Now playing Tuesdays @ taft location from 330 - 530.",
+    "current_hours": {
+      "Sunday": {
+        "open": "14:00",
+        "close": "18:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/pionner-joes-chess-club-lincoln-county",
+    "chesscom_url": "https://www.chess.com/club/pionner-joes-chess-club-lincoln-county"
+  },
+  {
+    "json_index": 975,
+    "id": "central_indiana_chess_club",
+    "name": "Central Indiana Chess Club",
+    "notes": "This is the online club for the Central Indiana Chess Club",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/central-indiana-chess-club",
+    "chesscom_url": "https://www.chess.com/club/central-indiana-chess-club"
+  },
+  {
+    "json_index": 976,
+    "id": "cave_creek_chess",
+    "name": "Cave Creek Chess",
+    "notes": "Would like to get more local chess enthusiasts involved as I have not seen/heard of any clubs in the area. We are north of Desert Ridge Phoenix and welcome all skill levels.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/cave-creek-chess",
+    "chesscom_url": "https://www.chess.com/club/cave-creek-chess"
+  },
+  {
+    "json_index": 977,
+    "id": "waynesboro_public_library_chess_club",
+    "name": "Waynesboro Public Library Chess Club",
+    "notes": "The Chess.com club for the Waynesboro Public Library",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/waynesboro-public-library-chess-club",
+    "chesscom_url": "https://www.chess.com/club/waynesboro-public-library-chess-club"
+  },
+  {
+    "json_index": 978,
+    "id": "roebling_books_and_coffee_chess_club",
+    "name": "Roebling Books and Coffee Chess Club",
+    "notes": "Online presence for the chess club at Roebling Books and Coffee. Meeting times TBD",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/roebling-books-and-coffee-chess-club",
+    "chesscom_url": "https://www.chess.com/club/roebling-books-and-coffee-chess-club"
+  },
+  {
+    "json_index": 979,
+    "id": "old_saybrook_chess",
+    "name": "Old Saybrook Chess",
+    "notes": "OS 's premier public chess club.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/old-saybrook-chess",
+    "chesscom_url": "https://www.chess.com/club/old-saybrook-chess"
+  },
+  {
+    "json_index": 980,
+    "id": "5_moves",
+    "name": "5 Moves",
+    "notes": "Unleash your inner grandmaster at Starr Craft Brewery's lively Chess Club! Here, the love for craft beer and chess blend seamlessly to create an entertaining experience. Whether you're an aspiring Bobby Fischer or a casual player who can't tell a pawn from a rook, this is the place for you. Our monthly meetups offer an opportunity to engage in friendly chess games while savoring our delicious, handcrafted brews. Our Chess Club meetings promise a blend of competition and camaraderie. We encourage players of all skill levels and ages to join us – it's the perfect chance to enhance your strategy skills or just learn the ropes. Checkmate? More like check-mate-y, as you might just find your next best friend across the board at our delightful chess gatherings!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/5-moves",
+    "chesscom_url": "https://www.chess.com/club/5-moves"
+  },
+  {
+    "json_index": 981,
+    "id": "taos_chess_club",
+    "name": "Taos Chess Club",
+    "notes": "Meetups at Popolo's Games, 729 Paseo Del Pueblo Sur, Taos, NM 87571 Sundays 1pm to Whenever Please check TaosChess.com or contact Kevin at 575-425-0699 for details and schedule updates",
+    "current_hours": {
+      "Sunday": {
+        "open": "13:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/taos-chess-club",
+    "chesscom_url": "https://www.chess.com/club/taos-chess-club"
+  },
+  {
+    "json_index": 982,
+    "id": "van_tx_chess_club",
+    "name": "Van TX Chess Club",
+    "notes": "We start at 6pm on Friday, meeting at: Wendy's 133 County Road 314 Unit 100 Van TX Boards (and possibly clocks) are on loan from Lindale Chess Club and possibly Mineola Chess Club - The Tuesday Knights until we get our own equipment. The club is run by President James Wolfe but was launched Nikolaj Kaluderovic and his Van High School Chess Club but is open to all students and members of the community at large. Read the event post for more details. Come out to have some good games and snack or eat if desired. Typical club play is casual; typically you are committed to making a move once you let go. We want friendly games however so you if you and your opponent agree BEFORE a game starts you can choose to play \"touch move\", to agree to some takebacks, to play a timed game with a clock, etc. Chess variations such as \"duck chess\", \"atomic chess\", \"bug house\", etc. are all allowed -- it's a public venue and all legal behavior is permissible! -- but may not be encouraged. We strive to improve everyone's regular chess skills, which are often complicated enough! Our Facebook page: facebook.com/groups/vantxchessclub/",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/van-tx-chess-club",
+    "chesscom_url": "https://www.chess.com/club/van-tx-chess-club"
+  },
+  {
+    "json_index": 983,
+    "id": "chess_on_tap",
+    "name": "Chess on Tap",
+    "notes": "Welcome to the official Chess.com club for Chess on Tap ! Join our online events, or find players from our OTB events, to continue your rivalry online! Chess on Tap is Washington, DC's premiere social chess club. If you're looking for a casual game of OTB chess in a fun atmosphere, join our Meetup group for event dates and times. Members at our events range from beginner to expert level, and games are played both with and without time controls. Whether you're an experienced speed chess player or you're just learning to play, you'll be able to find a good match and advice on how to improve your game.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/chess-on-tap",
+    "chesscom_url": "https://www.chess.com/club/chess-on-tap"
+  },
+  {
+    "json_index": 984,
+    "id": "wichita_chess_club",
+    "name": "Wichita Chess Club",
+    "notes": "This club is a place for Wichita area players to meet up for games when we are not playing over the board. It is also an international community with a shared passion for chess. All are welcome! We have a very competitive vote chess team. We also do daily matches, post puzzles and games in the forum, and may have a live arena on occasion. Please feel free to join in! For those who are local, we also have a messenger group if anyone would like to join and stay current on Wichita chess events.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/wichita-chess-club",
+    "chesscom_url": "https://www.chess.com/club/wichita-chess-club"
+  },
+  {
+    "json_index": 985,
+    "id": "eagle_landing_chess_club",
+    "name": "Eagle Landing Chess Club",
+    "notes": "The Eagle Landing Chess Club is a casual, community-based chess club that provides a welcoming space for chess enthusiasts of all skill levels. Our club aims to foster a sense of camaraderie and community among chess players by offering chess open play, tournaments, events, and chess lessons. Whether you are a beginner looking to learn the game or an experienced player seeking challenging opponents, the Eagle Landing Chess Club is the perfect place to gather, play chess, and connect with fellow chess enthusiasts. Join us and be a part of our friendly and inclusive chess community!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/eagle-landing-chess-club",
+    "chesscom_url": "https://www.chess.com/club/eagle-landing-chess-club"
+  },
+  {
+    "json_index": 986,
+    "id": "st_joseph_mo_chess_club",
+    "name": "St. Joseph MO Chess Club",
+    "notes": "St. Joseph Chess Club",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/st-joseph-mo-chess-club",
+    "chesscom_url": "https://www.chess.com/club/st-joseph-mo-chess-club"
+  },
+  {
+    "json_index": 987,
+    "id": "glastonbury_ct_chess_club",
+    "name": "Glastonbury CT Chess Club",
+    "notes": "We are a small but friendly group of OTB players that meet on Thursdays from 4:30-8:00 pm at the Riverfront Community Center, 300 Welles St., Glastonbury, CT. All levels of ability are welcome. Don't know how to play? We'll teach you. Although we are based out of Glastonbury CT, we are not limited to Glastonbury residents only. https://www.facebook.com/groups/GlastonburyCTChessClub",
+    "current_hours": {
+      "Thursday": {
+        "open": "16:30",
+        "close": "20:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/glastonbury-ct-chess-club",
+    "chesscom_url": "https://www.chess.com/club/glastonbury-ct-chess-club"
+  },
+  {
+    "json_index": 988,
+    "id": "jenkins_chess_club",
+    "name": "Jenkins Chess Club",
+    "notes": "Welcome to Jenkins Chess Club! We welcome all warriors regardless of skill.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/jenkins-chess-club",
+    "chesscom_url": "https://www.chess.com/club/jenkins-chess-club"
+  },
+  {
+    "json_index": 989,
+    "id": "strasburg_chess_club",
+    "name": "Strasburg Chess Club",
+    "notes": "The Straburg Chess Club plays OTB chess primarily at Box Office Brewery in Strasburg, VA on the first and third Mondays of every month. Please find us on Facebook for more info and to check the OTB meeting calendar. Thanks for joining! We'll host group tournaments and other random goodness from time to time.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/strasburg-chess-club",
+    "chesscom_url": "https://www.chess.com/club/strasburg-chess-club"
+  },
+  {
+    "json_index": 990,
+    "id": "palo_alto_chess_club",
+    "name": "Palo Alto Chess Club",
+    "notes": "Chess Club of the University Ave Chess Club in Palo Alto.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/palo-alto-chess-club",
+    "chesscom_url": "https://www.chess.com/club/palo-alto-chess-club"
+  },
+  {
+    "json_index": 991,
+    "id": "sherborn_library_chess_club",
+    "name": "Sherborn Library Chess Club",
+    "notes": "This is a fun, public club for any and all people to join and play chess online together, to add to the biweekly meetings.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/sherborn-library-chess-club",
+    "chesscom_url": "https://www.chess.com/club/sherborn-library-chess-club"
+  },
+  {
+    "json_index": 992,
+    "id": "roll_willy_t",
+    "name": "ROLL WILLY T",
+    "notes": "William Tennent Chess Players",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/roll-willy-t",
+    "chesscom_url": "https://www.chess.com/club/roll-willy-t"
+  },
+  {
+    "json_index": 993,
+    "id": "boaz_chess_club",
+    "name": "Boaz Chess Club",
+    "notes": "Chess club of Boaz, Alabama",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/boaz-chess-club-1",
+    "chesscom_url": "https://www.chess.com/club/boaz-chess-club-1"
+  },
+  {
+    "json_index": 994,
+    "id": "tptmus",
+    "name": "tptm.us",
+    "notes": "We play OTB Thursdays in Unica cafe , Jersey City 6-8PM and here on Mondays 5+2 Swiss tournaments",
+    "current_hours": {
+      "Monday": {
+        "open": "17:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/tptm-us",
+    "chesscom_url": "https://www.chess.com/club/tptm-us"
+  },
+  {
+    "json_index": 995,
+    "id": "texoma_chess_club",
+    "name": "Texoma Chess club",
+    "notes": "Chess Club for Wichita Falls and surrounding area. All skill levels welcome! Meetup Sikes Senter Mall food court every Saturday at 3pm. Chess is better in person.",
+    "current_hours": {
+      "Saturday": {
+        "open": "15:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/texoma-chess-club-1",
+    "chesscom_url": "https://www.chess.com/club/texoma-chess-club-1"
+  },
+  {
+    "json_index": 996,
+    "id": "cocktails_and_chess_orlando",
+    "name": "Cocktails and Chess Orlando",
+    "notes": "This is the place for the Orlando Cocktails and chess club members to hang out on chess.com",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/cocktails-and-chess-orlando",
+    "chesscom_url": "https://www.chess.com/club/cocktails-and-chess-orlando"
+  },
+  {
+    "json_index": 997,
+    "id": "lufkin_and_nacogdoches_chess_club",
+    "name": "Lufkin and Nacogdoches Chess Club",
+    "notes": "Lufkin & Nacogdoches Chess Club Welcome to the Lufkin & Nacogdoches Chess Club! We are a vibrant community of chess enthusiasts meeting weekly on Wednesdays in Lufkin and monthly in Nacogdoches for over-the-board (OTB) chess. Our games typically range from 10 to 15 minutes, offering an engaging and fast-paced experience for players of all ages and skill levels. Join this club page to view our schedule! We host a tournament every quarter and organize special tournaments to support Solutions Arkitect , a nonprofit organization dedicated to empowering education through technology designed with students in mind. Whether you're a seasoned player or just starting out, you'll find a welcoming environment where you can improve your skills and enjoy the game. Join us and be part of the fun!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/lufkin-and-nacogdoches-chess-club",
+    "chesscom_url": "https://www.chess.com/club/lufkin-and-nacogdoches-chess-club"
+  },
+  {
+    "json_index": 998,
+    "id": "the_villager_tavern_chess_club",
+    "name": "The Villager Tavern Chess Club",
+    "notes": "Club for all members/visitors - past and present - of the Villager Tavern Chess Club in Nashville, TN.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/the-villager-tavern-chess-club",
+    "chesscom_url": "https://www.chess.com/club/the-villager-tavern-chess-club"
+  },
+  {
+    "json_index": 999,
+    "id": "bushwick_chess",
+    "name": "Bushwick Chess",
+    "notes": "New York's hottest chess club, Bushwick Chess is an integral fixture in the nightlife of the neighborhood. Meet ups every Tuesday at Nook Cafe 7pm. Come by for IRL chess with players of all skill levels.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/bushwick-chess",
+    "chesscom_url": "https://www.chess.com/club/bushwick-chess"
+  },
+  {
+    "json_index": 1000,
+    "id": "elite_chess_club_for_adults",
+    "name": "Elite Chess Club For Adults",
+    "notes": "Located at the Elite Chess center in Naperville, IL - this is a laid back, welcoming club for adults to play and connect with other adults who love the game of chess. https://www.elitechess.net/adult-club",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/elite-chess-club-for-adults",
+    "chesscom_url": "https://www.chess.com/club/elite-chess-club-for-adults"
+  },
+  {
+    "json_index": 1001,
+    "id": "altoona_library_chess_club",
+    "name": "Altoona Library Chess Club",
+    "notes": "We meet every Thursday at 4:30 to 7:30 pm at the Altoona Public Library. Sets, clocks and score sheets provided. Policies and events can be found on the club website AltoonaChessClub.com No dues or fees - all are welcome.",
+    "current_hours": {
+      "Thursday": {
+        "open": "16:30",
+        "close": "19:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/altoona-library-chess-club",
+    "chesscom_url": "https://www.chess.com/club/altoona-library-chess-club"
+  },
+  {
+    "json_index": 1002,
+    "id": "fideles_rangers_tennis",
+    "name": "Fideles Rangers Tennis",
+    "notes": "",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/fideles-rangers-tennis",
+    "chesscom_url": "https://www.chess.com/club/fideles-rangers-tennis"
+  },
+  {
+    "json_index": 1003,
+    "id": "the_bayonne_chess_society_and_club",
+    "name": "The Bayonne Chess Society and Club.",
+    "notes": "We're a chill club that plays in Bayonne New Jersey. Our members are all ages.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/the-bayonne-chess-society-and-club",
+    "chesscom_url": "https://www.chess.com/club/the-bayonne-chess-society-and-club"
+  },
+  {
+    "json_index": 1004,
+    "id": "southside_atlanta_chess_club_uscf_rated",
+    "name": "Southside Atlanta Chess Club - USCF Rated",
+    "notes": "This is the Chess.com group for Southside Atlanta Chess Club's online USCF rated tournaments. To join, you must be a current US Chess member, and have filled out the member authorization form here . Please submit your full name and US Chess member ID when joining.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/southside-atlanta-chess-club-uscf-rated",
+    "chesscom_url": "https://www.chess.com/club/southside-atlanta-chess-club-uscf-rated"
+  },
+  {
+    "json_index": 1005,
+    "id": "somerset_squares_chess_club",
+    "name": "Somerset Squares Chess Club",
+    "notes": "Join us each Thursday from 4:30-6 PM at the Builder’s Club of Somerset (next to Underwood’s Hardware Store) for chess games, blunders, and a supportive learning community. Chess lesson from 4:30-5, followed by free play from 5-6 PM. Games are unrated/casual unless otherwise noted, and all are welcome. Tournaments will be on the calendar in 2024! Sets, clocks, and boards provided. Donations encouraged to support our chess club. Under 13 with adult supervision. Hope to see you there! Contact Erik Peterson with any questions: (740) 591 7585",
+    "current_hours": {
+      "Thursday": {
+        "open": "16:30",
+        "close": "18:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/somerset-squares-chess-club",
+    "chesscom_url": "https://www.chess.com/club/somerset-squares-chess-club"
+  },
+  {
+    "json_index": 1006,
+    "id": "saddle_brook_chess_falcons",
+    "name": "Saddle Brook Chess Falcons",
+    "notes": "Saddle Brook Chess Club",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/saddle-brook-chess-falcons",
+    "chesscom_url": "https://www.chess.com/club/saddle-brook-chess-falcons"
+  },
+  {
+    "json_index": 1007,
+    "id": "downey_chess_club",
+    "name": "Downey Chess Club",
+    "notes": "Chess Club for Downey CA and surrounding cities.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/downey-chess-club",
+    "chesscom_url": "https://www.chess.com/club/downey-chess-club"
+  },
+  {
+    "json_index": 1008,
+    "id": "scioto_county_chess_federation",
+    "name": "Scioto County Chess Federation",
+    "notes": "A chess club for the citizens of Scioto County in Ohio.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/scioto-county-chess-federation",
+    "chesscom_url": "https://www.chess.com/club/scioto-county-chess-federation"
+  },
+  {
+    "json_index": 1009,
+    "id": "monterey_county_chess_club",
+    "name": "Monterey County Chess Club",
+    "notes": "Monterey County Chess Club https://www.meetup.com/monterey-county-chess-club/",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/monterey-county-chess-club",
+    "chesscom_url": "https://www.chess.com/club/monterey-county-chess-club"
+  },
+  {
+    "json_index": 1010,
+    "id": "franklin_west_palm_street_chess_fans_club",
+    "name": "Franklin west palm street chess fans club",
+    "notes": "",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/franklin-west-palm-street-chess-fans-club",
+    "chesscom_url": "https://www.chess.com/club/franklin-west-palm-street-chess-fans-club"
+  },
+  {
+    "json_index": 1011,
+    "id": "beech_grove_chess_club",
+    "name": "Beech Grove Chess Club",
+    "notes": "The Un-Official Beech Grove Chess Club!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/beech-grove-chess-club",
+    "chesscom_url": "https://www.chess.com/club/beech-grove-chess-club"
+  },
+  {
+    "json_index": 1012,
+    "id": "lewis_county_mo_chess_club",
+    "name": "Lewis County MO Chess Club",
+    "notes": "A chess club for anyone in Lewis County, or the surrounding counties.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/lewis-county-mo-chess-club",
+    "chesscom_url": "https://www.chess.com/club/lewis-county-mo-chess-club"
+  },
+  {
+    "json_index": 1013,
+    "id": "the_poggers",
+    "name": "The poggers",
+    "notes": "The best club ever.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/the-poggers-1",
+    "chesscom_url": "https://www.chess.com/club/the-poggers-1"
+  },
+  {
+    "json_index": 1014,
+    "id": "aaco_of_arizona_chess_club",
+    "name": "AACO of Arizona Chess Club",
+    "notes": "Welcome to the AACO Chess Club! Chess is a great game that trains players to improve their strategic thinking, patience, time management, how to read your enemy, and more. All of these are great skills that can strengthen us as Assyrians. About the Club. Accepting all levels Regularly meet in person Will provide introductory training on concepts and openings Conduct tournaments Learn new tactics, practice your game, and increase your elo Build a social and fun community of Assyrians who love to play chess! For questions reach out to our leader: Mike Youkhana ( tigermikey39 ) — The Assyrian American Cultural Organization (AACO) of Arizona is an organization whose goal is to serve the needs of the local Assyrian community and to spark an interest and love for our Assyrian culture and heritage. https://assyrianamerican.org/ To be eligible to participate in an in-person tournament you must be a registered AACO member in good standing. To sign up visit this link: https://www.assyrianamerican.org/membership",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/aaco-of-arizona-chess-club",
+    "chesscom_url": "https://www.chess.com/club/aaco-of-arizona-chess-club"
+  },
+  {
+    "json_index": 1015,
+    "id": "washtucna_chess_club",
+    "name": "Washtucna Chess Club",
+    "notes": "Chess club for the Township of Washtucna, Washington and surrounding areas. Pupose of club is to promote, teach and play chess in the community.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/washtucna-chess-club",
+    "chesscom_url": "https://www.chess.com/club/washtucna-chess-club"
+  },
+  {
+    "json_index": 1016,
+    "id": "price_hill_chess",
+    "name": "Price Hill Chess",
+    "notes": "Cincinnati based chess club hosting in Deer Park, Ohio, Saturday & Sundays 2-5P.M. when weather permits.",
+    "current_hours": {
+      "Saturday": {
+        "open": "14:00",
+        "close": "17:00"
+      },
+      "Sunday": {
+        "open": "14:00",
+        "close": "17:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/price-hill-chess",
+    "chesscom_url": "https://www.chess.com/club/price-hill-chess"
+  },
+  {
+    "json_index": 1017,
+    "id": "middlesboro_chess_club",
+    "name": "Middlesboro Chess Club",
+    "notes": "A chess club for the people of Middlesboro, Kentucky.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/middlesboro-chess-club",
+    "chesscom_url": "https://www.chess.com/club/middlesboro-chess-club"
+  },
+  {
+    "json_index": 1018,
+    "id": "pawn_jawn",
+    "name": "Pawn Jawn",
+    "notes": "A beginners chess club for the Donatucci Library in South Philly. Just a casual place for kids to play against each other and the staff members. This is not an official club that plays in tournaments or anything like that.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/pawn-jawn",
+    "chesscom_url": "https://www.chess.com/club/pawn-jawn"
+  },
+  {
+    "json_index": 1019,
+    "id": "dupont_chess",
+    "name": "Dupont Chess",
+    "notes": "For Chess players in Dupont, WA, USA.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/dupont-chess",
+    "chesscom_url": "https://www.chess.com/club/dupont-chess"
+  },
+  {
+    "json_index": 1020,
+    "id": "terrible_at_chess",
+    "name": "Terrible At Chess",
+    "notes": "A weekly meetup in Los Angeles",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/terrible-at-chess",
+    "chesscom_url": "https://www.chess.com/club/terrible-at-chess"
+  },
+  {
+    "json_index": 1021,
+    "id": "blue_ghost_arcade_chess_club",
+    "name": "Blue Ghost Arcade Chess Club",
+    "notes": "Blue Ghost Arcade, Woodstock Georgia Chess Club members can meet and play in person at the Arcade and online!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/blue-ghost-arcade-chess-club",
+    "chesscom_url": "https://www.chess.com/club/blue-ghost-arcade-chess-club"
+  }
+]

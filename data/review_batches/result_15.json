@@ -1,0 +1,450 @@
+[
+  {
+    "json_index": 1722,
+    "id": "brown_county_chess_club",
+    "city": "Nashville",
+    "state": "IN",
+    "address": "205 Locust Ln, Nashville, IN 47448"
+  },
+  {
+    "json_index": 1723,
+    "id": "wellsboro_mansfield_chess_club",
+    "city": "Wellsboro",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1724,
+    "id": "chess_castle_of_mn",
+    "city": "Minneapolis",
+    "state": "MN",
+    "address": "1121 Jackson Street NE, Suite 134, Minneapolis, MN 55413"
+  },
+  {
+    "json_index": 1725,
+    "id": "cultural_center_chess_club",
+    "city": "Port Charlotte",
+    "state": "FL",
+    "address": "2280 Aaron St, Port Charlotte, FL 33952"
+  },
+  {
+    "json_index": 1726,
+    "id": "lone_pine_chess_club",
+    "city": "Lone Pine",
+    "state": "CA",
+    "address": "107 N Main St, Lone Pine, CA 93545"
+  },
+  {
+    "json_index": 1727,
+    "id": "rappahannock",
+    "city": "Rappahannock",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1728,
+    "id": "santa_maria_chess",
+    "city": "Santa Maria",
+    "state": "CA",
+    "address": "159 Town Center E, Santa Maria, CA 93454"
+  },
+  {
+    "json_index": 1729,
+    "id": "waltham_chess_club2",
+    "city": "Waltham",
+    "state": "MA",
+    "address": "404 Wyman Street, Waltham, MA"
+  },
+  {
+    "json_index": 1730,
+    "id": "bloomington_chess_club",
+    "city": "Bloomington",
+    "state": "IN",
+    "address": null
+  },
+  {
+    "json_index": 1731,
+    "id": "treme_chess_club",
+    "city": "New Orleans",
+    "state": "LA",
+    "address": "2372 St Claude Ave, New Orleans, LA 70117"
+  },
+  {
+    "json_index": 1732,
+    "id": "treme_chess_club2",
+    "city": "New Orleans",
+    "state": "LA",
+    "address": "2372 Saint Claude Ave, New Orleans, LA 70116"
+  },
+  {
+    "json_index": 1733,
+    "id": "muncie_chess_club",
+    "city": "Muncie",
+    "state": "IN",
+    "address": "800 E McGalliard Rd, Muncie, IN 47303"
+  },
+  {
+    "json_index": 1734,
+    "id": "chess_club_of_fairfield_county23",
+    "city": "Norwalk",
+    "state": "CT",
+    "address": "710 West Avenue, Norwalk, CT 06850"
+  },
+  {
+    "json_index": 1735,
+    "id": "marietta_chess_club23",
+    "city": "Marietta",
+    "state": "GA",
+    "address": "31 Mill St, Marietta, GA 30060"
+  },
+  {
+    "json_index": 1736,
+    "id": "seminole_chess_club",
+    "city": "Seminole",
+    "state": "FL",
+    "address": "9200 113th Street North, Seminole, FL 33772"
+  },
+  {
+    "json_index": 1737,
+    "id": "upper_east_chess",
+    "city": "New York",
+    "state": "NY",
+    "address": "E 68th St and 1st Ave, New York, NY 10065"
+  },
+  {
+    "json_index": 1738,
+    "id": "boulder_chess_club",
+    "city": "Boulder",
+    "state": "CO",
+    "address": null
+  },
+  {
+    "json_index": 1739,
+    "id": "will_rogers_chess_knights",
+    "city": "Saranac Lake",
+    "state": "NY",
+    "address": "78 Will Rogers Dr, Saranac Lake, NY 12983"
+  },
+  {
+    "json_index": 1740,
+    "id": "laguardia_cc_chess_shogi_club_nyc",
+    "city": "Long Island City",
+    "state": "NY",
+    "address": "31-10 Thomson Ave, Long Island City, NY 11101"
+  },
+  {
+    "json_index": 1741,
+    "id": "wolfetones_irish_chess_club",
+    "city": "Everett",
+    "state": "WA",
+    "address": "2923 Colby Avenue, Everett, WA 98201"
+  },
+  {
+    "json_index": 1742,
+    "id": "florence_chess_club2",
+    "city": "Florence",
+    "state": "KY",
+    "address": "7425 U.S. 42, Florence, KY 41024"
+  },
+  {
+    "json_index": 1743,
+    "id": "rifle_chess_club",
+    "city": "Rifle",
+    "state": "CO",
+    "address": null
+  },
+  {
+    "json_index": 1744,
+    "id": "nola_chess_club",
+    "city": "New Orleans",
+    "state": "LA",
+    "address": "3014 Holiday Drive, New Orleans, LA 70131"
+  },
+  {
+    "json_index": 1745,
+    "id": "northern_westchester_chess_club",
+    "city": "Mohegan Lake",
+    "state": "NY",
+    "address": "3089 E. Main Street, Mohegan Lake, NY 10547"
+  },
+  {
+    "json_index": 1746,
+    "id": "checkpoint_chess_club",
+    "city": "Stevens Point",
+    "state": "WI",
+    "address": null
+  },
+  {
+    "json_index": 1747,
+    "id": "tristate_chess_club",
+    "city": "Keokuk",
+    "state": "IA",
+    "address": "3111 Main St, Keokuk, IA 52632"
+  },
+  {
+    "json_index": 1748,
+    "id": "stafford_chess_club",
+    "city": "Manahawkin",
+    "state": "NJ",
+    "address": "775 East Bay Avenue, Manahawkin, NJ 08050"
+  },
+  {
+    "json_index": 1749,
+    "id": "livingston_county_chess_club",
+    "city": "Brighton",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 1750,
+    "id": "alpharetta_duluth_chess_club",
+    "city": "Duluth",
+    "state": "GA",
+    "address": "11715 Medlock Bridge Rd, Duluth, GA 30097"
+  },
+  {
+    "json_index": 1751,
+    "id": "golden_knights_chess_club_annapolis_md_chapter",
+    "city": "Annapolis",
+    "state": "MD",
+    "address": "200 Harker Place, Annapolis, MD 21401"
+  },
+  {
+    "json_index": 1752,
+    "id": "lehigh_valley_chess_club",
+    "city": "Bethlehem",
+    "state": "PA",
+    "address": "72 W. Laurel St, Bethlehem, PA 18018"
+  },
+  {
+    "json_index": 1753,
+    "id": "selmer_chess_club",
+    "city": "Selmer",
+    "state": "TN",
+    "address": "980 Lola Whitten Drive, Selmer, TN 38375"
+  },
+  {
+    "json_index": 1754,
+    "id": "chess_with_dony",
+    "city": "Northfield",
+    "state": "NH",
+    "address": "18 Park St, Northfield, NH 03276"
+  },
+  {
+    "json_index": 1755,
+    "id": "the_marion_chess_club",
+    "city": "Marion",
+    "state": "OH",
+    "address": "1623 Mt Vernon Ave, Marion, OH 43302"
+  },
+  {
+    "json_index": 1756,
+    "id": "mendocino_chess_nights",
+    "city": "Mendocino",
+    "state": "CA",
+    "address": "45080 Main Street, Mendocino, CA 95460"
+  },
+  {
+    "json_index": 1757,
+    "id": "roanoke_valley_chess_club",
+    "city": "Roanoke",
+    "state": "VA",
+    "address": "1319 Grandin Road SW, Roanoke, VA 24015"
+  },
+  {
+    "json_index": 1758,
+    "id": "burlington_ambush_chess_club",
+    "city": "Burlington",
+    "state": "NC",
+    "address": "2750 S Church St, Burlington, NC"
+  },
+  {
+    "json_index": 1759,
+    "id": "bristol_chess_club",
+    "city": "Bristol",
+    "state": "RI",
+    "address": "525 Hope St, Bristol, RI 02809"
+  },
+  {
+    "json_index": 1760,
+    "id": "ormonds_chess_club",
+    "city": "Las Vegas",
+    "state": "NV",
+    "address": null
+  },
+  {
+    "json_index": 1761,
+    "id": "brandywine_chess_club_chesscom",
+    "city": "Wilmington",
+    "state": "DE",
+    "address": "1300 Foulk Road, Wilmington, DE 19803"
+  },
+  {
+    "json_index": 1762,
+    "id": "super_happy_fun_chess_house",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "address": "3929 Coleman St, Pittsburgh, PA 15207"
+  },
+  {
+    "json_index": 1763,
+    "id": "peachtree_city_chess_beans",
+    "city": "Peachtree City",
+    "state": "GA",
+    "address": "216 Northlake Drive, Peachtree City, GA 30269"
+  },
+  {
+    "json_index": 1765,
+    "id": "stroudsburg_chess_club2",
+    "city": "Stroudsburg",
+    "state": "PA",
+    "address": "Main St, Stroudsburg, PA 18360"
+  },
+  {
+    "json_index": 1766,
+    "id": "thousand_oaks_chess_club",
+    "city": "Thousand Oaks",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1767,
+    "id": "temecula_chess_club2",
+    "city": "Temecula",
+    "state": "CA",
+    "address": "27403 Ynez Rd, Suite 213, Temecula, CA 92591"
+  },
+  {
+    "json_index": 1768,
+    "id": "blackstone_chess_club",
+    "city": "Pawtucket",
+    "state": "RI",
+    "address": "250 Main Street, Pawtucket, RI 02860"
+  },
+  {
+    "json_index": 1769,
+    "id": "phoenix_chess_and_coffee_meetup",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "address": "7366 East Shea Boulevard, Scottsdale, AZ 85260"
+  },
+  {
+    "json_index": 1770,
+    "id": "charter_school_of_wilmington",
+    "city": "Wilmington",
+    "state": "DE",
+    "address": null
+  },
+  {
+    "json_index": 1771,
+    "id": "villa_rica_chess_club",
+    "city": "Villa Rica",
+    "state": "GA",
+    "address": "85 Commerce Dr, Villa Rica, GA 30180"
+  },
+  {
+    "json_index": 1772,
+    "id": "tiger_chess_association2",
+    "city": "Charlotte",
+    "state": "NC",
+    "address": "2425 North Davidson St, Charlotte, NC 28205"
+  },
+  {
+    "json_index": 1773,
+    "id": "perry_chess_club",
+    "city": "Perry",
+    "state": "OH",
+    "address": "3753 Main Street, Perry, OH 44081"
+  },
+  {
+    "json_index": 1774,
+    "id": "south_shore_chess_club2",
+    "city": "Quincy",
+    "state": "MA",
+    "address": "1193 Sea Street, Quincy, MA 02169"
+  },
+  {
+    "json_index": 1775,
+    "id": "reflections_chess",
+    "city": "Clinton",
+    "state": "IA",
+    "address": "901 S 4th St, Clinton, IA 52732"
+  },
+  {
+    "json_index": 1776,
+    "id": "chess_club_of_clinto_reflections",
+    "city": "Clinton",
+    "state": "IA",
+    "address": "901 S 4th St, Clinton, IA 52732"
+  },
+  {
+    "json_index": 1777,
+    "id": "lafayette_library_chess_club",
+    "city": "Lafayette",
+    "state": "CA",
+    "address": "3491 Mt. Diablo Boulevard, Lafayette, CA 94549"
+  },
+  {
+    "json_index": 1778,
+    "id": "walnut_creek_chess",
+    "city": "Walnut Creek",
+    "state": "CA",
+    "address": "1655 North Main Street, Walnut Creek, CA 94596"
+  },
+  {
+    "json_index": 1779,
+    "id": "contra_costa_chess_club2",
+    "city": "Clayton",
+    "state": "CA",
+    "address": "1536 Kirker Pass Rd, Clayton, CA 94521"
+  },
+  {
+    "json_index": 1780,
+    "id": "the_pensacola_chess_club2",
+    "city": "Pensacola",
+    "state": "FL",
+    "address": "6235 N Davis Hwy, Pensacola, FL 32504"
+  },
+  {
+    "json_index": 1781,
+    "id": "bellaire_chess_club",
+    "city": "Houston",
+    "state": "TX",
+    "address": "4001 Bellaire Blvd, Houston, TX 77025"
+  },
+  {
+    "json_index": 1782,
+    "id": "allentown_center_city_chess_club",
+    "city": "Allentown",
+    "state": "PA",
+    "address": "417 North 7th Street, Allentown, PA 18102"
+  },
+  {
+    "json_index": 1783,
+    "id": "bowling_green_chess_club",
+    "city": "Bowling Green",
+    "state": "OH",
+    "address": "Woodland Mall, Bowling Green, OH 43402"
+  },
+  {
+    "json_index": 1784,
+    "id": "twin_cities_chess_club_of_minnesota",
+    "city": "Hopkins",
+    "state": "MN",
+    "address": "11000 Excelsior Blvd, #202, Hopkins, MN 55343"
+  },
+  {
+    "json_index": 1785,
+    "id": "chess_club_of_cobb",
+    "city": "Marietta",
+    "state": "GA",
+    "address": "724 Cherokee St, Marietta, GA 30060"
+  },
+  {
+    "json_index": 1786,
+    "id": "american_chess_academy",
+    "city": "Glendale",
+    "state": "CA",
+    "address": "209 N. Louise St, Glendale, CA 91205"
+  }
+]

@@ -1,0 +1,1353 @@
+[
+  {
+    "json_index": 385,
+    "id": "asheboro_chess_club",
+    "name": "Asheboro Chess Club",
+    "uscf_id": "A6014595",
+    "website": "http://www.asheborochess.com",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Club Memb Not Req",
+      "Casual Play",
+      "US Chess Rated Play",
+      "Under 18 Permitted",
+      "Blitz Play"
+    ]
+  },
+  {
+    "json_index": 388,
+    "id": "charlotte_chess_club",
+    "name": "Charlotte Chess Club",
+    "uscf_id": "A6002860",
+    "website": "http://www.charlottechess.com",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Club Memb Not Req",
+      "Casual Play",
+      "US Chess Rated Play"
+    ]
+  },
+  {
+    "json_index": 389,
+    "id": "chess_stream",
+    "name": "Chess.Stream",
+    "uscf_id": "A6039693",
+    "website": "http://chess.stream",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Club Memb Not Req",
+      "US Chess Rated Play",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 391,
+    "id": "dragon_knight_chess",
+    "name": "Dragon Knight Chess",
+    "uscf_id": "A7873725",
+    "website": "http://DragonKnightChess.com",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Ladders",
+      "Classes",
+      "Lectures",
+      "Refreshments",
+      "Sets",
+      "Handicap Accessible",
+      "Bughouse",
+      "Clocks",
+      "Lessons",
+      "Matches",
+      "Beginners Welcome",
+      "Club Memb Not Req",
+      "Casual Play",
+      "League Play",
+      "US Chess Rated Play",
+      "Simuls",
+      "Unrated Events",
+      "Chess Camps",
+      "Under 18 Permitted",
+      "Blitz Play"
+    ]
+  },
+  {
+    "json_index": 392,
+    "id": "family_chess_club",
+    "name": "Family Chess Club",
+    "uscf_id": "A7247754",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Bughouse",
+      "Casual Play",
+      "Classes",
+      "Clocks",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Lectures",
+      "Lessons",
+      "Simuls",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 393,
+    "id": "fayetteville_chess_society",
+    "name": "Fayetteville Chess Society",
+    "uscf_id": "A9740283",
+    "website": "https://www.fayettevillechesssociety.org",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Classes",
+      "Clocks",
+      "Club Memb Not Req",
+      "Items for Sale",
+      "Ladders",
+      "League Play",
+      "Lessons",
+      "Matches",
+      "Refreshments",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 394,
+    "id": "greater_henderson_county_chess",
+    "name": "Greater Henderson County Chess",
+    "uscf_id": "H6014488",
+    "website": "http://www.ioa.com/~hyde/chess.htm",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Ladders",
+      "Book Library",
+      "Classes",
+      "Items for Sale",
+      "Lectures",
+      "Sets",
+      "Club Championship",
+      "Handicap Accessible",
+      "Bughouse",
+      "Clocks",
+      "Lessons",
+      "Matches",
+      "Beginners Welcome",
+      "Club Memb Not Req",
+      "Casual Play",
+      "League Play",
+      "US Chess Rated Play",
+      "Simuls",
+      "Unrated Events",
+      "Chess Camps",
+      "Under 18 Permitted",
+      "Blitz Play"
+    ]
+  },
+  {
+    "json_index": 395,
+    "id": "hickory_chess_club",
+    "name": "Hickory Chess Club",
+    "uscf_id": "A8352622",
+    "website": "https://www.chess.com/club/hickory-chess-club",
+    "chesscom_url": "https://www.chess.com/club/hickory-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Book Library",
+      "Casual Play",
+      "Classes",
+      "Clocks",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Items for Sale",
+      "Lectures",
+      "Lessons",
+      "Matches",
+      "Refreshments",
+      "Simuls",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 396,
+    "id": "knights_chess_club",
+    "name": "Knights Chess Club",
+    "uscf_id": "A6037173",
+    "website": "http://www.jacksonvillechess.org",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 397,
+    "id": "new_bern_chess_club",
+    "name": "New Bern Chess Club",
+    "uscf_id": "A6009961",
+    "website": "http://NewBernChess.club",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "US Chess Rated Play",
+      "Unrated Events"
+    ]
+  },
+  {
+    "json_index": 400,
+    "id": "over_the_chessboard",
+    "name": "Over The Chessboard",
+    "uscf_id": "A6042131",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": []
+  },
+  {
+    "json_index": 401,
+    "id": "queen_club",
+    "name": "Queen Club",
+    "uscf_id": "A9430628",
+    "website": "https://chessqueenclub.org/",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Chess Camps",
+      "Club Championship",
+      "League Play",
+      "Lessons",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 402,
+    "id": "smoky_mountain_chess_club",
+    "name": "Smoky Mountain Chess Club",
+    "uscf_id": "A6032066",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Casual Play",
+      "Clocks",
+      "Club Championship",
+      "Club Memb Not Req",
+      "Refreshments",
+      "Sets",
+      "US Chess Rated Play"
+    ]
+  },
+  {
+    "json_index": 404,
+    "id": "wake_forest_chess_club",
+    "name": "Wake Forest Chess Club",
+    "uscf_id": "A6038773",
+    "website": "https://www.chess.com/club/wake-forest-chess-club",
+    "chesscom_url": "https://www.chess.com/club/wake-forest-chess-club",
+    "existing_notes": "",
+    "uscf_activities": []
+  },
+  {
+    "json_index": 405,
+    "id": "wilmington_chess_club",
+    "name": "Wilmington Chess Club",
+    "uscf_id": "A6017156",
+    "website": [
+      "https://sites.google.com/view/wilmingtonchess/home",
+      "https://www.chess.com/club/wilmington-chess-club"
+    ],
+    "chesscom_url": "https://www.chess.com/club/wilmington-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Classes",
+      "Handicap Accessible",
+      "Lessons",
+      "Matches",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 409,
+    "id": "central_chess_club",
+    "name": "Central Chess Club",
+    "uscf_id": "A5007283",
+    "website": "http://www.centralchessclub.com",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": []
+  },
+  {
+    "json_index": 410,
+    "id": "chess_bus",
+    "name": "Chess Bus",
+    "uscf_id": "A6047143",
+    "website": "https://www.chess.com/club/chess-bus",
+    "chesscom_url": "https://www.chess.com/club/chess-bus",
+    "existing_notes": "",
+    "uscf_activities": []
+  },
+  {
+    "json_index": 414,
+    "id": "clermont_county_chess_club",
+    "name": "Clermont County Chess Club",
+    "uscf_id": "A8951882",
+    "website": "http://www.clermontchess.com/",
+    "chesscom_url": "https://www.chess.com/club/clermont-county-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Bughouse",
+      "Casual Play",
+      "Clocks",
+      "Handicap Accessible",
+      "Lessons",
+      "Matches",
+      "Refreshments",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 416,
+    "id": "delta_alpha_lambda_chapter",
+    "name": "Delta Alpha Lambda Chapter",
+    "uscf_id": "A6038690",
+    "website": "http://www.clevelandscholasticopen.org",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Casual Play",
+      "Chess Camps",
+      "Classes",
+      "Club Championship",
+      "League Play",
+      "Lessons",
+      "Simuls"
+    ]
+  },
+  {
+    "json_index": 419,
+    "id": "granville_newark_new_albany_chess_club",
+    "name": "Granville/Newark/New Albany chess club",
+    "uscf_id": "A8190573",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Clocks",
+      "Club Championship",
+      "Club Memb Not Req",
+      "Matches",
+      "US Chess Rated Play"
+    ]
+  },
+  {
+    "json_index": 421,
+    "id": "jackson_chess_club",
+    "name": "Jackson Chess Club",
+    "uscf_id": "A9634341",
+    "website": [
+      "https://www.facebook.com/groups/jacksonchessclub",
+      "https://www.chess.com/club/jackson-chess-club"
+    ],
+    "chesscom_url": "https://www.chess.com/club/jackson-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Bughouse",
+      "Casual Play",
+      "Clocks",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Sets",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 423,
+    "id": "madison_county_chess_club",
+    "name": "Madison County Chess Club",
+    "uscf_id": "A6051128",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": []
+  },
+  {
+    "json_index": 424,
+    "id": "marysville_chess_club",
+    "name": "Marysville Chess Club",
+    "uscf_id": "A6052226",
+    "website": [
+      "http://marysvillechessclub.com",
+      "https://www.chess.com/club/the-marysville-chess-club"
+    ],
+    "chesscom_url": "https://www.chess.com/club/marysville-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Book Library",
+      "Casual Play",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 425,
+    "id": "mate_n_three_cleveland_westside_chess_club",
+    "name": "Mate N Three Cleveland Westside Chess Club",
+    "uscf_id": "A9727542",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Bughouse",
+      "Casual Play",
+      "Chess Camps",
+      "Classes",
+      "Clocks",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Items for Sale",
+      "Lectures",
+      "Lessons",
+      "Refreshments",
+      "Sets",
+      "Simuls",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 431,
+    "id": "wow_that_s_stem_columbus",
+    "name": "WOW That's STEM Columbus",
+    "uscf_id": "A4000377",
+    "website": "https://www.wowthatstemcolumbus.lovable.app",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Casual Play",
+      "Chess Camps",
+      "Classes",
+      "Club Championship",
+      "Club Memb Not Req",
+      "Items for Sale",
+      "Lessons",
+      "Matches",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 432,
+    "id": "youngstown_chess_club",
+    "name": "Youngstown Chess Club",
+    "uscf_id": "A9751607",
+    "website": "https://www.chess.com/club/youngstown-chess-club",
+    "chesscom_url": "https://www.chess.com/club/youngstown-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Club Memb Not Req",
+      "League Play",
+      "Matches",
+      "US Chess Rated Play",
+      "Unrated Events"
+    ]
+  },
+  {
+    "json_index": 433,
+    "id": "chessmates_okc",
+    "name": "Chessmates OKc",
+    "uscf_id": "A9694092",
+    "website": "https://www.facebook.com/groups/chessmatesokc",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Lessons",
+      "Refreshments",
+      "US Chess Rated Play",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 434,
+    "id": "kay_county_chess_club",
+    "name": "Kay County Chess Club",
+    "uscf_id": "A6044713",
+    "website": "http://www.facebook.com",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Book Library",
+      "Casual Play",
+      "Clocks",
+      "Sets",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 435,
+    "id": "midtown_tulsa_chess_club",
+    "name": "Midtown Tulsa Chess Club",
+    "uscf_id": "A7873775",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Book Library",
+      "Casual Play",
+      "Handicap Accessible",
+      "Lessons",
+      "Refreshments",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 440,
+    "id": "weatherford_chess_club",
+    "name": "Weatherford Chess Club",
+    "uscf_id": "A8110359",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Casual Play",
+      "Club Memb Not Req",
+      "US Chess Rated Play",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 441,
+    "id": "corvallis_chess_club",
+    "name": "Corvallis Chess Club",
+    "uscf_id": "A6047191",
+    "website": "https://www.chess.com/club/corvallis-chess-club",
+    "chesscom_url": "https://www.chess.com/club/corvallis-chess-club",
+    "existing_notes": "",
+    "uscf_activities": []
+  },
+  {
+    "json_index": 443,
+    "id": "medford_cc",
+    "name": "Medford CC",
+    "uscf_id": "A6040615",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": []
+  },
+  {
+    "json_index": 445,
+    "id": "oregon_city_chess_club",
+    "name": "Oregon City Chess Club",
+    "uscf_id": "A7839495",
+    "website": "https://www.chess.com/club/oregon-city-chess-club",
+    "chesscom_url": "https://www.chess.com/club/oregon-city-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Club Memb Not Req",
+      "Lessons",
+      "Matches",
+      "Sets",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 447,
+    "id": "orenco_learning_club",
+    "name": "Orenco Learning Club",
+    "uscf_id": "A7847365",
+    "website": "https://www.orencolearningclub.com",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Casual Play",
+      "Handicap Accessible",
+      "Items for Sale",
+      "Lessons",
+      "Sets",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 449,
+    "id": "puddletown_chess",
+    "name": "Puddletown Chess",
+    "uscf_id": "A7911852",
+    "website": "http://puddletownchess.org/",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Casual Play",
+      "Chess Camps",
+      "Classes",
+      "Club Memb Not Req",
+      "Refreshments",
+      "Simuls",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 450,
+    "id": "rose_city_chess",
+    "name": "Rose City Chess",
+    "uscf_id": "A7499281",
+    "website": "https://www.rosecitychess.com/",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Book Library",
+      "Bughouse",
+      "Casual Play",
+      "Chess Camps",
+      "Classes",
+      "Clocks",
+      "Club Championship",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Items for Sale",
+      "Ladders",
+      "League Play",
+      "Lectures",
+      "Lessons",
+      "Matches",
+      "Refreshments",
+      "Sets",
+      "Simuls",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 451,
+    "id": "salem_oregon_chess",
+    "name": "Salem Oregon Chess",
+    "uscf_id": "A9950444",
+    "website": "https://www.salemoregonchess.com",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Casual Play",
+      "Classes",
+      "Lessons",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 452,
+    "id": "the_portland_go_and_chess_club",
+    "name": "The Portland Go and Chess Club",
+    "uscf_id": "A9270277",
+    "website": "https://globalspeedchess.com",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Blitz Play",
+      "Casual Play",
+      "Club Memb Not Req",
+      "Ladders",
+      "League Play",
+      "Matches",
+      "Sets",
+      "US Chess Rated Play",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 456,
+    "id": "amity_chess_club_of_douglasville_pa",
+    "name": "Amity Chess Club Of Douglasville, Pa",
+    "uscf_id": "A6050701",
+    "website": "https://www.amitychessclub.org/",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Classes",
+      "Lectures",
+      "Sets",
+      "Handicap Accessible",
+      "Clocks",
+      "Lessons",
+      "Beginners Welcome",
+      "Casual Play",
+      "US Chess Rated Play",
+      "Simuls",
+      "Under 18 Permitted",
+      "Blitz Play"
+    ]
+  },
+  {
+    "json_index": 457,
+    "id": "capitolo_chess_club",
+    "name": "Capitolo Chess Club",
+    "uscf_id": "A8530806",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Clocks",
+      "Club Championship",
+      "Club Memb Not Req",
+      "Lessons",
+      "Sets",
+      "Simuls",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 458,
+    "id": "center_city_chess_club",
+    "name": "Center City Chess Club",
+    "uscf_id": "A6011426",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": []
+  },
+  {
+    "json_index": 459,
+    "id": "chaturanga_chess_club",
+    "name": "Chaturanga Chess Club",
+    "uscf_id": "A6023084",
+    "website": "https://chaturangachessclub.org/",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Book Library",
+      "Casual Play",
+      "Clocks",
+      "Club Championship",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "League Play",
+      "Matches",
+      "Sets",
+      "Simuls",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 460,
+    "id": "cpa_chess",
+    "name": "CPA Chess",
+    "uscf_id": "A6039707",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": []
+  },
+  {
+    "json_index": 461,
+    "id": "erie_chess_club",
+    "name": "Erie Chess Club",
+    "uscf_id": "A5003920",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Sets",
+      "Clocks",
+      "Beginners Welcome",
+      "Casual Play",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 463,
+    "id": "harrisburg_west_shore_cc",
+    "name": "Harrisburg West Shore Cc",
+    "uscf_id": "A5004012",
+    "website": "http://www.geocities.com/hbgchessclub",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Bughouse",
+      "Casual Play",
+      "Club Championship",
+      "Matches",
+      "Refreshments",
+      "US Chess Rated Play",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 465,
+    "id": "main_line_chess_club",
+    "name": "Main Line Chess Club",
+    "uscf_id": "A6008906",
+    "website": "http://www.mainlinechess.com",
+    "chesscom_url": "https://www.chess.com/club/main-line-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Club Championship",
+      "Handicap Accessible",
+      "US Chess Rated Play",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 466,
+    "id": "mainline_chess_and_games",
+    "name": "Mainline Chess And Games",
+    "uscf_id": "A6046030",
+    "website": "https://www.chess.com/club/main-line-chess-and-games",
+    "chesscom_url": "https://www.chess.com/club/main-line-chess-and-games",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Book Library",
+      "Casual Play",
+      "Chess Camps",
+      "Classes",
+      "Clocks",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Items for Sale",
+      "Lectures",
+      "Lessons",
+      "Refreshments",
+      "Sets",
+      "Simuls",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 467,
+    "id": "marywood_chess_club",
+    "name": "Marywood Chess Club",
+    "uscf_id": "A6052012",
+    "website": "https://www.marywood.edu/",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Clocks",
+      "Club Memb Not Req",
+      "Matches",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 468,
+    "id": "masterminds_chess_club",
+    "name": "Masterminds Chess Club",
+    "uscf_id": "A6017033",
+    "website": [
+      "http://www.mastermindschess.org",
+      "https://www.chess.com/club/masterminds-chess-club"
+    ],
+    "chesscom_url": "https://www.chess.com/club/masterminds-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Club Memb Not Req",
+      "League Play",
+      "US Chess Rated Play"
+    ]
+  },
+  {
+    "json_index": 469,
+    "id": "media_chess_club",
+    "name": "Media Chess Club",
+    "uscf_id": "A8572189",
+    "website": "https://mediachessclub.com",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Club Championship",
+      "Club Memb Not Req",
+      "League Play",
+      "Lectures",
+      "Matches",
+      "Simuls",
+      "US Chess Rated Play",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 470,
+    "id": "myerstown_chess_club",
+    "name": "Myerstown Chess Club",
+    "uscf_id": "A8613239",
+    "website": "http://www.myerstownchess.org",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Book Library",
+      "Casual Play",
+      "Classes",
+      "Clocks",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Items for Sale",
+      "League Play",
+      "Lectures",
+      "Lessons",
+      "Matches",
+      "Simuls",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 471,
+    "id": "north_penn_chess_club",
+    "name": "North Penn Chess Club",
+    "uscf_id": "A5004586",
+    "website": "http://www.northpennchessclub.org",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Club Memb Not Req",
+      "US Chess Rated Play",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 475,
+    "id": "shippensburg_community_chess_club",
+    "name": "Shippensburg Community Chess Club",
+    "uscf_id": "A6051286",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Club Memb Not Req",
+      "US Chess Rated Play",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 476,
+    "id": "stroudsburg_chess_club",
+    "name": "Stroudsburg Chess Club",
+    "uscf_id": "A8375807",
+    "website": "https://www.chess.com/club/stroudsburg-chess-club",
+    "chesscom_url": "https://www.chess.com/club/stroudsburg-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Casual Play",
+      "Clocks",
+      "Sets",
+      "US Chess Rated Play"
+    ]
+  },
+  {
+    "json_index": 477,
+    "id": "the_6_4",
+    "name": "The 6|4",
+    "uscf_id": "A6045538",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Bughouse",
+      "Casual Play",
+      "Chess Camps",
+      "Classes",
+      "Club Championship",
+      "League Play",
+      "Lectures",
+      "Lessons",
+      "Matches",
+      "US Chess Rated Play",
+      "Unrated Events"
+    ]
+  },
+  {
+    "json_index": 478,
+    "id": "tri_bridges_chess_club",
+    "name": "Tri-Bridges Chess Club",
+    "uscf_id": "A6042146",
+    "website": [
+      "https://tribridgeschessclub.com",
+      "https://www.chess.com/club/tri-bridges-chess-club"
+    ],
+    "chesscom_url": "https://www.chess.com/club/tri-bridges-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Book Library",
+      "Casual Play",
+      "Chess Camps",
+      "Classes",
+      "Clocks",
+      "Club Memb Not Req",
+      "Items for Sale",
+      "Lectures",
+      "Lessons",
+      "Refreshments",
+      "Sets",
+      "Simuls",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 479,
+    "id": "utuado_chess_club",
+    "name": "Utuado Chess Club",
+    "uscf_id": "A9894019",
+    "website": "https://utuadochessclub.com",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Classes",
+      "Clocks",
+      "Club Championship",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Lectures",
+      "Lessons",
+      "Matches",
+      "Sets",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 480,
+    "id": "chess_master_connections",
+    "name": "Chess Master Connections",
+    "uscf_id": "A6030363",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": []
+  },
+  {
+    "json_index": 482,
+    "id": "east_providence_chess_club",
+    "name": "East Providence Chess Club",
+    "uscf_id": "A6021636",
+    "website": "https://www.facebook.com/CranstonWarwickChessClub/",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Clocks",
+      "Club Championship",
+      "Club Memb Not Req",
+      "Sets",
+      "US Chess Rated Play",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 486,
+    "id": "seneca",
+    "name": "Seneca",
+    "uscf_id": "A9349258",
+    "website": "http://senecachess.org",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "US Chess Rated Play",
+      "Unrated Events"
+    ]
+  },
+  {
+    "json_index": 487,
+    "id": "beaufort_chess",
+    "name": "Beaufort Chess",
+    "uscf_id": "A6052295",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Casual Play",
+      "Clocks",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Sets",
+      "US Chess Rated Play",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 490,
+    "id": "chess_klub",
+    "name": "Chess Klub",
+    "uscf_id": "A6053660",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": []
+  },
+  {
+    "json_index": 492,
+    "id": "greater_greenwood_chess_players_club",
+    "name": "Greater Greenwood Chess Players Club",
+    "uscf_id": "A6030645",
+    "website": "http://GreaterGreenwoodChessPlayers.pbworks.com",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Book Library",
+      "Casual Play",
+      "Clocks",
+      "Club Championship",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Ladders",
+      "Matches",
+      "Refreshments",
+      "Sets",
+      "Simuls",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 494,
+    "id": "knights_of_the_upstate",
+    "name": "Knights of the Upstate",
+    "uscf_id": "A7510626",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Chess Camps",
+      "Classes",
+      "Clocks",
+      "Club Championship",
+      "Items for Sale",
+      "Lectures",
+      "Lessons",
+      "Matches",
+      "Sets",
+      "Simuls",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 496,
+    "id": "myrtle_beach_chess_club",
+    "name": "Myrtle Beach Chess Club",
+    "uscf_id": "A8155025",
+    "website": "https://www.facebook.com/groups/myrtlebeachchessclub",
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Casual Play",
+      "Club Championship",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 499,
+    "id": "brookings_chess_club",
+    "name": "Brookings Chess Club",
+    "uscf_id": "A9359160",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Casual Play",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "League Play",
+      "Matches",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 500,
+    "id": "dakota_chess",
+    "name": "Dakota Chess",
+    "uscf_id": "A7864838",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "US Chess Rated Play"
+    ]
+  },
+  {
+    "json_index": 505,
+    "id": "cumberland_county_chess_club",
+    "name": "Cumberland County Chess Club",
+    "uscf_id": "A5006953",
+    "website": [
+      "http://www.cumberlandcountychess.org",
+      "https://www.chess.com/club/cumberland-county-chess-club"
+    ],
+    "chesscom_url": "https://www.chess.com/club/cumberland-county-chess-club",
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Blitz Play",
+      "Book Library",
+      "Bughouse",
+      "Casual Play",
+      "Clocks",
+      "Club Championship",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "Lectures",
+      "Lessons",
+      "Matches",
+      "Sets",
+      "US Chess Rated Play",
+      "Unrated Events",
+      "Under 18 Permitted"
+    ]
+  },
+  {
+    "json_index": 506,
+    "id": "franklin_chess_club",
+    "name": "Franklin Chess Club",
+    "uscf_id": "A4000359",
+    "website": null,
+    "chesscom_url": null,
+    "existing_notes": "",
+    "uscf_activities": [
+      "Beginners Welcome",
+      "Casual Play",
+      "Club Memb Not Req",
+      "Handicap Accessible",
+      "League Play",
+      "Lessons"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {"json_index": 1299, "id": "findlay_chess_club", "hours": {"Saturday": {"open": "09:00", "close": "12:00"}}, "website": null},
+  {"json_index": 1300, "id": "kapolei_chess_club", "hours": {"Tuesday": {"open": "18:00", "close": "20:00"}}, "website": null},
+  {"json_index": 1301, "id": "west_palm_street_chess", "hours": null, "website": "https://www.westpalmstreetchess.com"},
+  {"json_index": 1304, "id": "jefferson_city_chess_club", "hours": {"Tuesday": {"open": "18:00", "close": "21:00"}}, "website": null},
+  {"json_index": 1307, "id": "central_nebraska_chess_club", "hours": {"Saturday": {"open": "14:30", "close": "16:30"}}, "website": "https://discord.gg/rWysY7tad2"},
+  {"json_index": 1309, "id": "greeley_chess_club", "hours": {"Thursday": {"open": "18:00", "close": "21:00"}}, "website": null},
+  {"json_index": 1310, "id": "team_honolulu", "hours": {"Friday": {"open": "17:00", "close": "21:00"}}, "website": null},
+  {"json_index": 1312, "id": "yokota_chess_club", "hours": {"Thursday": {"open": "15:00", "close": "17:00"}}, "website": null},
+  {"json_index": 1317, "id": "knights_full_of_coffee", "hours": null, "website": "https://discord.gg/FXrpu9mFSD"},
+  {"json_index": 1320, "id": "rittenhouse_chess", "hours": {"Wednesday": {"open": "18:00"}, "Sunday": {"open": "13:00"}}, "website": "https://www.facebook.com/groups/rittenhousechess"},
+  {"json_index": 1336, "id": "jp_chess_boston", "hours": null, "website": "https://www.jpchess.org"},
+  {"json_index": 1337, "id": "great_lakes_live_chess_league", "hours": null, "website": "https://www.greatlakeschessleague.com/"},
+  {"json_index": 1339, "id": "columbus_chess_club_pg", "hours": {"Sunday": {"open": "13:00", "close": "16:00"}}, "website": null},
+  {"json_index": 1346, "id": "columbus_mulligan_chess_club", "hours": {"Saturday": {"open": "14:00", "close": "19:00"}}, "website": "https://www.meetup.com/mulligan-columbus-chess-club/"},
+  {"json_index": 1349, "id": "oprahs_rook_club", "hours": {"Wednesday": {"open": "19:00"}}, "website": null}
+]

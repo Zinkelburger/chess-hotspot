@@ -1,0 +1,11 @@
+[
+  {"json_index": 1244, "id": "king_george_chess_club", "hours": null, "website": "https://www.meetup.com/chesscom-group-kinggeorge/"},
+  {"json_index": 1250, "id": "rocky_hill_chess_club", "hours": null, "website": "https://rockyhillchess.club"},
+  {"json_index": 1259, "id": "volusia_county_chess_club", "hours": null, "website": "https://www.volusiacountychessclub.com"},
+  {"json_index": 1270, "id": "kq_chess_club", "hours": null, "website": "https://www.instagram.com/KQChessClub"},
+  {"json_index": 1271, "id": "twin_ports_chess_club_online", "hours": {"Monday": {"open": "18:00"}}, "website": "https://twinportschessclub.wixsite.com/chess"},
+  {"json_index": 1272, "id": "kings_and_queens_chess", "hours": null, "website": "https://www.instagram.com/KingsandQueensChess"},
+  {"json_index": 1282, "id": "rockville_chess_meetup", "hours": null, "website": "https://www.meetup.com/Rockville-Chess-Meetup/"},
+  {"json_index": 1286, "id": "groveland_massachusetts", "hours": null, "website": "https://bit.ly/34kwtMj"},
+  {"json_index": 1290, "id": "north_dallas_chess_club", "hours": null, "website": "https://discord.gg/nFt6QptN"}
+]

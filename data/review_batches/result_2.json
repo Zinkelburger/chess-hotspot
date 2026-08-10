@@ -1,0 +1,436 @@
+[
+  {
+    "json_index": 878,
+    "id": "monterey_county",
+    "city": "Monterey",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 879,
+    "id": "rapid_chess_society",
+    "city": "Wisconsin Rapids",
+    "state": "WI",
+    "address": "McMillan Memorial Library, Wisconsin Rapids, WI"
+  },
+  {
+    "json_index": 880,
+    "id": "knight_riders_of_pennsylvania",
+    "city": "Mountaintop",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 881,
+    "id": "queens_court_of_long_island_ny",
+    "city": "Huntington",
+    "state": "NY",
+    "address": "Main Street Board Game Cafe, Huntington Village, NY"
+  },
+  {
+    "json_index": 882,
+    "id": "noble_kava_chess_club",
+    "city": "Boone",
+    "state": "NC",
+    "address": "Noble Kava, Blowing Rock Rd, Boone, NC"
+  },
+  {
+    "json_index": 883,
+    "id": "kodiak_chess_masters",
+    "city": "Kodiak",
+    "state": "AK",
+    "address": "414 Mission Road, Saint Herman Seminary, Kodiak, AK"
+  },
+  {
+    "json_index": 884,
+    "id": "monmouth_county_chess",
+    "city": "Freehold",
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 885,
+    "id": "cape_cod_chess_club",
+    "city": "Dennis",
+    "state": "MA",
+    "address": "Dennis Senior Center, Dennis, MA"
+  },
+  {
+    "json_index": 886,
+    "id": "fritz_chess_club",
+    "city": "Ballwin",
+    "state": "MO",
+    "address": null
+  },
+  {
+    "json_index": 887,
+    "id": "pdx_chess_adult_learners",
+    "city": "Portland",
+    "state": "OR",
+    "address": null
+  },
+  {
+    "json_index": 888,
+    "id": "mt_pleasant",
+    "city": "Mt Pleasant",
+    "state": "TX",
+    "address": "102 N Jefferson Ave, Jo's Downtown, Mt Pleasant, TX 75455"
+  },
+  {
+    "json_index": 889,
+    "id": "baytown_bishops",
+    "city": "Baytown",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 890,
+    "id": "gnvchess",
+    "city": "Gainesville",
+    "state": "FL",
+    "address": "Perkins, Gainesville, FL"
+  },
+  {
+    "json_index": 891,
+    "id": "reverechessclub",
+    "city": "Revere",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 892,
+    "id": "bushwickchess",
+    "city": "Brooklyn",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 893,
+    "id": "aiken_chess_club",
+    "city": "Aiken",
+    "state": "SC",
+    "address": "1310 East Pine Log Road, Aiken Senior Life Services, Aiken, SC"
+  },
+  {
+    "json_index": 894,
+    "id": "wolf_and_wyvern_chess_club",
+    "city": "Johnstown",
+    "state": "PA",
+    "address": "139 Clinton St Ground Floor, Johnstown, PA 15901"
+  },
+  {
+    "json_index": 895,
+    "id": "coastal_kings_and_queens",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 896,
+    "id": "bar_lyssa",
+    "city": "Loveland",
+    "state": "CO",
+    "address": "120 E 4th Street, Loveland, CO"
+  },
+  {
+    "json_index": 897,
+    "id": "the_think_tank_chess_club",
+    "city": "Battle Creek",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 898,
+    "id": "saint_croix_valley_chess_club",
+    "city": "Stillwater",
+    "state": "MN",
+    "address": "Stillwater Public Library, Stillwater, MN"
+  },
+  {
+    "json_index": 899,
+    "id": "boonville_chess_club",
+    "city": "Boonville",
+    "state": "MO",
+    "address": null
+  },
+  {
+    "json_index": 900,
+    "id": "the_carlisle_chess_club",
+    "city": "Carlisle",
+    "state": "PA",
+    "address": "Gather Your Party, Carlisle, PA"
+  },
+  {
+    "json_index": 901,
+    "id": "san_clemente_chess",
+    "city": "San Clemente",
+    "state": "CA",
+    "address": "Avila's El Ranchito's, Del Mar, San Clemente, CA"
+  },
+  {
+    "json_index": 902,
+    "id": "the_rockn_robin_cc",
+    "city": null,
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 903,
+    "id": "cooper_city_chess",
+    "city": "Cooper City",
+    "state": "FL",
+    "address": "Cooper City Pool and Tennis Center, Cooper City, FL"
+  },
+  {
+    "json_index": 904,
+    "id": "pease_park_chess_club",
+    "city": "Austin",
+    "state": "TX",
+    "address": "Pease Park, Austin, TX"
+  },
+  {
+    "json_index": 905,
+    "id": "cville_chess_club",
+    "city": "Crawfordsville",
+    "state": "IN",
+    "address": null
+  },
+  {
+    "json_index": 906,
+    "id": "chessboxing_nyc",
+    "city": "New York",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 907,
+    "id": "nobles_knights",
+    "city": "Dover",
+    "state": "DE",
+    "address": "The Point, Noble's Pond, Dover, DE"
+  },
+  {
+    "json_index": 908,
+    "id": "edmonton_chess_club_kentucky",
+    "city": "Edmonton",
+    "state": "KY",
+    "address": "Metcalfe County Public Library, Edmonton, KY"
+  },
+  {
+    "json_index": 909,
+    "id": "phx_chess_club_uscf_rated",
+    "city": "Phoenix",
+    "state": "AZ",
+    "address": null
+  },
+  {
+    "json_index": 910,
+    "id": "queen_city_chess",
+    "city": "Marquette",
+    "state": "MI",
+    "address": "Iron Golem Games, Marquette, MI"
+  },
+  {
+    "json_index": 911,
+    "id": "golden_knights_chess_club_severna_park_chapter",
+    "city": "Severna Park",
+    "state": "MD",
+    "address": "503 Ritchie Highway, Starbucks, Severna Park, MD 21146"
+  },
+  {
+    "json_index": 912,
+    "id": "maze_books_chess_club",
+    "city": "Rockford",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 913,
+    "id": "daybreak_utah_chess_club",
+    "city": "South Jordan",
+    "state": "UT",
+    "address": "4544 W Harvest Moon Dr, Daybreak Community Center, South Jordan, UT 84009"
+  },
+  {
+    "json_index": 914,
+    "id": "aspen_hill_chess_club",
+    "city": "Aspen Hill",
+    "state": "MD",
+    "address": "Aspen Hill Library, Aspen Hill, MD"
+  },
+  {
+    "json_index": 915,
+    "id": "eastvalenorco_chess_club",
+    "city": "Norco",
+    "state": "CA",
+    "address": "Norco Library, Norco, CA"
+  },
+  {
+    "json_index": 916,
+    "id": "pax_chess_and_strategy",
+    "city": "Lexington Park",
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 917,
+    "id": "slc_chess_club",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "address": "Salt Lake City Public Library, Salt Lake City, UT"
+  },
+  {
+    "json_index": 918,
+    "id": "wise_chess_club",
+    "city": "Southaven",
+    "state": "MS",
+    "address": "Slim Chickens, Southaven, MS"
+  },
+  {
+    "json_index": 919,
+    "id": "georges_mexican_restaurant",
+    "city": "Mandeville",
+    "state": "LA",
+    "address": "1461 N. Causeway Blvd, George's Mexican Restaurant, Mandeville, LA 70471"
+  },
+  {
+    "json_index": 920,
+    "id": "daring_moves_chess_club",
+    "city": "Helena",
+    "state": "MT",
+    "address": "Lewis and Clark County Library, Helena, MT"
+  },
+  {
+    "json_index": 921,
+    "id": "krave_kava_raleigh_chess_club",
+    "city": "Raleigh",
+    "state": "NC",
+    "address": "Krave Kava, Raleigh, NC"
+  },
+  {
+    "json_index": 923,
+    "id": "palmer_chess_club",
+    "city": "Palmer",
+    "state": "AK",
+    "address": "203 Kombucha, Palmer, AK"
+  },
+  {
+    "json_index": 924,
+    "id": "seminole_county_chess",
+    "city": "Winter Springs",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 925,
+    "id": "knob_noster_chess_club",
+    "city": "Knob Noster",
+    "state": "MO",
+    "address": "Trails Regional Library, Knob Noster, MO"
+  },
+  {
+    "json_index": 927,
+    "id": "vintage_paris_coffee_shop_chess_club",
+    "city": "Hollister",
+    "state": "MO",
+    "address": "Vintage Paris Coffee Shop, Hollister, MO"
+  },
+  {
+    "json_index": 928,
+    "id": "chess_and_cigars",
+    "city": "Miami",
+    "state": "FL",
+    "address": "Empire Cigars Lounge, Dadeland, Miami, FL"
+  },
+  {
+    "json_index": 929,
+    "id": "humboldt_county_chess_kids",
+    "city": "Arcata",
+    "state": "CA",
+    "address": "Arcata Library, Arcata, CA"
+  },
+  {
+    "json_index": 930,
+    "id": "impactchess",
+    "city": "Richmond",
+    "state": "IN",
+    "address": "717 S 5th street, Richmond, IN"
+  },
+  {
+    "json_index": 931,
+    "id": "temescal_valley_chessclub",
+    "city": "Corona",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 932,
+    "id": "leroy_collins_library_chess",
+    "city": "Tallahassee",
+    "state": "FL",
+    "address": "Leroy Collins Library, Tallahassee, FL"
+  },
+  {
+    "json_index": 933,
+    "id": "foco_barbershop_chess_club",
+    "city": "Fort Collins",
+    "state": "CO",
+    "address": null
+  },
+  {
+    "json_index": 934,
+    "id": "family_chess_club_nc",
+    "city": "Greenville",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 935,
+    "id": "alta_boulders_chess_club",
+    "city": "Chandler",
+    "state": "AZ",
+    "address": "Alta Boulders, Chandler, AZ"
+  },
+  {
+    "json_index": 936,
+    "id": "princeton_public_library_chess_club",
+    "city": "Princeton",
+    "state": "WV",
+    "address": "Princeton Public Library, Princeton, WV"
+  },
+  {
+    "json_index": 937,
+    "id": "savage_river_chess_denali_alaska",
+    "city": "Healy",
+    "state": "AK",
+    "address": "Otto Lake Park Pavilion, Healy, AK"
+  },
+  {
+    "json_index": 938,
+    "id": "savage_river_chess_club",
+    "city": "Healy",
+    "state": "AK",
+    "address": "Otto Lake Park Pavilion, Healy, AK"
+  },
+  {
+    "json_index": 939,
+    "id": "bend_knights",
+    "city": "Bend",
+    "state": "OR",
+    "address": null
+  },
+  {
+    "json_index": 940,
+    "id": "quail_hollow_chess",
+    "city": "Kissimmee",
+    "state": "FL",
+    "address": "Quail Hollow Park, Kissimmee, FL"
+  },
+  {
+    "json_index": 941,
+    "id": "221_chess_society",
+    "city": "Farmington",
+    "state": "MO",
+    "address": null
+  }
+]

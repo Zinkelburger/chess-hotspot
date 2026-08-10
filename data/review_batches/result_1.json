@@ -1,0 +1,408 @@
+[
+  {
+    "json_index": 812,
+    "id": "home_grown_chess",
+    "city": "Willard",
+    "state": "MO",
+    "address": "Jackson St Park, Willard, MO"
+  },
+  {
+    "json_index": 813,
+    "id": "el_dorado_hills_and_folsom_chess_club",
+    "city": "El Dorado Hills",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 814,
+    "id": "gastonia_booksamillion_chess_club",
+    "city": "Gastonia",
+    "state": "NC",
+    "address": "3710 East Boulevard, Gastonia, NC 28056"
+  },
+  {
+    "json_index": 815,
+    "id": "payson_library_chess_club",
+    "city": "Payson",
+    "state": "UT",
+    "address": "Payson City Library, Payson, UT"
+  },
+  {
+    "json_index": 816,
+    "id": "point_chess_club",
+    "city": "Stevens Point",
+    "state": "WI",
+    "address": null
+  },
+  {
+    "json_index": 817,
+    "id": "cocktails_and_chess_florence",
+    "city": "Florence",
+    "state": "AL",
+    "address": null
+  },
+  {
+    "json_index": 818,
+    "id": "gainesville_chess_club",
+    "city": "Gainesville",
+    "state": "FL",
+    "address": "Alachua County Library Headquarters, Gainesville, FL"
+  },
+  {
+    "json_index": 819,
+    "id": "motor_city_knights_chess_club",
+    "city": "Detroit",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 820,
+    "id": "sandusky_chess_club",
+    "city": "Sandusky",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 821,
+    "id": "axehead_beverage_co_chess_club",
+    "city": "Seymour",
+    "state": "MO",
+    "address": "On the square, Seymour, MO"
+  },
+  {
+    "json_index": 822,
+    "id": "white_mtns_otb_chess_club",
+    "city": "Show Low",
+    "state": "AZ",
+    "address": "Turn of the Card community center, Show Low, AZ"
+  },
+  {
+    "json_index": 823,
+    "id": "queen_city_chess_club_of_new_iberia",
+    "city": "New Iberia",
+    "state": "LA",
+    "address": null
+  },
+  {
+    "json_index": 824,
+    "id": "pho_chess_club",
+    "city": "Lumberton",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 825,
+    "id": "sixty_four_squares_dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 826,
+    "id": "greater_dc_chess",
+    "city": "Washington",
+    "state": "DC",
+    "address": null
+  },
+  {
+    "json_index": 827,
+    "id": "collinsville_library_chess_club",
+    "city": "Collinsville",
+    "state": null,
+    "address": null
+  },
+  {
+    "json_index": 828,
+    "id": "hernando_ms_chess_club",
+    "city": "Hernando",
+    "state": "MS",
+    "address": null
+  },
+  {
+    "json_index": 829,
+    "id": "ne_texas_chess_community",
+    "city": null,
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 831,
+    "id": "jasper_county_chess_club",
+    "city": "Monticello",
+    "state": "GA",
+    "address": null
+  },
+  {
+    "json_index": 833,
+    "id": "the_gospel_and_gambits_chess_club",
+    "city": null,
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 834,
+    "id": "charleston_coffeehouse_chess",
+    "city": "Charleston",
+    "state": "SC",
+    "address": null
+  },
+  {
+    "json_index": 835,
+    "id": "turkish_american_chess_community_of_washington",
+    "city": "Seattle",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 836,
+    "id": "glendale_ca_chess",
+    "city": "Glendale",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 837,
+    "id": "memento_rex",
+    "city": null,
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 838,
+    "id": "bartow_co_ga_chess_club",
+    "city": "Cartersville",
+    "state": "GA",
+    "address": null
+  },
+  {
+    "json_index": 839,
+    "id": "old_east_dallas_chess_club",
+    "city": "Dallas",
+    "state": "TX",
+    "address": "4822 Bryan St, Dallas, TX 75204"
+  },
+  {
+    "json_index": 840,
+    "id": "corrales_chess_club",
+    "city": "Corrales",
+    "state": "NM",
+    "address": "Corrales Public Library, Corrales, NM"
+  },
+  {
+    "json_index": 841,
+    "id": "utqiagvik_chess_club",
+    "city": "Utqiagvik",
+    "state": "AK",
+    "address": null
+  },
+  {
+    "json_index": 842,
+    "id": "livingston_mt_games",
+    "city": "Livingston",
+    "state": "MT",
+    "address": null
+  },
+  {
+    "json_index": 843,
+    "id": "jcc_ymca_edison",
+    "city": "Edison",
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 844,
+    "id": "estrella_life_chess_club",
+    "city": "Goodyear",
+    "state": "AZ",
+    "address": null
+  },
+  {
+    "json_index": 845,
+    "id": "the_greater_columbus_chess_club",
+    "city": "Columbus",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 846,
+    "id": "marlboro_invitational",
+    "city": "Marlboro",
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 847,
+    "id": "new_hmapshire_chess_club",
+    "city": "Manchester",
+    "state": "NH",
+    "address": null
+  },
+  {
+    "json_index": 848,
+    "id": "cape_library_chess_club",
+    "city": "Cape Girardeau",
+    "state": "MO",
+    "address": null
+  },
+  {
+    "json_index": 849,
+    "id": "miamidade_chess_club",
+    "city": "Miami",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 851,
+    "id": "new_braunfels_2025",
+    "city": "New Braunfels",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 852,
+    "id": "torrance_chess_players",
+    "city": "Torrance",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 853,
+    "id": "portales_chess_club",
+    "city": "Portales",
+    "state": "NM",
+    "address": null
+  },
+  {
+    "json_index": 854,
+    "id": "new_york_city_chess_meetups",
+    "city": "New York City",
+    "state": "NY",
+    "address": "The Living Room @ Pier 57, New York, NY"
+  },
+  {
+    "json_index": 855,
+    "id": "sylvanpark",
+    "city": "Mountain View",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 856,
+    "id": "woodland_public_library_chess_club",
+    "city": "Woodland",
+    "state": "CA",
+    "address": "Woodland Public Library, Woodland, CA"
+  },
+  {
+    "json_index": 857,
+    "id": "three_rivers_chess_club",
+    "city": "Kennewick",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 858,
+    "id": "mountain_city_chess_club",
+    "city": "Mountain City",
+    "state": "TN",
+    "address": "Locals Deli, Mountain City, TN"
+  },
+  {
+    "json_index": 859,
+    "id": "knight_byte_chess_club",
+    "city": "Sunnyvale",
+    "state": "CA",
+    "address": "Muwekma, Sunnyvale, CA"
+  },
+  {
+    "json_index": 860,
+    "id": "mt_hood_chess_club",
+    "city": "Government Camp",
+    "state": "OR",
+    "address": null
+  },
+  {
+    "json_index": 861,
+    "id": "plainview_limelite_chess_club",
+    "city": "Plainview",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 862,
+    "id": "auburn_public_library_chess_club",
+    "city": "Auburn",
+    "state": "ME",
+    "address": "Auburn Public Library, Auburn, ME"
+  },
+  {
+    "json_index": 863,
+    "id": "818_chess_club",
+    "city": "San Fernando",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 864,
+    "id": "raleighcary_chess_club",
+    "city": "Raleigh",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 865,
+    "id": "ashtabula_and_geauga_county_chess_club",
+    "city": "Ashtabula",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 866,
+    "id": "moses_lake_chess_club",
+    "city": "Moses Lake",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 868,
+    "id": "edgewater_chess_club",
+    "city": "Chicago",
+    "state": "IL",
+    "address": "6000 N Broadway, Chicago, IL 60660"
+  },
+  {
+    "json_index": 869,
+    "id": "king_sacrifice_pbc_chess_club",
+    "city": "Purcellville",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 870,
+    "id": "shatranj_dhi",
+    "city": null,
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 874,
+    "id": "white_county_chess_community",
+    "city": "Searcy",
+    "state": "AR",
+    "address": null
+  },
+  {
+    "json_index": 875,
+    "id": "washington_red_knight_chess_club",
+    "city": "Montesano",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 876,
+    "id": "red_knight_chess_club",
+    "city": "Montesano",
+    "state": "WA",
+    "address": null
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {"json_index": 1133, "id": "knight_ware_inc", "hours": {"Sunday": {"open": "11:00"}}, "website": null},
+  {"json_index": 1134, "id": "sunny_isles_beach_chess_club", "hours": null, "website": "https://www.meetup.com/chesscom-group-miami/"},
+  {"json_index": 1136, "id": "antelope_valley_chess_club", "hours": {"Monday": {"open": "17:00"}}, "website": "https://www.avchess.com"},
+  {"json_index": 1137, "id": "south_texas_chess_federation", "hours": null, "website": "http://southtxchess.org/index.html"},
+  {"json_index": 1139, "id": "chess_masters_of_houston", "hours": null, "website": "https://chessmastersofhouston.com/"},
+  {"json_index": 1140, "id": "aicc", "hours": {"Monday": {"open": "18:00", "close": "20:00"}, "Tuesday": {"open": "16:00", "close": "18:00"}, "Thursday": {"open": "10:00", "close": "14:00"}}, "website": null},
+  {"json_index": 1142, "id": "too_tuff_chess_club", "hours": null, "website": "https://www.instagram.com/tootuffchessclub/"},
+  {"json_index": 1143, "id": "binghamton_area_yhpl_chess_club", "hours": null, "website": "https://www.yhpl.org/chess-club/"},
+  {"json_index": 1147, "id": "tyler_tx_chess", "hours": null, "website": "https://www.facebook.com/groups/tylertxchess"},
+  {"json_index": 1149, "id": "south_sound_chess_club", "hours": null, "website": "https://www.southsoundchess.com/"},
+  {"json_index": 1150, "id": "play_hoboken", "hours": null, "website": "https://hobokenchess.com/"},
+  {"json_index": 1152, "id": "bentonville_chess_club", "hours": null, "website": "https://www.meetup.com/bentonville-chess-club/"},
+  {"json_index": 1154, "id": "ogden_iron_knights", "hours": {"Thursday": {"open": "18:00"}, "Sunday": {"open": "16:00"}}, "website": null},
+  {"json_index": 1158, "id": "ridgewick_chess_club", "hours": {"Monday": {"open": "19:00"}}, "website": null},
+  {"json_index": 1159, "id": "charles_village_chess", "hours": null, "website": "https://www.instagram.com/charlesvillagechess/"},
+  {"json_index": 1183, "id": "ellsworth_maine_chess_club", "hours": {"Thursday": {"open": "16:00", "close": "18:00"}}, "website": null},
+  {"json_index": 1185, "id": "wwwllchesscom", "hours": {"Saturday": {"open": "15:00", "close": "17:00"}}, "website": null},
+  {"json_index": 1175, "id": "baltimore_knights_chess_club", "hours": null, "website": "https://www.instagram.com/baltimore_knights/"},
+  {"json_index": 1179, "id": "chessringnyc", "hours": null, "website": "https://www.chessring.org"}
+]

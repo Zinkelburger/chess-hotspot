@@ -1,0 +1,20 @@
+[
+  {"json_index": 912, "id": "maze_books_chess_club", "hours": {"Wednesday": {"open": "18:00", "close": "19:00"}}, "website": null},
+  {"json_index": 913, "id": "daybreak_utah_chess_club", "hours": {"Thursday": {"open": "18:30", "close": "21:00"}}, "website": null},
+  {"json_index": 917, "id": "slc_chess_club", "hours": {"Friday": {"open": "15:00", "close": "18:00"}}, "website": null},
+  {"json_index": 919, "id": "georges_mexican_restaurant", "hours": {"Monday": {"open": "17:00"}}, "website": null},
+  {"json_index": 920, "id": "daring_moves_chess_club", "hours": {"Wednesday": {"open": "18:00", "close": "19:00"}}, "website": null},
+  {"json_index": 922, "id": "gold_beach_oregon_chess_club", "hours": {"Saturday": {"open": "10:00"}}, "website": null},
+  {"json_index": 923, "id": "palmer_chess_club", "hours": {"Tuesday": {"open": "17:30", "close": "20:00"}}, "website": null},
+  {"json_index": 925, "id": "knob_noster_chess_club", "hours": {"Friday": {"open": "18:00"}}, "website": null},
+  {"json_index": 928, "id": "chess_and_cigars", "hours": {"Monday": {"open": "21:00"}}, "website": null},
+  {"json_index": 930, "id": "impactchess", "hours": {"Thursday": {"open": "18:00", "close": "20:00"}}, "website": null},
+  {"json_index": 935, "id": "alta_boulders_chess_club", "hours": {"Monday": {"open": "17:30"}}, "website": null},
+  {"json_index": 937, "id": "savage_river_chess_denali_alaska", "hours": {"Tuesday": {"open": "17:00", "close": "19:00"}}, "website": null},
+  {"json_index": 938, "id": "savage_river_chess_club", "hours": {"Tuesday": {"open": "17:00", "close": "19:00"}}, "website": null},
+  {"json_index": 944, "id": "southof5thchessclub", "hours": {"Sunday": {"open": "17:00"}}, "website": null},
+  {"json_index": 958, "id": "stoughton_area_chess_club_sacc", "hours": {"Sunday": {"open": "12:00", "close": "15:00"}}, "website": null},
+  {"json_index": 962, "id": "rooks_chess", "hours": {"Friday": {"open": "17:30", "close": "20:00"}, "Sunday": {"open": "12:30", "close": "15:00"}}, "website": null},
+  {"json_index": 964, "id": "santa_rita_knights", "hours": null, "website": "https://www.santaritaknights.com"},
+  {"json_index": 966, "id": "ratskeller_chess_club", "hours": {"Wednesday": {"open": "18:00", "close": "21:00"}}, "website": null}
+]

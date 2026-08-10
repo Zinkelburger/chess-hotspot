@@ -1,0 +1,436 @@
+[
+  {
+    "json_index": 1917,
+    "id": "temple_chess_club2",
+    "city": "Temple",
+    "state": "TX",
+    "address": "Schlotzsky's at Dodgen Loop & 31st Street, Temple, TX 76504"
+  },
+  {
+    "json_index": 1918,
+    "id": "biloxi_chess_club_1990",
+    "city": "Biloxi",
+    "state": "MS",
+    "address": "2422 Pass Rd Unit A, Biloxi, MS 39531"
+  },
+  {
+    "json_index": 1919,
+    "id": "chittenango_chess_club",
+    "city": "Chittenango",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1920,
+    "id": "urban_knights_queens_chess_club",
+    "city": "Buffalo",
+    "state": "NY",
+    "address": "Jefferson Avenue, Buffalo, NY 14208"
+  },
+  {
+    "json_index": 1921,
+    "id": "emerald_coast_chess_club",
+    "city": "Destin",
+    "state": "FL",
+    "address": "Destin Commons, Destin, FL 32541"
+  },
+  {
+    "json_index": 1922,
+    "id": "winchester_chess_club",
+    "city": "Winchester",
+    "state": "MA",
+    "address": "67 Shore Road, Winchester, MA 01890"
+  },
+  {
+    "json_index": 1923,
+    "id": "los_angeles_chess_club_chesscom",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": "11514 Santa Monica Blvd, Los Angeles, CA 90025"
+  },
+  {
+    "json_index": 1924,
+    "id": "thursday_knights",
+    "city": "Mequon",
+    "state": "WI",
+    "address": "13460 N. Port Washington Rd., Mequon, WI 53097"
+  },
+  {
+    "json_index": 1925,
+    "id": "ozaukee_regional_chess_association_orca2",
+    "city": "Port Washington",
+    "state": "WI",
+    "address": "116 W. Grand Ave., Port Washington, WI 53074"
+  },
+  {
+    "json_index": 1926,
+    "id": "carrboro_chess_club",
+    "city": "Carrboro",
+    "state": "NC",
+    "address": "401 East Main Street, Carrboro, NC 27510"
+  },
+  {
+    "json_index": 1927,
+    "id": "free_zephyrhills_chess_club",
+    "city": "Zephyrhills",
+    "state": "FL",
+    "address": "4th St. & 4th Ave., Zephyrhills, FL 33542"
+  },
+  {
+    "json_index": 1928,
+    "id": "santa_teresa_chess_class",
+    "city": "San Jose",
+    "state": "CA",
+    "address": "290 International Circle, San Jose, CA 95119"
+  },
+  {
+    "json_index": 1929,
+    "id": "chess_with_henry_friends",
+    "city": "Brightwaters",
+    "state": "NY",
+    "address": "1 South Country Road, Brightwaters, NY 11718"
+  },
+  {
+    "json_index": 1930,
+    "id": "beverly_hills_chess_club",
+    "city": "Beverly Hills",
+    "state": "CA",
+    "address": "8950 W Olympic Blvd #210, Beverly Hills, CA 90211"
+  },
+  {
+    "json_index": 1931,
+    "id": "twinsburg_chess_club_akron_cleveland_oh",
+    "city": "Twinsburg",
+    "state": "OH",
+    "address": "10050 Ravenna Rd, Twinsburg, OH 44087"
+  },
+  {
+    "json_index": 1932,
+    "id": "florence_chess_club_of_south_carolina",
+    "city": "Florence",
+    "state": "SC",
+    "address": "1540 Irby St., Florence, SC 29505"
+  },
+  {
+    "json_index": 1933,
+    "id": "brooklyn_tea_lounge_chess_team",
+    "city": "Brooklyn",
+    "state": "NY",
+    "address": "837 Union St (at 7th Ave in Park Slope), Brooklyn, NY 11215"
+  },
+  {
+    "json_index": 1934,
+    "id": "the_pioneer_valley_chess_club",
+    "city": "Northampton",
+    "state": "MA",
+    "address": "344 King Street, Northampton, MA 01060"
+  },
+  {
+    "json_index": 1935,
+    "id": "knights_in_the_morning",
+    "city": "Wheaton",
+    "state": "IL",
+    "address": "1926 North Main Street, Wheaton, IL 60187"
+  },
+  {
+    "json_index": 1936,
+    "id": "saratoga_chess_club",
+    "city": "Saratoga",
+    "state": "NY",
+    "address": "175 Fifth Ave, Saratoga, NY 12866"
+  },
+  {
+    "json_index": 1937,
+    "id": "albany_area_chess_club",
+    "city": "Latham",
+    "state": "NY",
+    "address": "6 British American Blvd, Latham, NY"
+  },
+  {
+    "json_index": 1938,
+    "id": "huntsville_chess_club2_chesscom",
+    "city": "Huntsville",
+    "state": "TX",
+    "address": "Schlotzsky's at I-45 Exit 116, Huntsville, TX 77340"
+  },
+  {
+    "json_index": 1939,
+    "id": "sarasotavenice_chess_club",
+    "city": "Sarasota",
+    "state": "FL",
+    "address": "1900 Brother Geenen Way, Sarasota, FL"
+  },
+  {
+    "json_index": 1940,
+    "id": "north_durham_chess_club",
+    "city": "Durham",
+    "state": "NC",
+    "address": "221 Milton Road, Durham, NC 27712"
+  },
+  {
+    "json_index": 1941,
+    "id": "cape_coral_chess_club",
+    "city": "Cape Coral",
+    "state": "FL",
+    "address": "921 SW 39th Terr, Cape Coral, FL 33914"
+  },
+  {
+    "json_index": 1942,
+    "id": "buffalo_niagara_chess_corner",
+    "city": "Niagara Falls",
+    "state": "NY",
+    "address": "1577 Military Rd, Niagara Falls, NY 14304"
+  },
+  {
+    "json_index": 1943,
+    "id": "portland_chess_club2",
+    "city": "Portland",
+    "state": "ME",
+    "address": "144 State Street, Portland, ME 04101"
+  },
+  {
+    "json_index": 1944,
+    "id": "kingsport_chess_club_tennessee",
+    "city": "Kingsport",
+    "state": "TN",
+    "address": "Food City on Eastman Road, Kingsport, TN"
+  },
+  {
+    "json_index": 1945,
+    "id": "dekalb_chess_club",
+    "city": "DeKalb",
+    "state": "IL",
+    "address": "615 N First Street, DeKalb, IL 60115"
+  },
+  {
+    "json_index": 1946,
+    "id": "lower_valley_chess_club",
+    "city": "El Paso",
+    "state": "TX",
+    "address": "610 N Yarbrough, El Paso, TX 79991"
+  },
+  {
+    "json_index": 1947,
+    "id": "bluegrass_central_ky_chess",
+    "city": "Lexington",
+    "state": "KY",
+    "address": "Tates Creek Golf Course Meeting Room, Lexington, KY 40517"
+  },
+  {
+    "json_index": 1948,
+    "id": "right_move_public_chess_club_colorado_springs",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "address": "420 North Nevada Avenue, Classroom #234, Colorado Springs, CO 80903"
+  },
+  {
+    "json_index": 1950,
+    "id": "coffee_culture_chess_team",
+    "city": "Gainesville",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1951,
+    "id": "arcadia_chess_club",
+    "city": "Arcadia",
+    "state": "CA",
+    "address": "405 S. Santa Anita Ave, Arcadia, CA 91006"
+  },
+  {
+    "json_index": 1952,
+    "id": "traverse_city_chess_club2",
+    "city": "Traverse City",
+    "state": "MI",
+    "address": "Front Street, Traverse City, MI"
+  },
+  {
+    "json_index": 1953,
+    "id": "town_of_sullivan_chess_club",
+    "city": "Chittenango",
+    "state": "NY",
+    "address": "707 Mohawk St., Chittenango, NY 13037"
+  },
+  {
+    "json_index": 1955,
+    "id": "traverse_city_chess_club",
+    "city": "Traverse City",
+    "state": "MI",
+    "address": "120 E Front St, Traverse City, MI 49686"
+  },
+  {
+    "json_index": 1956,
+    "id": "mulligan_chess_club",
+    "city": "Worthington",
+    "state": "OH",
+    "address": "660 High St, Worthington, OH 43085"
+  },
+  {
+    "json_index": 1957,
+    "id": "city_of_kalamazoo_chess_club",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "address": "2708 Heatherdowns Lane, Kalamazoo, MI 49048"
+  },
+  {
+    "json_index": 1958,
+    "id": "orange_senior_center",
+    "city": "Orange",
+    "state": "CA",
+    "address": "240 S. Olive St., Orange, CA 92856"
+  },
+  {
+    "json_index": 1959,
+    "id": "raleigh_chess_club_kiwanis",
+    "city": "Raleigh",
+    "state": "NC",
+    "address": "2526 Noble Road, Raleigh, NC 27615"
+  },
+  {
+    "json_index": 1960,
+    "id": "nvcc_alexandria_chess_club2",
+    "city": "Alexandria",
+    "state": "VA",
+    "address": "3001 N Beauregard St, Alexandria, VA 22311"
+  },
+  {
+    "json_index": 1961,
+    "id": "wku_knights_chess_club",
+    "city": "Bowling Green",
+    "state": "KY",
+    "address": "1906 College Heights Blvd, Bowling Green, KY 42101"
+  },
+  {
+    "json_index": 1962,
+    "id": "stan_vaughans_las_vegas_chess_club",
+    "city": "Las Vegas",
+    "state": "NV",
+    "address": "Starbucks at Von's, Desert Inn at Durango, Las Vegas, NV 89117"
+  },
+  {
+    "json_index": 1963,
+    "id": "morristown_chess_club",
+    "city": "Morristown",
+    "state": "NJ",
+    "address": "101 Columbia Rd, Morristown, NJ 07960"
+  },
+  {
+    "json_index": 1964,
+    "id": "west_orange_chess_club2",
+    "city": "West Orange",
+    "state": "NJ",
+    "address": "650 Pleasant Valley Way, West Orange, NJ 07052"
+  },
+  {
+    "json_index": 1965,
+    "id": "bhs_chess_team",
+    "city": "Burrillville",
+    "state": "RI",
+    "address": null
+  },
+  {
+    "json_index": 1966,
+    "id": "kenilworth_chess_club",
+    "city": "Kenilworth",
+    "state": "NJ",
+    "address": "575 Kenilworth Boulevard, Kenilworth, NJ 07033"
+  },
+  {
+    "json_index": 1967,
+    "id": "piedmont_chess_club",
+    "city": "Piedmont",
+    "state": "MO",
+    "address": "Skips Place, Hwy HH, Piedmont, MO 63957"
+  },
+  {
+    "json_index": 1968,
+    "id": "ripley_chess_club",
+    "city": "Ripley",
+    "state": "WV",
+    "address": "208 North Church Street, Ripley, WV 25271"
+  },
+  {
+    "json_index": 1969,
+    "id": "queen_city_chess_association",
+    "city": "Charlotte",
+    "state": "NC",
+    "address": "1339 Baxter St., Charlotte, NC 28204"
+  },
+  {
+    "json_index": 1970,
+    "id": "tarrant_county_chess_club2",
+    "city": "Hurst",
+    "state": "TX",
+    "address": "861 NE Mall Blvd, Hurst, TX 76053"
+  },
+  {
+    "json_index": 1971,
+    "id": "all_the_kings_men_chess_club",
+    "city": "Pitman",
+    "state": "NJ",
+    "address": "62 S. Broadway, Pitman, NJ 08071"
+  },
+  {
+    "json_index": 1973,
+    "id": "the_challengers",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "address": "10 N.E. 10th St, Oklahoma City, OK (Kamp's 1910 Café)"
+  },
+  {
+    "json_index": 1974,
+    "id": "hendersonville_chess_club2",
+    "city": "Hendersonville",
+    "state": "NC",
+    "address": "699 N Grove St, Hendersonville, NC 28792"
+  },
+  {
+    "json_index": 1975,
+    "id": "asheville_chess_club2",
+    "city": "Asheville",
+    "state": "NC",
+    "address": "37 Larchmont Lane, Asheville, NC 28804"
+  },
+  {
+    "json_index": 1976,
+    "id": "old_bridge_library_chess_club",
+    "city": "Old Bridge",
+    "state": "NJ",
+    "address": "One Old Bridge Plaza, Old Bridge, NJ 08857"
+  },
+  {
+    "json_index": 1977,
+    "id": "monmouth_county_chess_club",
+    "city": "Manalapan",
+    "state": "NJ",
+    "address": "125 Symmes Drive, Manalapan, NJ 07726"
+  },
+  {
+    "json_index": 1978,
+    "id": "staunton_chess_club",
+    "city": "Staunton",
+    "state": "VA",
+    "address": "140 E Beverley St, Staunton, VA"
+  },
+  {
+    "json_index": 1979,
+    "id": "midway_chess_club2",
+    "city": "Chicago",
+    "state": "IL",
+    "address": "5726 W 63rd St, Chicago, IL 60638"
+  },
+  {
+    "json_index": 1980,
+    "id": "the_laurin_keller_memorial_chess_club",
+    "city": "Greensboro",
+    "state": "NC",
+    "address": "3910 Clifton Rd., Greensboro, NC 27407"
+  },
+  {
+    "json_index": 1981,
+    "id": "greensboro_chess_club",
+    "city": "Greensboro",
+    "state": "NC",
+    "address": "2645 Lawndale Drive, Greensboro, NC 27408"
+  }
+]

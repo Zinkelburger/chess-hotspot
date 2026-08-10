@@ -1,0 +1,415 @@
+[
+  {
+    "json_index": 1267,
+    "id": "south_philly_chess_club",
+    "city": "Philadelphia",
+    "state": "PA",
+    "address": "Hawthorne Park, Philadelphia, PA"
+  },
+  {
+    "json_index": 1268,
+    "id": "hemingway_chess_club_of_gulfport",
+    "city": "Gulfport",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1269,
+    "id": "orlando_otb_chess_club",
+    "city": "Orlando",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1270,
+    "id": "kq_chess_club",
+    "city": "New Castle",
+    "state": "IN",
+    "address": null
+  },
+  {
+    "json_index": 1271,
+    "id": "twin_ports_chess_club_online",
+    "city": "Duluth",
+    "state": "MN",
+    "address": "324 North Central Ave, Duluth, MN"
+  },
+  {
+    "json_index": 1272,
+    "id": "kings_and_queens_chess",
+    "city": "Hagerstown",
+    "state": "IN",
+    "address": null
+  },
+  {
+    "json_index": 1274,
+    "id": "poconos_pennsylvania_chess_club",
+    "city": null,
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1275,
+    "id": "fairfax_county_chess_club",
+    "city": null,
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1278,
+    "id": "the_chess_experience_podcast",
+    "city": "Chicago",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1280,
+    "id": "new_michigan_chess_club",
+    "city": "Remus",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 1281,
+    "id": "south_shore_chess_club_fl",
+    "city": "Tampa",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1282,
+    "id": "rockville_chess_meetup",
+    "city": "Rockville",
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 1283,
+    "id": "chess_pub",
+    "city": "Lancaster",
+    "state": "PA",
+    "address": "Shot & Bottle, Lancaster, PA"
+  },
+  {
+    "json_index": 1284,
+    "id": "cucamonga_chess",
+    "city": "Ontario",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1285,
+    "id": "pbc_chess_club",
+    "city": "Lincoln",
+    "state": "NE",
+    "address": null
+  },
+  {
+    "json_index": 1286,
+    "id": "groveland_massachusetts",
+    "city": "Groveland",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1287,
+    "id": "knoxville_chess_collective",
+    "city": "Knoxville",
+    "state": "TN",
+    "address": null
+  },
+  {
+    "json_index": 1288,
+    "id": "the_southern_chess_club",
+    "city": "Albany",
+    "state": "GA",
+    "address": null
+  },
+  {
+    "json_index": 1289,
+    "id": "harrisburg_chess_club",
+    "city": "Harrisburg",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1290,
+    "id": "north_dallas_chess_club",
+    "city": "Addison",
+    "state": "TX",
+    "address": "5001 Addison Cir, Addison, TX"
+  },
+  {
+    "json_index": 1291,
+    "id": "chess_club_of_st_cloud",
+    "city": "St. Cloud",
+    "state": "MN",
+    "address": null
+  },
+  {
+    "json_index": 1292,
+    "id": "albemarle_chess_club",
+    "city": "Albemarle",
+    "state": null,
+    "address": null
+  },
+  {
+    "json_index": 1293,
+    "id": "okc_chess_alliance",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "address": null
+  },
+  {
+    "json_index": 1294,
+    "id": "the_kings_men",
+    "city": "Kansas City",
+    "state": "MO",
+    "address": null
+  },
+  {
+    "json_index": 1295,
+    "id": "granite_creek_chess_association",
+    "city": "Prescott",
+    "state": "AZ",
+    "address": "Founding Fathers Collective, Prescott, AZ"
+  },
+  {
+    "json_index": 1296,
+    "id": "rockville_science_center_chess_club",
+    "city": "Rockville",
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 1297,
+    "id": "tilden_chess_club",
+    "city": "Walnut Creek",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1298,
+    "id": "csra_chess",
+    "city": "Augusta",
+    "state": "GA",
+    "address": null
+  },
+  {
+    "json_index": 1299,
+    "id": "findlay_chess_club",
+    "city": "Findlay",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1300,
+    "id": "kapolei_chess_club",
+    "city": "Kapolei",
+    "state": "HI",
+    "address": "Kapolei Library, Kapolei, HI"
+  },
+  {
+    "json_index": 1301,
+    "id": "west_palm_street_chess",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1302,
+    "id": "chezz_club_maui",
+    "city": "Lahaina",
+    "state": "HI",
+    "address": "Kupuohi St Suite #4, Lahaina, HI"
+  },
+  {
+    "json_index": 1303,
+    "id": "drew_and_blaise",
+    "city": "Charleston",
+    "state": "WV",
+    "address": null
+  },
+  {
+    "json_index": 1304,
+    "id": "jefferson_city_chess_club",
+    "city": "Jefferson City",
+    "state": "MO",
+    "address": "124 East High Street, Jefferson City, MO 65101"
+  },
+  {
+    "json_index": 1305,
+    "id": "central_jersey_chess_club",
+    "city": null,
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 1306,
+    "id": "venice_florida_chess_meetup",
+    "city": "Venice",
+    "state": "FL",
+    "address": "400 Shamrock Blvd, Venice Gardens Park, Venice, FL"
+  },
+  {
+    "json_index": 1307,
+    "id": "central_nebraska_chess_club",
+    "city": "Kearney",
+    "state": "NE",
+    "address": "Kearney Public Library, Kearney, NE"
+  },
+  {
+    "json_index": 1308,
+    "id": "royal_oak_chess_club",
+    "city": "Royal Oak",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 1309,
+    "id": "greeley_chess_club",
+    "city": "Greeley",
+    "state": "CO",
+    "address": "715 10th Street, Greeley, CO 80631"
+  },
+  {
+    "json_index": 1310,
+    "id": "team_honolulu",
+    "city": "Honolulu",
+    "state": "HI",
+    "address": "South Shore Market (Whole Foods first floor), Honolulu, HI"
+  },
+  {
+    "json_index": 1311,
+    "id": "joyizm",
+    "city": "San Jose",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1313,
+    "id": "loudoun_county_chess_club",
+    "city": null,
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1314,
+    "id": "northbrook",
+    "city": "Northbrook",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1315,
+    "id": "south_suburbs_homeschool_chess_club",
+    "city": null,
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1316,
+    "id": "coulee_chess_club",
+    "city": "La Crosse",
+    "state": "WI",
+    "address": null
+  },
+  {
+    "json_index": 1317,
+    "id": "knights_full_of_coffee",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "address": null
+  },
+  {
+    "json_index": 1318,
+    "id": "1728_club_pub_chess",
+    "city": null,
+    "state": "AL",
+    "address": null
+  },
+  {
+    "json_index": 1319,
+    "id": "fountain_city_chess_club",
+    "city": "Columbus",
+    "state": "GA",
+    "address": null
+  },
+  {
+    "json_index": 1320,
+    "id": "rittenhouse_chess",
+    "city": "Philadelphia",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1321,
+    "id": "wilmington_de_chess_club",
+    "city": "Wilmington",
+    "state": "DE",
+    "address": null
+  },
+  {
+    "json_index": 1322,
+    "id": "fort_worth_chess_club",
+    "city": "Fort Worth",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1323,
+    "id": "baltimore_sowebo_chess_club",
+    "city": "Baltimore",
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 1324,
+    "id": "iwvcc",
+    "city": "Ridgecrest",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1325,
+    "id": "vista_chess_club",
+    "city": "Casa Grande",
+    "state": "AZ",
+    "address": null
+  },
+  {
+    "json_index": 1326,
+    "id": "atx_chess_team",
+    "city": "Austin",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1327,
+    "id": "austin_texas_chess_club",
+    "city": "Austin",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1329,
+    "id": "danbury_chess_club",
+    "city": "Danbury",
+    "state": "CT",
+    "address": null
+  },
+  {
+    "json_index": 1330,
+    "id": "apple_hill_chess",
+    "city": "Buffalo Grove",
+    "state": "IL",
+    "address": "2275 Apple Hill Lane, Buffalo Grove, IL 60089"
+  },
+  {
+    "json_index": 1331,
+    "id": "grandmasters_of_texas",
+    "city": null,
+    "state": "TX",
+    "address": null
+  }
+]

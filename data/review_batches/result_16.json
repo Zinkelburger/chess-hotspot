@@ -1,0 +1,443 @@
+[
+  {
+    "json_index": 1787,
+    "id": "bay_ridge_chess_club",
+    "city": "Brooklyn",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1788,
+    "id": "glenwood_chess_club2",
+    "city": "Glenwood",
+    "state": "IL",
+    "address": "1 South Rebecca St, Glenwood, IL 60425"
+  },
+  {
+    "json_index": 1789,
+    "id": "miami_city_chess_club2",
+    "city": "Miami",
+    "state": "FL",
+    "address": "444 SW 2nd Ave, Miami, FL 33176"
+  },
+  {
+    "json_index": 1790,
+    "id": "urban_town_chess_club_knoxville_tn",
+    "city": "Knoxville",
+    "state": "TN",
+    "address": "705 N Central Ave, Knoxville, TN"
+  },
+  {
+    "json_index": 1791,
+    "id": "ashburn_chess_club2",
+    "city": "Ashburn",
+    "state": "VA",
+    "address": "44927 George Washington Blvd, Ashburn, VA 20147"
+  },
+  {
+    "json_index": 1792,
+    "id": "the_errant_knights",
+    "city": "Sandy",
+    "state": "UT",
+    "address": "77 West 10600 South, Sandy, UT 84070"
+  },
+  {
+    "json_index": 1793,
+    "id": "checkmates23",
+    "city": "Bristol",
+    "state": "VA",
+    "address": "501 State St, Bristol, VA 24201"
+  },
+  {
+    "json_index": 1794,
+    "id": "san_juan_chess_club",
+    "city": "Jacksonville",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1795,
+    "id": "hall_road_chess_group",
+    "city": "Clinton Township",
+    "state": "MI",
+    "address": "17420 Hall Rd, Clinton Township, MI 48036"
+  },
+  {
+    "json_index": 1796,
+    "id": "camarillo_chess_club",
+    "city": "Camarillo",
+    "state": "CA",
+    "address": "4426 Central Ave, Camarillo, CA"
+  },
+  {
+    "json_index": 1797,
+    "id": "charleston_chess_go_club",
+    "city": "Charleston",
+    "state": "IL",
+    "address": "1460 E. St., Charleston, IL 61920"
+  },
+  {
+    "json_index": 1798,
+    "id": "fortress_chess_club",
+    "city": "Indianapolis",
+    "state": "IN",
+    "address": null
+  },
+  {
+    "json_index": 1799,
+    "id": "fortress_chess_club2",
+    "city": "Indianapolis",
+    "state": "IN",
+    "address": "920 East Westfield Blvd, Indianapolis, IN 46220"
+  },
+  {
+    "json_index": 1800,
+    "id": "casper_chess_club",
+    "city": "Casper",
+    "state": "WY",
+    "address": "1831 E. 4th St, Casper, WY 82601"
+  },
+  {
+    "json_index": 1801,
+    "id": "fccc",
+    "city": "Foster City",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1802,
+    "id": "north_avenue_chess",
+    "city": "Chicago",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1803,
+    "id": "north_avenue_chess2",
+    "city": "Chicago",
+    "state": "IL",
+    "address": "1601 N Lakeshore Drive, Chicago, IL 60614"
+  },
+  {
+    "json_index": 1804,
+    "id": "metro_phoenix_chess_club_arizona_chess",
+    "city": "Phoenix",
+    "state": "AZ",
+    "address": "10220 N Metro Parkway East, 2nd Floor Cottonwood Room, Phoenix, AZ 85051"
+  },
+  {
+    "json_index": 1805,
+    "id": "jackson_chess_club2",
+    "city": "Jackson",
+    "state": "TN",
+    "address": "999 Vann Drive, Jackson, TN 38305"
+  },
+  {
+    "json_index": 1807,
+    "id": "branford_chess_club",
+    "city": "Branford",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1808,
+    "id": "decatur_parks_and_recreation_chess_club",
+    "city": "Decatur",
+    "state": "AL",
+    "address": null
+  },
+  {
+    "json_index": 1809,
+    "id": "tracy_library_chess_club",
+    "city": "Tracy",
+    "state": "CA",
+    "address": "20 E. Eaton Ave, Tracy, CA 95376"
+  },
+  {
+    "json_index": 1810,
+    "id": "tracy_library_chess_club2",
+    "city": "Tracy",
+    "state": "CA",
+    "address": "20 E. Eaton Ave, Tracy, CA 95376"
+  },
+  {
+    "json_index": 1811,
+    "id": "knights_chess_club_nh",
+    "city": "Keene",
+    "state": "NH",
+    "address": "84 Hastings Avenue, Keene, NH 03431"
+  },
+  {
+    "json_index": 1812,
+    "id": "seattle_chess_meetup",
+    "city": "Seattle",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1813,
+    "id": "metrowest_chess_club_group",
+    "city": "Natick",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1814,
+    "id": "mchenry_area_chess",
+    "city": "Crystal Lake",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1815,
+    "id": "sitka_chess_club2",
+    "city": "Sitka",
+    "state": "AK",
+    "address": "600 Halibut Point Rd., Sitka, AK 99835"
+  },
+  {
+    "json_index": 1816,
+    "id": "sitka_chess_club",
+    "city": "Sitka",
+    "state": "AK",
+    "address": "600 Halibut Point Rd., Sitka, AK 99835"
+  },
+  {
+    "json_index": 1817,
+    "id": "whitefish_chess_club2",
+    "city": "Whitefish",
+    "state": "MT",
+    "address": null
+  },
+  {
+    "json_index": 1818,
+    "id": "whitefish_chess_club",
+    "city": "Whitefish",
+    "state": "MT",
+    "address": null
+  },
+  {
+    "json_index": 1819,
+    "id": "acme_pawn_pushers",
+    "city": "Hammond",
+    "state": "IN",
+    "address": "564 State Street, Hammond, IN"
+  },
+  {
+    "json_index": 1820,
+    "id": "acme_pawn_pushers2",
+    "city": "Hammond",
+    "state": "IN",
+    "address": "564 State Street, Hammond, IN"
+  },
+  {
+    "json_index": 1821,
+    "id": "bangor_chess_club2",
+    "city": "Bangor",
+    "state": "ME",
+    "address": "116 Bangor Mall Boulevard, Bangor, ME 04401"
+  },
+  {
+    "json_index": 1822,
+    "id": "bangor_chess_club",
+    "city": "Bangor",
+    "state": "ME",
+    "address": "116 Bangor Mall Boulevard, Bangor, ME 04401"
+  },
+  {
+    "json_index": 1823,
+    "id": "wapakoneta_chess",
+    "city": "Wapakoneta",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1824,
+    "id": "wapakoneta_chess2",
+    "city": "Wapakoneta",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1825,
+    "id": "conejo_valley_chess_club2",
+    "city": "Newbury Park",
+    "state": "CA",
+    "address": "300 Giant Oak Ave., Newbury Park, CA 91320"
+  },
+  {
+    "json_index": 1826,
+    "id": "conejo_valley_chess_club",
+    "city": "Newbury Park",
+    "state": "CA",
+    "address": "300 Giant Oak Ave., Newbury Park, CA 91320"
+  },
+  {
+    "json_index": 1827,
+    "id": "centerville_chess_fooles_dayton",
+    "city": "Centerville",
+    "state": "OH",
+    "address": "665 Miamisburg Centerville Rd, Centerville, OH 45459"
+  },
+  {
+    "json_index": 1828,
+    "id": "centerville_chess_fooles_dayton2",
+    "city": "Centerville",
+    "state": "OH",
+    "address": "665 Miamisburg Centerville Rd, Centerville, OH 45459"
+  },
+  {
+    "json_index": 1829,
+    "id": "chess_master_connections_rhode_island",
+    "city": "Providence",
+    "state": "RI",
+    "address": "201 Wayland Ave, Providence, RI 02906"
+  },
+  {
+    "json_index": 1830,
+    "id": "chess_master_connections_rhode_island2",
+    "city": "Providence",
+    "state": "RI",
+    "address": "201 Wayland Ave, Providence, RI 02906"
+  },
+  {
+    "json_index": 1831,
+    "id": "fork_you_chessplayers",
+    "city": "Fremont",
+    "state": "CA",
+    "address": "833 Phoenix Ct., Fremont, CA 94539"
+  },
+  {
+    "json_index": 1832,
+    "id": "fork_you_chessplayers2",
+    "city": "Fremont",
+    "state": "CA",
+    "address": "833 Phoenix Ct., Fremont, CA 94539"
+  },
+  {
+    "json_index": 1833,
+    "id": "lozano_library_knights_move_chess_club",
+    "city": "Chicago",
+    "state": "IL",
+    "address": "1805 South Loomis Street, Chicago, IL 60608"
+  },
+  {
+    "json_index": 1834,
+    "id": "lozano_library_knights_move_chess_club2",
+    "city": "Chicago",
+    "state": "IL",
+    "address": "1805 South Loomis Street, Chicago, IL 60608"
+  },
+  {
+    "json_index": 1835,
+    "id": "euless_chess_club2",
+    "city": "Euless",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1836,
+    "id": "euless_chess_club",
+    "city": "Euless",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1837,
+    "id": "triad_chess_coffee2",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1838,
+    "id": "triad_chess_coffee",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1839,
+    "id": "florence_chess_club",
+    "city": "Florence",
+    "state": "SC",
+    "address": null
+  },
+  {
+    "json_index": 1840,
+    "id": "westfield_chess_club23",
+    "city": "Westfield",
+    "state": "NJ",
+    "address": "220 Clark Street, Westfield, NJ 07090"
+  },
+  {
+    "json_index": 1841,
+    "id": "westfield_chess_club234",
+    "city": "Westfield",
+    "state": "NJ",
+    "address": "220 Clark Street, Westfield, NJ 07090"
+  },
+  {
+    "json_index": 1842,
+    "id": "boston_chess_club",
+    "city": "Boston",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1843,
+    "id": "boston_chess_club2",
+    "city": "Boston",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1845,
+    "id": "beerworks_chess2",
+    "city": "Lowell",
+    "state": "MA",
+    "address": "203 Cabot Street, Lowell, MA"
+  },
+  {
+    "json_index": 1846,
+    "id": "jubala_coffee_chess_club",
+    "city": "Raleigh",
+    "state": "NC",
+    "address": "8450 Honeycutt Rd, Raleigh, NC 27615"
+  },
+  {
+    "json_index": 1847,
+    "id": "jubala_coffee_chess_club2",
+    "city": "Raleigh",
+    "state": "NC",
+    "address": "8450 Honeycutt Rd, Raleigh, NC 27615"
+  },
+  {
+    "json_index": 1848,
+    "id": "wake_forest_chess_club2",
+    "city": "Wake Forest",
+    "state": "NC",
+    "address": "156 S. White Street, Wake Forest, NC 27587"
+  },
+  {
+    "json_index": 1849,
+    "id": "rochester_mn_chess_club2",
+    "city": "Rochester",
+    "state": "MN",
+    "address": "3rd Avenue and 2nd Street Southwest, Rochester, MN"
+  },
+  {
+    "json_index": 1850,
+    "id": "rochester_mn_chess_club",
+    "city": "Rochester",
+    "state": "MN",
+    "address": "3rd Avenue and 2nd Street Southwest, Rochester, MN"
+  },
+  {
+    "json_index": 1851,
+    "id": "yuba_city_chess",
+    "city": "Yuba City",
+    "state": "CA",
+    "address": "1300 Bridge St., Yuba City, CA 95991"
+  }
+]

@@ -1,0 +1,436 @@
+[
+  {
+    "json_index": 1072,
+    "id": "harrison_township_public_library_chess_club",
+    "city": "Harrison Township",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 1073,
+    "id": "purcellville_chess_club",
+    "city": "Purcellville",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1074,
+    "id": "beaver_county_chess_hobbyists",
+    "city": null,
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1075,
+    "id": "american_legion_post_189",
+    "city": "Sebastian",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1076,
+    "id": "warrensburg_chess_club",
+    "city": "Warrensburg",
+    "state": "MO",
+    "address": "112 E Market, Warrensburg, MO"
+  },
+  {
+    "json_index": 1077,
+    "id": "anderson_and_clemson_area_chess_club",
+    "city": "Pendleton",
+    "state": "SC",
+    "address": "351 S Broad St, Pendleton, SC 29670"
+  },
+  {
+    "json_index": 1078,
+    "id": "el_paso_chess_nerds",
+    "city": "El Paso",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1079,
+    "id": "broome_county_chess_club",
+    "city": null,
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1080,
+    "id": "chess_and_sips",
+    "city": "New York",
+    "state": "NY",
+    "address": "99 Canal Street, New York, NY"
+  },
+  {
+    "json_index": 1081,
+    "id": "the_not_so_serious_chess_club",
+    "city": null,
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 1082,
+    "id": "its_your_move_chess",
+    "city": null,
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 1083,
+    "id": "goshen_chess_club",
+    "city": "Goshen",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1084,
+    "id": "bainbridge_chess_club",
+    "city": "Bainbridge",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1085,
+    "id": "middletown_youth_sports_chess_club",
+    "city": "Middletown",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1086,
+    "id": "maynard_chess",
+    "city": "Maynard",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1087,
+    "id": "baldwin_park_chess_club",
+    "city": "Orlando",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1088,
+    "id": "dublin_chess_foundation",
+    "city": "Columbus",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1089,
+    "id": "elkin_public_library_chess_club",
+    "city": "Elkin",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1090,
+    "id": "library_chess_club",
+    "city": "Canton",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1091,
+    "id": "austin_public_library_chess_club",
+    "city": "Austin",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1093,
+    "id": "gph_ymca_chess_club",
+    "city": "Palm Harbor",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1094,
+    "id": "philadelphia_chess_convention_of_discord",
+    "city": "Philadelphia",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1095,
+    "id": "lincoln_county_chess",
+    "city": "Denver",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1096,
+    "id": "newport_chess_regulars",
+    "city": "Newport",
+    "state": "TN",
+    "address": null
+  },
+  {
+    "json_index": 1097,
+    "id": "castro_valley_chess",
+    "city": "Castro Valley",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1098,
+    "id": "great_bridge_plays_chess",
+    "city": "Chesapeake",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1099,
+    "id": "citrus_heights_chess_club",
+    "city": "Citrus Heights",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1101,
+    "id": "lenox_coffee_club",
+    "city": "Lenox",
+    "state": "MA",
+    "address": "52 Main Street, Lenox, MA"
+  },
+  {
+    "json_index": 1102,
+    "id": "venice_beach_knights",
+    "city": "Venice",
+    "state": "CA",
+    "address": "1101 Ocean Park Ave, Venice, CA 90291"
+  },
+  {
+    "json_index": 1103,
+    "id": "purpose_meetup_club",
+    "city": "Fort Collins",
+    "state": "CO",
+    "address": null
+  },
+  {
+    "json_index": 1104,
+    "id": "utah_chess_knight",
+    "city": null,
+    "state": "UT",
+    "address": null
+  },
+  {
+    "json_index": 1105,
+    "id": "prospect_park_west",
+    "city": "Brooklyn",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1106,
+    "id": "regicidechesscom",
+    "city": "Katy",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1107,
+    "id": "taino_chess_club",
+    "city": "Berlin",
+    "state": "CT",
+    "address": "1020 Farmington Ave, Berlin, CT"
+  },
+  {
+    "json_index": 1108,
+    "id": "byrd_brothers_chess_center",
+    "city": "Birmingham",
+    "state": "AL",
+    "address": null
+  },
+  {
+    "json_index": 1109,
+    "id": "eastside_chess_club",
+    "city": "Bothell",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1110,
+    "id": "farmington_chess",
+    "city": "Farmington",
+    "state": "ME",
+    "address": null
+  },
+  {
+    "json_index": 1111,
+    "id": "east_san_fernando_valley_chess_club",
+    "city": "North Hollywood",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1112,
+    "id": "cortland_chess_club",
+    "city": "Cortland",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1114,
+    "id": "venice_beach_chess_club",
+    "city": "Venice Beach",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1115,
+    "id": "unplugged_gaming",
+    "city": "Manlius",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1116,
+    "id": "sin_city_chess",
+    "city": "Las Vegas",
+    "state": "NV",
+    "address": null
+  },
+  {
+    "json_index": 1117,
+    "id": "ste_genevieve_county_chess_club",
+    "city": null,
+    "state": "MO",
+    "address": null
+  },
+  {
+    "json_index": 1118,
+    "id": "whiting_chess_club",
+    "city": "Whiting",
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 1119,
+    "id": "carrollton_ky_chess_club",
+    "city": "Carrollton",
+    "state": "KY",
+    "address": null
+  },
+  {
+    "json_index": 1120,
+    "id": "fort_smith_chess",
+    "city": "Fort Smith",
+    "state": "AR",
+    "address": null
+  },
+  {
+    "json_index": 1121,
+    "id": "dvhs",
+    "city": "Glendale",
+    "state": "AZ",
+    "address": null
+  },
+  {
+    "json_index": 1122,
+    "id": "vhcrn_chess_club",
+    "city": "Cornelius",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1123,
+    "id": "chess_education_center",
+    "city": "Louisville",
+    "state": "KY",
+    "address": "2908 Brownsboro Road, Louisville, KY 40206"
+  },
+  {
+    "json_index": 1124,
+    "id": "putnam_valley_library_chess_club",
+    "city": "Putnam Valley",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1125,
+    "id": "yelm_chess_club",
+    "city": "Yelm",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1126,
+    "id": "ruckus_chess",
+    "city": "Shreveport",
+    "state": "LA",
+    "address": "5925 W 70th St, Shreveport, LA"
+  },
+  {
+    "json_index": 1127,
+    "id": "chess_club_at_mnsu",
+    "city": "Mankato",
+    "state": "MN",
+    "address": null
+  },
+  {
+    "json_index": 1128,
+    "id": "doylestown_chess_club",
+    "city": "Doylestown",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1129,
+    "id": "astoria_chess",
+    "city": "Astoria",
+    "state": "NY",
+    "address": "35-11 Ditmars Blvd, Astoria, NY"
+  },
+  {
+    "json_index": 1130,
+    "id": "new_boston_chess_club",
+    "city": "New Boston",
+    "state": "NH",
+    "address": null
+  },
+  {
+    "json_index": 1131,
+    "id": "dead_wax_chess_club",
+    "city": "Paramus",
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 1132,
+    "id": "santa_clarita_chess_club",
+    "city": "Santa Clarita",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1133,
+    "id": "knight_ware_inc",
+    "city": "Studio City",
+    "state": "CA",
+    "address": "3709 Cahuenga Blvd, Studio City, CA"
+  },
+  {
+    "json_index": 1134,
+    "id": "sunny_isles_beach_chess_club",
+    "city": "Sunny Isles Beach",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1135,
+    "id": "milford_chess_academy",
+    "city": "Milford",
+    "state": "CT",
+    "address": null
+  },
+  {
+    "json_index": 1136,
+    "id": "antelope_valley_chess_club",
+    "city": "Lancaster",
+    "state": "CA",
+    "address": null
+  }
+]

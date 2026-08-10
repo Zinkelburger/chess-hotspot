@@ -1,0 +1,443 @@
+[
+  {
+    "json_index": 1527,
+    "id": "the_delmarva_chess_club",
+    "city": "Salisbury",
+    "state": "MD",
+    "address": "32000 Campus Dr, Salisbury, MD 21804"
+  },
+  {
+    "json_index": 1528,
+    "id": "nashua_chess_club_online",
+    "city": "Nashua",
+    "state": "NH",
+    "address": null
+  },
+  {
+    "json_index": 1529,
+    "id": "munster_chess_club",
+    "city": "Munster",
+    "state": "IN",
+    "address": null
+  },
+  {
+    "json_index": 1530,
+    "id": "chess_carolinas",
+    "city": "Fayetteville",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1531,
+    "id": "hamden_chess_club_on_chesscom",
+    "city": "Hamden",
+    "state": "CT",
+    "address": "1227 Whitney Ave, Hamden, CT 06517"
+  },
+  {
+    "json_index": 1532,
+    "id": "chess_club_of_monmouth_county",
+    "city": null,
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 1533,
+    "id": "long_beach_chess_club",
+    "city": "Long Beach",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1535,
+    "id": "friendship_chess_club",
+    "city": null,
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 1536,
+    "id": "springfield_chess_club_uscf_rated",
+    "city": "Springfield",
+    "state": "MO",
+    "address": null
+  },
+  {
+    "json_index": 1537,
+    "id": "eastern_sierra_chess",
+    "city": "Bishop",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1538,
+    "id": "southwest_minnesota_chess_online",
+    "city": "Marshall",
+    "state": "MN",
+    "address": null
+  },
+  {
+    "json_index": 1539,
+    "id": "bernal_chess_club",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1540,
+    "id": "java_dock_chess_night",
+    "city": "Port Washington",
+    "state": "WI",
+    "address": null
+  },
+  {
+    "json_index": 1541,
+    "id": "poulsbo_chess_club",
+    "city": "Poulsbo",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1542,
+    "id": "worthington_chess_club",
+    "city": "Columbus",
+    "state": "OH",
+    "address": "1878 Hard Rd, Columbus, OH 43235"
+  },
+  {
+    "json_index": 1543,
+    "id": "burr_ridge_chess_club",
+    "city": "Burr Ridge",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1544,
+    "id": "triumph_new_london_chess_club",
+    "city": "New London",
+    "state": "CT",
+    "address": "63 Huntington St, New London, CT"
+  },
+  {
+    "json_index": 1545,
+    "id": "downriver_chess_club",
+    "city": "New Orleans",
+    "state": "LA",
+    "address": "1119 Decatur St, New Orleans, LA"
+  },
+  {
+    "json_index": 1546,
+    "id": "casual_chess_club_las_vegas",
+    "city": "Las Vegas",
+    "state": "NV",
+    "address": null
+  },
+  {
+    "json_index": 1547,
+    "id": "st_clairsville_library_chess_club",
+    "city": "St. Clairsville",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1548,
+    "id": "desert_chess_club",
+    "city": "Palm Desert",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1549,
+    "id": "southbridge_chess_club",
+    "city": "Southbridge",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1550,
+    "id": "pembroke_pines_chess_tournaments",
+    "city": "Pembroke Pines",
+    "state": "FL",
+    "address": "11401 Pines Blvd, Pembroke Pines, FL 33026"
+  },
+  {
+    "json_index": 1551,
+    "id": "marshall_chess_club_official",
+    "city": "New York",
+    "state": "NY",
+    "address": "23 W 10th St, New York, NY 10011"
+  },
+  {
+    "json_index": 1552,
+    "id": "rated_chess_games_at_knoxville",
+    "city": "Knoxville",
+    "state": "TN",
+    "address": null
+  },
+  {
+    "json_index": 1553,
+    "id": "fellowship_of_the_pawns",
+    "city": "Steubenville",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1554,
+    "id": "second_wind_chess_club",
+    "city": "Norman",
+    "state": "OK",
+    "address": null
+  },
+  {
+    "json_index": 1555,
+    "id": "bare_bones_coffee_and_chess_club",
+    "city": "Kansas City",
+    "state": "KS",
+    "address": "2416 S 34th St, Kansas City, KS 66106"
+  },
+  {
+    "json_index": 1556,
+    "id": "lol_library",
+    "city": "Land O Lakes",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1557,
+    "id": "green_bay_chess_club",
+    "city": "Green Bay",
+    "state": "WI",
+    "address": null
+  },
+  {
+    "json_index": 1558,
+    "id": "queen_city_chess_club_in_bangor_maine",
+    "city": "Bangor",
+    "state": "ME",
+    "address": null
+  },
+  {
+    "json_index": 1559,
+    "id": "the_providence_chess_club",
+    "city": "Belton",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1560,
+    "id": "ruston_chess_knights",
+    "city": "Ruston",
+    "state": "LA",
+    "address": null
+  },
+  {
+    "json_index": 1561,
+    "id": "tamerlane_chess_club",
+    "city": "Jamestown",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1562,
+    "id": "san_pablo_passed_pawns",
+    "city": "San Pablo",
+    "state": "CA",
+    "address": "13751 San Pablo Ave, San Pablo, CA 94806"
+  },
+  {
+    "json_index": 1563,
+    "id": "powerchess_utah",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "address": null
+  },
+  {
+    "json_index": 1564,
+    "id": "portland_pawn_pushers",
+    "city": "Portland",
+    "state": "ME",
+    "address": null
+  },
+  {
+    "json_index": 1565,
+    "id": "queens_chess_meetup",
+    "city": "Forest Hills",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1566,
+    "id": "streetchessdetroit",
+    "city": "Detroit",
+    "state": "MI",
+    "address": "12929 McNichols Rd, Detroit, MI"
+  },
+  {
+    "json_index": 1567,
+    "id": "los_angeles_chess_social",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1568,
+    "id": "funky_owls_chess",
+    "city": "Holliston",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1569,
+    "id": "city_light_coffee_chess_club",
+    "city": "Binghamton",
+    "state": "NY",
+    "address": "254 Washington St, Binghamton, NY"
+  },
+  {
+    "json_index": 1570,
+    "id": "roanoke_chess",
+    "city": "Roanoke",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1571,
+    "id": "las_vegas_chess_academy",
+    "city": "Las Vegas",
+    "state": "NV",
+    "address": null
+  },
+  {
+    "json_index": 1573,
+    "id": "peninsula_chess_club",
+    "city": "Newport News",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1574,
+    "id": "nwa_chess",
+    "city": "Bentonville",
+    "state": "AR",
+    "address": null
+  },
+  {
+    "json_index": 1575,
+    "id": "chess_club_and_scholastic_center_of_atlanta",
+    "city": "Roswell",
+    "state": "GA",
+    "address": "2500 Old Alabama Rd, Suite 11, Roswell, GA 30076"
+  },
+  {
+    "json_index": 1576,
+    "id": "kingdom_chess_club",
+    "city": "East Burke",
+    "state": "VT",
+    "address": null
+  },
+  {
+    "json_index": 1577,
+    "id": "southern_illinois_chess_club",
+    "city": "Carbondale",
+    "state": "IL",
+    "address": "1300 East Main St, Carbondale, IL 62901"
+  },
+  {
+    "json_index": 1578,
+    "id": "baltimore_chess_club",
+    "city": "Baltimore",
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 1579,
+    "id": "tacoma_chess_club",
+    "city": "Tacoma",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1580,
+    "id": "merced_chess_club",
+    "city": "Merced",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1581,
+    "id": "haddonfield_chess_club",
+    "city": "Haddonfield",
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 1582,
+    "id": "omahas_premier_chess_club",
+    "city": "Omaha",
+    "state": "NE",
+    "address": null
+  },
+  {
+    "json_index": 1583,
+    "id": "brandywine_chess_club",
+    "city": "Wilmington",
+    "state": "DE",
+    "address": null
+  },
+  {
+    "json_index": 1584,
+    "id": "altland_house_center_square_chess_club",
+    "city": "Abbottstown",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1585,
+    "id": "athens_chess_club",
+    "city": "Athens",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1586,
+    "id": "coeur_d_alene_chess_club",
+    "city": "Coeur d'Alene",
+    "state": "ID",
+    "address": "1437 E Sherman Ave, Coeur d'Alene, ID"
+  },
+  {
+    "json_index": 1587,
+    "id": "beef_it_up_chess_club",
+    "city": null,
+    "state": "DE",
+    "address": null
+  },
+  {
+    "json_index": 1588,
+    "id": "olympic_chess_club",
+    "city": "Port Angeles",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1589,
+    "id": "the_delaware_long_d_files",
+    "city": "Newark",
+    "state": "DE",
+    "address": null
+  },
+  {
+    "json_index": 1590,
+    "id": "royal_rooks_of_houston",
+    "city": "Houston",
+    "state": "TX",
+    "address": "1203 W 34th St, Houston, TX 77018"
+  },
+  {
+    "json_index": 1591,
+    "id": "santa_cruz_chess_club",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "address": null
+  }
+]

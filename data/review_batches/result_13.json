@@ -1,0 +1,422 @@
+[
+  {
+    "json_index": 1592,
+    "id": "vermillion_chess_club",
+    "city": "Vermillion",
+    "state": "SD",
+    "address": "825 E Cherry St, Vermillion, SD 57069"
+  },
+  {
+    "json_index": 1593,
+    "id": "conway_chess_club",
+    "city": "Conway",
+    "state": "AR",
+    "address": null
+  },
+  {
+    "json_index": 1594,
+    "id": "everett_chess_club",
+    "city": "Everett",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1595,
+    "id": "pawn_and_pint",
+    "city": "Kansas City",
+    "state": "MO",
+    "address": "221 Southwest Blvd, Kansas City, MO 64108"
+  },
+  {
+    "json_index": 1596,
+    "id": "burlington_chess_meetup",
+    "city": "Burlington",
+    "state": "VT",
+    "address": null
+  },
+  {
+    "json_index": 1597,
+    "id": "rva_pieces_a_richmond_chess_club",
+    "city": "Richmond",
+    "state": "VA",
+    "address": "200 W Marshall St, Richmond, VA 23220"
+  },
+  {
+    "json_index": 1598,
+    "id": "tricity_chess_club2",
+    "city": "Saginaw",
+    "state": "MI",
+    "address": "Fordney St, Saginaw, MI 48601"
+  },
+  {
+    "json_index": 1599,
+    "id": "tricity_chess_club",
+    "city": "Saginaw",
+    "state": "MI",
+    "address": "Fordney St, Saginaw, MI 48601"
+  },
+  {
+    "json_index": 1600,
+    "id": "rockys_vegas_chess_club",
+    "city": "North Las Vegas",
+    "state": "NV",
+    "address": "E Cheyenne Ave, North Las Vegas, NV"
+  },
+  {
+    "json_index": 1601,
+    "id": "south_miami_chess_club",
+    "city": "South Miami",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1602,
+    "id": "center_square_chess_club",
+    "city": "Abbottstown",
+    "state": "PA",
+    "address": "1 Center Square, Abbottstown, PA 17301"
+  },
+  {
+    "json_index": 1603,
+    "id": "whittier_chess_club",
+    "city": "Whittier",
+    "state": "CA",
+    "address": "12417 Philadelphia St, Whittier, CA 90601"
+  },
+  {
+    "json_index": 1604,
+    "id": "davie_chess_club",
+    "city": "Davie",
+    "state": "FL",
+    "address": "5324 S University Dr, Davie, FL 33314"
+  },
+  {
+    "json_index": 1605,
+    "id": "lee_county_chess_club",
+    "city": "Leesburg",
+    "state": "GA",
+    "address": "Walnut St, Leesburg, GA 31763"
+  },
+  {
+    "json_index": 1606,
+    "id": "urban_town_chess2",
+    "city": "Knoxville",
+    "state": "TN",
+    "address": "705 Central Ave, Knoxville, TN 37917"
+  },
+  {
+    "json_index": 1607,
+    "id": "austin_chess_community",
+    "city": "Austin",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1608,
+    "id": "deland_area_chess_group",
+    "city": "DeLand",
+    "state": "FL",
+    "address": "130 E Howry Ave, DeLand, FL 32724"
+  },
+  {
+    "json_index": 1609,
+    "id": "the_knights_tour_chess_club",
+    "city": "Weston",
+    "state": "WV",
+    "address": "206 E 2nd St, Weston, WV 26452"
+  },
+  {
+    "json_index": 1610,
+    "id": "lee_county_library_chess_club",
+    "city": "Leesburg",
+    "state": "GA",
+    "address": "Walnut Ave, Leesburg, GA 31763"
+  },
+  {
+    "json_index": 1611,
+    "id": "georgetown_chess_club",
+    "city": "Georgetown",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1612,
+    "id": "ukiah_chess_club",
+    "city": "Ukiah",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1613,
+    "id": "junction_city_chess_club",
+    "city": "Junction City",
+    "state": "KS",
+    "address": "815 N Jefferson St, Junction City, KS 66441"
+  },
+  {
+    "json_index": 1614,
+    "id": "huntsville_chess_club2",
+    "city": "Madison",
+    "state": "AL",
+    "address": "7143 B Hwy 72 West, Madison, AL 35758"
+  },
+  {
+    "json_index": 1615,
+    "id": "big_rapids_chess",
+    "city": "Big Rapids",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 1616,
+    "id": "epoch_chess_club",
+    "city": "Austin",
+    "state": "TX",
+    "address": "221 W North Loop Blvd, Austin, TX 78751"
+  },
+  {
+    "json_index": 1617,
+    "id": "free_chess_club_of_harlingen",
+    "city": "Harlingen",
+    "state": "TX",
+    "address": "76 Drive, Harlingen, TX 78551"
+  },
+  {
+    "json_index": 1618,
+    "id": "south_tampa_chess",
+    "city": "Tampa",
+    "state": "FL",
+    "address": "3909 W Neptune St, Tampa, FL 33629"
+  },
+  {
+    "json_index": 1619,
+    "id": "claremont_chess_club2",
+    "city": "Claremont",
+    "state": "CA",
+    "address": "170 E 6th St, Claremont, CA 91711"
+  },
+  {
+    "json_index": 1620,
+    "id": "west_haven_renegade_knights",
+    "city": "West Haven",
+    "state": "CT",
+    "address": "200 Saw Mill Rd, West Haven, CT 06516"
+  },
+  {
+    "json_index": 1621,
+    "id": "ps166_manhattan_knights",
+    "city": "New York",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1622,
+    "id": "coastal_chess_marco_island_naples_fl",
+    "city": "Marco Island",
+    "state": "FL",
+    "address": "991 Winterberry Dr, Marco Island, FL 34145"
+  },
+  {
+    "json_index": 1623,
+    "id": "marshall_chess_club2",
+    "city": "Marshall",
+    "state": "MI",
+    "address": "340 N Liberty St, Marshall, MI 49068"
+  },
+  {
+    "json_index": 1624,
+    "id": "grand_junction_chess_club",
+    "city": "Grand Junction",
+    "state": "CO",
+    "address": "29 Patterson Rd, Grand Junction, CO 81504"
+  },
+  {
+    "json_index": 1625,
+    "id": "whittier_senior_chess_club_55",
+    "city": "Whittier",
+    "state": "CA",
+    "address": "15390 Lambert Rd, Whittier, CA 90604"
+  },
+  {
+    "json_index": 1626,
+    "id": "galveston_chess_club2",
+    "city": "Galveston",
+    "state": "TX",
+    "address": "19th St & Ave M, Galveston, TX"
+  },
+  {
+    "json_index": 1627,
+    "id": "whittier_senior_chess_club_552",
+    "city": "Whittier",
+    "state": "CA",
+    "address": "13225 Walnut St, Whittier, CA 90604"
+  },
+  {
+    "json_index": 1628,
+    "id": "chino_chess_club",
+    "city": "Chino Hills",
+    "state": "CA",
+    "address": "14020 City Center Dr, Chino Hills, CA 91709"
+  },
+  {
+    "json_index": 1629,
+    "id": "eastside_chess_club_chesscom",
+    "city": "Tucson",
+    "state": "AZ",
+    "address": "3800 E River Rd, Tucson, AZ 85718"
+  },
+  {
+    "json_index": 1630,
+    "id": "oxford_public_library_chess_club",
+    "city": "Oxford",
+    "state": "PA",
+    "address": "48 S 2nd St, Oxford, PA 19363"
+  },
+  {
+    "json_index": 1631,
+    "id": "chino_hills_chino_chess_club",
+    "city": "Chino Hills",
+    "state": "CA",
+    "address": "14020 City Center Dr, Chino Hills, CA 91709"
+  },
+  {
+    "json_index": 1632,
+    "id": "dunham_public_library_chess_club",
+    "city": "Whitesboro",
+    "state": "NY",
+    "address": "76 Main St, Whitesboro, NY 13492"
+  },
+  {
+    "json_index": 1633,
+    "id": "university_of_oklahoma_chess_club",
+    "city": "Norman",
+    "state": "OK",
+    "address": "865 Asp Ave, Felgar Hall 300, Norman, OK 73072"
+  },
+  {
+    "json_index": 1634,
+    "id": "community_chess_club_of_rochester",
+    "city": "Rochester",
+    "state": "NY",
+    "address": "221 Norris Dr, Rochester, NY 14610"
+  },
+  {
+    "json_index": 1636,
+    "id": "chess_mates_nj2",
+    "city": "Rahway",
+    "state": "NJ",
+    "address": "75 E Cherry St, Rahway, NJ 07065"
+  },
+  {
+    "json_index": 1637,
+    "id": "urban_town_chess",
+    "city": "Knoxville",
+    "state": "TN",
+    "address": "1309 N Broadway, Knoxville, TN 37917"
+  },
+  {
+    "json_index": 1638,
+    "id": "miami_chess_team",
+    "city": "Miami",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1639,
+    "id": "the_north_houston_chess_club",
+    "city": "Conroe",
+    "state": "TX",
+    "address": "27222 Conroe Huffsmith, Magnolia, TX"
+  },
+  {
+    "json_index": 1640,
+    "id": "borderland_chess_central",
+    "city": "El Paso",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1641,
+    "id": "belvedere_tiburon_library_chess_club",
+    "city": "Tiburon",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1642,
+    "id": "gwinnett_chess_club",
+    "city": "Buford",
+    "state": "GA",
+    "address": "3235 Woodward Crossing Blvd, Buford, GA 30519"
+  },
+  {
+    "json_index": 1643,
+    "id": "chippewa_valley_chess_club",
+    "city": "Chippewa Falls",
+    "state": "WI",
+    "address": "105 W Central St, Chippewa Falls, WI 54729"
+  },
+  {
+    "json_index": 1644,
+    "id": "rax",
+    "city": "Windcrest",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1645,
+    "id": "the_carriage_house_of_florence_chess_club",
+    "city": "Florence",
+    "state": "SC",
+    "address": "739 S Parker Dr, Florence, SC 29502"
+  },
+  {
+    "json_index": 1646,
+    "id": "detroit_chess_club",
+    "city": "Detroit",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 1648,
+    "id": "shaq_attack",
+    "city": "Dallas",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1649,
+    "id": "greenwood_chess_club23",
+    "city": "Indianapolis",
+    "state": "IN",
+    "address": "8745 S Emerson Ave, Indianapolis, IN"
+  },
+  {
+    "json_index": 1652,
+    "id": "daytona_beach_chess_club2",
+    "city": "Daytona Beach",
+    "state": "FL",
+    "address": "501 N Wild Olive Ave, Daytona Beach, FL 32118"
+  },
+  {
+    "json_index": 1654,
+    "id": "chess_players_anonymous_boston_meetup",
+    "city": "Boston",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1655,
+    "id": "chargers_chess_sherman_tx",
+    "city": "Sherman",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1656,
+    "id": "maryvale_chess_team",
+    "city": "Phoenix",
+    "state": "AZ",
+    "address": null
+  }
+]

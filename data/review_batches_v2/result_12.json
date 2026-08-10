@@ -1,0 +1,73 @@
+[
+  {
+    "json_index": 1413,
+    "id": "lake_houston_chess_club",
+    "hours": {
+      "Wednesday": {"open": "18:00"},
+      "Thursday": {"open": "18:00", "close": "20:00"}
+    },
+    "website": "https://www.facebook.com/atascocitachessclub"
+  },
+  {
+    "json_index": 1414,
+    "id": "team_maui",
+    "hours": {
+      "Tuesday": {"open": "18:00"},
+      "Wednesday": {"open": "18:00"},
+      "Saturday": {"open": "10:00"}
+    },
+    "website": null
+  },
+  {
+    "json_index": 1418,
+    "id": "dna_chess_club",
+    "hours": {
+      "Wednesday": {"open": "18:00", "close": "20:00"}
+    },
+    "website": "https://www.dnachessclub.com"
+  },
+  {
+    "json_index": 1423,
+    "id": "detective_cookies_chess_club",
+    "hours": {
+      "Saturday": {"open": "12:00", "close": "14:00"}
+    },
+    "website": null
+  },
+  {
+    "json_index": 1436,
+    "id": "san_jose_chess_club_uscf_rated",
+    "hours": null,
+    "website": "https://sanjosechessclub.square.site"
+  },
+  {
+    "json_index": 1440,
+    "id": "excelsior_san_francisco_chess_club",
+    "hours": null,
+    "website": "https://www.bkchessclub.org"
+  },
+  {
+    "json_index": 1442,
+    "id": "harlan_kentucky_chess_club",
+    "hours": null,
+    "website": "https://www.harlanchess.com"
+  },
+  {
+    "json_index": 1444,
+    "id": "woodland_chess_club",
+    "hours": null,
+    "website": "https://woodlandchess.club"
+  },
+  {
+    "json_index": 1449,
+    "id": "arlington_chess_club_est_1954",
+    "hours": null,
+    "website": "https://www.arlingtonchessclub.com"
+  },
+  {
+    "json_index": 1451,
+    "id": "peoria_kingsmen",
+    "hours": null,
+    "website": "https://www.peoriachess.com"
+  }
+]

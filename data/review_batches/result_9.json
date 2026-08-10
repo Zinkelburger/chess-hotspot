@@ -1,0 +1,408 @@
+[
+  {
+    "json_index": 1332,
+    "id": "seven_trees_library_chess_club",
+    "city": "San Jose",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1333,
+    "id": "west_valley_chess_club",
+    "city": "Goodyear",
+    "state": "AZ",
+    "address": null
+  },
+  {
+    "json_index": 1334,
+    "id": "dow_txo",
+    "city": null,
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1335,
+    "id": "tri_cities_chess_club_chesscom",
+    "city": "Tri Cities",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1336,
+    "id": "jp_chess_boston",
+    "city": "Boston",
+    "state": "MA",
+    "address": "Jamaica Plain, Boston, MA 02130"
+  },
+  {
+    "json_index": 1338,
+    "id": "bedford_neighborhood_chess_club",
+    "city": "Raleigh",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1339,
+    "id": "columbus_chess_club_pg",
+    "city": "Columbus",
+    "state": "OH",
+    "address": "6591 Goldenrod Dr, Columbus, OH 43229"
+  },
+  {
+    "json_index": 1340,
+    "id": "anderson_county_chess_club",
+    "city": "Anderson",
+    "state": "SC",
+    "address": null
+  },
+  {
+    "json_index": 1341,
+    "id": "redding_chess",
+    "city": "Redding",
+    "state": "CT",
+    "address": null
+  },
+  {
+    "json_index": 1342,
+    "id": "29_palms_chess_club",
+    "city": "Twentynine Palms",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1343,
+    "id": "ellijay_chess_club",
+    "city": "Ellijay",
+    "state": "GA",
+    "address": null
+  },
+  {
+    "json_index": 1344,
+    "id": "piasa_chess_club",
+    "city": null,
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1345,
+    "id": "atl_brews_and_blitz",
+    "city": "Atlanta",
+    "state": "GA",
+    "address": null
+  },
+  {
+    "json_index": 1346,
+    "id": "columbus_mulligan_chess_club",
+    "city": "Dublin",
+    "state": "OH",
+    "address": "6665 Perimeter Loop Rd, Dublin, OH 43017"
+  },
+  {
+    "json_index": 1347,
+    "id": "houston",
+    "city": "Houston",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1348,
+    "id": "svdpa_chess",
+    "city": "Kansas City",
+    "state": "MO",
+    "address": null
+  },
+  {
+    "json_index": 1350,
+    "id": "howard_county_casual_chess_club",
+    "city": "Columbia",
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 1351,
+    "id": "milford_chess",
+    "city": "Milford",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1352,
+    "id": "upper_peninsula_chess_connections",
+    "city": "Upper Peninsula",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 1353,
+    "id": "radius_chess_club",
+    "city": "Cincinnati",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1354,
+    "id": "everest_chess",
+    "city": "San Diego",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1355,
+    "id": "pawn_scum_chess_club",
+    "city": "Eugene",
+    "state": "OR",
+    "address": "245 Van Buren St, Eugene, OR 97402"
+  },
+  {
+    "json_index": 1356,
+    "id": "red_stick_chess_club",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "address": null
+  },
+  {
+    "json_index": 1357,
+    "id": "kona_chess_club",
+    "city": "Kailua-Kona",
+    "state": "HI",
+    "address": "Kona Library"
+  },
+  {
+    "json_index": 1358,
+    "id": "waikiki_chess_club",
+    "city": "Honolulu",
+    "state": "HI",
+    "address": "Waikiki Library"
+  },
+  {
+    "json_index": 1359,
+    "id": "honolulu_chess_club",
+    "city": "Honolulu",
+    "state": "HI",
+    "address": "South Shore Market, Whole Foods Market, first floor, Honolulu, HI"
+  },
+  {
+    "json_index": 1360,
+    "id": "sla_rockets_chess",
+    "city": "Philadelphia",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1361,
+    "id": "san_bernardino_chess_club",
+    "city": "San Bernardino",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1362,
+    "id": "bentonville_chess_gang",
+    "city": "Bentonville",
+    "state": "AR",
+    "address": null
+  },
+  {
+    "json_index": 1364,
+    "id": "atholorange_chess_club",
+    "city": "Athol",
+    "state": "MA",
+    "address": "568 Main St, Athol, MA 01331"
+  },
+  {
+    "json_index": 1365,
+    "id": "the_phoenix_sober_chess_club",
+    "city": "Denver",
+    "state": "CO",
+    "address": null
+  },
+  {
+    "json_index": 1366,
+    "id": "research_triangle_chess",
+    "city": "Durham",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1367,
+    "id": "the_kentucky_chess_club",
+    "city": null,
+    "state": "KY",
+    "address": null
+  },
+  {
+    "json_index": 1368,
+    "id": "delaware_chess",
+    "city": null,
+    "state": "DE",
+    "address": null
+  },
+  {
+    "json_index": 1369,
+    "id": "spur_chess",
+    "city": "Spur",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1370,
+    "id": "memphis_public_libraries_chess",
+    "city": "Memphis",
+    "state": "TN",
+    "address": null
+  },
+  {
+    "json_index": 1371,
+    "id": "seven_cities",
+    "city": null,
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1372,
+    "id": "corpus_christi_chess_club",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1374,
+    "id": "tuckers_chess_club",
+    "city": "Boulder",
+    "state": "CO",
+    "address": null
+  },
+  {
+    "json_index": 1375,
+    "id": "fbc_wv_chess_club",
+    "city": "Shenandoah Junction",
+    "state": "WV",
+    "address": null
+  },
+  {
+    "json_index": 1376,
+    "id": "the_roi_chess",
+    "city": "Columbus",
+    "state": "OH",
+    "address": "80 Parsons Ave, Columbus, OH"
+  },
+  {
+    "json_index": 1377,
+    "id": "pa_chess_club",
+    "city": "Hummelstown",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1378,
+    "id": "fairhope_pirates_chess_club",
+    "city": "Fairhope",
+    "state": "AL",
+    "address": null
+  },
+  {
+    "json_index": 1379,
+    "id": "poplar_bluff_chess_club",
+    "city": "Poplar Bluff",
+    "state": "MO",
+    "address": "Poplar Bluff, MO 63901"
+  },
+  {
+    "json_index": 1380,
+    "id": "clarkston_district_chess_club",
+    "city": "Clarkston",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1381,
+    "id": "the_gettysburg_blues",
+    "city": "Gettysburg",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1384,
+    "id": "east_bay_community_chess",
+    "city": "Oakland",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1385,
+    "id": "the_cheesy_chess_club",
+    "city": "St. Augustine",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1386,
+    "id": "weekly_monday_and_wednesday_cleveland_chess_club",
+    "city": "Cleveland",
+    "state": "OH",
+    "address": "17104 Lorain Ave, Cleveland, OH 44111"
+  },
+  {
+    "json_index": 1387,
+    "id": "calumet_area_chess_club",
+    "city": "Calumet City",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1388,
+    "id": "seguin_public_library_chess_club",
+    "city": "Seguin",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1389,
+    "id": "grean_lea_chess_club",
+    "city": "Tampa",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1390,
+    "id": "hampstead_nh_civic_club",
+    "city": "Hampstead",
+    "state": "NH",
+    "address": null
+  },
+  {
+    "json_index": 1392,
+    "id": "new_territory_chess_club",
+    "city": "Sugar Land",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1393,
+    "id": "southern_ohio_chess_club",
+    "city": "Portsmouth",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1394,
+    "id": "central_oklahoma_chess",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "address": null
+  },
+  {
+    "json_index": 1395,
+    "id": "school_without_walls",
+    "city": "Washington",
+    "state": "DC",
+    "address": null
+  },
+  {
+    "json_index": 1396,
+    "id": "hutchresearch",
+    "city": "Bellingham",
+    "state": "WA",
+    "address": null
+  }
+]

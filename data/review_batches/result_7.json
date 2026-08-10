@@ -1,0 +1,415 @@
+[
+  {
+    "json_index": 1202,
+    "id": "unruly_society",
+    "city": "New York",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1203,
+    "id": "connecticut_chess_academy",
+    "city": "New London",
+    "state": "CT",
+    "address": "63 Huntington St, New London, CT 06320"
+  },
+  {
+    "json_index": 1204,
+    "id": "valencia_college_chess_club",
+    "city": "Winter Park",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1205,
+    "id": "swampscott_chess_club",
+    "city": "Swampscott",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1206,
+    "id": "complete_chess",
+    "city": "San Antonio",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1207,
+    "id": "river_city_chess_club",
+    "city": "Sacramento",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1208,
+    "id": "rgv_chess_community",
+    "city": null,
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1209,
+    "id": "fairbanks_chess_club",
+    "city": "Fairbanks",
+    "state": "AK",
+    "address": null
+  },
+  {
+    "json_index": 1210,
+    "id": "midland_chess_club",
+    "city": "Midland",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 1211,
+    "id": "exchange_sacrifice_chess_club",
+    "city": "Chicago",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1212,
+    "id": "genspace_chess_club",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": "3643 Wilshire Blvd, Level 3, Los Angeles, CA 90010"
+  },
+  {
+    "json_index": 1213,
+    "id": "chess_mafia_of_swfl",
+    "city": "Cape Coral",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1214,
+    "id": "damascus_gaming",
+    "city": "El Paso",
+    "state": "TX",
+    "address": "750 Sunland Park Dr, L05A, El Paso, TX 79912"
+  },
+  {
+    "json_index": 1215,
+    "id": "winnsboro_chess_club",
+    "city": "Winnsboro",
+    "state": "TX",
+    "address": "624 W Broadway St, Winnsboro, TX 75494"
+  },
+  {
+    "json_index": 1217,
+    "id": "hamilton_novato_chess_club",
+    "city": "Novato",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1218,
+    "id": "war_pigs_chess_club",
+    "city": "Phoenix",
+    "state": "AZ",
+    "address": null
+  },
+  {
+    "json_index": 1219,
+    "id": "boys_and_girls_club_of_rockford",
+    "city": "Rockford",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1220,
+    "id": "classy_chess_champion_challengers",
+    "city": "Camarillo",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1221,
+    "id": "launch_louisville_chess_club",
+    "city": "Louisville",
+    "state": "KY",
+    "address": null
+  },
+  {
+    "json_index": 1222,
+    "id": "nyc_chess",
+    "city": "New York",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1223,
+    "id": "oml_chess_club",
+    "city": "Eagle River",
+    "state": "WI",
+    "address": null
+  },
+  {
+    "json_index": 1224,
+    "id": "putnam_valley_library_chess_club_chesscom",
+    "city": "Putnam Valley",
+    "state": "NY",
+    "address": "30 Oscawana Lake Road, Putnam Valley, NY 10579"
+  },
+  {
+    "json_index": 1225,
+    "id": "city_of_palo_alto_chess_club",
+    "city": "Palo Alto",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1226,
+    "id": "eugene_chess_club",
+    "city": "Eugene",
+    "state": "OR",
+    "address": null
+  },
+  {
+    "json_index": 1227,
+    "id": "ithaca_ches_club",
+    "city": "Ithaca",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1228,
+    "id": "old_east_dallas_chess_club_chesscom",
+    "city": "Dallas",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1229,
+    "id": "atlchessclub",
+    "city": "Atlanta",
+    "state": "GA",
+    "address": null
+  },
+  {
+    "json_index": 1230,
+    "id": "new_london_chess_club",
+    "city": "New London",
+    "state": "CT",
+    "address": "63 Huntington St, New London, CT 06320"
+  },
+  {
+    "json_index": 1231,
+    "id": "pro_am_chess_league",
+    "city": "Overland Park",
+    "state": "KS",
+    "address": "7500 W 75th St, Overland Park, KS"
+  },
+  {
+    "json_index": 1232,
+    "id": "bryancollege_station_chess",
+    "city": "Bryan-College Station",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1234,
+    "id": "coffee_and_chess_clt",
+    "city": "Charlotte",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1235,
+    "id": "not_so_serious_chess_club",
+    "city": "Annapolis",
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 1236,
+    "id": "jacksonville_area_chess_club",
+    "city": "Jacksonville",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1237,
+    "id": "pawn_shop_chess_club_sf",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1238,
+    "id": "knights_of_the_triangle",
+    "city": "Raleigh",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1239,
+    "id": "cheviot_chess",
+    "city": "Cheviot",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1240,
+    "id": "south_ocala_chess_club",
+    "city": "Ocala",
+    "state": "FL",
+    "address": "5870 SW 95th St, Ocala, FL 34476"
+  },
+  {
+    "json_index": 1241,
+    "id": "valdosta_chess_club",
+    "city": "Valdosta",
+    "state": "GA",
+    "address": "2906 Julia Dr, Valdosta, GA 31602"
+  },
+  {
+    "json_index": 1242,
+    "id": "finn_chess_tournaments",
+    "city": "Latham",
+    "state": "NY",
+    "address": "6 British American Blvd, Suite 103, Latham, NY 12110"
+  },
+  {
+    "json_index": 1243,
+    "id": "chess_northwest",
+    "city": "Woodstock",
+    "state": "IL",
+    "address": "1039 Lake Ave, Woodstock, IL"
+  },
+  {
+    "json_index": 1244,
+    "id": "king_george_chess_club",
+    "city": "King George",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1247,
+    "id": "lihue_chess_club",
+    "city": "Lihue",
+    "state": "HI",
+    "address": null
+  },
+  {
+    "json_index": 1248,
+    "id": "dotte_spot_chess_club",
+    "city": "Kansas City",
+    "state": "KS",
+    "address": "8123 Parallel Pkwy, Kansas City, KS 66112"
+  },
+  {
+    "json_index": 1249,
+    "id": "brevard_chess",
+    "city": "Cocoa Beach",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1250,
+    "id": "rocky_hill_chess_club",
+    "city": "Rocky Hill",
+    "state": "CT",
+    "address": null
+  },
+  {
+    "json_index": 1251,
+    "id": "south_bay_games_and_activities",
+    "city": "San Jose",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1252,
+    "id": "northern_connecticut_chess_club",
+    "city": null,
+    "state": "CT",
+    "address": null
+  },
+  {
+    "json_index": 1253,
+    "id": "fountain_green_rams",
+    "city": "Fountain Green",
+    "state": "UT",
+    "address": null
+  },
+  {
+    "json_index": 1254,
+    "id": "dgp_chess_club",
+    "city": "San Diego",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1255,
+    "id": "your_move",
+    "city": "Worcester",
+    "state": "MA",
+    "address": "6 Brussels St, Worcester, MA 01610"
+  },
+  {
+    "json_index": 1257,
+    "id": "myrtle_beach_chess",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "address": "800 Gabreski Ln, Myrtle Beach, SC 29577"
+  },
+  {
+    "json_index": 1258,
+    "id": "the_patio_chess_club",
+    "city": "Sunnyvale",
+    "state": "CA",
+    "address": "948 E El Camino Real, Sunnyvale, CA"
+  },
+  {
+    "json_index": 1259,
+    "id": "volusia_county_chess_club",
+    "city": "DeLand",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1261,
+    "id": "fresno_and_clovis_chess_club",
+    "city": "Fresno",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1262,
+    "id": "the_nashville_premier_league_beginners_chess_club_tournament_association",
+    "city": "Nashville",
+    "state": "TN",
+    "address": null
+  },
+  {
+    "json_index": 1263,
+    "id": "albany_oregon_chess_club",
+    "city": "Albany",
+    "state": "OR",
+    "address": null
+  },
+  {
+    "json_index": 1264,
+    "id": "greater_ithaca_chess",
+    "city": "Ithaca",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 1265,
+    "id": "greaselake_checkmates",
+    "city": "Eastlake",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1266,
+    "id": "west_virginia_chess_club",
+    "city": null,
+    "state": "WV",
+    "address": null
+  }
+]

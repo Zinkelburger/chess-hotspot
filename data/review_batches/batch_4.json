@@ -1,0 +1,652 @@
+[
+  {
+    "json_index": 1007,
+    "id": "downey_chess_club",
+    "name": "Downey Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Downey, CA",
+    "notes": "Chess Club for Downey CA and surrounding cities."
+  },
+  {
+    "json_index": 1008,
+    "id": "scioto_county_chess_federation",
+    "name": "Scioto County Chess Federation",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Scioto County, OH",
+    "notes": "A chess club for the citizens of Scioto County in Ohio."
+  },
+  {
+    "json_index": 1009,
+    "id": "monterey_county_chess_club",
+    "name": "Monterey County Chess Club",
+    "city": "Monterey County",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Monterey, California",
+    "notes": "Monterey County Chess Club https://www.meetup.com/monterey-county-chess-club/"
+  },
+  {
+    "json_index": 1010,
+    "id": "franklin_west_palm_street_chess_fans_club",
+    "name": "Franklin west palm street chess fans club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "The Irish Brigade, 621 Lake Ave, Lake Worth Beach, FL 33460",
+    "notes": ""
+  },
+  {
+    "json_index": 1011,
+    "id": "beech_grove_chess_club",
+    "name": "Beech Grove Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Indianapolis",
+    "notes": "The Un-Official Beech Grove Chess Club!"
+  },
+  {
+    "json_index": 1012,
+    "id": "lewis_county_mo_chess_club",
+    "name": "Lewis County MO Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Lewis County, MO",
+    "notes": "A chess club for anyone in Lewis County, or the surrounding counties."
+  },
+  {
+    "json_index": 1013,
+    "id": "the_poggers",
+    "name": "The poggers",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Ohio",
+    "notes": "The best club ever."
+  },
+  {
+    "json_index": 1014,
+    "id": "aaco_of_arizona_chess_club",
+    "name": "AACO of Arizona Chess Club",
+    "city": "Aaco Of",
+    "state": "AZ",
+    "address": null,
+    "chesscom_location": "Arizona",
+    "notes": "Welcome to the AACO Chess Club! Chess is a great game that trains players to improve their strategic thinking, patience, time management, how to read your enemy, and more. All of these are great skills that can strengthen us as Assyrians. About the Club. Accepting all levels Regularly meet in person Will provide introductory training on concepts and openings Conduct tournaments Learn new tactics, practice your game, and increase your elo Build a social and fun community of Assyrians who love to play chess! For questions reach out to our leader: Mike Youkhana ( tigermikey39 ) — The Assyrian American Cultural Organization (AACO) of Arizona is an organization whose goal is to serve the needs of the local Assyrian community and to spark an interest and love for our Assyrian culture and heritage. https://assyrianamerican.org/ To be eligible to participate in an in-person tournament you must be a registered AACO member in good standing. To sign up visit this link: https://www.assyrianamerican.org/membership"
+  },
+  {
+    "json_index": 1015,
+    "id": "washtucna_chess_club",
+    "name": "Washtucna Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Washtucna",
+    "notes": "Chess club for the Township of Washtucna, Washington and surrounding areas. Pupose of club is to promote, teach and play chess in the community."
+  },
+  {
+    "json_index": 1016,
+    "id": "price_hill_chess",
+    "name": "Price Hill Chess",
+    "city": "Price Hill",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Cincinnati",
+    "notes": "Cincinnati based chess club hosting in Deer Park, Ohio, Saturday & Sundays 2-5P.M. when weather permits."
+  },
+  {
+    "json_index": 1017,
+    "id": "middlesboro_chess_club",
+    "name": "Middlesboro Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Middlesboro, Kentucky",
+    "notes": "A chess club for the people of Middlesboro, Kentucky."
+  },
+  {
+    "json_index": 1018,
+    "id": "pawn_jawn",
+    "name": "Pawn Jawn",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Philadelphia, PA",
+    "notes": "A beginners chess club for the Donatucci Library in South Philly. Just a casual place for kids to play against each other and the staff members. This is not an official club that plays in tournaments or anything like that."
+  },
+  {
+    "json_index": 1019,
+    "id": "dupont_chess",
+    "name": "Dupont Chess",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Dupont, WA",
+    "notes": "For Chess players in Dupont, WA, USA."
+  },
+  {
+    "json_index": 1020,
+    "id": "terrible_at_chess",
+    "name": "Terrible At Chess",
+    "city": "Terrible At",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Los Angeles",
+    "notes": "A weekly meetup in Los Angeles"
+  },
+  {
+    "json_index": 1021,
+    "id": "blue_ghost_arcade_chess_club",
+    "name": "Blue Ghost Arcade Chess Club",
+    "city": "Blue Ghost Arcade",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Woodstock Georgia",
+    "notes": "Blue Ghost Arcade, Woodstock Georgia Chess Club members can meet and play in person at the Arcade and online!"
+  },
+  {
+    "json_index": 1022,
+    "id": "mt_washington_ky_chess",
+    "name": "Mt. Washington KY Chess",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Mt. Washington KY",
+    "notes": "Chess players from Mt. Washington KY and surrounding area."
+  },
+  {
+    "json_index": 1023,
+    "id": "the_chessers_team_and_academy_overtheboard_chess_club",
+    "name": "The Chessers Team and Academy                                     Over-the-Board Chess Club",
+    "city": "The",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Ossining, NY",
+    "notes": "The Chessers Team & Academy Is an Over-the-Board Chess Club. We are a US Chess Federation Affiliate. Whether you are new to chess, brushing up on your skills, or a master player, we invite you to join and play! We host weekly Over-the-Board Meet-UPs in various locations and times. OUR SOCIAL REACH Instagram: @chessgambits_ X Twitter: @chessgambits FB Group: CHESS GAMBITS, VISUALIZATION, & CALCULATION ~ Virginia Benedict 🕊 Over-the-Board Chess Coach Member: FIDE | USCF Founder | The Chessers™ Team & Academy© Over-the-Board Chess Club Affiliate Member: USCF"
+  },
+  {
+    "json_index": 1024,
+    "id": "the_traverse_city_chess_club",
+    "name": "The Traverse City Chess Club",
+    "city": "The Traverse City",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Traverse City, MI",
+    "notes": "A casual chess club that meets biweekly in Traverse City!"
+  },
+  {
+    "json_index": 1025,
+    "id": "northwest_georgia_chess_club",
+    "name": "Northwest Georgia Chess Club",
+    "city": "Northwest",
+    "state": "GA",
+    "address": null,
+    "chesscom_location": "Georgia",
+    "notes": "A place for Northwest GA residents to connect over the game of chess."
+  },
+  {
+    "json_index": 1026,
+    "id": "nonchalant_chess_club",
+    "name": "Nonchalant Chess Club",
+    "city": "Nonchalant",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Los Angeles/San Fernando Valley",
+    "notes": "San Fernando Valley's chess session! For updates follow us on Instagram: https://www.instagram.com/nonchalantchess/"
+  },
+  {
+    "json_index": 1027,
+    "id": "chess_club_of_dallas",
+    "name": "Chess Club of Dallas",
+    "city": "Dallas",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Dallas, Texas",
+    "notes": "The Dallas Chess Club is a vibrant community of chess enthusiasts nestled in the heart of Texas. With its welcoming atmosphere and diverse membership, it's a place where players of all ages and skill levels come together to share their love for the game. From friendly matches to intense tournaments, the club provides a platform for growth, learning, and camaraderie. The dedicated organizers and passionate members create an environment that fosters both competitive spirit and a genuine sense of belonging. Joining this club means not only honing your chess skills but also becoming part of a tight-knit community that celebrates the intellectual richness of the game."
+  },
+  {
+    "json_index": 1028,
+    "id": "red_rooks",
+    "name": "Red Rooks",
+    "city": "St George",
+    "state": "UT",
+    "address": null,
+    "chesscom_location": "St. George, Utah",
+    "notes": "Red Rooks Chess Club is an OTB club in St. George, Utah. If you want to play some in-person chess, we meet at the following days and times: Every Thursday from 4-7 PM at the Santa Clara Library. Saturdays at the Santa Clara Library: 1st Saturday of the Month: 3:00-5:30pm 2nd, 3rd, & 5th Saturdays: 2:30-5:30pm 4th Saturday: No meeting (possible online Club Tournament) We have plenty of sets and clocks! Our members have a wide range of skill-levels, all are welcome. Informal instruction may be provided. If you're interested, please also join our Facebook group: https://www.facebook.com/groups/redrookschess/ (Note that \"Red Rooks\" club on Chess.com located in St George, UT is just starting to play online chess matches. However, do not confuse our \"Red Rooks\" club with the fully virtual club/team named \"Red Rooks Chess Club\".)"
+  },
+  {
+    "json_index": 1029,
+    "id": "emerald_hills_chess",
+    "name": "Emerald Hills Chess",
+    "city": "Emerald Hills",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Tri-Valley, San Francisco East Bay, California, USA",
+    "notes": "The Place to Learn and Play in the Tri-Valley (Dublin, Pleasanton, Livermore, San Ramon, and more)."
+  },
+  {
+    "json_index": 1030,
+    "id": "garland_county_chess_club",
+    "name": "garland county chess club",
+    "city": "Garland County",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Hot Springs, Arkansas",
+    "notes": "We get together on Sundays at 2 PM at the Garland County Library, 1427 Malvern Ave, Hot Springs, AR. Informal, all skill levels welcome. The library itself has a pretty good selection of chess books thanks, in part to some donations by Bruce Garnett."
+  },
+  {
+    "json_index": 1031,
+    "id": "joshua_chess_club",
+    "name": "Joshua Chess Club",
+    "city": "Joshua",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Joshua, Tx",
+    "notes": "Start your Saturday right from 10am - 12pm by learning this awesome game and have free donuts, kolaches, coffee, and tea while you do it! Our Chess Club meets every Saturday unless otherwise stated on our Joshua Chess Club Facebook page! Located INSIDE the H&R Block in Joshua, Tx."
+  },
+  {
+    "json_index": 1032,
+    "id": "sanilac_county_chess_association",
+    "name": "Sanilac County Chess Association",
+    "city": "Sanilac County",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Sanilac County, Mich.",
+    "notes": "A chess organization in Sanilac County that has casual and competitive chess seasons."
+  },
+  {
+    "json_index": 1033,
+    "id": "illinois_chess_rookies",
+    "name": "Illinois Chess Rookies",
+    "city": "Illinois",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Champaign, Illinois",
+    "notes": "On-line Chess.com group for the in-person group. Beginners, novices, and first timers welcome!"
+  },
+  {
+    "json_index": 1034,
+    "id": "hellfire_chess_club",
+    "name": "Hellfire Chess Club",
+    "city": "Hellfire",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Houston, TX",
+    "notes": "We meet every Friday 7pm to Midnight at Little Woodrow's in Webster, TX. Just trying to have some fun and play chess. All levels are welcomed. Have a few drinks and laughs. Come join us for a game!"
+  },
+  {
+    "json_index": 1035,
+    "id": "albany_library_chess_club",
+    "name": "Albany Library Chess Club",
+    "city": "Albany Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Albany, Oregon",
+    "notes": "We meet in person every second Saturday at the main library from 1-4pm"
+  },
+  {
+    "json_index": 1036,
+    "id": "shullsburg_chess_club",
+    "name": "Shullsburg Chess Club",
+    "city": "Shullsburg",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Shullsburg, Wisconsin",
+    "notes": "Everyone, whether student, staff or family is welcome to be apart of Shullsburg's Chess Club!"
+  },
+  {
+    "json_index": 1037,
+    "id": "chesszone_atl",
+    "name": "Chess_Zone _ATL",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Roswell, Georgia",
+    "notes": "Chess Zone is a tournament facility in Roswell, Georgia, that hosts weekly rated and unrated tournaments. From G75+30 matches to our lightning-fast Manic Monday Blitz tournaments, Chess Zone is a place where players can get into the action."
+  },
+  {
+    "json_index": 1038,
+    "id": "bville_chess_club",
+    "name": "Bville Chess Club",
+    "city": "Bville",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Bartlesville, Oklahoma",
+    "notes": "We are a group of chess players of all levels who meet once a week for OTB games."
+  },
+  {
+    "json_index": 1039,
+    "id": "cheeseman_park_chess_club",
+    "name": "Cheeseman Park Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Denver",
+    "notes": "Just a group of folks who play chess at the park here in Denver CO."
+  },
+  {
+    "json_index": 1040,
+    "id": "oregon_library_chess_club",
+    "name": "Oregon Library Chess Club",
+    "city": "Oregon Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Oregon, WI",
+    "notes": "Welcome to the Oregon Chess Club! At the Oregon Chess Club we are dedicated to creating an inclusive environment where everyone can come together to enjoy everything chess offers. Please join us and experience the joy of chess in a welcoming, diverse, and supportive environment. Whether you're looking to improve your chess game, make new friends, or enjoy a game or two, we're here to welcome you with open arms."
+  },
+  {
+    "json_index": 1041,
+    "id": "round_rock_public_library_chess_group",
+    "name": "Round Rock Public Library Chess Group",
+    "city": "Round Rock Public Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Round Rock, TX",
+    "notes": "Chess Club (All ages and adults) Would you like to learn how to play chess? Or are you looking for a better handle on the your tactics? Join the Round Rock Public Library’s C hess Club where you will learn and play “The Game of Kings.” REGISTRATION is not necessary we meet every other Sunday, and now we have a Thursday chess get together. Just show up ready to play and have fun! This class with progress from the basics to the more intermediate and advanced chess levels, and you will find many levels among our club members, so don’t be shy you will find your spot among the members."
+  },
+  {
+    "json_index": 1042,
+    "id": "indian_valley_beginners_club",
+    "name": "Indian Valley Beginners Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Telford, Pennsylvania",
+    "notes": "This is the group of beginners who play at the Indian Valley Library in Telford on Wednesday nights."
+  },
+  {
+    "json_index": 1043,
+    "id": "gsmst_chess_team",
+    "name": "GSMST Chess Team",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Lawrenceville, GA",
+    "notes": "Private Club for GSMST in Lawrenceville, GA"
+  },
+  {
+    "json_index": 1044,
+    "id": "enumclaw_chess_club",
+    "name": "Enumclaw Chess Club",
+    "city": "Enumclaw",
+    "state": null,
+    "address": null,
+    "chesscom_location": "1456 Cole St, Enumclaw, WA 98022",
+    "notes": "We are the chess club of Enumclaw! playing every Wednesday 5-7 PM located at 1456 Cole St, Enumclaw, WA 98022. We have a wide range of skill level, from beginner to advanced players"
+  },
+  {
+    "json_index": 1045,
+    "id": "denton_chess_club_at_the_d20",
+    "name": "Denton Chess Club at the d20",
+    "city": "Denton",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Denton, TX",
+    "notes": "Tired of DDOS attacks and crashing servers? Tired of mis-clicks and mouse slips? Can't figure out the correct key sequence to underpromote to a knight, or to eliminate your pre-moves? What about those rude chat messages when you're losing or when you're taking too much time on your move? Instead, experience all that in person at the d20 Tavern on Denton Square, TX! Every Tuesday 5:30 till they kick us out (10:00pm) & Every Friday 6:30 till they kick us out (midnight!)."
+  },
+  {
+    "json_index": 1046,
+    "id": "plymouth_rock_chess_club",
+    "name": "Plymouth Rock chess club",
+    "city": "Plymouth Rock",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Massachusetts",
+    "notes": "Local chess club open to anyone be friendly"
+  },
+  {
+    "json_index": 1047,
+    "id": "jags_over_the_board",
+    "name": "Jags Over The Board",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Springdale MD",
+    "notes": "This is our first year of operation and we look forward to this club lasting beyond us while opening a space of fun and friendly competition.-Luke & Boyan"
+  },
+  {
+    "json_index": 1048,
+    "id": "long_island_womens_chess_club",
+    "name": "Long Island Womens Chess Club",
+    "city": "Long Island Womens",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Long Island, NY",
+    "notes": "We’re a local club on Long Island helping women develop their chess game."
+  },
+  {
+    "json_index": 1049,
+    "id": "thunder_chess_league",
+    "name": "Thunder - Chess - League",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Wisconsin",
+    "notes": "Seymour, Wisconsin Area chess league"
+  },
+  {
+    "json_index": 1050,
+    "id": "sfa_chess_club",
+    "name": "SFA Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Nacogdoches, TX.",
+    "notes": "Club for SFASU students and Nacogdoches residents."
+  },
+  {
+    "json_index": 1051,
+    "id": "tuolumne_chess",
+    "name": "Tuolumne Chess",
+    "city": "Tuolumne",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Tuolumne County",
+    "notes": "A chess club for Tuolumne County chess enthusiasts. We meet weekly for friendly games and occasional organized tournaments."
+  },
+  {
+    "json_index": 1052,
+    "id": "deslux",
+    "name": "DesLux",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Iowa",
+    "notes": "Des Moines, IA and surrounding areas chess club."
+  },
+  {
+    "json_index": 1053,
+    "id": "boulder_community_chess_club",
+    "name": "Boulder Community Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Boulder, CO",
+    "notes": "Join this club if you like the city of Boulder. We will review tactics if suggested and anyone can join."
+  },
+  {
+    "json_index": 1054,
+    "id": "the_tucker_chess_club",
+    "name": "The Tucker Chess Club",
+    "city": "The Tucker",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Tucker, GA",
+    "notes": "Free chess club in Tucker, GA. Currently meeting on Main St. Join our FB group! www.facebook.com/groups/285800877483698/"
+  },
+  {
+    "json_index": 1055,
+    "id": "summit_county_ut_library_chess_club",
+    "name": "Summit County UT Library Chess Club",
+    "city": "Summit County Ut Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Park City, UT",
+    "notes": "This is a club for members of the Summit County UT Library Chess Club, which meets in person every 2nd and 4th Monday (excluding holidays) at the Summit County Library, Kimball Junction Branch, 1885 W Ute Blvd, Park City, UT 84098. You can find more info and sign up for our mailing list here: https://www.thesummitcountylibrary.org/events/library-chess-club"
+  },
+  {
+    "json_index": 1056,
+    "id": "wilmington_nc_chess_club",
+    "name": "Wilmington NC Chess club",
+    "city": "Wilmington",
+    "state": "NC",
+    "address": null,
+    "chesscom_location": "Wilmington, NC",
+    "notes": "We are a small chess club located in Wilmington, NC. We meet regularly twice a week and play club matches. All skill levels welcome!"
+  },
+  {
+    "json_index": 1057,
+    "id": "media_chess_club_mc2",
+    "name": "Media Chess Club MC2",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Media, PA",
+    "notes": ""
+  },
+  {
+    "json_index": 1058,
+    "id": "wilmington_city_chess_club",
+    "name": "Wilmington City Chess Club",
+    "city": "Wilmington City",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Wilmington, Ohio",
+    "notes": "The Chesscom home for all things Wilmington chess. Not affiliated with the school district. Open to all citizens of Clinton County."
+  },
+  {
+    "json_index": 1059,
+    "id": "bowling_green_chess",
+    "name": "Bowling Green Chess",
+    "city": "Bowling Green",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Bowling Green, KY",
+    "notes": "Bowling Green, Kentucky Chess players. Play us at either Barnes & Noble at 7:00pm on Mondays or at Spencer's Coffee on College Street on Thursdays at 3:00pm."
+  },
+  {
+    "json_index": 1060,
+    "id": "phx_chess_club",
+    "name": "PHX Chess Club",
+    "city": "Phx",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Phoenix, Arizona",
+    "notes": "Inviting players of all levels from around the Valley. Whether a casual player, competitive player, or something in between, we encourage a welcoming environment to all players."
+  },
+  {
+    "json_index": 1061,
+    "id": "east_of_dallas_chess",
+    "name": "East Of Dallas Chess",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Kaufman, Texas",
+    "notes": "This group is for anyone that lives east of Dallas Texas, in the Mesquite, Forney, Kaufman County area, that enjoys playing chess. I would like to start a chess club for people in this area."
+  },
+  {
+    "json_index": 1062,
+    "id": "warrensville_heights_library_chess_club",
+    "name": "Warrensville Heights Library Chess Club",
+    "city": "Warrensville Heights Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Warrensville Heights, Ohio",
+    "notes": "The Warrensville Heights Library Chess Club is open to all chess players. We are committed to introducing chess to all ages and improving players level of chess knowledge. We will provide instruction on the basics for new players and advanced lessons for all levels of players. Playing chess will improve visual memory, attention span, spatial-reasoning ability. Learning the game at an early age will also help improve sportsman ship, problem solving, logical thinking and creativity. Join us for live chess every Saturday at the library from 1 pm to 3 pm."
+  },
+  {
+    "json_index": 1063,
+    "id": "kihei_chess_club",
+    "name": "Kihei Chess Club",
+    "city": "Kihei",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Kihei, Maui",
+    "notes": "Aloha. Welcome to the Kihei Chess Club. JOINING CRITERIA: 1) YOU MUST BE A MEMBER ON THE SITE AT LEAST 6 MONTHS 2) MUST HAVE WON AT LEAST 10 RATED DAILY GAMES 3) MUST HAVE A TIME OUT % OF 10% OR LESS Cheaters are not welcome into this group! Hawaii clubs on chess.com: ALL-Islands Hawaii Chess Club Team Hawaii Team Hawaii Live KAUAI Lihue Chess Club Kauai Chess Club Team Kauai LANAI Lanai Chess Club OAHU Hawaii Chess Federation HCF Scholastic Hawaii Homeschool Chess Club Hawaii Rainbow Warriors Chess Club Honolulu Chess Club Mililani Chess Club Team Oahu Waikiki Chess Club Windward Chess Club MAUI Kahului Chess Club KiheiChess Club Maui Chess Club Team Maui MOLOKAI Molokai Chess Club HAWAII Big Island Chess Club Kona Chess Club Kihei Chess Club is for Maui residents, part time residents or those with strong ties to Hawaii who wish to participate in competitive chess matches with State and Country Teams. NO CHEATING will be TOLERATED. No chess engines can be used during any rated chess games. Kihei Chess Club meets Thursday's 3-5p at the Kihie Public Library. One hour chess lesson first hour, second hour is free play. Bring your chess set. Members will be notified first about FIDE and USCF chess tournaments on all the islands"
+  },
+  {
+    "json_index": 1064,
+    "id": "canandaigua_ms_chess_club",
+    "name": "Canandaigua MS Chess Club",
+    "city": "Canandaigua",
+    "state": "MS",
+    "address": null,
+    "chesscom_location": "Canandaigua",
+    "notes": "Chess Club open to Canandaigua MS Students."
+  },
+  {
+    "json_index": 1065,
+    "id": "hilo_chess_club",
+    "name": "Hilo Chess Club",
+    "city": "Hilo",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Hilo, Hawaii",
+    "notes": "Aloha. Welcome to the Hilo Chess Club. JOINING CRITERIA: 1) YOU MUST BE A MEMBER ON THE SITE AT LEAST 6 MONTHS 2) MUST HAVE WON AT LEAST 10 RATED DAILY GAMES 3) MUST HAVE A TIME OUT % OF 10% OR LESS Cheaters are not welcome into this group! Hawaii clubs on chess.com: ALL-Islands Hawaii Chess Club Team Hawaii Team Hawaii Live KAUAI Lihue Chess Club Kauai Chess Club Team Kauai LANAI Lanai Chess Club OAHU Hawaii Chess Federation HCF Scholastic Hawaii Homeschool Chess Club Hawaii Rainbow Warriors Chess Club Honolulu Chess Club Mililani Chess Club Team Oahu Waikiki Chess Club Windward Chess Club MAUI Kahului Chess Club KiheiChess Club Maui Chess Club Team Maui MOLOKAI Molokai Chess Club HAWAII Big Island Chess Club Kona Chess Club Hilo Chess Club Hilo Chess Club is for Hawaiian residents, part time residents or those with strong ties to Hawaii who wish to participate in competitive chess matches with State and Country Teams. NO CHEATING will be TOLERATED. No chess engines can be used during any rated chess games. Hilo Chess Club meets Thursday's 3-5p at the Hilo Public Library. One hour chess lesson first hour, second hour is free play. Bring your chess set. Members will be notified first about FIDE and USCF chess tournaments on all the islands."
+  },
+  {
+    "json_index": 1066,
+    "id": "silverton_chess_club",
+    "name": "Silverton chess club",
+    "city": "Silverton",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Silverton oregon",
+    "notes": "Silverton chess club is for players of all skill levels from Silverton Oregon and the surrounding areas. Our goal is to build a chess community and organize gatherings for over the board chess."
+  },
+  {
+    "json_index": 1067,
+    "id": "new_braunfels_chess_club",
+    "name": "New Braunfels Chess Club",
+    "city": "New Braunfels",
+    "state": null,
+    "address": null,
+    "chesscom_location": "New Braunfels, Texas",
+    "notes": "A small group in New Braunfels, Texas who meets because they like playing chess. We meet at the Landmark, downtown on Mondays."
+  },
+  {
+    "json_index": 1068,
+    "id": "dms_chess_club",
+    "name": "DMS Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Dutcher Middle School",
+    "notes": ""
+  },
+  {
+    "json_index": 1069,
+    "id": "orlando_chess_association",
+    "name": "Orlando Chess Association",
+    "city": "Orlando",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Orlando, FL",
+    "notes": "Welcome to the Orlando Chess Association! Beginning August 16th, 2023, we will meet every Wednesday at the West Osceola Library at 305 Campus Street, Celebration, FL, from 5:30 to 8:30. All ages and skill levels are welcome. And if you can't join us in person, feel free to challenge one of us to an online game."
+  },
+  {
+    "json_index": 1070,
+    "id": "bulldog_chess_club_brownsburg_indiana",
+    "name": "Bulldog Chess Club - Brownsburg Indiana",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Brownsburg, IN",
+    "notes": "An up-and-coming chess club in Brownsburg, Indiana."
+  },
+  {
+    "json_index": 1071,
+    "id": "curt_chess",
+    "name": "Curt Chess",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Cleveland",
+    "notes": "Curt Chess is a place for all to play"
+  }
+]

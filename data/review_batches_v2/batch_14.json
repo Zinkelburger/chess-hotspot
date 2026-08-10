@@ -1,0 +1,557 @@
+[
+  {
+    "json_index": 1517,
+    "id": "rockford_chess_club",
+    "name": "Rockford Chess Club",
+    "notes": "This club is for chess players in and around the Rockford area to play and discuss chess.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/rockford-chess-club",
+    "chesscom_url": "https://www.chess.com/club/rockford-chess-club"
+  },
+  {
+    "json_index": 1518,
+    "id": "az_chess_central",
+    "name": "AZ Chess Central",
+    "notes": "At Arizona Chess Central our mission is to deliver the best chess opportunities for all scholastic chess players by providing high quality low cost chess tournaments, chess camps, chess instruction and chess activities. Arizona Chess Central holds monthly tournaments for players of all ages (Kindergarten through Adult) and offers free game review at each and every tournament. Game review is performed by our top level coaching staff and is available to all players, young and old - beginner to expert. Adult participation is welcomed and encouraged. We have sections available at every tournament to provide an opportunity for adult play as well as to strengthen the playing abilities of some of the stronger scholastic players. Arizona Chess Central offers chess lessons and chess education classes for kids of all ages. Our \"Friday Knight Frenzy\", with Blitz and Bughouse, draws both adult and scholastic chess enthusiasts and is an excellent opportunity to sharpen your chess skills. We are not a club and there are no members. Everyone is Welcome! All chess enthusiasts, from beginner to expert, are eligible to participate in our chess events and activities and enjoy the services we provide.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/az-chess-central",
+    "chesscom_url": "https://www.chess.com/club/az-chess-central"
+  },
+  {
+    "json_index": 1519,
+    "id": "napa_valley_chess_club",
+    "name": "Napa Valley Chess Club",
+    "notes": "For chess players of all ages and skill levels. If you've never played a game but want to learn or if you're a grandmaster hiding in our midst, consider yourself welcome to come, play, learn, and compete together.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/napa-valley-chess-club",
+    "chesscom_url": "https://www.chess.com/club/napa-valley-chess-club"
+  },
+  {
+    "json_index": 1520,
+    "id": "wyoming_chess_club",
+    "name": "Wyoming Chess Club",
+    "notes": "This is a chess club for people living in (or from) Wyoming. All ages are welcome. We're planning to offer on-line instruction for kids and adults who are home bound due to the coronavirus and are hoping to host a statewide on-line chess league/tournament. Join this club to stay abreast of our activities.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/wyoming-chess-club",
+    "chesscom_url": "https://www.chess.com/club/wyoming-chess-club"
+  },
+  {
+    "json_index": 1521,
+    "id": "friday_knights_chess_club_tn",
+    "name": "Friday Knights Chess Club - TN",
+    "notes": "This is the Virtual home of the Friday Knights Chess Club - TN, a branch of Shelby County Chess. While we are on hiatus from our regular weekly meetings at the Backyard Burger, here is our principal gathering for fellowship, fun, and friendly competition!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/friday-knights-chess-club-tn",
+    "chesscom_url": "https://www.chess.com/club/friday-knights-chess-club-tn"
+  },
+  {
+    "json_index": 1522,
+    "id": "chessaholics",
+    "name": "Chessaholics",
+    "notes": "",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/chessaholics-1",
+    "chesscom_url": "https://www.chess.com/club/chessaholics-1"
+  },
+  {
+    "json_index": 1523,
+    "id": "chess_vets",
+    "name": "Chess Vets",
+    "notes": "We are a 501(c)(3) nonprofit formed in 2014. To find out more about us. www.ilChessVets.org . To view Chess Vets mission Chess Vets | Facebook . To view online chess updates for Chess.com and LiChess.org, photos, and tournament results. Chess Vets Online Clubs | Facebook To view our YouTube content www.Youtube.com/@ChessVets . To view over the board activity in central Texas. Central Texas Chess Vets | Facebook",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/chess-vets",
+    "chesscom_url": "https://www.chess.com/club/chess-vets"
+  },
+  {
+    "json_index": 1524,
+    "id": "social_chess_in_the_mission",
+    "name": "Social Chess in the Mission",
+    "notes": "Come for the chess; stay for the fun people and conversations, good food, beer and wine. Ideal players are adults who know at least the basic rules, but don't have to take the game too seriously. You should have a very relaxed attitude about winning/losing. Just for fun, fun, fun, and the chance to learn and/or stay in practice. If you have a chess set (board and pieces) and/or a chess clock, it'd be helpful if you bring it. But if you don't, that's fine too. (After all, only half the players need to bring a set!) We meet at the Crepe House (1132 Valencia) in the Mission http://goo.gl/yItDVq >, whose management is very welcoming of our group and very generously gives us a large table for our games. Please recognize the Crepe House's generosity by some win-win giving back: consider buying dinner there or, if you're arriving later, maybe dessert (e.g., nutella crepe!); or at least wine/beer/coffee, etc. (Here's their menu: http://goo.gl/u13rY1 .) Please help make sure we'll continue to be welcomed in the future! (It goes without saying that you shouldn't import alien food or drink!)",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/social-chess-in-the-mission",
+    "chesscom_url": "https://www.chess.com/club/social-chess-in-the-mission"
+  },
+  {
+    "json_index": 1525,
+    "id": "sheridan_wyoming_chess_club",
+    "name": "Sheridan Wyoming Chess Club",
+    "notes": "This is a chess club for residents and guests of Sheridan Chess Clubs meets Thursdays at the Fulmer Sheridan Library, 5:00 to 6:50. Welcomes all age groups and families, free. Hard stop at 6:50. From 5 PM to 5:30 we have free optional chess class. We are a 501C-3 and we are always looks for volunteers and donations. More info at: www.SheridanChess.com",
+    "current_hours": {
+      "Thursday": {
+        "open": "17:00",
+        "close": "18:50"
+      }
+    },
+    "current_website": "https://www.chess.com/club/sheridan-wyoming-chess-club",
+    "chesscom_url": "https://www.chess.com/club/sheridan-wyoming-chess-club"
+  },
+  {
+    "json_index": 1526,
+    "id": "sacramento_pawns",
+    "name": "Sacramento Pawns",
+    "notes": "This online community serves chess enthusiasts of all ages and abilities from Sacramento, California and the surrounding communities.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/sacramento-pawns",
+    "chesscom_url": "https://www.chess.com/club/sacramento-pawns"
+  },
+  {
+    "json_index": 1527,
+    "id": "the_delmarva_chess_club",
+    "name": "The Delmarva Chess Club",
+    "notes": "Welcome to The Delmarva Chess Club! We usually have weekly Online Club Matches on Tuesday evenings. Pre-registration starts at 6 pm, and matches begin at 7 pm. Our goal is to complete the tournament by 9 pm. However, depending on the number of participants, it may occasionally be as late as 10 pm. Important note: Minors must have permission from their parent or guardian to join the club and play in tournaments. Also, members may only have one active account in this club. Furthermore, we have our in-person Club meetings on Wednesday evenings at Wor Wic Community College (WWCC) in the new Patricia and Alan Guerrieri Technology Center (GTC), Second floor, Room 204, from 5:30 to 8:30 pm. We provide chess sets and clocks, so you won't need anything. Bring a friend! Here is the address to the WWCC: Wor-Wic Community College, 32000 Campus Dr, Salisbury, MD 21804 If you are interested in Chess and want to learn to play or improve your game and live on the Eastern Shore of Delmarva or the surrounding area, I invite you to join the club. There is absolutely no cost or obligation! If you need help signing up, navigating the website, or have questions, please don't hesitate to contact me. I would be happy to walk you through the process. Please send me an instant message at coachbrian , and I'll get back to you as soon as possible. Thanks much, Brian Banks",
+    "current_hours": {
+      "Wednesday": {
+        "open": "17:30",
+        "close": "20:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/the-delmarva-chess-club",
+    "chesscom_url": "https://www.chess.com/club/the-delmarva-chess-club"
+  },
+  {
+    "json_index": 1528,
+    "id": "nashua_chess_club_online",
+    "name": "Nashua Chess Club Online",
+    "notes": "Exclusive club open to members who have visited the Nashua Chess Club at the Nashua Public Library.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/nashua-chess-club-online",
+    "chesscom_url": "https://www.chess.com/club/nashua-chess-club-online"
+  },
+  {
+    "json_index": 1529,
+    "id": "munster_chess_club",
+    "name": "Munster Chess Club",
+    "notes": "Chess club for Chicagoland Area.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/munster-chess-club",
+    "chesscom_url": "https://www.chess.com/club/munster-chess-club"
+  },
+  {
+    "json_index": 1530,
+    "id": "chess_carolinas",
+    "name": "Chess Carolinas",
+    "notes": "Chess Carolinas has weekly USCF rated OTB chess tournaments. Chess Carolinas OTB tournaments- https://sites.google.com/view/chess-carolinas-fayco",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/chess-carolinas",
+    "chesscom_url": "https://www.chess.com/club/chess-carolinas"
+  },
+  {
+    "json_index": 1531,
+    "id": "hamden_chess_club_on_chesscom",
+    "name": "Hamden Chess Club on Chess.com",
+    "notes": "The Hamden Chess Club is based in Hamden, Connecticut and meets for weekly OTB casual play and monthly tournaments at Play More Chess Academy (1227 Whitney Ave., Hamden, CT 06517; www.PlayMoreChess.com ). All current students at Play More Chess Academy (taking classes or lessons) are members of the Hamden Chess Club during the time they are enrolled as students. Community members also join the Hamden Chess Club to participate in weekly casual over-the-board play and monthly over-the-board tournaments. Information about joining HCC as a community member is at http://playmorechess.com/hamdenchessclub.htm . Both current student members and and current community members of the Hamden Chess Club can play members of our club online.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/hamden-chess-club-on-chess-com",
+    "chesscom_url": "https://www.chess.com/club/hamden-chess-club-on-chess-com"
+  },
+  {
+    "json_index": 1532,
+    "id": "chess_club_of_monmouth_county",
+    "name": "Chess Club of Monmouth County",
+    "notes": "Virtual arm of the Chess Club of Monmouth County, Normally Meeting on Saturdays at the HQ Branch of the Monmouth County Library System.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/chess-club-of-monmouth-county",
+    "chesscom_url": "https://www.chess.com/club/chess-club-of-monmouth-county"
+  },
+  {
+    "json_index": 1533,
+    "id": "long_beach_chess_club",
+    "name": "Long Beach Chess Club",
+    "notes": "We are a group of people from Long Beach who enjoy playing and learning chess. All people are welcome. Skill range at our meetups is from 300 ish to well over 2000. We our a very diverse group of players. Our youngest player is 4, our oldest player is in his 80's. We welcome people from all walks of life to sit down and play this beautiful game the same way millions of humans have done for thousands of years. Weekly Meetups Tuesday 7pm Trademark Brewery, Long Beach Sunday 4pm, 2nd and PCH, Near Beachwood, Long Beach If you have a board and clock to bring to the weekly meetups that is helpful, if not about half the people tend to bring one, so it works out in the end.",
+    "current_hours": {
+      "Tuesday": {
+        "open": "19:00"
+      },
+      "Sunday": {
+        "open": "16:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/long-beach-chess-club",
+    "chesscom_url": "https://www.chess.com/club/long-beach-chess-club"
+  },
+  {
+    "json_index": 1534,
+    "id": "auburn_ca_cc",
+    "name": "Auburn CA CC",
+    "notes": "A small town with a large active club. We have an electronic \"chess learning device\" called ChessUp that tells new players where the piece moves ... just by touching it! We play OTB (face-to-face Over The Board) at our local clubhouse: Panera Bread , Auburn CA, from 5:00-9:00p on Thursdays. All levels welcome!",
+    "current_hours": {
+      "Thursday": {
+        "open": "17:00",
+        "close": "21:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/auburn-ca-cc",
+    "chesscom_url": "https://www.chess.com/club/auburn-ca-cc"
+  },
+  {
+    "json_index": 1535,
+    "id": "friendship_chess_club",
+    "name": "Friendship Chess Club",
+    "notes": "This is the online division of the chess club at Friendship Village Community Center, a stone's throw from NW Washington, DC, but technically in Montgomery County, Maryland. We generally meet Wednesdays, from noon till 3 pm.",
+    "current_hours": {
+      "Wednesday": {
+        "open": "12:00",
+        "close": "15:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/friendship-chess-club",
+    "chesscom_url": "https://www.chess.com/club/friendship-chess-club"
+  },
+  {
+    "json_index": 1536,
+    "id": "springfield_chess_club_uscf_rated",
+    "name": "Springfield Chess Club - USCF Rated",
+    "notes": "The online club used by the Springfield Chess Club for playing USCF online rated blitz and quick tournaments. You must be a current USCF member to join. More information about the club and local chess in the Springfield, MO area can be found at cleverchess.wordpress.com .",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/springfield-chess-club-uscf-rated",
+    "chesscom_url": "https://www.chess.com/club/springfield-chess-club-uscf-rated"
+  },
+  {
+    "json_index": 1537,
+    "id": "eastern_sierra_chess",
+    "name": "Eastern Sierra Chess",
+    "notes": "Local club for chess players in Eastern Sierra.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/eastern-sierra-chess",
+    "chesscom_url": "https://www.chess.com/club/eastern-sierra-chess"
+  },
+  {
+    "json_index": 1538,
+    "id": "southwest_minnesota_chess_online",
+    "name": "Southwest Minnesota Chess Online",
+    "notes": "We meet and play chess in person based in Marshall, MN and discuss and analyze games in an informal fashion. Now Online thanks to COVID-19!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/southwest-minnesota-chess-online",
+    "chesscom_url": "https://www.chess.com/club/southwest-minnesota-chess-online"
+  },
+  {
+    "json_index": 1539,
+    "id": "bernal_chess_club",
+    "name": "Bernal Chess Club",
+    "notes": "Online meeting place for San Francisco's Bernal Chess Club — casual neighborhood chess club with weekly OTB game days. All levels and ages welcome. www.bernalchess.com",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/bernal-chess-club",
+    "chesscom_url": "https://www.chess.com/club/bernal-chess-club"
+  },
+  {
+    "json_index": 1540,
+    "id": "java_dock_chess_night",
+    "name": "Java Dock Chess Night",
+    "notes": "We play just about every Monday night starting at 7pm, at the Java Dock Cafe in Port Washington, WI. During the COVID-19 virus outbreak, we will be playing remotely via Chess.com",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/java-dock-chess-night",
+    "chesscom_url": "https://www.chess.com/club/java-dock-chess-night"
+  },
+  {
+    "json_index": 1541,
+    "id": "poulsbo_chess_club",
+    "name": "Poulsbo Chess Club",
+    "notes": "This is the online version of the Poulsbo Chess Club.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/poulsbo-chess-club",
+    "chesscom_url": "https://www.chess.com/club/poulsbo-chess-club"
+  },
+  {
+    "json_index": 1542,
+    "id": "worthington_chess_club",
+    "name": "Worthington Chess Club",
+    "notes": "WE WILL BE AT DONATOS - HARD RD EACH MONDAY DONATOS - HARD RD 1878 Hard Rd Columbus, OH 43235 United States The club meets from 6 pm to 9 pm at the Hard Rd Donatos (1878 Hard Rd, Columbus, OH 43235). Join our Facebook page at https://www.facebook.com/groups/882237296296390",
+    "current_hours": {
+      "Monday": {
+        "open": "18:00",
+        "close": "21:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/worthington-chess-club",
+    "chesscom_url": "https://www.chess.com/club/worthington-chess-club"
+  },
+  {
+    "json_index": 1543,
+    "id": "burr_ridge_chess_club",
+    "name": "Burr Ridge Chess Club",
+    "notes": "We are a group of dedicated chess players who meet weekly and also play online.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/burr-ridge-chess-club",
+    "chesscom_url": "https://www.chess.com/club/burr-ridge-chess-club"
+  },
+  {
+    "json_index": 1544,
+    "id": "triumph_new_london_chess_club",
+    "name": "TRIUMPH New London Chess Club",
+    "notes": "\"Triumph\" New London Chess Club is home for all people who love chess and love our beautiful city. We are official members of US Chess Federation and we organize friendly rated games and tournaments with prizes every month in New London Public Library on 63 Huntington str. Our goal its development chess in USA, so WELCOME to everyone and lets be together.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/triumph-new-london-chess-club",
+    "chesscom_url": "https://www.chess.com/club/triumph-new-london-chess-club"
+  },
+  {
+    "json_index": 1545,
+    "id": "downriver_chess_club",
+    "name": "Downriver Chess Club",
+    "notes": "Club Play Mondays at Turtle Bay , 1119 Decatur St 6-10 PM — Tournament starts for 7 PM Four rounds, G/15;d0, $1 entry fee ($2 if you don't buy anything) USCF-membership required for the tournament, skittles space available All ages and skill levels welcome! Tuesdays at Morning Call , 5101 Canal Blvd Registration for 6: 30 PM, pairings for 7 PM Five rounds over five weeks, G/ 90 ;d 5 , $ 5 entry fee ( prizes at end of five-week sequence ) USCF-membership required All ages and skill levels welcome! Join any week. Thursdays at Cafe Envie , 1241 Decatur St Registration for 6:45 PM, first round for 7 PM USCF-membership required Four rounds, G/15;d0, $1 entry fee ($2 if you don't buy anything) More info at www.downriverchess.com .",
+    "current_hours": {
+      "Monday": {
+        "open": "18:00",
+        "close": "22:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/downriver-chess-club",
+    "chesscom_url": "https://www.chess.com/club/downriver-chess-club"
+  },
+  {
+    "json_index": 1546,
+    "id": "casual_chess_club_las_vegas",
+    "name": "Casual Chess Club - Las Vegas",
+    "notes": "Welcome to Casual Chess Club Clubhouse on Chess.com! Friendly chess players of all genders, ages and levels from beginners to masters are welcome. Casual Chess Club™ members currently meet both online and in-person for over-the-board play. Online events appear here . Click here for details on how to join our Clubhouse on Chess.com. Visit our website at: www.casualchessclub.com .",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/casual-chess-club-las-vegas",
+    "chesscom_url": "https://www.chess.com/club/casual-chess-club-las-vegas"
+  },
+  {
+    "json_index": 1547,
+    "id": "st_clairsville_library_chess_club",
+    "name": "St. Clairsville Library Chess Club",
+    "notes": "and informal gathering of chess enthusiast that meet every third Saturday at the Saint Clairsville library ( https://www.stclibrary.org ) 10:30 - @ 12:30 E-mail Jak at Jakblackstone@gmail.com for question",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/st-clairsville-library-chess-club",
+    "chesscom_url": "https://www.chess.com/club/st-clairsville-library-chess-club"
+  },
+  {
+    "json_index": 1548,
+    "id": "desert_chess_club",
+    "name": "Desert Chess Club",
+    "notes": "Welcome to Desert Chess Club, a new, dynamic and exciting chess club experience. DCC is a USCF Affiliate (ID: #A6054773.) The club was formed to provide enjoyable chess activities online and in our relaxing brick-and-mortar environment in the Sonoma Grille at Embassy Suites hotel in Palm Desert, CA. Whether experienced, a casual player, student, or novice, all are welcome. Log in and play or stop by Embassy Suites. Visit us on the web at: http://desertchessclub.com",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/desert-chess-club",
+    "chesscom_url": "https://www.chess.com/club/desert-chess-club"
+  },
+  {
+    "json_index": 1549,
+    "id": "southbridge_chess_club",
+    "name": "Southbridge Chess Club",
+    "notes": "Chess club in Southbridge Massachusetts that meets every Monday 5:15 at the Jacob Edwards Library. The club is open to all ages and skill levels.",
+    "current_hours": {
+      "Monday": {
+        "open": "17:15"
+      }
+    },
+    "current_website": "https://www.chess.com/club/southbridge-chess-club",
+    "chesscom_url": "https://www.chess.com/club/southbridge-chess-club"
+  },
+  {
+    "json_index": 1550,
+    "id": "pembroke_pines_chess_tournaments",
+    "name": "Pembroke Pines Chess Tournaments",
+    "notes": "Chess Tournaments are held most Sundays at the Pembroke Lakes Mall. Generally Quads are run or guaranteed with a maximum of 20 players per event. Prizes are based on number of participation. Please bring chess board, set and timer. All events are USCF Rated. Generally rated on the same day to show your rating performances. Please keep in mind USCF registration is required for a modest fee at the event and registration lasts for 12 months. All USCF benefits are kept and offered thanks to registration at site. 4 to 5 Rounds based on # of participants. Games are 30 minutes each (per player). All events will be organized by FM (FIDE Master) and you will have the chance to play with local masters and enthusiasts. Entry Fee: $20 before event.. $25 at site. Call organizer: FM Charles Galofre charles.galofre@gmail.com 786-720-8834",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/pembroke-pines-chess-tournaments",
+    "chesscom_url": "https://www.chess.com/club/pembroke-pines-chess-tournaments"
+  },
+  {
+    "json_index": 1551,
+    "id": "marshall_chess_club_official",
+    "name": "Marshall Chess Club Official",
+    "notes": "Welcome To The World-Famous Marshall Chess Club One Of The Oldest Chess Clubs In The United States! Find all of our upcoming tournaments, classes, and so much more here, https://www.marshallchessclub.org/",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/marshall-chess-club-official",
+    "chesscom_url": "https://www.chess.com/club/marshall-chess-club-official"
+  },
+  {
+    "json_index": 1552,
+    "id": "rated_chess_games_at_knoxville",
+    "name": "Rated Chess Games at Knoxville",
+    "notes": "Play rated chess games every month. See www.ratedchessgames.org .",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/rated-chess-games-at-knoxville",
+    "chesscom_url": "https://www.chess.com/club/rated-chess-games-at-knoxville"
+  },
+  {
+    "json_index": 1553,
+    "id": "fellowship_of_the_pawns",
+    "name": "Fellowship of the Pawns",
+    "notes": "Fellowship of the Pawns Chess Club is Based in Steubenville, Ohio and is also a US Chess Affiliate. We will be running tournaments until this Corona Virus is over and we can start meeting again.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/fellowship-of-the-pawns",
+    "chesscom_url": "https://www.chess.com/club/fellowship-of-the-pawns"
+  },
+  {
+    "json_index": 1554,
+    "id": "second_wind_chess_club",
+    "name": "Second Wind Chess Club",
+    "notes": "Chess Players at the Second Wind Coffee House!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/second-wind-chess-club",
+    "chesscom_url": "https://www.chess.com/club/second-wind-chess-club"
+  },
+  {
+    "json_index": 1555,
+    "id": "bare_bones_coffee_and_chess_club",
+    "name": "Bare bones coffee and chess club",
+    "notes": "Play us online and then meet us in the back of Sweet Z's Boxing Gym once a month for face to face games. Coffee and other beverages served",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/bare-bones-coffee-and-chess-club",
+    "chesscom_url": "https://www.chess.com/club/bare-bones-coffee-and-chess-club"
+  },
+  {
+    "json_index": 1556,
+    "id": "lol_library",
+    "name": "LOL Library",
+    "notes": "Tuesday Chess Club at LOL Library",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/lol-library",
+    "chesscom_url": "https://www.chess.com/club/lol-library"
+  },
+  {
+    "json_index": 1557,
+    "id": "green_bay_chess_club",
+    "name": "Green Bay Chess Club",
+    "notes": "You are Invited to join the Green Bay Chess Club.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/green-bay-chess-club",
+    "chesscom_url": "https://www.chess.com/club/green-bay-chess-club"
+  },
+  {
+    "json_index": 1558,
+    "id": "queen_city_chess_club_in_bangor_maine",
+    "name": "Queen City Chess Club in Bangor Maine",
+    "notes": "The Queen City Chess Club (A.K.A. The Bangor Chess Club) meets Wednesday nights from 6:00 PM- 9:00 PM. There are players of all skill levels from beginner to expert. Games are played at a variety of time controls, and some bughouse chess is enjoyed every once in a while. The club is known for being one of the strongest clubs in the state and is attended by the top 6 scholastic players in Maine!",
+    "current_hours": {
+      "Wednesday": {
+        "open": "18:00",
+        "close": "21:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/queen-city-chess-club-in-bangor-maine",
+    "chesscom_url": "https://www.chess.com/club/queen-city-chess-club-in-bangor-maine"
+  },
+  {
+    "json_index": 1559,
+    "id": "the_providence_chess_club",
+    "name": "The Providence Chess Club",
+    "notes": "Hello Providence Chess Club Members! Weekly tournaments held here!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/the-providence-chess-club",
+    "chesscom_url": "https://www.chess.com/club/the-providence-chess-club"
+  },
+  {
+    "json_index": 1560,
+    "id": "ruston_chess_knights",
+    "name": "Ruston Chess Knights",
+    "notes": "The Ruston Chess Knights exist to promote chess competition and learning in Ruston, LA. We meet weekly on Thursday at 6 pm at Lincoln Parish Library. - *While the coronavirus quarantine is ongoing, we will be hosting weekly arena tournaments on Thursday nights from 6 pm to 8 pm.*",
+    "current_hours": {
+      "Thursday": {
+        "open": "18:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/ruston-chess-knights",
+    "chesscom_url": "https://www.chess.com/club/ruston-chess-knights"
+  },
+  {
+    "json_index": 1561,
+    "id": "tamerlane_chess_club",
+    "name": "Tamerlane Chess Club",
+    "notes": "Located in Jamestown, NY, we are a chess club dedicated to public education of chess, both the modern game as well as ancient chess variants such as Tamerlane Chess, Shatranj, Chaturanga, Citadel Chess, and many more! We are a United States Chess Federation Affiliate and have the ability to hold rated tournaments. Also offered is a free chess library containing books as well as chess variant sets, which can be checked out to the public.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/tamerlane-chess-club",
+    "chesscom_url": "https://www.chess.com/club/tamerlane-chess-club"
+  },
+  {
+    "json_index": 1562,
+    "id": "san_pablo_passed_pawns",
+    "name": "San Pablo Passed Pawns",
+    "notes": "This is the online chess club for the San Pablo Passed Pawns. We meet at the San Pablo Library every Friday from 3-5pm.",
+    "current_hours": {
+      "Friday": {
+        "open": "15:00",
+        "close": "17:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/san-pablo-passed-pawns",
+    "chesscom_url": "https://www.chess.com/club/san-pablo-passed-pawns"
+  },
+  {
+    "json_index": 1563,
+    "id": "powerchess_utah",
+    "name": "PowerChess Utah",
+    "notes": "PowerChess offers after-school chess programs, community chess programs for adults and youth, private chess lessons, and monthly over the board chess tournaments in the Salt Lake City area. To learn more visit- Power-Chess.com",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/powerchess-utah",
+    "chesscom_url": "https://www.chess.com/club/powerchess-utah"
+  },
+  {
+    "json_index": 1564,
+    "id": "portland_pawn_pushers",
+    "name": "Portland Pawn Pushers",
+    "notes": "Portland Maine USA area team open to any interested chessplayers Original impetus was Team formed to play match with Krasny Yar",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/portland-pawn-pushers",
+    "chesscom_url": "https://www.chess.com/club/portland-pawn-pushers"
+  },
+  {
+    "json_index": 1565,
+    "id": "queens_chess_meetup",
+    "name": "Queens Chess Meetup",
+    "notes": "Meet other local chess players to talk strategy and play games. Chess Meetup",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/queens-chess-meetup",
+    "chesscom_url": "https://www.chess.com/club/queens-chess-meetup"
+  },
+  {
+    "json_index": 1566,
+    "id": "streetchessdetroit",
+    "name": "Streetchessdetroit",
+    "notes": "I created this club so Detroit's chess players would have an on-line place to share games and ideals. Our main brick and mortar site is at 12929 McNichols (Detroit Library Hubbard). We meet on Saturdays 11:30 til 2:00.",
+    "current_hours": {
+      "Saturday": {
+        "open": "11:30",
+        "close": "14:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/streetchessdetroit",
+    "chesscom_url": "https://www.chess.com/club/streetchessdetroit"
+  },
+  {
+    "json_index": 1567,
+    "id": "los_angeles_chess_social",
+    "name": "Los Angeles Chess Social",
+    "notes": "Established in 2017, the Los Angeles Chess Social has become a diverse community of individuals that enjoy playing chess, listening to live music, socializing, and enjoying libations. We have held weekly meetings for over six years, and have grown substantially. We hold monthly, full production Chess Socials on the weekends, and weekly tabling events called \"Chess Mixers\". As we do swap venues in a rotation system to keep things interesting, consider signing up for our mailing list on the website. Only two emails a month with necessary information for attending will be in your inbox Website: https://sites.google.com/d/1ok4HMwatZeHb2CeICCXYq377iHweFRVq/p/1ztsAlpiLJI6ffid_-Eu_Pz5OCyvgJT6e/edit Instagram: https://www.instagram.com/chess_social/ Contact Us@ lachesssocial@gmail.com Performances by (but not limited to) Chet Happens, David Holguin and the Flamenco Souls, Monsoon, Hybrid Citizen, Soul Fuzz, Laurie Markvart, Sugar Rum Tantrum, RoSaWay, 2Smooth, Disco Poindexter, Will Fox, Caleb Henry, Darnell Cole and the Vibe, The Drive, Alex Arcana, Mexico City Heartbreak, and many more!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/los-angeles-chess-social",
+    "chesscom_url": "https://www.chess.com/club/los-angeles-chess-social"
+  },
+  {
+    "json_index": 1568,
+    "id": "funky_owls_chess",
+    "name": "Funky Owls Chess",
+    "notes": "The Funky Owls is a real life club! Our online club is FREE. Funky Owls Online Club Registration Form Welcome! We would love to have you! Tournaments may require a separate registration & fees. Our LIVE Community Chess Events are free! (Follow us on Facebook for the schedule.) A ”fun” tournament is not USCF rated. Meaning it will not be an official rating, only chess website ratings and/or local club ratings. USCF Rated tournaments or sections (within a tournament) require an active USCF membership and ID. Those tournaments or sections will upload to the USCF database. Help keep this community a safe & sociable online gathering! Report anyone that makes you feel uncomfortable. Inappropriate behavior will not be tolerated! This is a family friendly community. Your request to join our online club will be reviewed prior to acceptance. Fill out a registration form per person. You will not be admitted without having established a connection with me or a real life club member. Thank you! Funky Owls Online Club Registration Form (copy of above link) *Privacy Policy: We will not share your information with ANYBODY in any way! This is purely to vet our membership, and have a way to communicate our events to you.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/funky-owls-chess",
+    "chesscom_url": "https://www.chess.com/club/funky-owls-chess"
+  },
+  {
+    "json_index": 1569,
+    "id": "city_light_coffee_chess_club",
+    "name": "City Light Coffee Chess Club",
+    "notes": "We are a new chess club that meets at City Light Coffee in Binghamton NY. We play chess daily and are looking to develop a regular schedule of Chess. Play with us. jjhefley@binghamtonfirst.org",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/city-light-coffee-chess-club",
+    "chesscom_url": "https://www.chess.com/club/city-light-coffee-chess-club"
+  },
+  {
+    "json_index": 1570,
+    "id": "roanoke_chess",
+    "name": "Roanoke Chess",
+    "notes": "A forum for players living in or around the Roanoke Valley. https://www.meetup.com/Roanoke-Chess-Meetup/",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/roanoke-chess",
+    "chesscom_url": "https://www.chess.com/club/roanoke-chess"
+  },
+  {
+    "json_index": 1571,
+    "id": "las_vegas_chess_academy",
+    "name": "Las Vegas Chess Academy",
+    "notes": "We are dedicated to the promotion of chess in Las Vegas, Nevada. We offer chess coaching, tournaments, and other events. Visit our website for more info: www.lasvegaschesscenter.com Thank you!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/las-vegas-chess-academy",
+    "chesscom_url": "https://www.chess.com/club/las-vegas-chess-academy"
+  }
+]

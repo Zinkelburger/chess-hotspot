@@ -1,0 +1,422 @@
+[
+  {
+    "json_index": 1397,
+    "id": "ashland_chess",
+    "city": "Ashland",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1399,
+    "id": "southwestern_new_mexico_chess_club",
+    "city": "Silver City",
+    "state": "NM",
+    "address": null
+  },
+  {
+    "json_index": 1400,
+    "id": "pride_academy_chess_club",
+    "city": "East Orange",
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 1401,
+    "id": "oakland_chess",
+    "city": "Medford",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1402,
+    "id": "bremerton_chess_club",
+    "city": "Bremerton",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1403,
+    "id": "206chess",
+    "city": "Seattle",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1404,
+    "id": "the_c4_chess_club",
+    "city": null,
+    "state": null,
+    "address": null
+  },
+  {
+    "json_index": 1405,
+    "id": "kauai_chess_club",
+    "city": "Kauai",
+    "state": "HI",
+    "address": null
+  },
+  {
+    "json_index": 1406,
+    "id": "oak_park_chess_club_michigan",
+    "city": "Oak Park",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 1407,
+    "id": "hiramgarrettsville_chess_club",
+    "city": "Hiram",
+    "state": "OH",
+    "address": null
+  },
+  {
+    "json_index": 1408,
+    "id": "the_oak_park_chess_club",
+    "city": "Oak Park",
+    "state": null,
+    "address": null
+  },
+  {
+    "json_index": 1410,
+    "id": "bsl_chess_club",
+    "city": "Bay St. Louis",
+    "state": "MS",
+    "address": null
+  },
+  {
+    "json_index": 1411,
+    "id": "lincoln_mass_chess_club",
+    "city": "Lincoln",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1412,
+    "id": "black_kings_and_queens_of_baltimore_county",
+    "city": "Owings Mills",
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 1413,
+    "id": "lake_houston_chess_club",
+    "city": "Kingwood",
+    "state": "TX",
+    "address": "La Madeleines, Kingwood, TX"
+  },
+  {
+    "json_index": 1414,
+    "id": "team_maui",
+    "city": "Kihei",
+    "state": "HI",
+    "address": "Kihei Park, Kihei, HI; Mahalo Aleworks, Pukalani, HI; Vidas Coffee, Makawao, HI"
+  },
+  {
+    "json_index": 1415,
+    "id": "team_oahu",
+    "city": "Wahiawa",
+    "state": "HI",
+    "address": "Wahiawa Public Library, Wahiawa, HI"
+  },
+  {
+    "json_index": 1416,
+    "id": "brattleboro_battleboarders",
+    "city": "Brattleboro",
+    "state": "VT",
+    "address": null
+  },
+  {
+    "json_index": 1417,
+    "id": "molokai_chess_club",
+    "city": "Kaunakakai",
+    "state": "HI",
+    "address": "Library, Kaunakakai, HI"
+  },
+  {
+    "json_index": 1418,
+    "id": "dna_chess_club",
+    "city": "Fort Worth",
+    "state": "TX",
+    "address": "4611 S Hulen St, Fort Worth, TX 76132"
+  },
+  {
+    "json_index": 1419,
+    "id": "wake_forest_chess_club_current",
+    "city": "Wake Forest",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1420,
+    "id": "shoreline_chess_club_wa",
+    "city": "Shoreline",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1421,
+    "id": "s_and_d_chess_class_club",
+    "city": "San Jose",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1422,
+    "id": "lanai_chess_club",
+    "city": "Lanai City",
+    "state": "HI",
+    "address": "Lanai City Public Library, Lanai City, HI"
+  },
+  {
+    "json_index": 1423,
+    "id": "detective_cookies_chess_club",
+    "city": "Seattle",
+    "state": "WA",
+    "address": "8825 Rainier Ave S, Seattle, WA 98118"
+  },
+  {
+    "json_index": 1424,
+    "id": "big_island_chess_club_hawaii",
+    "city": "Hilo",
+    "state": "HI",
+    "address": null
+  },
+  {
+    "json_index": 1425,
+    "id": "team_hawaii_live",
+    "city": "Wahiawa",
+    "state": "HI",
+    "address": "Wahiawa Public Library, Wahiawa, HI"
+  },
+  {
+    "json_index": 1427,
+    "id": "team_hawaii",
+    "city": "Wahiawa",
+    "state": "HI",
+    "address": "Wahiawa Public Library, Wahiawa, HI"
+  },
+  {
+    "json_index": 1428,
+    "id": "friendswood_public_library_chess_club",
+    "city": "Friendswood",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1429,
+    "id": "conservative_chess",
+    "city": "Portland",
+    "state": "OR",
+    "address": null
+  },
+  {
+    "json_index": 1430,
+    "id": "waltham_chess_club_cash_prize",
+    "city": "Waltham",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1431,
+    "id": "haddonfield",
+    "city": "Haddonfield",
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 1432,
+    "id": "gail_borden_public_library_chess_club",
+    "city": "Elgin",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1433,
+    "id": "joe_barnhart_bee_county_library",
+    "city": "Beeville",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1434,
+    "id": "catawba_county_library_chess_club",
+    "city": "Newton",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 1435,
+    "id": "westport_library_chess_club",
+    "city": "Westport",
+    "state": "CT",
+    "address": null
+  },
+  {
+    "json_index": 1436,
+    "id": "san_jose_chess_club_uscf_rated",
+    "city": "San Jose",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1437,
+    "id": "irc_homeschool_chess_club",
+    "city": "Vero Beach",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 1438,
+    "id": "east_cobb_chess_club",
+    "city": "Marietta",
+    "state": "GA",
+    "address": null
+  },
+  {
+    "json_index": 1439,
+    "id": "newburyport_chess_club",
+    "city": "Newburyport",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1440,
+    "id": "excelsior_san_francisco_chess_club",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1441,
+    "id": "silver_spring_library_club",
+    "city": "Silver Spring",
+    "state": "MD",
+    "address": null
+  },
+  {
+    "json_index": 1442,
+    "id": "harlan_kentucky_chess_club",
+    "city": "Harlan",
+    "state": "KY",
+    "address": null
+  },
+  {
+    "json_index": 1443,
+    "id": "ellington_chess_mates",
+    "city": "Ellington",
+    "state": "CT",
+    "address": "Ellington Senior Center, Ellington, CT"
+  },
+  {
+    "json_index": 1444,
+    "id": "woodland_chess_club",
+    "city": "Downingtown",
+    "state": "PA",
+    "address": null
+  },
+  {
+    "json_index": 1445,
+    "id": "crestondement_public_library",
+    "city": "Creston",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1447,
+    "id": "tysons_pimmit_library",
+    "city": "Falls Church",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1448,
+    "id": "los_angeles_chess_club",
+    "city": "Los Angeles",
+    "state": "CA",
+    "address": "11514 Santa Monica Blvd, 2nd Floor, Los Angeles, CA 90025"
+  },
+  {
+    "json_index": 1449,
+    "id": "arlington_chess_club_est_1954",
+    "city": "Arlington",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 1450,
+    "id": "chittenden_county_chess_club_vermont",
+    "city": "Burlington",
+    "state": "VT",
+    "address": null
+  },
+  {
+    "json_index": 1451,
+    "id": "peoria_kingsmen",
+    "city": "Peoria",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1452,
+    "id": "kacc",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "address": null
+  },
+  {
+    "json_index": 1453,
+    "id": "sacramento_bishops_of_honor",
+    "city": "Sacramento",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 1454,
+    "id": "river_valley_chess_club_formerly_westark",
+    "city": "Fort Smith",
+    "state": "AR",
+    "address": "Sweet Bay Coffee, Park Plaza Shopping Center, Fort Smith, AR"
+  },
+  {
+    "json_index": 1455,
+    "id": "boylston_chess_club_uscf_rated",
+    "city": "Cambridge",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1456,
+    "id": "waltham_chess_club_uscf_rated",
+    "city": "Waltham",
+    "state": "MA",
+    "address": null
+  },
+  {
+    "json_index": 1457,
+    "id": "youth_chess_club_at_billiards_cafe",
+    "city": "Ayer",
+    "state": "MA",
+    "address": "Billiards Cafe, Ayer, MA"
+  },
+  {
+    "json_index": 1459,
+    "id": "adams_county_library",
+    "city": "Hettinger",
+    "state": "ND",
+    "address": null
+  },
+  {
+    "json_index": 1460,
+    "id": "maud_marks_library",
+    "city": "Katy",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1461,
+    "id": "fredericktown_community_library_chess_club",
+    "city": "Fredericktown",
+    "state": "OH",
+    "address": null
+  }
+]

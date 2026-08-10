@@ -1,0 +1,74 @@
+[
+  {
+    "json_index": 755,
+    "id": "westside_chess_club",
+    "hours": {"Saturday": {"open": "18:00", "close": "21:00"}},
+    "website": null
+  },
+  {
+    "json_index": 756,
+    "id": "peoria_sunday_chess",
+    "hours": {"Sunday": {"open": "11:00", "close": "13:00"}},
+    "website": null
+  },
+  {
+    "json_index": 766,
+    "id": "casual_chess_club_alamosa",
+    "hours": null,
+    "website": "https://www.casualchessclub.com"
+  },
+  {
+    "json_index": 773,
+    "id": "saturday_morning_chess_club_in_colorado_springs",
+    "hours": {"Saturday": {"open": "07:30", "close": "09:30"}},
+    "website": null
+  },
+  {
+    "json_index": 774,
+    "id": "the_battleground_cafe_chess_club",
+    "hours": {"Tuesday": {"open": "18:30", "close": "22:00"}},
+    "website": null
+  },
+  {
+    "json_index": 778,
+    "id": "rahway_chess_club",
+    "hours": null,
+    "website": "https://chessmatesnj.com"
+  },
+  {
+    "json_index": 780,
+    "id": "flagler_chess_club",
+    "hours": null,
+    "website": "https://flaglerchess.com/"
+  },
+  {
+    "json_index": 786,
+    "id": "shaolin_kung_fu",
+    "hours": null,
+    "website": "https://djemir.com"
+  },
+  {
+    "json_index": 788,
+    "id": "lumen_chess_club",
+    "hours": null,
+    "website": "https://www.facebook.com/share/g/1ET53FXCbA/"
+  },
+  {
+    "json_index": 790,
+    "id": "plaza_midwood_chess_club",
+    "hours": null,
+    "website": "https://www.meetup.com/plaza-midwood-chess-club/"
+  },
+  {
+    "json_index": 798,
+    "id": "chessqueen_club_charlotte",
+    "hours": null,
+    "website": "https://chessqueenclub.org/"
+  },
+  {
+    "json_index": 799,
+    "id": "pacific_trails_chessy_chess_club_i_like_cheese",
+    "hours": null,
+    "website": "https://docs.google.com/presentation/d/14ldixms10YMnsJx3NpiZqyGHbhIccZnOYi7kvj8oQng/edit?slide=id.p#slide=id.p"
+  }
+]

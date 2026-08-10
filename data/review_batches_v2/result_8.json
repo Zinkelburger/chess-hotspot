@@ -1,0 +1,21 @@
+[
+  {"json_index": 1187, "id": "tf_brewing_chess_club", "hours": {"Monday": {"open": "18:30"}}, "website": null},
+  {"json_index": 1190, "id": "chessclubclub", "hours": null, "website": "https://www.chessclub.club"},
+  {"json_index": 1191, "id": "greater_cleveland_chess", "hours": null, "website": "https://www.greaterclevelandchess.com"},
+  {"json_index": 1194, "id": "wasatch_chess_club", "hours": {"Wednesday": {"open": "18:00"}}, "website": null},
+  {"json_index": 1197, "id": "the_hanging_pawns_of_delaware_ohio", "hours": null, "website": "https://www.thehangingpawns.com/"},
+  {"json_index": 1198, "id": "traveling_chess_club", "hours": null, "website": "https://www.travelingchess.com/"},
+  {"json_index": 1201, "id": "movers_chess_club", "hours": null, "website": "https://discord.gg/33gGxnT6"},
+  {"json_index": 1211, "id": "exchange_sacrifice_chess_club", "hours": null, "website": "https://exchange.chess.jonathansilverstein.us/"},
+  {"json_index": 1212, "id": "genspace_chess_club", "hours": null, "website": "https://www.annenberggenspace.org/"},
+  {"json_index": 1215, "id": "winnsboro_chess_club", "hours": null, "website": "https://easttexaschess.com/"},
+  {"json_index": 1217, "id": "hamilton_novato_chess_club", "hours": null, "website": "https://www.hamiltonchess.org/"},
+  {"json_index": 1221, "id": "launch_louisville_chess_club", "hours": null, "website": "https://www.launchlouisvillechess.club/"},
+  {"json_index": 1224, "id": "putnam_valley_library_chess_club_chesscom", "hours": {"Wednesday": {"open": "16:00", "close": "18:45"}}, "website": null},
+  {"json_index": 1226, "id": "eugene_chess_club", "hours": null, "website": "https://www.eugenechessclub.com"},
+  {"json_index": 1227, "id": "ithaca_ches_club", "hours": null, "website": "https://ithacachessclub.com"},
+  {"json_index": 1229, "id": "atlchessclub", "hours": null, "website": "https://www.instagram.com/atlchessclub/"},
+  {"json_index": 1237, "id": "pawn_shop_chess_club_sf", "hours": null, "website": "https://www.meetup.com/pawn-shop-chess-club-sf/"},
+  {"json_index": 1239, "id": "cheviot_chess", "hours": null, "website": "https://www.instagram.com/cheviotchess/"},
+  {"json_index": 1241, "id": "valdosta_chess_club", "hours": {"Thursday": {"open": "18:30"}}, "website": null}
+]

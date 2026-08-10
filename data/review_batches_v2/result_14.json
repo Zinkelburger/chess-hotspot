@@ -1,0 +1,20 @@
+[
+  {"json_index": 1523, "id": "chess_vets", "hours": null, "website": "https://www.ilchessvets.org"},
+  {"json_index": 1525, "id": "sheridan_wyoming_chess_club", "hours": null, "website": "https://www.sheridanchess.com"},
+  {"json_index": 1530, "id": "chess_carolinas", "hours": null, "website": "https://sites.google.com/view/chess-carolinas-fayco"},
+  {"json_index": 1531, "id": "hamden_chess_club_on_chesscom", "hours": null, "website": "https://www.playmorechess.com"},
+  {"json_index": 1536, "id": "springfield_chess_club_uscf_rated", "hours": null, "website": "https://cleverchess.wordpress.com"},
+  {"json_index": 1540, "id": "java_dock_chess_night", "hours": {"Monday": {"open": "19:00"}}, "website": null},
+  {"json_index": 1542, "id": "worthington_chess_club", "hours": null, "website": "https://www.facebook.com/groups/882237296296390"},
+  {"json_index": 1545, "id": "downriver_chess_club", "hours": {"Monday": {"open": "18:00", "close": "22:00"}, "Tuesday": {"open": "18:30"}, "Thursday": {"open": "18:45"}}, "website": "https://www.downriverchess.com"},
+  {"json_index": 1546, "id": "casual_chess_club_las_vegas", "hours": null, "website": "https://www.casualchessclub.com"},
+  {"json_index": 1547, "id": "st_clairsville_library_chess_club", "hours": null, "website": "https://www.stclibrary.org"},
+  {"json_index": 1548, "id": "desert_chess_club", "hours": null, "website": "http://desertchessclub.com"},
+  {"json_index": 1551, "id": "marshall_chess_club_official", "hours": null, "website": "https://www.marshallchessclub.org/"},
+  {"json_index": 1552, "id": "rated_chess_games_at_knoxville", "hours": null, "website": "https://www.ratedchessgames.org"},
+  {"json_index": 1563, "id": "powerchess_utah", "hours": null, "website": "https://power-chess.com"},
+  {"json_index": 1567, "id": "los_angeles_chess_social", "hours": null, "website": "https://www.instagram.com/chess_social/"},
+  {"json_index": 1539, "id": "bernal_chess_club", "hours": null, "website": "https://www.bernalchess.com"},
+  {"json_index": 1570, "id": "roanoke_chess", "hours": null, "website": "https://www.meetup.com/Roanoke-Chess-Meetup/"},
+  {"json_index": 1571, "id": "las_vegas_chess_academy", "hours": null, "website": "https://www.lasvegaschesscenter.com"}
+]

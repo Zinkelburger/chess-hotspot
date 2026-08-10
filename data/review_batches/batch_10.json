@@ -1,0 +1,652 @@
+[
+  {
+    "json_index": 1397,
+    "id": "ashland_chess",
+    "name": "Ashland Chess",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Ashland, MA",
+    "notes": "The non-official Ashland Chess Club."
+  },
+  {
+    "json_index": 1398,
+    "id": "fort_collins_co_chess_club",
+    "name": "Fort Collins Co Chess Club",
+    "city": "Fort Collins",
+    "state": "CO",
+    "address": null,
+    "chesscom_location": "Fort Collins",
+    "notes": "Club for Fort Collins area chess players 1) Wednesday nights at the CSU Student Union 2nd floor food court 2) Wednesday nights at Purpose Brewing. See https://www.meetup.com/fort-collins-chess-meetup-group/events/288808555/ I am working with the owners about hosting casual tournaments Another meetup group is https://www.meetup.com/magnus-chess-group-fort-collins/ tied in with Magnus Carlson's Play Magnus company. Will look into merging the two groups. 3) Rated tournaments at the CSU Student Union and Gryphon games on the corner of Drake and Shields. See https://www.facebook.com/groups/146494747389306/ & https://nocochess.weebly.com/ for further information"
+  },
+  {
+    "json_index": 1399,
+    "id": "southwestern_new_mexico_chess_club",
+    "name": "Southwestern New Mexico Chess Club",
+    "city": "Southwestern",
+    "state": "NM",
+    "address": null,
+    "chesscom_location": "Silver City, New Mexico",
+    "notes": "Anywhere around the area of SW NM over into AZ is welcome."
+  },
+  {
+    "json_index": 1400,
+    "id": "pride_academy_chess_club",
+    "name": "Pride Academy Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "East Orange, NJ",
+    "notes": "This is the official Chess Club for Pride Academy"
+  },
+  {
+    "json_index": 1401,
+    "id": "oakland_chess",
+    "name": "Oakland Chess",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Oakland St., Medford, MA",
+    "notes": "This is the Oakland Chess Club."
+  },
+  {
+    "json_index": 1402,
+    "id": "bremerton_chess_club",
+    "name": "Bremerton Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Bremerton, WA",
+    "notes": "A chess club for residents Bremerton and the Kitsap Peninsula."
+  },
+  {
+    "json_index": 1403,
+    "id": "206chess",
+    "name": "206CHESS",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Seattle, Washington",
+    "notes": "WELCOME TO 206CHESS. -Weekly Tournaments -$5 buy-in -Check out IG: @206chess"
+  },
+  {
+    "json_index": 1404,
+    "id": "the_c4_chess_club",
+    "name": "The c4 Chess Club",
+    "city": "The C4",
+    "state": null,
+    "address": null,
+    "chesscom_location": "",
+    "notes": "Welcome to The c4 Chess Club! Join for tournaments, puzzles, games, lessons, and more. We will strive to provide fun and learning opportunities for those who join. Join us to be a part of our journey!"
+  },
+  {
+    "json_index": 1405,
+    "id": "kauai_chess_club",
+    "name": "Kauai Chess Club",
+    "city": "Kauai",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Kauai, Hawaii",
+    "notes": "Kauai Chess Club is a place to meet fellow chess players on the beautiful island of Kauai in the Hawaiian Archipelago. We have regular USCF-rated tournaments in person. Currently two clubs meet in person, one in Kapaa (contact TheChessHabit) and one in Waimea (contact Glockster64). Another Kauai site on chess.com is a club called Team Kauai, for those who wish to participate in matches with other islands, states, colleges, and countries. Please spread the word and invite other players from Kauai. The active sites on Chess.com for people who wish to play team matches for Hawaii are Hawaii Chess Federation and Team Hawaii . The active site for K-12 school-aged students is HCF Scholastic . Please invite other players from Kauai."
+  },
+  {
+    "json_index": 1406,
+    "id": "oak_park_chess_club_michigan",
+    "name": "Oak Park Chess Club - Michigan",
+    "city": "Oak Park",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Oak Park, MI",
+    "notes": "This is the online meeting place for members and guests of the Oak Park Chess Club."
+  },
+  {
+    "json_index": 1407,
+    "id": "hiramgarrettsville_chess_club",
+    "name": "Hiram-Garrettsville Chess Club",
+    "city": "Hiram-Garrettsville",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Hiram, OH",
+    "notes": "A place for members/friends of the Hiram and Garrettsville communities to learn about and play chess. Fun fact: President James A. Garfield was a very strong chess player! He is considered the strongest chess player to ever occupy the Oval Office."
+  },
+  {
+    "json_index": 1408,
+    "id": "the_oak_park_chess_club",
+    "name": "The Oak Park Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Oak Park",
+    "notes": "The Oak Park Chess Club"
+  },
+  {
+    "json_index": 1409,
+    "id": "beaumont_tx_chess_club",
+    "name": "Beaumont TX Chess Club",
+    "city": "Beaumont",
+    "state": "TX",
+    "address": null,
+    "chesscom_location": "Beaumont, TX",
+    "notes": "Welcome to the Beaumont Chess Club, a public club open to everyone. OTB casual games are held weekly on Thursdays at the food court inside Parkdale Mall, Beaumont, TX. Visit us on Facebook for more details. We hold monthly chess tournaments on the first Saturday of the month, unless otherwise noted on our Facebook page. Coming soon: Online chess tournaments and competitions against other chess.com clubs. Upgrade your Chess.com membership here and support the Beaumont Chess Club!"
+  },
+  {
+    "json_index": 1410,
+    "id": "bsl_chess_club",
+    "name": "BSL Chess Club",
+    "city": "Bsl",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Bay St. Louis, MS",
+    "notes": "I'm creating a Chess Club for the Bay St. Louis area. Anyone welcome to join. US Chess Federation Membership number: A7264627"
+  },
+  {
+    "json_index": 1411,
+    "id": "lincoln_mass_chess_club",
+    "name": "Lincoln Mass Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Lincoln, Massachusetts",
+    "notes": "This is a small chess club for residents of Lincoln, Massachusetts."
+  },
+  {
+    "json_index": 1412,
+    "id": "black_kings_and_queens_of_baltimore_county",
+    "name": "Black Kings and Queens of Baltimore County",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Owings Mills, MD",
+    "notes": "We're a minority chess club that meets at various locations in Owings Mills/Randallstown to play chess, eat food and have fun. We have various community service activities and facilitate a chess program for the youth so they can to thrive and succeed and participate in scholarship opportunities."
+  },
+  {
+    "json_index": 1413,
+    "id": "lake_houston_chess_club",
+    "name": "Lake Houston Chess Club",
+    "city": "Lake Houston",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Atascocita-Humble-Kingwood, Texas",
+    "notes": "The Lake Houston Chess Club welcomes all ages of players, from the brand new to the Master. The OTB club was originally based in Atascocita, TX and served the Humble, Kingwood, and adjacent areas of northeast Houston. We are now keen to expand our regional and online presence, holding ONLINE group tournaments every Wednesday at 6pm. Membership is restricted to those living in the Houston area. We also meet Face-to-Face at La Madeleines in Kingwood every Thursday from 6pm to 8pm. For more information or to join, call the Club Founder Jim Polomsky at 713.459.0220. You can also visit the club's Facebook page at https://www.facebook.com/atascocitachessclub ."
+  },
+  {
+    "json_index": 1414,
+    "id": "team_maui",
+    "name": "Team Maui",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Maui, Hawaii",
+    "notes": "Team Maui is for players from the island of Maui to compete in the Hawaii Chess League NO CHEATING will be TOLERATED. No chess engines can be used during any rated chess games. NO NEGATIVE OR DEROGATORY COMMENTS are allowed to be posted anywhere. NO SPAM. If you play in team matches, NO RESIGNING when the going gets rough. Also NO DRAWS because you are tired of playing. In chess, you play to WIN. Team Maui meets Tuesday's 6p at Kihei Park. Meet other chess players. Bring your chess set Meet ups occur 6pm Wednesdays at Mahalo Aleworks in Pukalani Saturdays 10am upstairs Vidas Coffee in Makawao"
+  },
+  {
+    "json_index": 1415,
+    "id": "team_oahu",
+    "name": "Team Oahu",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Honolulu, Hawaii",
+    "notes": "Team Oahu is for players from the island of Oahu to compete in the Hawaii Chess League NO CHEATING will be TOLERATED. No chess engines can be used during any rated chess games. NO NEGATIVE OR DEROGATORY COMMENTS are allowed to be posted anywhere. NO SPAM. If you play in team matches, NO RESIGNING when the going gets rough. Also NO DRAWS because you are tired of playing. In chess, you play to WIN. Team Oahu meets Thursday's 3-5p at the Wahiawa Public Library. One hour chess lesson first hour, second hour is free play. Bring your chess se"
+  },
+  {
+    "json_index": 1416,
+    "id": "brattleboro_battleboarders",
+    "name": "Brattleboro Battle-Boarders",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Brattleboro, Vermont",
+    "notes": "A chess club for players in the Brattleboro, VT area"
+  },
+  {
+    "json_index": 1417,
+    "id": "molokai_chess_club",
+    "name": "Molokai Chess Club",
+    "city": "Molokai",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Kaunakakai, Molokai, Hawaii",
+    "notes": "Molokai Chess Club is a place to meet fellow chess players on Molokai. The club meets on Wednesday afternoons at the library from 5pm to 7pm. See you there!"
+  },
+  {
+    "json_index": 1418,
+    "id": "dna_chess_club",
+    "name": "DNA Chess Club",
+    "city": "Dna",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Fort Worth",
+    "notes": "The chess club of fort worth. Our free weekly meetings are Wednesday's from 6 - 8 at Panera Bread 4611 S Hulen St, Fort Worth, TX 76132, USA Learn more at DNAchessclub.com Any Questions? Contact President- Adam Bhaloo - dnachessclub@gmail.com"
+  },
+  {
+    "json_index": 1419,
+    "id": "wake_forest_chess_club_current",
+    "name": "Wake Forest Chess Club Current",
+    "city": "Wake Forest",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Wake Forest",
+    "notes": "Intended for players that frequent Wake Forest Chess Club over the coffee shop and all players in the Raleigh Area."
+  },
+  {
+    "json_index": 1420,
+    "id": "shoreline_chess_club_wa",
+    "name": "Shoreline Chess Club - WA",
+    "city": "Shoreline",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Shoreline, WA",
+    "notes": "A club open to all current and former Shoreline Chess Club players."
+  },
+  {
+    "json_index": 1421,
+    "id": "s_and_d_chess_class_club",
+    "name": "S and D Chess Class Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "San Jose, California",
+    "notes": "Official club for S&D’s chess class. Join requests will be reviewed by the admin or super admin, and only members of the chess class will be admitted."
+  },
+  {
+    "json_index": 1422,
+    "id": "lanai_chess_club",
+    "name": "Lanai Chess Club",
+    "city": "Lanai",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Lanai City, Lanai, Hawaii",
+    "notes": "Lanai Chess Club is a place to meet fellow chess players in Lanai City. We are excited to offer competitive play with the other islands and even online rated USCF tournaments once we get the club established. Please spread the word and invite other players from Lanai NO CHEATING will be TOLERATED. No chess engines can be used during any rated chess games. The Lanai Chess Club meets Thursday's 3-5p at the Lanai City Public Library. One hour chess lesson first hour, second hour is free play. Bring your chess set."
+  },
+  {
+    "json_index": 1423,
+    "id": "detective_cookies_chess_club",
+    "name": "Detective Cookie's Chess Club",
+    "city": "Detective Cookie'S",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Seattle",
+    "notes": "This is the official Chess.com Club Page for Detective Cookie's Chess Club! This Club is for students, parents, grandparents, and coaches for in person and online play and communication. Location: Rainier Beach Community Center 8825 Rainier Avenue South Seattle, WA 98118 Time: Saturdays at 12 noon to 2PM (No meetings in January) Ages: 7 to adults You can reach Detective Cookie at 206-235-6156"
+  },
+  {
+    "json_index": 1424,
+    "id": "big_island_chess_club_hawaii",
+    "name": "Big Island Chess Club HAWAII",
+    "city": "Big Island",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Hilo, Hawaii",
+    "notes": "Big Island Chess Club is a place to meet fellow chess players of the big island of Hawaii and friends around the world. We are excited to offer competitive play with the other islands and even online-rated USCF tournaments once we get the club established. Please spread the word and invite other players from the Big Island! We offer all forms of the great game: Daily Match , chess960 , Live games and vote chess, and more. NO CHEATING will be TOLERATED. No chess engines can be used during any rated chess games. NO NEGATIVE OR DEROGATORY POLITICS COMMENTS are allowed to be posted anywhere. NO SPAM or Virus-link allowed! Forwarding SPAM-Virus link in Notes and GC will be automatically kick-out and ban in a chess club."
+  },
+  {
+    "json_index": 1425,
+    "id": "team_hawaii_live",
+    "name": "Team Hawaii Live",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Hawaii",
+    "notes": "Hawaii clubs on chess.com: ALL-Islands Hawaii Chess Club Team Hawaii Team Hawaii Live KAUAI Lihue Chess Club Kauai Chess Club Team Kauai LANAI Lanai Chess Club OAHU Hawaii Chess Federation HCF Scholastic Hawaii Homeschool Chess Club Hawaii Rainbow Warriors Chess Club Honolulu Chess Club Mililani Chess Club Team Oahu Waikiki Chess Club Windward Chess Club MAUI Lahaina Chess Club Maui Chess Club Team Maui MOLOKAI Molokai Chess Club HAWAII Big Island Chess Club Kona Chess Club Team Hawaii competes in live team matches. In order to be on this team, you must live in Hawaii or have strong ties to Hawaii. NO CHEATING will be TOLERATED. No chess engines can be used during any rated chess games. Team Hawaii Live meets Thursday's 3-5p at the Wahiawa Public Library. One hour chess lesson first hour, second hour is free play. Bring your chess set."
+  },
+  {
+    "json_index": 1426,
+    "id": "right_track_mindz",
+    "name": "Right Track Mindz",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "",
+    "notes": "During this time, we are looking for more to engage our children that is positive… and not Fortnite. Chess Club is an activity that has many benefits and is also fun! Academic Improvement: Chess helps to improve a child’s academic performance. Academically, we aren’t just talking about Math improvement, as some people mistakenly assume. Studies often show improvement in all academic areas - Math, English, Reading, Science, and so on. The reason for this is that chess doesn’t directly teach us math - chess improves our Executive Functions . Chess gives children better control of their own brains - more organized thoughts, better planning, better visualization, and better focus. These are skills that can be used on anything. The result is more efficient and effective learning in general."
+  },
+  {
+    "json_index": 1427,
+    "id": "team_hawaii",
+    "name": "Team Hawaii",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Honolulu, Hawaii",
+    "notes": "JOINING CRITERIA: 1) YOU MUST BE A MEMBER ON THE SITE AT LEAST 6 MONTHS 2) MUST HAVE WON AT LEAST 10 RATED DAILY GAMES 3) MUST HAVE A TIME OUT % OF 10% OR LESS Cheaters are not welcome into this group! Hawaii clubs on chess.com: ALL-Islands Hawaii Chess Club Team Hawaii Team Hawaii Live KAUAI Lihue Chess Club Kauai Chess Club Team Kauai LANAI Lanai Chess Club OAHU Hawaii Chess Federation HCF Scholastic Hawaii Homeschool Chess Club Hawaii Rainbow Warriors Chess Club Honolulu Chess Club Mililani Chess Club Team Oahu Waikiki Chess Club Windward Chess Club MAUI Kahului Chess Club KiheiChess Club Maui Chess Club Team Maui MOLOKAI Molokai Chess Club HAWAII Big Island Chess Club Kona Chess Club Hilo Chess Club Team Hawaii is for Hawaiian residents, part time residents or those with strong ties to Hawaii who wish to participate in competitive chess matches with State and Country Teams. NO CHEATING will be TOLERATED. No chess engines can be used during any rated chess games. Team Hawaii meets Thursday's 3-5p at the Wahiawa Public Library. One hour chess lesson first hour, second hour is free play. Bring your chess set. Team Hawaii members will be notified first about FIDE and USCF chess tournaments on all the islands."
+  },
+  {
+    "json_index": 1428,
+    "id": "friendswood_public_library_chess_club",
+    "name": "Friendswood Public Library Chess Club",
+    "city": "Friendswood Public Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Friendswood, Tx",
+    "notes": "Welcome to the Friendswood Public Library chess.com club! For our patrons who miss the camaraderie of our Wednesday night chess club as well as Friendswood Residents and the general public-have fun!"
+  },
+  {
+    "json_index": 1429,
+    "id": "conservative_chess",
+    "name": "Conservative Chess",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "pdx",
+    "notes": "Conservative Chess club looking to bring lovers of chess and freedom together!"
+  },
+  {
+    "json_index": 1430,
+    "id": "waltham_chess_club_cash_prize",
+    "name": "Waltham Chess Club - Cash Prize",
+    "city": "Waltham",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Waltham, MA",
+    "notes": "This is the official chess.com site of Waltham Chess Club for cash-prize events."
+  },
+  {
+    "json_index": 1431,
+    "id": "haddonfield",
+    "name": "Haddonfield",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Haddonfield, NJ",
+    "notes": "Club page for residents of the Borough of Haddonfield: All ages welcome"
+  },
+  {
+    "json_index": 1432,
+    "id": "gail_borden_public_library_chess_club",
+    "name": "Gail Borden Public Library Chess Club",
+    "city": "Gail Borden Public Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Elgin, Illinois",
+    "notes": "Gail Borden Public Library Chess Club for all ages and all levels. Play against local players in your area!"
+  },
+  {
+    "json_index": 1433,
+    "id": "joe_barnhart_bee_county_library",
+    "name": "Joe Barnhart Bee County Library",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Beeville, Texas",
+    "notes": "Joe Barnhart Bee County Library Chess Club is for all ages and skill levels."
+  },
+  {
+    "json_index": 1434,
+    "id": "catawba_county_library_chess_club",
+    "name": "Catawba County Library Chess Club",
+    "city": "Catawba County Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Catawba County, NC",
+    "notes": "Chess club for patrons of the Catawba County Library System"
+  },
+  {
+    "json_index": 1435,
+    "id": "westport_library_chess_club",
+    "name": "Westport Library Chess Club",
+    "city": "Westport Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Westport, CT",
+    "notes": "Westport, CT Library Adult Chess Club"
+  },
+  {
+    "json_index": 1436,
+    "id": "san_jose_chess_club_uscf_rated",
+    "name": "San Jose Chess Club - USCF Rated",
+    "city": "San Jose",
+    "state": null,
+    "address": null,
+    "chesscom_location": "San Jose, CA (but anyone is allowed to play!)",
+    "notes": "Welcome to the San Jose Chess Club - USCF rated. This club is co-owned by National Masters and USCF certified club-level Tournament Directors Pranav Sairam (@chesspilot01) and Abhinav Penagalapati (@qing29) This club will host USCF rated events 4-5 times a week, and will have many other events such as marathon tournaments, knockout tournaments, and occasional cash prize events. We also now host OTB tournaments for people in the bay area! Contact us if you're interested! Check out our main website for more information https://sanjosechessclub.square.site And check out our tournament website for links and info about our tournaments https://sites.google.com/view/sjcctournamentlinks Requirements to join: You must have your chess.com account for at least a month. You must be an active USCF member (All USCF members can play) You must join the USCHESS Members Only Club before joining. When joining, please provide your USCF ID and Full name."
+  },
+  {
+    "json_index": 1437,
+    "id": "irc_homeschool_chess_club",
+    "name": "IRC Homeschool chess club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Florida",
+    "notes": "This is a IRC Home School Chess club. If you are local to the Vero Beach and met with us before or always wanted to please ask to join."
+  },
+  {
+    "json_index": 1438,
+    "id": "east_cobb_chess_club",
+    "name": "East Cobb Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "East Cobb, Georgia",
+    "notes": "Chess club for residents of East Cobb, Georgia (and honorary residents, if you're nice )."
+  },
+  {
+    "json_index": 1439,
+    "id": "newburyport_chess_club",
+    "name": "Newburyport Chess Club",
+    "city": "Newburyport",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Newburyport MA",
+    "notes": "A chess club based in Newburyport MA *Currently Closed due to COVID-19*"
+  },
+  {
+    "json_index": 1440,
+    "id": "excelsior_san_francisco_chess_club",
+    "name": "Excelsior San Francisco Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "San Francisco, CA",
+    "notes": "The Excelsior Chess Club of San Francisco. Founded in 2005 by Bright Knights Chess Club ( www.bkchessclub.org ) and community members of the Excelsior District, San Francisco, CA."
+  },
+  {
+    "json_index": 1441,
+    "id": "silver_spring_library_club",
+    "name": "Silver Spring Library Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Montgomery County, MD",
+    "notes": "A virtual club for players who attend the club at the Silver Spring Library."
+  },
+  {
+    "json_index": 1442,
+    "id": "harlan_kentucky_chess_club",
+    "name": "Harlan Kentucky Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Harlan Kentucky!",
+    "notes": "Chess club that seeks to build others up. www.HarlanChess.com"
+  },
+  {
+    "json_index": 1443,
+    "id": "ellington_chess_mates",
+    "name": "Ellington Chess Mates",
+    "city": "Ellington",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Ellington, Connecticut",
+    "notes": "We play chess on Mondays at the Ellington Senior Center, Ellington, Ct. Due to the pandemic, we are currently playing here on Chess.com 9AM-1PM each Monday. We're always looking for more chess players to join us both on-line and especially in person at the Ellington Senior Center once it reopens."
+  },
+  {
+    "json_index": 1444,
+    "id": "woodland_chess_club",
+    "name": "Woodland Chess Club",
+    "city": "Woodland",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Downingtown PA",
+    "notes": "Woodland Chess Club is a free chess club serving Downingtown, Chester Springs, Exton, and surrounding communities. We meet the third and fourth Saturdays of each month. Either in person or online through Zoom. You can find more info at woodlandchess.club."
+  },
+  {
+    "json_index": 1445,
+    "id": "crestondement_public_library",
+    "name": "Creston-Dement Public Library",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Creston, IL",
+    "notes": ""
+  },
+  {
+    "json_index": 1446,
+    "id": "tamerlane_rated_chess_area",
+    "name": "Tamerlane  Rated  Chess Area",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Chautauqua Comics  Sundays 2-4",
+    "notes": ""
+  },
+  {
+    "json_index": 1447,
+    "id": "tysons_pimmit_library",
+    "name": "Tyson's Pimmit Library",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "",
+    "notes": "Following covid-19, the weekly club at Tyson's Pimmit Library has been moved online! We host weekly rapid tournaments on Fridays at 4PM."
+  },
+  {
+    "json_index": 1448,
+    "id": "los_angeles_chess_club",
+    "name": "Los Angeles Chess Club",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "11514 Santa Monica Blvd, 2nd Floor  Los Angeles, CA 90025",
+    "notes": "An educational/ Recreational Chess Club"
+  },
+  {
+    "json_index": 1449,
+    "id": "arlington_chess_club_est_1954",
+    "name": "Arlington Chess Club   est. 1954",
+    "city": "Arlington",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Arlington, VA",
+    "notes": "Welcome to the Arlington Chess Club, the oldest chess club in the Washington, DC, metropolitan area, having been in existence since 1954! ACC is a warm and friendly place to play chess, to learn more about chess, and to watch many of the region's top players compete in a club environment. Enjoy our online club until we return in our new location for our regular Friday night meetings, tournaments, simuls, and other chess events! To participate in this club, players need to be members of both the ACC as well as the US Chess Federation (as all games are USCF-rated). For more information and to join the ACC, please go to our website and/or send an email to ACCvachess@gmail.com . Website: www.arlingtonchessclub.com"
+  },
+  {
+    "json_index": 1450,
+    "id": "chittenden_county_chess_club_vermont",
+    "name": "Chittenden County Chess Club Vermont",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Burlington, VT",
+    "notes": "club for Vermont residents"
+  },
+  {
+    "json_index": 1451,
+    "id": "peoria_kingsmen",
+    "name": "Peoria Kingsmen",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Peoria, IL USA",
+    "notes": "Peoria Kingsmen have been meeting weekly for almost 100 years. While the virus has slowed us down, we can still meet online for tournaments and more. Visit our web site at PeoriaChess.com ."
+  },
+  {
+    "json_index": 1452,
+    "id": "kacc",
+    "name": "KACC",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Kalamazoo MI",
+    "notes": "Kalamazoo Area Chess Club. The original USCF affiliate with that name."
+  },
+  {
+    "json_index": 1453,
+    "id": "sacramento_bishops_of_honor",
+    "name": "Sacramento Bishops Of Honor",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Sacramento, California, United States",
+    "notes": "2021 Western States Open Club Champions A club that is for all chess players in the Sacramento and Northern California region who believe that cheating and other unsportsmanlike conduct is not cool! we host a weekly club tournament (rapid swiss tournament Tuesdays). we also do live and daily club matches. To Join if you haven't already been given an invite or if you don't already have your name stated on your account, please state your real name (first name is enough) in your request to join. (this information is to prevent duplicate accounts or former club policy violators from entering. This is only for the super admin and will not be given out publicly on club notes, chat or news without your permission) CLUB POLICY No CHEATING No harassment do not over-promote other clubs on our club notes, chat or news comment section do not excessively request to be a club admin or coordinator do not excessively accuse other members of cheating or violating club policy do not excessively complain about decisions made by club leadership we also do not tolerate any other violation of Chess.com Community Policy not following the policy could result in being muted or being removed from the club at super admins discretion."
+  },
+  {
+    "json_index": 1454,
+    "id": "river_valley_chess_club_formerly_westark",
+    "name": "River Valley Chess Club -Formerly Westark-",
+    "city": "River Valley",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Fort Smith, AR",
+    "notes": "All ages and ability levels welcome. Please join us for a game Sundays from 12-4 at Sweet Bay Coffee in the Park Plaza Shopping Center, Fort Smith, Arkansas"
+  },
+  {
+    "json_index": 1455,
+    "id": "boylston_chess_club_uscf_rated",
+    "name": "Boylston Chess Club - USCF Rated",
+    "city": "Boylston",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Cambridge, MA",
+    "notes": "All tournaments on this site will be USCF-Rated. The main tournaments will be held on Sunday mornings. As we go along, we may expand to schedule tournaments at other times of the week."
+  },
+  {
+    "json_index": 1456,
+    "id": "waltham_chess_club_uscf_rated",
+    "name": "Waltham Chess Club - USCF Rated",
+    "city": "Waltham",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Waltham, MA",
+    "notes": "This is the chess.com site for Waltham Chess Club Members who are here to play USCF-Rated Chess. Membership in this Club and participation in its USCF-Rated tournaments requires a current Membership with USCF ( https://secure2.uschess.org/webstore/member.ph ). In addition, players must register one time with chess.com by filling out this USCF Authentication Form ( http://www.chess.com/news/view/uscf-member-authentication-9266 ) and join the US Chess Members Only Club to be eligible to play in this Club."
+  },
+  {
+    "json_index": 1457,
+    "id": "youth_chess_club_at_billiards_cafe",
+    "name": "Youth Chess Club at Billiards Cafe",
+    "city": "Youth",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Nashoba Valley in Massachusetts",
+    "notes": "Online extension to Youth Chess Club at the Billiards Cafe in Ayer, Mass."
+  },
+  {
+    "json_index": 1458,
+    "id": "chess_kingdom_101",
+    "name": "Chess Kingdom 101",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "everywhere",
+    "notes": "our club is a social awsome club for chess lovers"
+  },
+  {
+    "json_index": 1459,
+    "id": "adams_county_library",
+    "name": "Adams county library",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Hettinger, ND",
+    "notes": "Library chess club"
+  },
+  {
+    "json_index": 1460,
+    "id": "maud_marks_library",
+    "name": "Maud Marks Library",
+    "city": null,
+    "state": null,
+    "address": null,
+    "chesscom_location": "Katy, Texas",
+    "notes": ""
+  },
+  {
+    "json_index": 1461,
+    "id": "fredericktown_community_library_chess_club",
+    "name": "Fredericktown Community Library Chess Club",
+    "city": "Fredericktown Community Library",
+    "state": null,
+    "address": null,
+    "chesscom_location": "Fredericktown, Ohio",
+    "notes": "An online chess club run through the Fredericktown Community Library in Fredericktown, Ohio."
+  }
+]

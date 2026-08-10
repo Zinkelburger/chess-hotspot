@@ -1,0 +1,19 @@
+[
+  {"json_index": 2012, "id": "fccd_chess", "hours": null, "website": "https://dyerchess.angelfire.com"},
+  {"json_index": 2013, "id": "lewisville_chess_club", "hours": {"Thursday": {"open": "18:00", "close": "21:00"}}, "website": null},
+  {"json_index": 2014, "id": "willows_senior_center_chess", "hours": {"Tuesday": {"open": "12:00", "close": "16:00"}, "Friday": {"open": "12:00", "close": "16:00"}}, "website": null},
+  {"json_index": 2015, "id": "woodlawn_chessnuts", "hours": {"Tuesday": {"open": "18:00", "close": "20:30"}}, "website": null},
+  {"json_index": 2016, "id": "hemet_chess_club", "hours": {"Friday": {"open": "17:30", "close": "22:30"}}, "website": null},
+  {"json_index": 2017, "id": "solid_grounds_cafe_chess_club", "hours": {"Thursday": {"open": "18:30", "close": "21:00"}}, "website": "https://www.solid-groundscafe.com"},
+  {"json_index": 2018, "id": "noble_mind_chess_club", "hours": {"Friday": {"open": "19:00", "close": "22:00"}}, "website": "https://www.noblemindchess.com"},
+  {"json_index": 2019, "id": "drunken_knights_chess_club", "hours": {"Monday": {"open": "20:00"}}, "website": null},
+  {"json_index": 2020, "id": "port_washington_chess_night", "hours": {"Monday": {"open": "19:00"}}, "website": "https://chess.klanky.com"},
+  {"json_index": 2021, "id": "marshfield_area_chess_association", "hours": null, "website": "https://macachess.org"},
+  {"json_index": 2022, "id": "32_pieces_phoenix", "hours": null, "website": "https://groups.google.com/32piecesphoenix"},
+  {"json_index": 2023, "id": "mizpahhaddon_heights_community_chess_club", "hours": null, "website": "https://www.mhhccc.com"},
+  {"json_index": 2024, "id": "st_charles_chess_club2", "hours": {"Thursday": {"open": "19:00", "close": "23:00"}}, "website": "https://www.geocities.com/garyljanssen/StCharlesChessClub"},
+  {"json_index": 2025, "id": "manitowoc_chess_club", "hours": null, "website": "https://manitowoc2riverschess.googlepages.com/home"},
+  {"json_index": 2027, "id": "lebanon_county_chess_club", "hours": {"Wednesday": {"open": "18:00", "close": "20:00"}}, "website": null},
+  {"json_index": 2028, "id": "caf_chess_collectif", "hours": {"Tuesday": {"open": "19:30"}, "Thursday": {"open": "19:30"}, "Saturday": {"open": "14:00"}, "Monday": {"open": "19:00"}}, "website": "https://tinyurl.com/2qktfn"},
+  {"json_index": 2029, "id": "mechanics_institute_chess_club_wannabe", "hours": {"Monday": {"open": "11:00", "close": "21:00"}, "Tuesday": {"open": "11:00", "close": "21:00"}, "Wednesday": {"open": "11:00", "close": "21:00"}, "Thursday": {"open": "11:00", "close": "21:00"}, "Friday": {"open": "11:00", "close": "21:00"}, "Saturday": {"open": "11:00", "close": "17:00"}, "Sunday": {"open": "11:00", "close": "17:00"}}, "website": "https://www.chessclub.org"}
+]

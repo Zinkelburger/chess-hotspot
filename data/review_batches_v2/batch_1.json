@@ -1,0 +1,561 @@
+[
+  {
+    "json_index": 802,
+    "id": "the_new_egyptians",
+    "name": "The New Egyptians",
+    "notes": "The Official Chess Club in New Egypt",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/the-new-egyptians",
+    "chesscom_url": "https://www.chess.com/club/the-new-egyptians"
+  },
+  {
+    "json_index": 803,
+    "id": "chesapeake_chess_club",
+    "name": "Chesapeake Chess Club",
+    "notes": "Running semi-weekly tournaments in the Chesapeake, VA area. Rating restrictions are 2000+ or was once 2000+ We run these on Saturdays at 10AM, 3 rounds of G45+5 If this interests you contact me at chessmastertyson@gmail.com",
+    "current_hours": {
+      "Saturday": {
+        "open": "10:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/chesapeake-chess-club",
+    "chesscom_url": "https://www.chess.com/club/chesapeake-chess-club"
+  },
+  {
+    "json_index": 804,
+    "id": "balanced_rook_chess_club",
+    "name": "Balanced Rook Chess Club",
+    "notes": "Colorado Springs, Colorado's Social Chess Club A friendly, social atmosphere for players of all skill levels and ages to connect, learn, and play. We meet on Thursdays, 6:00-9:00pm at Wackadoo Brewing in Colorado Springs ♖♘♗♕♔♗♘♖",
+    "current_hours": {
+      "Thursday": {
+        "open": "18:00",
+        "close": "21:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/balanced-rook-chess-club",
+    "chesscom_url": "https://www.chess.com/club/balanced-rook-chess-club"
+  },
+  {
+    "json_index": 805,
+    "id": "shreveportbossier_chess_club",
+    "name": "Shreveport-Bossier Chess Club",
+    "notes": "We meet every Tuesday night from 6PM - 8PM at Cafe Boba Tea at 3950 Youree Drive #160. All ages welcome.",
+    "current_hours": {
+      "Tuesday": {
+        "open": "18:00",
+        "close": "20:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/shreveport-bossier-chess-club",
+    "chesscom_url": "https://www.chess.com/club/shreveport-bossier-chess-club"
+  },
+  {
+    "json_index": 806,
+    "id": "henderson_tn_chess_club",
+    "name": "Henderson TN Chess Club",
+    "notes": "Henderson, TN Chess Club Welcome to the official Chess.com club for all players in the area! Whether you're a beginner just learning the moves or a veteran looking for a challenge, this is the place to connect with your local chess community online. We're dedicated to bringing together chess enthusiasts from Henderson, TN and its surrounding neighborhoods and Cities (Jackson, Lexington, Bethel Springs, etc.) for friendly competition, learning, and fun. In this club, you can expect: Regular Tournaments: Compete for local bragging rights in our scheduled live and daily tournaments. Club Matches: Represent our Henderson, TN chess community in team matches against other clubs from around the world. Active Forums: Discuss games, openings, and strategies, or simply connect with fellow chess players in our area!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/henderson-tn-chess-club",
+    "chesscom_url": "https://www.chess.com/club/henderson-tn-chess-club"
+  },
+  {
+    "json_index": 807,
+    "id": "bay_ridge_chessmates",
+    "name": "Bay Ridge Chessmates",
+    "notes": "Weekly chess group meeting in Bay Ridge Brooklyn. Beginners to Advanced all welcome. Children through Adults. Day/Time: Wednesdays 6:30pm Location: Greenhouse Cafe, 77-17 3rd Avenue, Brooklyn, NY 11209 No fee to play. Just buy a drink or food item to support our hosts and waiters. IG: @bayridgechessmates FB: facebook.com/groups/bayridgechessmates",
+    "current_hours": {
+      "Wednesday": {
+        "open": "18:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/bay-ridge-chessmates",
+    "chesscom_url": "https://www.chess.com/club/bay-ridge-chessmates"
+  },
+  {
+    "json_index": 808,
+    "id": "opl_lakeview_chess_club",
+    "name": "OPL Lakeview Chess Club",
+    "notes": "Chess club at Lakeview Branch of Oakland Public Library 1st and 3rd Saturday of the month, 12 pm to 2 pm",
+    "current_hours": {
+      "Saturday": {
+        "open": "12:00",
+        "close": "14:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/opl-lakeview-chess-club",
+    "chesscom_url": "https://www.chess.com/club/opl-lakeview-chess-club"
+  },
+  {
+    "json_index": 809,
+    "id": "first_city_chess_uscf_unrated",
+    "name": "First City Chess - USCF Unrated",
+    "notes": "This is the official Chess.com page for First City Chess Club (FC3) . We are a local chess club based in Leavenworth, Kansas , currently in the process of building out both our in-person playing location and our over-the-board tournament schedule . This Chess.com club serves as an open, unrated online space for players of all ages and skill levels to connect, play, and participate in online events. It is designed to be welcoming to new, casual, and scholastic players, as well as adult players who simply want to play chess and be part of the local community. Please note that membership in the official USCF-rated First City Chess Club is separate and requires rating verification. This club exists to make participation easy and accessible while the organization continues to grow.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/first-city-chess-uscf-unrated",
+    "chesscom_url": "https://www.chess.com/club/first-city-chess-uscf-unrated"
+  },
+  {
+    "json_index": 810,
+    "id": "first_city_chess_club_uscf_rated",
+    "name": "First City Chess Club - USCF Rated",
+    "notes": "This is the Private Chess.com page for the USCF Affiliate \"First City Chess Club (A9754602)\". Verified membership with USCF is required to join this page. You will need to first be vetted as a member with the US Chess Federation. Please validate using this Google Form https://docs.google.com/forms/d/e/1FAIpQLSeOcUdiFZDIbNeRNp2cdRw-4BI4xwQIxJlYN6jwiO8eQ4qrbw/viewform?usp=dialog USCF validation will occur on a monthly basis. If your membership will expire in less than 15 days from the monthly verification, you will be removed from the group until your USCF status is current. All tournaments hosted on this site will be USCF-Online-Rated. All times listed in all event listings and announcements are Central Standard Time (CST) This homepage is the official chess.com page for the First City Chess Club (FC3). We are a local club in Leavenworth, Kansas. We currently meet at KCKCC Annex, 1901 Spruce Street, Room 146, Leavenworth, KS 66048. We meet most Thursdays, from 6:00-8:30 PM, with the exception of Thanksgiving and the two Thursdays before and after Christmas. More Information is available on Https://firstcitychess.com",
+    "current_hours": {
+      "Thursday": {
+        "open": "18:00",
+        "close": "20:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/first-city-chess-club-uscf-rated",
+    "chesscom_url": "https://www.chess.com/club/first-city-chess-club-uscf-rated"
+  },
+  {
+    "json_index": 811,
+    "id": "wildwood_davis_chess_club",
+    "name": "Wildwood Davis Chess Club",
+    "notes": "A chess club in the DMV area that meets on the weekend at Joe's & The Juice in Wildwood Shopping Plaza, Davis Library, or Montgomery Mall (Westfield Montgomery).",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/wildwood-davis-chess-club",
+    "chesscom_url": "https://www.chess.com/club/wildwood-davis-chess-club"
+  },
+  {
+    "json_index": 812,
+    "id": "home_grown_chess",
+    "name": "Home Grown Chess",
+    "notes": "we are a chess club located in Willard Mo we meat weekly at Jackson st park in Willard 4-5pm on Monday all are welcome and i hope to see you there if you have any questions you can contact me at homegrownchess@gmail.com",
+    "current_hours": {
+      "Monday": {
+        "open": "16:00",
+        "close": "17:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/home-grown-chess",
+    "chesscom_url": "https://www.chess.com/club/home-grown-chess"
+  },
+  {
+    "json_index": 813,
+    "id": "el_dorado_hills_and_folsom_chess_club",
+    "name": "El Dorado Hills and Folsom Chess Club",
+    "notes": "Whether you're a regular tournament competitor or a beginning player, the El Dorado Hills & Folsom Chess Club welcomes all skill levels and all ages to have fun and enjoy casual chess games! Sharpen your skills and test your tactics! Free admission and no cost to play. This online Chess Club is open only to members of the El Dorado Hills & Folsom Chess Club. If you wish to join our online Club, please first contact the Club's Administrator to request to be a member of the El Dorado Hills & Folsom Chess Club. The purpose of the El Dorado Hills & Folsom Chess Club on Chess.com is to enable our members to play each other and potentially other Clubs online in an arena format. This gives the Club the flexibility to play games online and OTB on a specific day, time and duration. This online format also gives more opportunities for club members to enjoy playing chess with one another.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/el-dorado-hills-and-folsom-chess-club",
+    "chesscom_url": "https://www.chess.com/club/el-dorado-hills-and-folsom-chess-club"
+  },
+  {
+    "json_index": 814,
+    "id": "gastonia_booksamillion_chess_club",
+    "name": "Gastonia Books-A-Million Chess Club",
+    "notes": "Every Wednesday night from 6pm-7:30p Welcome to the Books-A-Million Chess Club! Our aim is to support our community with a space for some free fun and to encourage social growth in the area. Grab some coffee, find a nice book, and play some chess! Please make sure to keep all Chess boards and pieces within the bounds of the cafe. We look forward to seeing you soon!",
+    "current_hours": {
+      "Wednesday": {
+        "open": "18:00",
+        "close": "19:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/gastonia-books-a-million-chess-club",
+    "chesscom_url": "https://www.chess.com/club/gastonia-books-a-million-chess-club"
+  },
+  {
+    "json_index": 815,
+    "id": "payson_library_chess_club",
+    "name": "Payson Library Chess Club",
+    "notes": "The local chess club meeting at the Payson City Library every Tuesday at 6:30 PM.",
+    "current_hours": {
+      "Tuesday": {
+        "open": "18:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/payson-library-chess-club",
+    "chesscom_url": "https://www.chess.com/club/payson-library-chess-club"
+  },
+  {
+    "json_index": 816,
+    "id": "point_chess_club",
+    "name": "Point Chess Club",
+    "notes": "Located in Stevens Point, Wisconsin. Meets at downtown 7 PM on Tuesdays.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/point-chess-club",
+    "chesscom_url": "https://www.chess.com/club/point-chess-club"
+  },
+  {
+    "json_index": 817,
+    "id": "cocktails_and_chess_florence",
+    "name": "Cocktails and Chess Florence",
+    "notes": "monthly get together to casually play chess and learn from each other (as well as get ripped on coconut flavored beverages)",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/cocktails-and-chess-florence",
+    "chesscom_url": "https://www.chess.com/club/cocktails-and-chess-florence"
+  },
+  {
+    "json_index": 818,
+    "id": "gainesville_chess_club",
+    "name": "Gainesville Chess Club",
+    "notes": "We are real-life players in Gainesville; we gather and play live.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/gainesville-chess-club",
+    "chesscom_url": "https://www.chess.com/club/gainesville-chess-club"
+  },
+  {
+    "json_index": 819,
+    "id": "motor_city_knights_chess_club",
+    "name": "Motor City Knights Chess Club",
+    "notes": "Motor City Knights Chess Club is based in Detroit, Michigan and founded by fellow chess enthusiasts, coaches and tournament directors, shane bernardo and Ryan Aman. We pride ourselves on fostering a welcoming, beginner-friendly environment where everyone can come to play regardless of skill level. We meet semi-regularly every week on Sunday mornings from 9am to noon. If you are interested in joining us over the board for casual play, please leave a comment or DM.",
+    "current_hours": {
+      "Sunday": {
+        "open": "09:00",
+        "close": "12:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/motor-city-knights-chess-club",
+    "chesscom_url": "https://www.chess.com/club/motor-city-knights-chess-club"
+  },
+  {
+    "json_index": 820,
+    "id": "sandusky_chess_club",
+    "name": "Sandusky Chess Club",
+    "notes": "An informal chess group that plays in person in Sandusky Ohio. See \"About Club\" for details.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/sandusky-chess-club",
+    "chesscom_url": "https://www.chess.com/club/sandusky-chess-club"
+  },
+  {
+    "json_index": 821,
+    "id": "axehead_beverage_co_chess_club",
+    "name": "Axehead Beverage Co. Chess Club",
+    "notes": "Chess Club for Axehead Meadery & Brewery. Located on the square in Seymour, Missouri. https://www.facebook.com/share/1GUMoxnFZD/",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/axehead-beverage-co-chess-club",
+    "chesscom_url": "https://www.chess.com/club/axehead-beverage-co-chess-club"
+  },
+  {
+    "json_index": 822,
+    "id": "white_mtns_otb_chess_club",
+    "name": "White Mtns OTB Chess Club",
+    "notes": "Regular meet ups for Over the Board games. Thursday morning at Turn of the Card community center & a weekend location coming soon.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/white-mtns-otb-chess-club",
+    "chesscom_url": "https://www.chess.com/club/white-mtns-otb-chess-club"
+  },
+  {
+    "json_index": 823,
+    "id": "queen_city_chess_club_of_new_iberia",
+    "name": "Queen City Chess Club of New Iberia",
+    "notes": "Queen City Chess Club was recently created and is an official affiliate of the US Chess Federation. We offer over the board games once a week in New Iberia or towns close to New Iberia found in Iberia Parish. We maintain a facebook page and have players from around Lousiana who join us to play. We accept all players including those who simply want to learn how to play the game of chess. We offer a casual environment and causal play for no ratings at our weekly over the board events. During the summer of 2025 we will begin holding tournaments on Chess.com. Your online rating does not affect your official USCF “Over the Board” rating, so join us to have some fun.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/queen-city-chess-club-of-new-iberia",
+    "chesscom_url": "https://www.chess.com/club/queen-city-chess-club-of-new-iberia"
+  },
+  {
+    "json_index": 824,
+    "id": "pho_chess_club",
+    "name": "Pho Chess Club",
+    "notes": "We are a Chess club meets in a local restaurant.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/pho-chess-club",
+    "chesscom_url": "https://www.chess.com/club/pho-chess-club"
+  },
+  {
+    "json_index": 825,
+    "id": "sixty_four_squares_dallas",
+    "name": "Sixty Four Squares - Dallas",
+    "notes": "Welcome to Sixty Four Squares, a Dallas-based chess club dedicated to making chess fun, social, and accessible to all ages! We host weekly chess events across Dallas, Frisco, Addison, and Plano - including park meedups, cafe socials, and special partner events. Whether you're a beginner looking to learn or a seasoned player seeking a community, there's a place for you here. Join us, meet new friends, and enjoy the game!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/sixty-four-squares-dallas",
+    "chesscom_url": "https://www.chess.com/club/sixty-four-squares-dallas"
+  },
+  {
+    "json_index": 826,
+    "id": "greater_dc_chess",
+    "name": "Greater DC Chess",
+    "notes": "A place for chess players in the DC/Greater DMV Area to easily be able to find opportunities to play and connect with fellow players both in over the board tournaments/meetups as well as online.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/greater-dc-chess",
+    "chesscom_url": "https://www.chess.com/club/greater-dc-chess"
+  },
+  {
+    "json_index": 827,
+    "id": "collinsville_library_chess_club",
+    "name": "Collinsville Library Chess Club",
+    "notes": "Meetups every Saturday 3:30pm-5:30pm in the basement!",
+    "current_hours": {
+      "Saturday": {
+        "open": "15:30",
+        "close": "17:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/collinsville-library-chess-club",
+    "chesscom_url": "https://www.chess.com/club/collinsville-library-chess-club"
+  },
+  {
+    "json_index": 828,
+    "id": "hernando_ms_chess_club",
+    "name": "hernando ms chess club",
+    "notes": "unofficial chess club for hernando mississippi. any rating anyone can join with request.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/hernando-ms-chess-club",
+    "chesscom_url": "https://www.chess.com/club/hernando-ms-chess-club"
+  },
+  {
+    "json_index": 829,
+    "id": "ne_texas_chess_community",
+    "name": "NE Texas Chess Community",
+    "notes": "Howdy! This is a local chess club for anyone in NE Texas from Fort Worth to Texarkana looking for some local players and new friends",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/ne-texas-chess-community",
+    "chesscom_url": "https://www.chess.com/club/ne-texas-chess-community"
+  },
+  {
+    "json_index": 830,
+    "id": "new_england_unofficial_chess_club",
+    "name": "New England Unofficial Chess Club",
+    "notes": "This is the unofficial chess club of New England (NEUCC). There are not many people in this club yet, but I'd like to see this grow into a large community. If you live in the New England area of the United States, you can join! No age limits, no elo requirements; even beginners can join! If there's anything to make this better, please tell me! Thank you for considering!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/new-england-unofficial-chess-club",
+    "chesscom_url": "https://www.chess.com/club/new-england-unofficial-chess-club"
+  },
+  {
+    "json_index": 831,
+    "id": "jasper_county_chess_club",
+    "name": "Jasper County Chess Club",
+    "notes": "The chess club for everyone in Monticello, GA",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/jasper-county-chess-club",
+    "chesscom_url": "https://www.chess.com/club/jasper-county-chess-club"
+  },
+  {
+    "json_index": 832,
+    "id": "trans_club",
+    "name": "Trans Club",
+    "notes": "A Club For The Trans Folks (Or Allies) 🏳️‍⚧️ Just Here To Have Fun, And Maybe Win Tournaments From Time To Time. Toodles!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/trans-club",
+    "chesscom_url": "https://www.chess.com/club/trans-club"
+  },
+  {
+    "json_index": 833,
+    "id": "the_gospel_and_gambits_chess_club",
+    "name": "The Gospel and Gambits Chess Club",
+    "notes": "We're for those who have attended our local club in person. If you have, just let us know who you are and we'll let you in!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/the-gospel-and-gambits-chess-club",
+    "chesscom_url": "https://www.chess.com/club/the-gospel-and-gambits-chess-club"
+  },
+  {
+    "json_index": 834,
+    "id": "charleston_coffeehouse_chess",
+    "name": "Charleston Coffeehouse Chess",
+    "notes": "A weekly group for friendly over-the-board chess in Charleston, SC..",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/charleston-coffeehouse-chess",
+    "chesscom_url": "https://www.chess.com/club/charleston-coffeehouse-chess"
+  },
+  {
+    "json_index": 835,
+    "id": "turkish_american_chess_community_of_washington",
+    "name": "Turkish American Chess Community of Washington",
+    "notes": "Welcome to the Turkish American Chess Community of Washington! This club brings together chess lovers from the Turkish-American community in the Seattle area. Whether you’re a beginner or an experienced player, you’re in the right place to enjoy games, improve your skills, and connect with others. Group Rules: Be respectful and kind to one another. Keep conversations friendly and inclusive. No offensive, inappropriate, or political content. Absolutely no cheating — use of chess engines or outside assistance during games is not allowed and goes against the spirit of the game. Play fair — good sportsmanship is expected. This is a community space — help us keep it positive and fun! We’re excited to have you with us. Let’s enjoy honest, respectful, and fun chess together! Washington Türk Amerikan Satranç Topluluğu’na hoş geldiniz! Bu kulüp, Seattle bölgesindeki Türk-Amerikan topluluğundaki satranç severleri bir araya getiriyor. İster yeni başlayan olun ister deneyimli bir oyuncu, burada oyun oynamak, gelişmek ve yeni insanlarla tanışmak için doğru yerdesiniz. Topluluk Kuralları: Birbirimize saygılı ve nazik olalım. Sohbetler dostça ve kapsayıcı olsun. Küfürlü, uygunsuz ya da siyasi içerik paylaşmayalım. Hileye kesinlikle yer yok — satranç motoru ya da dış yardım kullanmak oyunun ruhuna aykırıdır ve kabul edilmez. Adil oynayalım — sportmenlik bizim için önemlidir. Burası bir topluluk alanı — ortamın pozitif ve keyifli kalmasına hep birlikte dikkat edelim. Aramıza katıldığınız için çok mutluyuz. Haydi dürüst, saygılı ve keyifli maçlarla satrançın tadını birlikte çıkaralım!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/turkish-american-chess-community-of-washington",
+    "chesscom_url": "https://www.chess.com/club/turkish-american-chess-community-of-washington"
+  },
+  {
+    "json_index": 836,
+    "id": "glendale_ca_chess",
+    "name": "Glendale CA Chess",
+    "notes": "(THIS CLUB DOES NOT BELONG TO THE CITY OF GLENDALE, IT IS UNOFFICIAL!) Unofficial Chess Club for the city of Glendale California. To join, you must be 13+ and a resident of Glendale California.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/glendale-ca-chess",
+    "chesscom_url": "https://www.chess.com/club/glendale-ca-chess"
+  },
+  {
+    "json_index": 837,
+    "id": "memento_rex",
+    "name": "Memento Rex",
+    "notes": "Memento Rex is more than a chess club — it's a brotherhood of thinkers, tacticians, and leaders who embrace the beauty of the game and the weight of the crown. Rooted in strategy, discipline, and legacy, our club is where moves matter and minds sharpen. Whether you’re a grandmaster in the making or just learning how to castle, you’re welcome here. We meet weekly to play, learn, and grow — on the board and in life. Tournaments, deep dives into strategy, occasional mic’d-up blitz battles, and off-the-board conversations that hit just as hard. 64 squares. Infinite possibilities. Always remember the King.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/memento-rex",
+    "chesscom_url": "https://www.chess.com/club/memento-rex"
+  },
+  {
+    "json_index": 838,
+    "id": "bartow_co_ga_chess_club",
+    "name": "Bartow Co. GA Chess Club",
+    "notes": "Welcome to the chess club for Bartow County, Georgia! Whether you’re a casual player, a competitive tactician, or just learning the ropes, this club is open to all who live in or have ties to Bartow County and want to connect through chess. We’re here to build a local chess community—online and (hopefully) over the board. Join us for friendly games, tournaments, and conversation with fellow chess enthusiasts in the area. Let’s put Bartow on the chess map—one move at a time! PS - if you know the guy who started the other Bartow county club, please tell him we need to merge or something. I made this club because his looked inactive and I wanted to join.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/bartow-co-ga-chess-club",
+    "chesscom_url": "https://www.chess.com/club/bartow-co-ga-chess-club"
+  },
+  {
+    "json_index": 839,
+    "id": "old_east_dallas_chess_club",
+    "name": "OLD EAST DALLAS CHESS CLUB",
+    "notes": "Our club is welcoming to beginners, intermediate, expert, and all level chess players. If you are in Dallas, check out our club. We meet every Thursday evening from 7pm-11pm.",
+    "current_hours": {
+      "Thursday": {
+        "open": "19:00",
+        "close": "23:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/old-east-dallas-chess-club-1",
+    "chesscom_url": "https://www.chess.com/club/old-east-dallas-chess-club-1"
+  },
+  {
+    "json_index": 840,
+    "id": "corrales_chess_club",
+    "name": "Corrales Chess Club",
+    "notes": "A small, informal club for all chess players, from brand new to advanced.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/corrales-chess-club",
+    "chesscom_url": "https://www.chess.com/club/corrales-chess-club"
+  },
+  {
+    "json_index": 841,
+    "id": "utqiagvik_chess_club",
+    "name": "Utqiagvik Chess Club",
+    "notes": "Welcome to the northernmost chess community in the United States! The Utqiagvik Chess Club is a close-knit group of players from all walks of life — students, elders, professionals, and lifelong locals — united by a shared love for the game. Our remote Arctic town may be far from the rest of the world, but the spirit of competition and camaraderie is alive and well around our boards. Whether you’re a seasoned player or just learning how the pieces move, you’ll find a welcoming space here. We gather casually throughout the year for fun matches and friendly rivalry, and each spring we host our Annual Piraaguaqta Chess Tournament , where tradition, strategy, and community pride come together. Join us, make a move, and be part of something special — right here in Utqiagvik.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/utqiagvik-chess-club",
+    "chesscom_url": "https://www.chess.com/club/utqiagvik-chess-club"
+  },
+  {
+    "json_index": 842,
+    "id": "livingston_mt_games",
+    "name": "Livingston MT Games",
+    "notes": "This is Livingston MT’s chess and games club. To join the club, show up at a meeting in the library on Wednesday or Friday at 3:45 Mountain Time and tell me your account username. Then, I will approve your join request to this club.",
+    "current_hours": {
+      "Wednesday": {
+        "open": "15:45"
+      },
+      "Friday": {
+        "open": "15:45"
+      }
+    },
+    "current_website": "https://www.chess.com/club/livingston-mt-games",
+    "chesscom_url": "https://www.chess.com/club/livingston-mt-games"
+  },
+  {
+    "json_index": 843,
+    "id": "jcc_ymca_edison",
+    "name": "JCC - YMCA Edison",
+    "notes": "JCC/YMCA of Edison Chess Club",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/jcc-ymca-edison",
+    "chesscom_url": "https://www.chess.com/club/jcc-ymca-edison"
+  },
+  {
+    "json_index": 844,
+    "id": "estrella_life_chess_club",
+    "name": "Estrella Life Chess Club",
+    "notes": "This is the Chess.com home of the Estrella Life Chess Club (ELCC) . We are a place for residents and friends of Estrella Mountain Ranch who enjoy chess to meet, socialize, learn, and compete. The club is open to all skill levels and ages. You can also keep up with us on the Estrella Life Chess Club Facebook Group .",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/estrella-life-chess-club",
+    "chesscom_url": "https://www.chess.com/club/estrella-life-chess-club"
+  },
+  {
+    "json_index": 845,
+    "id": "the_greater_columbus_chess_club",
+    "name": "The Greater Columbus Chess Club",
+    "notes": "The Greater Columbus Chess Club was founded by Dave Antonucci and Bhavya Singhal with the goal to strengthen the chess culture in Ohio by hosting weekly chess tournaments for players of all skill levels. See less",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/the-greater-columbus-chess-club",
+    "chesscom_url": "https://www.chess.com/club/the-greater-columbus-chess-club"
+  },
+  {
+    "json_index": 846,
+    "id": "marlboro_invitational",
+    "name": "Marlboro Invitational",
+    "notes": "Welcome to this fun and all experience level club. This club features tournaments at select locations (MMMS Middle School or Virtual) and potential prize money. We thank all who accept this fantastic local chess club.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/marlboro-invitational",
+    "chesscom_url": "https://www.chess.com/club/marlboro-invitational"
+  },
+  {
+    "json_index": 847,
+    "id": "new_hmapshire_chess_club",
+    "name": "New Hmapshire Chess Club",
+    "notes": "A chess club for residents of the granite state. All NH residents are welcome!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/new-hmapshire-chess-club",
+    "chesscom_url": "https://www.chess.com/club/new-hmapshire-chess-club"
+  },
+  {
+    "json_index": 848,
+    "id": "cape_library_chess_club",
+    "name": "Cape Library Chess Club",
+    "notes": "The official club page for the Cape Girardeau Public Library Chess Club. All are welcome to play!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/cape-library-chess-club",
+    "chesscom_url": "https://www.chess.com/club/cape-library-chess-club"
+  },
+  {
+    "json_index": 849,
+    "id": "miamidade_chess_club",
+    "name": "Miami-Dade Chess Club",
+    "notes": "(MDCC) Hello, My Name is Brandon Cisneros, I have Currently Created this Club for People of MIAMI Specifically, We will be Playing Together as a Team in Other States and Continents. We can Practice Against Each Other and Explaining Games Played Against Other Chess Players, So We can Elevate Together in the Chess Society and Chess Journey. Good Luck to You and Please Tell Your Friends! We can Host Meet Ups Also",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/miami-dade-chess-club",
+    "chesscom_url": "https://www.chess.com/club/miami-dade-chess-club"
+  },
+  {
+    "json_index": 850,
+    "id": "amherst_ohio_chess_players_society",
+    "name": "Amherst Ohio chess players society",
+    "notes": "The Amherst Chess Players Society is a welcoming group for chess enthusiasts of all ages and skill levels, offering casual play through regular in-person meetups, an online community and strategy discussions. We prioritize fair play, respect, and camaraderie",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/amherst-ohio-chess-players-society",
+    "chesscom_url": "https://www.chess.com/club/amherst-ohio-chess-players-society"
+  },
+  {
+    "json_index": 851,
+    "id": "new_braunfels_2025",
+    "name": "New Braunfels 2025",
+    "notes": "Hey all! new-braunfels-chess-club on Chess.com isn't maintained, so I'm posting here for people to find us! The New Braunfels Wurst Chess Club meets Mondays and I intend to be there most meet ups. 🙂: https://www.facebook.com/groups/986171379171001/ This Chess.com club is primarily for cross-posting from Facebook.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/new-braunfels-2025",
+    "chesscom_url": "https://www.chess.com/club/new-braunfels-2025"
+  },
+  {
+    "json_index": 852,
+    "id": "torrance_chess_players",
+    "name": "Torrance Chess Players",
+    "notes": "A club for chess players of all ages in Torrance and the South Bay.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/torrance-chess-players",
+    "chesscom_url": "https://www.chess.com/club/torrance-chess-players"
+  },
+  {
+    "json_index": 853,
+    "id": "portales_chess_club",
+    "name": "Portales Chess Club",
+    "notes": "A Chess Club for anyone who lives in the city of Portales, New Mexico.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/portales-chess-club",
+    "chesscom_url": "https://www.chess.com/club/portales-chess-club"
+  },
+  {
+    "json_index": 854,
+    "id": "new_york_city_chess_meetups",
+    "name": "New York City Chess Meetups",
+    "notes": "The New York City Chess Meetups group meets in-person on Saturday afternoons at The Living Room @ Pier 57 (indoor restaurant hall) in New York City. All events are completely free. Join at https://www.meetup.com/chesscom-group-new-york/",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/new-york-city-chess-meetups",
+    "chesscom_url": "https://www.chess.com/club/new-york-city-chess-meetups"
+  },
+  {
+    "json_index": 855,
+    "id": "sylvanpark",
+    "name": "SylvanPark",
+    "notes": "This is a forum for people to get out of the house, meet and play chess in person.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/sylvanpark",
+    "chesscom_url": "https://www.chess.com/club/sylvanpark"
+  },
+  {
+    "json_index": 856,
+    "id": "woodland_public_library_chess_club",
+    "name": "Woodland Public Library Chess Club",
+    "notes": "Hello! We are a club that meets every tuesday at the library. We enjoy learning, all ages welcome!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/woodland-public-library-chess-club",
+    "chesscom_url": "https://www.chess.com/club/woodland-public-library-chess-club"
+  }
+]

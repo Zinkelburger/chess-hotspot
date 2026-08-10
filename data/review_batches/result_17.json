@@ -1,0 +1,450 @@
+[
+  {
+    "json_index": 1852,
+    "id": "aegis_living_chess_club_aptossanta_cruz",
+    "city": "Aptos",
+    "state": "CA",
+    "address": "125 Heather Terrace, Aptos, CA 95003"
+  },
+  {
+    "json_index": 1853,
+    "id": "the_chess_club_at_lakeforest_mall",
+    "city": "Gaithersburg",
+    "state": "MD",
+    "address": "701 Russell Ave, Montgomery Village, Gaithersburg, MD 20877"
+  },
+  {
+    "json_index": 1854,
+    "id": "boyston_chess_club",
+    "city": "Somerville",
+    "state": "MA",
+    "address": "240 Elm St, Suite B9, Somerville, MA 02144"
+  },
+  {
+    "json_index": 1855,
+    "id": "winchester_chess_club2",
+    "city": "Winchester",
+    "state": "MA",
+    "address": "67 Shore Rd, Winchester, MA 01890"
+  },
+  {
+    "json_index": 1856,
+    "id": "bartlesville_chess_club2",
+    "city": "Bartlesville",
+    "state": "OK",
+    "address": "4715 Price Road, Bartlesville, OK 74006"
+  },
+  {
+    "json_index": 1857,
+    "id": "westport_chess_club_of_kc_mo",
+    "city": "Kansas City",
+    "state": "MO",
+    "address": null
+  },
+  {
+    "json_index": 1858,
+    "id": "glen_rose_chess",
+    "city": "Glen Rose",
+    "state": "TX",
+    "address": "Barnard St, Glen Rose, TX 76043"
+  },
+  {
+    "json_index": 1859,
+    "id": "sacramento_ymca_chess_players",
+    "city": "Sacramento",
+    "state": "CA",
+    "address": "Corner of W & 21st St, Sacramento, CA"
+  },
+  {
+    "json_index": 1860,
+    "id": "fresno_chess_club",
+    "city": "Fresno",
+    "state": "CA",
+    "address": "30 E Herndon Ave, Fresno, CA 93720"
+  },
+  {
+    "json_index": 1861,
+    "id": "dca_chess_club",
+    "city": "Donelson",
+    "state": "TN",
+    "address": null
+  },
+  {
+    "json_index": 1862,
+    "id": "fog_city_knights",
+    "city": "San Francisco",
+    "state": "CA",
+    "address": "1300 Fulton St, San Francisco, CA 94117"
+  },
+  {
+    "json_index": 1863,
+    "id": "white_lion_society",
+    "city": "Indianapolis",
+    "state": "IN",
+    "address": "96th St, Indianapolis, IN"
+  },
+  {
+    "json_index": 1864,
+    "id": "newtown_chess_club",
+    "city": "Newtown",
+    "state": "CT",
+    "address": "CH Booth Library, Main Street, Newtown, CT"
+  },
+  {
+    "json_index": 1865,
+    "id": "flagstaff_chess_club",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "address": "14 South Beaver Street, Flagstaff, AZ 86001"
+  },
+  {
+    "json_index": 1866,
+    "id": "newtown_chess_club2",
+    "city": "Newtown",
+    "state": "CT",
+    "address": "25 Main Street, Newtown, CT"
+  },
+  {
+    "json_index": 1867,
+    "id": "emerald_coast_chess_club2",
+    "city": "Destin",
+    "state": "FL",
+    "address": "Books-a-Million, Destin Commons, Destin, FL 32541"
+  },
+  {
+    "json_index": 1868,
+    "id": "casual_chess",
+    "city": "Wyandotte",
+    "state": "MI",
+    "address": "45 Vinewood Street, Wyandotte, MI 48192"
+  },
+  {
+    "json_index": 1869,
+    "id": "chess_the_ford",
+    "city": "Western Springs",
+    "state": "IL",
+    "address": "800 Chestnut St, Western Springs, IL 60558"
+  },
+  {
+    "json_index": 1870,
+    "id": "arlington_chess_club_in_texas",
+    "city": "Arlington",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1871,
+    "id": "fort_walton_chess_club",
+    "city": "Mary Esther",
+    "state": "FL",
+    "address": "Mary Esther Cut-off, Mary Esther, FL 32547"
+  },
+  {
+    "json_index": 1872,
+    "id": "greensboro_chess_club_knights_of_vandalia",
+    "city": "Greensboro",
+    "state": "NC",
+    "address": "2301 West Vandalia Road, Greensboro, NC 27407"
+  },
+  {
+    "json_index": 1873,
+    "id": "coffee_house_irregulars",
+    "city": "Gallup",
+    "state": "NM",
+    "address": "306 S Second St, Gallup, NM 87301"
+  },
+  {
+    "json_index": 1874,
+    "id": "santa_monica_chess_park",
+    "city": "Santa Monica",
+    "state": "CA",
+    "address": "South of Muscle Beach along Ocean Front Walk, Santa Monica, CA 90401"
+  },
+  {
+    "json_index": 1875,
+    "id": "encino_starbucks",
+    "city": "Encino",
+    "state": "CA",
+    "address": "16461 Ventura Blvd, Encino, CA 91436"
+  },
+  {
+    "json_index": 1876,
+    "id": "west_san_fernando_valley_chess_club_la",
+    "city": "West Hills",
+    "state": "CA",
+    "address": "22622 Vanowen St, West Hills, CA"
+  },
+  {
+    "json_index": 1877,
+    "id": "sw_florida_chess_club",
+    "city": "Estero",
+    "state": "FL",
+    "address": "9200 Corkscrew Palms Blvd, Estero, FL 33928"
+  },
+  {
+    "json_index": 1878,
+    "id": "redlands_chess_club_yes",
+    "city": "Redlands",
+    "state": "CA",
+    "address": "111 W Lugonia Ave, Redlands, CA 92373"
+  },
+  {
+    "json_index": 1879,
+    "id": "black_rock_chess_club",
+    "city": "Bridgeport",
+    "state": "CT",
+    "address": "2470 Fairfield Ave, Bridgeport, CT 06605"
+  },
+  {
+    "json_index": 1880,
+    "id": "what_ever",
+    "city": null,
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 1881,
+    "id": "southeast_ma_chess_club",
+    "city": "Plainville",
+    "state": "MA",
+    "address": "16 E Bacon St, Plainville, MA 02048"
+  },
+  {
+    "json_index": 1882,
+    "id": "sheboygan_area_chess_club",
+    "city": "Sheboygan",
+    "state": "WI",
+    "address": null
+  },
+  {
+    "json_index": 1883,
+    "id": "cranstonwarwick_chess_club",
+    "city": "Cranston",
+    "state": "RI",
+    "address": "100 Midway Road, Cranston, RI 02920"
+  },
+  {
+    "json_index": 1884,
+    "id": "purple_and_gold_chess_club_baton_rouge",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "address": "3132 College Drive, Baton Rouge, LA 70808"
+  },
+  {
+    "json_index": 1885,
+    "id": "atlanta_chess_mess",
+    "city": "Atlanta",
+    "state": "GA",
+    "address": "602 N Highland Avenue Northeast, Atlanta, GA 30307"
+  },
+  {
+    "json_index": 1886,
+    "id": "willows_chess_club",
+    "city": "San Jose",
+    "state": "CA",
+    "address": "2175 Lincoln Ave, San Jose, CA"
+  },
+  {
+    "json_index": 1887,
+    "id": "abilene_chess_club",
+    "city": "Abilene",
+    "state": "TX",
+    "address": "1095 N Judge Ely, Abilene, TX 79601"
+  },
+  {
+    "json_index": 1888,
+    "id": "chess_club_free_school",
+    "city": "Fort Collins",
+    "state": "CO",
+    "address": "120 1/2 W Laurel St, Fort Collins, CO 80526"
+  },
+  {
+    "json_index": 1889,
+    "id": "four_corners_chess_club",
+    "city": "Farmington",
+    "state": "NM",
+    "address": null
+  },
+  {
+    "json_index": 1890,
+    "id": "red_rose_chess_club",
+    "city": "Lancaster",
+    "state": "PA",
+    "address": "Fruitville Pike, Lancaster, PA"
+  },
+  {
+    "json_index": 1891,
+    "id": "huntsville_tx_chess_club",
+    "city": "Huntsville",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 1892,
+    "id": "westfield_chess_club2",
+    "city": "Westfield",
+    "state": "MA",
+    "address": "182 North Elm Street, Westfield, MA 01085"
+  },
+  {
+    "json_index": 1893,
+    "id": "river_valley_community_chess_association_rvcca",
+    "city": "Spring Green",
+    "state": "WI",
+    "address": "230 East Monroe Street, Spring Green, WI 53588"
+  },
+  {
+    "json_index": 1894,
+    "id": "watertown_chess_knights",
+    "city": "Watertown",
+    "state": "NY",
+    "address": "154 Stone Street, Watertown, NY 13601"
+  },
+  {
+    "json_index": 1895,
+    "id": "andover_chess_club2",
+    "city": "Methuen",
+    "state": "MA",
+    "address": "Holy Family Hospital Board Room, Methuen, MA"
+  },
+  {
+    "json_index": 1896,
+    "id": "evanston_chess_club",
+    "city": "Evanston",
+    "state": "IL",
+    "address": "300 Dodge Ave, Evanston, IL 60201"
+  },
+  {
+    "json_index": 1897,
+    "id": "chess_pistols",
+    "city": "Houston",
+    "state": "TX",
+    "address": "1001 Westheimer Road, Houston, TX 77042"
+  },
+  {
+    "json_index": 1898,
+    "id": "portland_chess_association",
+    "city": "Portland",
+    "state": "OR",
+    "address": "915 SE Hawthorne Blvd, Portland, OR 97214"
+  },
+  {
+    "json_index": 1899,
+    "id": "brownwod_chess_club",
+    "city": "Brownwood",
+    "state": "TX",
+    "address": "400 Fisk Ave, Brownwood, TX 76801"
+  },
+  {
+    "json_index": 1900,
+    "id": "frisco_chess_club",
+    "city": "Frisco",
+    "state": "TX",
+    "address": "6101 Frisco Square Boulevard #3000, Frisco, TX 75035"
+  },
+  {
+    "json_index": 1901,
+    "id": "blount_co_library",
+    "city": "Maryville",
+    "state": "TN",
+    "address": "508 Cusick Street, Maryville, TN 37804"
+  },
+  {
+    "json_index": 1902,
+    "id": "chess_club_of_fairfield_county2",
+    "city": "Norwalk",
+    "state": "CT",
+    "address": "710 West Avenue, Norwalk, CT 06825"
+  },
+  {
+    "json_index": 1903,
+    "id": "blaine_library_chess_club",
+    "city": "Blaine",
+    "state": "WA",
+    "address": "610 3rd Street, Blaine, WA 98230"
+  },
+  {
+    "json_index": 1905,
+    "id": "kingman_chess_club",
+    "city": "Kingman",
+    "state": "AZ",
+    "address": "3345 Harrison St, Kingman, AZ 86401"
+  },
+  {
+    "json_index": 1906,
+    "id": "hoffers_chess_academy",
+    "city": "Tampa",
+    "state": "FL",
+    "address": "5035 E Busch Blvd, Suite 10, Tampa, FL 33617"
+  },
+  {
+    "json_index": 1907,
+    "id": "fauquier_chess_club",
+    "city": "Bealeton",
+    "state": "VA",
+    "address": "6335 Village Center Drive #434, Bealeton, VA 22712"
+  },
+  {
+    "json_index": 1908,
+    "id": "lakeforest_mall_chess_club",
+    "city": "Gaithersburg",
+    "state": "MD",
+    "address": "701 Russell Ave, Gaithersburg, MD 20877"
+  },
+  {
+    "json_index": 1909,
+    "id": "schmitz_park",
+    "city": "Seattle",
+    "state": "WA",
+    "address": null
+  },
+  {
+    "json_index": 1910,
+    "id": "clark_county_chess_club",
+    "city": "Las Vegas",
+    "state": "NV",
+    "address": "2040 W Charleston Blvd, 6th floor, Las Vegas, NV 89102"
+  },
+  {
+    "json_index": 1911,
+    "id": "bay_area_chess_club",
+    "city": "North Bend",
+    "state": "OR",
+    "address": null
+  },
+  {
+    "json_index": 1912,
+    "id": "smyrna_free_chess_club",
+    "city": "Smyrna",
+    "state": "GA",
+    "address": "2952 Cobb Pkwy, Smyrna, GA 30339"
+  },
+  {
+    "json_index": 1913,
+    "id": "free_wednesday_chess_at_the_library",
+    "city": "Alpharetta",
+    "state": "GA",
+    "address": "9560 Spruill Road, Alpharetta, GA 30022"
+  },
+  {
+    "json_index": 1914,
+    "id": "ironman_free_chess_club",
+    "city": "Decatur",
+    "state": "GA",
+    "address": "735 Sycamore Drive, Decatur, GA 30030"
+  },
+  {
+    "json_index": 1915,
+    "id": "st_patrick_chess_team",
+    "city": "Chicago",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 1916,
+    "id": "portland_chess_club23",
+    "city": "Portland",
+    "state": "OR",
+    "address": "8205 SW 24th Ave / 3732 SE 28th Place, Portland, OR 97220"
+  }
+]

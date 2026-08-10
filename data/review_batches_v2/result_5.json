@@ -1,0 +1,10 @@
+[
+  {"json_index": 1023, "id": "the_chessers_team_and_academy_overtheboard_chess_club", "hours": null, "website": "https://www.instagram.com/chessgambits_/"},
+  {"json_index": 1026, "id": "nonchalant_chess_club", "hours": null, "website": "https://www.instagram.com/nonchalantchess/"},
+  {"json_index": 1028, "id": "red_rooks", "hours": null, "website": "https://www.facebook.com/groups/redrookschess/"},
+  {"json_index": 1045, "id": "denton_chess_club_at_the_d20", "hours": {"Tuesday": {"open": "17:30", "close": "22:00"}, "Friday": {"open": "18:30", "close": "00:00"}}, "website": null},
+  {"json_index": 1054, "id": "the_tucker_chess_club", "hours": null, "website": "https://www.facebook.com/groups/285800877483698/"},
+  {"json_index": 1055, "id": "summit_county_ut_library_chess_club", "hours": null, "website": "https://www.thesummitcountylibrary.org/events/library-chess-club"},
+  {"json_index": 1059, "id": "bowling_green_chess", "hours": {"Monday": {"open": "19:00"}, "Thursday": {"open": "15:00"}}, "website": null},
+  {"json_index": 1072, "id": "harrison_township_public_library_chess_club", "hours": null, "website": "https://www.htlibrary.org/events/event/chess-club/"}
+]

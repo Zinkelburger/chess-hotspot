@@ -1,0 +1,666 @@
+[
+  {
+    "json_index": 1957,
+    "id": "city_of_kalamazoo_chess_club",
+    "name": "City of Kalamazoo Chess Club",
+    "notes": "2708 Heatherdowns LaneKalamazoo, Michigan, 49048269-341-9438Contact Email: sharface1966@hotmail.com",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/city-of-kalamazoo-chess-club",
+    "chesscom_url": "https://www.chess.com/club/city-of-kalamazoo-chess-club"
+  },
+  {
+    "json_index": 1958,
+    "id": "orange_senior_center",
+    "name": "Orange Senior Center",
+    "notes": "RECREATIONAL We meet on Tuesday at 1P.M each week.240 S. Olive St.Orange, California, 92856Contact Email:",
+    "current_hours": {
+      "Tuesday": {
+        "open": "13:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/orange-senior-center",
+    "chesscom_url": "https://www.chess.com/club/orange-senior-center"
+  },
+  {
+    "json_index": 1959,
+    "id": "raleigh_chess_club_kiwanis",
+    "name": "Raleigh Chess Club (Kiwanis)",
+    "notes": "We meet every Friday from 8 pm to 11 pm (sometimes later). The public is welcome to join us for casual chess and occasional tournaments. Blitz is very popular here. $1 fee per visit (for rent of space).2526 Noble RoadRaleigh, North Carolina, 27615Contact Email: the.raleigh.chess.club@gmail.com",
+    "current_hours": {
+      "Friday": {
+        "open": "20:00",
+        "close": "23:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/raleigh-chess-club-kiwanis",
+    "chesscom_url": "https://www.chess.com/club/raleigh-chess-club-kiwanis"
+  },
+  {
+    "json_index": 1960,
+    "id": "nvcc_alexandria_chess_club2",
+    "name": "NVCC Alexandria Chess Club2",
+    "notes": "We meet every Mondays from 1:00pm to 3:00pm and Thursdays from 5:00pm to 7:00 pm at the NVCC Alexandria Campus Cafeteria. We also organize tournaments, chess related events, and give lessons to begineers. Everyone is Welcome to Come! .3001 N Beauregard StAlexandria, Virginia, 22311groups.google.com/group/chess-nvccContact Email: chess.nvcc@gmail.com",
+    "current_hours": {
+      "Monday": {
+        "open": "13:00",
+        "close": "15:00"
+      },
+      "Thursday": {
+        "open": "17:00",
+        "close": "19:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/nvcc-alexandria-chess-club22",
+    "chesscom_url": "https://www.chess.com/club/nvcc-alexandria-chess-club22"
+  },
+  {
+    "json_index": 1961,
+    "id": "wku_knights_chess_club",
+    "name": "WKU Knights Chess Club",
+    "notes": "Thursdays from 6-9 pm all ages and skill levels open to the public. The WKU Chess Society is the premiere college and community chess fellowship in the great State of Kentucky. Located in Bowling Green, Kentucky, our goal is to incorporate chess into the culture of the University, the Community, and the scholastic districts WKU services, improving the intellectual drive and capacity of its students. We strive to challenge a new generation of Kentucky chess players from Kindergarten to College to adult by teaching and improving the quality of chess played throughout our Commonwealth.1906 collge heights blvdbowling green, ky, 42101918-809-6278www.hilltopperchess.netContact Email: hilltopperchess@live.com",
+    "current_hours": {
+      "Thursday": {
+        "open": "18:00",
+        "close": "21:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/wku-knights-chess-club",
+    "chesscom_url": "https://www.chess.com/club/wku-knights-chess-club"
+  },
+  {
+    "json_index": 1962,
+    "id": "stan_vaughans_las_vegas_chess_club",
+    "name": "Stan Vaughan's Las Vegas Chess Club",
+    "notes": "Chess Club meets Wednesdays 12-5 and Sundays noon to 5pm inside Starbucks at Von'sACA Durango at Desert Inn affiliate and ACA rated play available.Desert Inn at DurangoLas Vegas, Nevada, 89117702-418-4687www.www.wcfchess.orgContact Email:",
+    "current_hours": {
+      "Wednesday": {
+        "open": "12:00",
+        "close": "17:00"
+      },
+      "Sunday": {
+        "open": "12:00",
+        "close": "17:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/stan-vaughans-las-vegas-chess-club",
+    "chesscom_url": "https://www.chess.com/club/stan-vaughans-las-vegas-chess-club"
+  },
+  {
+    "json_index": 1963,
+    "id": "morristown_chess_club",
+    "name": "Morristown Chess Club",
+    "notes": "The Club meets on Tuesdays from 7-9:30pm on the Honeywell Corporation's property and due to security reasons you must first call Alan Stern at the number provided so they can put you on the list. Otherwise you will not be able to get on the gated property past the guards and their list.101 comumbia rdMorristown, nj, 079601-215-497-2125Contact Email:",
+    "current_hours": {
+      "Tuesday": {
+        "open": "19:00",
+        "close": "21:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/morristown-chess-club",
+    "chesscom_url": "https://www.chess.com/club/morristown-chess-club"
+  },
+  {
+    "json_index": 1964,
+    "id": "west_orange_chess_club2",
+    "name": "West Orange Chess Club2",
+    "notes": "Chess Club meets every Tuesday 7pm-midnight. Commuity Ctr is inside the park. 650 Pleasant Valley wayWest Orange, NJ, 07052Contact Email:",
+    "current_hours": {
+      "Tuesday": {
+        "open": "19:00",
+        "close": "00:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/west-orange-chess-club2",
+    "chesscom_url": "https://www.chess.com/club/west-orange-chess-club2"
+  },
+  {
+    "json_index": 1965,
+    "id": "bhs_chess_team",
+    "name": "BHS Chess Team",
+    "notes": "For anyone in Burrillville High School who would like to play chess.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/bhs-chess-team",
+    "chesscom_url": "https://www.chess.com/club/bhs-chess-team"
+  },
+  {
+    "json_index": 1966,
+    "id": "kenilworth_chess_club",
+    "name": "Kenilworth Chess Club",
+    "notes": "Established in 1972, the Kenilworth Chess Club is a fun and active club with both beginner and master chess players. We meet every Thursday night beginning at 8:00 p.m. in the Recreation Building at 575 Kenilworth Boulevard in Kenilworth, New Jersey. Enter through the rear door. The building is easy to find at the corner of 24th Street and less than a mile west of Garden State Parkway Exit 138 (see complete directions and map on our website). It is to the left of the Kenilworth Municipal Building, which houses the Kenilworth Police. Visitors and new members are always welcome and chess lessons are available. Membership is $15 per year. Membership is not required to play, but some activities (such as our annual Club Championship tournament) are open only to members. Chess sets, boards, and clocks are provided. Most meetings feature casual play and discussion. We also often host lectures, rated and unrated tournaments, team matches, and other chess events. See our club calendar for details.575 Kenilworth BoulevardKenilworth, NJ, 07033www.kenilworthchessclub.org/Contact Email:",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/kenilworth-chess-club",
+    "chesscom_url": "https://www.chess.com/club/kenilworth-chess-club"
+  },
+  {
+    "json_index": 1967,
+    "id": "piedmont_chess_club",
+    "name": "Piedmont Chess Club",
+    "notes": "Skips PlaceHwy HH just down from WalmartPiedmont, Missouri, 63957Contact Email:",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/piedmont-chess-club",
+    "chesscom_url": "https://www.chess.com/club/piedmont-chess-club"
+  },
+  {
+    "json_index": 1968,
+    "id": "ripley_chess_club",
+    "name": "Ripley Chess Club",
+    "notes": "The Ripley Chess Culb meets at the Jackson County Library located at 208 North Church Street Ripley, WV. Great things are taking place in Ripley. Peter DuPuy Memorial held at the Cedar Lakes Conference Center on Saturday 2, June drew 24 players. GM Alexander Shabalov, WIM Iryna Zenyuk, GM Justin Sarkar were in attendance. The West Virginia State Championship in September, 2012.P.O. Box 501Ripley, WV, 25271304-549-7142ripleychessclub.blogspot.comContact Email: ripleychessclub@cascable.net",
+    "current_hours": {
+      "Saturday": {
+        "open": "14:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/ripley-chess-club",
+    "chesscom_url": "https://www.chess.com/club/ripley-chess-club"
+  },
+  {
+    "json_index": 1969,
+    "id": "queen_city_chess_association",
+    "name": "Queen City Chess Association",
+    "notes": "The Queen City Chess Association (USCF Affiliate A6029063) exists to promote the game of chess in the Charlotte, NC area. Our goals are: 1) To provide Charlotte area chess players of all ages and skill levels the chance to compete and develop friendships with other community players. 2) To promote the game within the Charlotte area; develop methods to bring the game to new people, recruit them and retain them as a part of our community. 3) To develop and administer an annual tournament that is the Championship of the Charlotte area. 4) To chronicle our events and, to the best of our ability, retrieve the history of chess in the Charlotte area. 5) To act as a \"bridge\" organization for junior players to step into adult chess. 6) To develop master and Internationally titled players from within our ranks. The club currently meets each Tuesday evening from 7pm to 11pm, doors open approximately 6:30pm, and tournament chess playing begins at 7:30pm.1339 Baxter St.Charlotte, NC, 28204www.queencitychess.comContact Email: charlie.carerros@queencitychess.com",
+    "current_hours": {
+      "Tuesday": {
+        "open": "19:00",
+        "close": "23:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/queen-city-chess-association",
+    "chesscom_url": "https://www.chess.com/club/queen-city-chess-association"
+  },
+  {
+    "json_index": 1970,
+    "id": "tarrant_county_chess_club2",
+    "name": "Tarrant County Chess Club2",
+    "notes": "Welcome to the Tarrant County Chess Club! The TCCC meets every Tuesday night from 6:30 p.m. to 10:30 p.m. at the Barnes & Noble Bookstore at the North East Mall in Hurst, Texas. Players of all strengths attend regularly, so you're sure to find a competitive opponent. The club normally holds approximately 10 regular weekend tournaments per year. Check out our Events page for future tourneys. Join us and become part of the ever growing DFW chess community! If you have any questions please contact us.861 NE Mall BlvdHurst, Texas, 76053tarrantcountychessclub.orgContact Email: shivster@gmail.com",
+    "current_hours": {
+      "Tuesday": {
+        "open": "18:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/tarrant-county-chess-club22",
+    "chesscom_url": "https://www.chess.com/club/tarrant-county-chess-club22"
+  },
+  {
+    "json_index": 1971,
+    "id": "all_the_kings_men_chess_club",
+    "name": "All the King's Men Chess Club",
+    "notes": "The All the King's Men Chess Club (ATKMCC) exists to foster the enjoyment of recreational and competitive chess, to promote the development and improvement of chess knowledge amongst its members, and to inspire interest in chess throughout Southern New Jersey.Over the past year, ATKMCC has evolved into a happening place where many chess players of all skill levels come to improve their game. Whether it is just a simple stop-in to see who’s playing, to attend a beginner lesson, or play in a serious match, chess players from age eight on up can be found at the club.ATKMCC held its first meeting on February 7, 2008 and has thus far accumulated 60 members. 2016 Club Hours Monday 6 PM - 8 PM (Free chess lessons for beginners) Thursday 7 PM - 11 PM Monthly Chess TournamentsEvery Thursday we play USCF rated chess Memberships Required USCF ATKM ($25/year) 62 S. BroadwayPitman, NJ, 08071856-582-8222atkmgames.comContact Email: cs@atkmchesssets.com",
+    "current_hours": {
+      "Monday": {
+        "open": "18:00",
+        "close": "20:00"
+      },
+      "Thursday": {
+        "open": "19:00",
+        "close": "23:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/all-the-kings-men-chess-club",
+    "chesscom_url": "https://www.chess.com/club/all-the-kings-men-chess-club"
+  },
+  {
+    "json_index": 1972,
+    "id": "amphired",
+    "name": "Amphired",
+    "notes": "Slower than California...",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/amphired",
+    "chesscom_url": "https://www.chess.com/club/amphired"
+  },
+  {
+    "json_index": 1973,
+    "id": "the_challengers",
+    "name": "The Challengers",
+    "notes": "Oklahoma City, OK Local Chess Club http://www.okchallengers.org Meets: Wednesday/Friday nights @ Kamp’s 1910 Café, 10 N.E. 10th St. and Saturdays Full Circle Bookstore on 50 Penn Place (2-5).",
+    "current_hours": {
+      "Saturday": {
+        "open": "14:00",
+        "close": "17:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/the-challengers",
+    "chesscom_url": "https://www.chess.com/club/the-challengers"
+  },
+  {
+    "json_index": 1974,
+    "id": "hendersonville_chess_club2",
+    "name": "Hendersonville Chess Club2",
+    "notes": "Meets every Thursday from 6 p.m. to 9 p.m.Monthly rated tournaments699 N Grove StCorner of King and 6th (Downtown)Hendersonville, NC, 28792Contact Email: rajkipling@yahoo.com",
+    "current_hours": {
+      "Thursday": {
+        "open": "18:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/hendersonville-chess-club2",
+    "chesscom_url": "https://www.chess.com/club/hendersonville-chess-club2"
+  },
+  {
+    "json_index": 1975,
+    "id": "asheville_chess_club2",
+    "name": "Asheville Chess Club2",
+    "notes": "Meets every Wednesday night from 6:30 to 10:30pm37 Larchmont LaneAsheville, NC, 28804Tom Brown: 828-225-4195Contact Email:",
+    "current_hours": {
+      "Wednesday": {
+        "open": "18:30",
+        "close": "22:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/asheville-chess-club22",
+    "chesscom_url": "https://www.chess.com/club/asheville-chess-club22"
+  },
+  {
+    "json_index": 1976,
+    "id": "old_bridge_library_chess_club",
+    "name": "Old Bridge Library Chess Club",
+    "notes": "Meets Wednesdays at 6:30 If you would like to play chess with other adults at the library, please contact Lynn at the Adult Services Desk or call 732-721-5600 ext. 5033. Bring your chess skills and enjoy yourself at the Library. Visit the website for more information athttp://www.leaguelineup.com/welcome.asp?cmenuid=1&url=obccOne Old Bridge PlazaOld Bridge, NJ, 08857www.leaguelineup.com/welcome.asp?cmenuid=1&url=obccContact Email:",
+    "current_hours": {
+      "Wednesday": {
+        "open": "18:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/old-bridge-library-chess-club",
+    "chesscom_url": "https://www.chess.com/club/old-bridge-library-chess-club"
+  },
+  {
+    "json_index": 1977,
+    "id": "monmouth_county_chess_club",
+    "name": "Monmouth County Chess Club",
+    "notes": "Monmouth Country Chess Club Monmouth County Library Headquarters: 125 Symmes Drive, Manalapan 07726 Contact: Jim Mullanaphy (732)294-9372 Email: jmull@aol.com Meets Saturdays 10:00am - 1:00pm125 Symmes DriveManalapan, NJ, 07726Contact Email:",
+    "current_hours": {
+      "Saturday": {
+        "open": "10:00",
+        "close": "13:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/monmouth-county-chess-club",
+    "chesscom_url": "https://www.chess.com/club/monmouth-county-chess-club"
+  },
+  {
+    "json_index": 1978,
+    "id": "staunton_chess_club",
+    "name": "Staunton Chess Club",
+    "notes": "A group of chess players playing the game we love. Player ratings beginner to master play at our club. We meet Wednesdays at Coffee on the Corner 140 E Beverley St, Staunton, VA.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/staunton-chess-club",
+    "chesscom_url": "https://www.chess.com/club/staunton-chess-club"
+  },
+  {
+    "json_index": 1979,
+    "id": "midway_chess_club2",
+    "name": "Midway Chess Club2",
+    "notes": "Our Club is dedicated to serving our community by providing a valuable service. We are part of The only Midwest Team-Chess organization, the Chicago Industrial Chess League. Our members also participate in National and local Chess Tournaments. We will have a good presence at the upcoming Chicago Open. Our membership is growing at a steady pace. With this growth, we hope to be able to accomplish more, and have a larger impact upon the Chess community. We welcome you with open arms.5726 W 63rd StChicago, IL, 60638312-278-3292www.midwaychessclub.orgContact Email: william@midwaychessclub.org",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/midway-chess-club2",
+    "chesscom_url": "https://www.chess.com/club/midway-chess-club2"
+  },
+  {
+    "json_index": 1980,
+    "id": "the_laurin_keller_memorial_chess_club",
+    "name": "The Laurin Keller Memorial Chess Club",
+    "notes": "The Laurin Keller Memorial Chess Club meets every Thursday night from 6:00pm-10:00pm at the Folk Teen Center at 3910 Clifton Rd. in Greensboro, NC. We will have a USCF tournament at every meeting. The first week of every month will be a Quick Chess tournament, then followed by a 3-4 round monthly Regular Swiss tournament. Entry fee is very cheap, with the entry fee being $2-3 for Quick Chess events, and $1 per game, for the monthly swiss tournaments!! No membership fee is required!! Just come in and play and have fun! You must be a USCF member and up to date to participate in USCF tournaments, but if your not, then don't worry . . . casual play will be available every Thursday night as well. This is Greensboro's premier chess club!!3910 Clifton Rd.Greensboro, NC, 27407www.freewebs.com/greensborochessContact Email:",
+    "current_hours": {
+      "Thursday": {
+        "open": "18:00",
+        "close": "22:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/the-laurin-keller-memorial-chess-club",
+    "chesscom_url": "https://www.chess.com/club/the-laurin-keller-memorial-chess-club"
+  },
+  {
+    "json_index": 1981,
+    "id": "greensboro_chess_club",
+    "name": "Greensboro Chess Club",
+    "notes": "We plan to start this new group on Tuesday June 9th and will meet every Tuesday at 7pm from then on. This is a group for chess fans from beginner to stronger players. Someone can even teach you how to play. Games can be played with or without a time control. Let's create a face-to-face chess community here in Greensboro for some fun games.2645 Lawndale DriveGreensboro, NC, 27408www.facebook.com/group.php?gid=214809085592Contact Email: stephen@CentralCommunityLife.com",
+    "current_hours": {
+      "Tuesday": {
+        "open": "19:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/greensboro-chess-club",
+    "chesscom_url": "https://www.chess.com/club/greensboro-chess-club"
+  },
+  {
+    "json_index": 1982,
+    "id": "miami_chess_club",
+    "name": "Miami Chess Club",
+    "notes": "The academy is open 7 days a week. Enjoy informal play in an elegant club room, an extensive library and chess-playing computers. Tournaments are held every week and lessons are available at various levels.Members include about 25 people with USCF ratings above 2000. Among them are a Grand Master, an International Master, 10 FIDE Masters and 8 USCF Masters. We also have 130 members that cover Class A, B and C, including 50 student players 18 and younger.Miami International Chess Academy5880 SW 8th St. Miami, FL 33144(305) 262-2700blugo30135@aol.com www.miamichess.com5870 SW 8stMiami, FL, 33144305-262-2700www.miamichess.comContact Email: blugo30135@aol.com",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/miami-chess-club",
+    "chesscom_url": "https://www.chess.com/club/miami-chess-club"
+  },
+  {
+    "json_index": 1983,
+    "id": "ocala_chess_club",
+    "name": "Ocala Chess Club",
+    "notes": "The Ocala Chess Club meets on Saturday's at 11am to 3pm at the Marion County Public Library on Silver Springs Blvd. All ages and levels are welcome. We offer OTB Chess and lessons from a Certified Chess Coach. Members range from casual players to tournament players. The club is USCF and FCA affiliated. Location: 2720 Silver Springs Blvd., Ocala, FL, 34470 Contact Email: sk8nmaniacb@aol.com Also check out the Ocala Chess Club on Facebook",
+    "current_hours": {
+      "Saturday": {
+        "open": "11:00",
+        "close": "15:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/ocala-chess-club",
+    "chesscom_url": "https://www.chess.com/club/ocala-chess-club"
+  },
+  {
+    "json_index": 1984,
+    "id": "downers_grove_chess_club",
+    "name": "Downers Grove Chess Club",
+    "notes": "The Downers Grove Chess Club provides friendly and fun chess action. Chess players of all levels of chess experience attend and are welcome. Downers Grove Chess Club has no dues: it is entirely free to participate. DGCC membership is at 30 members, including 6 players with a master or expert rating. We have a typical attendance of about 15 players per club meeting. DGCC is an affiliate of the United States Chess Federation and of the Illinois Chess Association. DGCC fields a chess team in the Chicago Industrial Chess League.200 Village DriveDowners Grove, Illinois, 60516sites.google.com/site/downersgrovechess/Contact Email:",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/downers-grove-chess-club",
+    "chesscom_url": "https://www.chess.com/club/downers-grove-chess-club"
+  },
+  {
+    "json_index": 1985,
+    "id": "acpl_all_ages_chess_club",
+    "name": "ACPL All Ages Chess Club",
+    "notes": "900 Library PlazaFort Wayne, IN, 46802260-421-1255www.acpl.infoContact Email:",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/acpl-all-ages-chess-club",
+    "chesscom_url": "https://www.chess.com/club/acpl-all-ages-chess-club"
+  },
+  {
+    "json_index": 1986,
+    "id": "springfield_city_chess_club",
+    "name": "Springfield City Chess Club",
+    "notes": "We meet every Friday, in the Freemont Senior Center from 7:00 to 11:00 PM.2215 S. FreemontSpringfield, Missouri, 65804Contact Email:",
+    "current_hours": {
+      "Friday": {
+        "open": "19:00",
+        "close": "23:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/springfield-city-chess-club",
+    "chesscom_url": "https://www.chess.com/club/springfield-city-chess-club"
+  },
+  {
+    "json_index": 1987,
+    "id": "kneighborhood_knightz2",
+    "name": "Kneighborhood Knightz2",
+    "notes": "We bash heads every week. 20 people, 4 minute games, the ones with the most wins play for the chamionship for the week.Garth and Sexton AveColumbia, Missouri, 65201(573) 864-6145www.facebook.com/groups/kneighborhoodknightzContact Email: blaqpaladin@gmail.com",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/kneighborhood-knightz2",
+    "chesscom_url": "https://www.chess.com/club/kneighborhood-knightz2"
+  },
+  {
+    "json_index": 1988,
+    "id": "hampton_roads_chess_club2",
+    "name": "Hampton Roads Chess Club2",
+    "notes": "If you're in the area, please stop by and participate in the club.The tournaments are superb and there are players of all of strengths ranging from USCF rating 900 to 2300. ~Justin The following information is taken from the official HRCC website: About the Club Chess players of all ages are welcome at the club and are encouraged to participate in our tournaments or just play casual chess. The TCC is free and open to the general public. Players of all skill levels are invited to come and play chess. In addition to casual chess, the club holds USCF rated tournaments. There is no charge to attend the club or play casual chess. There are small entry fees ($2 - $15) to play in tournaments. USCF rated tournaments require US Chess Federation membership. This membership can be purchased at the club. To learn more about the USCF, visit their website at www.uschess.org. We meet every Tuesday. The club will be open each week except as noted. Hope to see you sometime soon. Visitors are welcome. ~ Ernie Schlich - Club Tournament Director. Hours are HRSCC Tuesdays 5:00-7:15 pmHRCC Tuesdays 7:00-10:00 pm 3229 MacDonald RoadVirginia Beach, VA, 23464www.hrchessclub.org/Contact Email: ESchlich@verizon.net",
+    "current_hours": {
+      "Tuesday": {
+        "open": "19:00",
+        "close": "22:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/tidewater-chess-club2",
+    "chesscom_url": "https://www.chess.com/club/tidewater-chess-club2"
+  },
+  {
+    "json_index": 1989,
+    "id": "midway_chess_club",
+    "name": "Midway Chess Club",
+    "notes": "We are the Midway Chess Club. We meet at 5627-29 West 63rd. Street Chicago, Illinois - 60638 on Tuesday nights from 7pm to 10pm. All are welcome. We also play in the Chicago Industrial Chess League and are always looking for new members.",
+    "current_hours": {
+      "Tuesday": {
+        "open": "19:00",
+        "close": "22:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/midway-chess-club",
+    "chesscom_url": "https://www.chess.com/club/midway-chess-club"
+  },
+  {
+    "json_index": 1990,
+    "id": "tea_lounge_vultures",
+    "name": "Tea Lounge Vultures",
+    "notes": "We are a pretty casual group of players who meet weekly to play speed games. We meet every Friday at The Tea Lounge (837 Union St, Brooklyn, NY 11215). Everybody is welcome!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/tea-lounge-vultures",
+    "chesscom_url": "https://www.chess.com/club/tea-lounge-vultures"
+  },
+  {
+    "json_index": 1991,
+    "id": "janesville_chess_association",
+    "name": "Janesville Chess Association",
+    "notes": "Casual games on Saturday afternoons from 12:30 to 4:30 in meeting room in the lower level of the public library. Players of all levels of ability are welcome.316 South Main StreetJanesville, WI, 53545608-314-5673Contact Email: davelancour@yahoo.com",
+    "current_hours": {
+      "Saturday": {
+        "open": "12:30",
+        "close": "16:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/janesville-chess-association",
+    "chesscom_url": "https://www.chess.com/club/janesville-chess-association"
+  },
+  {
+    "json_index": 1992,
+    "id": "nyc_chess_community",
+    "name": "NYC Chess Community",
+    "notes": "We play chess every Sunday 3pm-6pm at Chinatown YMCA (273 Bowery). Boards are provided. All levels are welcome. Even if you don't know how to play chess - come and learn with us! Join NYC Chess Community at www.chessnyc.com273 Bowery StNew York, NYwww.chessnyc.comContact Email: info@chessnyc.com",
+    "current_hours": {
+      "Sunday": {
+        "open": "15:00",
+        "close": "18:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/nyc-chess-community",
+    "chesscom_url": "https://www.chess.com/club/nyc-chess-community"
+  },
+  {
+    "json_index": 1993,
+    "id": "scappoose_chess_club",
+    "name": "Scappoose Chess Club",
+    "notes": "We meet every Thrusday from 6 to 8 pm on the second floor of the public library. Bring a board if you want to show it off!52469 SE 2nd StScappoose, OR, 97056Contact Email: battaglia076@gmail.com",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/scappoose-chess-club",
+    "chesscom_url": "https://www.chess.com/club/scappoose-chess-club"
+  },
+  {
+    "json_index": 1994,
+    "id": "alley_cat_nerd_night",
+    "name": "Alley Cat Nerd Night",
+    "notes": "Alley Cat is a small bar in the old downtown square of Carrollton in west Georgia. Every Monday evening at Alley Cat is \"Nerd Night\" where people bring laptops, play games, read books, and basically have a fairly chill time in a pleasant bar atmosphere. There is a rotating group of about 7-10 chess players who play most Mondays. Some are beginners but there are a handful who are in the 1500-1800 rating range. It is a very informal atmosphere with people eating, drinking alcohol, and after 10pm smoking tobacco. Anyone that comes to Alley Cat Nerd Night and tells us you were referred from chess.com will receive a free appetizer or dessert on us!120 Newnan StCarrollton, Ga, 30117678-977-5517Contact Email: jniesse@hotmail.com",
+    "current_hours": {
+      "Monday": {
+        "open": "19:00",
+        "close": "22:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/alley-cat-nerd-night",
+    "chesscom_url": "https://www.chess.com/club/alley-cat-nerd-night"
+  },
+  {
+    "json_index": 1995,
+    "id": "beaners_blitz",
+    "name": "Beaner's Blitz",
+    "notes": "We are a ragtag and unnoficial group of blitz chess lovers that meet on most Saturday mornings into the early afternoon to play mostly blitz chess at Beaner's Central Coffee shop in West Duluth. All are welcome.324 N Central AveDuluth, MN, 55807Contact Email:",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/beaners-blitz",
+    "chesscom_url": "https://www.chess.com/club/beaners-blitz"
+  },
+  {
+    "json_index": 1996,
+    "id": "en_passant_chess2",
+    "name": "En Passant Chess2",
+    "notes": "Wednesday night casual chess open to the community from 7:00 P.M. until about 10:00 P.M.210 E. HeywoodSan Benito, TX, 78586Contact Email: td_edg@sbcglobal.net",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/en-passant-chess2",
+    "chesscom_url": "https://www.chess.com/club/en-passant-chess2"
+  },
+  {
+    "json_index": 1997,
+    "id": "waco_chess_club2",
+    "name": "Waco Chess Club2",
+    "notes": "The Waco CC meets every Thursday evening at the Jack-in-the-Box restaurant at I-35 and University Parks Drive (near Baylor). We play chess from 7 p.m. to about 10 p.m. though some diehard chess fans will close the place down. The Waco CC is open to all and has no dues. So, bring a board, bring a clock, or just bring yourself. No matter what your preference is--bug, blitz, or a nice slow game--you'll find someone to play with. Hope to see you there! 2617 Cole AveApt. #13Waco, Texas, 76707Contact Email: LarryKocian@gmail.com",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/waco-chess-club2",
+    "chesscom_url": "https://www.chess.com/club/waco-chess-club2"
+  },
+  {
+    "json_index": 1998,
+    "id": "the_columbian_connection2",
+    "name": "The Columbian Connection2",
+    "notes": "Meeting every Friday Night @ 7:00 pm. We play chess, drink beer; play pool, drink beer; play anyother game you want to play, and drink beer. We have our own Beer meister.Lion's ParkwayColumbia, TN, 38401931-840-8715Contact Email: jim_kettle@yahoo.com",
+    "current_hours": {
+      "Friday": {
+        "open": "19:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/the-columbian-connection2",
+    "chesscom_url": "https://www.chess.com/club/the-columbian-connection2"
+  },
+  {
+    "json_index": 1999,
+    "id": "winchester_parks_and_rec_chess_club",
+    "name": "Winchester Parks and Rec. Chess Club",
+    "notes": "A friendly place to play chess. Scholastic and adult members. Sessions are free; beginners to experienced players. Chess sessions on the 2nd AND 4th MONDAY of each month starting at 6 pm. Location: The College Park Pavillion at 15 Wheeler Ave. Winchester, KY. PH. 859-745-0240 Contact: Email winchessterclub@gmail.com - no current website, but here's our Facebook page link.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/winchester-parks-and-rec-chess-club",
+    "chesscom_url": "https://www.chess.com/club/winchester-parks-and-rec-chess-club"
+  },
+  {
+    "json_index": 2000,
+    "id": "kernersville_chess_club",
+    "name": "Kernersville Chess Club",
+    "notes": "We meet at the Panera Bread in the shopping center on South Main Street in Kernersville on Tuesdays from 6:30 to 9:00 in the evenings. Usually anywhere from 4 to 10 people. Some casual play, and some with a clock. All ratings welcome. Wide range of skill levels present.South Main StreetKernersville, NC, 27284Contact Email: kvilletdchess@aol.com",
+    "current_hours": {
+      "Tuesday": {
+        "open": "18:30",
+        "close": "21:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/kernersville-chess-club",
+    "chesscom_url": "https://www.chess.com/club/kernersville-chess-club"
+  },
+  {
+    "json_index": 2001,
+    "id": "salem_oregon_chess_club",
+    "name": "Salem Oregon Chess Club",
+    "notes": "This club is for chess enthusiasts who live in Salem Oregon or the surrounding areas. Everyone is welcome to join: all ages from beginners to experts. Check the annoucements for a list of events (casual play, local tournaments etc.) Email: salemoregonchessclub@gmail.com Facebook page: https://www.facebook.com/share/1BK8JFFKVH/?mibextid=LQQJ4d",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/salem-oregon-chess-club",
+    "chesscom_url": "https://www.chess.com/club/salem-oregon-chess-club"
+  },
+  {
+    "json_index": 2002,
+    "id": "brattleboro_chess_club",
+    "name": "Brattleboro chess club",
+    "notes": "WE meet on thurdays from 6:00pm to about 9:30 or so any one in the area feel free to come we have a 1$ fee fo getting the place for the nightmain streetBrattleboro, VT, 05301Contact Email:",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/brattleboro-chess-club",
+    "chesscom_url": "https://www.chess.com/club/brattleboro-chess-club"
+  },
+  {
+    "json_index": 2003,
+    "id": "silver_city_chess_club",
+    "name": "Silver City Chess Club",
+    "notes": "Sundays starting at 8:30.... Common Ground 102 W Kelly St Silver City, NM102 W Kelly StSilver City, NM, 880615753137016sites.google.com/site/silvercitychessclub/Contact Email: gilahouse@yahoo.com",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/silver-city-chess-club",
+    "chesscom_url": "https://www.chess.com/club/silver-city-chess-club"
+  },
+  {
+    "json_index": 2004,
+    "id": "fencers",
+    "name": "Fencers",
+    "notes": "If you fence, foil, epee or sabre, this is the group for you! Fencing discussions and more!",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/fencers",
+    "chesscom_url": "https://www.chess.com/club/fencers"
+  },
+  {
+    "json_index": 2005,
+    "id": "elkhart_county_chess_club",
+    "name": "Elkhart County Chess Club",
+    "notes": "ELKHART COUNTY CHESS CLUB (USCF ID A6004840). Affiliate Type: Club. TUES 7-10PM. Contact: ROGER BLAINE.Branch TBAElkhart, INwww.elkhartcountychessclub.orgContact Email:",
+    "current_hours": {
+      "Tuesday": {
+        "open": "19:00",
+        "close": "22:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/elhart-county-chess-club",
+    "chesscom_url": "https://www.chess.com/club/elhart-county-chess-club"
+  },
+  {
+    "json_index": 2006,
+    "id": "monroeville_chess_club_monroeville_pa",
+    "name": "Monroeville Chess Club @ Monroeville PA",
+    "notes": "We're meeting @ Cross Road Presbyterian Church. Every Wednesday from 6:30 pm ~ 9:30 pm. No membership fee. All are welcome!!!2310 Haymaker RoadMonroeville, PA, 15146Contact Email: thomasmagar@hotmail.com",
+    "current_hours": {
+      "Wednesday": {
+        "open": "18:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/borders-chess-club-monroeville-pa",
+    "chesscom_url": "https://www.chess.com/club/borders-chess-club-monroeville-pa"
+  },
+  {
+    "json_index": 2007,
+    "id": "columbus_indiana_chess_club",
+    "name": "Columbus Indiana Chess Club",
+    "notes": "The Columbus Indiana Chess Club meets Thursday evenings from 5-9pm. Come and go as you please. Most games are clocked at 10 minute per side Blitz. Skill level ranges from 1300-2000. Equipment provided. Contact Email: john2001plus@gmail.com or srsalo@gmail.com",
+    "current_hours": {
+      "Thursday": {
+        "open": "17:00",
+        "close": "21:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/columbus-indiana-chess-club",
+    "chesscom_url": "https://www.chess.com/club/columbus-indiana-chess-club"
+  },
+  {
+    "json_index": 2008,
+    "id": "pittsfield_chess_club",
+    "name": "Pittsfield chess club",
+    "notes": "This is a chess club : Meets Every Tuesday From 7:00 PM - 11:00 PM At the cafeteria.Hillcrest hospital165 Tor CourtPittsfield, Massachusetts413 448-6165www.pittsfieldchessclub.com/Contact Email:",
+    "current_hours": {
+      "Tuesday": {
+        "open": "19:00",
+        "close": "23:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/pittsfield-chess-club2",
+    "chesscom_url": "https://www.chess.com/club/pittsfield-chess-club2"
+  },
+  {
+    "json_index": 2009,
+    "id": "montgomery_chess_club",
+    "name": "Montgomery Chess Club",
+    "notes": "Meets Tuesday Nights at the Crump Community Center in Montgomery Al. Address 1751 Cong W. L. Dickinson Dr (near the Humane Society) Montgomery Al 36107. Contact Paul at 334-399-6347.",
+    "current_hours": {},
+    "current_website": "https://www.chess.com/club/montgomery-chess-club",
+    "chesscom_url": "https://www.chess.com/club/montgomery-chess-club"
+  },
+  {
+    "json_index": 2010,
+    "id": "poteau_chess_club",
+    "name": "Poteau Chess Club",
+    "notes": "Poteau Chess Club invites players of all ages and abilities to attend our WEEKLY USCF rated tournaments from 5:30 to 11:00pm every Tuesday. Check out our website for more info. http://chelper.net/chess/poteau_chess_club.htm113 S WITTE STPOTEAU, OK, 749531-918-647-4846chelper.net/chess/poteau_chess_club.htmContact Email: ch74953@hotmail.com",
+    "current_hours": {
+      "Tuesday": {
+        "open": "17:30",
+        "close": "23:00"
+      }
+    },
+    "current_website": "https://www.chess.com/club/poteau-chess-club",
+    "chesscom_url": "https://www.chess.com/club/poteau-chess-club"
+  },
+  {
+    "json_index": 2011,
+    "id": "nevada_state_chess_association2",
+    "name": "Nevada State Chess Association2",
+    "notes": "Club meets Tuesdays 6-830pm at Borders Book Store and Cafe in the Cafe section Tuesdays 6-8:30pm no fees top players include ACA US and WCF World Champion Vaughan, FIDE titled player Almasi and other titled players as well.2323 South DecaturLas Vegas, Nevada, 89102americanchessassociation.orgContact Email: wcfworldchesschampion@yahoo.com",
+    "current_hours": {
+      "Tuesday": {
+        "open": "18:00",
+        "close": "20:30"
+      }
+    },
+    "current_website": "https://www.chess.com/club/nevada-state-chess-association22",
+    "chesscom_url": "https://www.chess.com/club/nevada-state-chess-association22"
+  }
+]

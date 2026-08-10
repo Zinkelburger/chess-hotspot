@@ -1,0 +1,16 @@
+[
+  {"json_index": 1077, "id": "anderson_and_clemson_area_chess_club", "hours": null, "website": "https://www.facebook.com/profile.php?id=100076393472275"},
+  {"json_index": 1081, "id": "the_not_so_serious_chess_club", "hours": null, "website": "https://www.meetup.com/the-not-so-serious-chess-club/"},
+  {"json_index": 1082, "id": "its_your_move_chess", "hours": null, "website": "https://itsyourmovechess.weebly.com/"},
+  {"json_index": 1084, "id": "bainbridge_chess_club", "hours": null, "website": "https://bainbridgechess.org/"},
+  {"json_index": 1085, "id": "middletown_youth_sports_chess_club", "hours": null, "website": "https://www.middletownyouthsports.org/chess"},
+  {"json_index": 1086, "id": "maynard_chess", "hours": null, "website": "https://chess.maynard.wiki"},
+  {"json_index": 1092, "id": "atlanta_checkmate_club", "hours": {"Monday": {"open": "19:00", "close": "23:00"}, "Tuesday": {"open": "18:00", "close": "22:00"}, "Wednesday": {"open": "19:00", "close": "23:00"}, "Friday": {"open": "19:00", "close": "23:00"}}, "website": "https://www.instagram.com/AtlantaCheckmateClub"},
+  {"json_index": 1103, "id": "purpose_meetup_club", "hours": {"Wednesday": {"open": "18:00", "close": "21:00"}}, "website": null},
+  {"json_index": 1108, "id": "byrd_brothers_chess_center", "hours": null, "website": "https://byrdbrotherschess.com/"},
+  {"json_index": 1112, "id": "cortland_chess_club", "hours": {"Thursday": {"open": "17:00", "close": "19:00"}}, "website": null},
+  {"json_index": 1115, "id": "unplugged_gaming", "hours": {"Thursday": {"open": "18:30", "close": "21:00"}}, "website": "https://unpluggedgamestore.com/"},
+  {"json_index": 1123, "id": "chess_education_center", "hours": {"Monday": {"open": "18:15", "close": "21:15"}, "Wednesday": {"open": "18:00", "close": "21:00"}, "Saturday": {"open": "09:00", "close": "17:30"}}, "website": null},
+  {"json_index": 1126, "id": "ruckus_chess", "hours": null, "website": "https://www.ruckuschess.com"},
+  {"json_index": 1131, "id": "dead_wax_chess_club", "hours": null, "website": "https://www.instagram.com/deadwaxchessclub"}
+]

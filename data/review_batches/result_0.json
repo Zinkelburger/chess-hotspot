@@ -1,0 +1,429 @@
+[
+  {
+    "json_index": 747,
+    "id": "warwick_chess_club",
+    "city": "Warwick",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 748,
+    "id": "lexington_mo_chess_club",
+    "city": "Lexington",
+    "state": "MO",
+    "address": null
+  },
+  {
+    "json_index": 749,
+    "id": "newton_ia_chess_club",
+    "city": "Newton",
+    "state": "IA",
+    "address": "118 N 2nd Ave E, Newton, IA 50208"
+  },
+  {
+    "json_index": 750,
+    "id": "marksville_chess_club",
+    "city": "Marksville",
+    "state": "LA",
+    "address": null
+  },
+  {
+    "json_index": 751,
+    "id": "box_office_brewery_chess_club",
+    "city": "Strasburg",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 752,
+    "id": "blount_county_library_chess_club",
+    "city": "Maryville",
+    "state": "TN",
+    "address": "508 North Cusick Street, Maryville, TN 37804"
+  },
+  {
+    "json_index": 754,
+    "id": "chess_for_change",
+    "city": "Raleigh",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 755,
+    "id": "westside_chess_club",
+    "city": "Beaverton",
+    "state": "OR",
+    "address": "15135 SW Barrows Rd, Beaverton, OR"
+  },
+  {
+    "json_index": 756,
+    "id": "peoria_sunday_chess",
+    "city": "Peoria",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 757,
+    "id": "cedar_creek_chess_club",
+    "city": "Cedar Creek",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 758,
+    "id": "blunders_and_brews",
+    "city": null,
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 759,
+    "id": "ourchess",
+    "city": "New York",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 760,
+    "id": "lower_alabama_chess_club_lacc",
+    "city": "Bay Minette",
+    "state": "AL",
+    "address": null
+  },
+  {
+    "json_index": 761,
+    "id": "dupont_circle_chess_club_dccc",
+    "city": "Washington",
+    "state": "DC",
+    "address": null
+  },
+  {
+    "json_index": 762,
+    "id": "spotsylvania_chess",
+    "city": "Spotsylvania",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 764,
+    "id": "the_claremont_chess_club",
+    "city": "Claremont",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 765,
+    "id": "the_geekery_chess_club",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "address": "1324 S 2100 E, Salt Lake City, UT 84108"
+  },
+  {
+    "json_index": 766,
+    "id": "casual_chess_club_alamosa",
+    "city": "Alamosa",
+    "state": "CO",
+    "address": null
+  },
+  {
+    "json_index": 767,
+    "id": "paris_ky_chess_club",
+    "city": "Paris",
+    "state": "KY",
+    "address": "517 Pleasant St, Paris, KY 40361"
+  },
+  {
+    "json_index": 768,
+    "id": "wendell_chess",
+    "city": "Wendell",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 769,
+    "id": "mchenry_county_homeschool_chess_club",
+    "city": null,
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 770,
+    "id": "lancaster_chess_society",
+    "city": "Lancaster",
+    "state": "PA",
+    "address": "448 W Frederick St, Lancaster, PA"
+  },
+  {
+    "json_index": 771,
+    "id": "iron_horse_chess_association_spring_hill_tn",
+    "city": "Spring Hill",
+    "state": "TN",
+    "address": "2001 Campbell Station Pkwy Ste C11, Spring Hill, TN 37174"
+  },
+  {
+    "json_index": 772,
+    "id": "dpad_new_braunfels_chess_club",
+    "city": "New Braunfels",
+    "state": "TX",
+    "address": "1024 W San Antonio St Suite A, New Braunfels, TX 78130"
+  },
+  {
+    "json_index": 773,
+    "id": "saturday_morning_chess_club_in_colorado_springs",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "address": "330 N Institute St, Colorado Springs, CO 80903"
+  },
+  {
+    "json_index": 774,
+    "id": "the_battleground_cafe_chess_club",
+    "city": "White Bear Lake",
+    "state": "MN",
+    "address": null
+  },
+  {
+    "json_index": 775,
+    "id": "franklin_tn_chess_club",
+    "city": "Franklin",
+    "state": "TN",
+    "address": null
+  },
+  {
+    "json_index": 776,
+    "id": "tremont_chess_club",
+    "city": "Cleveland",
+    "state": "OH",
+    "address": "2670 W 14th St, Cleveland, OH"
+  },
+  {
+    "json_index": 777,
+    "id": "the_columbus_chess_club",
+    "city": "Columbus",
+    "state": "OH",
+    "address": "80 Parsons Ave, Columbus, OH 43215"
+  },
+  {
+    "json_index": 778,
+    "id": "rahway_chess_club",
+    "city": "Rahway",
+    "state": "NJ",
+    "address": "75 E Cherry St, Rahway, NJ 07065"
+  },
+  {
+    "json_index": 779,
+    "id": "martinsville_chess_club",
+    "city": "Martinsville",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 780,
+    "id": "flagler_chess_club",
+    "city": null,
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 781,
+    "id": "jackson_hole_chess_club",
+    "city": "Jackson",
+    "state": "WY",
+    "address": null
+  },
+  {
+    "json_index": 782,
+    "id": "marion_county_chess_club",
+    "city": "Silver Springs Shores",
+    "state": "FL",
+    "address": null
+  },
+  {
+    "json_index": 783,
+    "id": "mckinney_online_chess_club",
+    "city": "McKinney",
+    "state": "TX",
+    "address": "6861 Eldorado Pkwy, McKinney, TX 75070"
+  },
+  {
+    "json_index": 784,
+    "id": "north_east_tennessee_chess_club",
+    "city": "Johnson City",
+    "state": "TN",
+    "address": null
+  },
+  {
+    "json_index": 786,
+    "id": "shaolin_kung_fu",
+    "city": "Aurora",
+    "state": "CO",
+    "address": null
+  },
+  {
+    "json_index": 787,
+    "id": "sherman_chess_club_in_texas",
+    "city": "Sherman",
+    "state": "TX",
+    "address": null
+  },
+  {
+    "json_index": 788,
+    "id": "lumen_chess_club",
+    "city": "Waltham",
+    "state": "MA",
+    "address": "175 Main St, Waltham, MA"
+  },
+  {
+    "json_index": 789,
+    "id": "marshfield_chess_club",
+    "city": "Marshfield",
+    "state": "WI",
+    "address": null
+  },
+  {
+    "json_index": 790,
+    "id": "plaza_midwood_chess_club",
+    "city": "Charlotte",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 791,
+    "id": "union_square_nyc",
+    "city": "New York",
+    "state": "NY",
+    "address": null
+  },
+  {
+    "json_index": 792,
+    "id": "cobb_county_rooks",
+    "city": null,
+    "state": "GA",
+    "address": null
+  },
+  {
+    "json_index": 793,
+    "id": "east_bay_chess",
+    "city": "Oakland",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 794,
+    "id": "greater_knoxville_area_chess_club",
+    "city": "Knoxville",
+    "state": "TN",
+    "address": "2931 Kingston Pike, Knoxville, TN 37919"
+  },
+  {
+    "json_index": 795,
+    "id": "kakaako_oahu_chess",
+    "city": "Honolulu",
+    "state": "HI",
+    "address": null
+  },
+  {
+    "json_index": 796,
+    "id": "tehachapi_chess_club",
+    "city": "Tehachapi",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 797,
+    "id": "windy_city_chess_collective",
+    "city": "Chicago",
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 798,
+    "id": "chessqueen_club_charlotte",
+    "city": "Charlotte",
+    "state": "NC",
+    "address": null
+  },
+  {
+    "json_index": 799,
+    "id": "pacific_trails_chessy_chess_club_i_like_cheese",
+    "city": "San Diego",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 800,
+    "id": "san_tan_brewing_chess_club",
+    "city": "Chandler",
+    "state": "AZ",
+    "address": null
+  },
+  {
+    "json_index": 801,
+    "id": "lake_county_chess_club",
+    "city": null,
+    "state": "IL",
+    "address": null
+  },
+  {
+    "json_index": 802,
+    "id": "the_new_egyptians",
+    "city": "New Egypt",
+    "state": "NJ",
+    "address": null
+  },
+  {
+    "json_index": 803,
+    "id": "chesapeake_chess_club",
+    "city": "Chesapeake",
+    "state": "VA",
+    "address": null
+  },
+  {
+    "json_index": 804,
+    "id": "balanced_rook_chess_club",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "address": null
+  },
+  {
+    "json_index": 805,
+    "id": "shreveportbossier_chess_club",
+    "city": "Shreveport",
+    "state": "LA",
+    "address": "3950 Youree Drive #160, Shreveport, LA"
+  },
+  {
+    "json_index": 807,
+    "id": "bay_ridge_chessmates",
+    "city": "Brooklyn",
+    "state": "NY",
+    "address": "77-17 3rd Ave, Brooklyn, NY 11209"
+  },
+  {
+    "json_index": 808,
+    "id": "opl_lakeview_chess_club",
+    "city": "Oakland",
+    "state": "CA",
+    "address": null
+  },
+  {
+    "json_index": 809,
+    "id": "first_city_chess_uscf_unrated",
+    "city": "Leavenworth",
+    "state": "KS",
+    "address": null
+  },
+  {
+    "json_index": 810,
+    "id": "first_city_chess_club_uscf_rated",
+    "city": "Leavenworth",
+    "state": "KS",
+    "address": "1901 Spruce St, Leavenworth, KS 66048"
+  },
+  {
+    "json_index": 811,
+    "id": "wildwood_davis_chess_club",
+    "city": "Bethesda",
+    "state": "MD",
+    "address": null
+  }
+]
