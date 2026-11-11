@@ -34,6 +34,11 @@
     "lng": -90.1568,
     "precision": "postal"
   },
+  "Anacortes|WA|": {
+    "lat": 48.5004,
+    "lng": -122.6309,
+    "precision": "city"
+  },
   "Anaheim|CA|92802": {
     "lat": 33.8085,
     "lng": -117.9228,
@@ -134,6 +139,11 @@
     "lng": -74.4317,
     "precision": "postal"
   },
+  "Auburn|WA|": {
+    "lat": 47.30265,
+    "lng": -122.199625,
+    "precision": "city"
+  },
   "Austin|TX|78729": {
     "lat": 30.4521,
     "lng": -97.7688,
@@ -188,6 +198,11 @@
     "lat": 29.7023,
     "lng": -95.4611,
     "precision": "postal"
+  },
+  "Bellevue|WA|": {
+    "lat": 47.60594285714286,
+    "lng": -122.16984285714285,
+    "precision": "city"
   },
   "Bellevue|WA|13620": null,
   "Bellevue|WA|98004": {
@@ -444,6 +459,11 @@
     "lat": 35.2886,
     "lng": -80.8209,
     "precision": "postal"
+  },
+  "Cheney|WA|": {
+    "lat": 47.4943,
+    "lng": -117.5834,
+    "precision": "city"
   },
   "Cherry Hill|NJ|08034": {
     "lat": 39.9074,
@@ -755,6 +775,11 @@
     "lng": -85.8784,
     "precision": "postal"
   },
+  "Ellensburg|WA|": {
+    "lat": 46.9996,
+    "lng": -120.5163,
+    "precision": "city"
+  },
   "Emporia|KS|66801": {
     "lat": 38.4184,
     "lng": -96.1871,
@@ -764,6 +789,11 @@
     "lat": 39.8551,
     "lng": -84.3399,
     "precision": "postal"
+  },
+  "Ephrata|WA|": {
+    "lat": 47.2771,
+    "lng": -119.5336,
+    "precision": "city"
   },
   "Ephrata|WA|98823": {
     "lat": 47.2771,
@@ -899,6 +929,11 @@
     "lat": 29.6785,
     "lng": -82.3679,
     "precision": "postal"
+  },
+  "Garden Grove|CA|": {
+    "lat": 33.77811428571429,
+    "lng": -117.97307142857143,
+    "precision": "city"
   },
   "Garden Grove|CA|92840": {
     "lat": 33.7869,
@@ -1460,6 +1495,11 @@
     "lng": -101.9423,
     "precision": "postal"
   },
+  "Lynnwood|WA|": {
+    "lat": 47.83175,
+    "lng": -122.284825,
+    "precision": "city"
+  },
   "Macon|GA|31210": {
     "lat": 32.8926,
     "lng": -83.7455,
@@ -1610,6 +1650,11 @@
     "lng": -87.9898,
     "precision": "postal"
   },
+  "Missoula|MT|": {
+    "lat": 46.8822625,
+    "lng": -114.0291,
+    "precision": "city"
+  },
   "Mobile|AL|36608": {
     "lat": 30.6817,
     "lng": -88.2945,
@@ -1629,6 +1674,11 @@
     "lat": 32.5286,
     "lng": -92.1061,
     "precision": "postal"
+  },
+  "Monroe|WA|": {
+    "lat": 47.8585,
+    "lng": -121.9474,
+    "precision": "city"
   },
   "Morristown|NJ|07960": {
     "lat": 40.7952,
@@ -1654,6 +1704,11 @@
     "lat": 32.8674,
     "lng": -79.8049,
     "precision": "postal"
+  },
+  "Mukilteo|WA|": {
+    "lat": 47.9199,
+    "lng": -122.3019,
+    "precision": "city"
   },
   "Myerstown|PA|17067": {
     "lat": 40.3789,
@@ -1831,6 +1886,11 @@
     "lng": -96.1891,
     "precision": "postal"
   },
+  "Olympia|WA|": {
+    "lat": 47.04497272727272,
+    "lng": -122.9021909090909,
+    "precision": "city"
+  },
   "Olympia|WA|98501": {
     "lat": 47.0129,
     "lng": -122.8763,
@@ -1915,6 +1975,11 @@
     "lat": 40.8621,
     "lng": -74.4117,
     "precision": "postal"
+  },
+  "Pasco|WA|": {
+    "lat": 46.2421,
+    "lng": -119.09935,
+    "precision": "city"
   },
   "Pasco|WA|99301": {
     "lat": 46.2492,
@@ -2055,6 +2120,11 @@
     "lat": 47.7205,
     "lng": -116.9353,
     "precision": "postal"
+  },
+  "Poulsbo|WA|": {
+    "lat": 47.7423,
+    "lng": -122.6277,
+    "precision": "city"
   },
   "Prescott|AZ|86301": {
     "lat": 34.5917,
@@ -2256,6 +2326,11 @@
     "lat": 41.4274,
     "lng": -75.6465,
     "precision": "postal"
+  },
+  "Seattle|WA|": {
+    "lat": 47.60367457627118,
+    "lng": -122.33097627118644,
+    "precision": "city"
   },
   "Seattle|WA|98115": {
     "lat": 47.6849,
@@ -2488,6 +2563,11 @@
     "lat": 32.25,
     "lng": -110.8869,
     "precision": "postal"
+  },
+  "Vancouver|WA|": {
+    "lat": 45.656178571428576,
+    "lng": -122.6172142857143,
+    "precision": "city"
   },
   "Vestal|NY|13902": {
     "lat": 42.1054,

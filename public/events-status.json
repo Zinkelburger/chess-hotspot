@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:05:41+00:00",
+  "updatedAt": "2026-11-11T06:06:27+00:00",
   "sources": [
     {
       "id": "nachesshub",
@@ -81,25 +81,34 @@
       "lastAttempt": "2026-11-11T06:04:01+00:00",
       "lastSuccess": "2026-11-11T06:04:01+00:00",
       "count": 11
+    },
+    {
+      "id": "nwchess",
+      "name": "Northwest Chess",
+      "url": "https://www.nwchess.com/calendar/index.htm",
+      "status": "ok",
+      "lastAttempt": "2026-11-11T06:06:27+00:00",
+      "lastSuccess": "2026-11-11T06:06:27+00:00",
+      "count": 26
     }
   ],
-  "eventCount": 1083,
-  "mappedCount": 1038,
+  "eventCount": 1108,
+  "mappedCount": 1062,
   "quality": {
-    "checkedAt": "2026-11-11T06:05:44+00:00",
+    "checkedAt": "2026-11-11T06:06:29+00:00",
     "passed": true,
     "coverage": {
-      "events": 1083,
+      "events": 1108,
       "withFees": 648,
-      "withSchedule": 505,
+      "withSchedule": 506,
       "withRegistration": 503,
-      "physicalEvents": 1063,
-      "mapped": 1038,
+      "physicalEvents": 1088,
+      "mapped": 1062,
       "venueCoordinates": 19
     },
     "issueCounts": {
       "multiple-or-ambiguous-time-controls": 183,
-      "recurring-or-long-date-range": 62,
+      "recurring-or-long-date-range": 63,
       "unexpired-listing-rechecked": 47,
       "section-specific-fees-need-review": 17,
       "source-format-coverage-differs": 2,

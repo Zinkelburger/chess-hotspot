@@ -1665,6 +1665,30 @@
     "dateText": "Friday, November 6, 2026 - Friday, December 18, 2026"
   },
   {
+    "id": "nwchess-776413de28f9928f-2026-11-06",
+    "name": "Seattle CC November Rains",
+    "date": "2026-11-06",
+    "type": "tournament",
+    "endDate": "2026-11-20",
+    "lat": 47.60367457627118,
+    "lng": -122.33097627118644,
+    "scheduleText": "Nov 6, 13, 20 (Fri.)",
+    "website": "https://www.nwchess.com/calendar/index.htm#seattle-cc-november-rains",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/index.htm#seattle-cc-november-rains",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
     "id": "uscf-be6200a839998ccd-2026-11-07",
     "name": "Weekly tournament at the chess pocket park",
     "date": "2026-11-07",
@@ -6752,6 +6776,30 @@
     "dateText": "Saturday, November 14, 2026"
   },
   {
+    "id": "nwchess-2788dea71e93087b-2026-11-14",
+    "name": "Husky Open",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "venue": "UW Husky Union Bldg.",
+    "lat": 47.60367457627118,
+    "lng": -122.33097627118644,
+    "website": "https://www.nwchess.com/calendar/2026%20Husky%20Open.pdf",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/2026%20Husky%20Open.pdf",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
     "id": "uscf-166975e3e8c9c7ec-2026-11-14",
     "name": "ICA Glen Rock Quads",
     "date": "2026-11-14",
@@ -7258,6 +7306,30 @@
     "locationPrecision": "postal",
     "prizeFundUsd": 1200,
     "dateText": "Saturday, November 14, 2026"
+  },
+  {
+    "id": "nwchess-4676a8a80a2f7f4f-2026-11-14",
+    "name": "Monroe Thanksgiving Chess Open",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "venue": "Evergreen Inn & Suites",
+    "lat": 47.8585,
+    "lng": -121.9474,
+    "website": "https://www.nwchess.com/calendar/2026%20Monroe%20Thanksgiving%20Chess%20Open.pdf",
+    "city": "Monroe",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/2026%20Monroe%20Thanksgiving%20Chess%20Open.pdf",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
   },
   {
     "id": "marshall-e74cce15da27e612-2026-11-14",
@@ -8560,6 +8632,31 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Saturday, November 14, 2026"
+  },
+  {
+    "id": "nwchess-47a1d785577a2eb8-2026-11-14",
+    "name": "WA State MS/HS Mini-Teams Championship",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "venue": "Kamiak HS",
+    "lat": 47.9199,
+    "lng": -122.3019,
+    "website": "https://whsca.org/",
+    "city": "Mukilteo",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://whsca.org/",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
   },
   {
     "id": "kingregistration-b48a373c4ef1b2d9-2026-11-14",
@@ -10558,6 +10655,31 @@
     "dateText": "Sunday, November 15, 2026"
   },
   {
+    "id": "nwchess-a3425dca1e7cdbd7-2026-11-15",
+    "name": "St. Anne Celtic Challenge Fall 2026",
+    "date": "2026-11-15",
+    "type": "tournament",
+    "endDate": "2026-11-15",
+    "venue": "St. Anne School",
+    "lat": 47.60367457627118,
+    "lng": -122.33097627118644,
+    "website": "https://nwchess.com/calendar/Fall_2026_St_Anne_Celtic_Challenge.pdf",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://nwchess.com/calendar/Fall_2026_St_Anne_Celtic_Challenge.pdf",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
     "id": "uscf-598444232eae5d87-2026-11-15",
     "name": "Thanksgiving Scholastic Tournament",
     "date": "2026-11-15",
@@ -12416,6 +12538,29 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Friday, November 20, 2026 - Sunday, November 22, 2026"
+  },
+  {
+    "id": "nwchess-a158d98586d00d06-2026-11-20",
+    "name": "2026 Missoula Turkey Open Chess Weekend",
+    "date": "2026-11-20",
+    "type": "tournament",
+    "endDate": "2026-11-22",
+    "lat": 46.8822625,
+    "lng": -114.0291,
+    "website": "https://missoulachess.com/services/",
+    "city": "Missoula",
+    "state": "MT",
+    "country": "US",
+    "online": false,
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://missoulachess.com/services/",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
   },
   {
     "id": "uscf-b9f114198ccbb46d-2026-11-20",
@@ -18517,6 +18662,55 @@
     "dateText": "Friday, November 27, 2026 - Sunday, November 29, 2026"
   },
   {
+    "id": "nwchess-f5d6492f82b3f9d8-2026-11-27",
+    "name": "WA Class Woodward Thanksgiving Scholastic",
+    "date": "2026-11-27",
+    "type": "tournament",
+    "endDate": "2026-11-27",
+    "venue": "Embassy Suites Seattle North/Lynnwood",
+    "lat": 47.83175,
+    "lng": -122.284825,
+    "website": "https://www.nwchess.com/calendar/2026%20WA%20Class%20Championships.pdf#wa-class-woodward-thanksgiving-scholastic",
+    "city": "Lynnwood",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/2026%20WA%20Class%20Championships.pdf#wa-class-woodward-thanksgiving-scholastic",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
+    "id": "nwchess-20cb97c95b500958-2026-11-27",
+    "name": "Washington Class Championships",
+    "date": "2026-11-27",
+    "type": "tournament",
+    "endDate": "2026-11-29",
+    "venue": "Embassy Suites Seattle North/Lynnwood",
+    "lat": 47.83175,
+    "lng": -122.284825,
+    "website": "https://www.nwchess.com/calendar/2026%20WA%20Class%20Championships.pdf",
+    "city": "Lynnwood",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/2026%20WA%20Class%20Championships.pdf",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
     "id": "uscf-95579f99ffa07cad-2026-11-28",
     "name": "$2,000 Blitz - US Masters & NC Open",
     "date": "2026-11-28",
@@ -19017,6 +19211,29 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Nov 28"
+  },
+  {
+    "id": "nwchess-63207b1b4b917a00-2026-11-28",
+    "name": "Piper Memorial Adult Swiss at the WA Class Championships",
+    "date": "2026-11-28",
+    "type": "tournament",
+    "endDate": "2026-11-29",
+    "lat": 47.83175,
+    "lng": -122.284825,
+    "website": "https://www.nwchess.com/calendar/index.htm#piper-memorial-adult-swiss-at-the-wa-class-championships",
+    "city": "Lynnwood",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/index.htm#piper-memorial-adult-swiss-at-the-wa-class-championships",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
   },
   {
     "id": "kingregistration-477a01938540f672-2026-11-28",
@@ -30084,6 +30301,30 @@
     "dateText": "Saturday, December 19, 2026"
   },
   {
+    "id": "nwchess-387b33919f1861ec-2026-12-19",
+    "name": "Washington Winter Classic",
+    "date": "2026-12-19",
+    "type": "tournament",
+    "endDate": "2026-12-20",
+    "venue": "Embassy Suites",
+    "lat": 47.60594285714286,
+    "lng": -122.16984285714285,
+    "website": "https://www.nwchess.com/calendar/2026%20WA%20Winter%20Classic.pdf",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/2026%20WA%20Winter%20Classic.pdf",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
     "id": "uscf-f598b673f94a398b-2026-12-19",
     "name": "Wichita Open 2026",
     "date": "2026-12-19",
@@ -30745,6 +30986,29 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Sunday, December 20, 2026"
+  },
+  {
+    "id": "nwchess-1a9683bb89a4f5e8-2026-12-20",
+    "name": "Winter Holidays Blitz (after main event at Washington Winter Classic)",
+    "date": "2026-12-20",
+    "type": "tournament",
+    "endDate": "2026-12-20",
+    "lat": 47.60594285714286,
+    "lng": -122.16984285714285,
+    "website": "https://www.nwchess.com/calendar/index.htm#winter-holidays-blitz-after-main-event-at-washington-winter-classic",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/index.htm#winter-holidays-blitz-after-main-event-at-washington-winter-classic",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
   },
   {
     "id": "uscf-a2b7f82591041b8d-2026-12-21",
@@ -34410,6 +34674,25 @@
     "dateText": "Saturday, January 9, 2027"
   },
   {
+    "id": "nwchess-47a1d785577a2eb8-2027-01-09",
+    "name": "Pierce County Regional",
+    "date": "2027-01-09",
+    "type": "tournament",
+    "endDate": "2027-01-09",
+    "website": "https://whsca.org/",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://whsca.org/",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ]
+  },
+  {
     "id": "uscf-16404779593a7a17-2027-01-09",
     "name": "RiseNShine Cash Swiss \u2013 Jan 9th",
     "date": "2027-01-09",
@@ -34630,10 +34913,40 @@
         "id": "uscf",
         "url": "https://new.uschess.org/thurston-county-sheriffs-open",
         "fetchedAt": "2026-11-11T05:45:14+00:00"
+      },
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/2027%20Thurston%20County%20Sheriffs%20Open.pdf",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
       }
     ],
     "locationPrecision": "postal",
     "dateText": "Saturday, January 9, 2027"
+  },
+  {
+    "id": "nwchess-eabd350976ff6bf3-2027-01-09",
+    "name": "Vancouver Area Regional",
+    "date": "2027-01-09",
+    "type": "tournament",
+    "endDate": "2027-01-09",
+    "venue": "Seton Catholic HS",
+    "lat": 45.656178571428576,
+    "lng": -122.6172142857143,
+    "website": "https://whsca.org/#vancouver-area-regional",
+    "city": "Vancouver",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://whsca.org/#vancouver-area-regional",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
   },
   {
     "id": "uscf-efd0d785fe267486-2027-01-10",
@@ -35750,6 +36063,30 @@
     "locationPrecision": "postal"
   },
   {
+    "id": "nwchess-47a1d785577a2eb8-2027-01-16",
+    "name": "SW Washington Regional",
+    "date": "2027-01-16",
+    "type": "tournament",
+    "endDate": "2027-01-16",
+    "lat": 47.04497272727272,
+    "lng": -122.9021909090909,
+    "website": "https://whsca.org/",
+    "city": "Olympia",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://whsca.org/",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
     "id": "kingregistration-83abe01982a0c42f-2027-01-16",
     "name": "St. Mary's  Winter Chess Classic",
     "date": "2027-01-16",
@@ -35944,6 +36281,31 @@
     "locationPrecision": "postal",
     "prizeFundUsd": 1000,
     "dateText": "Saturday, January 16, 2027"
+  },
+  {
+    "id": "nwchess-42fe8c4188123dc4-2027-01-16",
+    "name": "Washington Junior Open",
+    "date": "2027-01-16",
+    "type": "tournament",
+    "endDate": "2027-01-16",
+    "venue": "Highland Middle School",
+    "lat": 47.60594285714286,
+    "lng": -122.16984285714285,
+    "website": "https://www.nwchess.com/calendar/2027%20WA%20Junior%20Open.pdf",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/2027%20WA%20Junior%20Open.pdf",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
   },
   {
     "id": "uscf-2921421bb332b622-2027-01-16",
@@ -36827,6 +37189,31 @@
     "dateText": "Friday, January 22, 2027 - Sunday, January 24, 2027"
   },
   {
+    "id": "nwchess-d12d1e0284f78bbf-2027-01-22",
+    "name": "Washington State High School Individual Chess Championship",
+    "date": "2027-01-22",
+    "type": "tournament",
+    "endDate": "2027-01-23",
+    "venue": "Lakeside Upper School",
+    "lat": 47.60367457627118,
+    "lng": -122.33097627118644,
+    "website": "https://www.nwchess.com/calendar/2027%20HS%20State%20Individual.pdf",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/2027%20HS%20State%20Individual.pdf",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
     "id": "kingregistration-d9a000fe60b8909e-2027-01-23",
     "name": "2027 CPS High School Championship",
     "date": "2027-01-23",
@@ -37098,6 +37485,31 @@
     ],
     "locationPrecision": "postal",
     "prizeFundUsd": 200
+  },
+  {
+    "id": "nwchess-47a1d785577a2eb8-2027-01-23",
+    "name": "Eastern Washington Regional",
+    "date": "2027-01-23",
+    "type": "tournament",
+    "endDate": "2027-01-23",
+    "venue": "Cheney HS",
+    "lat": 47.4943,
+    "lng": -117.5834,
+    "website": "https://whsca.org/",
+    "city": "Cheney",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://whsca.org/",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
   },
   {
     "id": "chessreg-b5ad6f371e815507-2027-01-23",
@@ -38183,6 +38595,30 @@
     "locationPrecision": "city"
   },
   {
+    "id": "nwchess-47a1d785577a2eb8-2027-01-30",
+    "name": "Central Washington Regional",
+    "date": "2027-01-30",
+    "type": "tournament",
+    "endDate": "2027-01-30",
+    "lat": 46.9996,
+    "lng": -120.5163,
+    "website": "https://whsca.org/",
+    "city": "Ellensburg",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://whsca.org/",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
     "id": "uscf-3b9eb1f690211ee3-2027-01-30",
     "name": "Cornerstone Winter Classic - Irvine",
     "date": "2027-01-30",
@@ -39102,6 +39538,30 @@
     "locationPrecision": "postal"
   },
   {
+    "id": "nwchess-3cd226c6d5edd555-2027-02-06",
+    "name": "Grant-Adams Counties Regional",
+    "date": "2027-02-06",
+    "type": "tournament",
+    "endDate": "2027-02-06",
+    "lat": 47.2771,
+    "lng": -119.5336,
+    "website": "https://whsca.org/#grant-adams-counties-regional",
+    "city": "Ephrata",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://whsca.org/#grant-adams-counties-regional",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
     "id": "uscf-d407e9fc754bc28c-2027-02-06",
     "name": "ICA Glen Rock Quads (Feb. 6)",
     "date": "2027-02-06",
@@ -39241,6 +39701,31 @@
     "registrationUrl": "https://www.kingregistration.com/event/NorthEasternOpen60"
   },
   {
+    "id": "nwchess-df880098c8960021-2027-02-06",
+    "name": "Olympic Regional",
+    "date": "2027-02-06",
+    "type": "tournament",
+    "endDate": "2027-02-06",
+    "venue": "N. Kitsap HS",
+    "lat": 47.7423,
+    "lng": -122.6277,
+    "website": "https://whsca.org/#olympic-regional",
+    "city": "Poulsbo",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://whsca.org/#olympic-regional",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
     "id": "kingregistration-30db4ff5de7c2dec-2027-02-06",
     "name": "Rising Star February Grand Prix",
     "date": "2027-02-06",
@@ -39285,6 +39770,55 @@
       }
     ],
     "locationPrecision": "postal"
+  },
+  {
+    "id": "nwchess-5c41de6eb256bf3e-2027-02-06",
+    "name": "San Juan / Islands / Skagit Regional",
+    "date": "2027-02-06",
+    "type": "tournament",
+    "endDate": "2027-02-06",
+    "venue": "Anacortes HS",
+    "lat": 48.5004,
+    "lng": -122.6309,
+    "website": "https://whsca.org/#san-juan-islands-skagit-regional",
+    "city": "Anacortes",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://whsca.org/#san-juan-islands-skagit-regional",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
+    "id": "nwchess-47a1d785577a2eb8-2027-02-06",
+    "name": "Tri-Cities Regional",
+    "date": "2027-02-06",
+    "type": "tournament",
+    "endDate": "2027-02-06",
+    "lat": 46.2421,
+    "lng": -119.09935,
+    "website": "https://whsca.org/",
+    "city": "Pasco",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://whsca.org/",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
   },
   {
     "id": "uscf-dc531a78b4795278-2027-02-07",
@@ -39871,6 +40405,31 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Saturday, February 13, 2027 - Monday, February 15, 2027"
+  },
+  {
+    "id": "nwchess-873b9b3b7c8182d2-2027-02-13",
+    "name": "S. King County Regional",
+    "date": "2027-02-13",
+    "type": "tournament",
+    "endDate": "2027-02-13",
+    "venue": "Thomas Jefferson HS",
+    "lat": 47.30265,
+    "lng": -122.199625,
+    "website": "https://www.nwchess.com/calendar/index.htm#s-king-county-regional",
+    "city": "Auburn",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://www.nwchess.com/calendar/index.htm#s-king-county-regional",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
   },
   {
     "id": "uscf-be3adc60abd327aa-2027-02-14",
@@ -41386,6 +41945,31 @@
     "dateText": "Friday, February 26, 2027 - Sunday, February 28, 2027"
   },
   {
+    "id": "nwchess-47a1d785577a2eb8-2027-02-26",
+    "name": "WA State High School Team Championship",
+    "date": "2027-02-26",
+    "type": "tournament",
+    "endDate": "2027-02-27",
+    "venue": "Sageview HS",
+    "lat": 46.2421,
+    "lng": -119.09935,
+    "website": "https://whsca.org/",
+    "city": "Pasco",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://whsca.org/",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
     "id": "kingregistration-f85ce38a7104f292-2027-02-27",
     "name": "1st Oskaloosa Grand Prix",
     "date": "2027-02-27",
@@ -42526,6 +43110,31 @@
         "fetchedAt": "2026-11-11T06:05:42+00:00"
       }
     ]
+  },
+  {
+    "id": "nwchess-81044dd537620c2c-2027-03-07",
+    "name": "St. Anne Celtic Challenge Spring 2027",
+    "date": "2027-03-07",
+    "type": "tournament",
+    "endDate": "2027-03-07",
+    "venue": "St. Anne School",
+    "lat": 47.60367457627118,
+    "lng": -122.33097627118644,
+    "website": "https://nwchess.com/calendar/Spring_2027_St_Anne_Celtic_Challenge.pdf",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "nwchess",
+    "sources": [
+      {
+        "id": "nwchess",
+        "url": "https://nwchess.com/calendar/Spring_2027_St_Anne_Celtic_Challenge.pdf",
+        "fetchedAt": "2026-11-11T06:06:27+00:00"
+      }
+    ],
+    "locationPrecision": "city"
   },
   {
     "id": "kingregistration-54209fabab731c80-2027-03-10",

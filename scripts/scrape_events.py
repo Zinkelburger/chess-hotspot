@@ -23,6 +23,7 @@ from events_scrapers.kingregistration import KingRegistrationScraper
 from events_scrapers.chessreg import ChessRegScraper
 from events_scrapers.marshall import MarshallScraper
 from events_scrapers.mechanics import MechanicsScraper
+from events_scrapers.nwchess import NWChessScraper
 from events_scrapers.geocode import Geocoder
 from event_quality import review_report
 from event_merge import merge_same_titles
@@ -34,6 +35,7 @@ REGISTRY = {
     'maca': ('MACA', MACAScraper),
     'cca': ('Continental Chess', CCAScraper),
     'kingregistration': ('King Registration', KingRegistrationScraper),
+    'nwchess': ('Northwest Chess', NWChessScraper),
     'mechanics': ("Mechanics' Institute", MechanicsScraper),
     'marshall': ('Marshall Chess Club', MarshallScraper),
     'chessreg': ('ChessReg', ChessRegScraper),
