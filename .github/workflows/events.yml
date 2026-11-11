@@ -21,7 +21,7 @@ jobs:
       - run: pip install -r scripts/requirements.txt
       - run: python -m pytest scripts/tests -q
       - name: Refresh verified sources
-        # MACA's direct site is unavailable; its registered events are also in NA Chess Hub.
+        # Every registered source; a MACA failure alone does not block (NA Chess Hub also carries its registrations).
         run: python scripts/scrape_events.py --strict
       - name: Check source freshness and conflicting details
         run: python scripts/review_events.py --strict
@@ -50,7 +50,7 @@ jobs:
           title: Refresh upcoming chess tournaments
           commit-message: Refresh validated chess event snapshots
           body: |
-            Refreshes US Chess, NA Chess Hub, Boylston, and Continental Chess listings.
+            Refreshes every event source listed in docs/event-directory.md (US Chess, King Registration, regional clubs and associations).
             Parser tests, filter tests, type checking, and the production build passed.
             Review coverage, cancellations, mixed schedules, and source conflicts in public/events-review.json before merging.
           add-paths: |
