@@ -429,6 +429,51 @@
     "dateText": "Saturday, October 3, 2026 - Saturday, April 24, 2027"
   },
   {
+    "id": "marshall-6c82b1c6ec909b7c-2026-10-07",
+    "name": "WEEKLY U1600",
+    "date": "2026-10-07",
+    "type": "tournament",
+    "endDate": "2026-11-11",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 +30",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 +30",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "7pm each Wed.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$40; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-10-07-weekly-u1600",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-10-07-weekly-u1600",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Oct 7, 14, 21, 28, Nov 4, 11"
+  },
+  {
     "id": "uscf-48fa715492513bcb-2026-10-07",
     "name": "WEEKLY U2200",
     "date": "2026-10-07",
@@ -453,6 +498,7 @@
         "incrementSeconds": 30
       }
     ],
+    "scheduleText": "7pm each Wed.",
     "registrationText": "REGISTRATION CLOSES 30 MINUTES PRIOR TO THE START OF THE EVENT.",
     "reviewFlags": [
       "unexpired-listing-rechecked"
@@ -473,6 +519,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/weekly-u2200-17",
         "fetchedAt": "2026-11-11T06:01:16+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-10-07-weekly-u2200",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -503,6 +554,8 @@
         "incrementSeconds": 30
       }
     ],
+    "scheduleText": "7pm each Mon.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
     "reviewFlags": [
       "unexpired-listing-rechecked"
     ],
@@ -522,10 +575,60 @@
         "id": "uscf",
         "url": "https://new.uschess.org/marshall-fide-monday-15",
         "fetchedAt": "2026-11-11T06:01:16+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-10-19-marshall-fide-monday",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
     "dateText": "Monday, October 19, 2026 - Monday, November 23, 2026"
+  },
+  {
+    "id": "marshall-2b9f1072de2ca5e5-2026-10-19",
+    "name": "Marshall Monday U1800",
+    "date": "2026-10-19",
+    "type": "tournament",
+    "endDate": "2026-11-23",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 +30",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 +30",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "7pm each Mon.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$40; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-10-19-marshall-monday-u1800",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-10-19-marshall-monday-u1800",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Oct 19, 26, Nov 2, 9, 16, 23"
   },
   {
     "id": "uscf-6753fbb8480916b1-2026-10-28",
@@ -1171,6 +1274,8 @@
         "incrementSeconds": 30
       }
     ],
+    "scheduleText": "7pm each Thurs.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
     "reviewFlags": [
       "unexpired-listing-rechecked"
     ],
@@ -1190,6 +1295,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/marshall-thursday-fide-open-14",
         "fetchedAt": "2026-11-11T06:01:24+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-05-thursday-open",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -1954,6 +2064,51 @@
     "dateText": "Wednesday, November 11, 2026"
   },
   {
+    "id": "marshall-a91b3951aaeddd02-2026-11-11",
+    "name": "Veterans Day Action",
+    "date": "2026-11-11",
+    "type": "tournament",
+    "endDate": "2026-11-11",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "11am-12:15-1:30-3:00-4:15-5:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$50; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-11-veterans-day-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-11-veterans-day-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 11"
+  },
+  {
     "id": "uscf-965fcaf5f6234274-2026-11-11",
     "name": "Wednesday Casual Night & Unrated Blitz",
     "date": "2026-11-11",
@@ -2492,6 +2647,51 @@
     "dateText": "Thursday, November 12, 2026"
   },
   {
+    "id": "marshall-eac04647d1bf2e89-2026-11-12",
+    "name": "THURSDAY ACTION",
+    "date": "2026-11-12",
+    "type": "tournament",
+    "endDate": "2026-11-12",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "7-8:10-9:20-10:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-12-thursday-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-12-thursday-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 12"
+  },
+  {
     "id": "boylston-a828d32d84516a52-2026-11-12",
     "name": "Thursday Club Night 11/12",
     "date": "2026-11-12",
@@ -2909,6 +3109,53 @@
     "dateText": "Friday, November 13, 2026 - Sunday, November 15, 2026"
   },
   {
+    "id": "marshall-4b1ed49e0d3baa1e-2026-11-13",
+    "name": "Afternoon Action",
+    "date": "2026-11-13",
+    "type": "tournament",
+    "endDate": "2026-11-13",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "2PM and continue ASAP",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$25; Non-MCC Member: Additional $10 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-13-afternoon-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-13-afternoon-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 13"
+  },
+  {
     "id": "uscf-77aa41993b125065-2026-11-13",
     "name": "BLITZ NIGHT by Indy Chess",
     "date": "2026-11-13",
@@ -3302,6 +3549,8 @@
         "incrementSeconds": 30
       }
     ],
+    "scheduleText": "Fri: 7pm, Sat & Sun: 12:30 & 5:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
     "rated": true,
     "ratingSystem": "USCF",
     "entryFeeText": "$100; Members only\nGMs Free, first 5 IMs Free. FIDE Rated. Only open to players with a current published rating 2000+ (USCF or FIDE); No exceptions.",
@@ -3318,6 +3567,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/marshall-premier-fide-open-32",
         "fetchedAt": "2026-11-11T05:44:21+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-13-marshall-premier-fide-open",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -3333,6 +3587,23 @@
     "address": "23 West 10th Street New York , NY 10011 United States",
     "lat": 40.7402,
     "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 +30",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 +30",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "Fri: 7pm, Sat & Sun: 12:30 & 5:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
     "rated": true,
     "ratingSystem": "USCF",
     "entryFeeText": "$75 Rounds: Fri: 7pm, Sat & Sun: 12:30 & 5:30pm. Max two byes; request at entry.\nREGISTRATION OPENS 10 DAYS BEFORE EVENT:\nRegister Online: https://www.marshallchessclub.org/tournaments/upcoming",
@@ -3349,6 +3620,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/marshall-premier-fide-u2000-31",
         "fetchedAt": "2026-11-11T05:44:21+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-13-marshall-premier-fide-u2000",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -6763,6 +7039,51 @@
     "dateText": "Saturday, November 14, 2026"
   },
   {
+    "id": "marshall-e74cce15da27e612-2026-11-14",
+    "name": "Morning Masters",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $15 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-14-morning-masters",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-14-morning-masters",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 14"
+  },
+  {
     "id": "uscf-0905c0ed07ea8f61-2026-11-14",
     "name": "NMCO 2026 New Mexico State Chess Championship (NM Residents ONLY in Championship Section)",
     "date": "2026-11-14",
@@ -7928,6 +8249,51 @@
     "locationPrecision": "postal",
     "prizeFundUsd": 1000,
     "dateText": "Saturday, November 14, 2026"
+  },
+  {
+    "id": "marshall-e4bb402369215d77-2026-11-14",
+    "name": "U2000 MORNING ACTION",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-14-u2000-morning-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-14-u2000-morning-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 14"
   },
   {
     "id": "uscf-57441a923e25c36e-2026-11-14",
@@ -9395,6 +9761,51 @@
     "dateText": "Sunday, November 15, 2026"
   },
   {
+    "id": "marshall-0e770c5d159e3695-2026-11-15",
+    "name": "Morning U1600",
+    "date": "2026-11-15",
+    "type": "tournament",
+    "endDate": "2026-11-15",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-15-morning-u1600",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-15-morning-u1600",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 15"
+  },
+  {
     "id": "kingregistration-cf05b01099ed9c6d-2026-11-15",
     "name": "NOVEMBER 15th SUNDAY SWISS",
     "date": "2026-11-15",
@@ -9605,6 +10016,51 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Sunday, November 15, 2026"
+  },
+  {
+    "id": "marshall-1a8666257f558fb7-2026-11-15",
+    "name": "RATED BEGINNER OPEN",
+    "date": "2026-11-15",
+    "type": "tournament",
+    "endDate": "2026-11-15",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$25; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-15-rated-beginner-open",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-15-rated-beginner-open",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 15"
   },
   {
     "id": "uscf-f7b26561eec1d99a-2026-11-15",
@@ -10730,6 +11186,8 @@
         "delaySeconds": 5
       }
     ],
+    "scheduleText": "7-8:10-9:20-10:30 pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
     "rated": true,
     "ratingSystem": "USCF",
     "entryFeeText": "$40; NON-MCC MBR: ADDITIONAL $25 MBR FEE.",
@@ -10746,6 +11204,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/marshall-masters-67",
         "fetchedAt": "2026-11-11T05:44:29+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-17-marshall-masters",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -11166,6 +11629,97 @@
     "locationPrecision": "postal"
   },
   {
+    "id": "marshall-04540bdd96a2481c-2026-11-18",
+    "name": "WEEKLY U1600",
+    "date": "2026-11-18",
+    "type": "tournament",
+    "endDate": "2026-12-23",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 +30",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 +30",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "7pm each Wed.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$40; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-18-weekly-u1600",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-18-weekly-u1600",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 18, 25, Dec 2, 9, 16, 23"
+  },
+  {
+    "id": "marshall-8bfbf6c9c45b7fd7-2026-11-18",
+    "name": "WEEKLY U2200",
+    "date": "2026-11-18",
+    "type": "tournament",
+    "endDate": "2026-12-23",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 +30",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 +30",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "7pm each Wed.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$50; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-18-weekly-u2200",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "fideRated": true,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-18-weekly-u2200",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 18, 25, Dec 2, 9, 16, 23"
+  },
+  {
     "id": "kingregistration-5f612f61f6ecff9d-2026-11-18",
     "name": "Wednesday Quads",
     "date": "2026-11-18",
@@ -11309,6 +11863,51 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Thursday, November 19, 2026"
+  },
+  {
+    "id": "marshall-04c22dc24d1862da-2026-11-19",
+    "name": "THURSDAY ACTION",
+    "date": "2026-11-19",
+    "type": "tournament",
+    "endDate": "2026-11-19",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "7-8:10-9:20-10:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-19-thursday-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-19-thursday-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 19"
   },
   {
     "id": "boylston-a520b0c7abf70e3e-2026-11-19",
@@ -11479,6 +12078,8 @@
         "incrementSeconds": 30
       }
     ],
+    "scheduleText": "Fri: 7pm, Sat. & Sun: 12:30pm & 5:30pm.",
+    "registrationText": "Registration closes 2 hours prior to the start of the event.",
     "rated": true,
     "ratingSystem": "USCF",
     "entryFeeText": "$100\nRounds: Fri: 7pm, Sat. & Sun: 12:30pm & 5:30pm.\nMax one bye; request at entry.\nFIDE Rated. Open to all players U2100 and unrated. No FIDE ratings over 2100. USCF Rating used for pairings and prizes. First 3 places, U2000 Free Entry into MCC Championship; 4th - 8th place are eligible for\npaid entry into MCC Championship (all after tiebreaks - TBD)",
@@ -11495,6 +12096,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/2026-marshall-amateur-championship-jerry-simon-memorial",
         "fetchedAt": "2026-11-11T05:44:29+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-20-marshall-amateur-championship-jerry-simon-memorial",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -13631,6 +14237,51 @@
     "dateText": "Saturday, November 21, 2026"
   },
   {
+    "id": "marshall-15f7998536762c4a-2026-11-21",
+    "name": "Morning Masters",
+    "date": "2026-11-21",
+    "type": "tournament",
+    "endDate": "2026-11-21",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $15 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-21-morning-masters",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-21-morning-masters",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 21"
+  },
+  {
     "id": "kingregistration-a47224a6fd031aa7-2026-11-21",
     "name": "NOV 21st TROPHY SCHOLASTIC",
     "date": "2026-11-21",
@@ -14399,6 +15050,51 @@
     "locationPrecision": "postal",
     "prizeFundUsd": 200,
     "dateText": "Saturday, November 21, 2026"
+  },
+  {
+    "id": "marshall-37debaf8be31856d-2026-11-21",
+    "name": "U2000 MORNING ACTION",
+    "date": "2026-11-21",
+    "type": "tournament",
+    "endDate": "2026-11-21",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-21-u2000-morning-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-21-u2000-morning-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 21"
   },
   {
     "id": "uscf-0aab5e094511eb80-2026-11-21",
@@ -15404,6 +16100,51 @@
     "dateText": "Sunday, November 22, 2026"
   },
   {
+    "id": "marshall-6925f62c4dafd0fa-2026-11-22",
+    "name": "Morning U1600",
+    "date": "2026-11-22",
+    "type": "tournament",
+    "endDate": "2026-11-22",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-22-morning-u1600",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-22-morning-u1600",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 22"
+  },
+  {
     "id": "kingregistration-7b2a98adc2bddfa8-2026-11-22",
     "name": "NOVEMBER 22nd SUNDAY SWISS",
     "date": "2026-11-22",
@@ -15585,6 +16326,51 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Sunday, November 22, 2026"
+  },
+  {
+    "id": "marshall-67bda1d50f44e0be-2026-11-22",
+    "name": "RATED BEGINNER OPEN",
+    "date": "2026-11-22",
+    "type": "tournament",
+    "endDate": "2026-11-22",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$25; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-22-rated-beginner-open",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-22-rated-beginner-open",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 22"
   },
   {
     "id": "uscf-5298daf456c804f2-2026-11-22",
@@ -16721,6 +17507,53 @@
     "dateText": "Friday, November 27, 2026 - Sunday, November 29, 2026"
   },
   {
+    "id": "marshall-1c5992fe42ba34e3-2026-11-27",
+    "name": "Afternoon Action",
+    "date": "2026-11-27",
+    "type": "tournament",
+    "endDate": "2026-11-27",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "2PM and continue ASAP",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$25; Non-MCC Member: Additional $10 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-27-afternoon-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-27-afternoon-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 27"
+  },
+  {
     "id": "uscf-250a14d642dd0646-2026-11-27",
     "name": "BLITZ NIGHT by Indy Chess",
     "date": "2026-11-27",
@@ -16988,6 +17821,7 @@
         "incrementSeconds": 2
       }
     ],
+    "scheduleText": "Begin at 7pm and continue ASAP.",
     "registrationText": "REGISTRATION CLOSES 30 MINUTES PRIOR TO THE START OF THE EVENT.",
     "rated": true,
     "ratingSystem": "USCF",
@@ -17005,6 +17839,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/marshall-700-fide-blitz-12",
         "fetchedAt": "2026-11-11T05:44:42+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-27-700-fide-blitz",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -17645,6 +18484,51 @@
     "dateText": "Saturday, November 28, 2026"
   },
   {
+    "id": "marshall-3f9bcd97cac2b96f-2026-11-28",
+    "name": "Morning Masters",
+    "date": "2026-11-28",
+    "type": "tournament",
+    "endDate": "2026-11-28",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $15 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-28-morning-masters",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-28-morning-masters",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 28"
+  },
+  {
     "id": "kingregistration-477a01938540f672-2026-11-28",
     "name": "Rising Star Thanksgiving Blitz",
     "date": "2026-11-28",
@@ -17733,6 +18617,51 @@
       }
     ],
     "locationPrecision": "postal"
+  },
+  {
+    "id": "marshall-f05e567dc26bbebd-2026-11-28",
+    "name": "SATURDAY G/50 (OPEN & U1800)",
+    "date": "2026-11-28",
+    "type": "tournament",
+    "endDate": "2026-11-28",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 45.0,
+      "raw": "G/45 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "12:30-2:30-4:30-6:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-28-saturday-g-50-open-u1800",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-28-saturday-g-50-open-u1800",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 28"
   },
   {
     "id": "uscf-541f24adac9fdfca-2026-11-28",
@@ -17935,6 +18864,51 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Saturday, November 28, 2026"
+  },
+  {
+    "id": "marshall-10d65fb9d6a8dd1a-2026-11-28",
+    "name": "U2000 MORNING ACTION",
+    "date": "2026-11-28",
+    "type": "tournament",
+    "endDate": "2026-11-28",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-28-u2000-morning-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-28-u2000-morning-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 28"
   },
   {
     "id": "uscf-5373d4d607bdff9a-2026-11-28",
@@ -18378,6 +19352,51 @@
     "dateText": "Sunday, November 29, 2026"
   },
   {
+    "id": "marshall-833c8f0ab7c3fd7f-2026-11-29",
+    "name": "Morning U1600",
+    "date": "2026-11-29",
+    "type": "tournament",
+    "endDate": "2026-11-29",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-29-morning-u1600",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-29-morning-u1600",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 29"
+  },
+  {
     "id": "kingregistration-c7ddb5ff86e34021-2026-11-29",
     "name": "NOVEMBER 29th SUNDAY SWISS",
     "date": "2026-11-29",
@@ -18423,6 +19442,51 @@
     "locationPrecision": "postal"
   },
   {
+    "id": "marshall-864954d1d7a2d034-2026-11-29",
+    "name": "RATED BEGINNER OPEN",
+    "date": "2026-11-29",
+    "type": "tournament",
+    "endDate": "2026-11-29",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$25; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-29-rated-beginner-open",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-29-rated-beginner-open",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 29"
+  },
+  {
     "id": "uscf-6cea53b2f8c5f845-2026-11-29",
     "name": "Scholastic Tournament - 61st American Open (Sunday)",
     "date": "2026-11-29",
@@ -18455,6 +19519,51 @@
     "registrationUrl": "https://www.kingregistration.com/event/kingsforcure2611"
   },
   {
+    "id": "marshall-b6b89971997356ce-2026-11-29",
+    "name": "Sunday Quads",
+    "date": "2026-11-29",
+    "type": "tournament",
+    "endDate": "2026-11-29",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60.0,
+      "raw": "G/60; d10",
+      "delaySeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60; d10",
+        "delaySeconds": 10
+      }
+    ],
+    "scheduleText": "12:30pm, 3pm, 5:30pm",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-29-sunday-quads",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-29-sunday-quads",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 29"
+  },
+  {
     "id": "uscf-9ad0cc41c22ab8a4-2026-11-30",
     "name": "MARSHALL FIDE MONDAY",
     "date": "2026-11-30",
@@ -18479,6 +19588,8 @@
         "incrementSeconds": 30
       }
     ],
+    "scheduleText": "7pm each Mon.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
     "rated": true,
     "ratingSystem": "USCF",
     "entryFeeText": "$50; MEMBERS ONLY",
@@ -18495,10 +19606,60 @@
         "id": "uscf",
         "url": "https://new.uschess.org/marshall-fide-monday-16",
         "fetchedAt": "2026-11-11T05:44:45+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-30-marshall-fide-monday",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
     "dateText": "Monday, November 30, 2026 - Monday, January 4, 2027"
+  },
+  {
+    "id": "marshall-cf9957d077045d13-2026-11-30",
+    "name": "Marshall Monday U1800",
+    "date": "2026-11-30",
+    "type": "tournament",
+    "endDate": "2027-01-04",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 +30",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 +30",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "7pm each Mon.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$40; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-30-marshall-monday-u1800",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-30-marshall-monday-u1800",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Nov 30, Dec 7, 14, 21, 28, Jan 4"
   },
   {
     "id": "kingregistration-c326f25a5d6370c8-2026-12-01",
@@ -18902,8 +20063,11 @@
         "incrementSeconds": 30
       }
     ],
+    "scheduleText": "7 pm Thursday, 12pm and 6pm Friday, 12pm, 6pm Saturday and 10am and 4pm Sunday.",
+    "registrationText": "Registration closes 11:59pm December 17th.",
     "rated": true,
     "ratingSystem": "USCF",
+    "entryFeeText": "$100; Members only",
     "website": "https://new.uschess.org/110th-edward-lasker-memorial-mcc-championship",
     "city": "New York",
     "state": "NY",
@@ -18917,6 +20081,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/110th-edward-lasker-memorial-mcc-championship",
         "fetchedAt": "2026-11-11T05:44:45+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-03-110th-edward-lasker-memorial-mcc-championship",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -23043,6 +24212,51 @@
     "dateText": "Thursday, December 10, 2026"
   },
   {
+    "id": "marshall-d4f32c8a6e900da4-2026-12-10",
+    "name": "THURSDAY ACTION",
+    "date": "2026-12-10",
+    "type": "tournament",
+    "endDate": "2026-12-10",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "7-8:10-9:20-10:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-10-thursday-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-10-thursday-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 10"
+  },
+  {
     "id": "uscf-2b732f7de566bdf7-2026-12-10",
     "name": "US Chess Grade (K-12) National Championships 2026",
     "date": "2026-12-10",
@@ -23252,6 +24466,53 @@
     "dateText": "Friday, December 11, 2026 - Sunday, December 13, 2026"
   },
   {
+    "id": "marshall-69e0c678978174a9-2026-12-11",
+    "name": "Afternoon Action",
+    "date": "2026-12-11",
+    "type": "tournament",
+    "endDate": "2026-12-11",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "2PM and continue ASAP",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$25; Non-MCC Member: Additional $10 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-11-afternoon-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-11-afternoon-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 11"
+  },
+  {
     "id": "uscf-f46b469aab4cb772-2026-12-11",
     "name": "BLITZ NIGHT by Indy Chess",
     "date": "2026-12-11",
@@ -23426,6 +24687,8 @@
         "incrementSeconds": 30
       }
     ],
+    "scheduleText": "Fri: 7pm, Sat & Sun: 12:30 & 5:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
     "rated": true,
     "ratingSystem": "USCF",
     "entryFeeText": "$100; Members only\nGMs Free, first 5 IMs Free. FIDE Rated. Only open to players with a current published rating 2000+ (USCF or FIDE); No exceptions.",
@@ -23442,6 +24705,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/marshall-premier-fide-open-33",
         "fetchedAt": "2026-11-11T05:44:57+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-11-marshall-premier-fide-open",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -23457,6 +24725,23 @@
     "address": "23 West 10th Street New York , NY 10011 United States",
     "lat": 40.7402,
     "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 +30",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 +30",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "Fri: 7pm, Sat & Sun: 12:30 & 5:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
     "rated": true,
     "ratingSystem": "USCF",
     "entryFeeText": "$75 Rounds: Fri: 7pm, Sat & Sun: 12:30 & 5:30pm. Max two byes; request at entry.\nREGISTRATION OPENS 10 DAYS BEFORE EVENT:\nRegister Online: https://www.marshallchessclub.org/tournaments/upcoming",
@@ -23473,6 +24758,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/marshall-premier-fide-u2000-32",
         "fetchedAt": "2026-11-11T05:44:57+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-11-marshall-premier-fide-u2000",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -24591,6 +25881,51 @@
     "dateText": "Saturday, December 12, 2026"
   },
   {
+    "id": "marshall-18f9613a89e7ebce-2026-12-12",
+    "name": "Morning Masters",
+    "date": "2026-12-12",
+    "type": "tournament",
+    "endDate": "2026-12-12",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $15 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-12-morning-masters",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-12-morning-masters",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 12"
+  },
+  {
     "id": "uscf-dc265916db38614c-2026-12-12",
     "name": "Phoenix Monthly Scholastic",
     "date": "2026-12-12",
@@ -24649,6 +25984,51 @@
       }
     ],
     "locationPrecision": "postal"
+  },
+  {
+    "id": "marshall-7164940342ba0924-2026-12-12",
+    "name": "U2000 MORNING ACTION",
+    "date": "2026-12-12",
+    "type": "tournament",
+    "endDate": "2026-12-12",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-12-u2000-morning-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-12-u2000-morning-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 12"
   },
   {
     "id": "kingregistration-1f9efeecb1528e9f-2026-12-12",
@@ -25149,6 +26529,96 @@
     "dateText": "Sunday, December 13, 2026"
   },
   {
+    "id": "marshall-bda90e7ec403e01a-2026-12-13",
+    "name": "Morning U1600",
+    "date": "2026-12-13",
+    "type": "tournament",
+    "endDate": "2026-12-13",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-13-morning-u1600",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-13-morning-u1600",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 13"
+  },
+  {
+    "id": "marshall-9ac8501882386ea5-2026-12-13",
+    "name": "RATED BEGINNER OPEN",
+    "date": "2026-12-13",
+    "type": "tournament",
+    "endDate": "2026-12-13",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$25; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-13-rated-beginner-open",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-13-rated-beginner-open",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 13"
+  },
+  {
     "id": "kingregistration-33dc7837e7794029-2026-12-13",
     "name": "The Jacob Cherian Moving But Not Forgotten Open",
     "date": "2026-12-13",
@@ -25289,6 +26759,8 @@
         "delaySeconds": 5
       }
     ],
+    "scheduleText": "7-8:10-9:20-10:30 pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
     "rated": true,
     "ratingSystem": "USCF",
     "entryFeeText": "$40; NON-MCC MBR: ADDITIONAL $25 MBR FEE.",
@@ -25305,6 +26777,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/marshall-masters-68",
         "fetchedAt": "2026-11-11T05:45:01+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-15-marshall-masters",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -25454,6 +26931,51 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Thursday, December 17, 2026"
+  },
+  {
+    "id": "marshall-1df15ccc0ad294c0-2026-12-17",
+    "name": "THURSDAY ACTION",
+    "date": "2026-12-17",
+    "type": "tournament",
+    "endDate": "2026-12-17",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "7-8:10-9:20-10:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-17-thursday-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-17-thursday-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 17"
   },
   {
     "id": "kingregistration-e491f403f0f9a55e-2026-12-18",
@@ -25737,6 +27259,53 @@
     "dateText": "Friday, December 18, 2026 - Sunday, December 20, 2026"
   },
   {
+    "id": "marshall-3bed45024479060d-2026-12-18",
+    "name": "Afternoon Action",
+    "date": "2026-12-18",
+    "type": "tournament",
+    "endDate": "2026-12-18",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "2PM and continue ASAP",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$25; Non-MCC Member: Additional $10 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-18-afternoon-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-18-afternoon-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 18"
+  },
+  {
     "id": "uscf-930b9cef49a584e8-2026-12-18",
     "name": "FRIDAY NIGHT FIDE RAPID",
     "date": "2026-12-18",
@@ -25761,6 +27330,8 @@
         "incrementSeconds": 10
       }
     ],
+    "scheduleText": "Begin at 7pm and continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
     "rated": true,
     "ratingSystem": "USCF",
     "entryFeeText": "$35; Members only",
@@ -25777,6 +27348,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/friday-night-fide-rapid-15",
         "fetchedAt": "2026-11-11T05:45:02+00:00"
+      },
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-18-friday-fide-rapid",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -25947,6 +27523,52 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Friday, December 18, 2026 - Sunday, December 20, 2026"
+  },
+  {
+    "id": "marshall-6acb856a4d61fb41-2026-12-18",
+    "name": "MONTHLY FIDE U2400 & U1800",
+    "date": "2026-12-18",
+    "type": "tournament",
+    "endDate": "2026-12-20",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 +30",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 +30",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "Fri: 7pm, Sat & Sun: 12:30 & 5:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$75; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-18-monthly-fide-u2400-u1800",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "fideRated": true,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-18-monthly-fide-u2400-u1800",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 18, 19, 20"
   },
   {
     "id": "uscf-bfe48a195c2f43cd-2026-12-18",
@@ -27277,6 +28899,51 @@
     "dateText": "Saturday, December 19, 2026"
   },
   {
+    "id": "marshall-803e3649ae675197-2026-12-19",
+    "name": "Morning Masters",
+    "date": "2026-12-19",
+    "type": "tournament",
+    "endDate": "2026-12-19",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $15 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-19-morning-masters",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-19-morning-masters",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 19"
+  },
+  {
     "id": "uscf-e14b2e4d2a58c521-2026-12-19",
     "name": "Phoenix Saturday Blitz",
     "date": "2026-12-19",
@@ -27527,6 +29194,51 @@
     "locationPrecision": "postal",
     "prizeFundUsd": 1000,
     "dateText": "Saturday, December 19, 2026"
+  },
+  {
+    "id": "marshall-1bd549d3c10d6724-2026-12-19",
+    "name": "U2000 MORNING ACTION",
+    "date": "2026-12-19",
+    "type": "tournament",
+    "endDate": "2026-12-19",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-19-u2000-morning-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-19-u2000-morning-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 19"
   },
   {
     "id": "uscf-e5dd7b8199526544-2026-12-19",
@@ -28021,6 +29733,51 @@
     "dateText": "Sunday, December 20, 2026"
   },
   {
+    "id": "marshall-67767fd7212442dc-2026-12-20",
+    "name": "Morning U1600",
+    "date": "2026-12-20",
+    "type": "tournament",
+    "endDate": "2026-12-20",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-20-morning-u1600",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-20-morning-u1600",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 20"
+  },
+  {
     "id": "uscf-4df63d7d356d29e2-2026-12-20",
     "name": "Publix at John Rolfe December Tournament",
     "date": "2026-12-20",
@@ -28049,6 +29806,51 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Sunday, December 20, 2026"
+  },
+  {
+    "id": "marshall-6a9c811d8ca022d0-2026-12-20",
+    "name": "RATED BEGINNER OPEN",
+    "date": "2026-12-20",
+    "type": "tournament",
+    "endDate": "2026-12-20",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$25; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-20-rated-beginner-open",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-20-rated-beginner-open",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 20"
   },
   {
     "id": "uscf-f805eb0c3d1a72f9-2026-12-20",
@@ -28331,6 +30133,51 @@
       }
     ],
     "locationPrecision": "postal"
+  },
+  {
+    "id": "marshall-07602634b054ddb2-2026-12-24",
+    "name": "THURSDAY ACTION",
+    "date": "2026-12-24",
+    "type": "tournament",
+    "endDate": "2026-12-24",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "7-8:10-9:20-10:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-24-thursday-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-24-thursday-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 24"
   },
   {
     "id": "uscf-ee449a6793c75657-2026-12-25",
@@ -28881,6 +30728,51 @@
     "dateText": "Saturday, December 26, 2026"
   },
   {
+    "id": "marshall-2a85e7c90a7e4eb1-2026-12-26",
+    "name": "Morning Masters",
+    "date": "2026-12-26",
+    "type": "tournament",
+    "endDate": "2026-12-26",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $15 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-26-morning-masters",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-26-morning-masters",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 26"
+  },
+  {
     "id": "uscf-d596e188aa8ed87c-2026-12-26",
     "name": "Princeton Holiday Classic",
     "date": "2026-12-26",
@@ -28981,6 +30873,51 @@
     "dateText": "Saturday, December 26, 2026"
   },
   {
+    "id": "marshall-6b3a168a3eef79d2-2026-12-26",
+    "name": "SATURDAY G/50 (OPEN & U1800)",
+    "date": "2026-12-26",
+    "type": "tournament",
+    "endDate": "2026-12-26",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 45.0,
+      "raw": "G/45 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "12:30-2:30-4:30-6:30pm.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-26-saturday-g-50-open-u1800",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-26-saturday-g-50-open-u1800",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 26"
+  },
+  {
     "id": "uscf-bc37a3aa17df2c84-2026-12-26",
     "name": "SCC YEAR-END OPEN CHAMPIONSHIP (ADULTS & KIDS)",
     "date": "2026-12-26",
@@ -29072,6 +31009,51 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Saturday, December 26, 2026"
+  },
+  {
+    "id": "marshall-a7fc59257c3a4d95-2026-12-26",
+    "name": "U2000 MORNING ACTION",
+    "date": "2026-12-26",
+    "type": "tournament",
+    "endDate": "2026-12-26",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-26-u2000-morning-action",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-26-u2000-morning-action",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 26"
   },
   {
     "id": "uscf-ba70103211bebd11-2026-12-27",
@@ -29181,6 +31163,51 @@
     "dateText": "Sunday, December 27, 2026"
   },
   {
+    "id": "marshall-9ce5cc1d28c53c1f-2026-12-27",
+    "name": "Morning U1600",
+    "date": "2026-12-27",
+    "type": "tournament",
+    "endDate": "2026-12-27",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-27-morning-u1600",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-27-morning-u1600",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 27"
+  },
+  {
     "id": "uscf-a650b9657f73b2a5-2026-12-27",
     "name": "Princeton Holiday Classic Scholastic",
     "date": "2026-12-27",
@@ -29228,6 +31255,96 @@
     ],
     "locationPrecision": "postal",
     "dateText": "Sunday, December 27, 2026"
+  },
+  {
+    "id": "marshall-6f07470b63c38cf0-2026-12-27",
+    "name": "RATED BEGINNER OPEN",
+    "date": "2026-12-27",
+    "type": "tournament",
+    "endDate": "2026-12-27",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Begin at 9am & continue ASAP.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$25; Non-MCC Member: Additional $25 fee.",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-27-rated-beginner-open",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-27-rated-beginner-open",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 27"
+  },
+  {
+    "id": "marshall-d871c89cd2622b42-2026-12-27",
+    "name": "Sunday Quads",
+    "date": "2026-12-27",
+    "type": "tournament",
+    "endDate": "2026-12-27",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60.0,
+      "raw": "G/60; d10",
+      "delaySeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60; d10",
+        "delaySeconds": 10
+      }
+    ],
+    "scheduleText": "12:30pm, 3pm, 5:30pm",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$35; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-27-sunday-quads",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-27-sunday-quads",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 27"
   },
   {
     "id": "uscf-a92513fa69a38aca-2026-12-28",
@@ -29469,6 +31586,97 @@
     "locationPrecision": "postal",
     "prizeFundUsd": 3000,
     "dateText": "Tuesday, December 29, 2026"
+  },
+  {
+    "id": "marshall-dfde338f314ca315-2026-12-30",
+    "name": "WEEKLY U1600",
+    "date": "2026-12-30",
+    "type": "tournament",
+    "endDate": "2027-02-04",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 +30",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 +30",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "7pm each Wed.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$40; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-30-weekly-u1600",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-30-weekly-u1600",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 30, Jan 6, 13, 20, 27, Feb 4"
+  },
+  {
+    "id": "marshall-dd25fef25df558c8-2026-12-30",
+    "name": "WEEKLY U2200",
+    "date": "2026-12-30",
+    "type": "tournament",
+    "endDate": "2027-02-03",
+    "venue": "Marshall Chess Club",
+    "address": "23 West 10th Street, New York, NY 10011",
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 +30",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 +30",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "7pm each Wed.",
+    "registrationText": "Registration closes 30 minutes prior to the start of the event.",
+    "entryFeeText": "$50; Members only",
+    "website": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-30-weekly-u2200",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "online": false,
+    "fideRated": true,
+    "organizer": "Marshall Chess Club",
+    "source": "marshall",
+    "sources": [
+      {
+        "id": "marshall",
+        "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-30-weekly-u2200",
+        "fetchedAt": "2026-11-11T06:03:52+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "dateText": "Dec 30, Jan 6, 13, 20, 27, Feb 3"
   },
   {
     "id": "kingregistration-b8625c2bca17ac90-2026-12-30",

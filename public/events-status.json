@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:02:48+00:00",
+  "updatedAt": "2026-11-11T06:03:51+00:00",
   "sources": [
     {
       "id": "nachesshub",
@@ -64,25 +64,34 @@
       "lastAttempt": "2026-11-11T06:02:48+00:00",
       "lastSuccess": "2026-11-11T06:02:48+00:00",
       "count": 32
+    },
+    {
+      "id": "marshall",
+      "name": "Marshall Chess Club",
+      "url": "https://www.marshallchessclub.org/tournaments/upcoming",
+      "status": "ok",
+      "lastAttempt": "2026-11-11T06:03:51+00:00",
+      "lastSuccess": "2026-11-11T06:03:51+00:00",
+      "count": 60
     }
   ],
-  "eventCount": 1003,
-  "mappedCount": 969,
+  "eventCount": 1049,
+  "mappedCount": 1015,
   "quality": {
-    "checkedAt": "2026-11-11T06:02:51+00:00",
+    "checkedAt": "2026-11-11T06:03:53+00:00",
     "passed": true,
     "coverage": {
-      "events": 1003,
-      "withFees": 573,
-      "withSchedule": 416,
-      "withRegistration": 428,
-      "physicalEvents": 984,
-      "mapped": 969,
+      "events": 1049,
+      "withFees": 620,
+      "withSchedule": 476,
+      "withRegistration": 486,
+      "physicalEvents": 1030,
+      "mapped": 1015,
       "venueCoordinates": 18
     },
     "issueCounts": {
       "multiple-or-ambiguous-time-controls": 182,
-      "recurring-or-long-date-range": 46,
+      "recurring-or-long-date-range": 53,
       "unexpired-listing-rechecked": 47,
       "section-specific-fees-need-review": 17,
       "source-format-coverage-differs": 2,

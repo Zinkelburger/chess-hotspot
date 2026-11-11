@@ -1,18 +1,18 @@
 {
-  "checkedAt": "2026-11-11T06:02:51+00:00",
+  "checkedAt": "2026-11-11T06:03:53+00:00",
   "passed": true,
   "coverage": {
-    "events": 1003,
-    "withFees": 573,
-    "withSchedule": 416,
-    "withRegistration": 428,
-    "physicalEvents": 984,
-    "mapped": 969,
+    "events": 1049,
+    "withFees": 620,
+    "withSchedule": 476,
+    "withRegistration": 486,
+    "physicalEvents": 1030,
+    "mapped": 1015,
     "venueCoordinates": 18
   },
   "issueCounts": {
     "multiple-or-ambiguous-time-controls": 182,
-    "recurring-or-long-date-range": 46,
+    "recurring-or-long-date-range": 53,
     "unexpired-listing-rechecked": 47,
     "section-specific-fees-need-review": 17,
     "source-format-coverage-differs": 2,
@@ -101,6 +101,12 @@
     },
     {
       "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "marshall-6c82b1c6ec909b7c-2026-10-07",
+      "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-10-07-weekly-u1600"
+    },
+    {
+      "severity": "warning",
       "code": "unexpired-listing-rechecked",
       "eventId": "uscf-48fa715492513bcb-2026-10-07",
       "url": "https://new.uschess.org/weekly-u2200-17"
@@ -122,6 +128,12 @@
       "code": "recurring-or-long-date-range",
       "eventId": "uscf-36dc7a0f10d6d336-2026-10-19",
       "url": "https://new.uschess.org/marshall-fide-monday-15"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "marshall-2b9f1072de2ca5e5-2026-10-19",
+      "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-10-19-marshall-monday-u1800"
     },
     {
       "severity": "warning",
@@ -660,6 +672,18 @@
     },
     {
       "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "marshall-04540bdd96a2481c-2026-11-18",
+      "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-18-weekly-u1600"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "marshall-8bfbf6c9c45b7fd7-2026-11-18",
+      "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-18-weekly-u2200"
+    },
+    {
+      "severity": "warning",
       "code": "multiple-or-ambiguous-time-controls",
       "eventId": "uscf-dc6db111612537fc-2026-11-20",
       "url": "https://new.uschess.org/2026-georgia-open-amateur-championship"
@@ -897,6 +921,12 @@
       "code": "recurring-or-long-date-range",
       "eventId": "uscf-9ad0cc41c22ab8a4-2026-11-30",
       "url": "https://new.uschess.org/marshall-fide-monday-16"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "marshall-cf9957d077045d13-2026-11-30",
+      "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-11-30-marshall-monday-u1800"
     },
     {
       "severity": "warning",
@@ -1203,6 +1233,18 @@
       "code": "multiple-or-ambiguous-time-controls",
       "eventId": "uscf-d596e188aa8ed87c-2026-12-26",
       "url": "https://new.uschess.org/princeton-holiday-classic"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "marshall-dfde338f314ca315-2026-12-30",
+      "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-30-weekly-u1600"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "marshall-dd25fef25df558c8-2026-12-30",
+      "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-30-weekly-u2200"
     },
     {
       "severity": "warning",

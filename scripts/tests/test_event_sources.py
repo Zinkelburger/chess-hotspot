@@ -455,13 +455,13 @@ def test_linked_listings_on_different_dates_are_flagged_not_merged():
     assert len(result)==2 and all('linked-listing-date-differs' in e.reviewFlags for e in result)
 
 
-@pytest.mark.parametrize('left,right',[('Friday Night Blitz!','Friday Blitz'),("Beginner's Open",'CCC Beginners Open #153'),('Saturday Swiss','CCC Saturday Swiss #93'),('Let There be Light XX','Let There Be Light 20'),('10th Annual Sevan Muradian Memorial','10th Annual Sevan Memorial Tournament'),('2026 North Central Open','2026 North Central Open (3-day, 2-day, 1-day schedules)')])
+@pytest.mark.parametrize('left,right',[('Friday Night Blitz!','Friday Blitz'),("Beginner's Open",'CCC Beginners Open #153'),('Saturday Swiss','CCC Saturday Swiss #93'),('Let There be Light XX','Let There Be Light 20'),('10th Annual Sevan Muradian Memorial','10th Annual Sevan Memorial Tournament'),('2026 North Central Open','2026 North Central Open (3-day, 2-day, 1-day schedules)'),('THURSDAY OPEN','MARSHALL THURSDAY FIDE OPEN')])
 def test_title_rule_accepts_one_event_under_two_titles(left,right):
     from event_merge import titles_agree
     assert titles_agree(left,right)
 
 
-@pytest.mark.parametrize('left,right',[('2026 Houston Open','2026 Houston Open Scholastic'),('Rising Star Thanksgiving Blitz','Rising Star Thanksgiving Classic'),('Ken Ferguson Memorial Open','Blitz at the Ken Ferguson Memorial'),('Friday Quads','Friday Swiss'),('Open','Championship'),('Winter Open','Winter Open U1200')])
+@pytest.mark.parametrize('left,right',[('2026 Houston Open','2026 Houston Open Scholastic'),('Rising Star Thanksgiving Blitz','Rising Star Thanksgiving Classic'),('Ken Ferguson Memorial Open','Blitz at the Ken Ferguson Memorial'),('Friday Quads','Friday Swiss'),('Open','Championship'),('Winter Open','Winter Open U1200'),('Marshall PREMIER FIDE Open','Marshall PREMIER FIDE U2000')])
 def test_title_rule_keeps_different_competitions_apart(left,right):
     from event_merge import titles_agree
     assert not titles_agree(left,right)

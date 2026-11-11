@@ -14,7 +14,7 @@ MONTHS = set('january february march april may june july august september octobe
 # Words that name a different competition on the same day at the same place.
 SEPARATORS = {word[:-1] if len(word) > 4 and word.endswith('s') else word for word in """blitz rapid quick action bullet classical scholastic youth junior juniors kids elementary
     senior seniors adult adults women womens girls girl boys team teams individual bughouse side reserve premier
-    championship championships beginner beginners novice open invitational quad quads swiss fide unrated""".split()}
+    championship championships beginner beginners novice open invitational quad quads swiss unrated""".split()}
 ROMAN = re.compile(r'^[ivxlc]+$')
 # Parentheticals describing logistics, not which competition this is.
 LOGISTICS = re.compile(r'\([^)]*\b(?:days?|schedules?|sponsored|presented|rated)\b[^)]*\)?', re.I)
