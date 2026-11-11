@@ -33,7 +33,7 @@ export const SECTION_PILL: Record<Section, string> = {
   learn: 'pretty-pill-violet',
 };
 
-const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+export const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // ─── The visitor's place, shared by every page ───
 
@@ -164,6 +164,12 @@ export function useFinderView(
     [mapChoice],
   );
   const scrollToTop = useCallback(() => listRef.current?.scrollTo({ top: 0 }), []);
+  /** Bring a point into the map's frame if it is outside it. */
+  const panTo = useCallback((lat: number | null | undefined, lng: number | null | undefined) => {
+    const map = mapRef.current;
+    if (!map || lat == null || lng == null || map.getBounds().contains([lng, lat])) return;
+    map.easeTo({ center: [lng, lat], duration: reducedMotion() ? 0 : 600 });
+  }, []);
 
   const scoped = areaOnly && mapVisible && bounds != null;
   return {
@@ -179,11 +185,79 @@ export function useFinderView(
     startAt,
     writeParam,
     scrollToTop,
+    panTo,
     areaOnly,
     setAreaOnly,
     /** The map's frame while "list only what is on the map" is on, else null. */
     scope: scoped ? bounds : null,
   };
+}
+
+// ─── A listing opened in place ───
+
+/**
+ * With the list on screen a listing opens in place, under its row; over a
+ * phone's full-screen map it opens as a sheet instead. This keeps the parts
+ * every page shares: Escape folds the open row, a listing opened from the map
+ * or a link is scrolled into view.
+ */
+export function useInlineDetail(view: FinderView, activeId: string | null, close: () => void) {
+  const inline = !(view.mapVisible && view.wide === false);
+  const revealRef = useRef(false);
+
+  useEffect(() => {
+    if (!inline || !activeId) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') close();
+    };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
+  }, [inline, activeId, close]);
+
+  /** Call before opening from outside the list, so the open row is scrolled to. */
+  const reveal = useCallback(() => {
+    revealRef.current = true;
+  }, []);
+
+  /** Run after each render that may have drawn the open row. */
+  const { listRef } = view;
+  useEffect(() => {
+    if (!revealRef.current || !activeId || !inline) return;
+    const frame = requestAnimationFrame(() => {
+      const row = listRef.current?.querySelector('.lf-item.is-open, .tf-row.is-open');
+      if (!row) return;
+      revealRef.current = false;
+      row.scrollIntoView({ block: 'start', behavior: reducedMotion() ? 'auto' : 'smooth' });
+    });
+    return () => cancelAnimationFrame(frame);
+  });
+
+  return { inline, reveal };
+}
+
+/** "3 clubs at this spot on the map · Show all" above a narrowed list. */
+export function PickedBanner({
+  count,
+  noun,
+  onClear,
+}: {
+  count: number;
+  noun: [string, string];
+  onClear: () => void;
+}) {
+  return (
+    <div className="lf-picked" role="status">
+      <span>
+        <strong>
+          {count} {count === 1 ? noun[0] : noun[1]}
+        </strong>{' '}
+        at this spot on the map
+      </span>
+      <button type="button" className="pretty-pill pretty-pill-ghost" onClick={onClear}>
+        Show all
+      </button>
+    </div>
+  );
 }
 
 // ─── Layout ───
@@ -206,8 +280,8 @@ type Props<S extends string> = {
   narrowed: boolean;
   onClear: () => void;
   sort: { value: S; options: [S, string][]; onChange: (value: S) => void };
-  /** Extra buttons for the count bar, shown on wide screens. */
-  barExtra?: ReactNode;
+  /** An extra link beside the section switcher, shown on wide screens. */
+  topExtra?: ReactNode;
   /** The list itself. */
   children: ReactNode;
   pins: FeatureCollection<Point, PinProps>;
@@ -236,7 +310,7 @@ export default function FinderShell<S extends string>({
   narrowed,
   onClear,
   sort,
-  barExtra,
+  topExtra,
   children,
   pins,
   highlight,
@@ -253,9 +327,14 @@ export default function FinderShell<S extends string>({
         <Link href="/" className="finder-brand" aria-label="Chess Hotspot home">
           ♞<span className="finder-brand-text"> chess hotspot</span>
         </Link>
-        <SiteNav current={section} />
+        <div className="finder-top-end">
+          {topExtra}
+          <SiteNav current={section} />
+        </div>
       </header>
 
+      <div className="finder-body">
+      <div className="finder-side">
       <div className="finder-controls">
         <div className="finder-search-row">
           <div className="finder-search">
@@ -285,6 +364,10 @@ export default function FinderShell<S extends string>({
           <PlaceInput
             value={where.near}
             onChange={near => onWhere(near ? { near, state: '' } : { near: null })}
+            states={Object.entries(STATES)
+              .filter(([code]) => stateCounts.has(code))
+              .map(([code, name]) => ({ code, name, count: stateCounts.get(code)! }))}
+            onState={code => onWhere({ state: code, near: null })}
           />
           <select
             className="finder-select"
@@ -335,7 +418,6 @@ export default function FinderShell<S extends string>({
             Clear all
           </button>
         )}
-        {barExtra}
         <label className="finder-sort">
           <Icon name="sort" size={14} />
           <span className="sr-only">Sort by</span>
@@ -357,10 +439,10 @@ export default function FinderShell<S extends string>({
         </button>
       </div>
 
-      <div className="finder-body">
         <div ref={view.listRef as RefObject<HTMLDivElement>} className="finder-list">
           {children}
         </div>
+      </div>
 
         {view.mapVisible && (
           <div className="finder-map">

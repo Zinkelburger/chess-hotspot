@@ -164,6 +164,12 @@
   text-decoration: none;
   color: var(--mint-ink, #244c32);
 }
+.finder-top-end {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-width: 0;
+}
 .finder-title {
   margin: 0;
   font-size: inherit;
@@ -188,8 +194,7 @@
 }
 .finder-search {
   position: relative;
-  flex: 1 1 14rem;
-  max-width: 21rem;
+  flex: 1 1 100%;
   min-width: 0;
 }
 .finder-search-icon,
@@ -235,7 +240,7 @@
   box-shadow: 0 0 0 2px var(--accent);
 }
 .finder-select {
-  flex: 0 1 11.5rem;
+  flex: 0 1 10.5rem;
   width: auto;
   min-width: 0;
   padding: 0 1.9rem 0 0.85rem;
@@ -250,8 +255,7 @@
 
 .place-input {
   position: relative;
-  flex: 1 1 12rem;
-  max-width: 17rem;
+  flex: 1 1 11rem;
   min-width: 0;
 }
 .place-input input {
@@ -336,6 +340,13 @@
 .finder .filter-label {
   min-width: 0;
 }
+/* Pills wrap in the narrow column; the label stays with their first line. */
+.finder .filter-group {
+  align-items: flex-start;
+}
+.finder .filter-group > .filter-label {
+  padding-top: 0.5rem;
+}
 .finder-chip-on {
   border-color: #475569;
   background: #f1f5f9;
@@ -418,27 +429,48 @@
   color: var(--ink-soft);
   cursor: pointer;
 }
-.finder-bar-extra {
-  flex-shrink: 0;
-}
 
 /* ─── List beside map ─── */
 
+/* The left column holds everything about the list — search, filters, the
+   count and the list itself — and the map runs the full height beside it.
+   Its width is set per section: cards read best narrow, the tournament table
+   needs room for its columns. */
+.finder {
+  --side: clamp(24.5rem, 34vw, 27rem);
+}
+.finder-tournaments {
+  --side: clamp(34rem, 54vw, 48rem);
+}
 .finder-body {
   flex: 1;
   min-height: 0;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
 }
-/* The same split on every page: the list takes three fifths, the map two. */
 .finder[data-map='on'] .finder-body {
-  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  grid-template-columns: var(--side) minmax(0, 1fr);
+}
+.finder-side {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  background: #ffffff;
+}
+.finder[data-map='on'] .finder-side {
+  border-right: 1px solid var(--line);
+  box-shadow: 4px 0 16px rgba(15, 23, 42, 0.05);
+  z-index: 1;
 }
 .finder-list {
+  flex: 1;
   min-height: 0;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   background: #ffffff;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
 }
 .finder-list > .feed-footnote {
   margin: 1rem 0.8rem 1.25rem;
@@ -452,7 +484,6 @@
 .finder-map {
   position: relative;
   min-height: 0;
-  border-left: 1px solid var(--line);
   background: #f2efe9;
 }
 .finder-area-toggle {
@@ -667,6 +698,42 @@ th[aria-sort] .tf-sort-button {
 .tf-fee {
   font-variant-numeric: tabular-nums;
 }
+
+/* A tournament opened in place: its row and the panel under it read as one. */
+.tf-row.is-open {
+  background: var(--accent-tint);
+  border-bottom-color: transparent;
+}
+.tf-detail-row {
+  background: var(--accent-tint);
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+}
+.tf-detail-row > td {
+  padding: 0;
+}
+.lf-detail.tf-detail {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
+  gap: 0.8rem 1.4rem;
+  padding: 0.2rem 0.6rem 0.9rem;
+}
+.tf-detail-facts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.tf-detail-story {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  min-width: 0;
+}
+.tf-detail .lf-detail-links {
+  grid-column: 1 / -1;
+}
+.tf-detail .meta-row {
+  font-size: 0.74rem;
+}
 .tf-none {
   color: #cbd5e1;
 }
@@ -687,6 +754,91 @@ th[aria-sort] .tf-sort-button {
   padding: 0.7rem 0.8rem;
   border-bottom: 1px solid #eef1ec;
   cursor: pointer;
+}
+.lf-item {
+  scroll-margin-top: 1.75rem;
+}
+.lf-item.is-open {
+  background: var(--accent-tint);
+  box-shadow: inset 0 -1px 0 color-mix(in srgb, var(--accent) 35%, transparent);
+}
+.lf-item.is-open .lf-card {
+  border-bottom-color: transparent;
+}
+.lf-chevron {
+  display: flex;
+  align-items: center;
+  height: 1.12rem;
+  color: var(--faint);
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.lf-card:hover .lf-chevron {
+  color: var(--accent-ink);
+}
+.lf-item.is-open .lf-chevron {
+  transform: rotate(180deg);
+  color: var(--accent-ink);
+}
+
+/* A club opened in place: everything the row did not already say. */
+.lf-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 0 0.8rem 0.9rem;
+  animation: lf-open 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+@keyframes lf-open {
+  from {
+    opacity: 0;
+    transform: translateY(-0.3rem);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lf-detail {
+    animation: none;
+  }
+  .lf-chevron {
+    transition: none;
+  }
+}
+.lf-detail .meta-row {
+  font-size: 0.76rem;
+}
+.lf-detail .popup-story p {
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+.lf-detail-photo {
+  width: 100%;
+  max-height: 10rem;
+  border-radius: 0.6rem;
+  object-fit: cover;
+}
+.lf-detail-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.lf-detail .popup-visits {
+  padding-top: 0.6rem;
+  border-top-color: color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+/* Several clubs share one dot: the list shows only them until cleared. */
+.lf-picked {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.5rem 0.8rem;
+  background: var(--accent-tint);
+  box-shadow: inset 0 -1px 0 var(--line);
+  font-size: 0.76rem;
+  color: var(--accent-ink);
 }
 @media (hover: hover) {
   .lf-card:hover {
@@ -714,12 +866,9 @@ th[aria-sort] .tf-sort-button {
   color: #b45309;
 }
 .lf-place {
-  grid-column: 2;
-  grid-row: 1;
+  grid-column: 1 / -1;
   font-size: 0.72rem;
-  line-height: 1.5;
-  text-align: right;
-  white-space: nowrap;
+  line-height: 1.4;
   color: var(--muted);
 }
 .lf-pills {
@@ -792,12 +941,17 @@ th[aria-sort] .tf-sort-button {
     top: 0;
     z-index: 6;
   }
-  .finder-bar-extra {
+  .finder-top-extra {
     display: none;
   }
   .finder-body,
-  .finder[data-map='on'] .finder-body {
+  .finder[data-map='on'] .finder-body,
+  .finder-side {
     display: block;
+  }
+  .finder[data-map='on'] .finder-side {
+    border-right: none;
+    box-shadow: none;
   }
   .finder-list {
     overflow: visible;
@@ -821,10 +975,11 @@ th[aria-sort] .tf-sort-button {
   .finder[data-map='on'] .finder-body {
     flex: 1;
     min-height: 0;
+    display: flex;
+    flex-direction: column;
   }
   .finder[data-map='on'] .finder-map {
-    height: 100%;
-    border-left: none;
+    flex: 1;
   }
 
   .finder-filters-toggle {
@@ -844,11 +999,9 @@ th[aria-sort] .tf-sort-button {
   /* Row one: search and the Filters button. Row two: place and state. */
   .finder-search {
     flex: 1 1 60%;
-    max-width: none;
   }
   .place-input {
     flex: 1 1 55%;
-    max-width: none;
   }
   .finder-select {
     flex: 1 1 30%;
@@ -1005,6 +1158,9 @@ th[aria-sort] .tf-sort-button {
 
   .lf-card {
     padding: 0.65rem 0.6rem;
+  }
+  .lf-detail.tf-detail {
+    grid-template-columns: minmax(0, 1fr);
   }
   .lf-section {
     padding: 0.35rem 0.6rem;

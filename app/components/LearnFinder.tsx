@@ -35,7 +35,9 @@ import Chip from './Chip';
 import { CloseButton, PopupShell, Story } from './DetailPopup';
 import FinderShell, {
   ListFooter,
+  PickedBanner,
   boxAround,
+  useInlineDetail,
   readSavedPlace,
   savePlace,
   useFinderView,
@@ -93,6 +95,8 @@ export default function LearnFinder() {
   const [ready, setReady] = useState(false);
   const [shown, setShown] = useState(PAGE);
   const [hoverId, setHoverId] = useState<string | null>(null);
+  /** The listings under a pin that holds several, listed on their own until cleared. */
+  const [picked, setPicked] = useState<string[] | null>(null);
 
   const set = useCallback(
     (patch: Partial<LFilters>) => setFilters(current => ({ ...current, ...patch })),
@@ -156,7 +160,7 @@ export default function LearnFinder() {
     [rows, filters.state],
   );
   const view = useFinderView(filters, stateBox, data != null);
-  const { writeParam, scrollToTop, startAt, scope } = view;
+  const { writeParam, scrollToTop, startAt, scope, panTo } = view;
 
   useEffect(() => {
     if (!ready) return;
@@ -177,13 +181,18 @@ export default function LearnFinder() {
   /** What the list shows: the same, or only what is inside the map's frame. */
   const { local, online } = useMemo(
     () =>
-      scope
+      picked
         ? {
-            local: matched.local.filter(row => inFrame(row.listing, scope)),
-            online: matched.online.filter(row => inFrame(row.listing, scope)),
+            local: matched.local.filter(row => picked.includes(row.listing.id)),
+            online: matched.online.filter(row => picked.includes(row.listing.id)),
           }
-        : matched,
-    [matched, scope],
+        : scope
+          ? {
+              local: matched.local.filter(row => inFrame(row.listing, scope)),
+              online: matched.online.filter(row => inFrame(row.listing, scope)),
+            }
+          : matched,
+    [matched, scope, picked],
   );
   const groups = useMemo(() => groupLearn(local, online, sort), [local, online, sort]);
   const total = local.length + online.length;
@@ -199,6 +208,7 @@ export default function LearnFinder() {
   // A new set of results starts again from the top.
   useEffect(() => {
     setShown(PAGE);
+    setPicked(null);
     scrollToTop();
   }, [filters, sort, scrollToTop]);
 
@@ -216,13 +226,18 @@ export default function LearnFinder() {
   }, []);
   const popup = usePopupHistory<LearnListing>(listingHash, findByHash);
   const { open, openStack, close } = popup;
+  const activeId = popup.active?.id ?? null;
+  const { inline, reveal } = useInlineDetail(view, activeId, close);
 
-  const openListing = useCallback(
+  const toggleListing = useCallback(
     (id: string) => {
+      if (activeId === id) return close();
       const listing = byIdRef.current.get(id);
-      if (listing) open(listing);
+      if (!listing) return;
+      open(listing);
+      panTo(listing.lat, listing.lng);
     },
-    [open],
+    [activeId, open, close, panTo],
   );
 
   const didDeepLinkRef = useRef(false);
@@ -232,8 +247,9 @@ export default function LearnFinder() {
     const listing = findByHash(window.location.hash);
     if (!listing) return;
     if (listing.lat != null && listing.lng != null) startAt(listing.lat, listing.lng);
+    reveal();
     open(listing, { replace: true });
-  }, [data, findByHash, open, startAt]);
+  }, [data, findByHash, open, startAt, reveal]);
 
   // ─── Map ───
 
@@ -261,13 +277,21 @@ export default function LearnFinder() {
   const handlePick = useCallback(
     (keys: string[]) => {
       const group = keys.flatMap(key => pinMembers.get(key) ?? []);
-      if (group.length === 1) open(group[0]);
-      else if (group.length > 1) openStack(group);
+      if (group.length === 1) {
+        reveal();
+        open(group[0]);
+      } else if (group.length > 1 && inline) {
+        // A town or ZIP pin: list just the people based there.
+        if (popup.active) close();
+        setPicked(group.map(listing => listing.id));
+        scrollToTop();
+      } else if (group.length > 1) openStack(group);
     },
-    [pinMembers, open, openStack],
+    [pinMembers, open, openStack, inline, popup.active, close, reveal, scrollToTop],
   );
   const handleMapClear = useCallback(() => {
     if (popup.active || popup.stack) close();
+    setPicked(null);
   }, [popup.active, popup.stack, close]);
 
   const highlight = useMemo(() => {
@@ -293,6 +317,24 @@ export default function LearnFinder() {
     setFilters(defaultLFilters);
     view.setAreaOnly(false);
   };
+
+  // Page down to a listing opened from the map or a link.
+  const activeIndex = useMemo(() => {
+    if (!activeId) return -1;
+    let i = 0;
+    for (const group of groups)
+      for (const row of group.rows) {
+        if (row.listing.id === activeId) return i;
+        i += 1;
+      }
+    return -1;
+  }, [groups, activeId]);
+  useEffect(() => {
+    if (activeIndex >= shown) setShown(Math.ceil((activeIndex + 1) / PAGE) * PAGE);
+  }, [activeIndex, shown]);
+  // A listing opened from a link but hidden by the filters is shown above the list.
+  const strayRow =
+    inline && activeId && activeIndex < 0 ? rows.find(row => row.listing.id === activeId) : undefined;
 
   // Fill the page budget group by group, in order.
   let budget = shown;
@@ -418,7 +460,7 @@ export default function LearnFinder() {
       onPick={handlePick}
       onMapClear={handleMapClear}
       popup={
-        popup.active ? (
+        inline && !popup.stack ? null : popup.active ? (
           <ListingPopup
             listing={popup.active}
             onClose={popup.close}
@@ -465,6 +507,17 @@ export default function LearnFinder() {
         )
       }
     >
+      {picked && (
+        <PickedBanner count={picked.length} noun={['listing', 'listings']} onClear={() => setPicked(null)} />
+      )}
+      {strayRow && (
+        <section>
+          <h2 className="lf-section">Linked listing · not in these filters</h2>
+          <ul className="lf-list">
+            <Card row={strayRow} active expanded onToggle={toggleListing} />
+          </ul>
+        </section>
+      )}
       {visible.map(group => (
         <section key={group.key}>
           {group.label && (
@@ -478,8 +531,9 @@ export default function LearnFinder() {
               <Card
                 key={row.listing.id}
                 row={row}
-                active={popup.active?.id === row.listing.id}
-                onOpen={openListing}
+                active={activeId === row.listing.id}
+                expanded={inline && activeId === row.listing.id}
+                onToggle={toggleListing}
                 onHover={view.wide && view.mapVisible ? setHoverId : undefined}
               />
             ))}
@@ -555,59 +609,164 @@ function coachFacts(listing: LearnListing): string {
 const Card = memo(function Card({
   row,
   active,
-  onOpen,
+  expanded,
+  onToggle,
   onHover,
 }: {
   row: LRow;
   active: boolean;
-  onOpen: (id: string) => void;
+  expanded: boolean;
+  onToggle: (id: string) => void;
   onHover?: (id: string | null) => void;
 }) {
   const { listing } = row;
   const facts = listing.kind === 'coach' ? coachFacts(listing) : '';
+  const detailId = `listing-detail-${listing.id}`;
   return (
-    <li>
+    <li className={clsx('lf-item', expanded && 'is-open')}>
       <div
-      role="button"
-      tabIndex={0}
-      className={clsx('lf-card', active && 'is-active')}
-      onClick={() => onOpen(listing.id)}
-      onKeyDown={e => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          onOpen(listing.id);
-        }
-      }}
-      onMouseEnter={onHover ? () => onHover(listing.id) : undefined}
-      onMouseLeave={onHover ? () => onHover(null) : undefined}
-    >
-      <h3 className="lf-name">
-        {listing.title && <span className="lf-title">{listing.title}</span>}
-        {row.name}
-      </h3>
-      <span className="lf-place">
-        {learnPlace(listing)}
-        {row.miles != null && <span className="tf-miles">{formatMiles(row.miles)}</span>}
-      </span>
-      <div className="lf-pills">
-        <span className={`pretty-pill ${KIND_PILL[listing.kind]}`}>{KIND_NAMES[listing.kind].one}</span>
-        {listing.kind === 'coach' ? (
-          <span className="pretty-pill pretty-pill-sky">Teaches online</span>
-        ) : (
-          listing.offers.map(offer => (
-            <span key={offer} className="pretty-pill pretty-pill-neutral">
-              {OFFER_LABELS[offer]}
-            </span>
-          ))
-        )}
-        {listing.beginners && <span className="pretty-pill pretty-pill-neutral">Beginners welcome</span>}
+        role="button"
+        tabIndex={0}
+        aria-expanded={expanded}
+        aria-controls={expanded ? detailId : undefined}
+        className={clsx('lf-card', active && 'is-active')}
+        onClick={() => onToggle(listing.id)}
+        onKeyDown={e => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            onToggle(listing.id);
+          }
+        }}
+        onMouseEnter={onHover ? () => onHover(listing.id) : undefined}
+        onMouseLeave={onHover ? () => onHover(null) : undefined}
+      >
+        <h3 className="lf-name">
+          {listing.title && <span className="lf-title">{listing.title}</span>}
+          {row.name}
+        </h3>
+        <span className="lf-chevron" aria-hidden="true">
+          <Icon name="chevron" size={14} />
+        </span>
+        <span className="lf-place">
+          {learnPlace(listing)}
+          {row.miles != null && <span className="tf-miles">{formatMiles(row.miles)}</span>}
+        </span>
+        <div className="lf-pills">
+          <span className={`pretty-pill ${KIND_PILL[listing.kind]}`}>{KIND_NAMES[listing.kind].one}</span>
+          {listing.kind === 'coach' ? (
+            <span className="pretty-pill pretty-pill-sky">Teaches online</span>
+          ) : (
+            listing.offers.map(offer => (
+              <span key={offer} className="pretty-pill pretty-pill-neutral">
+                {OFFER_LABELS[offer]}
+              </span>
+            ))
+          )}
+          {listing.beginners && <span className="pretty-pill pretty-pill-neutral">Beginners welcome</span>}
+        </div>
+        {facts && !expanded && <p className="lf-facts">{facts}</p>}
+        {listing.notes && !expanded && <p className="lf-desc">{clip(listing.notes)}</p>}
       </div>
-      {facts && <p className="lf-facts">{facts}</p>}
-      {listing.notes && <p className="lf-desc">{clip(listing.notes)}</p>}
-      </div>
+      {expanded && <ListingDetails id={detailId} listing={listing} />}
     </li>
   );
 });
+
+/** The facts, story and links of a listing: shared by the open row and the phone's sheet. */
+function ListingFacts({ listing, inline }: { listing: LearnListing; inline?: boolean }) {
+  return (
+    <>
+      {/* The open row already names the place. */}
+      {!inline && (
+      <MetaRow icon="pin">
+        {learnPlace(listing)}
+        {listing.lat != null && listing.precision !== 'venue' && (
+          <span className="popup-fine">
+            The pin marks the {listing.precision === 'postal' ? 'ZIP code' : 'town'}, not an
+            address.
+          </span>
+        )}
+      </MetaRow>
+      )}
+      {listing.fideRating && <MetaRow icon="star">FIDE rating {listing.fideRating}</MetaRow>}
+      {listing.rate && <MetaRow icon="cost">{listing.rate}</MetaRow>}
+      {listing.languages?.length ? (
+        <MetaRow icon="info">Teaches in {listing.languages.join(', ')}</MetaRow>
+      ) : null}
+    </>
+  );
+}
+
+function ListingSourceNote({ listing }: { listing: LearnListing }) {
+  return (
+    <p className="popup-fine">
+      {listing.kind === 'coach'
+        ? `From this coach’s public Lichess profile${
+            listing.lastActive
+              ? `, last active ${new Date(`${listing.lastActive}T12:00:00Z`).toLocaleDateString(
+                  'en-US',
+                  { month: 'short', year: 'numeric', timeZone: 'UTC' },
+                )}`
+              : ''
+          }. Rates and availability are theirs to confirm.`
+        : 'Listed by US Chess as an affiliate offering instruction. Contact them for schedules and prices.'}
+    </p>
+  );
+}
+
+function ListingLinks({ listing, share }: { listing: LearnListing; share?: boolean }) {
+  const coach = listing.kind === 'coach';
+  const name = `${listing.title ? `${listing.title} ` : ''}${listing.name}`;
+  return (
+    <>
+      {listing.website && (
+        <a
+          href={listing.website}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pretty-pill pretty-pill-violet"
+        >
+          {coach ? 'Lichess coach profile' : 'Website'}
+        </a>
+      )}
+      {listing.clubId && (
+        <a href={`/clubs#club=${encodeURIComponent(listing.clubId)}`} className="pretty-pill pretty-pill-green">
+          Club nights
+        </a>
+      )}
+      {!coach && (
+        <a
+          href={mapsUrl([listing.name, listing.city, listing.state].filter(Boolean).join(', '))}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pretty-pill pretty-pill-sky"
+        >
+          Directions
+        </a>
+      )}
+      {share && <ShareButton url={`${SITE_URL}/learn${listingHash(listing)}`} title={name} />}
+    </>
+  );
+}
+
+/** A listing opened in place under its row. */
+function ListingDetails({ id, listing }: { id: string; listing: LearnListing }) {
+  return (
+    <div id={id} className="lf-detail">
+      <ListingFacts listing={listing} inline />
+      {listing.kids && (
+        <div className="lf-pills">
+          <span className="pretty-pill pretty-pill-neutral">Kids welcome</span>
+        </div>
+      )}
+      {listing.notes && <Story text={listing.notes} />}
+      <div className="lf-detail-links">
+        <ListingLinks listing={listing} share />
+      </div>
+      <ListingSourceNote listing={listing} />
+    </div>
+  );
+}
 
 function ListingPopup({
   listing,
@@ -621,7 +780,6 @@ function ListingPopup({
   backLabel?: string;
 }) {
   const coach = listing.kind === 'coach';
-  const place = learnPlace(listing);
   const name = `${listing.title ? `${listing.title} ` : ''}${listing.name}`;
   return (
     <PopupShell label={name} onClose={onClose}>
@@ -655,65 +813,17 @@ function ListingPopup({
           {listing.kids && <span className="pretty-pill pretty-pill-neutral">Kids welcome</span>}
         </div>
         <div className="popup-facts">
-          <MetaRow icon="pin">
-            {place}
-            {listing.lat != null && listing.precision !== 'venue' && (
-              <span className="popup-fine">
-                The pin marks the {listing.precision === 'postal' ? 'ZIP code' : 'town'}, not an
-                address.
-              </span>
-            )}
-          </MetaRow>
-          {listing.fideRating && <MetaRow icon="star">FIDE rating {listing.fideRating}</MetaRow>}
-          {listing.rate && <MetaRow icon="cost">{listing.rate}</MetaRow>}
-          {listing.languages?.length ? (
-            <MetaRow icon="info">Teaches in {listing.languages.join(', ')}</MetaRow>
-          ) : null}
+          <ListingFacts listing={listing} />
         </div>
       </div>
 
       <div className="popup-body">
         {listing.notes && <Story text={listing.notes} />}
-        <p className="popup-fine">
-          {coach
-            ? `From this coach’s public Lichess profile${
-                listing.lastActive
-                  ? `, last active ${new Date(`${listing.lastActive}T12:00:00Z`).toLocaleDateString(
-                      'en-US',
-                      { month: 'short', year: 'numeric', timeZone: 'UTC' },
-                    )}`
-                  : ''
-              }. Rates and availability are theirs to confirm.`
-            : 'Listed by US Chess as an affiliate offering instruction. Contact them for schedules and prices.'}
-        </p>
+        <ListingSourceNote listing={listing} />
       </div>
 
       <div className="popup-footer">
-        {listing.website && (
-          <a
-            href={listing.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="pretty-pill pretty-pill-violet"
-          >
-            {coach ? 'Lichess coach profile' : 'Website'}
-          </a>
-        )}
-        {listing.clubId && (
-          <a href={`/#club=${encodeURIComponent(listing.clubId)}`} className="pretty-pill pretty-pill-green">
-            Club nights on the map
-          </a>
-        )}
-        {!coach && (
-          <a
-            href={mapsUrl([listing.name, listing.city, listing.state].filter(Boolean).join(', '))}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="pretty-pill pretty-pill-sky"
-          >
-            Google Maps
-          </a>
-        )}
+        <ListingLinks listing={listing} />
       </div>
     </PopupShell>
   );

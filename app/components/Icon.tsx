@@ -18,7 +18,8 @@ export type IconName =
   | 'locate'
   | 'filter'
   | 'sort'
-  | 'external';
+  | 'external'
+  | 'chevron';
 
 const paths: Record<IconName, ReactNode> = {
   map: (
@@ -75,6 +76,7 @@ const paths: Record<IconName, ReactNode> = {
   check: <path d="m5 12 5 5 9-10" />,
   star: <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9Z" />,
   back: <path d="m14 6-6 6 6 6" />,
+  chevron: <path d="m6 9 6 6 6-6" />,
   locate: (
     <>
       <circle cx="12" cy="12" r="6.5" />

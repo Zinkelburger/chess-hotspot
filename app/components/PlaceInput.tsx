@@ -30,14 +30,33 @@ type Props = {
   value: Near | null;
   onChange: (near: Near | null) => void;
   placeholder?: string;
+  /** States with listings, offered first when the typing matches one. */
+  states?: { code: string; name: string; count: number }[];
+  onState?: (code: string) => void;
 };
+
+/** "mass", "New Y", "TX": the states the typing could mean, best first. */
+function matchStates(states: NonNullable<Props['states']>, typed: string) {
+  const q = typed.trim().toLowerCase();
+  if (q.length < 2) return [];
+  return states
+    .filter(s => s.name.toLowerCase().startsWith(q) || (q.length === 2 && s.code.toLowerCase() === q))
+    .sort((a, b) => Number(b.code.toLowerCase() === q) - Number(a.code.toLowerCase() === q))
+    .slice(0, 3);
+}
 
 /**
  * "Near": type a city or ZIP code, or use the device's location. Places come
  * from OpenStreetMap's Nominatim; the chosen point never leaves the browser
  * except as part of a link the visitor shares.
  */
-export default function PlaceInput({ value, onChange, placeholder = 'City or ZIP code' }: Props) {
+export default function PlaceInput({
+  value,
+  onChange,
+  placeholder = 'City, ZIP or state',
+  states = [],
+  onState,
+}: Props) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [places, setPlaces] = useState<Place[]>([]);
@@ -87,6 +106,15 @@ export default function PlaceInput({ value, onChange, placeholder = 'City or ZIP
     return () => document.removeEventListener('mousedown', outside);
   }, []);
 
+  const stateMatches = onState ? matchStates(states, q) : [];
+  const chooseState = (code: string) => {
+    onState?.(code);
+    setQuery('');
+    setPlaces([]);
+    setOpen(false);
+    inputRef.current?.blur();
+  };
+
   const choose = (near: Near) => {
     onChange(near);
     setQuery('');
@@ -108,7 +136,7 @@ export default function PlaceInput({ value, onChange, placeholder = 'City or ZIP
     );
   };
 
-  const showList = open && q.length >= 3;
+  const showList = open && (q.length >= 3 || stateMatches.length > 0);
 
   return (
     <div ref={wrapperRef} className="place-input">
@@ -134,7 +162,7 @@ export default function PlaceInput({ value, onChange, placeholder = 'City or ZIP
             aria-expanded={showList}
             aria-controls={listId}
             aria-autocomplete="list"
-            aria-label="Near: city or ZIP code"
+            aria-label={onState ? 'Near: city, ZIP code or state' : 'Near: city or ZIP code'}
             autoComplete="off"
             placeholder={state === 'locating' ? 'Finding you…' : placeholder}
             value={query}
@@ -145,7 +173,13 @@ export default function PlaceInput({ value, onChange, placeholder = 'City or ZIP
             onFocus={() => setOpen(true)}
             onKeyDown={e => {
               if (e.key === 'Escape') setOpen(false);
-              if (e.key === 'Enter' && places[0]) {
+              const exact = stateMatches.find(
+                s => s.name.toLowerCase() === q.toLowerCase() || s.code.toLowerCase() === q.toLowerCase(),
+              );
+              if (e.key === 'Enter' && (exact || (stateMatches[0] && !places[0]))) {
+                e.preventDefault();
+                chooseState((exact ?? stateMatches[0]).code);
+              } else if (e.key === 'Enter' && places[0]) {
                 e.preventDefault();
                 const first = places[0];
                 choose({ lat: +first.lat, lng: +first.lon, label: placeLabel(first, q) });
@@ -165,6 +199,26 @@ export default function PlaceInput({ value, onChange, placeholder = 'City or ZIP
       )}
       {showList && !value && (
         <div id={listId} role="listbox" className="place-input-results">
+          {stateMatches.map(match => (
+            <button
+              key={match.code}
+              type="button"
+              role="option"
+              aria-selected="false"
+              className="search-box-row"
+              onClick={() => chooseState(match.code)}
+            >
+              <span className="search-box-pin">
+                <Icon name="map" size={15} />
+              </span>
+              <span className="search-box-text">
+                <span className="search-box-name">All of {match.name}</span>
+                <span className="search-box-meta">
+                  {match.count.toLocaleString('en-US')} listed in the state
+                </span>
+              </span>
+            </button>
+          ))}
           {places.map(place => (
             <button
               key={place.place_id}
@@ -185,7 +239,7 @@ export default function PlaceInput({ value, onChange, placeholder = 'City or ZIP
               </span>
             </button>
           ))}
-          {!places.length && (
+          {!places.length && !stateMatches.length && (
             <div className="search-box-empty">
               {state === 'loading' ? 'Searching…' : 'No place found. Try a city and state.'}
             </div>

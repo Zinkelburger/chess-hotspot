@@ -352,20 +352,72 @@ function ClubCard({ spot }: { spot: SpotRaw }) {
           rel="noopener noreferrer"
           className="pretty-pill pretty-pill-sky"
         >
-          Google Maps
+          Directions
         </a>
       </div>
     </>
   );
 }
 
+/**
+ * A club's details opened in place under its row in the list: the full
+ * address, the club's own words, its links and the visit log. The row above
+ * already shows the name, the place and the meeting days, so they are not
+ * repeated.
+ */
+export function ClubDetails({ spot, id }: { spot: SpotRaw; id?: string }) {
+  const place = clubPlace(spot);
+  const links = clubLinks(spot);
+  const notes = [spot.notes, spot.meeting_times]
+    .filter((text, i, all): text is string => !!text && all.indexOf(text) === i)
+    .join('\n\n');
+  const directions =
+    spot.gmap || (place ? mapsUrl(`${spot.name}, ${place}`) : mapsUrl(`${spot.lat},${spot.lng}`));
+  const schedule = clubSchedule(spot);
+
+  return (
+    <div id={id} className="lf-detail">
+      {place && <MetaRow icon="pin">{place}</MetaRow>}
+      {schedule.length === 0 && (
+        <MetaRow icon="calendar">Meeting times not listed — check with the club</MetaRow>
+      )}
+      {spot.photo && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={spot.photo} alt="" className="lf-detail-photo" loading="lazy" />
+      )}
+      {notes && <Story text={notes} />}
+      <div className="lf-detail-links">
+        {links.map(link => (
+          <a
+            key={link.url}
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`pretty-pill ${link.own ? 'pretty-pill-green' : 'pretty-pill-neutral'}`}
+          >
+            {link.label}
+          </a>
+        ))}
+        <a
+          href={directions}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pretty-pill pretty-pill-sky"
+        >
+          Directions
+        </a>
+        <ShareButton url={`${SITE_URL}/clubs#club=${encodeURIComponent(spot.id)}`} title={spot.name} />
+      </div>
+      <ClubVisits spot={spot} />
+    </div>
+  );
+}
+
 // ─── Tournament ───
 
-function TournamentCard({ event, today }: { event: ChessEvent; today: string }) {
-  const formats = eventFormats(event);
+/** What a tournament listing holds beyond its row: shared by the popup and the open row. */
+function tournamentParts(event: ChessEvent, today: string) {
   const fee = eventFee(event);
-  const prize = eventPrize(event);
-  const calendarUrl = eventCalendarUrl(event);
   const span = daysBetween(event.date, event.endDate || event.date);
   const started = !!today && event.date < today;
   const sections = [...new Set((event.sections || []).map(section => section.name))];
@@ -380,6 +432,112 @@ function TournamentCard({ event, today }: { event: ChessEvent; today: string }) 
     .join('\n');
   const conflict = event.reviewFlags?.some(flag => flag.startsWith('source-conflict-'));
   const address = eventAddress(event);
+  const prize = eventPrize(event);
+  const calendarUrl = eventCalendarUrl(event);
+
+  const facts = (
+    <>
+      <MetaRow icon="calendar">
+        {eventDateText(event, today || event.date)}
+        {started && ' · under way'}
+      </MetaRow>
+      <MetaRow icon="pin">
+        {event.online ? (
+          'Online'
+        ) : (
+          <>
+            {event.venue && <strong>{event.venue}</strong>}
+            {event.venue && address ? ' · ' : ''}
+            {address || (!event.venue && 'See the organizer’s listing')}
+            {event.locationPrecision && event.locationPrecision !== 'venue' && (
+              <span className="popup-fine">
+                The pin marks the {event.locationPrecision === 'postal' ? 'ZIP code' : 'area'}, not
+                the door.
+              </span>
+            )}
+          </>
+        )}
+      </MetaRow>
+      {event.timeControl?.raw && <MetaRow icon="clock">{event.timeControl.raw}</MetaRow>}
+      {fee && fee.length <= 110 && <MetaRow icon="cost">{fee}</MetaRow>}
+      {prize && <MetaRow icon="trophy">{prize}</MetaRow>}
+    </>
+  );
+
+  const story = (
+    <>
+      {conflict && (
+        <p className="popup-notice">
+          Our sources disagree on some details. Check the official listing before you register.
+        </p>
+      )}
+      {fee.length > 110 && <Story title="Entry fee" text={fee} />}
+      {schedule && <Story title="Schedule" text={schedule} />}
+      {event.registrationText && <Story title="Registration" text={event.registrationText} />}
+      {sections.length > 0 && <Story title="Sections" text={sections.join(' · ')} />}
+      <p className="popup-fine">
+        {event.organizer ? `Run by ${event.organizer}. ` : ''}
+        Listed by{' '}
+        {(event.sources || []).map((source, i) => (
+          <span key={source.id + source.url}>
+            {i > 0 && ', '}
+            <a href={source.url} target="_blank" rel="noopener noreferrer" className="popup-link">
+              {sourceNames[source.id] || source.id}
+            </a>
+          </span>
+        ))}
+        . Confirm times and fees with the organizer.
+      </p>
+    </>
+  );
+
+  const links = (
+    <>
+      {event.website && (
+        <a
+          href={event.website}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pretty-pill pretty-pill-blue"
+        >
+          Official details
+        </a>
+      )}
+      {!event.online && (event.address || event.city) && (
+        <a
+          href={mapsUrl(
+            [event.venue, event.address, event.city, event.state].filter(Boolean).join(', '),
+          )}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pretty-pill pretty-pill-sky"
+        >
+          Directions
+        </a>
+      )}
+      {calendarUrl && (
+        <a
+          href={calendarUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pretty-pill pretty-pill-violet"
+          title="Adds the dates; confirm round times with the organizer"
+        >
+          Add to calendar
+        </a>
+      )}
+      <a href={eventPath(event)} className="pretty-pill pretty-pill-ghost">
+        Full page
+      </a>
+    </>
+  );
+
+  return { facts, story, links };
+}
+
+function TournamentCard({ event, today }: { event: ChessEvent; today: string }) {
+  const formats = eventFormats(event);
+  const { facts, story, links } = tournamentParts(event, today);
 
   return (
     <>
@@ -404,98 +562,26 @@ function TournamentCard({ event, today }: { event: ChessEvent; today: string }) 
           {isBigEvent(event) && <span className="pretty-pill pretty-pill-fuchsia">Big event</span>}
           {event.online && <span className="pretty-pill pretty-pill-sky">Online</span>}
         </div>
-        <div className="popup-facts">
-          <MetaRow icon="calendar">
-            {eventDateText(event, today || event.date)}
-            {started && ' · under way'}
-          </MetaRow>
-          <MetaRow icon="pin">
-            {event.online ? (
-              'Online'
-            ) : (
-              <>
-                {event.venue && <strong>{event.venue}</strong>}
-                {event.venue && address ? ' · ' : ''}
-                {address || (!event.venue && 'See the organizer’s listing')}
-                {event.locationPrecision && event.locationPrecision !== 'venue' && (
-                  <span className="popup-fine">
-                    The pin marks the {event.locationPrecision === 'postal' ? 'ZIP code' : 'area'},
-                    not the door.
-                  </span>
-                )}
-              </>
-            )}
-          </MetaRow>
-          {event.timeControl?.raw && <MetaRow icon="clock">{event.timeControl.raw}</MetaRow>}
-          {fee && fee.length <= 110 && <MetaRow icon="cost">{fee}</MetaRow>}
-          {prize && <MetaRow icon="trophy">{prize}</MetaRow>}
-        </div>
+        <div className="popup-facts">{facts}</div>
       </div>
-
-      <div className="popup-body">
-        {conflict && (
-          <p className="popup-notice">
-            Our sources disagree on some details. Check the official listing before you register.
-          </p>
-        )}
-        {fee.length > 110 && <Story title="Entry fee" text={fee} />}
-        {schedule && <Story title="Schedule" text={schedule} />}
-        {event.registrationText && <Story title="Registration" text={event.registrationText} />}
-        {sections.length > 0 && <Story title="Sections" text={sections.join(' · ')} />}
-        <p className="popup-fine">
-          {event.organizer ? `Run by ${event.organizer}. ` : ''}
-          Listed by{' '}
-          {(event.sources || []).map((source, i) => (
-            <span key={source.id + source.url}>
-              {i > 0 && ', '}
-              <a href={source.url} target="_blank" rel="noopener noreferrer" className="popup-link">
-                {sourceNames[source.id] || source.id}
-              </a>
-            </span>
-          ))}
-          . Confirm times and fees with the organizer.
-        </p>
-      </div>
-
-      <div className="popup-footer">
-        {event.website && (
-          <a
-            href={event.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="pretty-pill pretty-pill-blue"
-          >
-            Official details
-          </a>
-        )}
-        {!event.online && (event.address || event.city) && (
-          <a
-            href={mapsUrl(
-              [event.venue, event.address, event.city, event.state].filter(Boolean).join(', '),
-            )}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="pretty-pill pretty-pill-sky"
-          >
-            Google Maps
-          </a>
-        )}
-        {calendarUrl && (
-          <a
-            href={calendarUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="pretty-pill pretty-pill-violet"
-            title="Adds the dates; confirm round times with the organizer"
-          >
-            Add to calendar
-          </a>
-        )}
-        <a href={eventPath(event)} className="pretty-pill pretty-pill-ghost">
-          Full page
-        </a>
-      </div>
+      <div className="popup-body">{story}</div>
+      <div className="popup-footer">{links}</div>
     </>
+  );
+}
+
+/** A tournament opened in place under its row in the table. */
+export function TournamentDetails({ event, today }: { event: ChessEvent; today: string }) {
+  const { facts, story, links } = tournamentParts(event, today);
+  return (
+    <div className="lf-detail tf-detail">
+      <div className="tf-detail-facts">{facts}</div>
+      <div className="tf-detail-story">{story}</div>
+      <div className="lf-detail-links">
+        {links}
+        <ShareButton url={`${SITE_URL}${eventPath(event)}`} title={event.name} />
+      </div>
+    </div>
   );
 }
 

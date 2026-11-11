@@ -48,10 +48,12 @@ import type { TournamentData } from '@/app/tournaments-data.json/route';
 import { usePopupHistory } from '@/app/hooks/usePopupHistory';
 import type { PinProps } from './ExploreMap';
 import Chip from './Chip';
-import DetailPopup, { StackPopup } from './DetailPopup';
+import DetailPopup, { StackPopup, TournamentDetails } from './DetailPopup';
 import { FORMAT_PILL } from './FilterBar';
 import FinderShell, {
   ListFooter,
+  PickedBanner,
+  useInlineDetail,
   boxAround,
   readSavedPlace,
   savePlace,
@@ -93,6 +95,8 @@ export default function TournamentFinder() {
   const [ready, setReady] = useState(false);
   const [shown, setShown] = useState(PAGE);
   const [hoverId, setHoverId] = useState<string | null>(null);
+  /** The tournaments under a pin that holds several, listed on their own until cleared. */
+  const [picked, setPicked] = useState<string[] | null>(null);
 
   const set = useCallback(
     (patch: Partial<TFilters>) => setFilters(current => ({ ...current, ...patch })),
@@ -161,7 +165,7 @@ export default function TournamentFinder() {
     [rows, filters.state],
   );
   const view = useFinderView(filters, stateBox, data != null);
-  const { writeParam, scrollToTop, startAt, scope } = view;
+  const { writeParam, scrollToTop, startAt, scope, panTo } = view;
 
   useEffect(() => {
     if (!ready) return;
@@ -182,8 +186,13 @@ export default function TournamentFinder() {
   const matched = useMemo(() => filterRows(rows, filters, today), [rows, filters, today]);
   /** What the table lists: the same, or only what is inside the map's frame. */
   const listed = useMemo(
-    () => (scope ? matched.filter(row => withinBounds(row.event, scope)) : matched),
-    [matched, scope],
+    () =>
+      picked
+        ? matched.filter(row => picked.includes(row.event.id))
+        : scope
+          ? matched.filter(row => withinBounds(row.event, scope))
+          : matched,
+    [matched, scope, picked],
   );
   const groups = useMemo(
     () => groupRows(sortRows(listed, activeSort, descending, today), activeSort, today),
@@ -201,6 +210,7 @@ export default function TournamentFinder() {
   // A new set of results starts again from the top.
   useEffect(() => {
     setShown(PAGE);
+    setPicked(null);
     scrollToTop();
   }, [filters, activeSort, descending, scrollToTop]);
 
@@ -216,13 +226,18 @@ export default function TournamentFinder() {
   }, []);
   const popup = usePopupHistory<Item>(itemHash, findByHash);
   const { open, openStack, close } = popup;
+  const activeId = popup.active?.kind === 'tournament' ? popup.active.id : null;
+  const { inline, reveal } = useInlineDetail(view, activeId, close);
 
-  const openEvent = useCallback(
+  const toggleEvent = useCallback(
     (id: string) => {
+      if (activeId === id) return close();
       const event = byIdRef.current.get(id);
-      if (event) open(eventItem(event));
+      if (!event) return;
+      open(eventItem(event));
+      if (hasPin(event)) panTo(event.lat, event.lng);
     },
-    [open],
+    [activeId, open, close, panTo],
   );
 
   // A link to one tournament (`#event=…`) opens it on arrival.
@@ -233,8 +248,9 @@ export default function TournamentFinder() {
     const item = findByHash(window.location.hash);
     if (!item || item.kind !== 'tournament') return;
     if (hasPin(item.event)) startAt(item.event.lat, item.event.lng);
+    reveal();
     open(item, { replace: true });
-  }, [events, findByHash, open, startAt]);
+  }, [events, findByHash, open, startAt, reveal]);
 
   // ─── Map ───
 
@@ -272,13 +288,21 @@ export default function TournamentFinder() {
         .flatMap(key => pinMembers.get(key) ?? [])
         .sort((a, b) => a.event.date.localeCompare(b.event.date))
         .map(row => eventItem(row.event));
-      if (group.length === 1) open(group[0]);
-      else if (group.length > 1) openStack(group);
+      if (group.length === 1) {
+        reveal();
+        open(group[0]);
+      } else if (group.length > 1 && inline) {
+        // Most pins mark a ZIP code: list just what is there.
+        if (popup.active) close();
+        setPicked(group.map(item => item.id));
+        scrollToTop();
+      } else if (group.length > 1) openStack(group);
     },
-    [pinMembers, open, openStack],
+    [pinMembers, open, openStack, inline, popup.active, close, reveal, scrollToTop],
   );
   const handleMapClear = useCallback(() => {
     if (popup.active || popup.stack) close();
+    setPicked(null);
   }, [popup.active, popup.stack, close]);
 
   const highlight = useMemo(() => {
@@ -333,6 +357,24 @@ export default function TournamentFinder() {
     setFilters(defaultTFilters);
     view.setAreaOnly(false);
   };
+
+  // Page down to a tournament opened from the map or a link.
+  const activeIndex = useMemo(() => {
+    if (!activeId) return -1;
+    let i = 0;
+    for (const group of groups)
+      for (const row of group.rows) {
+        if (row.event.id === activeId) return i;
+        i += 1;
+      }
+    return -1;
+  }, [groups, activeId]);
+  useEffect(() => {
+    if (activeIndex >= shown) setShown(Math.ceil((activeIndex + 1) / PAGE) * PAGE);
+  }, [activeIndex, shown]);
+  // A tournament opened from a link but hidden by the filters is shown above the table.
+  const strayRow =
+    inline && activeId && activeIndex < 0 ? rows.find(row => row.event.id === activeId) : undefined;
 
   // Fill the page budget group by group, in order.
   let budget = shown;
@@ -544,7 +586,7 @@ export default function TournamentFinder() {
       onPick={handlePick}
       onMapClear={handleMapClear}
       popup={
-        popup.active ? (
+        inline && !popup.stack ? null : popup.active ? (
           <DetailPopup
             item={popup.active}
             today={today}
@@ -564,6 +606,9 @@ export default function TournamentFinder() {
         )
       }
     >
+      {picked && (
+        <PickedBanner count={picked.length} noun={['tournament', 'tournaments']} onClear={() => setPicked(null)} />
+      )}
       <table className="tf-table">
         <thead>
           <tr>
@@ -579,6 +624,16 @@ export default function TournamentFinder() {
             </th>
           </tr>
         </thead>
+        {strayRow && (
+          <tbody>
+            <tr className="tf-group">
+              <th colSpan={6} scope="colgroup">
+                Linked tournament · not in these filters
+              </th>
+            </tr>
+            <Row row={strayRow} today={today} active expanded onToggle={toggleEvent} />
+          </tbody>
+        )}
         {visible.map(group => (
           <tbody key={group.key}>
             {group.label && (
@@ -594,10 +649,9 @@ export default function TournamentFinder() {
                 key={row.event.id}
                 row={row}
                 today={today}
-                active={
-                  popup.active?.kind === 'tournament' && popup.active.id === row.event.id
-                }
-                onOpen={openEvent}
+                active={activeId === row.event.id}
+                expanded={inline && activeId === row.event.id}
+                onToggle={toggleEvent}
                 onHover={wide && mapVisible ? setHoverId : undefined}
               />
             ))}
@@ -644,7 +698,8 @@ export default function TournamentFinder() {
           </>
         }
       >
-        Listings come from US Chess, NA Chess Hub, Boylston Chess Club and Continental Chess
+        Listings come from US Chess, King Registration, NA Chess Hub, ChessReg, Continental Chess
+        and regional clubs and associations
         {data?.updatedAt
           ? `, last refreshed ${new Date(data.updatedAt).toLocaleDateString('en-US', {
               month: 'short',
@@ -664,13 +719,15 @@ const Row = memo(function Row({
   row,
   today,
   active,
-  onOpen,
+  expanded,
+  onToggle,
   onHover,
 }: {
   row: TRow;
   today: string;
   active: boolean;
-  onOpen: (id: string) => void;
+  expanded: boolean;
+  onToggle: (id: string) => void;
   onHover?: (id: string | null) => void;
 }) {
   const { event } = row;
@@ -684,9 +741,11 @@ const Row = memo(function Row({
   const fide = event.fideRated || event.ratingSystem === 'FIDE';
 
   return (
+    <>
     <tr
-      className={clsx('tf-row', active && 'is-active')}
-      onClick={() => onOpen(event.id)}
+      className={clsx('tf-row', active && 'is-active', expanded && 'is-open')}
+      aria-expanded={expanded}
+      onClick={() => onToggle(event.id)}
       onMouseEnter={onHover ? () => onHover(event.id) : undefined}
       onMouseLeave={onHover ? () => onHover(null) : undefined}
     >
@@ -759,5 +818,13 @@ const Row = memo(function Row({
         )}
       </td>
     </tr>
+    {expanded && (
+      <tr className="tf-detail-row">
+        <td colSpan={6}>
+          <TournamentDetails event={event} today={today} />
+        </td>
+      </tr>
+    )}
+    </>
   );
 });

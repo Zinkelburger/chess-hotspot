@@ -38,10 +38,13 @@ import type { ExploreData } from '@/app/explore-data.json/route';
 import { usePopupHistory } from '@/app/hooks/usePopupHistory';
 import type { PinProps } from './ExploreMap';
 import Chip from './Chip';
-import DetailPopup, { StackPopup } from './DetailPopup';
+import Icon from './Icon';
+import DetailPopup, { ClubDetails, StackPopup } from './DetailPopup';
 import FinderShell, {
   ListFooter,
+  PickedBanner,
   boxAround,
+  useInlineDetail,
   readSavedPlace,
   savePlace,
   useFinderView,
@@ -78,6 +81,10 @@ export default function ClubFinder() {
   const [ready, setReady] = useState(false);
   const [shown, setShown] = useState(PAGE);
   const [hoverId, setHoverId] = useState<string | null>(null);
+  /** The clubs under a pin that holds several, listed on their own until cleared. */
+  const [picked, setPicked] = useState<string[] | null>(null);
+  /** Which row was opened, for a club listed once per day in the week view. */
+  const [openKey, setOpenKey] = useState<string | null>(null);
 
   const set = useCallback(
     (patch: Partial<CFilters>) => setFilters(current => ({ ...current, ...patch })),
@@ -150,7 +157,7 @@ export default function ClubFinder() {
     [rows, filters.state],
   );
   const view = useFinderView(filters, stateBox, data != null);
-  const { writeParam, scrollToTop, startAt, scope } = view;
+  const { writeParam, scrollToTop, startAt, scope, panTo } = view;
 
   useEffect(() => {
     if (!ready) return;
@@ -171,10 +178,15 @@ export default function ClubFinder() {
     () => (today ? filterClubs(rows, filters, today) : []),
     [rows, filters, today],
   );
-  /** What the list shows: the same, or only what is inside the map's frame. */
+  /** What the list shows: the clubs under a picked pin, only what is inside the map's frame, or everything that matched. */
   const listed = useMemo(
-    () => (scope ? matched.filter(row => inBounds(clubItem(row.spot), scope)) : matched),
-    [matched, scope],
+    () =>
+      picked
+        ? matched.filter(row => picked.includes(row.spot.id))
+        : scope
+          ? matched.filter(row => inBounds(clubItem(row.spot), scope))
+          : matched,
+    [matched, scope, picked],
   );
   const groups = useMemo(
     () => groupClubs(listed, sort, filters, today),
@@ -192,6 +204,7 @@ export default function ClubFinder() {
   // A new set of results starts again from the top.
   useEffect(() => {
     setShown(PAGE);
+    setPicked(null);
     scrollToTop();
   }, [filters, sort, scrollToTop]);
 
@@ -207,13 +220,38 @@ export default function ClubFinder() {
   }, []);
   const popup = usePopupHistory<Item>(itemHash, findByHash);
   const { open, openStack, close } = popup;
+  const activeId = popup.active?.kind === 'club' ? popup.active.id : null;
+  const { inline, reveal } = useInlineDetail(view, activeId, close);
 
-  const openClub = useCallback(
-    (id: string) => {
+  /** The row each club opens in when it is picked from the map: its first. */
+  const firstKey = useMemo(() => {
+    const keys = new Map<string, string>();
+    for (const group of groups)
+      for (const entry of group.entries)
+        if (!keys.has(entry.row.spot.id)) keys.set(entry.row.spot.id, entry.key);
+    return keys;
+  }, [groups]);
+  /** The open row: the one clicked if it is still listed, else the club's first. */
+  const openEntryKey = useMemo(() => {
+    if (!activeId) return null;
+    const clicked = groups.some(g =>
+      g.entries.some(e => e.key === openKey && e.row.spot.id === activeId),
+    );
+    return clicked ? openKey : (firstKey.get(activeId) ?? null);
+  }, [activeId, openKey, groups, firstKey]);
+  const toggleClub = useCallback(
+    (id: string, key: string) => {
+      if (activeId === id && (openEntryKey === key || openEntryKey == null)) {
+        close();
+        return;
+      }
       const spot = byIdRef.current.get(id);
-      if (spot) open(clubItem(spot));
+      if (!spot) return;
+      setOpenKey(key);
+      open(clubItem(spot));
+      panTo(spot.lat, spot.lng);
     },
-    [open],
+    [activeId, openEntryKey, open, close, panTo],
   );
 
   // A link to one club (`#club=…`) opens it on arrival.
@@ -224,8 +262,10 @@ export default function ClubFinder() {
     const item = findByHash(window.location.hash);
     if (!item || item.kind !== 'club') return;
     startAt(item.spot.lat!, item.spot.lng!);
+    reveal();
+    setOpenKey(null);
     open(item, { replace: true });
-  }, [data, findByHash, open, startAt]);
+  }, [data, findByHash, open, startAt, reveal]);
 
   // ─── Map ───
 
@@ -245,13 +285,22 @@ export default function ClubFinder() {
         .map(key => byIdRef.current.get(key.replace(/^club:/, '')))
         .filter(spot => spot != null)
         .map(clubItem);
-      if (group.length === 1) open(group[0]);
-      else if (group.length > 1) openStack(group);
+      if (group.length === 1) {
+        reveal();
+        setOpenKey(null);
+        open(group[0]);
+      } else if (group.length > 1 && inline) {
+        // Several clubs on one dot: list just those, above a way back to all.
+        if (popup.active) close();
+        setPicked(group.map(item => item.id));
+        scrollToTop();
+      } else if (group.length > 1) openStack(group);
     },
-    [open, openStack],
+    [open, openStack, inline, popup.active, close, scrollToTop, reveal],
   );
   const handleMapClear = useCallback(() => {
     if (popup.active || popup.stack) close();
+    setPicked(null);
   }, [popup.active, popup.stack, close]);
 
   const highlight = useMemo(() => {
@@ -261,6 +310,21 @@ export default function ClubFinder() {
       ? { lng: spot.lng, lat: spot.lat, color: KIND_COLORS.club }
       : null;
   }, [popup.active, popup.stack, hoverId, byId]);
+
+  // A club opened from the map or a link: page down to it, then scroll it into view.
+  const activeIndex = useMemo(() => {
+    if (!activeId) return -1;
+    let i = 0;
+    for (const group of groups)
+      for (const entry of group.entries) {
+        if (entry.row.spot.id === activeId) return i;
+        i += 1;
+      }
+    return -1;
+  }, [groups, activeId]);
+  useEffect(() => {
+    if (activeIndex >= shown) setShown(Math.ceil((activeIndex + 1) / PAGE) * PAGE);
+  }, [activeIndex, shown]);
 
   // ─── Render ───
 
@@ -278,6 +342,11 @@ export default function ClubFinder() {
     setFilters(defaultCFilters);
     view.setAreaOnly(false);
   };
+
+  const isOpen = (entry: CEntry) => inline && entry.key === openEntryKey;
+  // A club opened from a link but hidden by the filters is shown above the list.
+  const strayRow =
+    inline && activeId && !firstKey.has(activeId) ? rows.find(row => row.spot.id === activeId) : undefined;
 
   // Fill the page budget group by group, in order.
   let budget = shown;
@@ -372,8 +441,8 @@ export default function ClubFinder() {
           .map(key => [key, SORT_LABELS[key]]),
         onChange: setSortChoice,
       }}
-      barExtra={
-        <Link href="/club_submission" className="pretty-pill pretty-pill-ghost finder-bar-extra">
+      topExtra={
+        <Link href="/club_submission" className="pretty-pill pretty-pill-ghost finder-top-extra">
           + Suggest a club
         </Link>
       }
@@ -382,7 +451,7 @@ export default function ClubFinder() {
       onPick={handlePick}
       onMapClear={handleMapClear}
       popup={
-        popup.active ? (
+        inline && !popup.stack ? null : popup.active ? (
           <DetailPopup
             item={popup.active}
             today={today}
@@ -402,6 +471,22 @@ export default function ClubFinder() {
         )
       }
     >
+      {picked && (
+        <PickedBanner count={picked.length} noun={['club', 'clubs']} onClear={() => setPicked(null)} />
+      )}
+      {strayRow && (
+        <section>
+          <h2 className="lf-section">Linked club · not in these filters</h2>
+          <ul className="lf-list">
+            <Card
+              entry={{ key: strayRow.spot.id, row: strayRow, day: null }}
+              active
+              expanded
+              onToggle={toggleClub}
+            />
+          </ul>
+        </section>
+      )}
       {visible.map(group => (
         <section key={group.key}>
           {group.label && (
@@ -415,8 +500,9 @@ export default function ClubFinder() {
               <Card
                 key={entry.key}
                 entry={entry}
-                active={popup.active?.kind === 'club' && popup.active.id === entry.row.spot.id}
-                onOpen={openClub}
+                active={activeId === entry.row.spot.id}
+                expanded={isOpen(entry)}
+                onToggle={toggleClub}
                 onHover={view.wide && view.mapVisible ? setHoverId : undefined}
               />
             ))}
@@ -478,12 +564,14 @@ export default function ClubFinder() {
 const Card = memo(function Card({
   entry,
   active,
-  onOpen,
+  expanded,
+  onToggle,
   onHover,
 }: {
   entry: CEntry;
   active: boolean;
-  onOpen: (id: string) => void;
+  expanded: boolean;
+  onToggle: (id: string, key: string) => void;
   onHover?: (id: string | null) => void;
 }) {
   const { row, day } = entry;
@@ -491,23 +579,29 @@ const Card = memo(function Card({
   // Without a town to name, the address says more than a bare state.
   const place = row.city ? [row.city, row.state].filter(Boolean).join(', ') : spot.address || row.state;
   const time = (on: DayOfWeek) => clubHoursOn(spot, on).replace(/^from /, '');
+  const detailId = `club-detail-${entry.key}`;
   return (
-    <li>
+    <li id={expanded ? `club-${spot.id}` : undefined} className={clsx('lf-item', expanded && 'is-open')}>
       <div
         role="button"
         tabIndex={0}
+        aria-expanded={expanded}
+        aria-controls={expanded ? detailId : undefined}
         className={clsx('lf-card', active && 'is-active')}
-        onClick={() => onOpen(spot.id)}
+        onClick={() => onToggle(spot.id, entry.key)}
         onKeyDown={e => {
           if (e.key === 'Enter' || e.key === ' ') {
             e.preventDefault();
-            onOpen(spot.id);
+            onToggle(spot.id, entry.key);
           }
         }}
         onMouseEnter={onHover ? () => onHover(spot.id) : undefined}
         onMouseLeave={onHover ? () => onHover(null) : undefined}
       >
         <h3 className="lf-name">{spot.name}</h3>
+        <span className="lf-chevron" aria-hidden="true">
+          <Icon name="chevron" size={14} />
+        </span>
         <span className="lf-place">
           {place}
           {row.miles != null && <span className="tf-miles">{formatMiles(row.miles)}</span>}
@@ -530,8 +624,9 @@ const Card = memo(function Card({
           ))}
           {spot.seasonal && <span className="pretty-pill pretty-pill-amber">{spot.seasonal}</span>}
         </div>
-        {spot.notes && <p className="lf-desc">{clip(spot.notes)}</p>}
+        {spot.notes && !expanded && <p className="lf-desc">{clip(spot.notes)}</p>}
       </div>
+      {expanded && <ClubDetails id={detailId} spot={spot} />}
     </li>
   );
 });
