@@ -1,18 +1,18 @@
 {
-  "checkedAt": "2026-11-11T06:03:53+00:00",
+  "checkedAt": "2026-11-11T06:04:12+00:00",
   "passed": true,
   "coverage": {
-    "events": 1049,
-    "withFees": 620,
-    "withSchedule": 476,
+    "events": 1051,
+    "withFees": 629,
+    "withSchedule": 485,
     "withRegistration": 486,
-    "physicalEvents": 1030,
-    "mapped": 1015,
+    "physicalEvents": 1032,
+    "mapped": 1017,
     "venueCoordinates": 18
   },
   "issueCounts": {
     "multiple-or-ambiguous-time-controls": 182,
-    "recurring-or-long-date-range": 53,
+    "recurring-or-long-date-range": 55,
     "unexpired-listing-rechecked": 47,
     "section-specific-fees-need-review": 17,
     "source-format-coverage-differs": 2,
@@ -68,6 +68,12 @@
       "code": "recurring-or-long-date-range",
       "eventId": "uscf-19962ae30a92c40e-2026-08-31",
       "url": "https://new.uschess.org/alecs-chess-club-weekly-homeschool-tournaments"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "mechanics-6e21e707b2dc595d-2026-09-01",
+      "url": "https://www.milibrary.org/chess/tournaments/2nd-mechanics-institute-school-league"
     },
     {
       "severity": "warning",
@@ -158,6 +164,12 @@
       "code": "recurring-or-long-date-range",
       "eventId": "uscf-2676701baec5ac7e-2026-10-29",
       "url": "https://new.uschess.org/strategem-cup-series-season-1"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "mechanics-3723bdf501480bcf-2026-11-01",
+      "url": "https://www.milibrary.org/chess/tournaments/2026-mechanics-womens-championship"
     },
     {
       "severity": "warning",

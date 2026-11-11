@@ -35,6 +35,7 @@ export const sourceNames: Record<string, string> = {
   nachesshub: "NA Chess Hub",
   boylston: "Boylston",
   kingregistration: "King Registration",
+  mechanics: "Mechanics' Institute",
   marshall: "Marshall Chess Club",
   chessreg: "ChessReg",
   maca: "MACA",

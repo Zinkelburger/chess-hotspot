@@ -266,6 +266,35 @@
     "dateText": "Monday, August 31, 2026 - Monday, May 31, 2027"
   },
   {
+    "id": "mechanics-6e21e707b2dc595d-2026-09-01",
+    "name": "2nd Mechanics' Institute School League",
+    "date": "2026-09-01",
+    "type": "tournament",
+    "endDate": "2027-05-30",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "rated": true,
+    "website": "https://www.milibrary.org/chess/tournaments/2nd-mechanics-institute-school-league",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "audience": "scholastic",
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2nd-mechanics-institute-school-league",
+        "fetchedAt": "2026-11-11T06:04:08+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
     "id": "uscf-3eccbc8b04ca377e-2026-09-13",
     "name": "Beachwood Sunday Classes - Championship Challenge Fall 2026",
     "date": "2026-09-13",
@@ -741,6 +770,35 @@
     "dateText": "Thursday, October 29, 2026 - Sunday, November 22, 2026"
   },
   {
+    "id": "mechanics-3723bdf501480bcf-2026-11-01",
+    "name": "2026 Mechanics' Women's Championship",
+    "date": "2026-11-01",
+    "type": "tournament",
+    "endDate": "2026-12-13",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "scheduleText": "11/1 10:00am and remaining rounds are on a rolling schedule",
+    "rated": true,
+    "website": "https://www.milibrary.org/chess/tournaments/2026-mechanics-womens-championship",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-mechanics-womens-championship",
+        "fetchedAt": "2026-11-11T06:04:11+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
     "id": "uscf-5b253b86e7f4adba-2026-11-02",
     "name": "MSJE 2026 Lidong Monday Night Marathon",
     "date": "2026-11-02",
@@ -844,12 +902,29 @@
     "address": "57 Post Street San Francisco , CA 94104 United States",
     "lat": 37.7915,
     "lng": -122.4018,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "90 min basetime + 30 sec increment",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "90 min basetime + 30 sec increment",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "11/3 6:30pm 11/10 6:30pm 11/17 6:30pm 11/24 6:30pm 12/1 6:30pm 12/8 6:30pm 12/15 6:30pm",
     "registrationText": "Online Registration Open Until: Tuesday, December 15 at 6:30 pm\nEntry fee for Mechanics' Institute Members: $70 (Play-up fee: $15)\nEntry fee for Non-Members: $100 (Play-up fee: $20)\nLate fee: $10\n$5 admin fee for all cancellations & refunds.\nRegister: https://mechanics-institute.jumbula.com/2026Tournaments/2026WinterTuesdayNightMarathon",
     "reviewFlags": [
       "unexpired-listing-rechecked"
     ],
     "rated": true,
     "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $70\nPlay-up fee: $15\nEntry fee for Non-Members: $100\nPlay-up fee: $20\nLate fee: $10",
     "website": "https://new.uschess.org/2026-winter-tuesday-night-marathon",
     "city": "San Francisco",
     "state": "CA",
@@ -863,6 +938,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/2026-winter-tuesday-night-marathon",
         "fetchedAt": "2026-11-11T06:01:20+00:00"
+      },
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-winter-tuesday-night-marathon",
+        "fetchedAt": "2026-11-11T06:04:03+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -4566,9 +4646,11 @@
         "delaySeconds": 5
       }
     ],
+    "scheduleText": "9/12 3:10pm 4:20pm 5:30pm Number of quads are based on signups. Players are grouped into quads in rating order from highest to lowest. If the final group does not have exactly four players, it will become a small Swiss pairing group. Unrated players will be placed in the lower sections, with no more than two unrated players per group.",
     "registrationText": "Online Registration Open Until: Saturday, November 14 at 2:00 pm\nOnsite Registration until 2:30 pm\nEntry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $40\nLate fee: $10\n$5 admin fee for all cancellations & refunds.\nRegister: https://mechanics-institute.jumbula.com/2026Tournaments/MechanicsInstituteQuads2026Nov",
     "rated": true,
     "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $40\nLate fee: $10",
     "website": "https://new.uschess.org/2026-mechanics-institute-monthly-quads-nov",
     "city": "San Francisco",
     "state": "CA",
@@ -4582,6 +4664,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/2026-mechanics-institute-monthly-quads-nov",
         "fetchedAt": "2026-11-11T05:44:26+00:00"
+      },
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-quads--nov",
+        "fetchedAt": "2026-11-11T06:04:06+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -4612,9 +4699,11 @@
         "delaySeconds": 5
       }
     ],
+    "scheduleText": "7/11 10:00am and remaining rounds are on a rolling schedule",
     "registrationText": "Online Registration Open Until: Saturday, November 14 at 9:45 am\nOnsite Registration: 9:45 am\nEntry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $35\nLate fee: $10\n$5 admin fee for all cancellations & refunds.\nRegister: https://mechanics-institute.jumbula.com/2026Tournaments/MechanicsInstituteMonthlyScholasticSwiss2026Nov2",
     "rated": true,
     "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $35\nLate fee: $10",
     "website": "https://new.uschess.org/2026-mechanics-institute-monthly-scholastic-swiss-nov-2",
     "city": "San Francisco",
     "state": "CA",
@@ -4629,6 +4718,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/2026-mechanics-institute-monthly-scholastic-swiss-nov-2",
         "fetchedAt": "2026-11-11T05:44:26+00:00"
+      },
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-scholastic-swiss--nov-2",
+        "fetchedAt": "2026-11-11T06:04:09+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -9432,6 +9526,7 @@
     "registrationText": "Online Registration Open Until: Sunday, November 15: 2:00 pm\nOnsite Registration: 2:00-2:45pm\nEntry fee for Mechanics' Institute Members: $25\nEntry fee for Non-Members: $35\nLate fee: $10\n$5 admin fee for all cancellations & refunds.\nTwo ways to check your entries:Check the live entries on the Jumbula page.\nCheck the processed entries here a day before the event.\nPlease note our late fee may be in effect and is usually added 24 hours before the start of a tournament in case capacity reaches 90%.\nTournament Format\nTournament Format: Swiss System\nTotal Rounds: 9",
     "rated": true,
     "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $25\nEntry fee for Non-Members: $35\nLate fee: $10",
     "website": "https://new.uschess.org/gm-daniel-danya-naroditsky-memorial-blitz",
     "city": "San Francisco",
     "state": "CA",
@@ -9445,6 +9540,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/gm-daniel-danya-naroditsky-memorial-blitz",
         "fetchedAt": "2026-11-11T05:44:29+00:00"
+      },
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/gm-daniel-danya-naroditsky-memorial-blitz",
+        "fetchedAt": "2026-11-11T06:04:08+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -13162,9 +13262,11 @@
         "incrementSeconds": 30
       }
     ],
+    "scheduleText": "11/21 10:00am 2:30pm 11/22 10:00am 2:30pm",
     "registrationText": "Online Registration Open Until: Saturday, November 21 at 9:30 am\nOnsite Registration: 9:30\u20139:45 am\nEntry fee for Mechanics' Institute Members: $70 (Play-up fee: $15)\nEntry fee for Non-Members: $100 (Play-up fee: $20)\nLate fee: $10\n$5 admin fee for all cancellations & refunds.\nRegister: https://mechanics-institute.jumbula.com/2026Tournaments/4thShipmanMemorialTournament",
     "rated": true,
     "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $70\nPlay-up fee: $15\nEntry fee for Non-Members: $100\nPlay-up fee: $20\nLate fee: $10",
     "website": "https://new.uschess.org/4th-shipman-memorial-tournament",
     "city": "San Francisco",
     "state": "CA",
@@ -13178,6 +13280,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/4th-shipman-memorial-tournament",
         "fetchedAt": "2026-11-11T05:44:33+00:00"
+      },
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/4th-shipman-memorial-tournament",
+        "fetchedAt": "2026-11-11T06:04:05+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -21178,9 +21285,11 @@
         "incrementSeconds": 30
       }
     ],
+    "scheduleText": "12/5 10:00am 2:30pm 12/6 10:00am 2:30pm",
     "registrationText": "Online Registration Open Until: Saturday, December 5 at 9:30 am\nOnsite Registration: 9:30\u20139:45 am\nEntry fee for Mechanics' Institute Members: $70 (Play-up fee: $15)\nEntry fee for Non-Members: $100 (Play-up fee: $20)\nLate fee: $10\n$5 admin fee for all cancellations & refunds.\nRegister: https://mechanics-institute.jumbula.com/2026Tournaments/8thDonaldsonTournament",
     "rated": true,
     "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $70\nPlay-up fee: $15\nEntry fee for Non-Members: $100\nPlay-up fee: $20\nLate fee: $10",
     "website": "https://new.uschess.org/8th-donaldson-tournament",
     "city": "San Francisco",
     "state": "CA",
@@ -21194,6 +21303,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/8th-donaldson-tournament",
         "fetchedAt": "2026-11-11T05:44:50+00:00"
+      },
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/8th-donaldson-tournament",
+        "fetchedAt": "2026-11-11T06:04:06+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -24917,9 +25031,11 @@
         "delaySeconds": 5
       }
     ],
+    "scheduleText": "9/12 3:10pm 4:20pm 5:30pm Number of quads are based on signups. Players are grouped into quads in rating order from highest to lowest. If the final group does not have exactly four players, it will become a small Swiss pairing group. Unrated players will be placed in the lower sections, with no more than two unrated players per group.",
     "registrationText": "Online Registration Open Until: Saturday, December 12 at 2:00 pm\nOnsite Registration until 2:30 pm\nEntry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $40\nLate fee: $10\n$5 admin fee for all cancellations & refunds.\nRegister: https://mechanics-institute.jumbula.com/2026Tournaments/MechanicsInstituteQuads2026Dec",
     "rated": true,
     "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $40\nLate fee: $10",
     "website": "https://new.uschess.org/2026-mechanics-institute-monthly-quads-dec",
     "city": "San Francisco",
     "state": "CA",
@@ -24933,6 +25049,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/2026-mechanics-institute-monthly-quads-dec",
         "fetchedAt": "2026-11-11T05:44:57+00:00"
+      },
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-quads--dec",
+        "fetchedAt": "2026-11-11T06:04:07+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -24963,9 +25084,11 @@
         "delaySeconds": 5
       }
     ],
+    "scheduleText": "12/12 10:00am and remaining rounds are on a rolling schedule",
     "registrationText": "Online Registration Open Until: Saturday, December 12 at 9:45 am\nOnsite Registration: 9:45 am\nEntry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $35\nLate fee: $10\n$5 admin fee for all cancellations & refunds.\nRegister: https://mechanics-institute.jumbula.com/2026Tournaments/MechanicsInstituteMonthlyScholasticSwiss2026Dec",
     "rated": true,
     "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $35\nLate fee: $10",
     "website": "https://new.uschess.org/2026-mechanics-institute-monthly-scholastic-swiss-dec",
     "city": "San Francisco",
     "state": "CA",
@@ -24980,6 +25103,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/2026-mechanics-institute-monthly-scholastic-swiss-dec",
         "fetchedAt": "2026-11-11T05:44:57+00:00"
+      },
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-scholastic-swiss--dec",
+        "fetchedAt": "2026-11-11T06:04:10+00:00"
       }
     ],
     "locationPrecision": "postal",
@@ -26224,9 +26352,11 @@
         "raw": "G/40"
       }
     ],
+    "scheduleText": "12/13 10:00am 12:00pm 2:00pm 4:00pm",
     "registrationText": "Online Registration Open Until: Sunday, December 13 at 9:30 am\nOnsite Registration: 9:30\u20139:45 am\nEntry fee for Mechanics' Institute Members: $40 (Play-up fee: $10)\nEntry fee for Non-Members: $50 (Play-up fee: $15)\nLate fee: $10\n$5 admin fee for all cancellations & refunds.\nRegister: https://mechanics-institute.jumbula.com/2026Tournaments/25thBagbyMemorialTournament",
     "rated": true,
     "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $40\nPlay-up fee: $10\nEntry fee for Non-Members: $50\nPlay-up fee: $15\nLate fee: $10",
     "website": "https://new.uschess.org/25th-bagby-memorial-tournament",
     "city": "San Francisco",
     "state": "CA",
@@ -26240,6 +26370,11 @@
         "id": "uscf",
         "url": "https://new.uschess.org/25th-bagby-memorial-tournament",
         "fetchedAt": "2026-11-11T05:44:57+00:00"
+      },
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/25th-bagby-memorial-tournament",
+        "fetchedAt": "2026-11-11T06:04:04+00:00"
       }
     ],
     "locationPrecision": "postal",

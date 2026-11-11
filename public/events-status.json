@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:03:51+00:00",
+  "updatedAt": "2026-11-11T06:04:01+00:00",
   "sources": [
     {
       "id": "nachesshub",
@@ -73,25 +73,34 @@
       "lastAttempt": "2026-11-11T06:03:51+00:00",
       "lastSuccess": "2026-11-11T06:03:51+00:00",
       "count": 60
+    },
+    {
+      "id": "mechanics",
+      "name": "Mechanics' Institute",
+      "url": "https://www.milibrary.org/chess/tournaments/",
+      "status": "ok",
+      "lastAttempt": "2026-11-11T06:04:01+00:00",
+      "lastSuccess": "2026-11-11T06:04:01+00:00",
+      "count": 11
     }
   ],
-  "eventCount": 1049,
-  "mappedCount": 1015,
+  "eventCount": 1051,
+  "mappedCount": 1017,
   "quality": {
-    "checkedAt": "2026-11-11T06:03:53+00:00",
+    "checkedAt": "2026-11-11T06:04:12+00:00",
     "passed": true,
     "coverage": {
-      "events": 1049,
-      "withFees": 620,
-      "withSchedule": 476,
+      "events": 1051,
+      "withFees": 629,
+      "withSchedule": 485,
       "withRegistration": 486,
-      "physicalEvents": 1030,
-      "mapped": 1015,
+      "physicalEvents": 1032,
+      "mapped": 1017,
       "venueCoordinates": 18
     },
     "issueCounts": {
       "multiple-or-ambiguous-time-controls": 182,
-      "recurring-or-long-date-range": 53,
+      "recurring-or-long-date-range": 55,
       "unexpired-listing-rechecked": 47,
       "section-specific-fees-need-review": 17,
       "source-format-coverage-differs": 2,

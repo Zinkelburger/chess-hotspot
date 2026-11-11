@@ -1,0 +1,485 @@
+[
+  {
+    "id": "mechanics-539b3becfc85d06a-2026-11-03",
+    "name": "2026 Winter Tuesday Night Marathon",
+    "date": "2026-11-03",
+    "type": "tournament",
+    "endDate": "2026-12-15",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "90 min basetime + 30 sec increment",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "90 min basetime + 30 sec increment",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "11/3 6:30pm 11/10 6:30pm 11/17 6:30pm 11/24 6:30pm 12/1 6:30pm 12/8 6:30pm 12/15 6:30pm",
+    "registrationText": "Online Registration Open Until: Tuesday, December 15: 6:30 pm",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $70\nPlay-up fee: $15\nEntry fee for Non-Members: $100\nPlay-up fee: $20\nLate fee: $10",
+    "website": "https://www.milibrary.org/chess/tournaments/2026-winter-tuesday-night-marathon",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": true,
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-winter-tuesday-night-marathon",
+        "fetchedAt": "2026-11-11T06:04:03+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "mechanics-b072b0131fb78cf0-2026-12-13",
+    "name": "25th Bagby Memorial Tournament",
+    "date": "2026-12-13",
+    "type": "tournament",
+    "endDate": "2026-12-13",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 40.0,
+      "raw": "40 min basetime + 5 sec delay",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 40.0,
+        "raw": "40 min basetime + 5 sec delay",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "12/13 10:00am 12:00pm 2:00pm 4:00pm",
+    "registrationText": "Online Registration Open Until: Sunday, December 13: 9:30 am\nOnsite Registration: 9:30-9:45am",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $40\nPlay-up fee: $10\nEntry fee for Non-Members: $50\nPlay-up fee: $15\nLate fee: $10",
+    "website": "https://www.milibrary.org/chess/tournaments/25th-bagby-memorial-tournament",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/25th-bagby-memorial-tournament",
+        "fetchedAt": "2026-11-11T06:04:04+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "mechanics-6f1cad3a0f2ec5e9-2026-11-21",
+    "name": "4th Shipman Memorial Tournament",
+    "date": "2026-11-21",
+    "type": "tournament",
+    "endDate": "2026-11-22",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "90 min basetime + 30 sec increment",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "90 min basetime + 30 sec increment",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "11/21 10:00am 2:30pm 11/22 10:00am 2:30pm",
+    "registrationText": "Online Registration Open Until: Saturday, November 21: 9:30 am\nOnsite Registration: 9:30-9:45am",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $70\nPlay-up fee: $15\nEntry fee for Non-Members: $100\nPlay-up fee: $20\nLate fee: $10",
+    "website": "https://www.milibrary.org/chess/tournaments/4th-shipman-memorial-tournament",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": true,
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/4th-shipman-memorial-tournament",
+        "fetchedAt": "2026-11-11T06:04:05+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "mechanics-62a0e67142d663fd-2026-12-05",
+    "name": "8th Donaldson Tournament",
+    "date": "2026-12-05",
+    "type": "tournament",
+    "endDate": "2026-12-06",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "90 min basetime + 30 sec increment",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "90 min basetime + 30 sec increment",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "12/5 10:00am 2:30pm 12/6 10:00am 2:30pm",
+    "registrationText": "Online Registration Open Until: Saturday, December 5: 9:30 am\nOnsite Registration: 9:30-9:45am",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $70\nPlay-up fee: $15\nEntry fee for Non-Members: $100\nPlay-up fee: $20\nLate fee: $10",
+    "website": "https://www.milibrary.org/chess/tournaments/8th-donaldson-tournament",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": true,
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/8th-donaldson-tournament",
+        "fetchedAt": "2026-11-11T06:04:06+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "mechanics-1b0e0c74dcafb496-2026-11-14",
+    "name": "2026 Mechanics' Institute Monthly Quads - Nov",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 30.0,
+      "raw": "30 min basetime + 5 sec delay",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "30 min basetime + 5 sec delay",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "9/12 3:10pm 4:20pm 5:30pm Number of quads are based on signups. Players are grouped into quads in rating order from highest to lowest. If the final group does not have exactly four players, it will become a small Swiss pairing group. Unrated players will be placed in the lower sections, with no more than two unrated players per group.",
+    "registrationText": "Online Registration Open Until: Saturday, November 14: 2:00 pm\nOnsite Registration: until 2:30pm",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $40\nLate fee: $10",
+    "website": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-quads--nov",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-quads--nov",
+        "fetchedAt": "2026-11-11T06:04:06+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "mechanics-98cfc1d22ce66a74-2026-12-12",
+    "name": "2026 Mechanics' Institute Monthly Quads - Dec",
+    "date": "2026-12-12",
+    "type": "tournament",
+    "endDate": "2026-12-12",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 30.0,
+      "raw": "30 min basetime + 5 sec delay",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "30 min basetime + 5 sec delay",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "9/12 3:10pm 4:20pm 5:30pm Number of quads are based on signups. Players are grouped into quads in rating order from highest to lowest. If the final group does not have exactly four players, it will become a small Swiss pairing group. Unrated players will be placed in the lower sections, with no more than two unrated players per group.",
+    "registrationText": "Online Registration Open Until: Saturday, December 12: 2:00 pm\nOnsite Registration: until 2:30pm",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $40\nLate fee: $10",
+    "website": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-quads--dec",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-quads--dec",
+        "fetchedAt": "2026-11-11T06:04:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "mechanics-3f932cb951fee342-2026-11-15",
+    "name": "GM Daniel \u201cDanya\u201d Naroditsky Memorial Blitz",
+    "date": "2026-11-15",
+    "type": "tournament",
+    "endDate": "2026-11-15",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "format": "blitz",
+    "timeControl": {
+      "kind": "blitz",
+      "baseMinutes": 3.0,
+      "raw": "3 min basetime + 2 sec increment",
+      "incrementSeconds": 2
+    },
+    "timeControls": [
+      {
+        "kind": "blitz",
+        "baseMinutes": 3.0,
+        "raw": "3 min basetime + 2 sec increment",
+        "incrementSeconds": 2
+      }
+    ],
+    "scheduleText": "11/15 3:00pm and remaining rounds are on a rolling schedule",
+    "registrationText": "Online Registration Open Until: Sunday, November 15: 2:00 pm\nOnsite Registration: 2:00-2:45pm",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $25\nEntry fee for Non-Members: $35\nLate fee: $10",
+    "website": "https://www.milibrary.org/chess/tournaments/gm-daniel-danya-naroditsky-memorial-blitz",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": true,
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/gm-daniel-danya-naroditsky-memorial-blitz",
+        "fetchedAt": "2026-11-11T06:04:08+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "mechanics-6e21e707b2dc595d-2026-09-01",
+    "name": "2nd Mechanics' Institute School League",
+    "date": "2026-09-01",
+    "type": "tournament",
+    "endDate": "2027-05-30",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "rated": true,
+    "website": "https://www.milibrary.org/chess/tournaments/2nd-mechanics-institute-school-league",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "audience": "scholastic",
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2nd-mechanics-institute-school-league",
+        "fetchedAt": "2026-11-11T06:04:08+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "mechanics-5cc217cddf9ea14f-2026-11-14",
+    "name": "2026 Mechanics' Institute Monthly Scholastic Swiss - Nov #2",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 30.0,
+      "raw": "30 min basetime + 5 sec delay",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "30 min basetime + 5 sec delay",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "7/11 10:00am and remaining rounds are on a rolling schedule",
+    "registrationText": "Online Registration Open Until: Saturday, November 14: 9:45 am\nOnsite Registration: 9:45am",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $35\nLate fee: $10",
+    "website": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-scholastic-swiss--nov-2",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "audience": "scholastic",
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-scholastic-swiss--nov-2",
+        "fetchedAt": "2026-11-11T06:04:09+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "mechanics-62d028b2a0c47b20-2026-12-12",
+    "name": "2026 Mechanics' Institute Monthly Scholastic Swiss - Dec",
+    "date": "2026-12-12",
+    "type": "tournament",
+    "endDate": "2026-12-12",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 30.0,
+      "raw": "30 min basetime + 5 sec delay",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "30 min basetime + 5 sec delay",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "12/12 10:00am and remaining rounds are on a rolling schedule",
+    "registrationText": "Online Registration Open Until: Saturday, December 12: 9:45 am\nOnsite Registration: 9:45am",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry fee for Mechanics' Institute Members: $30\nEntry fee for Non-Members: $35\nLate fee: $10",
+    "website": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-scholastic-swiss--dec",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "audience": "scholastic",
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-mechanics-institute-monthly-scholastic-swiss--dec",
+        "fetchedAt": "2026-11-11T06:04:10+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "mechanics-3723bdf501480bcf-2026-11-01",
+    "name": "2026 Mechanics' Women's Championship",
+    "date": "2026-11-01",
+    "type": "tournament",
+    "endDate": "2026-12-13",
+    "venue": "Mechanics' Institute Chess Club",
+    "address": "57 Post Street, San Francisco, CA 94104",
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "scheduleText": "11/1 10:00am and remaining rounds are on a rolling schedule",
+    "rated": true,
+    "website": "https://www.milibrary.org/chess/tournaments/2026-mechanics-womens-championship",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "Mechanics' Institute Chess Club",
+    "source": "mechanics",
+    "sources": [
+      {
+        "id": "mechanics",
+        "url": "https://www.milibrary.org/chess/tournaments/2026-mechanics-womens-championship",
+        "fetchedAt": "2026-11-11T06:04:11+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  }
+]
