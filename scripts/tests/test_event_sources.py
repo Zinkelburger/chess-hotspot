@@ -491,3 +491,24 @@ def test_other_source_reporting_cancellation_is_flagged():
     b=kr(name='2026 Texas Armed Forces Open - CANCELLED',cancellationEvidence='CANCELLED')
     result=deduplicate([a,b])
     assert 'possibly-cancelled-per-other-source' in next(e for e in result if e.id=='test').reviewFlags
+
+
+@pytest.mark.parametrize('left,right',[('2026 CT STATE CHAMPIONSHIP; $6,000+ in Prizes and Awards','2026 Connecticut State Championship; $6,000+'),('RHODE ISLAND STATE CHAMPIONSHIP - $2,000+ Guaranteed Prizes/Trophies','2026 RHODE ISLAND STATE CHAMPIONSHIP')])
+def test_title_rule_ignores_prize_text_and_state_abbreviations(left,right):
+    from event_merge import titles_agree
+    assert titles_agree(left,right)
+
+
+def test_one_event_listed_by_three_sources_merges_once():
+    a=linked(); a.name='2026 Rhode Island State Championship'
+    b=kr(name='Rhode Island State Championship - $2,000+ Guaranteed')
+    c=replace(kr(name='RI State Championship'),id='c',website='https://example.org/c',source='maca',sources=[{'id':'maca','url':'https://example.org/c'}])
+    result=deduplicate([a,b,c])
+    assert len(result)==1 and len(result[0].sources)==3
+
+
+def test_near_duplicate_left_apart_is_flagged():
+    a=linked(); a.name='Spiegel Cup Qualifier'
+    b=kr(name='State Open Championship/Spiegel Cup Qualifier')
+    result=deduplicate([a,b])
+    assert len(result)==2 and all('possible-duplicate-listing' in e.reviewFlags for e in result)

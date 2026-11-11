@@ -1,21 +1,22 @@
 {
-  "checkedAt": "2026-11-11T06:04:12+00:00",
+  "checkedAt": "2026-11-11T06:05:44+00:00",
   "passed": true,
   "coverage": {
-    "events": 1051,
-    "withFees": 629,
-    "withSchedule": 485,
-    "withRegistration": 486,
-    "physicalEvents": 1032,
-    "mapped": 1017,
-    "venueCoordinates": 18
+    "events": 1083,
+    "withFees": 648,
+    "withSchedule": 505,
+    "withRegistration": 503,
+    "physicalEvents": 1063,
+    "mapped": 1038,
+    "venueCoordinates": 19
   },
   "issueCounts": {
-    "multiple-or-ambiguous-time-controls": 182,
-    "recurring-or-long-date-range": 55,
+    "multiple-or-ambiguous-time-controls": 183,
+    "recurring-or-long-date-range": 62,
     "unexpired-listing-rechecked": 47,
     "section-specific-fees-need-review": 17,
     "source-format-coverage-differs": 2,
+    "possible-duplicate-listing": 9,
     "possibly-cancelled-per-other-source": 1,
     "cancelled-or-postponed-excluded": 1,
     "linked-listing-date-differs": 2
@@ -32,6 +33,12 @@
       "code": "recurring-or-long-date-range",
       "eventId": "uscf-8d497ab9d794451d-2020-03-29",
       "url": "https://new.uschess.org/weekly-uscf-rated-online-tournaments-dmv-chess"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "maca-03cd077dc7bbfef9-2025-11-06",
+      "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10989"
     },
     {
       "severity": "warning",
@@ -96,6 +103,12 @@
     {
       "severity": "warning",
       "code": "recurring-or-long-date-range",
+      "eventId": "maca-28adcdf46ac1eeed-2026-09-26",
+      "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=9549"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
       "eventId": "uscf-935b8669fc76b6f7-2026-10-01",
       "url": "https://new.uschess.org/superior-grand-prix-fall-season-quick-quads"
     },
@@ -122,6 +135,12 @@
       "code": "recurring-or-long-date-range",
       "eventId": "uscf-48fa715492513bcb-2026-10-07",
       "url": "https://new.uschess.org/weekly-u2200-17"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "maca-883ac46521df6dfa-2026-10-13",
+      "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10972"
     },
     {
       "severity": "warning",
@@ -605,6 +624,12 @@
     },
     {
       "severity": "warning",
+      "code": "possible-duplicate-listing",
+      "eventId": "uscf-ec1fda56e2765908-2026-11-15",
+      "url": "https://new.uschess.org/2026-texas-armed-forces-championship"
+    },
+    {
+      "severity": "warning",
       "code": "possibly-cancelled-per-other-source",
       "eventId": "uscf-ec1fda56e2765908-2026-11-15",
       "url": "https://new.uschess.org/2026-texas-armed-forces-championship"
@@ -618,6 +643,12 @@
     {
       "severity": "warning",
       "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "kingregistration-61e716d2e3409787-2026-11-15",
+      "url": "https://www.kingregistration.com/event/2026TAFO"
+    },
+    {
+      "severity": "warning",
+      "code": "possible-duplicate-listing",
       "eventId": "kingregistration-61e716d2e3409787-2026-11-15",
       "url": "https://www.kingregistration.com/event/2026TAFO"
     },
@@ -852,6 +883,24 @@
     },
     {
       "severity": "warning",
+      "code": "possible-duplicate-listing",
+      "eventId": "nachesshub-92173e6077becf1d-2026-11-22",
+      "url": "https://www.nachesshub.com/Events/Details/460b201a-bd3f-4027-baf8-38f17d802761"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "maca-d91ffddf17a91745-2026-11-22",
+      "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10910"
+    },
+    {
+      "severity": "warning",
+      "code": "possible-duplicate-listing",
+      "eventId": "maca-d91ffddf17a91745-2026-11-22",
+      "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10910"
+    },
+    {
+      "severity": "warning",
       "code": "multiple-or-ambiguous-time-controls",
       "eventId": "uscf-f4cfc38e88bbb749-2026-11-22",
       "url": "https://new.uschess.org/cqc-hc-anniversary-chess"
@@ -967,8 +1016,32 @@
     {
       "severity": "warning",
       "code": "recurring-or-long-date-range",
+      "eventId": "maca-7e6ec4e20abe3934-2026-12-02",
+      "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=9684"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
       "eventId": "uscf-5a1f004663a05f02-2026-12-02",
       "url": "https://new.uschess.org/weekly-u2200-18"
+    },
+    {
+      "severity": "warning",
+      "code": "possible-duplicate-listing",
+      "eventId": "maca-dea0a5d4cfb18963-2026-12-03",
+      "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10990"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "maca-dea0a5d4cfb18963-2026-12-03",
+      "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10990"
+    },
+    {
+      "severity": "warning",
+      "code": "possible-duplicate-listing",
+      "eventId": "nachesshub-5c29b85e81323b8b-2026-12-03",
+      "url": "https://www.nachesshub.com/Events/Details/72c23f58-f45a-476f-8ac2-0e5f39cf34a1"
     },
     {
       "severity": "warning",
@@ -1140,6 +1213,24 @@
     },
     {
       "severity": "warning",
+      "code": "possible-duplicate-listing",
+      "eventId": "uscf-1dfdbf57467d5ed4-2026-12-18",
+      "url": "https://new.uschess.org/monthly-fide-u1800-28"
+    },
+    {
+      "severity": "warning",
+      "code": "possible-duplicate-listing",
+      "eventId": "marshall-6acb856a4d61fb41-2026-12-18",
+      "url": "https://www.marshallchessclub.org/tournaments/upcoming#2026-12-18-monthly-fide-u2400-u1800"
+    },
+    {
+      "severity": "warning",
+      "code": "possible-duplicate-listing",
+      "eventId": "uscf-bfe48a195c2f43cd-2026-12-18",
+      "url": "https://new.uschess.org/monthly-fide-u2400-30"
+    },
+    {
+      "severity": "warning",
       "code": "multiple-or-ambiguous-time-controls",
       "eventId": "uscf-6fa36b3f2629f8ac-2026-12-18",
       "url": "https://new.uschess.org/cincinnati-chess-masters-fide"
@@ -1305,6 +1396,12 @@
       "code": "recurring-or-long-date-range",
       "eventId": "kingregistration-3e65cd2fbac2e865-2027-01-04",
       "url": "https://www.kingregistration.com/event/MS-27-01"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "maca-e15929c398bc7d60-2027-01-07",
+      "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11000"
     },
     {
       "severity": "warning",
@@ -1479,6 +1576,12 @@
       "code": "recurring-or-long-date-range",
       "eventId": "kingregistration-44990383c8756fda-2027-02-01",
       "url": "https://www.kingregistration.com/event/MS-27-02"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "maca-5453b8fb5a061f25-2027-02-04",
+      "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11001"
     },
     {
       "severity": "warning",

@@ -99,6 +99,11 @@
     "lng": -82.6078,
     "precision": "postal"
   },
+  "Ashland|MA|01701": {
+    "lat": 42.3007,
+    "lng": -71.4255,
+    "precision": "postal"
+  },
   "Ashland|MA|01721": {
     "lat": 42.2539,
     "lng": -71.4583,
@@ -308,6 +313,11 @@
   "Burlingame|CA|94010": {
     "lat": 37.5671,
     "lng": -122.3676,
+    "precision": "postal"
+  },
+  "Burlington|MA|01803": {
+    "lat": 42.5089,
+    "lng": -71.2004,
     "precision": "postal"
   },
   "Burlington|NC|27215": {
@@ -1345,6 +1355,11 @@
     "lng": -84.5815,
     "precision": "postal"
   },
+  "Lexington|MA|02421": {
+    "lat": 42.4426,
+    "lng": -71.2265,
+    "precision": "postal"
+  },
   "Lincoln|NE|68510": {
     "lat": 40.8063,
     "lng": -96.6545,
@@ -1464,6 +1479,11 @@
     "lat": 40.0468,
     "lng": -75.531,
     "precision": "postal"
+  },
+  "Manchester|NH|": {
+    "lat": 42.9897875,
+    "lng": -71.4533875,
+    "precision": "city"
   },
   "Manchester|NH|03101": {
     "lat": 42.9929,
@@ -1745,6 +1765,11 @@
     "lng": -117.8684,
     "precision": "postal"
   },
+  "Newton|MA|": {
+    "lat": 42.3528,
+    "lng": -71.1875,
+    "precision": "city"
+  },
   "Norman|OK|72072": null,
   "Norman|OK|73072": {
     "lat": 35.199,
@@ -1976,6 +2001,11 @@
     "lng": -74.6408,
     "precision": "postal"
   },
+  "Plainville|MA|02762": {
+    "lat": 42.0124,
+    "lng": -71.3275,
+    "precision": "postal"
+  },
   "Plano|TX|75024": {
     "lat": 33.0752,
     "lng": -96.7843,
@@ -2014,6 +2044,11 @@
   "Portland|OR|97210": {
     "lat": 45.5303,
     "lng": -122.7033,
+    "precision": "postal"
+  },
+  "Portsmouth|RI|02871": {
+    "lat": 41.5944,
+    "lng": -71.252,
     "precision": "postal"
   },
   "Post Falls|ID|83854": {
@@ -2232,6 +2267,12 @@
     "lng": -81.5232,
     "precision": "postal"
   },
+  "Sharon|MA|02067": {
+    "lat": 42.1094,
+    "lng": -71.1759,
+    "precision": "postal"
+  },
+  "Shelburne|MA|": null,
   "Shelburne|MA|01370": {
     "lat": 42.6022,
     "lng": -72.7391,
@@ -2297,6 +2338,7 @@
     "lng": -74.6874,
     "precision": "postal"
   },
+  "South Amherst|MA|": null,
   "South Amherst|MA|01002": {
     "lat": 42.3671,
     "lng": -72.4646,
@@ -2486,6 +2528,11 @@
     "lat": 31.535,
     "lng": -97.1899,
     "precision": "postal"
+  },
+  "Wakefield|MA|": {
+    "lat": 42.5009,
+    "lng": -71.0685,
+    "precision": "city"
   },
   "Wakefield|MA|01880": {
     "lat": 42.5009,

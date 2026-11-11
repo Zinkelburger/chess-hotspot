@@ -8,14 +8,19 @@ filler are removed. Two titles differing by a word that separates events
 from collections import defaultdict
 import re
 import unicodedata
+from events_scrapers.common import STATES
 
-FILLER = set('a an and annual at by chess club center centre event for in of on presented the to tournament tourney us uscf rated'.split())
+FILLER = set('a an and annual at awards by chess club center centre event for guaranteed in of on plus presented prize prizes the to tournament tourney trophies us uscf rated'.split())
 MONTHS = set('january february march april may june july august september october november december jan feb mar apr jun jul aug sep sept oct nov dec'.split())
 # Words that name a different competition on the same day at the same place.
 SEPARATORS = {word[:-1] if len(word) > 4 and word.endswith('s') else word for word in """blitz rapid quick action bullet classical scholastic youth junior juniors kids elementary
     senior seniors adult adults women womens girls girl boys team teams individual bughouse side reserve premier
     championship championships beginner beginners novice open invitational quad quads swiss unrated""".split()}
 ROMAN = re.compile(r'^[ivxlc]+$')
+# Longest first, so "west virginia" is not read as "virginia".
+STATE_NAMES = sorted(((name.lower(), code.lower()) for code, name in STATES.items()), key=lambda pair: -len(pair[0]))
+# Too common to suggest two listings are the same event.
+GENERIC = set('saturday sunday friday monday tuesday wednesday thursday night morning afternoon weekly monthly series memorial state winter fall spring summer holiday grand prix school thanksgiving national classic cup'.split())
 # Parentheticals describing logistics, not which competition this is.
 LOGISTICS = re.compile(r'\([^)]*\b(?:days?|schedules?|sponsored|presented|rated)\b[^)]*\)?', re.I)
 
@@ -23,6 +28,9 @@ LOGISTICS = re.compile(r'\([^)]*\b(?:days?|schedules?|sponsored|presented|rated)
 def title_tokens(name):
     plain = unicodedata.normalize('NFKD', LOGISTICS.sub(' ', name)).encode('ascii', 'ignore').decode().lower()
     plain = re.sub(r"['’]s?\b", '', plain)
+    plain = re.sub(r'\$[\d,.]+k?\+?', ' ', plain)  # Prize amounts are advertising, not identity.
+    for full, code in STATE_NAMES:
+        plain = re.sub(rf'\b{full}\b', code, plain)
     tokens = set()
     for word in re.findall(r'[a-z0-9$]+', plain):
         if word in FILLER or word in MONTHS or ROMAN.match(word):
@@ -68,6 +76,39 @@ def same_place(a, b):
     return bool(left or right) and re.sub(r'[^a-z0-9]', '', a.name.lower()) == re.sub(r'[^a-z0-9]', '', b.name.lower())
 
 
+def agreeing_sets(group):
+    """Connect listings whose titles agree; a source may only appear once in a set that merges."""
+    parent = {id(event): id(event) for event in group}
+    def find(key):
+        while parent[key] != key:
+            key = parent[key]
+        return key
+    for i, a in enumerate(group):
+        for b in group[i+1:]:
+            if not source_ids(a) & source_ids(b) and same_place(a, b) and titles_agree(a.name, b.name):
+                parent[find(id(a))] = find(id(b))
+    sets = defaultdict(list)
+    for event in group:
+        sets[find(id(event))].append(event)
+    return [members for members in sets.values() if len(members) > 1]
+
+
+def flag_near_duplicates(events):
+    """Same day and city, different sources, two distinctive words in common: left apart, but worth a look."""
+    groups = defaultdict(list)
+    for event in events:
+        if event.city and event.state and not event.online:
+            groups[(event.date, re.sub(r'\W+', '', event.city).casefold(), event.state)].append(event)
+    for group in groups.values():
+        for i, a in enumerate(group):
+            for b in group[i+1:]:
+                if source_ids(a) & source_ids(b):
+                    continue
+                if len((title_tokens(a.name) & title_tokens(b.name)) - SEPARATORS - GENERIC) >= 2:
+                    for event in (a, b):
+                        event.reviewFlags = sorted(set((event.reviewFlags or []) + ['possible-duplicate-listing']))
+
+
 def merge_same_titles(events, merge):
     groups = defaultdict(list)
     for event in events:
@@ -76,21 +117,19 @@ def merge_same_titles(events, merge):
     absorbed = set()
     for group in groups.values():
         flag_cancelled_counterparts(group)
-        pairs = [(a, b) for i, a in enumerate(group) for b in group[i+1:]
-                 if not source_ids(a) & source_ids(b) and same_place(a, b) and titles_agree(a.name, b.name)]
-        counts = defaultdict(int)
-        for a, b in pairs:
-            counts[id(a)] += 1
-            counts[id(b)] += 1
-        for a, b in pairs:
-            if counts[id(a)] == 1 and counts[id(b)] == 1:
-                merge(a, b)
-                absorbed.add(id(b))
+        for members in agreeing_sets(group):
+            sources = [source for event in members for source in source_ids(event)]
+            agree_all = all(titles_agree(a.name, b.name) for i, a in enumerate(members) for b in members[i+1:])
+            if len(sources) == len(set(sources)) and agree_all:
+                for other in members[1:]:
+                    merge(members[0], other)
+                    absorbed.add(id(other))
             else:
-                for event in (a, b):
+                for event in members:
                     event.reviewFlags = sorted(set((event.reviewFlags or []) + ['possible-duplicate-listing']))
     kept = [event for event in events if id(event) not in absorbed]
     flag_linked_date_differences(kept)
+    flag_near_duplicates(kept)
     return kept
 
 

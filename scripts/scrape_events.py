@@ -17,7 +17,8 @@ from events_scrapers.base import ScrapedEvent
 from events_scrapers.cca import CCAScraper
 from events_scrapers.common import source_ref, state_code
 from events_scrapers.uscf import USCFScraper
-from events_scrapers.local import HubScraper, BoylstonScraper, MACAScraper
+from events_scrapers.local import HubScraper, BoylstonScraper
+from events_scrapers.maca import MACAScraper
 from events_scrapers.kingregistration import KingRegistrationScraper
 from events_scrapers.chessreg import ChessRegScraper
 from events_scrapers.marshall import MarshallScraper
@@ -115,7 +116,7 @@ def refresh_source(scraper, previous):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--sources',nargs='+',choices=list(REGISTRY),default=[s for s in REGISTRY if s != 'maca'])
+    parser.add_argument('--sources',nargs='+',choices=list(REGISTRY),default=list(REGISTRY))
     parser.add_argument('--output',default='public/events.v1.json')
     parser.add_argument('--no-geocode',action='store_true')
     parser.add_argument('--strict',action='store_true',help='Exit nonzero when any requested source fails (after writing health and safe snapshots).')

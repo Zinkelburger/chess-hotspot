@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "maca-a2ea1241d00dfd58-2026-11-04",
+    "name": "MCC - 2026-11",
+    "date": "2026-11-04",
+    "type": "tournament",
+    "endDate": "2026-11-25",
+    "venue": "First Parish Church - Scott Hall - Framingham",
+    "address": "24 Vernon Street, Framingham, MA 01701",
+    "lat": 42.3007,
+    "lng": -71.4255,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90; d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90; d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "7:30 PM - Wednesdays: 1 game per night\nDates: Nov 4, Nov 11, Nov 18, Nov 25",
+    "registrationText": "Online Registration Only, See club Home page for instructions",
+    "entryFeeText": "MCC members: $32, others $42",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=9683",
+    "city": "Framingham",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "The MetroWest Chess Club",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=9683",
+        "fetchedAt": "2026-11-11T06:05:41+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-03cd077dc7bbfef9-2025-11-06",
+    "name": "CMC Chess Club Thursday G/75",
+    "date": "2025-11-06",
+    "type": "tournament",
+    "endDate": "2026-11-19",
+    "venue": "Chess Master Connections (CMC) Chess Club",
+    "address": "182 Arnold Road, Coventry, RI 02816",
+    "lat": 41.6914,
+    "lng": -71.5768,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 75.0,
+      "raw": "G/75;+10",
+      "incrementSeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 75.0,
+        "raw": "G/75;+10",
+        "incrementSeconds": 10
+      }
+    ],
+    "scheduleText": "7:00- 9:30 PM\nDates: Nov 6, Nov 12, Nov 19",
+    "registrationText": "Must register by 6:55 PM Membership Requirement: USCF Required Only in Rated Section, Unrated Players No USCF Required",
+    "entryFeeText": "$10 per Week",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10989",
+    "city": "Coventry",
+    "state": "RI",
+    "country": "US",
+    "online": false,
+    "organizer": "Chess Master Connections",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10989",
+        "fetchedAt": "2026-11-11T06:05:41+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-28adcdf46ac1eeed-2026-09-26",
+    "name": "CEK USCF rated tournament series",
+    "date": "2026-09-26",
+    "type": "tournament",
+    "endDate": "2027-06-19",
+    "venue": "Lexington Recreation and Community",
+    "address": "39 Marrett Road, Lexington, MA 02421",
+    "lat": 42.4426,
+    "lng": -71.2265,
+    "scheduleText": "10:00AM ,other rounds upon completion\nDates: Sep 26, Oct 10, Nov 14, Jan 16, Feb 13, Mar 20, Apr 17, May 15, Jun 19",
+    "registrationText": "9:30Am Membership Requirement: Valid USCF membership required for all rated sections.",
+    "entryFeeText": "$35 online",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=9549",
+    "city": "Lexington",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Chess Empire Kids",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=9549",
+        "fetchedAt": "2026-11-11T06:05:41+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-87214fe2c439ae3d-2026-11-14",
+    "name": "John A. Curdo Memorial Quick (Curdo's 95th birthday)",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "venue": "Fitchburg State University",
+    "address": "McKay Complex, Rooms 142 and 143, 67 Rindge Road, Fitchburg, MA 01420",
+    "lat": 42.5796,
+    "lng": -71.8031,
+    "scheduleText": "Round 1 at 10:00 .am. 30-minute lunch break after Round 2. Rounds 3-5 ASAP.",
+    "registrationText": "9:00-9:45 a.m. in room 165 of McKay Complex at Fitchburg State University, 67 Rindge Road Membership Requirement: U.S. Chess",
+    "entryFeeText": "$5, payable on Saturday, in room 165 of the playing site in McKay Complex at Fitchburg State University",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11002",
+    "city": "Fitchburg",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "The Wachusett Chess Club",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11002",
+        "fetchedAt": "2026-11-11T06:05:41+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-6eb320632abd52eb-2026-11-14",
+    "name": "RHODE ISLAND STATE CHAMPIONSHIP - $2,000+ Guaranteed Prizes/Trophies",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "venue": "Woonsocket Elks Lodge",
+    "address": "380 Social Street, Woonsocket, RI 02895",
+    "lat": 41.9846,
+    "lng": -71.5194,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "G/55+5 / G/30;+5"
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 55.0,
+        "raw": "G/55+5",
+        "incrementSeconds": 5
+      },
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30;+5",
+        "incrementSeconds": 5
+      }
+    ],
+    "scheduleText": "9:30:00 AM = Rd.1 for Open/U1700; 10:00 AM = Rd 1 for U1200/U800",
+    "registrationText": "Registration Ends at 45 min. before Round 1. Tournament will not be delayed Membership Requirement: USCF Membership Required",
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "entryFeeText": "OPEN / U1700 = $59 by 11/9; $69 by 11/13; +$11 more Sat. 11/14. U1200 / U800 $38 by 11/9; $45 by 11/13; +$10 More Sat.11/14. GM's, IM's, WGM's, WIM's, FM's FREE. Email Organizer",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10982",
+    "city": "Woonsocket",
+    "state": "RI",
+    "country": "US",
+    "online": false,
+    "organizer": "Ocean State Chess Association",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10982",
+        "fetchedAt": "2026-11-11T06:05:41+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-d930404c5506b291-2026-11-15",
+    "name": "5th Iron Knights Amateur",
+    "date": "2026-11-15",
+    "type": "tournament",
+    "endDate": "2026-11-15",
+    "website": "http://www.masschess.org/events/20261115westernmasschess.html#5th-iron-knights-amateur",
+    "city": "Shelburne",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Western Mass Chess",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/20261115westernmasschess.html#5th-iron-knights-amateur",
+        "fetchedAt": "2026-11-11T06:05:41+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-365fe74a19f45ae0-2026-11-15",
+    "name": "BCF November Scholastics",
+    "date": "2026-11-15",
+    "type": "tournament",
+    "endDate": "2026-11-15",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Club Boston",
+    "address": "35 Kingston St. Suite 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 30.0,
+      "raw": "G/30 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "2:00pm, 3:15pm, 4:30pm, 5:45pm or ASAP",
+    "registrationText": "1:30pm - 1:45pm onsite. Online registration CLOSES at 9:30am Membership Requirement: A current USCF membership is required for all three sections. https://new.uschess.org/join-us-chess",
+    "entryFeeText": "$20, $25 for non-BCF members, $5 more after 11/13",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10992",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "The Boylston Chess Foundation",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10992",
+        "fetchedAt": "2026-11-11T06:05:41+00:00"
+      }
+    ],
+    "locationPrecision": "venue"
+  },
+  {
+    "id": "maca-83afa82fbc505bf5-2026-11-15",
+    "name": "FMCA Unrated and Beginner 11/15",
+    "date": "2026-11-15",
+    "type": "tournament",
+    "endDate": "2026-11-15",
+    "venue": "FMCA Ashland",
+    "address": "200 Homer Ave, Unit 200, Ashland, MA 01721",
+    "lat": 42.2539,
+    "lng": -71.4583,
+    "scheduleText": "3 pm 3:20 pm 3:40 pm 4 pm",
+    "registrationText": "Registration - Online: Available till END OF DAY OF 11/20/2026. Membership Requirement: None",
+    "rated": false,
+    "ratingSystem": "none",
+    "entryFeeText": "$35.00",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11003",
+    "city": "Ashland",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Future Masters Chess Academy",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11003",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-883ac46521df6dfa-2026-10-13",
+    "name": "BCF Mid-Autumn Six-Week Swiss ONLINE",
+    "date": "2026-10-13",
+    "type": "tournament",
+    "endDate": "2026-11-17",
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60.0,
+      "raw": "G/60 +10",
+      "incrementSeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60 +10",
+        "incrementSeconds": 10
+      }
+    ],
+    "scheduleText": "Tuesdays: 10/13, 10/20, 10/27, 11/3, 11/10, 11/17 at 6:30 PM ET (may be rescheduled by agreement between two players and at discretion of TD)\nDates: Oct 13, Oct 20, Oct 27, Nov 3, Nov 10, Nov 17",
+    "registrationText": "Until 6:00 PM before a Round starts on Tuesday to be included in that night's Round; Registration deadline by 11/3/2026 at 6 PM ET Membership Requirement: USCF Membership required",
+    "entryFeeText": "$25 for BCF members, $40 for non-members",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10972",
+    "country": "US",
+    "online": true,
+    "organizer": "The Boylston Chess Foundation",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10972",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-f6ad205e57f3c9c7-2026-11-21",
+    "name": "2026 CT STATE CHAMPIONSHIP; $6,000+ in Prizes and Awards!!! All states welcome!",
+    "date": "2026-11-21",
+    "type": "tournament",
+    "endDate": "2026-11-21",
+    "venue": "Trinity College",
+    "address": "300 Summit Street, Hartford, CT 06106",
+    "lat": 41.7498,
+    "lng": -72.6947,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "G/45+10 / G/30+10"
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45+10",
+        "incrementSeconds": 10
+      },
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30+10",
+        "incrementSeconds": 10
+      }
+    ],
+    "scheduleText": "4 Rounds Swiss, Round 1 at 11 AM, then ASAP; Lower sections start at 12 PM",
+    "registrationText": "Online thru 9 AM on day of event, onsite 10 AM - 12:30 PM; Discretionary 1/2 point bye possible after 9 AM. Membership Requirement: All states Welcome! No restrictions, except all-CT Final on Dec 5 is limited to \"CT players\" as defined in event flyer.",
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "entryFeeText": "Top three sections: $80 by 11/13, $90 by 11/17, $100 by 11/19; $120 after, U1300: $50/60/70/90; U800: $40/50/60/80; NER (New England-rated only): $20/25/30/40. GMs/IMs FREE, from prizes after 11/16. Other titled players, $20 off. Reentry (before R2)/changes $20 cash.",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11005",
+    "city": "Hartford",
+    "state": "CT",
+    "country": "US",
+    "online": false,
+    "organizer": "The Connecticut State Chess Association",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11005",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-29ebe85940469be1-2026-11-22",
+    "name": "13th Sharon Scholastic Tournament",
+    "date": "2026-11-22",
+    "type": "tournament",
+    "endDate": "2026-11-22",
+    "venue": "Striar Hebrew Academy",
+    "address": "100 Ames Street, Sharon, MA 02067",
+    "lat": 42.1094,
+    "lng": -71.1759,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Round 1 at 9:30 AM. Others on completion of each round.",
+    "registrationText": "No on-site registration. Membership Requirement: USCF membership required in Open section and U700 section. USCF membership must be purchased or renewed by November 20, 2026 if you plan on playing in a rated section.",
+    "entryFeeText": "$25 online by November 20, 2026, at 11:59 PM.",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10964",
+    "city": "Sharon",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "SouthEast New England Chess Association",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10964",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-d91ffddf17a91745-2026-11-22",
+    "name": "2nd State OPEN Championship/Spiegel Cup Qualifier",
+    "date": "2026-11-22",
+    "type": "tournament",
+    "endDate": "2026-11-22",
+    "venue": "Lakeside Inn",
+    "address": "595 North Ave, Wakefield, MA 01880",
+    "lat": 42.5009,
+    "lng": -71.0685,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "G/60, d5 / G/45, d5 / G/30, d5"
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60, d5",
+        "delaySeconds": 5
+      },
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45, d5",
+        "delaySeconds": 5
+      },
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30, d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Round 1 at 9:30 AM; other rounds ASAP.",
+    "registrationText": "8:30 - 9:00 AM. Registration - Mail: Payable:&nbspMACA. Mail entry to: Robert Messenger , 4 Hamlett Dr. , Apt 12 , Nashua NH 03062 Membership Requirement: Current US Chess and MACA Membership required.",
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "entryFeeText": "$36 advance mailed by 11/15/26; online (Paypal): $36 by 11/20/26. $46 at site. $5 discount to players in Reserve sections. $15 discount to 1st time players (first US Chess-rated tournament) in U300 section. All discounts are not valid for Onsite registration.",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10910",
+    "city": "Wakefield",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "The Massachusetts Chess Association Scholastics",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10910",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-1367f41199b55b4e-2026-11-27",
+    "name": "FMCA FIDE Fall Championship (2)",
+    "date": "2026-11-27",
+    "type": "tournament",
+    "endDate": "2026-11-29",
+    "venue": "Chess Center of Massachusetts",
+    "address": "200 Homer Ave, Ashland, MA 01701",
+    "lat": 42.3007,
+    "lng": -71.4255,
+    "scheduleText": "Friday 11/27 5:30 pm Sat 11/28 10:30 am and 3:30 pm Sunday 11/29 10:30 am and 3:30 pm\nDates: Nov 27, Nov 28, Nov 29",
+    "registrationText": "Membership Requirement: USCF",
+    "entryFeeText": "$105.00",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10955",
+    "city": "Ashland",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Future Masters Chess Academy",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10955",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-c227dd37f93b5758-2026-11-28",
+    "name": "FMCA Fall Under 1200 Championship",
+    "date": "2026-11-28",
+    "type": "tournament",
+    "endDate": "2026-11-29",
+    "venue": "Chess Center of Massachusetts",
+    "address": "200 Homer Ave, Ashland, MA 01701",
+    "lat": 42.3007,
+    "lng": -71.4255,
+    "scheduleText": "Sat 11/28 11:30 am 2 pm 4 pm Sunday 11/29 11:30 am 2 pm Or asap both days.\nDates: Nov 28, Nov 29",
+    "entryFeeText": "$65.00",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10956",
+    "city": "Ashland",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Future Masters Chess Academy",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10956",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-a09af01525dd8acb-2026-12-02",
+    "name": "Year End Open",
+    "date": "2026-12-02",
+    "type": "tournament",
+    "endDate": "2026-12-02",
+    "venue": "Plainville Chess Club",
+    "address": "16 E. Bacon St., Plainville, MA 02762",
+    "lat": 42.0124,
+    "lng": -71.3275,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90;d10",
+      "delaySeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90;d10",
+        "delaySeconds": 10
+      }
+    ],
+    "scheduleText": "730",
+    "entryFeeText": "see website for details",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=9695",
+    "city": "Plainville",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Plainville Chess Club",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=9695",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-7e6ec4e20abe3934-2026-12-02",
+    "name": "MCC - 2026-12",
+    "date": "2026-12-02",
+    "type": "tournament",
+    "endDate": "2026-12-30",
+    "venue": "First Parish Church - Scott Hall - Framingham",
+    "address": "24 Vernon Street, Framingham, MA 01701",
+    "lat": 42.3007,
+    "lng": -71.4255,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90; d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90; d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "7:30 PM - Wednesdays: 1 game per night\nDates: Dec 2, Dec 9, Dec 16, Dec 23, Dec 30",
+    "registrationText": "Online Registration Only, See club Home page for instructions",
+    "entryFeeText": "MCC members: $32, others $42",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=9684",
+    "city": "Framingham",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "The MetroWest Chess Club",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=9684",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-dea0a5d4cfb18963-2026-12-03",
+    "name": "CMC Chess Club Thursday G/75",
+    "date": "2026-12-03",
+    "type": "tournament",
+    "endDate": "2026-12-17",
+    "venue": "Chess Master Connections (CMC) Chess Club",
+    "address": "182 Arnold Road, Coventry, RI 02816",
+    "lat": 41.6914,
+    "lng": -71.5768,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 75.0,
+      "raw": "G/75;+10",
+      "incrementSeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 75.0,
+        "raw": "G/75;+10",
+        "incrementSeconds": 10
+      }
+    ],
+    "scheduleText": "7:00- 9:30 PM\nDates: Dec 3, Dec 10, Dec 17",
+    "registrationText": "Must register by 6:55 PM Membership Requirement: USCF Required Only in Rated Section, Unrated Players No USCF Required",
+    "entryFeeText": "$10 per Week",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10990",
+    "city": "Coventry",
+    "state": "RI",
+    "country": "US",
+    "online": false,
+    "organizer": "Chess Master Connections",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10990",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-f873f967fff47da7-2026-12-05",
+    "name": "14th Saint Nick Quick",
+    "date": "2026-12-05",
+    "type": "tournament",
+    "endDate": "2026-12-05",
+    "website": "http://www.masschess.org/events/20261205westernmasschess.html#14th-saint-nick-quick",
+    "city": "South Amherst",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Western Mass Chess",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/20261205westernmasschess.html#14th-saint-nick-quick",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-402882f1aacf595a-2026-12-05",
+    "name": "6th Portsmouth Scholastic Chess Tournament",
+    "date": "2026-12-05",
+    "type": "tournament",
+    "endDate": "2026-12-05",
+    "venue": "Portsmouth Middle School",
+    "address": "125 Jepson Lane, Portsmouth, RI 02871",
+    "lat": 41.5944,
+    "lng": -71.252,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25"
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25"
+      }
+    ],
+    "scheduleText": "Round 1 at 9:30 AM. Others on completion of each round.",
+    "registrationText": "THERE IS NO DOOR REGISTRATION FOR THIS EVENT. ADVANCE REGISTRATION ONLY. Membership Requirement: USCF membership required in Open section and U700 section. USCF membership must be purchased or renewed by December 3, 2026 if you plan on playing in a rated section.",
+    "entryFeeText": "$25 online by December 3, 2026, at 11:59 PM.",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10965",
+    "city": "Portsmouth",
+    "state": "RI",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "SouthEast New England Chess Association",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10965",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-18e1b0daf3badfb9-2026-12-06",
+    "name": "Harry Nelson Pillsbury Memorial",
+    "date": "2026-12-06",
+    "type": "tournament",
+    "endDate": "2026-12-06",
+    "venue": "Hilton Garden Inn Marlborough",
+    "address": "170 Forest Street, Marlborough, MA, 01752, Hotel Info: Hotel phone number is 508-251-6716.",
+    "lat": 42.3509,
+    "lng": -71.5434,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60.0,
+      "raw": "G/60; d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60; d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Rounds at 10 a.m., 1 p.m., 3:30 p.m., 6 p.m.",
+    "registrationText": "8:30 to 9:30 a.m. Registration - Mail: Payable:&nbspMACA. Mail entry to: Robert Messenger , 4 Hamlett Dr. , Apt 12 , Nashua NH 03062 Membership Requirement: USCF and MACA membership required.",
+    "entryFeeText": "$45 if mailed by 11/30 or online by 12/2, $55 online by 12/4 or at site. $10 discount to players in U1000 section. GMs and IMs free.",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10949",
+    "city": "Marlborough",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "The Massachusetts Chess Association",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10949",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-d31fb60a8c125295-2026-12-12",
+    "name": "Beginner Tournament for Kids",
+    "date": "2026-12-12",
+    "type": "tournament",
+    "endDate": "2026-12-12",
+    "lat": 42.3528,
+    "lng": -71.1875,
+    "website": "http://masschess.org/images/Second-Four-Knights-Battle-of-Massachusetts.png#beginner-tournament-for-kids",
+    "city": "Newton",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Four Knights Chess Academy",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/images/Second-Four-Knights-Battle-of-Massachusetts.png#beginner-tournament-for-kids",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
+    "id": "maca-1e1c1b041a43c053-2026-12-12",
+    "name": "Chess Duel: Classical League",
+    "date": "2026-12-12",
+    "type": "tournament",
+    "endDate": "2026-12-12",
+    "lat": 42.9897875,
+    "lng": -71.4533875,
+    "website": "http://www.masschess.org/events/20261212queencitychess.html#chess-duel-classical-league",
+    "city": "Manchester",
+    "state": "NH",
+    "country": "US",
+    "online": false,
+    "organizer": "QueenCityChess",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/20261212queencitychess.html#chess-duel-classical-league",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
+    "id": "maca-e7df20b47afff9ca-2026-12-13",
+    "name": "FMCA Scholastics Dec 13",
+    "date": "2026-12-13",
+    "type": "tournament",
+    "endDate": "2026-12-13",
+    "venue": "New England Movement Arts Art School",
+    "address": "123 Muller Rd., Burlington, MA 01803",
+    "lat": 42.5089,
+    "lng": -71.2004,
+    "scheduleText": "1:30 pm 2:30 pm 3:30 pm 4:30 pm or ASAP",
+    "registrationText": "Registration - Online: Available till END OF DAY OF 12/12/2026. Membership Requirement: USCF",
+    "entryFeeText": "$40.00",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10996",
+    "city": "Burlington",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Future Masters Chess Academy",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10996",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-cc0c7ffe40709e2e-2026-12-20",
+    "name": "FMCA Team Championship 1",
+    "date": "2026-12-20",
+    "type": "tournament",
+    "endDate": "2026-12-20",
+    "venue": "FMCA Ashland",
+    "address": "200 Homer Ave, Unit 200, Ashland, MA 01721",
+    "lat": 42.2539,
+    "lng": -71.4583,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 30.0,
+      "raw": "G/30, d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30, d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "11 am 1 pm 2:30 pm 3:45 pm. Or ASAP",
+    "registrationText": "Membership Requirement: USCF",
+    "entryFeeText": "$140 per team if sent by 12/18. $160 at site.",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10994",
+    "city": "Ashland",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Future Masters Chess Academy",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10994",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-9782754ba4570cee-2026-12-27",
+    "name": "2026 NEW ENGLAND BLITZ CHAMPIONSHIP - $1,400 Plus Trophies",
+    "date": "2026-12-27",
+    "type": "tournament",
+    "endDate": "2026-12-27",
+    "venue": "Woonsocket Elks Lodge",
+    "address": "380 Social Street, Woonsocket, RI 02895",
+    "lat": 41.9846,
+    "lng": -71.5194,
+    "format": "blitz",
+    "timeControl": {
+      "kind": "blitz",
+      "baseMinutes": 3.0,
+      "raw": "G/3+2",
+      "incrementSeconds": 2
+    },
+    "timeControls": [
+      {
+        "kind": "blitz",
+        "baseMinutes": 3.0,
+        "raw": "G/3+2",
+        "incrementSeconds": 2
+      }
+    ],
+    "scheduleText": "Round 1 starts promptly @ 10:00 AM. Finished by 3:00 - 3:30 pm",
+    "registrationText": "On-Site Registration at 9:00 \u2013 9:30 am. Late registrations may receive 1/2 pt. byes Registration - Mail: Payable:&nbspPayable / Mail to: Ocean State Chess Association, received by12/24. Mail entry to: , 42 Forbes Street , Riverside, RI 02915 Membership Requirement: USCF Membership Required",
+    "entryFeeText": "Open Championship EF: (Early) $45 by 12/20 ; (Regular) $50 by 12/21-12/25. U1700 EF: (Early) $40 by 12/20; (Regular) $45 by 12/21-12/25; U1200 & U800 EF: (Early) $35 by 12/20; (Regular) $40 by 12/22-12/25. Late Entries on 12/26 & 12/27 - add +$15 to EF for ALL Sections",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10932",
+    "city": "Woonsocket",
+    "state": "RI",
+    "country": "US",
+    "online": false,
+    "organizer": "Ocean State Chess Association",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10932",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-e15929c398bc7d60-2027-01-07",
+    "name": "CMC Chess Club Thursday G/75",
+    "date": "2027-01-07",
+    "type": "tournament",
+    "endDate": "2027-01-28",
+    "venue": "Chess Master Connections (CMC) Chess Club",
+    "address": "182 Arnold Road, Coventry, RI 02816",
+    "lat": 41.6914,
+    "lng": -71.5768,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 75.0,
+      "raw": "G/75;+10",
+      "incrementSeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 75.0,
+        "raw": "G/75;+10",
+        "incrementSeconds": 10
+      }
+    ],
+    "scheduleText": "7:00- 9:30 PM\nDates: Jan 7, Jan 14, Jan 21, Jan 28",
+    "registrationText": "Must register by 6:55 PM Membership Requirement: USCF Required Only in Rated Section, Unrated Players No USCF Required",
+    "entryFeeText": "$10 per Week",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11000",
+    "city": "Coventry",
+    "state": "RI",
+    "country": "US",
+    "online": false,
+    "organizer": "Chess Master Connections",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11000",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-003e780b6273a15c-2027-01-24",
+    "name": "Gus Gosselin Grade Championships",
+    "date": "2027-01-24",
+    "type": "tournament",
+    "endDate": "2027-01-24",
+    "lat": 42.5009,
+    "lng": -71.0685,
+    "website": "http://masschess.org/Events/2027UpcomingMACAEvents.html#gus-gosselin-grade-championships",
+    "city": "Wakefield",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "MacaScholastics",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/Events/2027UpcomingMACAEvents.html#gus-gosselin-grade-championships",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "city"
+  },
+  {
+    "id": "maca-5453b8fb5a061f25-2027-02-04",
+    "name": "CMC Chess Club Thursday G/75",
+    "date": "2027-02-04",
+    "type": "tournament",
+    "endDate": "2027-02-25",
+    "venue": "Chess Master Connections (CMC) Chess Club",
+    "address": "182 Arnold Road, Coventry, RI 02816",
+    "lat": 41.6914,
+    "lng": -71.5768,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 75.0,
+      "raw": "G/75;+10",
+      "incrementSeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 75.0,
+        "raw": "G/75;+10",
+        "incrementSeconds": 10
+      }
+    ],
+    "scheduleText": "7:00- 9:30 PM\nDates: Feb 4, Feb 11, Feb 18, Feb 25",
+    "registrationText": "Must register by 6:55 PM Membership Requirement: USCF Required Only in Rated Section, Unrated Players No USCF Required",
+    "entryFeeText": "$10 per Week",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11001",
+    "city": "Coventry",
+    "state": "RI",
+    "country": "US",
+    "online": false,
+    "organizer": "Chess Master Connections",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=11001",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-22d32788f3755ea7-2027-02-07",
+    "name": "Winter Team Challenge",
+    "date": "2027-02-07",
+    "type": "tournament",
+    "endDate": "2027-02-07",
+    "website": "http://masschess.org/Events/2027UpcomingMACAEvents.html#winter-team-challenge",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "MacaScholastics",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/Events/2027UpcomingMACAEvents.html#winter-team-challenge",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-87fd7040a7922bf6-2027-02-21",
+    "name": "Girls Qualifier",
+    "date": "2027-02-21",
+    "type": "tournament",
+    "endDate": "2027-02-21",
+    "website": "http://masschess.org/Events/2027UpcomingMACAEvents.html#girls-qualifier",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "MacaScholastics",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/Events/2027UpcomingMACAEvents.html#girls-qualifier",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-b1fb2de495ed0c09-2027-03-07",
+    "name": "Q3 Spiegel Qualifier",
+    "date": "2027-03-07",
+    "type": "tournament",
+    "endDate": "2027-03-07",
+    "website": "http://masschess.org/Events/2027UpcomingMACAEvents.html#q3-spiegel-qualifier",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "MacaScholastics",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/Events/2027UpcomingMACAEvents.html#q3-spiegel-qualifier",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-4839cfbad9ed5002-2027-03-21",
+    "name": "Hurvitz Cup",
+    "date": "2027-03-21",
+    "type": "tournament",
+    "endDate": "2027-03-21",
+    "website": "http://masschess.org/Events/2027UpcomingMACAEvents.html#hurvitz-cup",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "MacaScholastics",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/Events/2027UpcomingMACAEvents.html#hurvitz-cup",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-1ce7caff089c0f1d-2027-04-11",
+    "name": "Q4 Spiegel Qualifier",
+    "date": "2027-04-11",
+    "type": "tournament",
+    "endDate": "2027-04-11",
+    "website": "http://masschess.org/Events/2027UpcomingMACAEvents.html#q4-spiegel-qualifier",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "MacaScholastics",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/Events/2027UpcomingMACAEvents.html#q4-spiegel-qualifier",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-384dee73b213a8a7-2027-04-18",
+    "name": "Senior Open / Girls Championship",
+    "date": "2027-04-18",
+    "type": "tournament",
+    "endDate": "2027-04-18",
+    "website": "http://masschess.org/Events/2027UpcomingMACAEvents.html#senior-open-girls-championship",
+    "country": "US",
+    "online": false,
+    "organizer": "Maca",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/Events/2027UpcomingMACAEvents.html#senior-open-girls-championship",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-57fe7c7dd8739476-2027-05-02",
+    "name": "Massachusetts G/60 Championship",
+    "date": "2027-05-02",
+    "type": "tournament",
+    "endDate": "2027-05-02",
+    "website": "http://masschess.org/Events/2027UpcomingMACAEvents.html#massachusetts-g-60-championship",
+    "country": "US",
+    "online": false,
+    "organizer": "Maca",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/Events/2027UpcomingMACAEvents.html#massachusetts-g-60-championship",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-b63883a7dbf68c7f-2027-05-23",
+    "name": "Spiegel Cup Finals",
+    "date": "2027-05-23",
+    "type": "tournament",
+    "endDate": "2027-05-23",
+    "website": "http://masschess.org/Events/2027UpcomingMACAEvents.html#spiegel-cup-finals",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "MacaScholastics",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/Events/2027UpcomingMACAEvents.html#spiegel-cup-finals",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-53da43f94d23e6f4-2027-05-29",
+    "name": "95th Massachusetts Open",
+    "date": "2027-05-29",
+    "type": "tournament",
+    "endDate": "2027-05-31",
+    "venue": "Best Western Royal Plaza Hotel",
+    "address": "181 Boston Post Rd. West, Marlborough, MA 01752",
+    "lat": 42.3509,
+    "lng": -71.5434,
+    "scheduleText": "Dates: May 29, May 30, May 31",
+    "website": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10976",
+    "city": "Marlborough",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "The Massachusetts Chess Association",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://www.masschess.org/events/Event_Details.aspx?Event_ID=10976",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "maca-53e7cb48207a299c-2027-06-06",
+    "name": "Massachusetts Womens Championship, classic",
+    "date": "2027-06-06",
+    "type": "tournament",
+    "endDate": "2027-06-06",
+    "website": "http://masschess.org/Events/2027UpcomingMACAEvents.html#massachusetts-womens-championship-classic",
+    "country": "US",
+    "online": false,
+    "organizer": "Maca",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/Events/2027UpcomingMACAEvents.html#massachusetts-womens-championship-classic",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  },
+  {
+    "id": "maca-30300699087dd965-2027-06-13",
+    "name": "Massachusetts Womens Championship, rapid and blitz",
+    "date": "2027-06-13",
+    "type": "tournament",
+    "endDate": "2027-06-13",
+    "website": "http://masschess.org/Events/2027UpcomingMACAEvents.html#massachusetts-womens-championship-rapid-and-blitz",
+    "country": "US",
+    "online": false,
+    "organizer": "Maca",
+    "source": "maca",
+    "sources": [
+      {
+        "id": "maca",
+        "url": "http://masschess.org/Events/2027UpcomingMACAEvents.html#massachusetts-womens-championship-rapid-and-blitz",
+        "fetchedAt": "2026-11-11T06:05:42+00:00"
+      }
+    ]
+  }
+]

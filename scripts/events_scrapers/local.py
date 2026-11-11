@@ -126,16 +126,3 @@ class BoylstonScraper(BaseEventScraper):
         return events
 
     def scrape(self): return self.parse(self.client.soup(self.source_url))
-
-
-class MACAScraper(BaseEventScraper):
-    source_id = 'maca'
-    source_url = 'https://www.masschess.org/Events/Chess_Tournaments.aspx'
-    words_at_top = 'Read the MACA tournament directory; fail visibly if unavailable or changed.'
-    def __init__(self): self.client = Client()
-
-    def scrape(self):
-        # MACA currently refuses connections. Do not fabricate events or silently
-        # substitute a staging site. Wire its parser after the live markup is verified.
-        self.client.soup(self.source_url)
-        raise ValueError('MACA requires live markup verification before enabling its parser; MACA registrations are also covered by NA Chess Hub.')

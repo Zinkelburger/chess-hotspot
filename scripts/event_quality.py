@@ -9,7 +9,7 @@ def review_report(events, statuses, now=None, required_sources=('uscf', 'nachess
     missing = set(required_sources) - {s['id'] for s in statuses}
     issues.extend({'severity': 'error', 'code': 'source-missing', 'source': source} for source in sorted(missing))
     for status in statuses:
-        if status['id'] == 'maca':  # Explicitly disabled adapter; Hub covers its registrations.
+        if status['id'] == 'maca':  # Its site has refused connections before; Hub covers its registrations, so it never blocks.
             continue
         success = status.get('lastSuccess')
         if status.get('status') != 'ok':

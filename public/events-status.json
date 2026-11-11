@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:04:01+00:00",
+  "updatedAt": "2026-11-11T06:05:41+00:00",
   "sources": [
     {
       "id": "nachesshub",
@@ -22,12 +22,11 @@
     {
       "id": "maca",
       "name": "MACA",
-      "url": "https://www.masschess.org/Events/Chess_Tournaments.aspx",
-      "status": "error",
-      "lastAttempt": "2026-10-03T02:01:37+00:00",
-      "lastSuccess": null,
-      "count": 0,
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "url": "http://www.masschess.org/Events/chess-event-list.aspx",
+      "status": "ok",
+      "lastAttempt": "2026-11-11T06:05:41+00:00",
+      "lastSuccess": "2026-11-11T06:05:41+00:00",
+      "count": 39
     },
     {
       "id": "cca",
@@ -84,26 +83,27 @@
       "count": 11
     }
   ],
-  "eventCount": 1051,
-  "mappedCount": 1017,
+  "eventCount": 1083,
+  "mappedCount": 1038,
   "quality": {
-    "checkedAt": "2026-11-11T06:04:12+00:00",
+    "checkedAt": "2026-11-11T06:05:44+00:00",
     "passed": true,
     "coverage": {
-      "events": 1051,
-      "withFees": 629,
-      "withSchedule": 485,
-      "withRegistration": 486,
-      "physicalEvents": 1032,
-      "mapped": 1017,
-      "venueCoordinates": 18
+      "events": 1083,
+      "withFees": 648,
+      "withSchedule": 505,
+      "withRegistration": 503,
+      "physicalEvents": 1063,
+      "mapped": 1038,
+      "venueCoordinates": 19
     },
     "issueCounts": {
-      "multiple-or-ambiguous-time-controls": 182,
-      "recurring-or-long-date-range": 55,
+      "multiple-or-ambiguous-time-controls": 183,
+      "recurring-or-long-date-range": 62,
       "unexpired-listing-rechecked": 47,
       "section-specific-fees-need-review": 17,
       "source-format-coverage-differs": 2,
+      "possible-duplicate-listing": 9,
       "possibly-cancelled-per-other-source": 1,
       "cancelled-or-postponed-excluded": 1,
       "linked-listing-date-differs": 2

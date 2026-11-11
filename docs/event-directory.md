@@ -31,7 +31,7 @@ the detail card.
 | [US Chess](https://new.uschess.org/upcoming-tournaments) | All directory pages, then every unique detail page | National advertised tournaments; this is not a registry of all rated events. The latest index scrape follows 29 pages; additional known unexpired occurrences are rechecked on their detail pages. Structured online/address/FIDE fields are used. Recurring listings use the upcoming occurrence displayed in the directory, not the series' original start date. |
 | [NA Chess Hub](https://www.nachesshub.com/AllEvents) | Paginated event table and detail fields | US locations only; includes MACA registrations. Explicit organizer test events are excluded. |
 | [Boylston](https://boylstonchess.org/events) | Structured list underlying its [calendar](https://boylstonchess.org/calendar) | Tournaments, club nights, lessons and talks. Membership products, board/annual meetings and league team-signup products are excluded. Yearless Tuesday series retain their full first-to-last-date window. |
-| [MACA](https://www.masschess.org/Events/Chess_Tournaments.aspx) | Availability check only; **direct parser not enabled** | Both the website and historical tournament URL refused connections during development. The adapter deliberately reports failure until live markup can be inspected. MACA events on NA Chess Hub are already included. Do not describe this as a working direct MACA scraper. |
+| [MACA](http://www.masschess.org/Events/chess-event-list.aspx) | Its published future-events sheet, then each event's page on masschess.org | Massachusetts and nearby New England. The site answers only over plain HTTP; HTTPS connections are reset, which is why it looked unavailable in October. TV notices, club announcements, camps and single-round rows of tournaments already under way are excluded, as are club nights with no time control. Events still marked TBD have no location. A failure here does not block publication, because the site has been unreliable and NA Chess Hub also carries MACA registrations. |
 | [Continental Chess](https://www.chesstour.com/refs.html) | Existing detail-page scraper, improved title/address parsing | Only events published in that index. Preserves the existing CCA schema and parser tests. |
 | [King Registration](https://www.kingregistration.com/tournaments) | JSON embedded in its tournament list, then each public event page | One registration platform used by about 80 organizers, strongest in IL, TX, WI, AZ and CA. Only events its organizers register there. Postal/ICCF play, after-school classes, club meetings, camps, simuls, bundles and internal test listings are excluded. It publishes no robots.txt and its terms do not restrict reading; `/register` and entry lists are not fetched. Prices with no organizer wording are the platform's current online fee and say so. |
 | [Mechanics' Institute](https://www.milibrary.org/chess/tournaments/) | Its tournament list, then each tournament page | Club tournaments in San Francisco currently on its list. Dates come from each tournament's page because the list prints no year. Entry fees keep the member and non-member wording. |
@@ -55,7 +55,7 @@ python3 scripts/scrape_events.py --strict
 A cold run fetches hundreds of pages and can take 15–30 minutes. Requests are
 sequential per source, have a descriptive user agent, a 25-second timeout, at least
 350 ms between requests, a six-hour HTML cache, and bounded retries for transient HTTP failures. A process lock prevents concurrent refresh writers. `--sources` supports selective
-refreshes without deleting the other sources. The default source list includes every working adapter. MACA can be explicitly checked with `--sources maca`, but is not included in the default refresh. `--strict` exits nonzero after writing health
+refreshes without deleting the other sources. The default source list includes every working adapter. `--strict` exits nonzero after writing health
 reports if any requested source fails. No login or private endpoint is required.
 
 Files:
@@ -82,8 +82,10 @@ not create new IDs. Deduplication retains all source links and merges, in order:
 4. listings from different sources with the same start date, end date, city and
    state whose titles agree once editions, years, months and filler are removed
    (`scripts/event_merge.py`). Titles differing by a word that separates
-   competitions, such as "Blitz" or "Scholastic", never merge, and a title matching
-   more than one candidate is flagged `possible-duplicate-listing` instead.
+   competitions, such as "Blitz" or "Scholastic", never merge. A set of listings is
+   merged only if every source appears once and all the titles agree; otherwise it is
+   flagged `possible-duplicate-listing`, as are same-day, same-city listings sharing
+   two distinctive words that were left apart.
 
 A wrong merge hides a real event, so anything looser is left separate; differently
 titled listings of one tournament may still appear twice. `linked-listing-date-differs`
