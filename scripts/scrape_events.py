@@ -43,6 +43,9 @@ REGISTRY = {
     'chessreg': ('ChessReg', ChessRegScraper),
 }
 
+# Its site has refused connections before and NA Chess Hub also carries its registrations.
+OPTIONAL_SOURCES = {'maca'}
+
 def atomic_write(path, payload):
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + '.tmp')
@@ -167,7 +170,7 @@ def main():
     if geocoder: geocoder.save()
     published=deduplicate([e for e in all_events if (e.endDate or e.date)>=(date.today()-timedelta(days=1)).isoformat() and e.country=='US'])
     validate(published)
-    quality = review_report(published, list(statuses.values()), required_sources=set(REGISTRY) - {'maca'})
+    quality = review_report(published, list(statuses.values()), required_sources=set(REGISTRY) - OPTIONAL_SOURCES)
     previous_active = [e for e in old_published if (e.get('endDate') or e['date']) >= (date.today()-timedelta(days=1)).isoformat()]
     if previous_active and len(published) < len(previous_active) * .7:
         quality['passed'] = False
@@ -182,6 +185,6 @@ def main():
     elif all_events and not failures: atomic_write(output,[])
     atomic_write(status_path,{'updatedAt':now,'sources':list(statuses.values()),'eventCount':len(published),'mappedCount':sum(e.lat is not None and not e.online for e in published),'quality':{k:v for k,v in quality.items() if k != 'issues'}})
     print(f'Directory contains {len(published)} events; failed sources: {failures}; review passed: {quality["passed"]}',flush=True)
-    if (failures or not quality['passed']) and args.strict: raise SystemExit(1)
+    if ([f for f in failures if f not in OPTIONAL_SOURCES] or not quality['passed']) and args.strict: raise SystemExit(1)
 
 if __name__=='__main__': main()

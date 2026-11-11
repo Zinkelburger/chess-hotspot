@@ -512,3 +512,20 @@ def test_near_duplicate_left_apart_is_flagged():
     b=kr(name='State Open Championship/Spiegel Cup Qualifier')
     result=deduplicate([a,b])
     assert len(result)==2 and all('possible-duplicate-listing' in e.reviewFlags for e in result)
+
+
+def test_optional_source_failure_does_not_fail_a_strict_refresh(tmp_path,monkeypatch):
+    import sys
+    import scrape_events
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(sys,'argv',['scrape_events.py','--no-geocode','--strict'])
+    class Good:
+        source_url='https://example.org/events'
+        words_at_top='ok'
+        def scrape(self):return [replace(event(),date=date.today().isoformat())]
+    class Down(Good):
+        def scrape(self):raise ConnectionError('reset')
+    monkeypatch.setattr(scrape_events,'REGISTRY',{'uscf':('US Chess',Good),'maca':('MACA',Down)})
+    scrape_events.main()  # Raises SystemExit if the optional source blocks.
+    monkeypatch.setattr(scrape_events,'REGISTRY',{'uscf':('US Chess',Down),'maca':('MACA',Good)})
+    with pytest.raises(SystemExit):scrape_events.main()

@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 from events_scrapers.base import ScrapedEvent
 from event_quality import review_report
-from scrape_events import REGISTRY, atomic_write, deduplicate, validate
+from scrape_events import OPTIONAL_SOURCES, REGISTRY, atomic_write, deduplicate, validate
 
 
 def main():
@@ -26,7 +26,7 @@ def main():
                       if (raw.get('endDate') or raw['date']) >= cutoff and raw.get('country', 'US') == 'US')
     events = deduplicate(events)
     validate(events)
-    report = review_report(events, status['sources'], required_sources=set(REGISTRY) - {'maca'})
+    report = review_report(events, status['sources'], required_sources=set(REGISTRY) - OPTIONAL_SOURCES)
     published = json.loads(Path('public/events.v1.json').read_text())
     expected = {e.id: e.to_dict() for e in events if not e.cancellationEvidence}
     actual = {e['id']: e for e in published}

@@ -24,7 +24,7 @@ The "Entry" column shows the first price in the organizer's fee text and says
 "varies" when more follow. It is a scanning aid, not a quote; the full text is in
 the detail card.
 
-## Sources investigated on October 2–3, 2026
+## Sources investigated on October 2–3 and November 11, 2026
 
 | Source | Implemented ingestion | Coverage and limitations |
 | --- | --- | --- |
@@ -39,6 +39,19 @@ the detail card.
 | [Mechanics' Institute](https://www.milibrary.org/chess/tournaments/) | Its tournament list, then each tournament page | Club tournaments in San Francisco currently on its list. Dates come from each tournament's page because the list prints no year. Entry fees keep the member and non-member wording. |
 | [Marshall Chess Club](https://www.marshallchessclub.org/tournaments/upcoming) | Table on its registration page | Club tournaments in New York, about two months ahead. Classes and casual nights are excluded. The page prints no year, so it is taken from the date nearest today, advancing at New Year. Many events are members-only; the fee text says which. |
 | [ChessReg](https://chessreg.com) | Its [documented public API](https://chessreg.com/webservice-api-v1-documentation) | Registration platform for Washington, Idaho and nearby, mostly scholastic and NWSRS-rated. Only events registered there. The API gives a start date only, so multi-day events show their first day. Prices are the listed online fee. |
+
+Checked and not used (November 11, 2026):
+
+| Source | Why not |
+| --- | --- |
+| Caissa Chess | Its robots.txt disallows `/tournaments`, `/tour` and `/register/`. |
+| ChessRoster | Its robots.txt permits `/tournaments`, but its terms forbid automated access. |
+| Texas Chess Association, CalChess | Their calendars are Google Calendars, and `calendar.google.com/robots.txt` disallows everything except the root. Texas's own site has no upcoming announcements, and its major events register through King Registration. |
+| Illinois Chess Association | Its 20 listings were all on US Chess or King Registration, so it added no coverage. |
+| SCCF | Its clearinghouse gives weekends, not dates, with tentative entries; its other list is yearless and stale. |
+| New Jersey (NJSCF) | No upcoming events; its newest tournament posts date from 2023–24. |
+| Washington Chess Federation | Its site refused our requests (403). Northwest Chess and ChessReg cover the state. |
+| Charlotte Chess Center | No dated list in its pages; its events are already on US Chess. |
 
 No documented public upcoming-tournament RSS/ICS/API feed was found on US Chess.
 Their [August 2026 API announcement](https://forum.uschess.org/t/api-2-0-is-now-available/61581)
