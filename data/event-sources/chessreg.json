@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "chessreg-a7597658eaee81e1-2026-11-13",
+    "name": "Grand Knights Chess Academy USCF Fall Family Pizza Quads",
+    "date": "2026-11-13",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes November 13, 2026 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk1113",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk1113",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-570d3f6a0d6d1b52-2026-11-14",
+    "name": "2026 Prep Pawn Wars (K-12)",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "time": "08:30",
+    "timezone": "America/Los_Angeles",
+    "address": "9612 St Thomas Dr, Pasco, WA 99301",
+    "lat": 46.2492,
+    "lng": -119.1044,
+    "registrationText": "Online registration closes November 11, 2026 at 11:59 PM (America/Los_Angeles)",
+    "entryFeeText": "$15.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/wecc261114",
+    "city": "Pasco",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/wecc261114",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-5e0cde2bc0068a10-2026-11-14",
+    "name": "Norman Friedman Memorial and Veterans Day Celebration",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "time": "09:00",
+    "timezone": "America/Los_Angeles",
+    "address": "1213 E 4th Ave, Post Falls, ID 83854",
+    "lat": 47.7205,
+    "lng": -116.9353,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "G/75;d5 / G/30;d5"
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 75.0,
+        "raw": "G/75;d5",
+        "delaySeconds": 5
+      },
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30;d5",
+        "delaySeconds": 5
+      }
+    ],
+    "registrationText": "Online registration closes November 13, 2026 at 5:00 PM (America/Los_Angeles)",
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$15.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/26nfm",
+    "city": "Post Falls",
+    "state": "ID",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/26nfm",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-e36ed7a7fa04c10f-2026-11-14",
+    "name": "Excel with Chess Mercer Island Fall State Qualifier",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "time": "10:30",
+    "timezone": "America/Los_Angeles",
+    "address": "8236 SE 24th St, Mercer Island, WA 98040",
+    "lat": 47.5603,
+    "lng": -122.2281,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25;d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25;d5",
+        "delaySeconds": 5
+      }
+    ],
+    "registrationText": "Online registration closes November 13, 2026 at 11:59 PM (America/Los_Angeles)",
+    "entryFeeText": "$50.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/ewc1",
+    "city": "Mercer Island",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/ewc1",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-1e962dbf28fda823-2026-11-20",
+    "name": "Grand Knights Chess Academy USCF Fall Family Pizza Quads",
+    "date": "2026-11-20",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes November 20, 2026 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk1120",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk1120",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-26d2ffd5e57bde02-2026-12-04",
+    "name": "Grand Knights Chess Academy USCF Winter Pizza Quads",
+    "date": "2026-12-04",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes December 4, 2026 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk124",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk124",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-db3f8ff5eff1562a-2026-12-05",
+    "name": "2026 Richland Rook Round-Up Chess Tournament (K-12)",
+    "date": "2026-12-05",
+    "type": "tournament",
+    "time": "08:00",
+    "timezone": "America/Los_Angeles",
+    "address": "2200 Williams Blvd, Richland, WA 99354",
+    "lat": 46.3257,
+    "lng": -119.3067,
+    "registrationText": "Online registration closes December 2, 2026 at 12:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$15.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/wecc261205",
+    "city": "Richland",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/wecc261205",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-3100406bd2eeb3f2-2026-12-05",
+    "name": "2026 St. Charles The Dark Knight (K-8)",
+    "date": "2026-12-05",
+    "type": "tournament",
+    "time": "08:45",
+    "timezone": "America/Los_Angeles",
+    "address": "7112 S 12th St, Tacoma, WA 98465",
+    "lat": 47.2491,
+    "lng": -122.5273,
+    "registrationText": "Online registration closes December 4, 2026 at 5:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$25.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/dark",
+    "city": "Tacoma",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/dark",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-a8f5ca772fbe72c8-2026-12-05",
+    "name": "Bryant Fall Classic 2026",
+    "date": "2026-12-05",
+    "type": "tournament",
+    "time": "08:45",
+    "timezone": "America/Los_Angeles",
+    "address": "3311 NE 60th St, Seattle, WA 98115",
+    "lat": 47.6849,
+    "lng": -122.2968,
+    "registrationText": "Online registration closes December 4, 2026 at 6:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/bfc",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/bfc",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-0f0459c2bfba8f72-2026-12-12",
+    "name": "Fairhaven Chess Tournament",
+    "date": "2026-12-12",
+    "type": "tournament",
+    "time": "09:45",
+    "timezone": "America/Los_Angeles",
+    "address": "110 Parkridge Rd, Bellingham, WA 98225",
+    "lat": 48.749,
+    "lng": -122.4887,
+    "registrationText": "Online registration closes December 10, 2026 at 9:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$20.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/fairhaven",
+    "city": "Bellingham",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/fairhaven",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-5a767834eab91cd0-2026-12-18",
+    "name": "Grand Knights Chess Academy USCF Winter Pizza Quads",
+    "date": "2026-12-18",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes December 18, 2026 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk1218",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk1218",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-3098cb4824804937-2026-12-19",
+    "name": "The Knight Before Christmas: Holiday State Qualifier",
+    "date": "2026-12-19",
+    "type": "tournament",
+    "time": "10:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes December 19, 2026 at 3:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$40.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/knightbefore",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/knightbefore",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-6eefdc471ecf674b-2027-01-08",
+    "name": "Grand Knights Chess Academy USCF Winter Pizza Quads",
+    "date": "2027-01-08",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes January 8, 2027 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk18",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk18",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-b0634692dcd3b919-2027-01-10",
+    "name": "Jing Mei Elementary Chess Tournament Hosted By All About Chess",
+    "date": "2027-01-10",
+    "type": "tournament",
+    "time": "08:30",
+    "timezone": "America/Los_Angeles",
+    "address": "12300 Main St, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes January 9, 2027 at 10:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$40.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/aacjingmei2027",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/aacjingmei2027",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-759391b5e7429cdd-2027-01-15",
+    "name": "Grand Knights Chess Academy USCF Winter Pizza Quads",
+    "date": "2027-01-15",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes January 15, 2027 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk115",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk115",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-b00e2d41b283316a-2027-01-22",
+    "name": "Grand Knights Chess Academy USCF Winter Pizza Quads",
+    "date": "2027-01-22",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes January 22, 2027 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk122",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk122",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-b5ad6f371e815507-2027-01-23",
+    "name": "Excel with Chess Redmond State Qualifier",
+    "date": "2027-01-23",
+    "type": "tournament",
+    "time": "10:30",
+    "timezone": "America/Los_Angeles",
+    "address": "10315 NE Cedar Park Cres, Redmond, WA 98053",
+    "lat": 47.6462,
+    "lng": -122.0386,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25;d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25;d5",
+        "delaySeconds": 5
+      }
+    ],
+    "registrationText": "Online registration closes January 22, 2027 at 11:59 PM (America/Los_Angeles)",
+    "entryFeeText": "$60.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/ewc2",
+    "city": "Redmond",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/ewc2",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-9534e3d32d129c29-2027-01-29",
+    "name": "Grand Knights Chess Academy USCF Winter Pizza Quads",
+    "date": "2027-01-29",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes January 29, 2027 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk129",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk129",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-5e819e948f046924-2027-02-05",
+    "name": "Grand Knights Chess Academy USCF Winter Pizza Quads",
+    "date": "2027-02-05",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes February 5, 2027 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk25",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk25",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-5dc80bc1950ef106-2027-02-06",
+    "name": "20th Annual (2027) Waypoint Foundation Scholastic Chess Tournament",
+    "date": "2027-02-06",
+    "type": "tournament",
+    "time": "08:00",
+    "timezone": "America/Los_Angeles",
+    "address": "1011 Parkway Blvd, Ephrata, WA 98823",
+    "lat": 47.2771,
+    "lng": -119.5336,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 30.0,
+      "raw": "G/30"
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30"
+      }
+    ],
+    "registrationText": "Online registration closes February 5, 2027 at 12:00 PM (America/Los_Angeles)",
+    "website": "https://chessreg.com/waypoint",
+    "city": "Ephrata",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/waypoint",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-be5c3b80c8b340db-2027-02-12",
+    "name": "Grand Knights Chess Academy USCF Winter Pizza Quads",
+    "date": "2027-02-12",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes February 12, 2027 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk212",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk212",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-0ccaf9788c73366b-2027-02-19",
+    "name": "Grand Knights Chess Academy USCF Winter Pizza Quads",
+    "date": "2027-02-19",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes February 19, 2027 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk219",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk219",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-926e668221d2b274-2027-02-26",
+    "name": "Grand Knights Chess Academy USCF Winter Pizza Quads",
+    "date": "2027-02-26",
+    "type": "tournament",
+    "time": "19:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes February 26, 2027 at 3:00 PM (America/Los_Angeles)",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gk226",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gk226",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-7b990710bc3f4108-2027-02-27",
+    "name": "2027 St. Charles Gambit (K-8)",
+    "date": "2027-02-27",
+    "type": "tournament",
+    "time": "08:45",
+    "timezone": "America/Los_Angeles",
+    "address": "7112 S 12th St, Tacoma, WA 98465",
+    "lat": 47.2491,
+    "lng": -122.5273,
+    "registrationText": "Online registration closes February 26, 2027 at 5:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$25.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gambit",
+    "city": "Tacoma",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gambit",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-7b8f02dc40849b9d-2027-02-27",
+    "name": "Decatur Elementary Gator Fest 2027",
+    "date": "2027-02-27",
+    "type": "tournament",
+    "time": "09:00",
+    "timezone": "America/Los_Angeles",
+    "address": "7711 43rd Ave NE, Seattle, WA 98115",
+    "lat": 47.6849,
+    "lng": -122.2968,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 30.0,
+      "raw": "G/30"
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30"
+      }
+    ],
+    "registrationText": "Online registration closes February 26, 2027 at 5:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$40.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/gator",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/gator",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-6f8de815f0b66d4d-2027-02-27",
+    "name": "Bellevue Schools Foundation Fundraising Chess Tournament",
+    "date": "2027-02-27",
+    "type": "tournament",
+    "time": "10:00",
+    "timezone": "America/Los_Angeles",
+    "address": "13620 NE 20th St Suite K, Bellevue, WA 98005",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "registrationText": "Online registration closes February 26, 2027 at 11:59 PM (America/Los_Angeles)",
+    "entryFeeText": "$40.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/bsf",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/bsf",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-eff2ae88f39f0547-2027-03-06",
+    "name": "2027 Bellarmine Prep K-12 Chess Tournament",
+    "date": "2027-03-06",
+    "type": "tournament",
+    "time": "08:45",
+    "timezone": "America/Los_Angeles",
+    "address": "2300 S Washington St, Tacoma, WA 98405",
+    "lat": 47.2484,
+    "lng": -122.4643,
+    "registrationText": "Online registration closes March 5, 2027 at 5:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$30.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/bellarmine",
+    "city": "Tacoma",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/bellarmine",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-a117f82e11e6bc0c-2027-03-13",
+    "name": "Lakeridge Chess Tournament 2027",
+    "date": "2027-03-13",
+    "type": "tournament",
+    "time": "08:30",
+    "timezone": "America/Los_Angeles",
+    "address": "4030 86th Ave SE, Mercer Island, WA 98040",
+    "lat": 47.5603,
+    "lng": -122.2281,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25;d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25;d5",
+        "delaySeconds": 5
+      }
+    ],
+    "registrationText": "Online registration closes March 12, 2027 at 7:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$40.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/lakeridge",
+    "city": "Mercer Island",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/lakeridge",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-f4c784beca7c0568-2027-03-20",
+    "name": "The Knightmares' Gauntlet Chess Tournament 2027 (state qualifier)",
+    "date": "2027-03-20",
+    "type": "tournament",
+    "time": "08:00",
+    "timezone": "America/Los_Angeles",
+    "address": "15201 Meridian Ave N, Shoreline, WA 98133",
+    "lat": 47.7377,
+    "lng": -122.3431,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25;d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25;d5",
+        "delaySeconds": 5
+      }
+    ],
+    "registrationText": "Online registration closes March 19, 2027 at 8:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$35.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/evg",
+    "city": "Shoreline",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/evg",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-ab568e1370a50e4b-2027-03-27",
+    "name": "Charles Wright Academy Chess Challenge 2027",
+    "date": "2027-03-27",
+    "type": "tournament",
+    "time": "07:45",
+    "timezone": "America/Los_Angeles",
+    "address": "7723 Chambers Creek Rd W, Tacoma, WA 98467",
+    "lat": 47.2033,
+    "lng": -122.5688,
+    "registrationText": "Online registration closes March 26, 2027 at 8:00 PM (America/Los_Angeles)",
+    "entryFeeText": "$30.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/cwa",
+    "city": "Tacoma",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/cwa",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-c803fe7809009df5-2027-03-27",
+    "name": "OWS Spring Tornado 2027",
+    "date": "2027-03-27",
+    "type": "tournament",
+    "time": "09:00",
+    "timezone": "America/Los_Angeles",
+    "address": "6128 168th Pl SE, Bellevue, WA 98006",
+    "lat": 47.5614,
+    "lng": -122.1552,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "G/25; +5 / G/45; +5"
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25; +5",
+        "incrementSeconds": 5
+      },
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45; +5",
+        "incrementSeconds": 5
+      }
+    ],
+    "registrationText": "Online registration closes March 26, 2027 at 5:00 PM (America/Los_Angeles)",
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$40.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/owsspring",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/owsspring",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "chessreg-6c8e93e5998d8399-2027-03-27",
+    "name": "Excel with Chess Mercer Island Spring State Qualifier",
+    "date": "2027-03-27",
+    "type": "tournament",
+    "time": "10:30",
+    "timezone": "America/Los_Angeles",
+    "address": "8236 SE 24th St, Mercer Island, WA 98040",
+    "lat": 47.5603,
+    "lng": -122.2281,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 25.0,
+      "raw": "G/25;d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 25.0,
+        "raw": "G/25;d5",
+        "delaySeconds": 5
+      }
+    ],
+    "registrationText": "Online registration closes March 26, 2027 at 11:59 PM (America/Los_Angeles)",
+    "entryFeeText": "$50.00 online entry as listed on ChessReg",
+    "website": "https://chessreg.com/ewc3",
+    "city": "Mercer Island",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "source": "chessreg",
+    "sources": [
+      {
+        "id": "chessreg",
+        "url": "https://chessreg.com/ewc3",
+        "fetchedAt": "2026-11-11T06:02:49+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  }
+]

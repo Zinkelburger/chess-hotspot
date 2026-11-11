@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T05:44:12+00:00",
+  "updatedAt": "2026-11-11T06:02:48+00:00",
   "sources": [
     {
       "id": "nachesshub",
@@ -55,24 +55,33 @@
       "lastAttempt": "2026-11-11T05:44:12+00:00",
       "lastSuccess": "2026-11-11T05:44:12+00:00",
       "count": 300
+    },
+    {
+      "id": "chessreg",
+      "name": "ChessReg",
+      "url": "https://chessreg.com/api/v/1/tournaments",
+      "status": "ok",
+      "lastAttempt": "2026-11-11T06:02:48+00:00",
+      "lastSuccess": "2026-11-11T06:02:48+00:00",
+      "count": 32
     }
   ],
-  "eventCount": 971,
-  "mappedCount": 937,
+  "eventCount": 1003,
+  "mappedCount": 969,
   "quality": {
-    "checkedAt": "2026-11-11T06:02:26+00:00",
+    "checkedAt": "2026-11-11T06:02:51+00:00",
     "passed": true,
     "coverage": {
-      "events": 971,
-      "withFees": 542,
-      "withSchedule": 384,
-      "withRegistration": 396,
-      "physicalEvents": 952,
-      "mapped": 937,
+      "events": 1003,
+      "withFees": 573,
+      "withSchedule": 416,
+      "withRegistration": 428,
+      "physicalEvents": 984,
+      "mapped": 969,
       "venueCoordinates": 18
     },
     "issueCounts": {
-      "multiple-or-ambiguous-time-controls": 180,
+      "multiple-or-ambiguous-time-controls": 182,
       "recurring-or-long-date-range": 46,
       "unexpired-listing-rechecked": 47,
       "section-specific-fees-need-review": 17,

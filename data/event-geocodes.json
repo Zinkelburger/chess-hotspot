@@ -195,9 +195,19 @@
     "lng": -122.1663,
     "precision": "postal"
   },
+  "Bellevue|WA|98006": {
+    "lat": 47.5614,
+    "lng": -122.1552,
+    "precision": "postal"
+  },
   "Bellevue|WA|98007": {
     "lat": 47.6174,
     "lng": -122.1426,
+    "precision": "postal"
+  },
+  "Bellingham|WA|98225": {
+    "lat": 48.749,
+    "lng": -122.4887,
     "precision": "postal"
   },
   "Bennington|VT|05201": {
@@ -743,6 +753,11 @@
   "Englewood|OH|45315": {
     "lat": 39.8551,
     "lng": -84.3399,
+    "precision": "postal"
+  },
+  "Ephrata|WA|98823": {
+    "lat": 47.2771,
+    "lng": -119.5336,
     "precision": "postal"
   },
   "Estero|FL|33928": {
@@ -1505,6 +1520,11 @@
     "lng": -122.1864,
     "precision": "postal"
   },
+  "Mercer Island|WA|98040": {
+    "lat": 47.5603,
+    "lng": -122.2281,
+    "precision": "postal"
+  },
   "Mesa|AZ|85210": {
     "lat": 33.3887,
     "lng": -111.8428,
@@ -1871,6 +1891,11 @@
     "lng": -74.4117,
     "precision": "postal"
   },
+  "Pasco|WA|99301": {
+    "lat": 46.2492,
+    "lng": -119.1044,
+    "precision": "postal"
+  },
   "Peachtree City|GA|30269": {
     "lat": 33.3915,
     "lng": -84.5635,
@@ -1991,6 +2016,11 @@
     "lng": -122.7033,
     "precision": "postal"
   },
+  "Post Falls|ID|83854": {
+    "lat": 47.7205,
+    "lng": -116.9353,
+    "precision": "postal"
+  },
   "Prescott|AZ|86301": {
     "lat": 34.5917,
     "lng": -112.4265,
@@ -2017,6 +2047,11 @@
     "lng": -122.1232,
     "precision": "postal"
   },
+  "Redmond|WA|98053": {
+    "lat": 47.6462,
+    "lng": -122.0386,
+    "precision": "postal"
+  },
   "Reno|NV|89501": {
     "lat": 39.5268,
     "lng": -119.8113,
@@ -2030,6 +2065,11 @@
   "Richland|WA|99352": {
     "lat": 46.2522,
     "lng": -119.288,
+    "precision": "postal"
+  },
+  "Richland|WA|99354": {
+    "lat": 46.3257,
+    "lng": -119.3067,
     "precision": "postal"
   },
   "Ridgefield|CT|06877": {
@@ -2182,6 +2222,11 @@
     "lng": -75.6465,
     "precision": "postal"
   },
+  "Seattle|WA|98115": {
+    "lat": 47.6849,
+    "lng": -122.2968,
+    "precision": "postal"
+  },
   "Shaker Heights|OH|44122": {
     "lat": 41.4701,
     "lng": -81.5232,
@@ -2205,6 +2250,11 @@
   "Shippensburg|PA|17257": {
     "lat": 40.0514,
     "lng": -77.5195,
+    "precision": "postal"
+  },
+  "Shoreline|WA|98133": {
+    "lat": 47.7377,
+    "lng": -122.3431,
     "precision": "postal"
   },
   "Simi Valley|CA|93065": {
@@ -2340,6 +2390,21 @@
   "Suwanee|GA|30024": {
     "lat": 34.0425,
     "lng": -84.0262,
+    "precision": "postal"
+  },
+  "Tacoma|WA|98405": {
+    "lat": 47.2484,
+    "lng": -122.4643,
+    "precision": "postal"
+  },
+  "Tacoma|WA|98465": {
+    "lat": 47.2491,
+    "lng": -122.5273,
+    "precision": "postal"
+  },
+  "Tacoma|WA|98467": {
+    "lat": 47.2033,
+    "lng": -122.5688,
     "precision": "postal"
   },
   "Tallahassee|FL|32301": {

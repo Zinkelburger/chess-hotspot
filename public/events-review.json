@@ -1,17 +1,17 @@
 {
-  "checkedAt": "2026-11-11T06:02:26+00:00",
+  "checkedAt": "2026-11-11T06:02:51+00:00",
   "passed": true,
   "coverage": {
-    "events": 971,
-    "withFees": 542,
-    "withSchedule": 384,
-    "withRegistration": 396,
-    "physicalEvents": 952,
-    "mapped": 937,
+    "events": 1003,
+    "withFees": 573,
+    "withSchedule": 416,
+    "withRegistration": 428,
+    "physicalEvents": 984,
+    "mapped": 969,
     "venueCoordinates": 18
   },
   "issueCounts": {
-    "multiple-or-ambiguous-time-controls": 180,
+    "multiple-or-ambiguous-time-controls": 182,
     "recurring-or-long-date-range": 46,
     "unexpired-listing-rechecked": 47,
     "section-specific-fees-need-review": 17,
@@ -536,6 +536,12 @@
       "code": "multiple-or-ambiguous-time-controls",
       "eventId": "uscf-0905c0ed07ea8f61-2026-11-14",
       "url": "https://new.uschess.org/nmco-2026-new-mexico-state-chess-championship-nm-residents-only-championship-section"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "chessreg-5e0cde2bc0068a10-2026-11-14",
+      "url": "https://chessreg.com/26nfm"
     },
     {
       "severity": "warning",
@@ -1653,6 +1659,12 @@
       "code": "multiple-or-ambiguous-time-controls",
       "eventId": "uscf-eddcdae52520a8be-2027-03-27",
       "url": "https://new.uschess.org/ica-glen-rock-quads-mar-27"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "chessreg-c803fe7809009df5-2027-03-27",
+      "url": "https://chessreg.com/owsspring"
     },
     {
       "severity": "warning",
