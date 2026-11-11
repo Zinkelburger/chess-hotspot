@@ -210,6 +210,11 @@
     "lng": -71.2518,
     "precision": "postal"
   },
+  "Bisbee|AZ|85603": {
+    "lat": 31.4086,
+    "lng": -109.9117,
+    "precision": "postal"
+  },
   "Bismarck|ND|58503": {
     "lat": 46.8394,
     "lng": -100.7843,
@@ -255,10 +260,20 @@
     "lng": -86.4518,
     "precision": "postal"
   },
+  "Boys town|NE|68010": {
+    "lat": 41.2587,
+    "lng": -96.133,
+    "precision": "postal"
+  },
   "Bridgeton|NJ|08302": {
     "lat": 39.3762,
     "lng": -75.1617,
     "precision": "postal"
+  },
+  "Brimfield|IL|": {
+    "lat": 40.8407,
+    "lng": -89.897,
+    "precision": "city"
   },
   "Brookfield|WI|53005": {
     "lat": 43.0622,
@@ -320,6 +335,11 @@
     "lng": -86.1245,
     "precision": "postal"
   },
+  "Carrollton|GA|30117": {
+    "lat": 33.5798,
+    "lng": -85.0812,
+    "precision": "postal"
+  },
   "Carrollton|TX|75007": {
     "lat": 33.0033,
     "lng": -96.882,
@@ -334,6 +354,11 @@
     "lat": 30.5052,
     "lng": -97.8203,
     "precision": "postal"
+  },
+  "Cedar Rapids|IA|": {
+    "lat": 42.03737857142857,
+    "lng": -91.6358857142857,
+    "precision": "city"
   },
   "Cedar Rapids|IA|52402": {
     "lat": 42.0188,
@@ -410,9 +435,19 @@
     "lng": -90.5358,
     "precision": "postal"
   },
+  "Chicago|IL|60602": {
+    "lat": 41.8829,
+    "lng": -87.6321,
+    "precision": "postal"
+  },
   "Chicago|IL|60605": {
     "lat": 41.8713,
     "lng": -87.6277,
+    "precision": "postal"
+  },
+  "Chicago|IL|60610": {
+    "lat": 41.9033,
+    "lng": -87.6336,
     "precision": "postal"
   },
   "Chicago|IL|60612": {
@@ -428,6 +463,26 @@
   "Chicago|IL|60616": {
     "lat": 41.8426,
     "lng": -87.6306,
+    "precision": "postal"
+  },
+  "Chicago|IL|60618": {
+    "lat": 41.9464,
+    "lng": -87.7042,
+    "precision": "postal"
+  },
+  "Chicago|IL|60623": {
+    "lat": 41.849,
+    "lng": -87.7157,
+    "precision": "postal"
+  },
+  "Chicago|IL|60628": {
+    "lat": 41.6934,
+    "lng": -87.6243,
+    "precision": "postal"
+  },
+  "Chicago|IL|60655": {
+    "lat": 41.6948,
+    "lng": -87.7038,
     "precision": "postal"
   },
   "Chillicothe|OH|45601": {
@@ -780,6 +835,11 @@
     "lng": -71.4255,
     "precision": "postal"
   },
+  "Frankfort|IL|60423": {
+    "lat": 41.5094,
+    "lng": -87.8248,
+    "precision": "postal"
+  },
   "Frankfort|KY|40601": {
     "lat": 38.2281,
     "lng": -84.8697,
@@ -835,6 +895,11 @@
     "lng": -97.7511,
     "precision": "postal"
   },
+  "Germantown Hills|IL|61548": {
+    "lat": 40.7844,
+    "lng": -89.4309,
+    "precision": "postal"
+  },
   "Gilbert|AZ|85295": {
     "lat": 33.3054,
     "lng": -111.7408,
@@ -858,6 +923,11 @@
   "Glendale|AZ|85308": {
     "lat": 33.6539,
     "lng": -112.1694,
+    "precision": "postal"
+  },
+  "Glendale|CA|91204": {
+    "lat": 34.1379,
+    "lng": -118.2599,
     "precision": "postal"
   },
   "Glendale|CA|91205": {
@@ -980,6 +1050,16 @@
     "lng": -78.8458,
     "precision": "postal"
   },
+  "Honolulu|HI|96826": {
+    "lat": 21.2941,
+    "lng": -157.8284,
+    "precision": "postal"
+  },
+  "Houston|TX|": {
+    "lat": 29.797948314606742,
+    "lng": -95.41908539325843,
+    "precision": "city"
+  },
   "Houston|TX|77009": {
     "lat": 29.7936,
     "lng": -95.3675,
@@ -988,6 +1068,11 @@
   "Houston|TX|77017": {
     "lat": 29.6863,
     "lng": -95.2555,
+    "precision": "postal"
+  },
+  "Houston|TX|77018": {
+    "lat": 29.8272,
+    "lng": -95.4266,
     "precision": "postal"
   },
   "Houston|TX|77025": {
@@ -1060,6 +1145,11 @@
     "lng": -96.9598,
     "precision": "postal"
   },
+  "Itasca|IL|60143": {
+    "lat": 41.972,
+    "lng": -88.0202,
+    "precision": "postal"
+  },
   "JB MDL|NJ|08641": {
     "lat": 40.2171,
     "lng": -74.7429,
@@ -1068,6 +1158,21 @@
   "Jacksonville|FL|32257": {
     "lat": 30.1927,
     "lng": -81.605,
+    "precision": "postal"
+  },
+  "Jackson|MS|39202": {
+    "lat": 32.3149,
+    "lng": -90.1782,
+    "precision": "postal"
+  },
+  "Jackson|MS|39212": {
+    "lat": 32.2435,
+    "lng": -90.2612,
+    "precision": "postal"
+  },
+  "Jericho|NY|11753": {
+    "lat": 40.7881,
+    "lng": -73.5331,
     "precision": "postal"
   },
   "Jersey City|NJ|07302": {
@@ -1093,6 +1198,11 @@
   "Katy|TX|77450": {
     "lat": 29.745,
     "lng": -95.7326,
+    "precision": "postal"
+  },
+  "Katy|TX|77494": {
+    "lat": 29.7404,
+    "lng": -95.8304,
     "precision": "postal"
   },
   "Kennebunk|ME|04043": {
@@ -1135,6 +1245,11 @@
     "lng": -92.0236,
     "precision": "postal"
   },
+  "Lake Charles|LA|70601": {
+    "lat": 30.2285,
+    "lng": -93.188,
+    "precision": "postal"
+  },
   "Lakewood|OH|44107": {
     "lat": 41.4847,
     "lng": -81.8018,
@@ -1170,6 +1285,11 @@
     "lng": -115.1462,
     "precision": "postal"
   },
+  "Las Vegas|NV|89128": {
+    "lat": 36.1968,
+    "lng": -115.2644,
+    "precision": "postal"
+  },
   "Las Vegas|NV|89154": {
     "lat": 36.175,
     "lng": -115.1372,
@@ -1183,6 +1303,11 @@
   "Leander|TX|78641": {
     "lat": 30.5835,
     "lng": -97.8575,
+    "precision": "postal"
+  },
+  "Leavenworth|KS|66048": {
+    "lat": 39.3015,
+    "lng": -94.9339,
     "precision": "postal"
   },
   "Leonia|NJ|07605": {
@@ -1200,9 +1325,19 @@
     "lng": -84.4583,
     "precision": "postal"
   },
+  "Lexington|KY|40513": {
+    "lat": 38.0139,
+    "lng": -84.5815,
+    "precision": "postal"
+  },
   "Lincoln|NE|68510": {
     "lat": 40.8063,
     "lng": -96.6545,
+    "precision": "postal"
+  },
+  "Lincoln|NE|68521": {
+    "lat": 40.851,
+    "lng": -96.711,
     "precision": "postal"
   },
   "Lincroft|NJ|07738": {
@@ -1230,6 +1365,11 @@
     "lng": -86.3599,
     "precision": "postal"
   },
+  "Long Grove|IL|60047": {
+    "lat": 42.2165,
+    "lng": -88.0769,
+    "precision": "postal"
+  },
   "Los Angeles|CA|90064": {
     "lat": 34.0353,
     "lng": -118.4259,
@@ -1241,6 +1381,11 @@
     "precision": "postal"
   },
   "Louisburg,|KS|66053": {
+    "lat": 38.6073,
+    "lng": -94.6829,
+    "precision": "postal"
+  },
+  "Louisburg|KS|66053": {
     "lat": 38.6073,
     "lng": -94.6829,
     "precision": "postal"
@@ -1289,6 +1434,11 @@
     "lat": 32.8926,
     "lng": -83.7455,
     "precision": "postal"
+  },
+  "Madison|WI|": {
+    "lat": 43.0724,
+    "lng": -89.40232571428571,
+    "precision": "city"
   },
   "Madison|WI|53705": {
     "lat": 43.073,
@@ -1375,6 +1525,11 @@
     "lng": -90.1915,
     "precision": "postal"
   },
+  "Metamora|IL|61548": {
+    "lat": 40.7844,
+    "lng": -89.4309,
+    "precision": "postal"
+  },
   "Miami|FL|33150": {
     "lat": 25.8512,
     "lng": -80.207,
@@ -1398,6 +1553,31 @@
   "Milpitas|CA|95035": {
     "lat": 37.4352,
     "lng": -121.895,
+    "precision": "postal"
+  },
+  "Milwaukee|WI|53217": {
+    "lat": 43.1409,
+    "lng": -87.9073,
+    "precision": "postal"
+  },
+  "Milwaukee|WI|53222": {
+    "lat": 43.0828,
+    "lng": -88.0269,
+    "precision": "postal"
+  },
+  "Milwaukee|WI|53223": {
+    "lat": 43.1624,
+    "lng": -87.9898,
+    "precision": "postal"
+  },
+  "Mobile|AL|36608": {
+    "lat": 30.6817,
+    "lng": -88.2945,
+    "precision": "postal"
+  },
+  "Mokena|IL|60448": {
+    "lat": 41.5342,
+    "lng": -87.8911,
     "precision": "postal"
   },
   "Moline|IL|61265": {
@@ -1445,6 +1625,16 @@
     "lng": -73.9996,
     "precision": "postal"
   },
+  "Naperville|IL|": {
+    "lat": 41.76968333333333,
+    "lng": -88.1449,
+    "precision": "city"
+  },
+  "Naperville|IL|60540": {
+    "lat": 41.7662,
+    "lng": -88.141,
+    "precision": "postal"
+  },
   "Nashville|TN|37212": {
     "lat": 36.1337,
     "lng": -86.8006,
@@ -1469,6 +1659,11 @@
     "lat": 39.7398,
     "lng": -84.3956,
     "precision": "postal"
+  },
+  "New Orleans|LA|": {
+    "lat": 29.957052459016396,
+    "lng": -90.07035901639344,
+    "precision": "city"
   },
   "New Orleans|LA|70116": {
     "lat": 29.9686,
@@ -1576,6 +1771,11 @@
     "lng": -77.3928,
     "precision": "postal"
   },
+  "Oakbrook Terrace|IL|60181": {
+    "lat": 41.8799,
+    "lng": -87.9782,
+    "precision": "postal"
+  },
   "Oklahoma City|OK|73104": {
     "lat": 35.4794,
     "lng": -97.5017,
@@ -1626,6 +1826,11 @@
     "lng": -81.2902,
     "precision": "postal"
   },
+  "Oskaloosa|KS|66066": {
+    "lat": 39.2152,
+    "lng": -95.3135,
+    "precision": "postal"
+  },
   "Owings Mills|MD|21117": {
     "lat": 39.4269,
     "lng": -76.7769,
@@ -1634,6 +1839,11 @@
   "Palo Alto|CA|94306": {
     "lat": 37.418,
     "lng": -122.1274,
+    "precision": "postal"
+  },
+  "Panama City|FL|32401": {
+    "lat": 30.1606,
+    "lng": -85.6494,
     "precision": "postal"
   },
   "Paoli|PA|19301": {
@@ -1669,6 +1879,16 @@
   "Pembroke Pines|FL|33024": {
     "lat": 26.0296,
     "lng": -80.2489,
+    "precision": "postal"
+  },
+  "Peoria|IL|61614": {
+    "lat": 40.7681,
+    "lng": -89.6026,
+    "precision": "postal"
+  },
+  "Peoria|IL|61615": {
+    "lat": 40.7661,
+    "lng": -89.645,
     "precision": "postal"
   },
   "Pepper Pike|OH|44124": {
@@ -1892,6 +2112,11 @@
     "lng": -100.4386,
     "precision": "postal"
   },
+  "San Diego|CA|": {
+    "lat": 32.75508815789474,
+    "lng": -117.14732631578947,
+    "precision": "city"
+  },
   "San Diego|CA|92101": {
     "lat": 32.7185,
     "lng": -117.1593,
@@ -1982,9 +2207,19 @@
     "lng": -77.5195,
     "precision": "postal"
   },
+  "Simi Valley|CA|93065": {
+    "lat": 34.2656,
+    "lng": -118.7653,
+    "precision": "postal"
+  },
   "Sioux Falls|SD|57107": {
     "lat": 43.5566,
     "lng": -96.8028,
+    "precision": "postal"
+  },
+  "Skokie|IL|60077": {
+    "lat": 42.0345,
+    "lng": -87.7541,
     "precision": "postal"
   },
   "Smithfield|RI|02917": {
@@ -1995,6 +2230,11 @@
   "Smyrna|GA|30082": {
     "lat": 33.8631,
     "lng": -84.5382,
+    "precision": "postal"
+  },
+  "Snellville|GA|30039": {
+    "lat": 33.8178,
+    "lng": -84.0229,
     "precision": "postal"
   },
   "Solon|OH|44139": {
@@ -2077,6 +2317,11 @@
     "lng": -95.607,
     "precision": "postal"
   },
+  "Sulphur|LA|70663": {
+    "lat": 30.219,
+    "lng": -93.3639,
+    "precision": "postal"
+  },
   "Sunnyvale|CA|94086": {
     "lat": 37.3764,
     "lng": -122.0238,
@@ -2086,6 +2331,11 @@
     "lat": 37.3502,
     "lng": -122.0349,
     "precision": "postal"
+  },
+  "Sussex|WI|": {
+    "lat": 43.1441,
+    "lng": -88.2271,
+    "precision": "city"
   },
   "Suwanee|GA|30024": {
     "lat": 34.0425,
@@ -2152,6 +2402,21 @@
     "lng": -76.0019,
     "precision": "postal"
   },
+  "Virginia Beach|VA|23452": {
+    "lat": 36.8348,
+    "lng": -76.0961,
+    "precision": "postal"
+  },
+  "Virginia Beach|VA|23453": {
+    "lat": 36.776,
+    "lng": -76.0766,
+    "precision": "postal"
+  },
+  "Virginia Beach|VA|23464": {
+    "lat": 36.7978,
+    "lng": -76.1759,
+    "precision": "postal"
+  },
   "Waco|TX|76710": {
     "lat": 31.535,
     "lng": -97.1899,
@@ -2177,6 +2442,11 @@
     "lng": -89.4532,
     "precision": "postal"
   },
+  "Wauwatosa|WI|53226": {
+    "lat": 43.0493,
+    "lng": -88.0414,
+    "precision": "postal"
+  },
   "West Chester|OH|45069": {
     "lat": 39.3402,
     "lng": -84.3998,
@@ -2192,6 +2462,11 @@
     "lng": -88.2022,
     "precision": "postal"
   },
+  "West Hills|CA|91304": {
+    "lat": 34.2197,
+    "lng": -118.6111,
+    "precision": "postal"
+  },
   "West Los Angeles|CA|90064": {
     "lat": 34.0353,
     "lng": -118.4259,
@@ -2205,6 +2480,11 @@
   "Wheeling|IL|60090": {
     "lat": 42.134,
     "lng": -87.9341,
+    "precision": "postal"
+  },
+  "Whitefish Bay|WI|53217": {
+    "lat": 43.1409,
+    "lng": -87.9073,
     "precision": "postal"
   },
   "Wichita|KS|67124": {
@@ -2238,5 +2518,12 @@
     "lng": -74.8291,
     "precision": "postal"
   },
+  "|FL|": null,
+  "|IL|": null,
+  "|KS|": null,
+  "|LA|": null,
+  "|OH|": null,
+  "|VA|": null,
+  "|WI|": null,
   "||": null
 }

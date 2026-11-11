@@ -22,7 +22,7 @@ jobs:
       - run: python -m pytest scripts/tests -q
       - name: Refresh verified sources
         # MACA's direct site is unavailable; its registered events are also in NA Chess Hub.
-        run: python scripts/scrape_events.py --sources uscf nachesshub boylston cca --strict
+        run: python scripts/scrape_events.py --strict
       - name: Check source freshness and conflicting details
         run: python scripts/review_events.py --strict
       - uses: actions/upload-artifact@v4

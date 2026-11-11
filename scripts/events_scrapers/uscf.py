@@ -4,7 +4,7 @@ import re
 import requests
 from .details import attendance_details, section_details
 from .base import BaseEventScraper, ScrapedEvent
-from .common import Client, text, state_code, source_ref, enrich, stable_id
+from .common import Client, text, state_code, source_ref, enrich, stable_id, registration_url
 
 class USCFScraper(BaseEventScraper):
     source_id = 'uscf'
@@ -54,6 +54,7 @@ class USCFScraper(BaseEventScraper):
         if fide in ('Yes', 'No'): event.fideRated = fide == 'Yes'
         attendance_details(event, soup.select_one('.views-field-body .field-content'))
         event.sections = section_details(soup.select_one('.views-field-body .field-content'))
+        event.registrationUrl = registration_url(soup.select_one('.views-field-body .field-content'))
         return event
 
     def retain_unexpired(self, events, previous):

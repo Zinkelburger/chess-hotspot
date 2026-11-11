@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-10T18:36:00+00:00",
+  "updatedAt": "2026-11-11T05:44:12+00:00",
   "sources": [
     {
       "id": "nachesshub",
       "name": "NA Chess Hub",
       "url": "https://www.nachesshub.com/AllEvents",
       "status": "ok",
-      "lastAttempt": "2026-11-10T18:36:00+00:00",
-      "lastSuccess": "2026-11-10T18:36:00+00:00",
+      "lastAttempt": "2026-11-11T05:44:12+00:00",
+      "lastSuccess": "2026-11-11T05:44:12+00:00",
       "count": 31
     },
     {
@@ -15,8 +15,8 @@
       "name": "Boylston",
       "url": "https://boylstonchess.org/events",
       "status": "ok",
-      "lastAttempt": "2026-11-10T18:36:00+00:00",
-      "lastSuccess": "2026-11-10T18:36:00+00:00",
+      "lastAttempt": "2026-11-11T05:44:12+00:00",
+      "lastSuccess": "2026-11-11T05:44:12+00:00",
       "count": 21
     },
     {
@@ -34,8 +34,8 @@
       "name": "Continental Chess",
       "url": "https://www.chesstour.com/refs.html",
       "status": "ok",
-      "lastAttempt": "2026-11-10T18:36:00+00:00",
-      "lastSuccess": "2026-11-10T18:36:00+00:00",
+      "lastAttempt": "2026-11-11T05:44:12+00:00",
+      "lastSuccess": "2026-11-11T05:44:12+00:00",
       "count": 6
     },
     {
@@ -43,30 +43,43 @@
       "name": "US Chess",
       "url": "https://new.uschess.org/upcoming-tournaments",
       "status": "ok",
-      "lastAttempt": "2026-11-10T18:36:00+00:00",
-      "lastSuccess": "2026-11-10T18:36:00+00:00",
-      "count": 727
+      "lastAttempt": "2026-11-11T05:44:12+00:00",
+      "lastSuccess": "2026-11-11T05:44:12+00:00",
+      "count": 736
+    },
+    {
+      "id": "kingregistration",
+      "name": "King Registration",
+      "url": "https://www.kingregistration.com/tournaments",
+      "status": "ok",
+      "lastAttempt": "2026-11-11T05:44:12+00:00",
+      "lastSuccess": "2026-11-11T05:44:12+00:00",
+      "count": 300
     }
   ],
-  "eventCount": 763,
-  "mappedCount": 744,
+  "eventCount": 971,
+  "mappedCount": 937,
   "quality": {
-    "checkedAt": "2026-11-10T18:37:08+00:00",
+    "checkedAt": "2026-11-11T06:02:26+00:00",
     "passed": true,
     "coverage": {
-      "events": 763,
-      "withFees": 381,
-      "withSchedule": 269,
-      "withRegistration": 322,
-      "physicalEvents": 745,
-      "mapped": 744,
+      "events": 971,
+      "withFees": 542,
+      "withSchedule": 384,
+      "withRegistration": 396,
+      "physicalEvents": 952,
+      "mapped": 937,
       "venueCoordinates": 18
     },
     "issueCounts": {
-      "multiple-or-ambiguous-time-controls": 147,
-      "recurring-or-long-date-range": 38,
-      "unexpired-listing-rechecked": 33,
-      "section-specific-fees-need-review": 17
+      "multiple-or-ambiguous-time-controls": 180,
+      "recurring-or-long-date-range": 46,
+      "unexpired-listing-rechecked": 47,
+      "section-specific-fees-need-review": 17,
+      "source-format-coverage-differs": 2,
+      "possibly-cancelled-per-other-source": 1,
+      "cancelled-or-postponed-excluded": 1,
+      "linked-listing-date-differs": 2
     }
   }
 }

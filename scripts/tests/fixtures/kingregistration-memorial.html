@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="View the chess tournament information for the The Wisconsin Memorial. Check this page for the section information, time control, playing schedule, and entry fees.">
+		<meta name="author" content="William Buklis (King Registration)">
+		
+		<link rel="shortcut icon" href="https://www.kingregistration.com/krlogo-menu.png" />
+		<meta property="og:image" content="https://www.kingregistration.com/assets/img/krlogo.png" />
+
+		<!-- JQuery script -->
+		<script src="https://www.kingregistration.com/assets/js/jquery-4.0.0.min.js?v=1771401155"></script>
+		<!-- Bootstrap -->
+		<script src="https://www.kingregistration.com/assets/bootstrap-5-dist/js/bootstrap.bundle.min.js?v=1763161708"></script>		<link rel="stylesheet" href="https://www.kingregistration.com/assets/bootstrap-5-dist/css/bootstrap.min.css?v=1763161708" />		<link rel="stylesheet" href="https://www.kingregistration.com/assets/bootstrap-icons/bootstrap-icons.min.css?v=1766948764" />
+		<!-- Globalize API (for use with JQuery number formatting) -->
+		<script src="https://www.kingregistration.com/assets/globalize-0.1.1/lib/globalize.js?v=1510008537"></script>
+		<!-- Parsley validator css -->
+		<link rel="stylesheet" href="https://www.kingregistration.com/assets/css/parsley.css?v=1471104255" />
+		<!-- Custom Fonts -->
+		<link rel="stylesheet" href="https://www.kingregistration.com/assets/font-awesome/css/font-awesome.min.css?v=1471104255" />		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" type="text/css" />
+
+        <!-- DataTables.Net -->
+        <link rel="stylesheet" href="https://www.kingregistration.com/assets/datatables/bs5/datatables.min.css?v=1778095903" />
+		<!-- Include Syncfusion components -->
+		<link rel="stylesheet" href="https://www.kingregistration.com/assets/syncfusion/dist/bootstrap5.3.css?v=1776810805" />
+		<script src="https://www.kingregistration.com/assets/syncfusion/dist/ej2.min.js?v=1776810805"></script>		<!--<script src="https://www.kingregistration.com/assets/syncfusion/license.js?v=1761772446"></script>-->
+
+		<!-- King Registration specific Javascript functions -->
+		<script src="https://www.kingregistration.com/assets/js/kingregistration.js?v=1791406540"></script>
+		<!-- Additional CSS files -->
+
+		<!-- Main site css -->
+		<link rel="stylesheet" href="https://www.kingregistration.com/assets/css/kingregistration.css?v=1793661342" />
+		<title>The Wisconsin Memorial</title>
+		<script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"The Wisconsin Memorial","url":"https://www.kingregistration.com/event/WIMemorial2026","startDate":"2026-12-05","endDate":"2026-12-06","eventStatus":"https://schema.org/EventScheduled","description":"THE WISCONSIN MEMORIAL Held in remembrance of our lost chess playing friends ELIGIBILITY The Wisconsin Memorial is open to all players. All entrants must be members of the US Chess Federation. US Chess membership may be purchased at the site. Wisconsin Chess Association membership is included in the entry. Our website address is www.wischess.org . PLAYING SITE Playing site is the Courtyard by Marriott, 2266 Deming Way, Middleton, WI 53562. Hotel rates are $107 if reserved by November 20. Room...","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Courtyard by Marriott","address":{"@type":"PostalAddress","streetAddress":"2266 Deming Way","addressLocality":"Middleton","addressRegion":"WI","postalCode":"53562","addressCountry":"US"}},"organizer":{"@type":"Organization","name":"Wisconsin Chess Association","url":"https://www.kingregistration.com/affiliate/wca"},"offers":{"@type":"Offer","url":"https://www.kingregistration.com/register/WIMemorial2026","price":42.46000000000000085265128291212022304534912109375,"priceCurrency":"USD","availability":"https://schema.org/InStock"}}</script>
+
+	</head>
+	<body class="body-bk-live d-flex flex-column min-vh-100">
+		<header class="sticky-top kr-bg-headfoot d-print-none">
+
+			<!-- Navigation -->
+			<nav class="navbar navbar-expand-lg">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="https://www.kingregistration.com/"><img src="https://www.kingregistration.com/assets/img/krlogo-menu.png" alt="KR Logo" /> King Registration</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="fa fa-bars text-white"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<ul class="navbar-nav ms-auto mb-2 mb-md-0">
+							<li class="nav-item"><a class="nav-link" href="https://www.kingregistration.com/tournaments">Tournaments</a></li>
+							<li class="nav-item"><a class="nav-link" href="https://www.kingregistration.com/results">Results/Pairings</a></li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Support</a>
+								<ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="https://www.kingregistration.com/contact">Contact</a></li>
+									<!--<li><a class="dropdown-item" href="https://www.kingregistration.com/support/vaccinecard">Upload Vaccine Card</a></li>-->
+								</ul>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="https://www.kingregistration.com/cart"><img src="https://www.kingregistration.com/assets/img/emptycart.ico" alt="Cart"/></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="banner d-print-none" id="banner"?>
+				</div>
+			<div class="container-fluid">
+				<div class="page-header">
+				</div>
+				<div class="container px-0">
+					<div class="border-bottom pb-2 mt-4 mb-3">
+						<h2>The Wisconsin Memorial</h2>
+						<h4 class="mb-0">December 05 - 06, 2026</h4>
+						<div class="text-body-secondary mt-1"><i class="bi bi-geo-alt me-1"></i>Courtyard by Marriott · 2266 Deming Way · Middleton, WI 53562							<a href="https://www.google.com/maps/search/?api=1&amp;query=Courtyard%20by%20Marriott%2C%202266%20Deming%20Way%2C%20Middleton%2C%20WI%2053562%2C%20USA" target="_blank" rel="noopener" class="ms-2 d-print-none">Map</a></div>
+					</div>
+					<div class="mb-3 d-print-none">
+					<div class="d-flex flex-wrap gap-2">
+		<a class="btn btn-success" href="https://www.kingregistration.com/register/WIMemorial2026" role="button">Register</a>
+						<a class="btn btn-info" href="https://www.kingregistration.com/entrylist/WIMemorial2026" role="button">Entry List</a>
+					</div>
+					</div>
+					<div class="userhtml" id="eventdescription">
+						<p><span style="font-size:24pt;"><strong>THE WISCONSIN MEMORIAL</strong></span></p>
+<p> </p>
+<p>Held in remembrance of our lost chess playing friends</p>
+<p>  </p>
+<p><strong>ELIGIBILITY</strong>   The Wisconsin Memorial is open to all players.  All entrants must be members of the US Chess Federation.  US Chess membership may be purchased at the site.  Wisconsin Chess Association membership is included in the entry.  Our website address is <a href="http://www.wischess.org">www.wischess.org</a>.</p>
+<p> </p>
+<p><strong>PLAYING SITE</strong>   Playing site is the Courtyard by Marriott, 2266 Deming Way, Middleton, WI  53562.  Hotel rates are $107 if reserved by November 20.  Rooms may be reserved by calling 608-203-0100. </p>
+<p> </p>
+<p><strong>REGISTRATION</strong>   Players may register by mail using the form below.  Online registration is available at <a href="../../event/WIMemorial2026">The Wisconsin Memorial</a> but processing fees apply.  Registration will be accepted at the site from 9:00-9:30 AM on Saturday, December 5.  Phone inquiries may be directed to Mike Nietman at (608) 467-8510 or e-mail <a href="mailto:mike.nietman@charter.net">mike.nietman@charter.net</a>.  </p>
+<p> </p>
+<p><strong>SCHEDULE</strong>   The Wisconsin Memorial is a five-round Swiss-System event.  Rounds are at 10:00 AM, 2:30 PM and 7:00 PM on Saturday.  Sunday’s rounds are at 10:00 AM and 3:00 PM.  The time control is Game in 90 minutes plus a 30 second increment per move.  Please bring your chess clock.  One ½-point bye is available for any round if requested in advance.</p>
+<p> </p>
+<p><strong>ENTRY FEES</strong>   If received by December 1, the entry fee is $40.  All entries paid later are $10 more.  If you pre-register but then cannot play, your entry will be refunded to you only if you notify the tournament director by 9:30 AM on December 5.  Credit card and online registration fees incurred by WCA will not be returned.</p>
+<p> </p>
+<p><strong>PRIZES</strong>   The following $1150 prize fund is based on 70 players and a minimum of four per class: </p>
+<p><strong>                     </strong><strong>   1st = $300                    </strong></p>
+<p><strong>                        2nd = 200        </strong></p>
+<p><strong>                        ‘A’ = 115    </strong></p>
+<p><strong>                        ‘B’ = 105 </strong></p>
+<p><strong>                        ‘C’ = 95     </strong></p>
+<p><strong>                        ‘D’ = 85</strong></p>
+<p><strong>                        'E' = 75</strong></p>
+<p><strong>                        Under 1000 = 65</strong></p>
+<p><strong>                        Unrated = 60</strong></p>
+<p><strong>                        Upset = 50</strong></p>
+<p> </p>
+<p><strong>SPECIAL NOTES</strong>       This tournament is a 2026 Wisconsin Chess Tour event!  This is a no smoking, no computers, wheelchair accessible event.</p>
+<p> </p>					</div>
+					<div class="d-none" id="footerbuttons">
+					<div class="mb-3 d-print-none">
+					<div class="d-flex flex-wrap gap-2">
+		<a class="btn btn-success" href="https://www.kingregistration.com/register/WIMemorial2026" role="button">Register</a>
+						<a class="btn btn-info" href="https://www.kingregistration.com/entrylist/WIMemorial2026" role="button">Entry List</a>
+					</div>
+					</div>
+					</div>
+				</div>
+
+<script>
+	// Repeat the buttons below a long description
+	window.addEventListener('load', function()
+	{
+		if( document.getElementById('eventdescription').offsetHeight >= 600 )
+			document.getElementById('footerbuttons').classList.remove('d-none');
+	});
+</script>
+			</div>	<!-- container -->
+		</main>
+		<footer class="footer mt-auto bg-light pt-2 d-print-none">
+			<div class="container-fluid">
+				<ul class="nav">
+					<li class="nav-item"><a href="https://www.kingregistration.com/">Home</a></li>
+					<li class="nav-item ps-2 pe-2 footer-menu-divider">&sdot;</li>
+					<li class="nav-item"><a href="https://www.kingregistration.com/tournaments">Tournaments</a></li>
+					<li class="nav-item ps-2 pe-2 footer-menu-divider">&sdot;</li>
+					<li class="nav-item"><a href="https://www.kingregistration.com/pastevents">Past Events</a></li>
+					<li class="nav-item ps-2 pe-2 footer-menu-divider">&sdot;</li>
+					<li class="nav-item"><a href="https://www.kingregistration.com/contact">Contact</a></li>
+				</ul>
+				<p class="copyright text-muted small">Copyright &copy; 2016 - 2026 King Registration. All Rights Reserved.</p>
+				<p class="text-muted small"><a href="https://www.kingregistration.com/about">About</a> &bull; <a href="https://www.kingregistration.com/about/terms">Terms and conditions</a></p>
+				<div class="row">
+					<div class="col-lg-12">
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

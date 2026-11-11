@@ -26,7 +26,7 @@ def main():
                       if (raw.get('endDate') or raw['date']) >= cutoff and raw.get('country', 'US') == 'US')
     events = deduplicate(events)
     validate(events)
-    report = review_report(events, status['sources'])
+    report = review_report(events, status['sources'], required_sources=set(REGISTRY) - {'maca'})
     published = json.loads(Path('public/events.v1.json').read_text())
     expected = {e.id: e.to_dict() for e in events if not e.cancellationEvidence}
     actual = {e['id']: e for e in published}

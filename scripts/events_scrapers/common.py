@@ -5,7 +5,7 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import quote, unquote, urlparse
 import requests
 from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
@@ -22,8 +22,9 @@ def state_code(value):
     return next((code for code, name in STATES.items() if value.lower() in (code.lower(), name.lower())), None)
 
 class Client:
-    def __init__(self, ttl=21600):
+    def __init__(self, ttl=21600, delay=.35):
         self.ttl = ttl
+        self.delay = delay  # Seconds between requests to a host; raise it to honor a site's Crawl-delay.
         self.last_request = {}
         self.session = requests.Session()
         retry = Retry(total=2, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504], allowed_methods=["GET"], respect_retry_after_header=True)
@@ -31,14 +32,14 @@ class Client:
         self.session.mount("http://", HTTPAdapter(max_retries=retry))
         self.session.headers['User-Agent'] = 'ChessHotspot/1.0 (+https://chesshotspot.com; public tournament directory)'
 
-    def get(self, url):
+    def get(self, url, headers=None):
         path = CACHE / (hashlib.sha256(url.encode()).hexdigest() + '.html')
         if path.exists() and time.time() - path.stat().st_mtime < self.ttl:
             return path.read_text()
         host = urlparse(url).netloc
-        time.sleep(max(0, .35 - (time.monotonic() - self.last_request.get(host, 0))))
+        time.sleep(max(0, self.delay - (time.monotonic() - self.last_request.get(host, 0))))
         self.last_request[host] = time.monotonic()
-        response = self.session.get(url, timeout=25)
+        response = self.session.get(url, timeout=25, headers=headers)
         response.raise_for_status()
         content = response.text
         if len(content) < 100:
@@ -71,6 +72,17 @@ def enrich(event, content):
     if re.search(r'scholastic|\bK[–-]12\b', event.name, re.I): event.audience = 'scholastic'
     event.sections = [{'name': m[0], 'maxRating': int(m[1]) - 1} for m in re.finditer(r'\b(?:U|Under\s+)(\d{3,4})\b', content, re.I)] or event.sections
     return event
+
+
+def registration_url(html):
+    """The one registration page an organizer's ad points to, if it names exactly one.
+    An ad linking several pages may be promoting side events, so it identifies none of them.
+    """
+    slugs = {unquote(m).rstrip('.,;').casefold(): unquote(m).rstrip('.,;')
+             for m in re.findall(r'kingregistration\.com/(?:event|register|entrylist)/([^\s"\'<>)]+)', str(html), re.I)}
+    if len(slugs) != 1:
+        return None
+    return 'https://www.kingregistration.com/event/' + quote(next(iter(slugs.values())), safe='')
 
 
 def stable_id(source_id, url, occurrence):

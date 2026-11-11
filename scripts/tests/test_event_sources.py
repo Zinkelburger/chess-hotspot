@@ -347,3 +347,147 @@ def test_listing_removed_by_us_chess_is_dropped_without_failing_the_refresh(monk
     # A server error says nothing about the listing, so the snapshot is kept.
     fetch.status=503
     with pytest.raises(requests.HTTPError):scraper.retain_unexpired([], [gone])
+
+
+def kr_events():
+    from events_scrapers.kingregistration import KingRegistrationScraper
+    return KingRegistrationScraper().parse_listing((FIXTURES/'kingregistration-listing.html').read_text())
+
+
+def kr_named(fragment):
+    return next(e for e in kr_events() if fragment in e.name)
+
+
+def test_king_registration_reads_embedded_listing_fields():
+    e=kr_named('November 3-Round Swiss')
+    assert (e.date,e.endDate)==('2026-11-15','2026-11-15')
+    assert (e.city,e.state)==('Glen Allen','VA')
+    assert e.organizer=='Glen Allen Chess League'
+    assert e.website=='https://www.kingregistration.com/event/NovemberSwiss'
+    assert e.source=='kingregistration' and e.online is False
+
+
+def test_king_registration_detail_keeps_address_and_organizer_wording():
+    from events_scrapers.kingregistration import KingRegistrationScraper
+    e=kr_named('November 3-Round Swiss')
+    assert KingRegistrationScraper().detail(e,soup('kingregistration-detail.html')) is True
+    assert e.venue=='Publix - Community Room'
+    assert e.address=='10250 Staples Mill Rd, Glen Allen, VA 23060'
+    assert '$40 if pre-registered' in e.entryFeeText
+    assert e.entryFeeUsdMin is None  # Conditional prices stay as text.
+    assert e.timeControl['baseMinutes']==60 and e.format=='classical'
+    assert '801-347-9233' not in (e.entryFeeText+(e.registrationText or ''))
+
+
+def test_king_registration_excludes_listings_that_are_not_tournaments():
+    from events_scrapers.kingregistration import is_tournament
+    assert not is_tournament('2 Player Match - Postal; ICCF; or Email 2 games','')
+    assert not is_tournament('Tournament Series Bundle','')
+    assert not is_tournament('fidemerge','test, do not use')
+    assert not is_tournament('2026 NOV West Hills Chess Club','3x Beginner classes. Per Class fee $33')
+    assert not is_tournament('Thanksgiving CHESS Mini-CAMP (w/Tournament)','')
+    assert is_tournament('New Lebanon Brethren Chess Club Rated Nov 2026','')
+    assert is_tournament('Madison Area Chess Club - Fall Marathon 2026','Individual Swiss, Total Rounds: 6')
+
+
+@pytest.mark.parametrize('fragment,page,expected',[('Adults Only','kingregistration-club.html',False),('VWFallCHESS','kingregistration-afterschool.html',False),('The Wisconsin Memorial','kingregistration-memorial.html',True)])
+def test_king_registration_real_pages_are_classified(fragment,page,expected):
+    # The Memorial's page says "do not use" in passing and offers prizes "per class".
+    from events_scrapers.kingregistration import KingRegistrationScraper
+    assert KingRegistrationScraper().detail(kr_named(fragment),soup(page)) is expected
+
+
+def test_king_registration_cancelled_name_is_evidence():
+    from events_scrapers.details import cancellation_evidence
+    e=kr_named('CANCELLED')
+    assert cancellation_evidence(e.name,'')
+
+
+def test_king_registration_soft_404_fails():
+    from events_scrapers.kingregistration import KingRegistrationScraper
+    with pytest.raises(ValueError, match='missing event fields'):
+        KingRegistrationScraper().detail(event(),BeautifulSoup('<h1>Page not found</h1>','html.parser'))
+    with pytest.raises(ValueError, match='embedded event data'):
+        KingRegistrationScraper().parse_listing('<html></html>')
+
+
+def test_king_registration_free_form_text_stops_at_the_next_subject():
+    from events_scrapers.kingregistration import own_topic
+    assert own_topic('$40 advance\n$50 onsite\nPrizes: 1st $200')=='$40 advance\n$50 onsite'
+    assert own_topic('$40 advance\nQuestions? call 801-347-9233') == '$40 advance'
+    assert own_topic('$40, email td@example.org') is None
+
+
+def test_registration_url_needs_exactly_one_cited_page():
+    from events_scrapers.common import registration_url
+    one='<a href="https://kingregistration.com/register/92SWO">Enter</a> or https://www.kingregistration.com/event/92swo.'
+    assert registration_url(one)=='https://www.kingregistration.com/event/92SWO' or registration_url(one)=='https://www.kingregistration.com/event/92swo'
+    assert registration_url('https://www.kingregistration.com/event/A and https://www.kingregistration.com/event/B') is None
+    assert registration_url('no link here') is None
+
+
+def linked(**kwargs):
+    return replace(event(city='Houston',state='TX',source='uscf',sources=[{'id':'uscf','url':'https://new.uschess.org/a'}]),website='https://new.uschess.org/a',**kwargs)
+
+
+def kr(name='Other Title',**kwargs):
+    url='https://www.kingregistration.com/event/X'
+    return replace(event(city='Houston',state='TX',source='kingregistration',sources=[{'id':'kingregistration','url':url}]),id='kr',name=name,website=url,**kwargs)
+
+
+def test_ad_citing_a_registration_page_merges_with_that_listing():
+    result=deduplicate([linked(registrationUrl='https://www.kingregistration.com/event/x'),kr()])
+    assert len(result)==1 and {s['id'] for s in result[0].sources}=={'uscf','kingregistration'}
+
+
+def test_two_ads_citing_one_page_do_not_merge_with_each_other_or_it():
+    a=linked(registrationUrl='https://www.kingregistration.com/event/X')
+    b=replace(a,id='b',name='Unrelated Side Event',website='https://new.uschess.org/b')
+    assert len(deduplicate([a,b,kr()]))==3
+
+
+def test_linked_listings_on_different_dates_are_flagged_not_merged():
+    a=linked(registrationUrl='https://www.kingregistration.com/event/X')
+    result=deduplicate([a,kr(name=a.name+' Scholastic',date='2026-10-10')])
+    assert len(result)==2
+    a=linked(registrationUrl='https://www.kingregistration.com/event/X'); a.name='Iowa Scholastic Championships'
+    result=deduplicate([a,kr(name='Iowa Scholastic Championships',date='2026-10-10')])
+    assert len(result)==2 and all('linked-listing-date-differs' in e.reviewFlags for e in result)
+
+
+@pytest.mark.parametrize('left,right',[('Friday Night Blitz!','Friday Blitz'),("Beginner's Open",'CCC Beginners Open #153'),('Saturday Swiss','CCC Saturday Swiss #93'),('Let There be Light XX','Let There Be Light 20'),('10th Annual Sevan Muradian Memorial','10th Annual Sevan Memorial Tournament'),('2026 North Central Open','2026 North Central Open (3-day, 2-day, 1-day schedules)')])
+def test_title_rule_accepts_one_event_under_two_titles(left,right):
+    from event_merge import titles_agree
+    assert titles_agree(left,right)
+
+
+@pytest.mark.parametrize('left,right',[('2026 Houston Open','2026 Houston Open Scholastic'),('Rising Star Thanksgiving Blitz','Rising Star Thanksgiving Classic'),('Ken Ferguson Memorial Open','Blitz at the Ken Ferguson Memorial'),('Friday Quads','Friday Swiss'),('Open','Championship'),('Winter Open','Winter Open U1200')])
+def test_title_rule_keeps_different_competitions_apart(left,right):
+    from event_merge import titles_agree
+    assert not titles_agree(left,right)
+
+
+def test_title_rule_needs_different_sources_same_dates_and_one_candidate():
+    a=linked(); a.name='Friday Night Blitz'
+    same_source=replace(a,id='b',name='Friday Blitz',website='https://new.uschess.org/b')
+    assert len(deduplicate([a,same_source]))==2
+    assert len(deduplicate([linked(),kr(name='Other October Open',date='2026-10-04')]))==2
+    x=linked(); x.name='Friday Night Blitz'
+    y=replace(x,id='y',name='Friday Late Blitz',website='https://new.uschess.org/y')
+    z=kr(name='Friday Blitz')
+    result=deduplicate([x,y,z])
+    assert len(result)==3 and all('possible-duplicate-listing' in e.reviewFlags for e in result)
+
+
+def test_listing_without_a_city_needs_the_identical_title():
+    a=linked(); a.name='New Orleans Youth Meet'
+    nameless=replace(kr(name='New Orleans Youth Meet'),city=None)
+    assert len(deduplicate([a,nameless]))==1
+    assert len(deduplicate([a,replace(kr(name='New Orleans Youth Monthly Meet'),city=None)]))==2
+
+
+def test_other_source_reporting_cancellation_is_flagged():
+    a=linked(); a.name='2026 Texas Armed Forces Championship'
+    b=kr(name='2026 Texas Armed Forces Open - CANCELLED',cancellationEvidence='CANCELLED')
+    result=deduplicate([a,b])
+    assert 'possibly-cancelled-per-other-source' in next(e for e in result if e.id=='test').reviewFlags

@@ -55,6 +55,8 @@ export interface ChessEvent {
   locationPrecision?: "venue" | "postal" | "city" | "approximate";
   prizeFundUsd?: number;
   dateText?: string;
+  /** The single registration page the organizer's ad names; used to match listings across sources. */
+  registrationUrl?: string;
   id: string;
   name: string;
   date: string; // ISO date "2026-07-12"

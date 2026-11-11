@@ -33,6 +33,7 @@ the detail card.
 | [Boylston](https://boylstonchess.org/events) | Structured list underlying its [calendar](https://boylstonchess.org/calendar) | Tournaments, club nights, lessons and talks. Membership products, board/annual meetings and league team-signup products are excluded. Yearless Tuesday series retain their full first-to-last-date window. |
 | [MACA](https://www.masschess.org/Events/Chess_Tournaments.aspx) | Availability check only; **direct parser not enabled** | Both the website and historical tournament URL refused connections during development. The adapter deliberately reports failure until live markup can be inspected. MACA events on NA Chess Hub are already included. Do not describe this as a working direct MACA scraper. |
 | [Continental Chess](https://www.chesstour.com/refs.html) | Existing detail-page scraper, improved title/address parsing | Only events published in that index. Preserves the existing CCA schema and parser tests. |
+| [King Registration](https://www.kingregistration.com/tournaments) | JSON embedded in its tournament list, then each public event page | One registration platform used by about 80 organizers, strongest in IL, TX, WI, AZ and CA. Only events its organizers register there. Postal/ICCF play, after-school classes, club meetings, camps, simuls, bundles and internal test listings are excluded. It publishes no robots.txt and its terms do not restrict reading; `/register` and entry lists are not fetched. Prices with no organizer wording are the platform's current online fee and say so. |
 
 No documented public upcoming-tournament RSS/ICS/API feed was found on US Chess.
 Their [August 2026 API announcement](https://forum.uschess.org/t/api-2-0-is-now-available/61581)
@@ -45,13 +46,13 @@ directory remains the best verified national source for this implementation.
 
 ```sh
 python3 -m pip install -r scripts/requirements.txt
-python3 scripts/scrape_events.py --sources uscf nachesshub boylston cca --strict
+python3 scripts/scrape_events.py --strict
 ```
 
 A cold run fetches hundreds of pages and can take 15–30 minutes. Requests are
 sequential per source, have a descriptive user agent, a 25-second timeout, at least
 350 ms between requests, a six-hour HTML cache, and bounded retries for transient HTTP failures. A process lock prevents concurrent refresh writers. `--sources` supports selective
-refreshes without deleting the other sources. The default source list includes the four working adapters. MACA can be explicitly checked with `--sources maca`, but is not included in the default refresh. `--strict` exits nonzero after writing health
+refreshes without deleting the other sources. The default source list includes every working adapter. MACA can be explicitly checked with `--sources maca`, but is not included in the default refresh. `--strict` exits nonzero after writing health
 reports if any requested source fails. No login or private endpoint is required.
 
 Files:
@@ -69,11 +70,24 @@ US Chess can remove started tournaments and advance recurring occurrences in its
 hides events that have ended according to the viewer's local date.
 
 New adapters identify events by source URL and occurrence date, so title edits do
-not create new IDs. Deduplication merges shared URLs on the same date, or exact
-normalized title/date/city/state matches, retaining all source links. Fuzzy
-near-duplicates are deliberately not merged automatically; differently titled
-listings of one tournament may still appear separately. Monthly series, weekly
-occurrences, and schedule variants are not expanded into invented dates.
+not create new IDs. Deduplication retains all source links and merges, in order:
+
+1. shared URLs on the same date;
+2. a US Chess ad citing exactly one King Registration page, on that page's date
+   (an ad citing several pages may be promoting side events, so it identifies none);
+3. exact normalized title/date/city/state matches;
+4. listings from different sources with the same start date, end date, city and
+   state whose titles agree once editions, years, months and filler are removed
+   (`scripts/event_merge.py`). Titles differing by a word that separates
+   competitions, such as "Blitz" or "Scholastic", never merge, and a title matching
+   more than one candidate is flagged `possible-duplicate-listing` instead.
+
+A wrong merge hides a real event, so anything looser is left separate; differently
+titled listings of one tournament may still appear twice. `linked-listing-date-differs`
+marks an ad and the page it names disagreeing on the date, and
+`possibly-cancelled-per-other-source` marks a listing another source reports as
+cancelled. Monthly series, weekly occurrences, and schedule variants are not
+expanded into invented dates.
 
 ## Map precision
 
@@ -97,7 +111,7 @@ The agent should:
    parser regressions with a regression test and rerun the relevant checks.
 5. Report coverage changes, failures, and unresolved issues. Publication is a separate action.
 
-The command scrapes the four working sources, validates data, runs tests, and
+The command scrapes every working source, validates data, runs tests, and
 builds the local site. There is no timer or scheduled task. The optional GitHub
 workflow uses `workflow_dispatch` only; when installed, a manually triggered run
 opens a data PR after checks pass. It does not run on a schedule.

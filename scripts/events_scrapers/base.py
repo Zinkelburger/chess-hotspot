@@ -53,6 +53,7 @@ class ScrapedEvent:
     locationPrecision: str | None = None
     prizeFundUsd: int | None = None
     dateText: str | None = None
+    registrationUrl: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
         data: dict[str, Any] = {}

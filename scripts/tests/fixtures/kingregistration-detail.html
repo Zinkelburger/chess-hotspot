@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="View the chess tournament information for the November 3-Round Swiss. Check this page for the section information, time control, playing schedule, and entry fees.">
+		<meta name="author" content="William Buklis (King Registration)">
+		
+		<link rel="shortcut icon" href="https://www.kingregistration.com/krlogo-menu.png" />
+		<meta property="og:image" content="https://www.kingregistration.com/assets/img/krlogo.png" />
+
+		<!-- JQuery script -->
+		<script src="https://www.kingregistration.com/assets/js/jquery-4.0.0.min.js?v=1771401155"></script>
+		<!-- Bootstrap -->
+		<script src="https://www.kingregistration.com/assets/bootstrap-5-dist/js/bootstrap.bundle.min.js?v=1763161708"></script>		<link rel="stylesheet" href="https://www.kingregistration.com/assets/bootstrap-5-dist/css/bootstrap.min.css?v=1763161708" />		<link rel="stylesheet" href="https://www.kingregistration.com/assets/bootstrap-icons/bootstrap-icons.min.css?v=1766948764" />
+		<!-- Globalize API (for use with JQuery number formatting) -->
+		<script src="https://www.kingregistration.com/assets/globalize-0.1.1/lib/globalize.js?v=1510008537"></script>
+		<!-- Parsley validator css -->
+		<link rel="stylesheet" href="https://www.kingregistration.com/assets/css/parsley.css?v=1471104255" />
+		<!-- Custom Fonts -->
+		<link rel="stylesheet" href="https://www.kingregistration.com/assets/font-awesome/css/font-awesome.min.css?v=1471104255" />		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" type="text/css" />
+
+        <!-- DataTables.Net -->
+        <link rel="stylesheet" href="https://www.kingregistration.com/assets/datatables/bs5/datatables.min.css?v=1778095903" />
+		<!-- Include Syncfusion components -->
+		<link rel="stylesheet" href="https://www.kingregistration.com/assets/syncfusion/dist/bootstrap5.3.css?v=1776810805" />
+		<script src="https://www.kingregistration.com/assets/syncfusion/dist/ej2.min.js?v=1776810805"></script>		<!--<script src="https://www.kingregistration.com/assets/syncfusion/license.js?v=1761772446"></script>-->
+
+		<!-- King Registration specific Javascript functions -->
+		<script src="https://www.kingregistration.com/assets/js/kingregistration.js?v=1791406540"></script>
+		<!-- Additional CSS files -->
+
+		<!-- Main site css -->
+		<link rel="stylesheet" href="https://www.kingregistration.com/assets/css/kingregistration.css?v=1793661342" />
+		<title>November 3-Round Swiss</title>
+		<script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"November 3-Round Swiss","url":"https://www.kingregistration.com/event/NovemberSwiss","startDate":"2026-11-15","endDate":"2026-11-15","eventStatus":"https://schema.org/EventScheduled","description":"Description: November rated 3-Round Swiss Location : Publix, Community Room @ 10250 Staples Mill Rd, Glen Allen, VA 23060. The Community Room is upstairs once you enter Publix. Notice: In order to support Publix hosting this event, outside food is not permitted. Please support your local Publix instead and buy food onsite! Dates : November 15th (Look out for our following tournament and Christmas bake-off coming on December 27th!) Format : This event will be a 3-round Swiss, G/60 D10, Regular...","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Publix - Community Room","address":{"@type":"PostalAddress","streetAddress":"10250 Staples Mill Rd","addressLocality":"Glen Allen","addressRegion":"VA","postalCode":"23060","addressCountry":"US"}},"organizer":{"@type":"Organization","name":"Glen Allen Chess League","url":"https://www.kingregistration.com/affiliate/glenallen"},"offers":{"@type":"Offer","url":"https://www.kingregistration.com/register/NovemberSwiss","price":40,"priceCurrency":"USD","availability":"https://schema.org/InStock"}}</script>
+
+	</head>
+	<body class="body-bk-live d-flex flex-column min-vh-100">
+		<header class="sticky-top kr-bg-headfoot d-print-none">
+
+			<!-- Navigation -->
+			<nav class="navbar navbar-expand-lg">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="https://www.kingregistration.com/"><img src="https://www.kingregistration.com/assets/img/krlogo-menu.png" alt="KR Logo" /> King Registration</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="fa fa-bars text-white"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<ul class="navbar-nav ms-auto mb-2 mb-md-0">
+							<li class="nav-item"><a class="nav-link" href="https://www.kingregistration.com/tournaments">Tournaments</a></li>
+							<li class="nav-item"><a class="nav-link" href="https://www.kingregistration.com/results">Results/Pairings</a></li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Support</a>
+								<ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdownMenuLink">
+									<li><a class="dropdown-item" href="https://www.kingregistration.com/contact">Contact</a></li>
+									<!--<li><a class="dropdown-item" href="https://www.kingregistration.com/support/vaccinecard">Upload Vaccine Card</a></li>-->
+								</ul>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="https://www.kingregistration.com/cart"><img src="https://www.kingregistration.com/assets/img/emptycart.ico" alt="Cart"/></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="banner d-print-none" id="banner"?>
+				</div>
+			<div class="container-fluid">
+				<div class="page-header">
+				</div>
+				<div class="container px-0">
+					<div class="border-bottom pb-2 mt-4 mb-3">
+						<h2>November 3-Round Swiss</h2>
+						<h4 class="mb-0">November 15, 2026</h4>
+						<div class="text-body-secondary mt-1"><i class="bi bi-geo-alt me-1"></i>Publix - Community Room · 10250 Staples Mill Rd · Glen Allen, VA 23060							<a href="https://www.google.com/maps/search/?api=1&amp;query=Publix%20-%20Community%20Room%2C%2010250%20Staples%20Mill%20Rd%2C%20Glen%20Allen%2C%20VA%2023060%2C%20USA" target="_blank" rel="noopener" class="ms-2 d-print-none">Map</a></div>
+					</div>
+					<div class="mb-3 d-print-none">
+					<div class="d-flex flex-wrap gap-2">
+		<a class="btn btn-success" href="https://www.kingregistration.com/register/NovemberSwiss" role="button">Register</a>
+						<a class="btn btn-info" href="https://www.kingregistration.com/entrylist/NovemberSwiss" role="button">Entry List</a>
+					</div>
+					</div>
+					<div class="userhtml" id="eventdescription">
+						<p><strong>Description: </strong>November rated 3-Round Swiss</p>
+<p><strong>Location</strong>: Publix, Community Room @ 10250 Staples Mill Rd, Glen Allen, VA 23060. The Community Room is upstairs once you enter Publix. Notice: In order to support Publix hosting this event, outside food is not permitted. Please support your local Publix instead and buy food onsite!</p>
+<p><strong>Dates</strong>: <strong>November 15th (Look out for our following tournament and Christmas bake-off coming on December 27th!)</strong></p>
+<p><strong>Format</strong>:<strong> This event will be a 3-round Swiss, G/60 D10, Regular rated event. Round 1: 9:30am, Round 2: 12:30pm, Round 3: 3:00pm. Rounds may begin early if all participants are willing and present. USCF registration is mandatory to participate for prizes, and can be done on-site.</strong></p>
+<p><strong>Entry fee: $40 if pre-registered, $50 after midnight and onsite. $60 for late entries. Participants U1200 may pay an extra $10 to "play-up" in the Open section.</strong><br> <strong>Final registration closes at 9:00am to start the tournament on time. The director must be notified at 801-347-9233.</strong></p>
+<p><strong>Prizes, scaled up or down based on registration of 18 players:</strong><strong><br> Open: 1<sup>st</sup> $200, 2<sup>nd</sup> $100</strong></p>
+<p><strong>U1200: 1<sup>st</sup> $150, 2<sup>nd</sup> $75</strong></p>
+<p><br> Byes: Allowed, please contact director for advanced notice. Byes will forfeit tiebreaks for prizes.<br> <br> If any questions, please email Michael Munafo at <a href="mailto:kids4chess@gmail.com">kids4chess@gmail.com</a>, (801)-347-9233</p>
+<p>For club information and future tournaments, visit <a href="https://www.kids4chess.com/upcoming-tournaments">kids4chess.com/upcoming-tournaments</a></p>					</div>
+					<div class="d-none" id="footerbuttons">
+					<div class="mb-3 d-print-none">
+					<div class="d-flex flex-wrap gap-2">
+		<a class="btn btn-success" href="https://www.kingregistration.com/register/NovemberSwiss" role="button">Register</a>
+						<a class="btn btn-info" href="https://www.kingregistration.com/entrylist/NovemberSwiss" role="button">Entry List</a>
+					</div>
+					</div>
+					</div>
+				</div>
+
+<script>
+	// Repeat the buttons below a long description
+	window.addEventListener('load', function()
+	{
+		if( document.getElementById('eventdescription').offsetHeight >= 600 )
+			document.getElementById('footerbuttons').classList.remove('d-none');
+	});
+</script>
+			</div>	<!-- container -->
+		</main>
+		<footer class="footer mt-auto bg-light pt-2 d-print-none">
+			<div class="container-fluid">
+				<ul class="nav">
+					<li class="nav-item"><a href="https://www.kingregistration.com/">Home</a></li>
+					<li class="nav-item ps-2 pe-2 footer-menu-divider">&sdot;</li>
+					<li class="nav-item"><a href="https://www.kingregistration.com/tournaments">Tournaments</a></li>
+					<li class="nav-item ps-2 pe-2 footer-menu-divider">&sdot;</li>
+					<li class="nav-item"><a href="https://www.kingregistration.com/pastevents">Past Events</a></li>
+					<li class="nav-item ps-2 pe-2 footer-menu-divider">&sdot;</li>
+					<li class="nav-item"><a href="https://www.kingregistration.com/contact">Contact</a></li>
+				</ul>
+				<p class="copyright text-muted small">Copyright &copy; 2016 - 2026 King Registration. All Rights Reserved.</p>
+				<p class="text-muted small"><a href="https://www.kingregistration.com/about">About</a> &bull; <a href="https://www.kingregistration.com/about/terms">Terms and conditions</a></p>
+				<div class="row">
+					<div class="col-lg-12">
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

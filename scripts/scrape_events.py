@@ -4,6 +4,7 @@ Failures retain the last good source snapshot and are reported in events-status.
 """
 from __future__ import annotations
 import argparse
+from collections import Counter
 import fcntl
 from dataclasses import fields
 from datetime import date, datetime, timezone, timedelta
@@ -17,8 +18,10 @@ from events_scrapers.cca import CCAScraper
 from events_scrapers.common import source_ref, state_code
 from events_scrapers.uscf import USCFScraper
 from events_scrapers.local import HubScraper, BoylstonScraper, MACAScraper
+from events_scrapers.kingregistration import KingRegistrationScraper
 from events_scrapers.geocode import Geocoder
 from event_quality import review_report
+from event_merge import merge_same_titles
 
 REGISTRY = {
     'uscf': ('US Chess', USCFScraper),
@@ -26,6 +29,7 @@ REGISTRY = {
     'boylston': ('Boylston', BoylstonScraper),
     'maca': ('MACA', MACAScraper),
     'cca': ('Continental Chess', CCAScraper),
+    'kingregistration': ('King Registration', KingRegistrationScraper),
 }
 
 def atomic_write(path, payload):
@@ -50,35 +54,47 @@ def validate(events):
         if (e.lat is None) != (e.lng is None): raise ValueError('Incomplete coordinates')
         if e.lat is not None and not (-90 <= e.lat <= 90 and -180 <= e.lng <= 180): raise ValueError('Invalid coordinates')
 
+def merge_into(match, e):
+    """Fold listing e into match, keeping every source link and flagging disagreements."""
+    conflicts = [f for f in ('endDate', 'online', 'format') if getattr(match, f) is not None and getattr(e, f) is not None and getattr(match, f) != getattr(e, f)]
+    notices = []
+    if 'format' in conflicts:
+        left = {tc['kind'] for tc in match.timeControls or []} - {'custom'} or ({match.format} - {'custom'})
+        right = {tc['kind'] for tc in e.timeControls or []} - {'custom'} or ({e.format} - {'custom'})
+        if not left or not right or left & right:
+            conflicts.remove('format')
+            notices.append('source-format-coverage-differs')
+    match.reviewFlags = sorted(set((match.reviewFlags or []) + (e.reviewFlags or []) + notices + ['source-conflict-' + f for f in conflicts])) or None
+    refs = {(s['id'],s['url']):s for s in (match.sources or []) + (e.sources or [])}
+    match.sources = list(refs.values())
+    for f in fields(ScrapedEvent):
+        if f.name in {'id','source','sources'}: continue
+        if f.name in {'timeControl', 'timeControls'} and match.format and e.format != match.format: continue
+        if getattr(match, f.name) is None: setattr(match,f.name,getattr(e,f.name))
+
 def deduplicate(events):
-    """Only merge an exact normalized name + date + city/state or shared URL/date.
-    Generic names without a location never collapse. Preserve every source link.
+    """Merge shared URLs on a date, then exact normalized name + date + city/state,
+    then the strict title rule in event_merge. Generic names without a location
+    never collapse. Preserve every source link.
     """
     result, index = [], {}
+    # An ad naming a registration page identifies that platform's listing, but
+    # several ads can name one page, so it only counts when exactly one does.
+    cited = Counter((e.registrationUrl.lower(), e.date) for e in events if e.registrationUrl)
     for e in events:
         normalized = re.sub(r'[^a-z0-9]', '', e.name.lower())
-        keys = [('url',e.website,e.date)]
+        keys = [('url',e.website.lower(),e.date)]
         if e.city and e.state: keys.append(('name',normalized,e.date,e.city.casefold(),e.state))
-        match = next((index[k] for k in keys if k in index), None)
+        lookups = keys + [('cites',e.website.lower(),e.date)]
+        match = next((index[k] for k in lookups if k in index), None)
         if match is None:
             match = e; result.append(e)
         else:
-            conflicts = [f for f in ('endDate', 'online', 'format') if getattr(match, f) is not None and getattr(e, f) is not None and getattr(match, f) != getattr(e, f)]
-            notices = []
-            if 'format' in conflicts:
-                left = {tc['kind'] for tc in match.timeControls or []} - {'custom'} or ({match.format} - {'custom'})
-                right = {tc['kind'] for tc in e.timeControls or []} - {'custom'} or ({e.format} - {'custom'})
-                if not left or not right or left & right:
-                    conflicts.remove('format')
-                    notices.append('source-format-coverage-differs')
-            match.reviewFlags = sorted(set((match.reviewFlags or []) + (e.reviewFlags or []) + notices + ['source-conflict-' + f for f in conflicts])) or None
-            refs = {(s['id'],s['url']):s for s in (match.sources or []) + (e.sources or [])}
-            match.sources = list(refs.values())
-            for f in fields(ScrapedEvent):
-                if f.name in {'id','source','sources'}: continue
-                if f.name in {'timeControl', 'timeControls'} and match.format and e.format != match.format: continue
-                if getattr(match, f.name) is None: setattr(match,f.name,getattr(e,f.name))
+            merge_into(match, e)
         for key in keys: index[key] = match
+        if e.registrationUrl and cited[(e.registrationUrl.lower(), e.date)] == 1:
+            index[('cites',e.registrationUrl.lower(),e.date)] = match
+    result = merge_same_titles(result, merge_into)
     return sorted(result,key=lambda e:(e.date,e.name))
 
 def refresh_source(scraper, previous):
@@ -93,7 +109,7 @@ def refresh_source(scraper, previous):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--sources',nargs='+',choices=list(REGISTRY),default=['uscf', 'nachesshub', 'boylston', 'cca'])
+    parser.add_argument('--sources',nargs='+',choices=list(REGISTRY),default=[s for s in REGISTRY if s != 'maca'])
     parser.add_argument('--output',default='public/events.v1.json')
     parser.add_argument('--no-geocode',action='store_true')
     parser.add_argument('--strict',action='store_true',help='Exit nonzero when any requested source fails (after writing health and safe snapshots).')
