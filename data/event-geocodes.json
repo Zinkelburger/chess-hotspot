@@ -1,0 +1,2242 @@
+{
+  "Akron|OH|44333": {
+    "lat": 41.1552,
+    "lng": -81.6314,
+    "precision": "postal"
+  },
+  "Albany|NY|12210": {
+    "lat": 42.6568,
+    "lng": -73.7605,
+    "precision": "postal"
+  },
+  "Albuquerque|NM|87106": {
+    "lat": 35.079,
+    "lng": -106.6169,
+    "precision": "postal"
+  },
+  "Alexandria|VA|22307": {
+    "lat": 38.7714,
+    "lng": -77.0657,
+    "precision": "postal"
+  },
+  "Alexandria|VA|22314": {
+    "lat": 38.806,
+    "lng": -77.0529,
+    "precision": "postal"
+  },
+  "Allentown|PA|18104": {
+    "lat": 40.6018,
+    "lng": -75.5225,
+    "precision": "postal"
+  },
+  "Alton|IL|62002": {
+    "lat": 38.9087,
+    "lng": -90.1568,
+    "precision": "postal"
+  },
+  "Anaheim|CA|92802": {
+    "lat": 33.8085,
+    "lng": -117.9228,
+    "precision": "postal"
+  },
+  "Ann Arbor|MI|48103": {
+    "lat": 42.2794,
+    "lng": -83.784,
+    "precision": "postal"
+  },
+  "Apalachin|NY|13732": {
+    "lat": 42.0556,
+    "lng": -76.1519,
+    "precision": "postal"
+  },
+  "Arcadia|CA|91006": {
+    "lat": 34.1324,
+    "lng": -118.0264,
+    "precision": "postal"
+  },
+  "Ardmore|OK|73401": {
+    "lat": 34.1566,
+    "lng": -97.1792,
+    "precision": "postal"
+  },
+  "Ardmore|TX|76011": {
+    "lat": 32.7582,
+    "lng": -97.1003,
+    "precision": "postal"
+  },
+  "Arlington|TX|76016": {
+    "lat": 32.6889,
+    "lng": -97.1905,
+    "precision": "postal"
+  },
+  "Arlington|TX|76017": {
+    "lat": 32.6555,
+    "lng": -97.1599,
+    "precision": "postal"
+  },
+  "Arlington|VA|22202": {
+    "lat": 38.8565,
+    "lng": -77.0592,
+    "precision": "postal"
+  },
+  "Arlington|VA|22203": {
+    "lat": 38.8738,
+    "lng": -77.1142,
+    "precision": "postal"
+  },
+  "Arlington|VA|22207": {
+    "lat": 38.9033,
+    "lng": -77.1263,
+    "precision": "postal"
+  },
+  "Asheville|NC|28803": {
+    "lat": 35.5393,
+    "lng": -82.518,
+    "precision": "postal"
+  },
+  "Asheville|NC|28806": {
+    "lat": 35.5808,
+    "lng": -82.6078,
+    "precision": "postal"
+  },
+  "Ashland|MA|01721": {
+    "lat": 42.2539,
+    "lng": -71.4583,
+    "precision": "postal"
+  },
+  "Ashland|OH|44805": {
+    "lat": 40.8559,
+    "lng": -82.3189,
+    "precision": "postal"
+  },
+  "Athens|GA|30606": {
+    "lat": 33.9461,
+    "lng": -83.418,
+    "precision": "postal"
+  },
+  "Atlanta|GA|30329": {
+    "lat": 33.8236,
+    "lng": -84.3214,
+    "precision": "postal"
+  },
+  "Atlantic City,|NJ|08401": {
+    "lat": 39.3664,
+    "lng": -74.4317,
+    "precision": "postal"
+  },
+  "Atlantic City|NJ|08401": {
+    "lat": 39.3664,
+    "lng": -74.4317,
+    "precision": "postal"
+  },
+  "Austin|TX|78729": {
+    "lat": 30.4521,
+    "lng": -97.7688,
+    "precision": "postal"
+  },
+  "Austin|TX|78752": {
+    "lat": 30.3316,
+    "lng": -97.7004,
+    "precision": "postal"
+  },
+  "BIRMINGHAM|AL|35242": {
+    "lat": 33.3813,
+    "lng": -86.7046,
+    "precision": "postal"
+  },
+  "BIRMINGHAM|AL|35244": {
+    "lat": 33.3538,
+    "lng": -86.8254,
+    "precision": "postal"
+  },
+  "Ballwin|MO|63011": {
+    "lat": 38.6091,
+    "lng": -90.5598,
+    "precision": "postal"
+  },
+  "Baltimore|MD|21218": {
+    "lat": 39.3265,
+    "lng": -76.6048,
+    "precision": "postal"
+  },
+  "Barrington|RI|02806": {
+    "lat": 41.7443,
+    "lng": -71.3175,
+    "precision": "postal"
+  },
+  "Basking Ridge|NJ|08502": {
+    "lat": 40.4483,
+    "lng": -74.6557,
+    "precision": "postal"
+  },
+  "Bay Village|OH|44140": {
+    "lat": 41.4841,
+    "lng": -81.9289,
+    "precision": "postal"
+  },
+  "Beachwood|OH|44122": {
+    "lat": 41.4701,
+    "lng": -81.5232,
+    "precision": "postal"
+  },
+  "Bellaire|TX|77401": {
+    "lat": 29.7023,
+    "lng": -95.4611,
+    "precision": "postal"
+  },
+  "Bellevue|WA|13620": null,
+  "Bellevue|WA|98004": {
+    "lat": 47.6155,
+    "lng": -122.2072,
+    "precision": "postal"
+  },
+  "Bellevue|WA|98005": {
+    "lat": 47.615,
+    "lng": -122.1663,
+    "precision": "postal"
+  },
+  "Bellevue|WA|98007": {
+    "lat": 47.6174,
+    "lng": -122.1426,
+    "precision": "postal"
+  },
+  "Bennington|VT|05201": {
+    "lat": 42.8827,
+    "lng": -73.1923,
+    "precision": "postal"
+  },
+  "Billerica|MA|01821": {
+    "lat": 42.5519,
+    "lng": -71.2518,
+    "precision": "postal"
+  },
+  "Bismarck|ND|58503": {
+    "lat": 46.8394,
+    "lng": -100.7843,
+    "precision": "postal"
+  },
+  "Bloomington|IL|61701": {
+    "lat": 40.4783,
+    "lng": -88.9893,
+    "precision": "postal"
+  },
+  "Bloomington|IN|47401": {
+    "lat": 39.1401,
+    "lng": -86.5083,
+    "precision": "postal"
+  },
+  "Blue Ash|OH|45242": {
+    "lat": 39.2447,
+    "lng": -84.3455,
+    "precision": "postal"
+  },
+  "Boca Raton|FL|33431": {
+    "lat": 26.3799,
+    "lng": -80.0975,
+    "precision": "postal"
+  },
+  "Boca Raton|FL|33434": {
+    "lat": 26.3839,
+    "lng": -80.1749,
+    "precision": "postal"
+  },
+  "Boston|MA|02128": {
+    "lat": 42.3642,
+    "lng": -71.0257,
+    "precision": "postal"
+  },
+  "Boston|MA|02210": {
+    "lat": 42.3489,
+    "lng": -71.0465,
+    "precision": "postal"
+  },
+  "Bowling Green|KY|42101": {
+    "lat": 37.0174,
+    "lng": -86.4518,
+    "precision": "postal"
+  },
+  "Bridgeton|NJ|08302": {
+    "lat": 39.3762,
+    "lng": -75.1617,
+    "precision": "postal"
+  },
+  "Brookfield|WI|53005": {
+    "lat": 43.0622,
+    "lng": -88.098,
+    "precision": "postal"
+  },
+  "Brownsville|TX|78521": {
+    "lat": 25.9221,
+    "lng": -97.4612,
+    "precision": "postal"
+  },
+  "Bryan|TX|77802": {
+    "lat": 30.6582,
+    "lng": -96.3351,
+    "precision": "postal"
+  },
+  "Bryan|TX|77803": {
+    "lat": 30.6913,
+    "lng": -96.3714,
+    "precision": "postal"
+  },
+  "Burlingame|CA|94010": {
+    "lat": 37.5671,
+    "lng": -122.3676,
+    "precision": "postal"
+  },
+  "Burlington|NC|27215": {
+    "lat": 36.0318,
+    "lng": -79.4889,
+    "precision": "postal"
+  },
+  "Burlington|VT|05405": {
+    "lat": 44.4421,
+    "lng": -73.0825,
+    "precision": "postal"
+  },
+  "CHESTERFIELD|MO|63017": {
+    "lat": 38.6491,
+    "lng": -90.5358,
+    "precision": "postal"
+  },
+  "Camp Hill|PA|17011": {
+    "lat": 40.2352,
+    "lng": -76.9291,
+    "precision": "postal"
+  },
+  "Canton|MS|39046": {
+    "lat": 32.6205,
+    "lng": -90.0061,
+    "precision": "postal"
+  },
+  "Carmel-by-the-Sea|CA|93921": {
+    "lat": 36.5552,
+    "lng": -121.9233,
+    "precision": "postal"
+  },
+  "Carmel|IN|46032": {
+    "lat": 39.9712,
+    "lng": -86.1245,
+    "precision": "postal"
+  },
+  "Carrollton|TX|75007": {
+    "lat": 33.0033,
+    "lng": -96.882,
+    "precision": "postal"
+  },
+  "Cary|NC|27519": {
+    "lat": 35.8072,
+    "lng": -78.887,
+    "precision": "postal"
+  },
+  "Cedar Park|TX|78613": {
+    "lat": 30.5052,
+    "lng": -97.8203,
+    "precision": "postal"
+  },
+  "Cedar Rapids|IA|52402": {
+    "lat": 42.0188,
+    "lng": -91.6612,
+    "precision": "postal"
+  },
+  "Cedar Rapids|IA|52404": {
+    "lat": 41.9521,
+    "lng": -91.6853,
+    "precision": "postal"
+  },
+  "Chamblee|GA|30341": {
+    "lat": 33.8879,
+    "lng": -84.2905,
+    "precision": "postal"
+  },
+  "Chandler|AZ|85226": {
+    "lat": 33.3092,
+    "lng": -111.9198,
+    "precision": "postal"
+  },
+  "Chandler|AZ|85248": {
+    "lat": 33.2509,
+    "lng": -111.8593,
+    "precision": "postal"
+  },
+  "Chandler|OK|74834": {
+    "lat": 35.7017,
+    "lng": -96.8809,
+    "precision": "postal"
+  },
+  "Charleston|SC|29401": {
+    "lat": 32.7795,
+    "lng": -79.9371,
+    "precision": "postal"
+  },
+  "Charlottesville|VA|22911": {
+    "lat": 38.0995,
+    "lng": -78.4085,
+    "precision": "postal"
+  },
+  "Charlotte|NC|28210": {
+    "lat": 35.1316,
+    "lng": -80.8577,
+    "precision": "postal"
+  },
+  "Charlotte|NC|28212": {
+    "lat": 35.1908,
+    "lng": -80.7448,
+    "precision": "postal"
+  },
+  "Charlotte|NC|28226": {
+    "lat": 35.0869,
+    "lng": -80.8167,
+    "precision": "postal"
+  },
+  "Charlotte|NC|28262": {
+    "lat": 35.3183,
+    "lng": -80.7476,
+    "precision": "postal"
+  },
+  "Charlotte|NC|28269": {
+    "lat": 35.2886,
+    "lng": -80.8209,
+    "precision": "postal"
+  },
+  "Cherry Hill|NJ|08034": {
+    "lat": 39.9074,
+    "lng": -75.0008,
+    "precision": "postal"
+  },
+  "Chesterfield|MO|63017": {
+    "lat": 38.6491,
+    "lng": -90.5358,
+    "precision": "postal"
+  },
+  "Chicago|IL|60605": {
+    "lat": 41.8713,
+    "lng": -87.6277,
+    "precision": "postal"
+  },
+  "Chicago|IL|60612": {
+    "lat": 41.8805,
+    "lng": -87.6873,
+    "precision": "postal"
+  },
+  "Chicago|IL|60613": {
+    "lat": 41.9543,
+    "lng": -87.6575,
+    "precision": "postal"
+  },
+  "Chicago|IL|60616": {
+    "lat": 41.8426,
+    "lng": -87.6306,
+    "precision": "postal"
+  },
+  "Chillicothe|OH|45601": {
+    "lat": 39.338,
+    "lng": -82.9895,
+    "precision": "postal"
+  },
+  "Choctaw|OK|73020": {
+    "lat": 35.4718,
+    "lng": -97.2726,
+    "precision": "postal"
+  },
+  "Cincinnati|OH|45215": {
+    "lat": 39.2353,
+    "lng": -84.4619,
+    "precision": "postal"
+  },
+  "Cincinnati|OH|45226": {
+    "lat": 39.1174,
+    "lng": -84.4312,
+    "precision": "postal"
+  },
+  "Cincinnati|OH|45242": {
+    "lat": 39.2447,
+    "lng": -84.3455,
+    "precision": "postal"
+  },
+  "Cincinnati|OH|45245": {
+    "lat": 39.0688,
+    "lng": -84.2802,
+    "precision": "postal"
+  },
+  "Cleveland|OH|44111": {
+    "lat": 41.4571,
+    "lng": -81.7844,
+    "precision": "postal"
+  },
+  "Cleveland|OH|44114": {
+    "lat": 41.5064,
+    "lng": -81.6743,
+    "precision": "postal"
+  },
+  "Clovis|CA|93612": {
+    "lat": 36.8149,
+    "lng": -119.7106,
+    "precision": "postal"
+  },
+  "Columbia|MD|21046": {
+    "lat": 39.1702,
+    "lng": -76.8538,
+    "precision": "postal"
+  },
+  "Columbia|MO|65202": {
+    "lat": 38.995,
+    "lng": -92.3112,
+    "precision": "postal"
+  },
+  "Columbia|SC|29201": {
+    "lat": 34.0004,
+    "lng": -81.0334,
+    "precision": "postal"
+  },
+  "Columbia|SC|29212": {
+    "lat": 34.0726,
+    "lng": -81.1796,
+    "precision": "postal"
+  },
+  "Columbus|OH|43202": {
+    "lat": 40.0201,
+    "lng": -83.0118,
+    "precision": "postal"
+  },
+  "Columbus|OH|43205": {
+    "lat": 39.9569,
+    "lng": -82.9644,
+    "precision": "postal"
+  },
+  "Columbus|OH|43211": {
+    "lat": 40.0118,
+    "lng": -82.9732,
+    "precision": "postal"
+  },
+  "Columbus|OH|43215": {
+    "lat": 39.9671,
+    "lng": -83.0044,
+    "precision": "postal"
+  },
+  "Columbus|OH|43220": {
+    "lat": 40.0495,
+    "lng": -83.0669,
+    "precision": "postal"
+  },
+  "Concord|CA|94520": {
+    "lat": 37.9823,
+    "lng": -122.0362,
+    "precision": "postal"
+  },
+  "Cooper City|FL|33330": {
+    "lat": 26.0663,
+    "lng": -80.3339,
+    "precision": "postal"
+  },
+  "Coppell|TX|75019": {
+    "lat": 32.9673,
+    "lng": -96.9805,
+    "precision": "postal"
+  },
+  "Coralville|IA|52241": {
+    "lat": 41.6937,
+    "lng": -91.5906,
+    "precision": "postal"
+  },
+  "Corona|CA|92882": {
+    "lat": 33.8419,
+    "lng": -117.6043,
+    "precision": "postal"
+  },
+  "Coventry|RI|02816": {
+    "lat": 41.6914,
+    "lng": -71.5768,
+    "precision": "postal"
+  },
+  "Crossville|TN|38555": {
+    "lat": 35.9623,
+    "lng": -85.0514,
+    "precision": "postal"
+  },
+  "Culver City|CA|90230": {
+    "lat": 33.9949,
+    "lng": -118.3991,
+    "precision": "postal"
+  },
+  "Cupertino|CA|95014": {
+    "lat": 37.318,
+    "lng": -122.0449,
+    "precision": "postal"
+  },
+  "Cypress|CA|90630": {
+    "lat": 33.8181,
+    "lng": -118.0357,
+    "precision": "postal"
+  },
+  "DOTHAN|AL|36303": {
+    "lat": 31.2668,
+    "lng": -85.3971,
+    "precision": "postal"
+  },
+  "Dallas|TX|75254": {
+    "lat": 32.9503,
+    "lng": -96.819,
+    "precision": "postal"
+  },
+  "Dayton|OH|45345": {
+    "lat": 39.7398,
+    "lng": -84.3956,
+    "precision": "postal"
+  },
+  "Deland|FL|32720": {
+    "lat": 29.0266,
+    "lng": -81.3349,
+    "precision": "postal"
+  },
+  "Delaware|OH|43015": {
+    "lat": 40.2932,
+    "lng": -83.0723,
+    "precision": "postal"
+  },
+  "Delmar|NY|12054": {
+    "lat": 42.6158,
+    "lng": -73.8373,
+    "precision": "postal"
+  },
+  "Douglassville|PA|19518": {
+    "lat": 40.2709,
+    "lng": -75.7397,
+    "precision": "postal"
+  },
+  "Douglaston|NY|11363": {
+    "lat": 40.7722,
+    "lng": -73.7454,
+    "precision": "postal"
+  },
+  "Dover|DE|19901": {
+    "lat": 39.1564,
+    "lng": -75.4955,
+    "precision": "postal"
+  },
+  "Dulles, VA|VA|20166": {
+    "lat": 38.9814,
+    "lng": -77.4723,
+    "precision": "postal"
+  },
+  "Dulles|VA|20166": {
+    "lat": 38.9814,
+    "lng": -77.4723,
+    "precision": "postal"
+  },
+  "East Amherst|NY|14051": {
+    "lat": 43.0429,
+    "lng": -78.6988,
+    "precision": "postal"
+  },
+  "East Cleveland|OH|44112": {
+    "lat": 41.5356,
+    "lng": -81.5737,
+    "precision": "postal"
+  },
+  "East Hartford|CT|06108": {
+    "lat": 41.7803,
+    "lng": -72.618,
+    "precision": "postal"
+  },
+  "East Peoria|IL|61611": {
+    "lat": 40.6731,
+    "lng": -89.5514,
+    "precision": "postal"
+  },
+  "Edina|MN|55435": {
+    "lat": 44.8735,
+    "lng": -93.3346,
+    "precision": "postal"
+  },
+  "El Paso|TX|79912": {
+    "lat": 31.8383,
+    "lng": -106.5364,
+    "precision": "postal"
+  },
+  "El Paso|TX|79915": {
+    "lat": 31.7432,
+    "lng": -106.3686,
+    "precision": "postal"
+  },
+  "El Paso|TX|79925": {
+    "lat": 31.7814,
+    "lng": -106.3613,
+    "precision": "postal"
+  },
+  "El Paso|TX|79935": {
+    "lat": 31.7718,
+    "lng": -106.3303,
+    "precision": "postal"
+  },
+  "Elizabethtown|KY|40160": {
+    "lat": 37.8267,
+    "lng": -85.9404,
+    "precision": "postal"
+  },
+  "Elizabethtown|KY|42701": {
+    "lat": 37.6848,
+    "lng": -85.8784,
+    "precision": "postal"
+  },
+  "Emporia|KS|66801": {
+    "lat": 38.4184,
+    "lng": -96.1871,
+    "precision": "postal"
+  },
+  "Englewood|OH|45315": {
+    "lat": 39.8551,
+    "lng": -84.3399,
+    "precision": "postal"
+  },
+  "Estero|FL|33928": {
+    "lat": 26.4351,
+    "lng": -81.8102,
+    "precision": "postal"
+  },
+  "Evanston|IL|60202": {
+    "lat": 42.0302,
+    "lng": -87.6865,
+    "precision": "postal"
+  },
+  "Evans|GA|30809": {
+    "lat": 33.5412,
+    "lng": -82.1398,
+    "precision": "postal"
+  },
+  "Exton|PA|19341": {
+    "lat": 40.0468,
+    "lng": -75.6432,
+    "precision": "postal"
+  },
+  "Fairfax|VA|22031": {
+    "lat": 38.8604,
+    "lng": -77.2649,
+    "precision": "postal"
+  },
+  "Fairfield|CT|06825": {
+    "lat": 41.1928,
+    "lng": -73.2402,
+    "precision": "postal"
+  },
+  "Fargo|ND|58104": {
+    "lat": 46.7932,
+    "lng": -96.8397,
+    "precision": "postal"
+  },
+  "Farmers Branch|TX|75234": {
+    "lat": 32.9245,
+    "lng": -96.8938,
+    "precision": "postal"
+  },
+  "Fayetteville|AR|72703": {
+    "lat": 36.0992,
+    "lng": -94.1716,
+    "precision": "postal"
+  },
+  "Fayetteville|NC|28303": {
+    "lat": 35.0742,
+    "lng": -78.965,
+    "precision": "postal"
+  },
+  "Fitchburg|MA|01420": {
+    "lat": 42.5796,
+    "lng": -71.8031,
+    "precision": "postal"
+  },
+  "Fitchburg|WI|53711": {
+    "lat": 43.0356,
+    "lng": -89.4526,
+    "precision": "postal"
+  },
+  "Fitzgerald|GA|31750": {
+    "lat": 31.7248,
+    "lng": -83.2495,
+    "precision": "postal"
+  },
+  "Flagstaff|AZ|86001": {
+    "lat": 35.1859,
+    "lng": -111.662,
+    "precision": "postal"
+  },
+  "Flint|MI|48506": {
+    "lat": 43.0653,
+    "lng": -83.631,
+    "precision": "postal"
+  },
+  "Fort Lauderdale|FL|33309": {
+    "lat": 26.1817,
+    "lng": -80.1746,
+    "precision": "postal"
+  },
+  "Fort Smith|AR|72901": {
+    "lat": 35.3653,
+    "lng": -94.411,
+    "precision": "postal"
+  },
+  "Framingham|MA|01701": {
+    "lat": 42.3007,
+    "lng": -71.4255,
+    "precision": "postal"
+  },
+  "Frankfort|KY|40601": {
+    "lat": 38.2281,
+    "lng": -84.8697,
+    "precision": "postal"
+  },
+  "Fredericksburg|VA|22408": {
+    "lat": 38.2481,
+    "lng": -77.4681,
+    "precision": "postal"
+  },
+  "Fremont|CA|94539": {
+    "lat": 37.5176,
+    "lng": -121.9287,
+    "precision": "postal"
+  },
+  "Frisco|TX|75034": {
+    "lat": 33.1499,
+    "lng": -96.8241,
+    "precision": "postal"
+  },
+  "Frisco|TX|75035": {
+    "lat": 33.1377,
+    "lng": -96.7524,
+    "precision": "postal"
+  },
+  "Ft. Worth|TX|76117": {
+    "lat": 32.8087,
+    "lng": -97.2709,
+    "precision": "postal"
+  },
+  "Gainesville|FL|32605": {
+    "lat": 29.6785,
+    "lng": -82.3679,
+    "precision": "postal"
+  },
+  "Garden Grove|CA|92840": {
+    "lat": 33.7869,
+    "lng": -117.9273,
+    "precision": "postal"
+  },
+  "Garden Grove|CA|92845": {
+    "lat": 33.7787,
+    "lng": -118.0267,
+    "precision": "postal"
+  },
+  "Georgetown|DE|19947": {
+    "lat": 38.679,
+    "lng": -75.3932,
+    "precision": "postal"
+  },
+  "Georgetown|TX|78628": {
+    "lat": 30.6411,
+    "lng": -97.7511,
+    "precision": "postal"
+  },
+  "Gilbert|AZ|85295": {
+    "lat": 33.3054,
+    "lng": -111.7408,
+    "precision": "postal"
+  },
+  "Glen Allen|VA|23059": {
+    "lat": 37.7284,
+    "lng": -77.5544,
+    "precision": "postal"
+  },
+  "Glen Allen|VA|23060": {
+    "lat": 37.6628,
+    "lng": -77.534,
+    "precision": "postal"
+  },
+  "Glen Rock|NJ|07452": {
+    "lat": 40.9602,
+    "lng": -74.1254,
+    "precision": "postal"
+  },
+  "Glendale|AZ|85308": {
+    "lat": 33.6539,
+    "lng": -112.1694,
+    "precision": "postal"
+  },
+  "Glendale|CA|91205": {
+    "lat": 34.1378,
+    "lng": -118.2425,
+    "precision": "postal"
+  },
+  "Glendale|NY|11385": {
+    "lat": 40.7036,
+    "lng": -73.8961,
+    "precision": "postal"
+  },
+  "Grapevine|TX|76051": {
+    "lat": 32.9328,
+    "lng": -97.0808,
+    "precision": "postal"
+  },
+  "Grass Valley|CA|95949": {
+    "lat": 39.1193,
+    "lng": -121.0938,
+    "precision": "postal"
+  },
+  "Great Neck|NY|11021": {
+    "lat": 40.7867,
+    "lng": -73.727,
+    "precision": "postal"
+  },
+  "Green Bay|WI|54301": {
+    "lat": 44.482,
+    "lng": -88.0205,
+    "precision": "postal"
+  },
+  "Greenwich|CT|06830": {
+    "lat": 41.0427,
+    "lng": -73.6262,
+    "precision": "postal"
+  },
+  "Groton|CT|06340": {
+    "lat": 41.3572,
+    "lng": -72.0579,
+    "precision": "postal"
+  },
+  "HOUSTON|TX|77009": {
+    "lat": 29.7936,
+    "lng": -95.3675,
+    "precision": "postal"
+  },
+  "Hamden|CT|06517": {
+    "lat": 41.3484,
+    "lng": -72.9117,
+    "precision": "postal"
+  },
+  "Hamilton|NJ|08610": {
+    "lat": 40.2016,
+    "lng": -74.705,
+    "precision": "postal"
+  },
+  "Hampton|VA|23666": {
+    "lat": 37.0462,
+    "lng": -76.4096,
+    "precision": "postal"
+  },
+  "Hanover|MD|21076": {
+    "lat": 39.1551,
+    "lng": -76.7215,
+    "precision": "postal"
+  },
+  "Hartford|CT|06106": {
+    "lat": 41.7498,
+    "lng": -72.6947,
+    "precision": "postal"
+  },
+  "Hatfield|MA|01038": {
+    "lat": 42.3844,
+    "lng": -72.6167,
+    "precision": "postal"
+  },
+  "Hendersonville|NC|28792": {
+    "lat": 35.3613,
+    "lng": -82.4264,
+    "precision": "postal"
+  },
+  "Henrico|VA|23233": {
+    "lat": 37.4638,
+    "lng": -77.398,
+    "precision": "postal"
+  },
+  "Herndon|VA|20170": {
+    "lat": 38.9839,
+    "lng": -77.3675,
+    "precision": "postal"
+  },
+  "Herndon|VA|20171": {
+    "lat": 38.9252,
+    "lng": -77.3928,
+    "precision": "postal"
+  },
+  "Hershey|PA|17033": {
+    "lat": 40.2638,
+    "lng": -76.6545,
+    "precision": "postal"
+  },
+  "Hialeah Gardens|FL|33012": {
+    "lat": 25.8654,
+    "lng": -80.3059,
+    "precision": "postal"
+  },
+  "Hialeah Gardens|FL|33018": {
+    "lat": 25.9098,
+    "lng": -80.3889,
+    "precision": "postal"
+  },
+  "Hillsboro|OR|97124": {
+    "lat": 45.5387,
+    "lng": -122.9636,
+    "precision": "postal"
+  },
+  "Holly Springs|NC|27540": {
+    "lat": 35.6263,
+    "lng": -78.8458,
+    "precision": "postal"
+  },
+  "Houston|TX|77009": {
+    "lat": 29.7936,
+    "lng": -95.3675,
+    "precision": "postal"
+  },
+  "Houston|TX|77017": {
+    "lat": 29.6863,
+    "lng": -95.2555,
+    "precision": "postal"
+  },
+  "Houston|TX|77025": {
+    "lat": 29.6889,
+    "lng": -95.4341,
+    "precision": "postal"
+  },
+  "Houston|TX|77032": {
+    "lat": 29.9368,
+    "lng": -95.3299,
+    "precision": "postal"
+  },
+  "Houston|TX|77037": {
+    "lat": 29.8892,
+    "lng": -95.3935,
+    "precision": "postal"
+  },
+  "Houston|TX|77056": {
+    "lat": 29.7446,
+    "lng": -95.4683,
+    "precision": "postal"
+  },
+  "Huntsville|AL|35899": {
+    "lat": 34.7339,
+    "lng": -86.6456,
+    "precision": "postal"
+  },
+  "Indianapolis|IN|46203": {
+    "lat": 39.743,
+    "lng": -86.1179,
+    "precision": "postal"
+  },
+  "Indianapolis|IN|46204": {
+    "lat": 39.772,
+    "lng": -86.1535,
+    "precision": "postal"
+  },
+  "Indianapolis|IN|46208": {
+    "lat": 39.8299,
+    "lng": -86.1794,
+    "precision": "postal"
+  },
+  "Indianapolis|IN|46228": {
+    "lat": 39.8462,
+    "lng": -86.1951,
+    "precision": "postal"
+  },
+  "Indianapolis|IN|46260": {
+    "lat": 39.8977,
+    "lng": -86.1797,
+    "precision": "postal"
+  },
+  "Iowa City|IA|52240": {
+    "lat": 41.6355,
+    "lng": -91.5016,
+    "precision": "postal"
+  },
+  "Iowa City|IA|52246": {
+    "lat": 41.6438,
+    "lng": -91.5669,
+    "precision": "postal"
+  },
+  "Irvine|CA|92612": {
+    "lat": 33.6607,
+    "lng": -117.8264,
+    "precision": "postal"
+  },
+  "Irving|TX|75063": {
+    "lat": 32.9247,
+    "lng": -96.9598,
+    "precision": "postal"
+  },
+  "JB MDL|NJ|08641": {
+    "lat": 40.2171,
+    "lng": -74.7429,
+    "precision": "postal"
+  },
+  "Jacksonville|FL|32257": {
+    "lat": 30.1927,
+    "lng": -81.605,
+    "precision": "postal"
+  },
+  "Jersey City|NJ|07302": {
+    "lat": 40.7221,
+    "lng": -74.0469,
+    "precision": "postal"
+  },
+  "Johnson City|TN|37601": {
+    "lat": 36.3339,
+    "lng": -82.3408,
+    "precision": "postal"
+  },
+  "Johnson Creek|WI|53038": {
+    "lat": 43.0751,
+    "lng": -88.7836,
+    "precision": "postal"
+  },
+  "Kansas City|MO|64118": {
+    "lat": 39.2133,
+    "lng": -94.5743,
+    "precision": "postal"
+  },
+  "Katy|TX|77450": {
+    "lat": 29.745,
+    "lng": -95.7326,
+    "precision": "postal"
+  },
+  "Kennebunk|ME|04043": {
+    "lat": 43.3881,
+    "lng": -70.5478,
+    "precision": "postal"
+  },
+  "Keokuk|IA|52632": {
+    "lat": 40.4094,
+    "lng": -91.3982,
+    "precision": "postal"
+  },
+  "Kernersville|NC|27284": {
+    "lat": 36.1165,
+    "lng": -80.0831,
+    "precision": "postal"
+  },
+  "Kissimmee|FL|34747": {
+    "lat": 28.3037,
+    "lng": -81.5898,
+    "precision": "postal"
+  },
+  "Knoxville|TN|37919": {
+    "lat": 35.9244,
+    "lng": -84.0015,
+    "precision": "postal"
+  },
+  "Knoxville|TN|37933": {
+    "lat": 35.9901,
+    "lng": -83.9622,
+    "precision": "postal"
+  },
+  "La Palma|CA|90623": {
+    "lat": 33.8491,
+    "lng": -118.0398,
+    "precision": "postal"
+  },
+  "Lafayette|LA|70508": {
+    "lat": 30.1582,
+    "lng": -92.0236,
+    "precision": "postal"
+  },
+  "Lakewood|OH|44107": {
+    "lat": 41.4847,
+    "lng": -81.8018,
+    "precision": "postal"
+  },
+  "Lancaster|CA|93534": {
+    "lat": 34.6909,
+    "lng": -118.1491,
+    "precision": "postal"
+  },
+  "Lansing|MI|48933": {
+    "lat": 42.7334,
+    "lng": -84.5571,
+    "precision": "postal"
+  },
+  "Las Vegas|NV|89103": {
+    "lat": 36.1149,
+    "lng": -115.2161,
+    "precision": "postal"
+  },
+  "Las Vegas|NV|89109": {
+    "lat": 36.126,
+    "lng": -115.1454,
+    "precision": "postal"
+  },
+  "Las Vegas|NV|89120": {
+    "lat": 36.0914,
+    "lng": -115.0885,
+    "precision": "postal"
+  },
+  "Las Vegas|NV|89123": {
+    "lat": 36.0383,
+    "lng": -115.1462,
+    "precision": "postal"
+  },
+  "Las Vegas|NV|89154": {
+    "lat": 36.175,
+    "lng": -115.1372,
+    "precision": "postal"
+  },
+  "Latham|NY|12110": {
+    "lat": 42.7462,
+    "lng": -73.763,
+    "precision": "postal"
+  },
+  "Leander|TX|78641": {
+    "lat": 30.5835,
+    "lng": -97.8575,
+    "precision": "postal"
+  },
+  "Leonia|NJ|07605": {
+    "lat": 40.8629,
+    "lng": -73.9879,
+    "precision": "postal"
+  },
+  "Lewiston|ME|04240": {
+    "lat": 44.0985,
+    "lng": -70.1916,
+    "precision": "postal"
+  },
+  "Lexington|KY|40505": {
+    "lat": 38.0612,
+    "lng": -84.4583,
+    "precision": "postal"
+  },
+  "Lincoln|NE|68510": {
+    "lat": 40.8063,
+    "lng": -96.6545,
+    "precision": "postal"
+  },
+  "Lincroft|NJ|07738": {
+    "lat": 40.3369,
+    "lng": -74.1205,
+    "precision": "postal"
+  },
+  "Linthicum Heights|MD|21090": {
+    "lat": 39.2092,
+    "lng": -76.6681,
+    "precision": "postal"
+  },
+  "Lisle|IL|60532": {
+    "lat": 41.7862,
+    "lng": -88.0879,
+    "precision": "postal"
+  },
+  "Livingston|NJ|07039": {
+    "lat": 40.7896,
+    "lng": -74.3202,
+    "precision": "postal"
+  },
+  "Logansport|IN|46947": {
+    "lat": 40.7604,
+    "lng": -86.3599,
+    "precision": "postal"
+  },
+  "Los Angeles|CA|90064": {
+    "lat": 34.0353,
+    "lng": -118.4259,
+    "precision": "postal"
+  },
+  "Los Angeles|CA|90089": {
+    "lat": 33.7866,
+    "lng": -118.2987,
+    "precision": "postal"
+  },
+  "Louisburg,|KS|66053": {
+    "lat": 38.6073,
+    "lng": -94.6829,
+    "precision": "postal"
+  },
+  "Louisville|CO|80027": {
+    "lat": 39.9789,
+    "lng": -105.1456,
+    "precision": "postal"
+  },
+  "Louisville|KY|40203": {
+    "lat": 38.2493,
+    "lng": -85.7694,
+    "precision": "postal"
+  },
+  "Louisville|KY|40204": {
+    "lat": 38.2369,
+    "lng": -85.7249,
+    "precision": "postal"
+  },
+  "Louisville|KY|40205": {
+    "lat": 38.2222,
+    "lng": -85.6885,
+    "precision": "postal"
+  },
+  "Louisville|KY|40206": {
+    "lat": 38.2503,
+    "lng": -85.7034,
+    "precision": "postal"
+  },
+  "Louisville|KY|40222": {
+    "lat": 38.2674,
+    "lng": -85.6237,
+    "precision": "postal"
+  },
+  "Louisville|KY|40299": {
+    "lat": 38.1768,
+    "lng": -85.5218,
+    "precision": "postal"
+  },
+  "Lubbock|TX|79407": {
+    "lat": 33.5684,
+    "lng": -101.9423,
+    "precision": "postal"
+  },
+  "Macon|GA|31210": {
+    "lat": 32.8926,
+    "lng": -83.7455,
+    "precision": "postal"
+  },
+  "Madison|WI|53705": {
+    "lat": 43.073,
+    "lng": -89.4528,
+    "precision": "postal"
+  },
+  "Malvern|PA|19355": {
+    "lat": 40.0468,
+    "lng": -75.531,
+    "precision": "postal"
+  },
+  "Manchester|NH|03101": {
+    "lat": 42.9929,
+    "lng": -71.4633,
+    "precision": "postal"
+  },
+  "Manitowoc|WI|54220": {
+    "lat": 44.0971,
+    "lng": -87.6823,
+    "precision": "postal"
+  },
+  "Marion|IA|52302": {
+    "lat": 42.0411,
+    "lng": -91.5941,
+    "precision": "postal"
+  },
+  "Marlborough|MA|01752": {
+    "lat": 42.3509,
+    "lng": -71.5434,
+    "precision": "postal"
+  },
+  "McKinney|TX|75070": {
+    "lat": 33.1976,
+    "lng": -96.6153,
+    "precision": "postal"
+  },
+  "McMinnville|OR|97128": {
+    "lat": 45.2097,
+    "lng": -123.2043,
+    "precision": "postal"
+  },
+  "Medfield|MA|02052": {
+    "lat": 42.1845,
+    "lng": -71.3048,
+    "precision": "postal"
+  },
+  "Melbourne|FL|32901": {
+    "lat": 28.0691,
+    "lng": -80.62,
+    "precision": "postal"
+  },
+  "Memphis|TN|38103": {
+    "lat": 35.144,
+    "lng": -90.048,
+    "precision": "postal"
+  },
+  "Memphis|TN|38104": {
+    "lat": 35.1334,
+    "lng": -90.0046,
+    "precision": "postal"
+  },
+  "Menlo Park|CA|94025": {
+    "lat": 37.4396,
+    "lng": -122.1864,
+    "precision": "postal"
+  },
+  "Mesa|AZ|85210": {
+    "lat": 33.3887,
+    "lng": -111.8428,
+    "precision": "postal"
+  },
+  "Metairie|LA|70003": {
+    "lat": 29.9975,
+    "lng": -90.2146,
+    "precision": "postal"
+  },
+  "Metairie|LA|70005": {
+    "lat": 30.0005,
+    "lng": -90.1331,
+    "precision": "postal"
+  },
+  "Metairie|LA|70006": {
+    "lat": 30.0129,
+    "lng": -90.1915,
+    "precision": "postal"
+  },
+  "Miami|FL|33150": {
+    "lat": 25.8512,
+    "lng": -80.207,
+    "precision": "postal"
+  },
+  "Miami|FL|33193": {
+    "lat": 25.6964,
+    "lng": -80.4401,
+    "precision": "postal"
+  },
+  "Middleton|WI|53562": {
+    "lat": 43.1052,
+    "lng": -89.5073,
+    "precision": "postal"
+  },
+  "Millburn|NJ|07041": {
+    "lat": 40.7228,
+    "lng": -74.3015,
+    "precision": "postal"
+  },
+  "Milpitas|CA|95035": {
+    "lat": 37.4352,
+    "lng": -121.895,
+    "precision": "postal"
+  },
+  "Moline|IL|61265": {
+    "lat": 41.4906,
+    "lng": -90.498,
+    "precision": "postal"
+  },
+  "Monroe|LA|71201": {
+    "lat": 32.5286,
+    "lng": -92.1061,
+    "precision": "postal"
+  },
+  "Morristown|NJ|07960": {
+    "lat": 40.7952,
+    "lng": -74.4873,
+    "precision": "postal"
+  },
+  "Morrisville|NC|27560": {
+    "lat": 35.8344,
+    "lng": -78.8466,
+    "precision": "postal"
+  },
+  "Morrow|GA|30260": {
+    "lat": 33.5849,
+    "lng": -84.3247,
+    "precision": "postal"
+  },
+  "Morton|MS|39117": {
+    "lat": 32.4029,
+    "lng": -89.5949,
+    "precision": "postal"
+  },
+  "Mount Pleasant|SC|29466": {
+    "lat": 32.8674,
+    "lng": -79.8049,
+    "precision": "postal"
+  },
+  "Myerstown|PA|17067": {
+    "lat": 40.3789,
+    "lng": -76.3143,
+    "precision": "postal"
+  },
+  "NEW YORK|NY|10011": {
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "precision": "postal"
+  },
+  "Nashville|TN|37212": {
+    "lat": 36.1337,
+    "lng": -86.8006,
+    "precision": "postal"
+  },
+  "Nashville|TN|37228": {
+    "lat": 36.1901,
+    "lng": -86.8053,
+    "precision": "postal"
+  },
+  "Natick|MA|01760": {
+    "lat": 42.2875,
+    "lng": -71.3574,
+    "precision": "postal"
+  },
+  "New Albany|IN|47150": {
+    "lat": 38.3089,
+    "lng": -85.8221,
+    "precision": "postal"
+  },
+  "New Lebanon|OH|45345": {
+    "lat": 39.7398,
+    "lng": -84.3956,
+    "precision": "postal"
+  },
+  "New Orleans|LA|70116": {
+    "lat": 29.9686,
+    "lng": -90.0646,
+    "precision": "postal"
+  },
+  "New Orleans|LA|70117": {
+    "lat": 29.9703,
+    "lng": -90.0312,
+    "precision": "postal"
+  },
+  "New Orleans|LA|70124": {
+    "lat": 30.0071,
+    "lng": -90.1094,
+    "precision": "postal"
+  },
+  "New Orleans|LA|70130": {
+    "lat": 29.9324,
+    "lng": -90.0739,
+    "precision": "postal"
+  },
+  "New Orleans|LA|70131": {
+    "lat": 29.9168,
+    "lng": -89.996,
+    "precision": "postal"
+  },
+  "New York|NY|10011": {
+    "lat": 40.7402,
+    "lng": -73.9996,
+    "precision": "postal"
+  },
+  "New York|NY|10019": {
+    "lat": 40.7651,
+    "lng": -73.9858,
+    "precision": "postal"
+  },
+  "New York|NY|10025": {
+    "lat": 40.7975,
+    "lng": -73.9683,
+    "precision": "postal"
+  },
+  "New York|NY|10036": {
+    "lat": 40.7597,
+    "lng": -73.9918,
+    "precision": "postal"
+  },
+  "New York|NY|10128": {
+    "lat": 40.7816,
+    "lng": -73.9511,
+    "precision": "postal"
+  },
+  "Newark|DE|19702": {
+    "lat": 39.6349,
+    "lng": -75.6993,
+    "precision": "postal"
+  },
+  "Newport Beach|CA|92660": {
+    "lat": 33.6295,
+    "lng": -117.8684,
+    "precision": "postal"
+  },
+  "Norman|OK|72072": null,
+  "Norman|OK|73072": {
+    "lat": 35.199,
+    "lng": -97.4841,
+    "precision": "postal"
+  },
+  "North Babylon|NY|11703": {
+    "lat": 40.7321,
+    "lng": -73.3236,
+    "precision": "postal"
+  },
+  "North Richland Hills|TX|76180": {
+    "lat": 32.84,
+    "lng": -97.225,
+    "precision": "postal"
+  },
+  "Northbrook|IL|60062": {
+    "lat": 42.1254,
+    "lng": -87.8465,
+    "precision": "postal"
+  },
+  "Norwalk|CT|06851": {
+    "lat": 41.1323,
+    "lng": -73.4058,
+    "precision": "postal"
+  },
+  "Norwalk|CT|06855": {
+    "lat": 41.1014,
+    "lng": -73.4011,
+    "precision": "postal"
+  },
+  "O'Fallon|IL|62269": {
+    "lat": 38.5718,
+    "lng": -89.8957,
+    "precision": "postal"
+  },
+  "Oak Brook|IL|60523": {
+    "lat": 41.8371,
+    "lng": -87.9638,
+    "precision": "postal"
+  },
+  "Oak Hill|VA|20171": {
+    "lat": 38.9252,
+    "lng": -77.3928,
+    "precision": "postal"
+  },
+  "Oklahoma City|OK|73104": {
+    "lat": 35.4794,
+    "lng": -97.5017,
+    "precision": "postal"
+  },
+  "Olpe|KS|66865": {
+    "lat": 38.2578,
+    "lng": -96.1891,
+    "precision": "postal"
+  },
+  "Olympia|WA|98501": {
+    "lat": 47.0129,
+    "lng": -122.8763,
+    "precision": "postal"
+  },
+  "Omaha|NE|68124": {
+    "lat": 41.2338,
+    "lng": -96.0495,
+    "precision": "postal"
+  },
+  "Omaha|NE|68154": {
+    "lat": 41.2642,
+    "lng": -96.1206,
+    "precision": "postal"
+  },
+  "Online|FL|33024": {
+    "lat": 26.0296,
+    "lng": -80.2489,
+    "precision": "postal"
+  },
+  "Ontario|OH|44906": {
+    "lat": 40.7627,
+    "lng": -82.5593,
+    "precision": "postal"
+  },
+  "Orlando|FL|32819": {
+    "lat": 28.4522,
+    "lng": -81.4678,
+    "precision": "postal"
+  },
+  "Orlando|FL|32821": {
+    "lat": 28.3957,
+    "lng": -81.4666,
+    "precision": "postal"
+  },
+  "Orlando|FL|32822": {
+    "lat": 28.4944,
+    "lng": -81.2902,
+    "precision": "postal"
+  },
+  "Owings Mills|MD|21117": {
+    "lat": 39.4269,
+    "lng": -76.7769,
+    "precision": "postal"
+  },
+  "Palo Alto|CA|94306": {
+    "lat": 37.418,
+    "lng": -122.1274,
+    "precision": "postal"
+  },
+  "Paoli|PA|19301": {
+    "lat": 40.0426,
+    "lng": -75.4827,
+    "precision": "postal"
+  },
+  "Park City|KS|67219": {
+    "lat": 37.7719,
+    "lng": -97.3175,
+    "precision": "postal"
+  },
+  "Park Ridge|IL|60068": {
+    "lat": 42.0122,
+    "lng": -87.8417,
+    "precision": "postal"
+  },
+  "Parma|OH|44130": {
+    "lat": 41.3826,
+    "lng": -81.7964,
+    "precision": "postal"
+  },
+  "Parsippany|NJ|07054": {
+    "lat": 40.8621,
+    "lng": -74.4117,
+    "precision": "postal"
+  },
+  "Peachtree City|GA|30269": {
+    "lat": 33.3915,
+    "lng": -84.5635,
+    "precision": "postal"
+  },
+  "Pembroke Pines|FL|33024": {
+    "lat": 26.0296,
+    "lng": -80.2489,
+    "precision": "postal"
+  },
+  "Pepper Pike|OH|44124": {
+    "lat": 41.501,
+    "lng": -81.4694,
+    "precision": "postal"
+  },
+  "Petoskey|MI|49770": {
+    "lat": 45.3559,
+    "lng": -84.9133,
+    "precision": "postal"
+  },
+  "Philadelphia|PA|19103": {
+    "lat": 39.9513,
+    "lng": -75.1741,
+    "precision": "postal"
+  },
+  "Philadelphia|PA|19107": {
+    "lat": 39.9487,
+    "lng": -75.1593,
+    "precision": "postal"
+  },
+  "Philadelphia|PA|19132": {
+    "lat": 39.9954,
+    "lng": -75.1698,
+    "precision": "postal"
+  },
+  "Phoenix|AZ|85022": {
+    "lat": 33.6315,
+    "lng": -112.052,
+    "precision": "postal"
+  },
+  "Piermont|NY|10968": {
+    "lat": 41.0395,
+    "lng": -73.9192,
+    "precision": "postal"
+  },
+  "Piscataway|NJ|08854": {
+    "lat": 40.5515,
+    "lng": -74.459,
+    "precision": "postal"
+  },
+  "Pittsboro|IN|46167": {
+    "lat": 39.8615,
+    "lng": -86.4645,
+    "precision": "postal"
+  },
+  "Pittsburgh|PA|15213": {
+    "lat": 40.444,
+    "lng": -79.9552,
+    "precision": "postal"
+  },
+  "Pittsburgh|PA|15217": {
+    "lat": 40.4308,
+    "lng": -79.9205,
+    "precision": "postal"
+  },
+  "Plainsboro|NJ|08540": {
+    "lat": 40.3666,
+    "lng": -74.6408,
+    "precision": "postal"
+  },
+  "Plano|TX|75024": {
+    "lat": 33.0752,
+    "lng": -96.7843,
+    "precision": "postal"
+  },
+  "Plano|TX|75063": {
+    "lat": 32.9247,
+    "lng": -96.9598,
+    "precision": "postal"
+  },
+  "Plano|TX|75075": {
+    "lat": 33.025,
+    "lng": -96.7397,
+    "precision": "postal"
+  },
+  "Plantation|FL|33324": {
+    "lat": 26.1255,
+    "lng": -80.2644,
+    "precision": "postal"
+  },
+  "Pleasanton|CA|94566": {
+    "lat": 37.6658,
+    "lng": -121.8755,
+    "precision": "postal"
+  },
+  "Poquoson|VA|23662": {
+    "lat": 37.1313,
+    "lng": -76.3807,
+    "precision": "postal"
+  },
+  "Port St. Lucie|FL|34986": {
+    "lat": 27.3215,
+    "lng": -80.403,
+    "precision": "postal"
+  },
+  "Portland|OR|97210": {
+    "lat": 45.5303,
+    "lng": -122.7033,
+    "precision": "postal"
+  },
+  "Prescott|AZ|86301": {
+    "lat": 34.5917,
+    "lng": -112.4265,
+    "precision": "postal"
+  },
+  "Princeton|NJ|08540": {
+    "lat": 40.3666,
+    "lng": -74.6408,
+    "precision": "postal"
+  },
+  "RINDGE|NH|03461": {
+    "lat": 42.7544,
+    "lng": -72.019,
+    "precision": "postal"
+  },
+  "Rapid City|SD|57783": {
+    "lat": 44.4946,
+    "lng": -103.865,
+    "precision": "postal"
+  },
+  "Redmond|WA|14820": null,
+  "Redmond|WA|98052": {
+    "lat": 47.6718,
+    "lng": -122.1232,
+    "precision": "postal"
+  },
+  "Reno|NV|89501": {
+    "lat": 39.5268,
+    "lng": -119.8113,
+    "precision": "postal"
+  },
+  "Reno|NV|89502": {
+    "lat": 39.4972,
+    "lng": -119.7764,
+    "precision": "postal"
+  },
+  "Richland|WA|99352": {
+    "lat": 46.2522,
+    "lng": -119.288,
+    "precision": "postal"
+  },
+  "Ridgefield|CT|06877": {
+    "lat": 41.2977,
+    "lng": -73.4973,
+    "precision": "postal"
+  },
+  "Ridgeland|MS|39157": {
+    "lat": 32.4122,
+    "lng": -90.1207,
+    "precision": "postal"
+  },
+  "Riverhead|NY|11901": {
+    "lat": 40.9262,
+    "lng": -72.652,
+    "precision": "postal"
+  },
+  "Riverside|RI|02915": {
+    "lat": 41.7723,
+    "lng": -71.3542,
+    "precision": "postal"
+  },
+  "Rochester|MI|48309": {
+    "lat": 42.6626,
+    "lng": -83.1837,
+    "precision": "postal"
+  },
+  "Rochester|NY|14610": {
+    "lat": 43.1452,
+    "lng": -77.5495,
+    "precision": "postal"
+  },
+  "Rockville|MD|20850": {
+    "lat": 39.087,
+    "lng": -77.168,
+    "precision": "postal"
+  },
+  "Rolla|MO|65401": {
+    "lat": 37.9485,
+    "lng": -91.7603,
+    "precision": "postal"
+  },
+  "Roswell|GA|30076": {
+    "lat": 34.0213,
+    "lng": -84.3104,
+    "precision": "postal"
+  },
+  "Sacramento|CA|95821": {
+    "lat": 38.6239,
+    "lng": -121.3837,
+    "precision": "postal"
+  },
+  "Saint Joseph|MO|64506": {
+    "lat": 39.7893,
+    "lng": -94.8043,
+    "precision": "postal"
+  },
+  "Saint Petersburg|FL|33701": {
+    "lat": 27.7723,
+    "lng": -82.6386,
+    "precision": "postal"
+  },
+  "Salem|OR|97305": {
+    "lat": 44.9961,
+    "lng": -122.9124,
+    "precision": "postal"
+  },
+  "Saluda|NC|28773": {
+    "lat": 35.2383,
+    "lng": -82.3306,
+    "precision": "postal"
+  },
+  "Sammamish|WA|98074": {
+    "lat": 47.6254,
+    "lng": -122.0462,
+    "precision": "postal"
+  },
+  "San Angelo|TX|76903": {
+    "lat": 31.4707,
+    "lng": -100.4386,
+    "precision": "postal"
+  },
+  "San Diego|CA|92101": {
+    "lat": 32.7185,
+    "lng": -117.1593,
+    "precision": "postal"
+  },
+  "San Diego|CA|92104": {
+    "lat": 32.7454,
+    "lng": -117.1272,
+    "precision": "postal"
+  },
+  "San Francisco|CA|94005": {
+    "lat": 37.6811,
+    "lng": -122.4001,
+    "precision": "postal"
+  },
+  "San Francisco|CA|94104": {
+    "lat": 37.7915,
+    "lng": -122.4018,
+    "precision": "postal"
+  },
+  "San Jose|CA|95110": {
+    "lat": 37.3391,
+    "lng": -121.9016,
+    "precision": "postal"
+  },
+  "San Jose|CA|95131": {
+    "lat": 37.3864,
+    "lng": -121.88,
+    "precision": "postal"
+  },
+  "San Mateo|CA|94403": {
+    "lat": 37.5395,
+    "lng": -122.2998,
+    "precision": "postal"
+  },
+  "Santa Fe|NM|87501": {
+    "lat": 35.6975,
+    "lng": -105.9821,
+    "precision": "postal"
+  },
+  "Santa Monica|CA|90405": {
+    "lat": 34.01,
+    "lng": -118.4717,
+    "precision": "postal"
+  },
+  "Santa Paula|CA|93060": {
+    "lat": 34.3547,
+    "lng": -119.0713,
+    "precision": "postal"
+  },
+  "Saratoga Springs|NY|12866": {
+    "lat": 43.0708,
+    "lng": -73.7408,
+    "precision": "postal"
+  },
+  "Schaumburg|IL|60173": {
+    "lat": 42.0581,
+    "lng": -88.0482,
+    "precision": "postal"
+  },
+  "Scranton|PA|18509": {
+    "lat": 41.4274,
+    "lng": -75.6465,
+    "precision": "postal"
+  },
+  "Shaker Heights|OH|44122": {
+    "lat": 41.4701,
+    "lng": -81.5232,
+    "precision": "postal"
+  },
+  "Shelburne|MA|01370": {
+    "lat": 42.6022,
+    "lng": -72.7391,
+    "precision": "postal"
+  },
+  "Shepherdstown|WV|25443": {
+    "lat": 39.4311,
+    "lng": -77.8158,
+    "precision": "postal"
+  },
+  "Sheridan|WY|82801": {
+    "lat": 44.7849,
+    "lng": -106.9648,
+    "precision": "postal"
+  },
+  "Shippensburg|PA|17257": {
+    "lat": 40.0514,
+    "lng": -77.5195,
+    "precision": "postal"
+  },
+  "Sioux Falls|SD|57107": {
+    "lat": 43.5566,
+    "lng": -96.8028,
+    "precision": "postal"
+  },
+  "Smithfield|RI|02917": {
+    "lat": 41.8964,
+    "lng": -71.5207,
+    "precision": "postal"
+  },
+  "Smyrna|GA|30082": {
+    "lat": 33.8631,
+    "lng": -84.5382,
+    "precision": "postal"
+  },
+  "Solon|OH|44139": {
+    "lat": 41.3866,
+    "lng": -81.4421,
+    "precision": "postal"
+  },
+  "Somerville|NJ|08876": {
+    "lat": 40.588,
+    "lng": -74.6874,
+    "precision": "postal"
+  },
+  "South Amherst|MA|01002": {
+    "lat": 42.3671,
+    "lng": -72.4646,
+    "precision": "postal"
+  },
+  "South Portland|ME|04106": {
+    "lat": 43.6318,
+    "lng": -70.2709,
+    "precision": "postal"
+  },
+  "Spanish Fork|UT|84660": {
+    "lat": 40.1099,
+    "lng": -111.6462,
+    "precision": "postal"
+  },
+  "Springfield|IL|62703": {
+    "lat": 39.7622,
+    "lng": -89.6275,
+    "precision": "postal"
+  },
+  "Springfield|NJ|07081": {
+    "lat": 40.7015,
+    "lng": -74.3227,
+    "precision": "postal"
+  },
+  "St Louis|MO|63106": {
+    "lat": 38.6442,
+    "lng": -90.2082,
+    "precision": "postal"
+  },
+  "St Louis|MO|63108": {
+    "lat": 38.6445,
+    "lng": -90.2544,
+    "precision": "postal"
+  },
+  "St. Cloud|MN|56301": {
+    "lat": 45.541,
+    "lng": -94.1819,
+    "precision": "postal"
+  },
+  "St. Louis|MO|63105": {
+    "lat": 38.6459,
+    "lng": -90.3264,
+    "precision": "postal"
+  },
+  "St. Louis|MO|63108": {
+    "lat": 38.6445,
+    "lng": -90.2544,
+    "precision": "postal"
+  },
+  "Stirling|NJ|07980": {
+    "lat": 40.6774,
+    "lng": -74.4968,
+    "precision": "postal"
+  },
+  "Stowe|VT|05672": {
+    "lat": 44.4695,
+    "lng": -72.6923,
+    "precision": "postal"
+  },
+  "Strongsville|OH|44136": {
+    "lat": 41.3132,
+    "lng": -81.8285,
+    "precision": "postal"
+  },
+  "Sugar Land|TX|77478": {
+    "lat": 29.6196,
+    "lng": -95.607,
+    "precision": "postal"
+  },
+  "Sunnyvale|CA|94086": {
+    "lat": 37.3764,
+    "lng": -122.0238,
+    "precision": "postal"
+  },
+  "Sunnyvale|CA|94087": {
+    "lat": 37.3502,
+    "lng": -122.0349,
+    "precision": "postal"
+  },
+  "Suwanee|GA|30024": {
+    "lat": 34.0425,
+    "lng": -84.0262,
+    "precision": "postal"
+  },
+  "Tallahassee|FL|32301": {
+    "lat": 30.4286,
+    "lng": -84.2593,
+    "precision": "postal"
+  },
+  "Tampa|FL|33607": {
+    "lat": 27.9625,
+    "lng": -82.4895,
+    "precision": "postal"
+  },
+  "Tampa|FL|33625": {
+    "lat": 28.0726,
+    "lng": -82.559,
+    "precision": "postal"
+  },
+  "Temecula|CA|92591": {
+    "lat": 33.5217,
+    "lng": -117.1286,
+    "precision": "postal"
+  },
+  "Tempe|AZ|85281": {
+    "lat": 33.4227,
+    "lng": -111.9261,
+    "precision": "postal"
+  },
+  "Toledo|OH|43614": {
+    "lat": 41.6028,
+    "lng": -83.6292,
+    "precision": "postal"
+  },
+  "Traverse City, MI|MI|49686": {
+    "lat": 44.7631,
+    "lng": -85.6206,
+    "precision": "postal"
+  },
+  "Tucson|AZ|85712": {
+    "lat": 32.25,
+    "lng": -110.8869,
+    "precision": "postal"
+  },
+  "Vestal|NY|13902": {
+    "lat": 42.1054,
+    "lng": -75.8876,
+    "precision": "postal"
+  },
+  "Vienna|VA|22182": {
+    "lat": 38.928,
+    "lng": -77.2649,
+    "precision": "postal"
+  },
+  "Villanova|PA|19085": {
+    "lat": 40.0399,
+    "lng": -75.3459,
+    "precision": "postal"
+  },
+  "Virginia Beach|VA|23451": {
+    "lat": 36.8585,
+    "lng": -76.0019,
+    "precision": "postal"
+  },
+  "Waco|TX|76710": {
+    "lat": 31.535,
+    "lng": -97.1899,
+    "precision": "postal"
+  },
+  "Wakefield|MA|01880": {
+    "lat": 42.5009,
+    "lng": -71.0685,
+    "precision": "postal"
+  },
+  "Washington, DC 20064|DC|20064": {
+    "lat": 38.9332,
+    "lng": -76.9963,
+    "precision": "postal"
+  },
+  "Washington|DC|20017": {
+    "lat": 38.9367,
+    "lng": -76.994,
+    "precision": "postal"
+  },
+  "Waunakee|WI|53597": {
+    "lat": 43.1818,
+    "lng": -89.4532,
+    "precision": "postal"
+  },
+  "West Chester|OH|45069": {
+    "lat": 39.3402,
+    "lng": -84.3998,
+    "precision": "postal"
+  },
+  "West Chester|PA|19382": {
+    "lat": 39.9441,
+    "lng": -75.5882,
+    "precision": "postal"
+  },
+  "West Chicago|IL|60185": {
+    "lat": 41.8886,
+    "lng": -88.2022,
+    "precision": "postal"
+  },
+  "West Los Angeles|CA|90064": {
+    "lat": 34.0353,
+    "lng": -118.4259,
+    "precision": "postal"
+  },
+  "Westfield|IN|46074": {
+    "lat": 40.0489,
+    "lng": -86.1499,
+    "precision": "postal"
+  },
+  "Wheeling|IL|60090": {
+    "lat": 42.134,
+    "lng": -87.9341,
+    "precision": "postal"
+  },
+  "Wichita|KS|67124": {
+    "lat": 37.6502,
+    "lng": -98.73,
+    "precision": "postal"
+  },
+  "Wichita|KS|67214": {
+    "lat": 37.7051,
+    "lng": -97.3133,
+    "precision": "postal"
+  },
+  "Windsor Locks|CT|06096": {
+    "lat": 41.9261,
+    "lng": -72.6458,
+    "precision": "postal"
+  },
+  "Winston-Salem|NC|27103": {
+    "lat": 36.0671,
+    "lng": -80.3025,
+    "precision": "postal"
+  },
+  "Woonsocket|RI|02895": {
+    "lat": 41.9846,
+    "lng": -71.5194,
+    "precision": "postal"
+  },
+  "Woonsocket|RI|02985": null,
+  "Yardley|PA|19067": {
+    "lat": 40.2084,
+    "lng": -74.8291,
+    "precision": "postal"
+  },
+  "||": null
+}

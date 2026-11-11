@@ -1,0 +1,72 @@
+{
+  "updatedAt": "2026-11-10T18:36:00+00:00",
+  "sources": [
+    {
+      "id": "nachesshub",
+      "name": "NA Chess Hub",
+      "url": "https://www.nachesshub.com/AllEvents",
+      "status": "ok",
+      "lastAttempt": "2026-11-10T18:36:00+00:00",
+      "lastSuccess": "2026-11-10T18:36:00+00:00",
+      "count": 31
+    },
+    {
+      "id": "boylston",
+      "name": "Boylston",
+      "url": "https://boylstonchess.org/events",
+      "status": "ok",
+      "lastAttempt": "2026-11-10T18:36:00+00:00",
+      "lastSuccess": "2026-11-10T18:36:00+00:00",
+      "count": 21
+    },
+    {
+      "id": "maca",
+      "name": "MACA",
+      "url": "https://www.masschess.org/Events/Chess_Tournaments.aspx",
+      "status": "error",
+      "lastAttempt": "2026-10-03T02:01:37+00:00",
+      "lastSuccess": null,
+      "count": 0,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    },
+    {
+      "id": "cca",
+      "name": "Continental Chess",
+      "url": "https://www.chesstour.com/refs.html",
+      "status": "ok",
+      "lastAttempt": "2026-11-10T18:36:00+00:00",
+      "lastSuccess": "2026-11-10T18:36:00+00:00",
+      "count": 6
+    },
+    {
+      "id": "uscf",
+      "name": "US Chess",
+      "url": "https://new.uschess.org/upcoming-tournaments",
+      "status": "ok",
+      "lastAttempt": "2026-11-10T18:36:00+00:00",
+      "lastSuccess": "2026-11-10T18:36:00+00:00",
+      "count": 727
+    }
+  ],
+  "eventCount": 763,
+  "mappedCount": 744,
+  "quality": {
+    "checkedAt": "2026-11-10T18:37:08+00:00",
+    "passed": true,
+    "coverage": {
+      "events": 763,
+      "withFees": 381,
+      "withSchedule": 269,
+      "withRegistration": 322,
+      "physicalEvents": 745,
+      "mapped": 744,
+      "venueCoordinates": 18
+    },
+    "issueCounts": {
+      "multiple-or-ambiguous-time-controls": 147,
+      "recurring-or-long-date-range": 38,
+      "unexpired-listing-rechecked": 33,
+      "section-specific-fees-need-review": 17
+    }
+  }
+}

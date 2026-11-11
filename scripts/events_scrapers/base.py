@@ -24,6 +24,11 @@ class ScrapedEvent:
     lng: float | None = None
     format: str | None = None
     timeControl: dict[str, Any] | None = None
+    timeControls: list[dict[str, Any]] | None = None
+    scheduleText: str | None = None
+    registrationText: str | None = None
+    cancellationEvidence: str | None = None
+    reviewFlags: list[str] | None = None
     rated: bool | None = None
     ratingSystem: str | None = None
     entryFeeText: str | None = None
@@ -36,6 +41,18 @@ class ScrapedEvent:
     tags: list[str] | None = None
     website: str | None = None
     notes: str | None = None
+    city: str | None = None
+    state: str | None = None
+    country: str | None = "US"
+    online: bool | None = None
+    fideRated: bool | None = None
+    audience: str | None = None
+    organizer: str | None = None
+    source: str | None = None
+    sources: list[dict[str, str]] | None = None
+    locationPrecision: str | None = None
+    prizeFundUsd: int | None = None
+    dateText: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
         data: dict[str, Any] = {}

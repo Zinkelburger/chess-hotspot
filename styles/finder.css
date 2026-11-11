@@ -1,0 +1,1020 @@
+/* The tournament finder and the coaches & schools directory: a page of
+   filters, a list you can scan, and the map beside it. Pills, colours and the
+   popup card are the map page's; only the layout is new. */
+
+.finder {
+  --ink: #111827;
+  --ink-soft: #374151;
+  --muted: #6b7280;
+  --faint: #9ca3af;
+  --line: #e2e8e0;
+  --surface: #f7fbf6;
+  --club: #10b981;
+  --tournament: #3b82f6;
+  --accent: #3b82f6;
+  --accent-ink: #1d4ed8;
+  --accent-tint: #eff6ff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 0;
+  background: var(--surface);
+  color: var(--ink);
+}
+.finder-clubs {
+  --accent: #10b981;
+  --accent-ink: #047857;
+  --accent-tint: #ecfdf5;
+}
+.finder-learn {
+  --accent: #8b5cf6;
+  --accent-ink: #6d28d9;
+  --accent-tint: #f5f3ff;
+}
+
+/* ─── Section switcher ─── */
+
+.site-nav {
+  display: inline-flex;
+  flex-shrink: 0;
+  gap: 0.15rem;
+  padding: 0.2rem;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  background: #ffffff;
+}
+.site-nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.34rem 0.7rem;
+  border-radius: 9999px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.15;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #4b5563;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    background-color 0.12s ease,
+    color 0.12s ease;
+}
+@media (hover: hover) {
+  .site-nav-link:hover {
+    background: #f1f5f9;
+    color: #111827;
+  }
+}
+.site-nav-link:focus-visible {
+  outline: 2px solid #10b981;
+  outline-offset: 1px;
+}
+.site-nav-clubs[aria-current='page'] {
+  background: #ecfdf5;
+  box-shadow: inset 0 0 0 1px #10b981;
+  color: #047857;
+}
+.site-nav-tournaments[aria-current='page'] {
+  background: #eff6ff;
+  box-shadow: inset 0 0 0 1px #3b82f6;
+  color: #1d4ed8;
+}
+.site-nav-learn[aria-current='page'] {
+  background: #f5f3ff;
+  box-shadow: inset 0 0 0 1px #8b5cf6;
+  color: #6d28d9;
+}
+.site-nav-short {
+  display: none;
+}
+.pill-dot-clubs {
+  background: #10b981;
+}
+.pill-dot-tournaments {
+  background: #3b82f6;
+}
+.pill-dot-learn,
+.pill-dot-school {
+  background: #8b5cf6;
+}
+
+/* On the club map the search box and the switcher float together. */
+.explore-top {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  right: 3.4rem;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.5rem;
+  pointer-events: none;
+}
+.explore-top > * {
+  pointer-events: auto;
+}
+.explore-top .search-box {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex: 0 1 21rem;
+  max-width: 100%;
+}
+.explore-top .search-box-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.explore-top .site-nav {
+  padding: 0.3rem;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.14);
+}
+.feed-header > .site-nav {
+  align-self: flex-start;
+}
+
+/* The club map has no Find or Play rows, so the buttons sit beside "When". */
+.filter-bar-clubs .filter-actions {
+  grid-row: 2;
+}
+.filter-bar-clubs.filter-bar-with-area .filter-actions {
+  grid-row: 3;
+}
+
+/* ─── Page header ─── */
+
+.finder-top {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid var(--line);
+  background: #ffffff;
+}
+.finder-brand {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--mint-ink, #244c32);
+}
+.finder-title {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* ─── Controls ─── */
+
+.finder-controls {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.6rem 0.8rem 0.5rem;
+  background: rgba(247, 251, 246, 0.97);
+}
+.finder-search-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.45rem;
+}
+.finder-search {
+  position: relative;
+  flex: 1 1 14rem;
+  max-width: 21rem;
+  min-width: 0;
+}
+.finder-search-icon,
+.place-input-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 1.05rem;
+  transform: translateY(-50%);
+  display: flex;
+  color: var(--faint);
+  pointer-events: none;
+  z-index: 1;
+}
+.finder-search input,
+.place-input input,
+.finder-select,
+.place-input-chosen {
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  background: #ffffff;
+  font: inherit;
+  font-size: 0.8rem;
+  color: #1f2937;
+  outline: none;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+.finder-search input {
+  padding: 0 0.9rem 0 2.2rem;
+}
+.finder-search input::placeholder,
+.place-input input::placeholder {
+  color: var(--faint);
+}
+.finder-search input:focus,
+.place-input input:focus,
+.finder-select:focus-visible {
+  border-color: transparent;
+  box-shadow: 0 0 0 2px var(--accent);
+}
+.finder-select {
+  flex: 0 1 11.5rem;
+  width: auto;
+  min-width: 0;
+  padding: 0 1.9rem 0 0.85rem;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem center;
+  cursor: pointer;
+  text-overflow: ellipsis;
+}
+
+.place-input {
+  position: relative;
+  flex: 1 1 12rem;
+  max-width: 17rem;
+  min-width: 0;
+}
+.place-input input {
+  padding: 0 2.3rem 0 2.2rem;
+}
+.place-input-locate {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0;
+  border: none;
+  border-radius: 9999px;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+.place-input-locate:hover,
+.place-input-locate:focus-visible {
+  background: var(--accent-tint);
+  color: var(--accent-ink);
+  outline: none;
+}
+.place-input-chosen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+  padding: 0 0.7rem 0 2.2rem;
+  border-color: var(--accent);
+  background: var(--accent-tint);
+  font-weight: 600;
+  color: var(--accent-ink);
+  cursor: pointer;
+}
+.place-input-chosen-text {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.place-input:has(.place-input-chosen) .place-input-icon {
+  color: var(--accent-ink);
+}
+.place-input-results {
+  position: absolute;
+  top: calc(100% + 0.35rem);
+  left: 0;
+  z-index: 40;
+  width: max-content;
+  min-width: 100%;
+  max-width: min(24rem, 90vw);
+  max-height: min(60vh, 20rem);
+  overflow-y: auto;
+  padding: 0.3rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.9rem;
+  background: #ffffff;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.18);
+}
+.place-input-note {
+  margin: 0.3rem 0 0 0.3rem;
+  font-size: 0.68rem;
+  line-height: 1.35;
+  color: #92400e;
+}
+
+.finder-filters-toggle {
+  display: none;
+  height: 2.1rem;
+}
+.finder-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.6rem;
+  min-width: 0;
+}
+.finder .filter-label {
+  min-width: 0;
+}
+.finder-chip-on {
+  border-color: #475569;
+  background: #f1f5f9;
+  color: #0f172a;
+}
+.finder-dates {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--muted);
+}
+.finder-dates input {
+  height: 1.55rem;
+  padding: 0 0.4rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  font: inherit;
+  font-size: 0.72rem;
+  color: #374151;
+}
+.finder-dates input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-tint);
+}
+
+/* The count, and what can be done with the list as a whole. */
+.finder-bar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 0.8rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: #ffffff;
+}
+.finder-count {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  color: var(--ink-soft);
+}
+.finder-count strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+.finder-clear {
+  flex-shrink: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--accent-ink);
+  cursor: pointer;
+}
+.finder-clear:hover {
+  text-decoration: underline;
+}
+.finder-sort {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--muted);
+}
+.finder-sort select {
+  max-width: 9.5rem;
+  padding: 0.25rem 0.2rem;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.finder-bar-extra {
+  flex-shrink: 0;
+}
+
+/* ─── List beside map ─── */
+
+.finder-body {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+/* The same split on every page: the list takes three fifths, the map two. */
+.finder[data-map='on'] .finder-body {
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+}
+.finder-list {
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background: #ffffff;
+}
+.finder-list > .feed-footnote {
+  margin: 1rem 0.8rem 1.25rem;
+}
+.finder-empty-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.finder-map {
+  position: relative;
+  min-height: 0;
+  border-left: 1px solid var(--line);
+  background: #f2efe9;
+}
+.finder-area-toggle {
+  position: absolute;
+  left: 50%;
+  bottom: 1.1rem;
+  z-index: 5;
+  transform: translateX(-50%);
+  padding: 0.45rem 0.85rem;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.16);
+}
+.finder .maplibregl-ctrl-top-right {
+  top: 0.35rem;
+  right: 0.35rem;
+}
+.finder .maplibregl-ctrl-group {
+  border-radius: 0.6rem;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.14);
+  overflow: hidden;
+}
+
+/* ─── Tournament table ─── */
+
+.tf-table {
+  --tf-head: 1.75rem;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 0.74rem;
+}
+.tf-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  box-sizing: border-box;
+  height: var(--tf-head);
+  padding: 0 0.6rem;
+  background: #f7fbf6;
+  box-shadow: inset 0 -1px 0 var(--line);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #4b5563;
+}
+.tf-col-date {
+  width: 7rem;
+}
+.tf-col-where {
+  width: 9.4rem;
+}
+.tf-col-format {
+  width: 7.8rem;
+}
+.tf-col-prize {
+  width: 4.6rem;
+}
+.tf-col-fee {
+  width: 4rem;
+}
+.tf-table thead th.tf-col-prize,
+.tf-prize {
+  text-align: right;
+}
+.tf-sort-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.tf-sort-button:hover {
+  color: var(--accent-ink);
+}
+.tf-sort-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 0.2rem;
+}
+th[aria-sort] .tf-sort-button {
+  color: var(--accent-ink);
+}
+.tf-sort-arrow {
+  width: 0.6rem;
+  font-size: 0.72rem;
+}
+
+.tf-group th {
+  position: sticky;
+  top: var(--tf-head);
+  z-index: 2;
+  padding: 0.32rem 0.6rem;
+  background: #eef6ec;
+  box-shadow: inset 0 -1px 0 var(--line);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--mint-ink, #244c32);
+}
+.tf-group-count {
+  margin-left: 0.5rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.tf-row {
+  border-bottom: 1px solid #eef1ec;
+  cursor: pointer;
+}
+@media (hover: hover) {
+  .tf-row:hover {
+    background: #f6faff;
+  }
+  .tf-row:hover .tf-name a {
+    color: var(--accent-ink);
+  }
+}
+.tf-row.is-active {
+  background: var(--accent-tint);
+}
+.tf-row td {
+  padding: 0.5rem 0.6rem;
+  overflow: hidden;
+  vertical-align: top;
+}
+.tf-main {
+  display: block;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--ink);
+}
+.tf-name a.tf-main {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  color: #1f2937;
+}
+.tf-name a.tf-main:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 0.2rem;
+}
+.tf-sub {
+  display: block;
+  margin-top: 0.12rem;
+  overflow: hidden;
+  font-size: 0.66rem;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--muted);
+}
+.tf-sub:empty {
+  display: none;
+}
+.tf-name .tf-sub,
+.tf-date .tf-sub {
+  white-space: normal;
+}
+.tf-tag {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0 0.36rem;
+  border: 1px solid;
+  border-radius: 9999px;
+  font-size: 0.58rem;
+  font-weight: 700;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.tf-tag-violet {
+  border-color: #8b5cf6;
+  background: #f5f3ff;
+  color: #6d28d9;
+}
+.tf-tag-fuchsia {
+  border-color: #d946ef;
+  background: #fdf4ff;
+  color: #a21caf;
+}
+.tf-miles {
+  margin-left: 0.35rem;
+  font-size: 0.66rem;
+  font-weight: 700;
+  white-space: nowrap;
+  color: var(--accent-ink);
+}
+.tf-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+.tf-pills .pretty-pill {
+  padding: 0.12rem 0.42rem;
+  font-size: 0.6rem;
+}
+.tf-pills:empty {
+  display: none;
+}
+.tf-prize,
+.tf-fee {
+  font-variant-numeric: tabular-nums;
+}
+.tf-none {
+  color: #cbd5e1;
+}
+
+/* ─── Coaches & schools cards ─── */
+
+.lf-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lf-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.2rem 0.75rem;
+  padding: 0.7rem 0.8rem;
+  border-bottom: 1px solid #eef1ec;
+  cursor: pointer;
+}
+@media (hover: hover) {
+  .lf-card:hover {
+    background: #f8fafb;
+  }
+}
+.lf-card.is-active {
+  background: var(--accent-tint);
+}
+.lf-card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+.lf-name {
+  margin: 0;
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+  color: #1f2937;
+}
+.lf-title {
+  margin-right: 0.35rem;
+  font-weight: 700;
+  color: #b45309;
+}
+.lf-place {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  text-align: right;
+  white-space: nowrap;
+  color: var(--muted);
+}
+.lf-pills {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.lf-pills .pretty-pill {
+  padding: 0.16rem 0.48rem;
+  font-size: 0.64rem;
+}
+.lf-facts {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+.lf-desc {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+.lf-section {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin: 0;
+  padding: 0.35rem 0.8rem;
+  background: #eef6ec;
+  box-shadow: inset 0 -1px 0 var(--line);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--mint-ink, #244c32);
+}
+.lf-time {
+  margin-left: 0.3rem;
+  font-weight: 500;
+}
+.lf-section span {
+  margin-left: 0.5rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+/* ─── Narrower screens ─── */
+
+@media (max-width: 1180px) {
+  .finder[data-map='on'] .tf-col-fee,
+  .finder[data-map='on'] .tf-fee {
+    display: none;
+  }
+}
+
+@media (max-width: 899px) {
+  /* One column: the page itself scrolls, and the count bar rides along at
+     the top with the sort and the way to the map. */
+  .finder {
+    display: block;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .finder-bar {
+    position: sticky;
+    top: 0;
+    z-index: 6;
+  }
+  .finder-bar-extra {
+    display: none;
+  }
+  .finder-body,
+  .finder[data-map='on'] .finder-body {
+    display: block;
+  }
+  .finder-list {
+    overflow: visible;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .tf-group th,
+  .lf-section {
+    position: static;
+  }
+
+  /* Map on: it takes the screen below the controls, and the list waits. */
+  .finder[data-map='on'] {
+    display: flex;
+    overflow: hidden;
+  }
+  .finder[data-map='on'] .finder-list,
+  .finder[data-map='on'] .finder-filters,
+  .finder[data-map='on'] .finder-top {
+    display: none;
+  }
+  .finder[data-map='on'] .finder-body {
+    flex: 1;
+    min-height: 0;
+  }
+  .finder[data-map='on'] .finder-map {
+    height: 100%;
+    border-left: none;
+  }
+
+  .finder-filters-toggle {
+    display: inline-flex;
+  }
+  .finder-filters {
+    display: none;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .finder-filters.is-open {
+    display: flex;
+  }
+  .finder .filter-label {
+    min-width: 2.9rem;
+  }
+  /* Row one: search and the Filters button. Row two: place and state. */
+  .finder-search {
+    flex: 1 1 60%;
+    max-width: none;
+  }
+  .place-input {
+    flex: 1 1 55%;
+    max-width: none;
+  }
+  .finder-select {
+    flex: 1 1 30%;
+  }
+
+  /* The way to the map (and back) floats where a thumb rests. */
+  .finder-view-toggle {
+    position: fixed;
+    left: 50%;
+    bottom: calc(1rem + env(safe-area-inset-bottom));
+    z-index: 30;
+    transform: translateX(-50%);
+    padding: 0.6rem 1.1rem;
+    border-color: #111827;
+    background: #111827;
+    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.3);
+    font-size: 0.8rem;
+    color: #ffffff;
+  }
+  .finder-list {
+    padding-bottom: calc(4rem + env(safe-area-inset-bottom));
+  }
+  .finder-area-toggle {
+    top: 0.6rem;
+    bottom: auto;
+  }
+  .finder-count-where {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-nav-long {
+    display: none;
+  }
+  .site-nav-short {
+    display: inline;
+  }
+  .site-nav-link {
+    padding: 0.34rem 0.55rem;
+  }
+  .explore-top {
+    top: 0.6rem;
+    left: 0.6rem;
+    gap: 0.4rem;
+  }
+  .explore-top .search-box {
+    flex-basis: 100%;
+  }
+  .filter-bar-clubs .filter-group-day {
+    grid-row: 1;
+  }
+  .filter-bar-clubs .filter-group-when {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .filter-bar-clubs .filter-actions,
+  .filter-bar-clubs.filter-bar-with-area .filter-actions {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .filter-bar-clubs .filter-group-area {
+    grid-row: 3;
+  }
+
+  .finder-top {
+    padding: 0.45rem 0.6rem;
+  }
+  .finder-brand {
+    font-size: 1.1rem;
+  }
+  .finder-brand-text {
+    display: none;
+  }
+  .finder-controls {
+    padding: 0.5rem 0.6rem 0.45rem;
+  }
+  .finder-bar {
+    padding: 0.4rem 0.6rem;
+  }
+  .finder-count {
+    font-size: 0.74rem;
+  }
+
+  /* Each tournament becomes a card: the date down the left edge, the rest
+     stacked beside it. */
+  .tf-table,
+  .tf-table tbody,
+  .tf-table tr,
+  .tf-table td,
+  .tf-table th {
+    display: block;
+  }
+  .tf-table thead {
+    display: none;
+  }
+  .finder .tf-row {
+    display: grid;
+    grid-template-columns: 4.9rem minmax(0, 1fr) auto;
+    gap: 0.22rem 0.6rem;
+    padding: 0.65rem 0.6rem;
+  }
+  .finder .tf-row td {
+    padding: 0;
+  }
+  .tf-date {
+    grid-column: 1;
+    grid-row: 1 / span 4;
+  }
+  .tf-date .tf-sub {
+    white-space: normal;
+  }
+  .tf-name,
+  .tf-where,
+  .tf-format {
+    grid-column: 2 / -1;
+  }
+  .tf-prize {
+    grid-column: 2;
+    text-align: left;
+  }
+  .tf-fee,
+  .finder[data-map='on'] .tf-fee {
+    display: block;
+    grid-column: 3;
+    text-align: right;
+  }
+  .tf-prize:has(.tf-none),
+  .tf-fee:has(.tf-none) {
+    display: none;
+  }
+  .tf-prize::before,
+  .tf-fee::before {
+    content: attr(data-label) ' ';
+    font-size: 0.66rem;
+    color: var(--muted);
+  }
+  .tf-prize > *,
+  .tf-fee > * {
+    display: inline;
+  }
+  .tf-fee .tf-sub {
+    margin-left: 0.25rem;
+  }
+  .tf-format {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.15rem 0.45rem;
+  }
+  .tf-format .tf-sub {
+    margin-top: 0;
+  }
+
+  .lf-card {
+    padding: 0.65rem 0.6rem;
+  }
+  .lf-section {
+    padding: 0.35rem 0.6rem;
+  }
+
+  /* iOS zooms the page when a focused input is under 16px. */
+  .finder input[type='text'],
+  .finder input[type='search'],
+  .finder input[type='date'],
+  .finder select {
+    font-size: 16px;
+  }
+}

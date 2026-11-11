@@ -1,0 +1,1173 @@
+[
+  {
+    "id": "nachesshub-71f2f0a337c6c473-2026-10-02",
+    "name": "Billerica October 2026 Swiss",
+    "date": "2026-10-02",
+    "type": "tournament",
+    "endDate": "2026-10-23",
+    "format": "classical",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "website": "https://www.nachesshub.com/Events/Details/9736fc03-f787-4bcb-bcc6-36d1388871de",
+    "city": "Billerica",
+    "state": "MA",
+    "country": "US",
+    "organizer": "BCC",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/9736fc03-f787-4bcb-bcc6-36d1388871de",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-21f5dc5a64531d89-2026-10-07",
+    "name": "MCC - 2026-10",
+    "date": "2026-10-07",
+    "type": "tournament",
+    "endDate": "2026-10-28",
+    "format": "classical",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "website": "https://www.nachesshub.com/Events/Details/ac9c022b-bf0c-4ae6-89e6-88c26389d9d2",
+    "city": "Framingham",
+    "state": "MA",
+    "country": "US",
+    "organizer": "MCC",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/ac9c022b-bf0c-4ae6-89e6-88c26389d9d2",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-d6098dab07a4e64b-2026-10-08",
+    "name": "CMC Thursday G/75 (October)",
+    "date": "2026-10-08",
+    "type": "tournament",
+    "endDate": "2026-10-29",
+    "format": "classical",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "website": "https://www.nachesshub.com/Events/Details/186ee3c9-c51d-4e55-934d-b54accf264d3",
+    "city": "Coventry",
+    "state": "RI",
+    "country": "US",
+    "organizer": "CMC",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/186ee3c9-c51d-4e55-934d-b54accf264d3",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "prizeFundUsd": 700
+  },
+  {
+    "id": "nachesshub-2d6f6e3e2dda7a52-2026-10-16",
+    "name": "Grand Knights Fall Family Pizza Quads 10/16/2026",
+    "date": "2026-10-16",
+    "type": "tournament",
+    "endDate": "2026-10-16",
+    "format": "classical",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "website": "https://www.nachesshub.com/Events/Details/a7e4d632-3b6b-4508-9416-ab19b8977d45",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "organizer": "GNChess",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/a7e4d632-3b6b-4508-9416-ab19b8977d45",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-538972ece98f23bb-2026-10-17",
+    "name": "Chess A2Z Open Series at PCC - OCT 2026",
+    "date": "2026-10-17",
+    "type": "tournament",
+    "endDate": "2026-10-17",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "website": "https://www.nachesshub.com/Events/Details/2e4fb722-4989-4a02-b0ed-7fc2108c77c8",
+    "city": "Portland",
+    "state": "OR",
+    "country": "US",
+    "organizer": "A2Z",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/2e4fb722-4989-4a02-b0ed-7fc2108c77c8",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "prizeFundUsd": 200
+  },
+  {
+    "id": "nachesshub-8260a77ffd786443-2026-10-23",
+    "name": "Grand Knights Fall Family Pizza Quads 10/23/2026",
+    "date": "2026-10-23",
+    "type": "tournament",
+    "endDate": "2026-10-23",
+    "format": "classical",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "website": "https://www.nachesshub.com/Events/Details/78cf77a3-e222-4b31-98ed-53186334617c",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "organizer": "GNChess",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/78cf77a3-e222-4b31-98ed-53186334617c",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-0efcc7018dcf52d0-2026-10-25",
+    "name": "91st Greater Boston Open",
+    "date": "2026-10-25",
+    "type": "tournament",
+    "endDate": "2026-10-25",
+    "format": "classical",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "website": "https://www.nachesshub.com/Events/Details/09067883-cd2d-4642-8e0a-39c4d74de0fc",
+    "city": "Marlborough",
+    "state": "MA",
+    "country": "US",
+    "organizer": "MACA",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/09067883-cd2d-4642-8e0a-39c4d74de0fc",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "prizeFundUsd": 3000
+  },
+  {
+    "id": "nachesshub-0f0ca7552a1af597-2026-11-04",
+    "name": "MCC - 2026-11",
+    "date": "2026-11-04",
+    "type": "tournament",
+    "endDate": "2026-11-25",
+    "address": "\ud83d\udccd First Parish Church - 24 Vernon Street, Framingham, MA, USA, 01701 Copied!",
+    "lat": 42.3007,
+    "lng": -71.4255,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90; d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90; d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Wednesday, November 4, 2026 7:30 PM ~ Wednesday, November 25, 2026 11:30 PM",
+    "registrationText": "Wednesday, November 25, 2026 7:15 PM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "1. Open: (USD) $0.00 [   USCF Regular Rating 1000 - 9999 & MCC - PBC ] $0.00 [   USCF Regular Rating 1000 - 9999 & MCC - TD ] $0.00 [   Specific Player IDs  ] $32.00 [   USCF Regular Rating 1000 - 9999 & MCC - Member ] $40.00 [   USCF Regular Rating 1000 - 9999 ]\n2. U1700: (USD) $0.00 [   USCF Regular Rating 0 - 1699 & MCC - PBC ] $0.00 [   USCF Regular Rating 0 - 1699 & MCC - TD ] $32.00 [   USCF Regular Rating 0 - 1699 & MCC - Member ] $40.00 [   USCF Regular Rating 0 - 1699 ]",
+    "website": "https://www.nachesshub.com/Events/Details/fab5ab7a-63fe-4cd2-9831-c5bf505e5aea",
+    "city": "Framingham",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "MCC",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/fab5ab7a-63fe-4cd2-9831-c5bf505e5aea",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-4561516b0809fd5d-2026-11-05",
+    "name": "CMC Thursday G/75 (November)",
+    "date": "2026-11-05",
+    "type": "tournament",
+    "endDate": "2026-11-19",
+    "address": "\ud83d\udccd 182 Arnold Road, Coventry, RI, USA, 02816 Copied!",
+    "lat": 41.6914,
+    "lng": -71.5768,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 75.0,
+      "raw": "G/75+10",
+      "incrementSeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 75.0,
+        "raw": "G/75+10",
+        "incrementSeconds": 10
+      }
+    ],
+    "scheduleText": "Thursday, November 5, 2026 7:05 PM ~ Thursday, November 19, 2026 9:30 PM",
+    "registrationText": "Thursday, November 19, 2026 7:00 PM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "3. OPEN - Monthly: (USD) $30.00 [   USCF Regular Rating 0 - 1699 ]\n4. OPEN - Single Visit: (USD) $15.00 [  ]\n5. U1200 - Monthly: (USD) $30.00 [  ]\n6. U1200 - Single Visit: (USD) $10.00 [  ]",
+    "website": "https://www.nachesshub.com/Events/Details/31e59899-75bb-46f6-818f-e9bd68f06a38",
+    "city": "Coventry",
+    "state": "RI",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "CMC",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/31e59899-75bb-46f6-818f-e9bd68f06a38",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 250
+  },
+  {
+    "id": "nachesshub-83f492977de667b8-2026-11-06",
+    "name": "Grand Knights Fall Family Pizza Quads 11/06/2026",
+    "date": "2026-11-06",
+    "type": "tournament",
+    "endDate": "2026-11-06",
+    "format": "classical",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "website": "https://www.nachesshub.com/Events/Details/27fdf983-7361-47eb-8feb-4df14ba476da",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "organizer": "GNChess",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/27fdf983-7361-47eb-8feb-4df14ba476da",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-7220f235d9bd141d-2026-11-06",
+    "name": "3rd Jeffrey Caruso Memorial",
+    "date": "2026-11-06",
+    "type": "tournament",
+    "endDate": "2026-12-11",
+    "address": "\ud83d\udccd 7 Concord Rd, Billerica, MA, United States, 01821 Copied!",
+    "lat": 42.5519,
+    "lng": -71.2518,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90; d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90; d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Friday, November 6, 2026 7:30 PM ~ Friday, December 11, 2026 11:00 PM",
+    "registrationText": "Friday, December 11, 2026 7:15 PM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "1. Open: (USD) $0.00 [  ] $0.00 [   BCC-TD ] $0.00 [   BCC - Member ]",
+    "website": "https://www.nachesshub.com/Events/Details/306cbd95-079a-4844-9ba8-a06eb1138be7",
+    "city": "Billerica",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "BCC",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/306cbd95-079a-4844-9ba8-a06eb1138be7",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-f924c13fc654c93f-2026-11-07",
+    "name": "1st OSCA FIDE G/75 QUADS",
+    "date": "2026-11-07",
+    "type": "tournament",
+    "endDate": "2026-11-07",
+    "format": "classical",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "website": "https://www.nachesshub.com/Events/Details/c96959df-d9d9-4fb5-8d59-92663b26a70d",
+    "city": "Coventry",
+    "state": "RI",
+    "country": "US",
+    "organizer": "OSCA",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/c96959df-d9d9-4fb5-8d59-92663b26a70d",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "prizeFundUsd": 1500
+  },
+  {
+    "id": "nachesshub-fb1d272a54409380-2026-11-07",
+    "name": "OSCA & CMC G/30 Tournament",
+    "date": "2026-11-07",
+    "type": "tournament",
+    "endDate": "2026-11-07",
+    "format": "classical",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "website": "https://www.nachesshub.com/Events/Details/1fef2d1e-b4f0-4aed-b6d3-4a6c2deb3b4b",
+    "city": "Coventry",
+    "state": "RI",
+    "country": "US",
+    "organizer": "OSCA",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/1fef2d1e-b4f0-4aed-b6d3-4a6c2deb3b4b",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "prizeFundUsd": 300
+  },
+  {
+    "id": "nachesshub-dea079376c4cfd00-2026-11-08",
+    "name": "Fall Scholastic Individual-Team Chess Championship. NEW Format! Teams are welcome!",
+    "date": "2026-11-08",
+    "type": "tournament",
+    "endDate": "2026-11-08",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "website": "https://www.nachesshub.com/Events/Details/f4b494e9-f44a-4c42-89b6-01294a66d679",
+    "city": "Wakefield",
+    "state": "MA",
+    "country": "US",
+    "audience": "scholastic",
+    "organizer": "MACA",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/f4b494e9-f44a-4c42-89b6-01294a66d679",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-f97f08bf9526b1b8-2026-11-14",
+    "name": "Grand Knights Autumn FIDE Challange",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-15",
+    "address": "\ud83d\udccd 13620 NE 20th St Suite K, Bellevue, WA, USA, 98005 Copied!",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90;d10",
+      "delaySeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90;d10",
+        "delaySeconds": 10
+      }
+    ],
+    "scheduleText": "Saturday, November 14, 2026 9:30 AM ~ Sunday, November 15, 2026 8:00 PM",
+    "registrationText": "Friday, November 13, 2026 11:59 PM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Due on registration",
+    "website": "https://www.nachesshub.com/Events/Details/ada238f5-fb63-4433-8e5b-dedd72bfd0d1",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "fideRated": true,
+    "organizer": "GNChess",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/ada238f5-fb63-4433-8e5b-dedd72bfd0d1",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 825
+  },
+  {
+    "id": "nachesshub-408c13240e6042b2-2026-11-14",
+    "name": "Chess A2Z November Open 2026",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "address": "\ud83d\udccd 5529 NE Century Blvd, Hillsboro, OR, USA, 97124 Copied!",
+    "lat": 45.5387,
+    "lng": -122.9636,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 45.0,
+      "raw": "G/45;d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45;d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Saturday, November 14, 2026 9:30 AM ~ Saturday, November 14, 2026 3:30 PM",
+    "registrationText": "Friday, November 13, 2026 9:00 PM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "2. Open: (USD) $0.00 [ Before 11/13/2026 9:00:00 PM  USCF Regular Rating 1000 - 9999 & Gender is Female & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 11/13/2026 9:00:00 PM  USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 1000 - 9999 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 9999 & Grade 13 to 13 (Inclusive) ] $35.00 [   USCF Regular Rating 840 - 999 & Grade -2 to 12 (Inclusive) ]\n3. Under 1000: (USD) $0.00 [ Before 11/13/2026 9:00:00 PM  USCF Regular Rating 0 - 999 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 999 & Grade -2 to 12 (Inclusive) ]\n4. Under 700: (USD) $0.00 [ Before 11/13/2026 9:00:00 PM  USCF Regular Rating 0 - 699 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 699 & Grade -2 to 12 (Inclusive) ]\n5. Under 400: (USD) $0.00 [ Before 11/13/2026 9:00:00 PM  USCF Regular Rating 0 - 399 & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 11/13/2026 9:00:00 PM  USCF Regular Rating 0 - 399 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 399 & Grade -2 to 12 (Inclusive) ]",
+    "website": "https://www.nachesshub.com/Events/Details/8d928980-e1d7-487c-bebc-b4a011242b48",
+    "city": "Hillsboro",
+    "state": "OR",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "A2Z",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/8d928980-e1d7-487c-bebc-b4a011242b48",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 150
+  },
+  {
+    "id": "nachesshub-c9464db5897a2aa3-2026-11-14",
+    "name": "2026 RHODE ISLAND STATE CHAMPIONSHIP",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "address": "\ud83d\udccd Elks Lodge, 380 Social Street, Woonsocket, RI, USA, 02895 Copied!",
+    "lat": 41.9846,
+    "lng": -71.5194,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 45.0,
+      "raw": "G/45+10",
+      "incrementSeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45+10",
+        "incrementSeconds": 10
+      }
+    ],
+    "scheduleText": "Saturday, November 14, 2026 10:00 AM ~ Saturday, November 14, 2026 7:00 PM",
+    "registrationText": "Saturday, November 14, 2026 9:30 AM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "1. Open: (USD) $0.00 [   USCF Regular Rating 1201 - 9999 & OSCA Free ] $0.00 [   GM Free ] $0.00 [   OSCA Free ] $59.00 [ Before 11/9/2026 11:59:00 PM  USCF Regular Rating 1201 - 2900 ] $69.00 [ Before 11/13/2026 11:59:00 PMAfter 11/10/2026 12:01:00 AM  USCF Regular Rating 1201 - 2900 ] $80.00 [ Before 11/14/2026 9:15:00 AMAfter 11/14/2026 12:01:00 AM  USCF Regular Rating 1201 - 2900 ]\n2. U1700: (USD) $0.00 [   Scholarship Free Entry ] $0.00 [   USCF Regular Rating 801 - 1599 & OSCA Free ] $0.00 [   OSCA Free ] $59.00 [ Before 11/9/2026 11:59:00 PM  USCF Regular Rating 801 - 1699 ] $69.00 [ Before 11/13/2026 11:59:00 PMAfter 11/10/2026 12:01:00 AM  USCF Regular Rating 801 - 1699 ] $80.00 [ After 11/14/2026 12:01:00 AM  USCF Regular Rating 801 - 1699 ]\n3. U1200: (USD) $0.00 [   Scholarship Free Entry ] $0.00 [   OSCA Free ] $0.00 [   USCF Regular Rating 0 - 1199 & OSCA Free ] $45.00 [ Before 11/9/2026 11:59:00 PM  USCF Regular Rating 0 - 1199 ] $55.00 [ Before 11/13/2026 11:59:00 PMAfter 11/10/2026 12:01:00 AM  USCF Regular Rating 0 - 1199 ] $65.00 [ After 11/14/2026 12:01:00 AM  USCF Regular Rating 0 - 1199 ]\n4. U800: (USD) $0.00 [   OSCA Free ] $0.00 [   Scholarship Free Entry ] $38.00 [ Before 11/9/2026 11:59:00 PM  USCF Regular Rating 0 - 799 ] $45.00 [ Before 11/13/2026 11:59:00 PMAfter 11/10/2026 12:01:00 AM  USCF Regular Rating 0 - 799 ] $55.00 [ After 11/14/2026 12:01:00 AM  USCF Regular Rating 0 - 799 ]",
+    "website": "https://www.nachesshub.com/Events/Details/519b999e-104b-4f85-af15-71b7f1d50a8b",
+    "city": "Woonsocket",
+    "state": "RI",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "OSCA",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/519b999e-104b-4f85-af15-71b7f1d50a8b",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 2000
+  },
+  {
+    "id": "nachesshub-23af727e5fd2c1e7-2026-11-15",
+    "name": "Vortex_CC_2026-11",
+    "date": "2026-11-15",
+    "type": "tournament",
+    "endDate": "2026-11-15",
+    "address": "\ud83d\udccd ., Natick, MA, USA, 01760 Copied!",
+    "lat": 42.2875,
+    "lng": -71.3574,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 30.0,
+      "raw": "G/30; d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30; d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Sunday, November 15, 2026 9:30 AM ~ Sunday, November 15, 2026 5:00 PM",
+    "registrationText": "Saturday, November 14, 2026 12:00 AM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "1. Voting: Playing: (USD) $0.00 [   Vortex Player ]\n2. Voting: WTD - Willing to Drop: (USD) $0.00 [   Vortex Player ]\n3. Voting: WTP - Willing to Play: (USD) $0.00 [   Vortex Player ]\n5. Voting: Not Playing: (USD) $0.00 [   Vortex Player ]\n7. Even Man: Would Like to Play: (USD) $0.00 [   Vortex Even-Man ]\n9. Even Man: WTD - Willing to Dro...: (USD) $0.00 [   Vortex Even-Man ]\n10. Even Man: WTP - Willing to Pla...: (USD) $0.00 [   Vortex Even-Man ]\n11. Even Man: Not Playing: (USD) $0.00 [   Vortex Even-Man ]",
+    "website": "https://www.nachesshub.com/Events/Details/e0dac5f5-ec21-49d8-8b7b-e4821a012bb3",
+    "city": "Natick",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "VCC",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/e0dac5f5-ec21-49d8-8b7b-e4821a012bb3",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-2f299300348671b7-2026-11-21",
+    "name": "Grand Knights Saturday Quads",
+    "date": "2026-11-21",
+    "type": "tournament",
+    "endDate": "2026-11-21",
+    "address": "\ud83d\udccd 13620 NE 20th St Suite K, Bellevue, WA, USA, 98005 Copied!",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "format": "classical",
+    "scheduleText": "Saturday, November 21, 2026 9:00 AM ~ Saturday, November 21, 2026 7:00 PM",
+    "registrationText": "Saturday, November 21, 2026 8:00 AM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Due on registration",
+    "website": "https://www.nachesshub.com/Events/Details/84eeb732-34fd-42db-9013-a8a6f993fa8e",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "GNChess",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/84eeb732-34fd-42db-9013-a8a6f993fa8e",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-92173e6077becf1d-2026-11-22",
+    "name": "2ND SPIEGEL CUP QUALIFIER",
+    "date": "2026-11-22",
+    "type": "tournament",
+    "endDate": "2026-11-22",
+    "address": "\ud83d\udccd Lakeside Inn, 595 North Ave, Wakefield, MA, USA, 01880 Copied!",
+    "lat": 42.5009,
+    "lng": -71.0685,
+    "format": "classical",
+    "scheduleText": "Sunday, November 22, 2026 9:30 AM ~ Sunday, November 22, 2026 8:00 PM",
+    "registrationText": "Friday, November 20, 2026 11:59 PM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "1. Grades 6 - 8, qualifier: (USD) $36.00 [   Specific Player IDs  ] $36.00 [ Before 11/20/2026 11:59:00 PM  USCF Regular Rating 1200 - 9999 & Grade 6 to 8 (Inclusive) ]\n2. Grades K - 5, qualifier: (USD) $36.00 [ Before 11/20/2026 11:59:00 PM  USCF Regular Rating 800 - 9999 & Grade -1 to 5 (Inclusive) ]\n3. Grades K - 3, qualifier: (USD) $36.00 [ Before 11/20/2026 11:59:00 PM  Grade -1 to 3 (Inclusive) ]\n4. Reserve Under 1200: (USD) $31.00 [ Before 11/20/2026 11:59:00 PM  USCF Regular Rating 0 - 1200 ]\n5. Reserve Under 900: (USD) $31.00 [ Before 11/20/2026 11:59:00 PM  USCF Regular Rating 0 - 900 ]\n6. Reserve Under 600: (USD) $31.00 [ Before 11/20/2026 11:59:00 PM  USCF Regular Rating 0 - 600 ]\n7. Reserve Under 300, not first U...: (USD) $31.00 [ Before 11/20/2026 11:59:00 PM  USCF Regular Rating 0 - 300 ]\n8. Reserve Under 300, first USCF ...: (USD) $21.00 [ Before 11/20/2026 11:59:00 PM  USCF Regular Rating 0 - 0 ]",
+    "website": "https://www.nachesshub.com/Events/Details/460b201a-bd3f-4027-baf8-38f17d802761",
+    "city": "Wakefield",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "audience": "scholastic",
+    "organizer": "MACA",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/460b201a-bd3f-4027-baf8-38f17d802761",
+        "fetchedAt": "2026-11-10T18:37:06+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-5c29b85e81323b8b-2026-12-03",
+    "name": "CMC Thursday G/75 (December)",
+    "date": "2026-12-03",
+    "type": "tournament",
+    "endDate": "2026-12-31",
+    "address": "\ud83d\udccd 182 Arnold Road, Coventry, RI, USA, 02816 Copied!",
+    "lat": 41.6914,
+    "lng": -71.5768,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 75.0,
+      "raw": "G/75+10",
+      "incrementSeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 75.0,
+        "raw": "G/75+10",
+        "incrementSeconds": 10
+      }
+    ],
+    "scheduleText": "Thursday, December 3, 2026 7:05 PM ~ Thursday, December 31, 2026 9:30 PM",
+    "registrationText": "Thursday, December 17, 2026 7:00 PM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "1. OPEN - Monthly: (USD) $30.00 [  ]\n2. OPEN - Single Visit: (USD) $15.00 [  ]\n5. U1200 - Monthly: (USD) $30.00 [  ]\n6. U1200 - Single Visit: (USD) $10.00 [  ]",
+    "website": "https://www.nachesshub.com/Events/Details/72c23f58-f45a-476f-8ac2-0e5f39cf34a1",
+    "city": "Coventry",
+    "state": "RI",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "CMC",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/72c23f58-f45a-476f-8ac2-0e5f39cf34a1",
+        "fetchedAt": "2026-11-10T18:37:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 250
+  },
+  {
+    "id": "nachesshub-6f9de33c8b5211dd-2026-12-04",
+    "name": "2026 Oregon Scholastic Premier Open",
+    "date": "2026-12-04",
+    "type": "tournament",
+    "endDate": "2026-12-06",
+    "address": "\ud83d\udccd 2701 NW Vaughn St, Portland, OR, US, 97210 Copied!",
+    "lat": 45.5303,
+    "lng": -122.7033,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90;+30",
+      "incrementSeconds": 30
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90;+30",
+        "incrementSeconds": 30
+      }
+    ],
+    "scheduleText": "Friday, December 4, 2026 6:30 PM ~ Sunday, December 6, 2026 6:30 PM",
+    "registrationText": "Friday, December 4, 2026 8:30 AM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "1. Premier: (USD) $50.00 [ Before 11/10/2026 12:00:00 AM  USCF Regular Rating 1400 - 9999 & Born on/after 12/5/2005 ] $60.00 [ After 11/10/2026 12:00:54 AM  USCF Regular Rating 1400 - 9999 & Born on/after 12/5/2005 ] $60.00 [ Before 11/10/2026 12:00:00 AM  USCF Regular Rating 0 - 1399 & Born on/after 12/5/2005 ] $70.00 [ After 11/10/2026 12:00:58 AM  USCF Regular Rating 0 - 1399 & Born on/after 12/5/2005 ]\n2. Rising Stars: (USD) $50.00 [ Before 11/10/2026 12:00:00 AM  USCF Regular Rating 0 - 1399 & Born on/after 12/5/2005 ] $60.00 [ After 11/10/2026 12:00:31 AM  USCF Regular Rating 0 - 1399 & Born on/after 12/5/2005 ]",
+    "website": "https://www.nachesshub.com/Events/Details/08a4ea35-5bcc-4648-840f-50b4bf71eece",
+    "city": "Portland",
+    "state": "OR",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "audience": "scholastic",
+    "organizer": "A2Z",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/08a4ea35-5bcc-4648-840f-50b4bf71eece",
+        "fetchedAt": "2026-11-10T18:37:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-ded5ec2b1a440415-2026-12-05",
+    "name": "Grand Knights Saturday Quads",
+    "date": "2026-12-05",
+    "type": "tournament",
+    "endDate": "2026-12-05",
+    "address": "\ud83d\udccd 13620 NE 20th St Suite K, Bellevue, WA, USA, 98005 Copied!",
+    "lat": 47.615,
+    "lng": -122.1663,
+    "format": "classical",
+    "scheduleText": "Saturday, December 5, 2026 9:00 AM ~ Saturday, December 5, 2026 7:00 PM",
+    "registrationText": "Friday, December 4, 2026 11:59 PM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Due on registration",
+    "website": "https://www.nachesshub.com/Events/Details/8fcadb07-f695-4a6d-a72f-4ae559d57dbe",
+    "city": "Bellevue",
+    "state": "WA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "GNChess",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/8fcadb07-f695-4a6d-a72f-4ae559d57dbe",
+        "fetchedAt": "2026-11-10T18:37:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-baa379b056bf69c7-2026-12-06",
+    "name": "Harry Nelson Pillsbury Memorial",
+    "date": "2026-12-06",
+    "type": "tournament",
+    "endDate": "2026-12-06",
+    "address": "\ud83d\udccd 170 Forest St, Marlborough, MA, USA, 01752 Copied!",
+    "lat": 42.3509,
+    "lng": -71.5434,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60.0,
+      "raw": "G/60; d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60; d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Sunday, December 6, 2026 12:00 AM ~ Sunday, December 6, 2026 11:59 PM",
+    "registrationText": "Friday, December 4, 2026 11:59 PM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "1. Premier: (USD) $0.00 [ Before 12/4/2026 11:59:00 PM  FIDE Title = IM ] $0.00 [ Before 12/4/2026 11:59:00 PM  FIDE Title = GM ] $45.00 [ Before 12/2/2026 11:59:00 PM  USCF Regular Rating 2000 - 9999 ] $55.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:07 PM  USCF Regular Rating 2000 - 9999 ]\n2. Under 2200: (USD) $45.00 [ Before 12/2/2026 11:59:00 PM  USCF Regular Rating 0 - 0 ] $45.00 [ Before 12/2/2026 11:59:00 PM  USCF Regular Rating 1800 - 2199 ] $55.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:44 PM  USCF Regular Rating 0 - 0 ] $55.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:04 PM  USCF Regular Rating 1800 - 2199 ]\n3. Under 2000: (USD) $45.00 [   USCF Regular Rating 0 - 0 ] $45.00 [ Before 12/2/2026 11:59:00 PM  USCF Regular Rating 1600 - 1999 ] $55.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:40 PM  USCF Regular Rating 1600 - 1999 ] $55.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:32 PM  USCF Regular Rating 0 - 0 ]\n4. Under 1800: (USD) $45.00 [ Before 12/2/2026 11:59:00 PM  USCF Regular Rating 0 - 0 ] $45.00 [ Before 12/2/2026 11:59:00 PM  USCF Regular Rating 1300 - 1799 ] $55.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:09 PM  USCF Regular Rating 1300 - 1799 ] $55.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:56 PM  USCF Regular Rating 0 - 0 ]\n5. Under 1500: (USD) $45.00 [ Before 12/2/2026 11:59:00 PM  USCF Regular Rating 1000 - 1499 ] $45.00 [ Before 12/2/2026 11:59:00 PM  USCF Regular Rating 0 - 0 ] $55.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:18 PM  USCF Regular Rating 0 - 0 ] $55.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:31 PM ]\n6. Under 1200: (USD) $45.00 [ Before 12/2/2026 11:59:00 PM  USCF Regular Rating 0 - 0 ] $45.00 [ Before 12/2/2026 11:59:00 PM  USCF Regular Rating 800 - 1199 ] $55.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:45 PM  USCF Regular Rating 0 - 0 ] $55.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:13 PM  USCF Regular Rating 800 - 1199 ]\n7. Under 1000: (USD) $35.00 [ Before 12/2/2026 11:59:00 PM  USCF Regular Rating 0 - 999 ] $45.00 [ Before 12/4/2026 11:59:00 PMAfter 12/2/2026 11:58:22 PM  USCF Regular Rating 0 - 999 ]",
+    "website": "https://www.nachesshub.com/Events/Details/6de4565b-6129-4361-8148-9139107f55e1",
+    "city": "Marlborough",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "MACA",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/6de4565b-6129-4361-8148-9139107f55e1",
+        "fetchedAt": "2026-11-10T18:37:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 2500
+  },
+  {
+    "id": "nachesshub-40ff3315edb0a17e-2026-12-12",
+    "name": "Chess A2Z December Open 2026",
+    "date": "2026-12-12",
+    "type": "tournament",
+    "endDate": "2026-12-12",
+    "address": "\ud83d\udccd 5529 NE Century Blvd, Hillsboro, OR, USA, 97124 Copied!",
+    "lat": 45.5387,
+    "lng": -122.9636,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 45.0,
+      "raw": "G/45;d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45;d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Saturday, December 12, 2026 9:30 AM ~ Saturday, December 12, 2026 3:30 PM",
+    "registrationText": "Friday, December 11, 2026 9:00 PM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "2. Open: (USD) $0.00 [ Before 12/11/2026 9:00:00 PM  USCF Regular Rating 1000 - 9999 & Gender is Female & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 12/11/2026 9:00:00 PM  USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 9999 & Grade 13 to 13 (Inclusive) ] $30.00 [   USCF Regular Rating 1000 - 9999 & Grade -2 to 12 (Inclusive) ] $35.00 [   USCF Regular Rating 850 - 999 & Grade -2 to 12 (Inclusive) ]\n3. Under 1000: (USD) $0.00 [ Before 12/11/2026 9:00:00 PM  USCF Regular Rating 0 - 999 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 999 & Grade -2 to 12 (Inclusive) ]\n4. Under 700: (USD) $0.00 [ Before 12/11/2026 9:00:00 PM  USCF Regular Rating 0 - 699 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 699 & Grade -2 to 12 (Inclusive) ]\n5. Under 400: (USD) $0.00 [ Before 12/11/2026 9:00:00 PM  USCF Regular Rating 0 - 399 & Gender is Female & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 12/11/2026 9:00:00 PM  USCF Regular Rating 0 - 399 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 399 & Grade -2 to 12 (Inclusive) ]",
+    "website": "https://www.nachesshub.com/Events/Details/da415093-c428-4d22-8c39-ee7f961b0b53",
+    "city": "Hillsboro",
+    "state": "OR",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "A2Z",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/da415093-c428-4d22-8c39-ee7f961b0b53",
+        "fetchedAt": "2026-11-10T18:37:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 150
+  },
+  {
+    "id": "nachesshub-d8a0d73788501a86-2027-01-02",
+    "name": "Rhode Island Scholastic Chess League Team",
+    "date": "2027-01-02",
+    "type": "tournament",
+    "endDate": "2027-03-27",
+    "address": "\ud83d\udccd 42 Forbes Street, Riverside, RI, USA, 02915 Copied!",
+    "lat": 41.7723,
+    "lng": -71.3542,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "G/45;d5 / G/60;d5"
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45;d5",
+        "delaySeconds": 5
+      },
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60;d5",
+        "delaySeconds": 5
+      }
+    ],
+    "scheduleText": "Saturday, January 2, 2027 12:00 AM ~ Saturday, March 27, 2027 11:00 PM",
+    "registrationText": "Friday, December 11, 2026 11:00 PM",
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Due on registration",
+    "website": "https://www.nachesshub.com/Events/Details/42d6ca5d-faa1-4161-928c-4b339788652e",
+    "city": "Riverside",
+    "state": "RI",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "audience": "scholastic",
+    "organizer": "OSCA",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/42d6ca5d-faa1-4161-928c-4b339788652e",
+        "fetchedAt": "2026-11-10T18:37:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 0
+  },
+  {
+    "id": "nachesshub-d04a4b4ff19f15a4-2027-01-23",
+    "name": "Chess A2Z Open Series at PCC - Jan 2027",
+    "date": "2027-01-23",
+    "type": "tournament",
+    "endDate": "2027-01-23",
+    "address": "\ud83d\udccd 2701 NW Vaughn St, Portland, OR, USA, 97210 Copied!",
+    "lat": 45.5303,
+    "lng": -122.7033,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 45.0,
+      "raw": "G/45;+5",
+      "incrementSeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45;+5",
+        "incrementSeconds": 5
+      }
+    ],
+    "scheduleText": "Saturday, January 23, 2027 9:30 AM ~ Saturday, January 23, 2027 5:00 PM",
+    "registrationText": "Saturday, January 23, 2027 9:00 AM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "2. Open: (USD) $0.00 [ Before 1/22/2027 9:00:00 PM  USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 1/22/2027 8:00:00 PM  USCF Regular Rating 1200 - 9999 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 9999 & Grade 13 to 13 (Inclusive) ] $30.00 [   USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $35.00 [   USCF Regular Rating 800 - 9999 & Grade -2 to 12 (Inclusive) ]\n3. Under 1200: (USD) $0.00 [ Before 1/22/2027 8:00:00 PM  USCF Regular Rating 0 - 1199 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 1199 & Grade -2 to 12 (Inclusive) ]\n4. Under 800: (USD) $0.00 [ Before 1/22/2027 8:00:00 PM  USCF Regular Rating 0 - 799 & Gender is Female & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 1/22/2027 8:00:00 PM  USCF Regular Rating 0 - 399 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 799 & Grade -2 to 12 (Inclusive) ]",
+    "website": "https://www.nachesshub.com/Events/Details/b39c1d91-2faa-4bfd-9b22-5eecf3452339",
+    "city": "Portland",
+    "state": "OR",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "A2Z",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/b39c1d91-2faa-4bfd-9b22-5eecf3452339",
+        "fetchedAt": "2026-11-10T18:37:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 200
+  },
+  {
+    "id": "nachesshub-d62b135ffb0b5fce-2027-03-06",
+    "name": "Chess A2Z Open Series at PCC - March 2027",
+    "date": "2027-03-06",
+    "type": "tournament",
+    "endDate": "2027-03-06",
+    "address": "\ud83d\udccd 2701 NW Vaughn St, Portland, OR, USA, 97210 Copied!",
+    "lat": 45.5303,
+    "lng": -122.7033,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 45.0,
+      "raw": "G/45;+5",
+      "incrementSeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45;+5",
+        "incrementSeconds": 5
+      }
+    ],
+    "scheduleText": "Saturday, March 6, 2027 9:30 AM ~ Saturday, March 6, 2027 5:00 PM",
+    "registrationText": "Saturday, March 6, 2027 9:00 AM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "2. Open: (USD) $0.00 [ Before 3/5/2027 8:00:00 PM  USCF Regular Rating 1200 - 9999 & Gender is Female & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 3/5/2027 9:00:00 PM  USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 9999 & Grade 13 to 13 (Inclusive) ] $30.00 [   USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $35.00 [   USCF Regular Rating 800 - 9999 & Grade -2 to 12 (Inclusive) ]\n3. Under 1200: (USD) $0.00 [ Before 3/5/2027 8:00:00 PM  USCF Regular Rating 0 - 1199 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 1199 & Grade -2 to 12 (Inclusive) ]\n4. Under 800: (USD) $0.00 [ Before 3/5/2027 8:00:00 PM  USCF Regular Rating 0 - 399 & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 3/5/2027 8:00:00 PM  USCF Regular Rating 0 - 799 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 799 & Grade -2 to 12 (Inclusive) ]",
+    "website": "https://www.nachesshub.com/Events/Details/3a4d5c47-0f82-41bf-891b-03c17633bf4f",
+    "city": "Portland",
+    "state": "OR",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "A2Z",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/3a4d5c47-0f82-41bf-891b-03c17633bf4f",
+        "fetchedAt": "2026-11-10T18:37:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 200
+  },
+  {
+    "id": "nachesshub-77a951de8b6a4232-2027-05-23",
+    "name": "Chess A2Z Open Series at PCC - May 2027",
+    "date": "2027-05-23",
+    "type": "tournament",
+    "endDate": "2027-05-23",
+    "address": "\ud83d\udccd 2701 NW Vaughn St, Portland, OR, USA, 97210 Copied!",
+    "lat": 45.5303,
+    "lng": -122.7033,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 45.0,
+      "raw": "G/45;+5",
+      "incrementSeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45;+5",
+        "incrementSeconds": 5
+      }
+    ],
+    "scheduleText": "Sunday, May 23, 2027 9:30 AM ~ Sunday, May 23, 2027 5:00 PM",
+    "registrationText": "Sunday, May 23, 2027 9:00 AM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "2. Open: (USD) $0.00 [ Before 5/22/2027 8:00:00 PM  USCF Regular Rating 1200 - 9999 & Gender is Female & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 5/22/2027 9:00:00 PM  USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 9999 & Grade 13 to 13 (Inclusive) ] $30.00 [   USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $35.00 [   USCF Regular Rating 800 - 9999 & Grade -2 to 12 (Inclusive) ]\n3. Under 1200: (USD) $0.00 [ Before 5/22/2027 8:00:00 PM  USCF Regular Rating 0 - 1199 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 1199 & Grade -2 to 12 (Inclusive) ]\n4. Under 800: (USD) $0.00 [ Before 5/22/2027 8:00:00 PM  USCF Regular Rating 0 - 799 & Gender is Female & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 5/22/2027 8:00:00 PM  USCF Regular Rating 0 - 399 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 799 & Grade -2 to 12 (Inclusive) ]",
+    "website": "https://www.nachesshub.com/Events/Details/ec73002f-3e67-49dd-bc11-7b8d7efb9ee8",
+    "city": "Portland",
+    "state": "OR",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "A2Z",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/ec73002f-3e67-49dd-bc11-7b8d7efb9ee8",
+        "fetchedAt": "2026-11-10T18:37:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 200
+  },
+  {
+    "id": "nachesshub-050e38eda596d3c5-2027-07-03",
+    "name": "Chess A2Z Open Series at PCC - July 2027",
+    "date": "2027-07-03",
+    "type": "tournament",
+    "endDate": "2027-07-03",
+    "address": "\ud83d\udccd 2701 NW Vaughn St, Portland, OR, USA, 97210 Copied!",
+    "lat": 45.5303,
+    "lng": -122.7033,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 45.0,
+      "raw": "G/45;+5",
+      "incrementSeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45;+5",
+        "incrementSeconds": 5
+      }
+    ],
+    "scheduleText": "Saturday, July 3, 2027 9:30 AM ~ Saturday, July 3, 2027 5:00 PM",
+    "registrationText": "Saturday, July 3, 2027 9:00 AM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "2. Open: (USD) $0.00 [ Before 7/2/2027 8:00:00 PM  USCF Regular Rating 1200 - 9999 & Gender is Female & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 7/2/2027 9:00:00 PM  USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 9999 & Grade 13 to 13 (Inclusive) ] $35.00 [   USCF Regular Rating 800 - 9999 & Grade -2 to 12 (Inclusive) ]\n3. Under 1200: (USD) $0.00 [ Before 7/2/2027 8:00:00 PM  USCF Regular Rating 0 - 1199 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 1199 & Grade -2 to 12 (Inclusive) ]\n4. Under 800: (USD) $0.00 [ Before 7/2/2027 8:00:00 PM  USCF Regular Rating 0 - 399 & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 7/2/2027 8:00:00 PM  USCF Regular Rating 0 - 799 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 799 & Grade -2 to 12 (Inclusive) ]",
+    "website": "https://www.nachesshub.com/Events/Details/167760ba-a063-428a-8710-7fdb78ab5dc7",
+    "city": "Portland",
+    "state": "OR",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "A2Z",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/167760ba-a063-428a-8710-7fdb78ab5dc7",
+        "fetchedAt": "2026-11-10T18:37:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 200
+  },
+  {
+    "id": "nachesshub-eb0407b67d891434-2027-10-02",
+    "name": "Chess A2Z Open Series at PCC - Oct 2027",
+    "date": "2027-10-02",
+    "type": "tournament",
+    "endDate": "2027-10-02",
+    "address": "\ud83d\udccd 2701 NW Vaughn St, Portland, OR, USA, 97210 Copied!",
+    "lat": 45.5303,
+    "lng": -122.7033,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 45.0,
+      "raw": "G/45;+5",
+      "incrementSeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45;+5",
+        "incrementSeconds": 5
+      }
+    ],
+    "scheduleText": "Saturday, October 2, 2027 9:30 AM ~ Saturday, October 2, 2027 5:00 PM",
+    "registrationText": "Saturday, October 2, 2027 9:00 AM",
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "2. Open: (USD) $0.00 [ Before 10/1/2027 8:00:00 PM  USCF Regular Rating 1200 - 9999 & Gender is Female & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 10/1/2027 9:00:00 PM  USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 1200 - 9999 & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 9999 & Grade 13 to 13 (Inclusive) ] $35.00 [   USCF Regular Rating 800 - 9999 & Grade -2 to 12 (Inclusive) ]\n3. Under 1200: (USD) $0.00 [ Before 10/1/2027 8:00:00 PM  USCF Regular Rating 0 - 1199 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 1199 & Grade -2 to 12 (Inclusive) ]\n4. Under 800: (USD) $0.00 [ Before 10/1/2027 8:00:00 PM  USCF Regular Rating 0 - 399 & Grade -2 to 12 (Inclusive) ] $0.00 [ Before 10/1/2027 8:00:00 PM  USCF Regular Rating 0 - 799 & Gender is Female & Grade -2 to 12 (Inclusive) ] $30.00 [   USCF Regular Rating 0 - 799 & Grade -2 to 12 (Inclusive) ]",
+    "website": "https://www.nachesshub.com/Events/Details/4fd100c3-f737-45a4-a349-2a26c361358c",
+    "city": "Portland",
+    "state": "OR",
+    "country": "US",
+    "online": false,
+    "fideRated": false,
+    "organizer": "A2Z",
+    "source": "nachesshub",
+    "sources": [
+      {
+        "id": "nachesshub",
+        "url": "https://www.nachesshub.com/Events/Details/4fd100c3-f737-45a4-a349-2a26c361358c",
+        "fetchedAt": "2026-11-10T18:37:07+00:00"
+      }
+    ],
+    "locationPrecision": "postal",
+    "prizeFundUsd": 200
+  }
+]

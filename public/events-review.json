@@ -1,0 +1,1431 @@
+{
+  "checkedAt": "2026-11-10T18:37:08+00:00",
+  "passed": true,
+  "coverage": {
+    "events": 763,
+    "withFees": 381,
+    "withSchedule": 269,
+    "withRegistration": 322,
+    "physicalEvents": 745,
+    "mapped": 744,
+    "venueCoordinates": 18
+  },
+  "issueCounts": {
+    "multiple-or-ambiguous-time-controls": 147,
+    "recurring-or-long-date-range": 38,
+    "unexpired-listing-rechecked": 33,
+    "section-specific-fees-need-review": 17
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-8d497ab9d794451d-2020-03-29",
+      "url": "https://new.uschess.org/weekly-uscf-rated-online-tournaments-dmv-chess"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-8d497ab9d794451d-2020-03-29",
+      "url": "https://new.uschess.org/weekly-uscf-rated-online-tournaments-dmv-chess"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-64e6f93fda044eec-2026-01-03",
+      "url": "https://new.uschess.org/2026-classical-league"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-81417c6195013683-2026-01-11",
+      "url": "https://new.uschess.org/2026-icea-chess-scholastic-irvine"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-81417c6195013683-2026-01-11",
+      "url": "https://new.uschess.org/2026-icea-chess-scholastic-irvine"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-57c62bf30e772969-2026-03-05",
+      "url": "https://new.uschess.org/madison-county-monthly-quads"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-2521d8ed49da010e-2026-06-20",
+      "url": "https://new.uschess.org/buffalo-chess-association-open-swiss-0"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-19962ae30a92c40e-2026-08-31",
+      "url": "https://new.uschess.org/alecs-chess-club-weekly-homeschool-tournaments"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-3eccbc8b04ca377e-2026-09-13",
+      "url": "https://new.uschess.org/beachwood-sunday-classes-championship-challenge-fall-2026"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-078fd393d7182a8e-2026-09-20",
+      "url": "https://new.uschess.org/lakewood-sunday-classes-championship-challenge-fall-2026"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-fb58da09ffe86ead-2026-09-26",
+      "url": "https://new.uschess.org/alecs-chess-club-monthly-online-saturday-tournaments"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-935b8669fc76b6f7-2026-10-01",
+      "url": "https://new.uschess.org/superior-grand-prix-fall-season-quick-quads"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-5ac1f25b93a2a127-2026-10-03",
+      "url": "https://new.uschess.org/uscf-3-round-g60-bellevue-chess4life"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-48fa715492513bcb-2026-10-07",
+      "url": "https://new.uschess.org/weekly-u2200-17"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-48fa715492513bcb-2026-10-07",
+      "url": "https://new.uschess.org/weekly-u2200-17"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-36dc7a0f10d6d336-2026-10-19",
+      "url": "https://new.uschess.org/marshall-fide-monday-15"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-36dc7a0f10d6d336-2026-10-19",
+      "url": "https://new.uschess.org/marshall-fide-monday-15"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-6753fbb8480916b1-2026-10-28",
+      "url": "https://new.uschess.org/first-city-chess-club-online-championship-circuit-26-27-season"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-6753fbb8480916b1-2026-10-28",
+      "url": "https://new.uschess.org/first-city-chess-club-online-championship-circuit-26-27-season"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-2676701baec5ac7e-2026-10-29",
+      "url": "https://new.uschess.org/strategem-cup-series-season-1"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-5b253b86e7f4adba-2026-11-02",
+      "url": "https://new.uschess.org/msje-2026-lidong-monday-night-marathon"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-5b253b86e7f4adba-2026-11-02",
+      "url": "https://new.uschess.org/msje-2026-lidong-monday-night-marathon"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-7047bf21b50a6b3c-2026-11-03",
+      "url": "https://new.uschess.org/2026-winter-tuesday-night-marathon"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-7047bf21b50a6b3c-2026-11-03",
+      "url": "https://new.uschess.org/2026-winter-tuesday-night-marathon"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "boylston-fa6141996789dd19-2026-11-03",
+      "url": "https://boylstonchess.org/events/1584/november-tuesday-night-swiss-otb"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-3b706ea92dcb259e-2026-11-03",
+      "url": "https://new.uschess.org/november-two-rapid-tournaments"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-3b706ea92dcb259e-2026-11-03",
+      "url": "https://new.uschess.org/november-two-rapid-tournaments"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-2b6351700b26b957-2026-11-04",
+      "url": "https://new.uschess.org/20th-annual-spice-cup-open"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-2b6351700b26b957-2026-11-04",
+      "url": "https://new.uschess.org/20th-annual-spice-cup-open"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "nachesshub-0f0ca7552a1af597-2026-11-04",
+      "url": "https://www.nachesshub.com/Events/Details/fab5ab7a-63fe-4cd2-9831-c5bf505e5aea"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-0f764edb5ecbfb4e-2026-11-04",
+      "url": "https://new.uschess.org/madison-area-chess-club-fall-marathon-2026"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "nachesshub-4561516b0809fd5d-2026-11-05",
+      "url": "https://www.nachesshub.com/Events/Details/31e59899-75bb-46f6-818f-e9bd68f06a38"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-1f6a0c3a0a2526ea-2026-11-05",
+      "url": "https://new.uschess.org/fifth-menlo-park-chess-club-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-313acfefb2bd58b7-2026-11-05",
+      "url": "https://new.uschess.org/marshall-thursday-fide-open-14"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-313acfefb2bd58b7-2026-11-05",
+      "url": "https://new.uschess.org/marshall-thursday-fide-open-14"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-6691989712ed6735-2026-11-05",
+      "url": "https://new.uschess.org/thursday-nights-gias-pizzeria"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-a83767dfbc657558-2026-11-05",
+      "url": "https://new.uschess.org/university-pittsburgh-thursday-night-29-0-quick-5"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "nachesshub-7220f235d9bd141d-2026-11-06",
+      "url": "https://www.nachesshub.com/Events/Details/306cbd95-079a-4844-9ba8-a06eb1138be7"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-09e1104dda80d0fc-2026-11-06",
+      "url": "https://new.uschess.org/la-palma-winter26-chess-open"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-09e1104dda80d0fc-2026-11-06",
+      "url": "https://new.uschess.org/la-palma-winter26-chess-open"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-be6200a839998ccd-2026-11-07",
+      "url": "https://new.uschess.org/weekly-tournament-chess-pocket-park-2"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-67fba8f1ac73e66d-2026-11-11",
+      "url": "https://new.uschess.org/common-grounds-coffee-rapid-and-blitz-quads"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-b8f5d20df827b794-2026-11-11",
+      "url": "https://new.uschess.org/weekly-chess-memphis-chess-club"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-b8f5d20df827b794-2026-11-11",
+      "url": "https://new.uschess.org/weekly-chess-memphis-chess-club"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-e2951222f68604f9-2026-11-12",
+      "url": "https://new.uschess.org/masters-mentors-free-weekly-blitz"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-6adecb7b4d6cb29a-2026-11-13",
+      "url": "https://new.uschess.org/2026-houston-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-02a1fed25ab123c1-2026-11-13",
+      "url": "https://new.uschess.org/24th-annual-turkey-bowl"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-0769797f1d375848-2026-11-13",
+      "url": "https://new.uschess.org/35th-annual-kings-island-open"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-0769797f1d375848-2026-11-13",
+      "url": "https://new.uschess.org/35th-annual-kings-island-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-906b66288995e5ba-2026-11-13",
+      "url": "https://new.uschess.org/3rd-annual-thanksgiving-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-8906a2f8c05d4e70-2026-11-13",
+      "url": "https://new.uschess.org/4th-sapiens-sapiens-tournament-5000-prize"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "boylston-b43536ff7aa4a7a6-2026-11-13",
+      "url": "https://boylstonchess.org/events/1604/rated-friday-night-blitz"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-72e01b4086a563c7-2026-11-13",
+      "url": "https://new.uschess.org/texas-north-grade-championship-2026"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-6719e4ec63559553-2026-11-14",
+      "url": "https://new.uschess.org/10th-annual-new-york-state-girls-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-6719e4ec63559553-2026-11-14",
+      "url": "https://new.uschess.org/10th-annual-new-york-state-girls-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-769a1bde1d2807d3-2026-11-14",
+      "url": "https://new.uschess.org/1114-quad-chess-tournament-g40-d5"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-e54658770b20496f-2026-11-14",
+      "url": "https://new.uschess.org/14th-annual-kings-island-open-blitz-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-d980aff81d9c582c-2026-11-14",
+      "url": "https://new.uschess.org/2026-icea-chess-west-la"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-7f9ff65e9045aa47-2026-11-14",
+      "url": "https://new.uschess.org/2026-keystone-fall-scholastic-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-c2ff0111f41214cc-2026-11-14",
+      "url": "https://new.uschess.org/2026-rhode-island-state-championship-2000-guaranteed"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-6d2d9f781506df82-2026-11-14",
+      "url": "https://new.uschess.org/2026-wca-veterans-tournament"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-34dbb0446c5d3703-2026-11-14",
+      "url": "https://new.uschess.org/2026-2027-wisconsin-junior-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-9d5e59fe70f2c820-2026-11-14",
+      "url": "https://new.uschess.org/6th-annual-sopo-high-school-chess-tournament"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-b72ba2e86e241c9d-2026-11-14",
+      "url": "https://new.uschess.org/agca-november-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-3de5e96887553eec-2026-11-14",
+      "url": "https://new.uschess.org/chess-zone-november-melee-g305-0"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-a62f0ced369322d1-2026-11-14",
+      "url": "https://new.uschess.org/ckq-piscatway-rapids-17"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-4f0c87ca27063e8d-2026-11-14",
+      "url": "https://new.uschess.org/choctaw-k-12-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-a47bb4d7fb727111-2026-11-14",
+      "url": "https://new.uschess.org/dragon-knight-cc-saturday-afternoon-scholastic-quads-morrisville"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-431c67fdc55f6c3f-2026-11-14",
+      "url": "https://new.uschess.org/dragon-knight-cc-saturday-morning-scholastic-quads-morrisville"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-a92698ca8d2352a3-2026-11-14",
+      "url": "https://new.uschess.org/dragon-knight-cc-saturday-scholastic-pizza-quads-morrisville"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-166975e3e8c9c7ec-2026-11-14",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-120"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-166975e3e8c9c7ec-2026-11-14",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-120"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-f6101329530e64ec-2026-11-14",
+      "url": "https://new.uschess.org/masterminds-2nd-saturday-47"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-0905c0ed07ea8f61-2026-11-14",
+      "url": "https://new.uschess.org/nmco-2026-new-mexico-state-chess-championship-nm-residents-only-championship-section"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-eec7f3863ee81c9d-2026-11-14",
+      "url": "https://new.uschess.org/prairie-chess-series-november"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-ada10b71360fe7f5-2026-11-14",
+      "url": "https://new.uschess.org/saturday-swiss-8"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-96a6bbab2263aaac-2026-11-14",
+      "url": "https://new.uschess.org/steve-mc-neil-memorial-open-springfield"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-6d9700a2f5d35703-2026-11-14",
+      "url": "https://new.uschess.org/thanksgiving-open-blitz-0"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-a1c0641f0bde39f1-2026-11-15",
+      "url": "https://new.uschess.org/5th-iron-knights-amateur-must-be-rated-under-2000"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-36867ecb654cbb49-2026-11-15",
+      "url": "https://new.uschess.org/charlotte-chess-center-sunday-afternoon-classical"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-2351bec55439b474-2026-11-15",
+      "url": "https://new.uschess.org/day-knight-november-open-2026"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-4a535edfd980a9f7-2026-11-15",
+      "url": "https://new.uschess.org/livingston-junior-chess-series-november"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-eb92451170ecbc9d-2026-11-15",
+      "url": "https://new.uschess.org/peoria-fide-blitz-and-rapid"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-997d8f55e7b64a30-2026-11-17",
+      "url": "https://new.uschess.org/charlotte-chess-center-tuesday-night-action"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-dc6db111612537fc-2026-11-20",
+      "url": "https://new.uschess.org/2026-georgia-open-amateur-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "boylston-07f1c5712b3e7b0d-2026-11-20",
+      "url": "https://boylstonchess.org/events/1605/unrated-friday-night-blitz"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-a92577a6070f8e1b-2026-11-21",
+      "url": "https://new.uschess.org/2026-connecticut-state-championship-6000-prizes-and-awards"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-eab8ba9640b9c17c-2026-11-21",
+      "url": "https://new.uschess.org/2026-dancing-knights-scholastic-k-12"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-4ff071036feecddb-2026-11-21",
+      "url": "https://new.uschess.org/2026-steel-city-challenge"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-35eb3325ef6f6446-2026-11-21",
+      "url": "https://new.uschess.org/2027-new-mexico-all-girls-scholastic-state-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-3129a0c9ff567e60-2026-11-21",
+      "url": "https://new.uschess.org/3rd-anniversary-us-chess-rated-tournament-59-november-21-2026"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-345d944f12c175d5-2026-11-21",
+      "url": "https://new.uschess.org/acc-action-plus-g45-46"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-c2206459602ba010-2026-11-21",
+      "url": "https://new.uschess.org/agca-november-scholastic-open-tour-2"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-a4b3371019670e8a-2026-11-21",
+      "url": "https://new.uschess.org/arizona-golden-cup-9"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-f53fa2008662c65d-2026-11-21",
+      "url": "https://new.uschess.org/ckq-piscatway-rapids-18"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-5e2d8515b5a7360d-2026-11-21",
+      "url": "https://new.uschess.org/charlotte-chess-center-fide-saturdays-11"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-360dcf1a52d02927-2026-11-21",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-121"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-f59c870ed806b52f-2026-11-21",
+      "url": "https://new.uschess.org/let-there-be-light-xx"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-ef9641f50db7df27-2026-11-21",
+      "url": "https://new.uschess.org/montgomery-county-chess-tournament-1121"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-3d0c91d53047e83e-2026-11-21",
+      "url": "https://new.uschess.org/new-lebanon-brethren-chess-club-rated-nov-2026"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-0dc177929c20d06a-2026-11-21",
+      "url": "https://new.uschess.org/prescott-quads-35"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-0b60c7be19017377-2026-11-22",
+      "url": "https://new.uschess.org/12th-annual-new-york-state-magnus-high-school-and-junior-high-chess-league-november-22"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-0dc5aeec98e6f88f-2026-11-22",
+      "url": "https://new.uschess.org/2026-illinois-class-state-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-f4cfc38e88bbb749-2026-11-22",
+      "url": "https://new.uschess.org/cqc-hc-anniversary-chess"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-f02fa60e33de9ebd-2026-11-22",
+      "url": "https://new.uschess.org/pennsylvania-state-game30-championship-sunday"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-a23a4cf0e95202aa-2026-11-25",
+      "url": "https://new.uschess.org/2026-us-masters"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-d46439cabd495719-2026-11-27",
+      "url": "https://new.uschess.org/10th-annual-sevan-muradian-memorial"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-8e7648fff551e2fc-2026-11-27",
+      "url": "https://new.uschess.org/2026-north-carolina-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-45ceda91e85a0352-2026-11-27",
+      "url": "https://new.uschess.org/57th-annual-national-chess-congress"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-b543f8e6f9affc57-2026-11-27",
+      "url": "https://new.uschess.org/rising-star-thanksgiving-classic"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-64a42a082c503f69-2026-11-27",
+      "url": "https://new.uschess.org/texas-thanksgiving-classic-fide-rated-7-rounds"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-5725e5ac2df6395b-2026-11-28",
+      "url": "https://new.uschess.org/ultimate-gladiators-u1650-rapid-blitz"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-9ad0cc41c22ab8a4-2026-11-30",
+      "url": "https://new.uschess.org/marshall-fide-monday-16"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-2e660ce0cba3ba48-2026-12-01",
+      "url": "https://new.uschess.org/december-monthly-classical-y"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "boylston-93156777a453f16a-2026-12-01",
+      "url": "https://boylstonchess.org/events/1585/december-tuesday-night-swiss-otb"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-5a1f004663a05f02-2026-12-02",
+      "url": "https://new.uschess.org/weekly-u2200-18"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "nachesshub-5c29b85e81323b8b-2026-12-03",
+      "url": "https://www.nachesshub.com/Events/Details/72c23f58-f45a-476f-8ac2-0e5f39cf34a1"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-b6404ddadb41297a-2026-12-05",
+      "url": "https://new.uschess.org/2026-east-high-school-scholastic-fide-section"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-5ae83a27bfe94115-2026-12-05",
+      "url": "https://new.uschess.org/2026-2027-greater-cleveland-scholastic-chess-league-2-john-marshall-high-school"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-269ebe6738d2d71e-2026-12-05",
+      "url": "https://new.uschess.org/agca-december-scholastic-open-tour-1"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-2354d8ac51cdce59-2026-12-05",
+      "url": "https://new.uschess.org/bvca-december-swiss"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-627399d5eb635e2e-2026-12-05",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-122"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-945e4c92103374a3-2026-12-05",
+      "url": "https://new.uschess.org/little-masters-championship-0"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-c62345239f925535-2026-12-05",
+      "url": "https://new.uschess.org/phoenix-saturday-action-27"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-74dda4c4d6993456-2026-12-05",
+      "url": "https://new.uschess.org/rising-star-december-grand-prix-0"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-140957aadf771d85-2026-12-06",
+      "url": "https://new.uschess.org/2026-mid-atlantic-k-12-chess-championships-126"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-3fe543d3cdf4b8e6-2026-12-06",
+      "url": "https://new.uschess.org/chess-queens-crown-table-womens-girls-winter-bloom-open-2026"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-7202c464d3baefca-2026-12-06",
+      "url": "https://new.uschess.org/farmers-branch-chess-club-tournament-60december-6-2026"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-822274a6d09d7b37-2026-12-11",
+      "url": "https://new.uschess.org/2026-northern-virginia-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-2fc71e1c626b012e-2026-12-12",
+      "url": "https://new.uschess.org/agca-december-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-456622468a6d975d-2026-12-12",
+      "url": "https://new.uschess.org/girls-city-chess-championship-indy-chess"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-880081d9212fe7e9-2026-12-12",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-123"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-698dcba1ba8aab1a-2026-12-14",
+      "url": "https://new.uschess.org/omcc-2026-club-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-95aa6a8180edf1a6-2026-12-18",
+      "url": "https://new.uschess.org/5th-annual-jai-jagannath-chess-tournament"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-6fa36b3f2629f8ac-2026-12-18",
+      "url": "https://new.uschess.org/cincinnati-chess-masters-fide"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-8fad759a52c823aa-2026-12-19",
+      "url": "https://new.uschess.org/2026-december-weekend-chess-classic-irvine"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-2f9f38180978df68-2026-12-19",
+      "url": "https://new.uschess.org/acc-action-plus-g45-47"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-03108ec1efcd6708-2026-12-19",
+      "url": "https://new.uschess.org/agca-december-scholastic-open-tour-2"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-222cf5aea81dd94f-2026-12-19",
+      "url": "https://new.uschess.org/charlotte-chess-center-fide-saturdays-12"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-a2c1726ee6780c06-2026-12-19",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-124"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-0e4473ba909f271a-2026-12-19",
+      "url": "https://new.uschess.org/let-there-be-light-xxi"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-ee449a6793c75657-2026-12-25",
+      "url": "https://new.uschess.org/2026-north-central-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-13b588e54c2d0780-2026-12-26",
+      "url": "https://new.uschess.org/2026-charlotte-winter-classic"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-fedfe0f7751d8f26-2026-12-26",
+      "url": "https://new.uschess.org/2026-us-g10-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-1b7f424661bebda7-2026-12-26",
+      "url": "https://new.uschess.org/36th-annual-north-american-open"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-1b7f424661bebda7-2026-12-26",
+      "url": "https://new.uschess.org/36th-annual-north-american-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-523b75388045bf2d-2026-12-26",
+      "url": "https://new.uschess.org/51st-annual-eastern-open-1"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-523b75388045bf2d-2026-12-26",
+      "url": "https://new.uschess.org/51st-annual-eastern-open-1"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-d596e188aa8ed87c-2026-12-26",
+      "url": "https://new.uschess.org/princeton-holiday-classic"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-d6bd99726c07b1a1-2027-01-01",
+      "url": "https://new.uschess.org/2027-arizona-state-grades-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-d20c8dce8bd21371-2027-01-02",
+      "url": "https://new.uschess.org/2027-new-york-metro-area-scholastic-chess-championships"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-363ccb2284d3ed11-2027-01-02",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-jan-2"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-d17ed4cdee264a0a-2027-01-02",
+      "url": "https://new.uschess.org/new-years-encore-blitz"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "nachesshub-d8a0d73788501a86-2027-01-02",
+      "url": "https://www.nachesshub.com/Events/Details/42d6ca5d-faa1-4161-928c-4b339788652e"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "nachesshub-d8a0d73788501a86-2027-01-02",
+      "url": "https://www.nachesshub.com/Events/Details/42d6ca5d-faa1-4161-928c-4b339788652e"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-cf3d6b685322087a-2027-01-08",
+      "url": "https://new.uschess.org/10th-annual-gulf-coast-new-years-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-9b4d747713726344-2027-01-08",
+      "url": "https://new.uschess.org/15th-annual-boston-chess-congress"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-9b4d747713726344-2027-01-08",
+      "url": "https://new.uschess.org/15th-annual-boston-chess-congress"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-4301e9896ddc7780-2027-01-08",
+      "url": "https://new.uschess.org/tim-just-winter-open-xliii"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-ee55b3ff4b2bb720-2027-01-09",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-jan-9"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-a16ead66f4db7d1d-2027-01-09",
+      "url": "https://new.uschess.org/sophie-krupp-charitable-chess-festival"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-fca0d86adf56966d-2027-01-11",
+      "url": "https://new.uschess.org/msje-2027-lichun-monday-night-marathon"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-bf447523718a13c5-2027-01-15",
+      "url": "https://new.uschess.org/18th-annual-golden-state-open"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-bf447523718a13c5-2027-01-15",
+      "url": "https://new.uschess.org/18th-annual-golden-state-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-54ef0db0ee0c3355-2027-01-15",
+      "url": "https://new.uschess.org/3rd-annual-mlk-day-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-d4653997d7992635-2027-01-15",
+      "url": "https://new.uschess.org/59th-annual-liberty-bell-open"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-d4653997d7992635-2027-01-15",
+      "url": "https://new.uschess.org/59th-annual-liberty-bell-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-0542d4b8fea325a3-2027-01-16",
+      "url": "https://new.uschess.org/2026-2027-greater-cleveland-scholastic-chess-league-3-solon-middle-school"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-ad005b4b0ec91f83-2027-01-16",
+      "url": "https://new.uschess.org/2027-charlotte-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-1e2009e6f756b6ba-2027-01-16",
+      "url": "https://new.uschess.org/2027-michigan-masterexpert-class-championships"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-2e594de60f7e0574-2027-01-16",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-jan-16"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "cca-15th-annual-boston-chess-congress-2027-01-20-eb594023",
+      "url": "https://www.chesstour.com/bcc27.htm"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-74f24aa1751e3b97-2027-01-22",
+      "url": "https://new.uschess.org/cfcc-2027-winter-open-scholastic"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-e9e74e77a2c6febc-2027-01-22",
+      "url": "https://new.uschess.org/growth-chess-winter-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-69f3ce8ad29136a7-2027-01-23",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-jan-23"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-720e75a67caa126f-2027-01-23",
+      "url": "https://new.uschess.org/ultimate-gladiator-colosseum-1"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-86a48b47df711040-2027-01-29",
+      "url": "https://new.uschess.org/1st-neptune-classic"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-f5fa2b69d502b24b-2027-01-29",
+      "url": "https://new.uschess.org/2027-cardinal-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-3b9eb1f690211ee3-2027-01-30",
+      "url": "https://new.uschess.org/cornerstone-winter-classic-irvine"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-9614f1f9f54728fc-2027-01-30",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-jan-30"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-eb62f5ed2eb91794-2027-02-05",
+      "url": "https://new.uschess.org/land-sky-xxxix"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-d407e9fc754bc28c-2027-02-06",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-feb-6"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-86603df8a8f08e9b-2027-02-11",
+      "url": "https://new.uschess.org/18th-annual-southwest-class-championships"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-86603df8a8f08e9b-2027-02-11",
+      "url": "https://new.uschess.org/18th-annual-southwest-class-championships"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-41821d72bf96b07e-2027-02-13",
+      "url": "https://new.uschess.org/2027-pa-state-game75-championship-west"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-a7be52bfbca43c85-2027-02-19",
+      "url": "https://new.uschess.org/2027-us-amateur-team-south"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-7b58eca1c70d57a9-2027-02-19",
+      "url": "https://new.uschess.org/5th-music-city-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-e472eb10fabaf90f-2027-02-20",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-feb-20"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "cca-11th-annual-george-washington-open-2027-02-26-fa096c41",
+      "url": "https://www.chesstour.com/gwo27.htm"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-3b68c96b397dd9c3-2027-02-26",
+      "url": "https://new.uschess.org/11th-annual-george-washington-open"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-3b68c96b397dd9c3-2027-02-26",
+      "url": "https://new.uschess.org/11th-annual-george-washington-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-3a8895495eb9ccff-2027-02-26",
+      "url": "https://new.uschess.org/14th-annual-new-york-state-senior-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "cca-saratoga-tournament-2027-02-26-8f9b72c2",
+      "url": "https://www.chesstour.com/nytoa27.htm"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-448c485d85b06c52-2027-02-26",
+      "url": "https://new.uschess.org/saratoga-tournament-ages-open-additional-college-bonus-prizes"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-67c138cce5b189a9-2027-02-27",
+      "url": "https://new.uschess.org/2027-ohio-girls-state-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-995e8c1f8ae94f98-2027-02-27",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-feb-27"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-8969981b594ea899-2027-03-06",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-mar-6"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-9a2f3da62f3d6fbd-2027-03-12",
+      "url": "https://new.uschess.org/2027-indiana-chess-congress"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-d417cfcb88718ba3-2027-03-12",
+      "url": "https://new.uschess.org/34th-annual-western-class-championships"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-d417cfcb88718ba3-2027-03-12",
+      "url": "https://new.uschess.org/34th-annual-western-class-championships"
+    },
+    {
+      "severity": "warning",
+      "code": "unexpired-listing-rechecked",
+      "eventId": "uscf-78acd531965d63ec-2027-03-13",
+      "url": "https://new.uschess.org/delaware-state-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-7bae42b3fd93e7d9-2027-03-13",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-mar-13"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-55c297111ef8e3f2-2027-03-19",
+      "url": "https://new.uschess.org/2027-maryland-senior-open-irwin-qualifier"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-55c297111ef8e3f2-2027-03-19",
+      "url": "https://new.uschess.org/2027-maryland-senior-open-irwin-qualifier"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-786255bfada49a10-2027-03-19",
+      "url": "https://new.uschess.org/24th-annual-southern-class-championships"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-786255bfada49a10-2027-03-19",
+      "url": "https://new.uschess.org/24th-annual-southern-class-championships"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-b6dce579c3a0e0f5-2027-03-19",
+      "url": "https://new.uschess.org/31st-annual-mid-america-open"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-b6dce579c3a0e0f5-2027-03-19",
+      "url": "https://new.uschess.org/31st-annual-mid-america-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-92483881b9c9da55-2027-03-20",
+      "url": "https://new.uschess.org/2027-south-carolina-scholastic-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-0e6aaceadfd6e4dc-2027-03-20",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-mar-20"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-29fea624ffa188ae-2027-03-22",
+      "url": "https://new.uschess.org/msje-2027-chunfen-monday-night-marathon"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-cfe594aeccab732a-2027-03-24",
+      "url": "https://new.uschess.org/2nd-annual-atlantic-city-open"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-cfe594aeccab732a-2027-03-24",
+      "url": "https://new.uschess.org/2nd-annual-atlantic-city-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-eddcdae52520a8be-2027-03-27",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-mar-27"
+    },
+    {
+      "severity": "warning",
+      "code": "section-specific-fees-need-review",
+      "eventId": "uscf-c3ab1be8e7e63218-2027-04-03",
+      "url": "https://new.uschess.org/2027-pa-state-game29-championship-west"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-89fcab83b4a115b9-2027-04-03",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-apr-3"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-c137c6b6103f83c3-2027-04-09",
+      "url": "https://new.uschess.org/2027-kcf-all-girls-national-championships"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-c68c0805b4161d1c-2027-04-10",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-apr-10"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-4b616bbb938fc593-2027-04-16",
+      "url": "https://new.uschess.org/2027-great-lakes-festival-fide-rated"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-8bc28c166055fbba-2027-04-16",
+      "url": "https://new.uschess.org/2027-us-amateur-north-individual-championship"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-fda2ce6427e082f9-2027-04-17",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-apr-17"
+    },
+    {
+      "severity": "warning",
+      "code": "recurring-or-long-date-range",
+      "eventId": "uscf-aebf4aa290ded6c7-2027-04-19",
+      "url": "https://new.uschess.org/msje-2027-lixia-monday-night-marathon"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-fcf2be64ae678812-2027-04-23",
+      "url": "https://new.uschess.org/32nd-space-coast-open-chess-festival"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-1857d35a998acd49-2027-04-24",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-apr-24"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-2414aba52e143569-2027-05-01",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-may-1"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-28d2f4ec8f946b63-2027-05-08",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-may-8"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-e3bcfcc3122ebac0-2027-05-15",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-may-15"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-5eb9326d359c2b5c-2027-05-22",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-may-22"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-57e796198e4d8f1d-2027-05-27",
+      "url": "https://new.uschess.org/36th-annual-chicago-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-b3b91f61e927e99d-2027-06-05",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-june-5"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-10e4c478724dc613-2027-06-12",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-june-12"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-d0301d7a2f78179d-2027-06-16",
+      "url": "https://new.uschess.org/2027-national-open"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-c9eeba448224d863-2027-06-19",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-june-19"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-8a02696e99b3686c-2027-06-26",
+      "url": "https://new.uschess.org/ica-glen-rock-quads-june-26"
+    },
+    {
+      "severity": "warning",
+      "code": "multiple-or-ambiguous-time-controls",
+      "eventId": "uscf-6ea6a6a60070d169-2027-06-27",
+      "url": "https://new.uschess.org/ultimate-chess-cruise-0"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+name: Refresh chess events
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: event-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - run: pip install -r scripts/requirements.txt
+      - run: python -m pytest scripts/tests -q
+      - name: Refresh verified sources
+        # MACA's direct site is unavailable; its registered events are also in NA Chess Hub.
+        run: python scripts/scrape_events.py --sources uscf nachesshub boylston cca --strict
+      - name: Check source freshness and conflicting details
+        run: python scripts/review_events.py --strict
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: event-refresh-report
+          path: |
+            public/events-status.json
+            public/events-review.json
+            public/events.v1.json
+            data/event-sources/
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck && pnpm test && pnpm build
+      - name: Open a reviewable data update
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: codex/refresh-chess-events
+          title: Refresh upcoming chess tournaments
+          commit-message: Refresh validated chess event snapshots
+          body: |
+            Refreshes US Chess, NA Chess Hub, Boylston, and Continental Chess listings.
+            Parser tests, filter tests, type checking, and the production build passed.
+            Review coverage, cancellations, mixed schedules, and source conflicts in public/events-review.json before merging.
+          add-paths: |
+            public/events.v1.json
+            public/events-status.json
+            public/events-review.json
+            data/event-sources/
+            data/event-geocodes.json
+            data/event-pages.json

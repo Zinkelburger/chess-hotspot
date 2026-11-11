@@ -1,28 +1,26 @@
+@import "tailwindcss";
+
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('/fonts/ubuntu/Ubuntu-Regular.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("/fonts/ubuntu/Ubuntu-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('/fonts/ubuntu/Ubuntu-Medium.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("/fonts/ubuntu/Ubuntu-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('/fonts/ubuntu/Ubuntu-Bold.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("/fonts/ubuntu/Ubuntu-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 html {
   font-size: 18px;
@@ -33,6 +31,19 @@ body,
 #__next {
   height: 100%;
   width: 100%;
+}
+
+/* Mobile browsers grow and shrink the viewport as the URL bar hides; dvh
+   tracks it so the filter bar never ends up under the browser chrome. */
+@supports (height: 100dvh) {
+  html,
+  body {
+    height: 100dvh;
+  }
+}
+
+body {
+  overscroll-behavior-y: none; /* no pull-to-refresh yank on the map */
 }
 
 @layer base {
@@ -46,12 +57,17 @@ body,
 
 :root {
   --text: #090304;
-  --background: #fcf8f8;
+  --background: #f3faf2;
+  --mint-surface: #edf7eb;
+  --mint-active: #c8e9bd;
+  --mint-accent: #a9d99b;
+  --mint-border: #87b77b;
+  --mint-ink: #244c32;
   --primary: #f9163d;
-  --secondary: #00e67f;
-  --secondary2: #a2fc7b;
-  --accent: #4afa7d;
-  --accent2: #4decda;
+  --secondary: #a9d99b;
+  --secondary2: #c8e9bd;
+  --accent: #a9d99b;
+  --accent2: #c8e9bd;
   --radius: 0.75rem;
 }
 
@@ -74,95 +90,121 @@ body,
   font-size: 0.75rem;
   line-height: 1;
   text-decoration: none;
-  transition: opacity 0.2s, filter 0.2s;
+  transition:
+    opacity 0.2s,
+    filter 0.2s;
 }
 .close-circle:hover {
   opacity: 0.8;
   filter: brightness(0.9);
 }
 
-/* Reusable "pretty pill" controls used across app actions and filters */
+/* Pills: every control, tag and link on the site. A pill stays put when you
+   touch it — no lift, no shadow — and only its border darkens to show it took
+   the press. Each colour is a white-ish tint with a saturated border. */
 .pretty-pill {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.35rem;
-  padding: 0.34rem 0.72rem;
+  gap: 0.3rem;
+  padding: 0.32rem 0.66rem;
   border-radius: 9999px;
   border: 1px solid transparent;
-  font-size: 0.82rem;
+  font-size: 0.74rem;
   line-height: 1.15;
   font-weight: 600;
   text-decoration: none;
   white-space: nowrap;
+}
+:is(a, button).pretty-pill {
   cursor: pointer;
-  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease,
-    border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    border-color 0.12s ease,
+    color 0.12s ease,
+    background-color 0.12s ease;
 }
-
-.pretty-pill:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 14px rgba(2, 6, 23, 0.12);
+@media (hover: hover) {
+  :is(a, button).pretty-pill:hover {
+    border-color: #94a3b8;
+  }
 }
-
-.pretty-pill:active {
-  transform: translateY(0);
+:is(a, button).pretty-pill:active {
+  border-color: #64748b;
 }
-
-.pretty-pill:disabled {
-  opacity: 0.6;
+:is(a, button).pretty-pill:focus-visible {
+  outline: 2px solid #10b981;
+  outline-offset: 2px;
+}
+button.pretty-pill {
+  font-family: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+}
+button.pretty-pill:disabled {
+  opacity: 0.55;
   cursor: not-allowed;
-  transform: none;
-  box-shadow: none;
 }
 
-.pretty-pill-blue {
-  background: #eff6ff;
-  border-color: #2563eb;
-  color: #1d4ed8;
-}
-
+/* Green is the site's own colour and the colour of a club. */
 .pretty-pill-green {
   background: #ecfdf5;
   border-color: #10b981;
   color: #047857;
 }
-
+/* Blue is a tournament. */
+.pretty-pill-blue {
+  background: #eff6ff;
+  border-color: #3b82f6;
+  color: #1d4ed8;
+}
+/* Amber, sky and rose are the three speeds: classical, rapid, blitz. */
 .pretty-pill-amber {
   background: #fffbeb;
   border-color: #f59e0b;
   color: #92400e;
 }
-
+.pretty-pill-sky {
+  background: #f0f9ff;
+  border-color: #0ea5e9;
+  color: #0369a1;
+}
+.pretty-pill-rose {
+  background: #fff1f2;
+  border-color: #e11d48;
+  color: #be123c;
+}
+.pretty-pill-violet {
+  background: #f5f3ff;
+  border-color: #8b5cf6;
+  color: #6d28d9;
+}
+/* Big events. */
+.pretty-pill-fuchsia {
+  background: #fdf4ff;
+  border-color: #d946ef;
+  color: #a21caf;
+}
 .pretty-pill-neutral {
   background: #f8fafc;
   border-color: #cbd5e1;
   color: #334155;
 }
-
 .pretty-pill-ghost {
   background: #ffffff;
   border-color: #d1d5db;
   color: #4b5563;
 }
 
-.pretty-pill-solid-blue {
-  background: #2563eb;
-  border-color: #2563eb;
-  color: #ffffff;
-}
-
-.pretty-pill-solid-gray {
-  background: #6b7280;
-  border-color: #6b7280;
-  color: #ffffff;
-}
-
-.pretty-pill-static {
-  cursor: default;
-}
-
-.pretty-pill-static:hover {
-  transform: none;
-  box-shadow: none;
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }

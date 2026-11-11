@@ -1,0 +1,1076 @@
+/* The map, its filter bar, the feed and the popup card.
+   Layout and behaviour follow bostonsalsa.org; the colours are this site's. */
+
+.explore {
+  --ink: #111827;
+  --ink-soft: #374151;
+  --muted: #6b7280;
+  --faint: #9ca3af;
+  --line: #e2e8e0;
+  --surface: #f7fbf6;
+  --club: #10b981;
+  --tournament: #3b82f6;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 0;
+  color: var(--ink);
+}
+
+.explore-map {
+  position: relative;
+  flex: 1;
+  min-height: 40vh;
+  overflow: hidden;
+  /* The basemap's land colour, so the page does not flash while tiles load. */
+  background: #f2efe9;
+}
+
+.explore-empty {
+  position: absolute;
+  left: 50%;
+  bottom: 1.25rem;
+  transform: translateX(-50%);
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: max-content;
+  max-width: calc(100% - 2rem);
+  padding: 0.6rem 0.75rem 0.6rem 1rem;
+  border-radius: 9999px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+.explore-empty p {
+  margin: 0;
+}
+
+/* A pin-coloured dot inside a pill or a list row: the legend, in place. */
+.pill-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 9999px;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1.5px #ffffff, 0 0 0 2.5px rgba(15, 23, 42, 0.12);
+}
+.pill-dot-club {
+  background: var(--club, #10b981);
+}
+.pill-dot-tournament {
+  background: var(--tournament, #3b82f6);
+}
+
+/* ─── Search box ─── */
+
+.search-box {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  z-index: 10;
+  width: 21rem;
+  /* Leaves the map's zoom and locate buttons clear on a narrow screen. */
+  max-width: calc(100% - 4.4rem);
+}
+.search-box-field {
+  position: relative;
+}
+.search-box-icon {
+  position: absolute;
+  left: 0.9rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  color: var(--faint);
+  pointer-events: none;
+  /* The input's backdrop blur gives it a stacking context of its own. */
+  z-index: 1;
+}
+.search-box input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.7rem 1rem 0.7rem 2.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.14);
+  backdrop-filter: blur(4px);
+  font: inherit;
+  font-size: 0.85rem;
+  color: #1f2937;
+  outline: none;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+.search-box input::placeholder {
+  color: var(--faint);
+}
+.search-box input:focus {
+  border-color: transparent;
+  box-shadow:
+    0 0 0 2px #34d399,
+    0 8px 22px rgba(15, 23, 42, 0.14);
+}
+.search-box-results {
+  margin-top: 0.45rem;
+  max-height: min(60vh, 22rem);
+  overflow-y: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.9rem;
+  background: #ffffff;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.18);
+  padding: 0.3rem;
+}
+.search-box-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  border: none;
+  border-radius: 0.6rem;
+  background: none;
+  font: inherit;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+}
+.search-box-row:hover,
+.search-box-row:focus-visible {
+  background: #ecfdf5;
+  outline: none;
+}
+.search-box-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.search-box-name {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.search-box-meta {
+  font-size: 0.68rem;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.search-box-pin {
+  display: flex;
+  color: var(--faint);
+  flex-shrink: 0;
+}
+.search-box-heading {
+  padding: 0.5rem 0.6rem 0.2rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.search-box-empty {
+  padding: 0.6rem;
+  font-size: 0.78rem;
+  color: var(--faint);
+}
+
+/* ─── Filter bar ───
+   One layout for every screen: labelled rows of pills. Wider screens wrap
+   them; a phone puts each row on a rail you swipe. */
+
+.filter-bar {
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.4rem 0.75rem;
+  padding: 0.5rem 0.7rem;
+  background: rgba(247, 251, 246, 0.97);
+  border-top: 1px solid var(--line);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* In the feed the bar is part of the header, not a bar of its own. */
+.feed-header .filter-bar {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.filter-row-top {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.75rem;
+  min-width: 0;
+}
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 0;
+}
+.filter-group-day {
+  grid-column: 1 / -1;
+}
+.filter-group-when,
+.filter-group-area {
+  grid-column: 1;
+}
+.filter-actions {
+  grid-column: 2;
+  grid-row: 3;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.filter-bar-with-area .filter-actions {
+  grid-row: 4;
+}
+
+.filter-label {
+  flex-shrink: 0;
+  min-width: 2.6rem;
+  margin: 0;
+  font-size: 0.62rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #4b5563;
+}
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+/* GitHub and Suggest go before the layout gets tight. The When row and the
+   actions share the bar's last line and the actions never shrink, so keeping
+   them any narrower just squeezes the date pills into a wrapped stack. */
+@media (max-width: 900px) {
+  .filter-desktop-only {
+    display: none !important;
+  }
+}
+
+/* ─── Date dialog ─── */
+
+.filter-dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(2, 6, 23, 0.3);
+  backdrop-filter: blur(2px);
+}
+.filter-dialog {
+  width: min(92vw, 22rem);
+  overflow: hidden;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  animation: dialog-enter 0.2s ease-out;
+}
+@keyframes dialog-enter {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+.filter-dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0.9rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+.filter-dialog-header h3 {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+.filter-dialog-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  padding: 1rem 0.9rem;
+}
+.filter-dialog-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.filter-dialog-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.filter-dialog .filter-pills {
+  flex-wrap: wrap;
+  overflow: visible;
+  -webkit-mask-image: none;
+  mask-image: none;
+  padding: 0;
+  margin: 0;
+}
+.filter-dialog-label,
+.filter-dialog-field label {
+  margin: 0;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted, #6b7280);
+}
+.filter-dialog-hint {
+  margin: -0.15rem 0 0.1rem;
+  font-size: 0.68rem;
+  line-height: 1.35;
+  color: #9ca3af;
+}
+.filter-dialog-inputs {
+  display: flex;
+  gap: 0.6rem;
+}
+.filter-dialog-field {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.filter-dialog-field input[type='date'] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.45rem 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  font: inherit;
+  font-size: 0.8rem;
+  color: #374151;
+}
+.filter-dialog-field input[type='date']:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.18);
+}
+.filter-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #f3f4f6;
+}
+
+/* ─── Fact rows (date / place / cost) ─── */
+
+.meta-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--ink-soft, #374151);
+}
+.meta-row-icon {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  width: 1.1rem;
+  margin-top: 0.1rem;
+  color: var(--muted, #6b7280);
+}
+.meta-row-text {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+/* ─── Popup card ─── */
+
+.popup-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 6, 23, 0.45);
+}
+.popup-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: min(92vw, 25rem);
+  max-height: 84vh;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+  --ink: #111827;
+  --ink-soft: #374151;
+  --muted: #6b7280;
+}
+/* Phone-only drag handle: the card rises from the bottom edge like a sheet. */
+.popup-grabber {
+  display: none;
+  flex-shrink: 0;
+  width: 2.25rem;
+  height: 0.3rem;
+  margin: 0.5rem auto 0;
+  border-radius: 9999px;
+  background: #d6d3d1;
+}
+@keyframes sheet-enter {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.popup-top,
+.popup-header,
+.popup-footer {
+  flex-shrink: 0;
+  background: #f7fbf6;
+  padding: 0.85rem 1.1rem;
+}
+.popup-top {
+  padding-bottom: 0.55rem;
+}
+.popup-heading {
+  display: flow-root;
+  min-width: 0;
+}
+.popup-actions {
+  float: right;
+  display: flex;
+  align-items: stretch;
+  gap: 0.4rem;
+  margin: 0 0 0.3rem 0.6rem;
+}
+.popup-close {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.popup-title {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #111827;
+  overflow-wrap: anywhere;
+}
+.popup-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  margin: 0 0 0.35rem -0.2rem;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #047857;
+  cursor: pointer;
+}
+.popup-back:hover {
+  text-decoration: underline;
+}
+.popup-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding-top: 0;
+  border-bottom: 1px solid #e3ebe1;
+  /* Header and footer never shrink and the card clips its overflow, so a tall
+     header would push the footer links out of reach. Cap it and let it
+     scroll instead. */
+  max-height: 46vh;
+  overflow-y: auto;
+}
+.popup-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.popup-facts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.popup-schedule-line {
+  display: block;
+}
+.popup-fine {
+  display: block;
+  margin: 0.15rem 0 0;
+  font-size: 0.7rem;
+  line-height: 1.4;
+  color: #6b7280;
+}
+.popup-top .popup-fine {
+  margin-top: 0.4rem;
+}
+
+/* Everything in the body is conditional; with none of it the body would be an
+   empty white band between header and footer. */
+.popup-body:empty {
+  display: none;
+}
+.popup-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  overflow-y: auto;
+  padding: 1rem 1.1rem;
+  background: #ffffff;
+}
+.popup-photo {
+  width: 100%;
+  height: 9rem;
+  border-radius: 0.6rem;
+  object-fit: cover;
+}
+.popup-story p {
+  margin: 0;
+  font-size: 0.84rem;
+  line-height: 1.55;
+  color: #1f2937;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+.popup-story-title {
+  margin: 0 0 0.25rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+.popup-more {
+  display: block;
+  margin-top: 0.25rem;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #047857;
+  cursor: pointer;
+}
+.popup-more:hover,
+.popup-link:hover {
+  color: #065f46;
+}
+.popup-link {
+  color: #047857;
+  text-decoration: underline;
+  overflow-wrap: anywhere;
+}
+.popup-notice {
+  margin: 0;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #fcd34d;
+  border-radius: 0.6rem;
+  background: #fffbeb;
+  font-size: 0.76rem;
+  line-height: 1.4;
+  color: #92400e;
+}
+.popup-visits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #f1f5f0;
+  font-size: 0.74rem;
+  color: #6b7280;
+}
+.popup-visit-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.6rem;
+  width: 100%;
+}
+.popup-visit-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.popup-visit-form input,
+.popup-visit-form select {
+  padding: 0.35rem 0.45rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.45rem;
+  background: #ffffff;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: #374151;
+}
+.popup-visit-actions {
+  display: flex;
+  gap: 0.4rem;
+  margin-left: auto;
+}
+.popup-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  border-top: 1px solid #e3ebe1;
+}
+.popup-footer .pretty-pill {
+  padding: 0.42rem 0.8rem;
+  font-size: 0.78rem;
+}
+
+/* "Several things here": a plain list of names to pick from. */
+.popup-list {
+  gap: 0.15rem;
+  padding: 0.5rem;
+  border-top: 1px solid #e3ebe1;
+}
+.popup-list-row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+  padding: 0.55rem 0.6rem;
+  border: none;
+  border-radius: 0.6rem;
+  background: none;
+  font: inherit;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+}
+.popup-list-row:hover,
+.popup-list-row:focus-visible {
+  background: #f1f8f0;
+  outline: none;
+}
+.popup-list-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.popup-list-name {
+  font-size: 0.84rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #111827;
+}
+.popup-list-meta {
+  font-size: 0.7rem;
+  color: #6b7280;
+}
+
+/* ─── Feed ─── */
+
+.feed-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 0;
+  overflow: hidden;
+  background: var(--surface);
+}
+.feed-header {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--line);
+  background: rgba(247, 251, 246, 0.97);
+}
+.feed-search-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+}
+.feed-search-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+.feed-search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  color: var(--faint);
+  pointer-events: none;
+}
+.feed-search {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 2rem 0.5rem 2.2rem;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  background: #ffffff;
+  font: inherit;
+  font-size: 0.82rem;
+  color: #1f2937;
+  outline: none;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+.feed-search::placeholder {
+  color: var(--faint);
+}
+.feed-search:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 2px #34d399;
+}
+.feed-search-clear {
+  position: absolute;
+  right: 0.55rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  padding: 0.15rem;
+  border: none;
+  background: none;
+  color: var(--faint);
+  cursor: pointer;
+}
+.feed-search-clear:hover {
+  color: var(--muted);
+}
+.feed-close-btn {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: none;
+  border-radius: 9999px;
+  background: #e8efe6;
+  color: var(--muted);
+  cursor: pointer;
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+.feed-close-btn:hover {
+  background: #dbe5d8;
+  color: var(--ink-soft);
+}
+
+.feed-scroll {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 0.4rem 0.65rem calc(1rem + env(safe-area-inset-bottom));
+}
+.feed-scroll > * {
+  max-width: 44rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.feed-group {
+  margin-bottom: 0.7rem;
+}
+.feed-group-label {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin: 0;
+  padding: 0.5rem 0.2rem 0.35rem;
+  background: var(--surface);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.feed-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 0.4rem;
+  padding: 0.7rem 0.8rem;
+  overflow: hidden;
+  border: 1px solid #e5e9e3;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+.feed-card:hover {
+  border-color: #cfd8cc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+.feed-card:focus-visible {
+  outline: 2px solid #10b981;
+  outline-offset: 1px;
+}
+.feed-card-title {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #1f2937;
+  overflow-wrap: anywhere;
+}
+.feed-card-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.feed-card-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.feed-card-pills .pretty-pill {
+  padding: 0.2rem 0.5rem;
+  font-size: 0.66rem;
+}
+.feed-card-facts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.feed-card-facts .meta-row {
+  gap: 0.4rem;
+  font-size: 0.74rem;
+  color: var(--muted);
+}
+.feed-card-facts .meta-row-icon {
+  width: 1rem;
+}
+.feed-card-facts .meta-row-icon svg {
+  width: 14px;
+  height: 14px;
+}
+.feed-card-desc {
+  margin: 0;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: var(--faint);
+}
+.feed-more {
+  display: flex;
+  margin: 0.5rem auto 1rem;
+}
+.feed-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 3rem 1rem;
+  font-size: 0.82rem;
+  text-align: center;
+  color: var(--muted);
+}
+.feed-empty p {
+  margin: 0;
+}
+.feed-footnote {
+  margin-top: 1rem;
+  padding: 0.75rem 0.2rem 0;
+  border-top: 1px solid var(--line);
+  font-size: 0.68rem;
+  line-height: 1.5;
+  color: var(--faint);
+}
+.feed-footnote a {
+  color: #047857;
+  font-weight: 600;
+}
+
+/* ─── Map controls ─── */
+
+.explore .maplibregl-ctrl-top-right {
+  top: 0.35rem;
+  right: 0.35rem;
+}
+.explore .maplibregl-ctrl-group {
+  border-radius: 0.6rem;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.14);
+  overflow: hidden;
+}
+
+/* ─── Phones ─── */
+
+@media (max-width: 640px) {
+  /* The same labelled rows, each on one line you swipe sideways. The right
+     edge fades to say there is more; the trailing padding lets the last pill
+     scroll clear of the fade. */
+  .filter-bar {
+    gap: 0.35rem 0.4rem;
+    padding: 0.45rem calc(0.55rem + env(safe-area-inset-right))
+      calc(0.45rem + env(safe-area-inset-bottom)) calc(0.55rem + env(safe-area-inset-left));
+  }
+  /* Dissolved, so "Find" can share its line with the Feed button. */
+  .filter-row-top {
+    display: contents;
+  }
+  .filter-group-find {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .filter-actions,
+  .filter-bar-with-area .filter-actions {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .filter-group-play {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+  .filter-group-day {
+    grid-row: 3;
+  }
+  .filter-group-when {
+    grid-column: 1 / -1;
+    grid-row: 4;
+  }
+  .filter-group-area {
+    grid-column: 1 / -1;
+    grid-row: 5;
+  }
+  .filter-label {
+    min-width: 2.4rem;
+  }
+  .filter-pills {
+    flex: 1;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 0.15rem 1.75rem 0.15rem 0;
+    margin: -0.15rem 0;
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 1.75rem), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 1.75rem), transparent);
+  }
+  .filter-pills::-webkit-scrollbar {
+    display: none;
+  }
+  .filter-pills > .pretty-pill {
+    flex-shrink: 0;
+  }
+
+  .search-box {
+    top: 0.6rem;
+    left: 0.6rem;
+  }
+
+  .feed-header {
+    padding: 0.5rem calc(0.6rem + env(safe-area-inset-right)) 0.5rem
+      calc(0.6rem + env(safe-area-inset-left));
+    gap: 0.4rem;
+  }
+  .feed-scroll {
+    padding-right: calc(0.6rem + env(safe-area-inset-right));
+    padding-left: calc(0.6rem + env(safe-area-inset-left));
+  }
+
+  /* The popup becomes a bottom sheet: full width, a close button within thumb
+     reach, room for a long footer of links. */
+  .popup-backdrop {
+    align-items: flex-end;
+  }
+  .popup-card {
+    width: 100%;
+    max-height: min(92vh, 92dvh);
+    border-radius: 1.25rem 1.25rem 0 0;
+    padding-bottom: env(safe-area-inset-bottom);
+    animation: sheet-enter 0.24s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .popup-grabber {
+    display: block;
+  }
+  .popup-top {
+    padding: 0.6rem 1rem 0.5rem;
+  }
+  .popup-header {
+    padding: 0 1rem 0.8rem;
+  }
+  .popup-body {
+    padding: 0.9rem 1rem;
+  }
+  .popup-footer {
+    padding: 0.7rem 1rem;
+  }
+  .popup-footer > .pretty-pill {
+    flex: 1 1 auto;
+  }
+  .popup-title {
+    font-size: 1.15rem;
+  }
+
+  .filter-dialog-backdrop {
+    align-items: flex-end;
+    padding: 0;
+  }
+  .filter-dialog {
+    width: 100%;
+    border-radius: 1.25rem 1.25rem 0 0;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* iOS zooms the page when a focused input is under 16px. */
+  .explore input[type='text'],
+  .explore input[type='date'],
+  .explore select {
+    font-size: 16px;
+  }
+}
+
+/* A round icon button still needs a real tap target on a touch screen. */
+@media (pointer: coarse) {
+  .feed-close-btn {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+/* Last on purpose: a media query adds no specificity, so this only beats the
+   animations above by coming after them. */
+@media (prefers-reduced-motion: reduce) {
+  .popup-card,
+  .filter-dialog {
+    animation: none;
+  }
+}

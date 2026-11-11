@@ -50,3 +50,9 @@ __pycache__/
 *.pyc
 
 simplemaps_uscities*
+/data/event-http-cache/
+/data/geonames/
+
+/data/event-refresh.lock
+/data/weekly-event-refresh.lock
+/data/event-refresh-pipeline.lock

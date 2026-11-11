@@ -54,6 +54,11 @@ class TestDates:
         assert start == "2026-02-27"
         assert end == "2026-03-01"
 
+    def test_date_range_with_windows_1252_dash(self, scraper):
+        # chesstour.com/nyssc27.htm: "February 26 \x96 28, 2027" is three days, not one.
+        assert scraper._date_bounds("February 26 \x96 28, 2027") == ("2027-02-26", "2027-02-28")
+        assert scraper._date_bounds("February 26 \u2014 28, 2027") == ("2027-02-26", "2027-02-28")
+
     def test_date_bounds_none_input(self, scraper):
         assert scraper._date_bounds(None) == (None, None)
 
@@ -161,10 +166,9 @@ class TestTimeControl:
         _, text, _ = aco26
         tc, fmt = scraper._extract_time_control(text)
         assert tc is not None
-        assert tc["kind"] == "classical"
-        assert tc["baseMinutes"] == 60
-        assert tc["delaySeconds"] == 10
-        assert fmt == "classical"
+        assert tc["kind"] == "custom"
+        assert "40/80" in tc["raw"] and "G/60" in tc["raw"]
+        assert fmt == "custom"
 
     def test_rapid_detection(self, scraper):
         tc, fmt = scraper._extract_time_control("Time control: G/25 d5")

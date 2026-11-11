@@ -1,7 +1,7 @@
-export type EventType = 'tournament' | 'meetup' | 'simul' | 'lesson';
+export type EventType = "tournament" | "meetup" | "simul" | "lesson";
 
-export type RatingSystem = 'USCF' | 'FIDE' | 'none';
-export type TimeControlKind = 'blitz' | 'rapid' | 'classical' | 'custom';
+export type RatingSystem = "USCF" | "FIDE" | "none";
+export type TimeControlKind = "blitz" | "rapid" | "classical" | "custom";
 
 export interface TimeControl {
   kind: TimeControlKind;
@@ -27,7 +27,7 @@ export interface EventSection {
   maxRating?: number;
   unratedAllowed?: boolean;
   rated?: boolean;
-  ratingSystem?: Exclude<RatingSystem, 'none'>;
+  ratingSystem?: Exclude<RatingSystem, "none">;
   entryFeeUsd?: number;
   prizes?: EventPrize[];
   raw?: string;
@@ -36,20 +36,32 @@ export interface EventSection {
 export interface EventScheduleOption {
   name: string; // "5-Day", "3-Day", "Main", etc.
   startDate?: string; // ISO date
-  endDate?: string;   // ISO date
+  endDate?: string; // ISO date
   roundTimes?: string[];
   registrationDeadline?: string;
   raw?: string;
 }
 
 export interface ChessEvent {
+  city?: string;
+  state?: string;
+  country?: string;
+  online?: boolean;
+  fideRated?: boolean;
+  audience?: "scholastic" | "open";
+  organizer?: string;
+  source?: string;
+  sources?: { id: string; url: string; fetchedAt?: string }[];
+  locationPrecision?: "venue" | "postal" | "city" | "approximate";
+  prizeFundUsd?: number;
+  dateText?: string;
   id: string;
   name: string;
-  date: string;            // ISO date "2026-07-12"
-  endDate?: string;        // for multi-day events
-  time?: string;           // start time "10:00"
+  date: string; // ISO date "2026-07-12"
+  endDate?: string; // for multi-day events
+  time?: string; // start time "10:00"
   type: EventType;
-  hostClubId?: string;     // links back to a Spot id
+  hostClubId?: string; // links back to a Spot id
   /** Venue name if the event isn't at the host club's usual location */
   venue?: string;
   address?: string;
@@ -59,6 +71,11 @@ export interface ChessEvent {
 
   format?: TimeControlKind;
   timeControl?: TimeControl;
+  timeControls?: TimeControl[];
+  scheduleText?: string;
+  registrationText?: string;
+  cancellationEvidence?: string;
+  reviewFlags?: string[];
 
   rated?: boolean;
   ratingSystem?: RatingSystem;

@@ -3,6 +3,10 @@
 
 Just wanna have all the chess clubs/parks in one place so I can search them and easily find games in new places.
 
+Three pages with one layout (a filterable list beside a map): clubs (`/`),
+tournaments (`/tournaments`), and coaches & schools (`/learn`). How the data is
+gathered and refreshed is in [docs/event-directory.md](docs/event-directory.md).
+
 1. Create file `.env.local` containing `NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json`
 
 2. `pnpm dev`
@@ -61,24 +65,55 @@ Each chess club: please identify is it a real club, a meme, etc. Its a big file,
 
 For each club, if it seems to be a real club (member count >1, not a meme, references a real life place), put it in its own file. Like chesscom_postprocessed.json or something. Skip high school and middle school clubs. College clubs are generally open to the public in my expereince, so keep those in.
 
-## Event scrapers (Python)
+## The map
 
-Run:
+The whole site is one screen, modelled on [bostonsalsa.org](https://bostonsalsa.org):
+a full-height map, a floating search box, and one bar of filter pills.
 
-`pnpm events:scrape:py`
+- **Pins.** Green is a club, blue is a tournament, a gold ring marks a tournament
+  with $5,000 or more in prizes. Tournaments pinned to the same ZIP code share one
+  numbered pin; tapping it lists them.
+- **Filter bar.** Four labelled rows, nothing hidden behind a menu: Find (clubs,
+  tournaments), Play (classical, rapid, blitz), Day, and When (today, this weekend,
+  custom dates, big events). On a phone each row is a rail you swipe.
+- **Popup.** A pin, feed card or search result opens a card (a bottom sheet on a
+  phone) with the facts on top and the links pinned to the bottom. It puts
+  `#club=<id>` or `#event=<id>` in the URL, so it can be shared and Back closes it.
+- **Feed.** The Feed button turns the same listings into a dated list. Weekly club
+  nights are written out for the coming week next to the tournaments.
+- **Search.** One box finds a club, a tournament, or a town to fly to.
 
-Output:
+Filters live in the query string (`/?find=tournaments&play=blitz&when=weekend`).
+`/clubs` is the same map opened with Clubs selected.
 
-`public/events.v1.json`
+Code: `app/components/Explore.tsx` ties it together; `lib/explore.ts` holds the
+filter, feed and search logic (tested in `tests/explore.test.mjs`). The browser
+loads `/explore-data.json`, built from `public/spots.v1.json` and
+`public/events.v1.json` with only the listings that can be shown.
 
-Current implementation:
+```sh
+python3 -m pip install -r scripts/requirements.txt
+npm run events:refresh
+```
 
-- `scripts/events_scrapers/base.py`: abstract base + shared event model
-- `scripts/events_scrapers/cca.py`: CCA scraper
-  - starts at `https://www.chesstour.com/refs.html`
-  - collects tournament links
-  - prefers non-blitz canonical pages (e.g. keeps `aco26.htm`, drops `acob26.htm`)
-  - parses broad metadata from event pages (dates, schedule, prizes, sections, fees, ratings, contact, full text)
+Sources: US Chess, NA Chess Hub (including MACA registrations), Boylston, and
+Continental Chess. Direct MACA ingestion is blocked by its unavailable website.
+Source health and approximate map locations are visible in the directory.
+
+See [directory and scraper operations](docs/event-directory.md) for source
+research, the on-demand agent refresh workflow, safeguards, geocoding attribution, and tests. Ask the agent "Refresh the chess events" to run it. No refresh is scheduled.
+
+## Searchable tournament pages
+
+The static export includes permanent `/events/[id]` pages, state calendars at
+`/tournaments/[state]`, `/events/online`, `/sitemap.xml`, and `/robots.txt`.
+Every build refreshes the page catalog and verifies sitemap URLs, canonical tags,
+internal links, and event structured data. Keep `data/event-pages.json` in data
+updates so expired URLs continue to resolve with a clear status.
+
+Run `npm run build` followed by `npm run preview` to inspect the export locally.
+See the [SEO and publishing notes](docs/event-directory.md#searchable-event-pages)
+for indexing behavior and Search Console setup after deployment.
 
 ## USCF club import & fill (Python)
 

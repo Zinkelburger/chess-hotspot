@@ -23,6 +23,8 @@ from urllib.parse import quote_plus, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 from .base import BaseEventScraper, ScrapedEvent
+from .common import Client, parse_time_control, parse_time_controls
+from .details import cancellation_evidence, labelled
 
 
 MONTHS = {
@@ -62,7 +64,7 @@ class _TextExtractor(HTMLParser):
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         t = tag.lower()
-        if t in {"script", "style"}:
+        if t in {"head", "script", "style"}:
             self._skip_depth += 1
             return
         if t in {"br", "p", "div", "li", "tr", "h1", "h2", "h3", "h4"}:
@@ -70,7 +72,7 @@ class _TextExtractor(HTMLParser):
 
     def handle_endtag(self, tag: str) -> None:
         t = tag.lower()
-        if t in {"script", "style"} and self._skip_depth > 0:
+        if t in {"head", "script", "style"} and self._skip_depth > 0:
             self._skip_depth -= 1
             return
         if t in {"p", "div", "li", "tr", "h1", "h2", "h3", "h4"}:
@@ -98,6 +100,7 @@ class CCAScraper(BaseEventScraper):
     )
 
     def __init__(self) -> None:
+        self.client = Client()
         self.geocode_enabled = os.getenv("CHESS_HOTSPOT_GEOCODE", "1") != "0"
         self.cache_path = Path(__file__).with_name("geocode_cache.json")
         self.geocode_cache: dict[str, dict[str, float] | None] = {}
@@ -111,11 +114,7 @@ class CCAScraper(BaseEventScraper):
         self._geocode_hits_this_run = 0
 
     def _fetch(self, url: str) -> str:
-        req = Request(url, headers={"User-Agent": "chess-hotspot-bot/1.0"})
-        with urlopen(req, timeout=30) as res:
-            raw = res.read()
-            charset = res.headers.get_content_charset() or "windows-1252"
-        return raw.decode(charset, errors="replace")
+        return self.client.get(url)
 
     def _collect_event_links(self, refs_html: str) -> list[str]:
         collector = _HrefCollector()
@@ -191,8 +190,12 @@ class CCAScraper(BaseEventScraper):
             if len(name_parts) >= 4:
                 break
 
-        if not name_parts:
-            return "CCA Tournament"
+        if not name_parts or not re.search(r"OPEN|CHAMPIONSHIP|TOURNAMENT", " ".join(name_parts), re.I):
+            candidate = re.search(r"\d+(?:st|nd|rd|th)\s+annual\s+[A-Za-z ]+?(?:Championships?|Open)\b", " ".join(lines[:30]), re.I)
+            if candidate:
+                return candidate[0]
+            if not name_parts:
+                return "CCA Tournament"
 
         name = " ".join(name_parts)
         name = re.sub(r"\s+", " ", name).strip()
@@ -209,7 +212,9 @@ class CCAScraper(BaseEventScraper):
         if not date_line:
             return None, None
 
-        normalized = date_line.upper().replace("–", "-")
+        # Pages saved as Windows-1252 arrive with the en dash as U+0096; treat
+        # every dash a person might type between two dates as a hyphen.
+        normalized = re.sub(r"[\u2010-\u2015\u2212\u0096\u0097]", "-", date_line.upper())
         year_match = re.search(r"(20\d{2})", normalized)
         if not year_match:
             return None, None
@@ -289,19 +294,8 @@ class CCAScraper(BaseEventScraper):
         return None
 
     def _extract_time_control(self, text: str) -> tuple[dict[str, object] | None, str | None]:
-        m = re.search(r"G\/(\d+)\s*[;,]?\s*(?:\+(\d+)|d(\d+))?", text, re.IGNORECASE)
-        if not m:
-            return None, None
-        base = int(m.group(1))
-        inc = int(m.group(2)) if m.group(2) else None
-        delay = int(m.group(3)) if m.group(3) else None
-        kind = "classical" if base >= 60 else "rapid" if base >= 10 else "blitz"
-        tc: dict[str, object] = {"kind": kind, "baseMinutes": base, "raw": m.group(0)}
-        if inc is not None:
-            tc["incrementSeconds"] = inc
-        if delay is not None:
-            tc["delaySeconds"] = delay
-        return tc, kind
+        tc = parse_time_control(text)
+        return tc, tc['kind'] if tc else None
 
     def _extract_sections(self, lines: list[str]) -> list[dict[str, object]]:
         out: list[dict[str, object]] = []
@@ -352,7 +346,7 @@ class CCAScraper(BaseEventScraper):
     def _extract_address(self, text: str) -> str | None:
         normalized = re.sub(r"\s+", " ", text)
         match = re.search(
-            r"(\d{2,6}\s+[A-Za-z0-9 .#'()\-]+,\s*[A-Za-z .'\-]+,\s*[A-Z]{2}\s*\d{5})",
+            r"(\d{1,6}\s+[A-Za-z][A-Za-z0-9 .#'()\-]{2,100},\s*[A-Za-z .'\-]{2,50},?\s+[A-Z]{2}\s*\d{5})",
             normalized,
         )
         if match:
@@ -449,8 +443,7 @@ class CCAScraper(BaseEventScraper):
             try:
                 html = self._fetch(link)
             except Exception as exc:  # pragma: no cover
-                print(f"[cca] skip {link} ({exc})")
-                continue
+                raise ValueError(f"CCA detail failed: {link}") from exc
 
             text = self._extract_text(html)
             lines = self._lines(text)
@@ -491,6 +484,9 @@ class CCAScraper(BaseEventScraper):
                 lng=lng,
                 format=event_format,
                 timeControl=time_control,
+                timeControls=parse_time_controls(text) or None,
+                cancellationEvidence=cancellation_evidence(name, text),
+                reviewFlags=["multiple-or-ambiguous-time-controls"] if event_format == "custom" else None,
                 rated=rated,
                 ratingSystem=rating_system,
                 entryFeeText=entry_text,
@@ -500,11 +496,11 @@ class CCAScraper(BaseEventScraper):
                 topPrizeUsd=top_prize,
                 sections=sections or None,
                 scheduleOptions=schedule_options or None,
+                scheduleText='\n'.join(str(s['raw']) for s in schedule_options) or labelled(text, r'ROUND TIMES?|RDS|SCHEDULE'),
+                registrationText=labelled(text, r'REGISTRATION(?: DEADLINE)?|REG'),
                 tags=["cca", "tournament"],
                 website=link,
-                notes=(
-                    "Auto-scraped from CCA tournament page. Verify details before attending."
-                ),
+                notes=None,
             )
             events.append(event)
 

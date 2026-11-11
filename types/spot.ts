@@ -46,4 +46,12 @@ export interface SpotRaw {
   /** Explanation for questionable/mismatch URLs. Keyed by URL. */
   website_confidence_reason?: Record<string, string>;
   notes?: string | null;
+  address?: string | null;
+  city?: string | null;
+  state?: string | null;
+  /** Free-text schedule, kept when it says more than `hours` can. */
+  meeting_times?: string | null;
+  chesscom_url?: string | null;
+  facebook?: string | null;
+  other_links?: string[] | null;
 }

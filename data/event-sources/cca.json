@@ -1,0 +1,418 @@
+[
+  {
+    "id": "cca-15th-annual-boston-chess-congress-2027-01-20-eb594023",
+    "name": "15th annual BOSTON CHESS CONGRESS",
+    "date": "2027-01-20",
+    "type": "tournament",
+    "endDate": "2027-01-20",
+    "venue": "spaces in hotel parking lot are not guaranteed",
+    "address": "101 Harborside Dr, Boston, MA 02128",
+    "lat": 42.3642,
+    "lng": -71.0257,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "40/80, SD/30; d30 / G/60,\nd10"
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "raw": "40/80, SD/30; d30",
+        "baseMinutes": 80,
+        "delaySeconds": 30
+      },
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60,\nd10",
+        "delaySeconds": 10
+      }
+    ],
+    "scheduleText": "3-Day Schedule: Reg. ends Fri 6 pm. Rds. Fri 7, Sat 11 & 5, Sun 10 &\n2-Day Schedule: Reg. ends",
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "rated": true,
+    "ratingSystem": "FIDE",
+    "entryFeeText": "s: $88 online at chessaction.com",
+    "entryFeeUsdMin": 88,
+    "entryFeeUsdMax": 88,
+    "prizeFundGuaranteedUsd": 12000,
+    "topPrizeUsd": 1000,
+    "scheduleOptions": [
+      {
+        "name": "3-Day",
+        "startDate": "2027-01-20",
+        "endDate": "2027-01-20",
+        "raw": "3-Day Schedule: Reg. ends Fri 6 pm. Rds. Fri 7, Sat 11 & 5, Sun 10 &"
+      },
+      {
+        "name": "2-Day",
+        "startDate": "2027-01-20",
+        "endDate": "2027-01-20",
+        "raw": "2-Day Schedule: Reg. ends"
+      }
+    ],
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/bcc27.htm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "source": "cca",
+    "sources": [
+      {
+        "id": "cca",
+        "url": "https://www.chesstour.com/bcc27.htm",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "cca-51st-annual-eastern-open-2026-12-26-9fc9cc27",
+    "name": "51st annual EASTERN OPEN",
+    "date": "2026-12-26",
+    "type": "tournament",
+    "endDate": "2026-12-29",
+    "address": "2799 Richmond Highway, Arlington VA 22202",
+    "lat": 38.8565,
+    "lng": -77.0592,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "40/80, SD/30;\nd30 / G/30,\nd10"
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "raw": "40/80, SD/30;\nd30",
+        "baseMinutes": 80,
+        "delaySeconds": 30
+      },
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30,\nd10",
+        "delaySeconds": 10
+      }
+    ],
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "rated": true,
+    "ratingSystem": "FIDE",
+    "entryFeeText": "$148 online at chessaction.com by 12/23, $170 later online",
+    "entryFeeUsdMin": 148,
+    "entryFeeUsdMax": 170,
+    "topPrizeUsd": 1700,
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/eo26.htm",
+    "city": "Arlington",
+    "state": "VA",
+    "country": "US",
+    "source": "cca",
+    "sources": [
+      {
+        "id": "cca",
+        "url": "https://www.chesstour.com/eo26.htm",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "cca-11th-annual-george-washington-open-2027-02-26-fa096c41",
+    "name": "11th annual GEORGE WASHINGTON OPEN",
+    "date": "2027-02-26",
+    "type": "tournament",
+    "endDate": "2027-02-28",
+    "venue": "Washington Dulles Marriott Hotel",
+    "address": "45020 Aviation Drive, Dulles, VA 20166",
+    "lat": 38.9814,
+    "lng": -77.4723,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "40/80, SD/30; d30 / G/60, d10"
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "raw": "40/80, SD/30; d30",
+        "baseMinutes": 80,
+        "delaySeconds": 30
+      },
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60, d10",
+        "delaySeconds": 10
+      }
+    ],
+    "scheduleText": "3-day schedule: Reg. ends Fri\n2-day schedule: Reg. ends",
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "rated": false,
+    "ratingSystem": "none",
+    "entryFeeText": "$125 online at chessaction.com",
+    "entryFeeUsdMin": 125,
+    "entryFeeUsdMax": 125,
+    "prizeFundGuaranteedUsd": 17000,
+    "topPrizeUsd": 1300,
+    "sections": [
+      {
+        "name": "Major (1900/up)",
+        "raw": "Major Section (1900/up):",
+        "minRating": 1900,
+        "unratedAllowed": false
+      }
+    ],
+    "scheduleOptions": [
+      {
+        "name": "3-Day",
+        "startDate": "2027-02-26",
+        "endDate": "2027-02-28",
+        "raw": "3-day schedule: Reg. ends Fri"
+      },
+      {
+        "name": "2-Day",
+        "startDate": "2027-02-26",
+        "endDate": "2027-02-28",
+        "raw": "2-day schedule: Reg. ends"
+      }
+    ],
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/gwo27.htm",
+    "city": "Dulles",
+    "state": "VA",
+    "country": "US",
+    "source": "cca",
+    "sources": [
+      {
+        "id": "cca",
+        "url": "https://www.chesstour.com/gwo27.htm",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "cca-36th-annual-north-american-open-2026-12-26-8535ca56",
+    "name": "36th annual North American Open",
+    "date": "2026-12-26",
+    "type": "tournament",
+    "endDate": "2026-12-30",
+    "venue": "Horseshoe Casino Resort",
+    "address": "3645 Las Vegas Blvd S, Las Vegas NV 89103",
+    "lat": 36.1149,
+    "lng": -115.2161,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "40/90, SD/30; d30 / G/60 d10"
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "raw": "40/90, SD/30; d30",
+        "baseMinutes": 90,
+        "delaySeconds": 30
+      },
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60 d10",
+        "delaySeconds": 10
+      }
+    ],
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "rated": true,
+    "ratingSystem": "FIDE",
+    "entryFeeText": "Online at",
+    "prizeFundGuaranteedUsd": 130000,
+    "topPrizeUsd": 10000,
+    "sections": [
+      {
+        "name": "Open",
+        "raw": "Open Section: $10,000-5000-3000-2000-1300-1000-800-700-600-500,",
+        "minRating": 1900,
+        "prizes": [
+          {
+            "amountUsd": 10000
+          }
+        ],
+        "unratedAllowed": false
+      }
+    ],
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/nao26.htm",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "US",
+    "source": "cca",
+    "sources": [
+      {
+        "id": "cca",
+        "url": "https://www.chesstour.com/nao26.htm",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "cca-14th-annual-new-york-state-senior-championship-2027-02-26-dbc9b572",
+    "name": "14th annual New York State Senior Championship!",
+    "date": "2027-02-26",
+    "type": "tournament",
+    "endDate": "2027-02-28",
+    "venue": "Saratoga Springs Hilton Hotel",
+    "address": "534 Broadway, Saratoga Springs, NY 12866",
+    "lat": 43.0708,
+    "lng": -73.7408,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "40/80,\nSD/30; d30 / G/60, d10"
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "raw": "40/80,\nSD/30; d30",
+        "baseMinutes": 80,
+        "delaySeconds": 30
+      },
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60, d10",
+        "delaySeconds": 10
+      }
+    ],
+    "scheduleText": "3-Day schedule: Reg. ends Fri 6 pm, rds. Fri 7 pm,\n2-Day schedule: Reg. ends Sat. 10 am, rds Sat 11 am, 2 pm & 5 pm, Sun 10 am",
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "rated": false,
+    "ratingSystem": "none",
+    "entryFeeText": "$5 less to NYSCA",
+    "entryFeeUsdMin": 5,
+    "entryFeeUsdMax": 5,
+    "prizeFundGuaranteedUsd": 2300,
+    "scheduleOptions": [
+      {
+        "name": "3-Day",
+        "startDate": "2027-02-26",
+        "endDate": "2027-02-28",
+        "raw": "3-Day schedule: Reg. ends Fri 6 pm, rds. Fri 7 pm,"
+      },
+      {
+        "name": "2-Day",
+        "startDate": "2027-02-26",
+        "endDate": "2027-02-28",
+        "raw": "2-Day schedule: Reg. ends Sat. 10 am, rds Sat 11 am, 2 pm & 5 pm, Sun 10 am"
+      }
+    ],
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/nyssc27.htm",
+    "city": "Saratoga Springs",
+    "state": "NY",
+    "country": "US",
+    "source": "cca",
+    "sources": [
+      {
+        "id": "cca",
+        "url": "https://www.chesstour.com/nyssc27.htm",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "cca-saratoga-tournament-2027-02-26-8f9b72c2",
+    "name": "Saratoga Tournament",
+    "date": "2027-02-26",
+    "type": "tournament",
+    "endDate": "2027-02-28",
+    "venue": "Saratoga Springs Hilton Hotel",
+    "address": "534 Broadway, Saratoga Springs, NY 12866",
+    "lat": 43.0708,
+    "lng": -73.7408,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "40/80,\nSD/30; d30 / G/60, d10"
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "raw": "40/80,\nSD/30; d30",
+        "baseMinutes": 80,
+        "delaySeconds": 30
+      },
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60, d10",
+        "delaySeconds": 10
+      }
+    ],
+    "scheduleText": "3-Day schedule: Reg. ends Fri 6 pm, rds. Fri 7 pm,\n2-Day schedule: Reg. ends Sat. 10 am, rds Sat 11 am, 2 pm & 5 pm, Sun 10 am",
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "rated": false,
+    "ratingSystem": "none",
+    "entryFeeText": "$5 less to NYSCA",
+    "entryFeeUsdMin": 5,
+    "entryFeeUsdMax": 5,
+    "scheduleOptions": [
+      {
+        "name": "3-Day",
+        "startDate": "2027-02-26",
+        "endDate": "2027-02-28",
+        "raw": "3-Day schedule: Reg. ends Fri 6 pm, rds. Fri 7 pm,"
+      },
+      {
+        "name": "2-Day",
+        "startDate": "2027-02-26",
+        "endDate": "2027-02-28",
+        "raw": "2-Day schedule: Reg. ends Sat. 10 am, rds Sat 11 am, 2 pm & 5 pm, Sun 10 am"
+      }
+    ],
+    "tags": [
+      "cca",
+      "tournament"
+    ],
+    "website": "https://www.chesstour.com/nytoa27.htm",
+    "city": "Saratoga Springs",
+    "state": "NY",
+    "country": "US",
+    "source": "cca",
+    "sources": [
+      {
+        "id": "cca",
+        "url": "https://www.chesstour.com/nytoa27.htm",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  }
+]

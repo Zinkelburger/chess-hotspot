@@ -1,0 +1,900 @@
+[
+  {
+    "id": "boylston-826fc4423060211e-2026-10-11",
+    "name": "Sunday Scholastic Lessons",
+    "date": "2026-10-11",
+    "type": "lesson",
+    "endDate": "2026-10-11",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "entryFeeText": "$320 for 8 weeks, $40 per week",
+    "website": "https://boylstonchess.org/events/1573/sunday-scholastic-lessons",
+    "notes": "10:00am - 11:30am",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1573/sunday-scholastic-lessons",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "dateText": "Sunday, October 11, 2026"
+  },
+  {
+    "id": "boylston-ff24e228f80984bf-2026-10-13",
+    "name": "Mid-Autumn Six-Week Swiss Online",
+    "date": "2026-10-13",
+    "type": "tournament",
+    "endDate": "2026-10-13",
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60.0,
+      "raw": "G/60 + 10",
+      "incrementSeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60 + 10",
+        "incrementSeconds": 10
+      }
+    ],
+    "entryFeeText": "$40, $25 for BCF members",
+    "website": "https://boylstonchess.org/events/1593/mid-autumn-six-week-swiss-online",
+    "notes": "Tuesday at 6:30 PM unless two players agree to reschedule",
+    "country": "US",
+    "online": true,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1593/mid-autumn-six-week-swiss-online",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "dateText": "Tuesday, October 13, 2026"
+  },
+  {
+    "id": "boylston-fa6141996789dd19-2026-11-03",
+    "name": "November Tuesday Night Swiss (OTB)",
+    "date": "2026-11-03",
+    "type": "tournament",
+    "endDate": "2026-11-24",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 + 5",
+      "incrementSeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 + 5",
+        "incrementSeconds": 5
+      }
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$25, $40 for non-BCF members; Free for GM's and IM's, and also for club members who are rated at least 2200",
+    "sections": [
+      {
+        "name": "U1910",
+        "maxRating": 1909
+      },
+      {
+        "name": "U1510",
+        "maxRating": 1509
+      },
+      {
+        "name": "U1910",
+        "maxRating": 1909
+      },
+      {
+        "name": "U1510",
+        "maxRating": 1509
+      }
+    ],
+    "website": "https://boylstonchess.org/events/1584/november-tuesday-night-swiss-otb",
+    "notes": "7:15pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1584/november-tuesday-night-swiss-otb",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Tuesdays, November 3, 10, 17, and 24"
+  },
+  {
+    "id": "boylston-a828d32d84516a52-2026-11-12",
+    "name": "Thursday Club Night 11/12",
+    "date": "2026-11-12",
+    "type": "meetup",
+    "endDate": "2026-11-12",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90; +5",
+      "incrementSeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90; +5",
+        "incrementSeconds": 5
+      }
+    ],
+    "entryFeeText": "$5, $10 for non-members",
+    "website": "https://boylstonchess.org/events/1602/thursday-club-night-11-12",
+    "notes": "7:15pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1602/thursday-club-night-11-12",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Thursday, November 12, 2026"
+  },
+  {
+    "id": "boylston-b43536ff7aa4a7a6-2026-11-13",
+    "name": "Rated Friday Night Blitz",
+    "date": "2026-11-13",
+    "type": "tournament",
+    "endDate": "2026-11-13",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "G/5 d0 / G/5"
+    },
+    "timeControls": [
+      {
+        "kind": "blitz",
+        "baseMinutes": 5.0,
+        "raw": "G/5 d0",
+        "delaySeconds": 0
+      },
+      {
+        "kind": "blitz",
+        "baseMinutes": 5.0,
+        "raw": "G/5"
+      }
+    ],
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$10, $15 for non-BCF members",
+    "website": "https://boylstonchess.org/events/1604/rated-friday-night-blitz",
+    "notes": "7:45pm first round, rest ASAP",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1604/rated-friday-night-blitz",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Friday, November 13, 2026"
+  },
+  {
+    "id": "boylston-11c98867669cfa31-2026-11-14",
+    "name": "November Quads",
+    "date": "2026-11-14",
+    "type": "tournament",
+    "endDate": "2026-11-14",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 65.0,
+      "raw": "G/65 d10",
+      "delaySeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 65.0,
+        "raw": "G/65 d10",
+        "delaySeconds": 10
+      }
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$20, $35 for non-BCF members, $5 more after November 12.",
+    "website": "https://boylstonchess.org/events/1564/november-quads",
+    "notes": "10:00am, 1:15pm, 3:45pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1564/november-quads",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Saturday, November 14, 2026"
+  },
+  {
+    "id": "boylston-de588e1f42c111ef-2026-11-15",
+    "name": "November Scholastics",
+    "date": "2026-11-15",
+    "type": "tournament",
+    "endDate": "2026-11-15",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 30.0,
+      "raw": "G/30 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$20, $25 for non-BCF members, $5 more after 11/13",
+    "sections": [
+      {
+        "name": "Under 1000",
+        "maxRating": 999
+      },
+      {
+        "name": "Under 500",
+        "maxRating": 499
+      }
+    ],
+    "website": "https://boylstonchess.org/events/1598/november-scholastics",
+    "notes": "2:00pm, 3:15pm, 4:30pm, 5:45pm or ASAP",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1598/november-scholastics",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Sunday, November 15, 2026"
+  },
+  {
+    "id": "boylston-bb40238540a2b330-2026-11-15",
+    "name": "November Scholastics",
+    "date": "2026-11-15",
+    "type": "tournament",
+    "endDate": "2026-11-15",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 30.0,
+      "raw": "G/30 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 30.0,
+        "raw": "G/30 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$20, $25 for non-BCF members, $5 more after 11/13",
+    "sections": [
+      {
+        "name": "Under 1000",
+        "maxRating": 999
+      },
+      {
+        "name": "Under 500",
+        "maxRating": 499
+      }
+    ],
+    "website": "https://boylstonchess.org/events/1599/november-scholastics",
+    "notes": "2:00pm, 3:15pm, 4:30pm, 5:45pm or ASAP",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1599/november-scholastics",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Sunday, November 15, 2026"
+  },
+  {
+    "id": "boylston-a520b0c7abf70e3e-2026-11-19",
+    "name": "Thursday Club Night 11/19",
+    "date": "2026-11-19",
+    "type": "meetup",
+    "endDate": "2026-11-19",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90; +5",
+      "incrementSeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90; +5",
+        "incrementSeconds": 5
+      }
+    ],
+    "entryFeeText": "$5, $10 for non-members",
+    "website": "https://boylstonchess.org/events/1603/thursday-club-night-11-19",
+    "notes": "7:15pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1603/thursday-club-night-11-19",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Thursday, November 19, 2026"
+  },
+  {
+    "id": "boylston-07f1c5712b3e7b0d-2026-11-20",
+    "name": "Unrated Friday Night Blitz",
+    "date": "2026-11-20",
+    "type": "tournament",
+    "endDate": "2026-11-20",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "custom",
+    "timeControl": {
+      "kind": "custom",
+      "raw": "G/5 d0 / G/5"
+    },
+    "timeControls": [
+      {
+        "kind": "blitz",
+        "baseMinutes": 5.0,
+        "raw": "G/5 d0",
+        "delaySeconds": 0
+      },
+      {
+        "kind": "blitz",
+        "baseMinutes": 5.0,
+        "raw": "G/5"
+      }
+    ],
+    "reviewFlags": [
+      "multiple-or-ambiguous-time-controls"
+    ],
+    "rated": false,
+    "ratingSystem": "none",
+    "entryFeeText": "$10, $15 for non-BCF members",
+    "website": "https://boylstonchess.org/events/1605/unrated-friday-night-blitz",
+    "notes": "7:45pm first round, rest ASAP",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1605/unrated-friday-night-blitz",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Friday, November 20, 2026"
+  },
+  {
+    "id": "boylston-a8dc1bdce7b37fde-2026-11-21",
+    "name": "Tornado #150",
+    "date": "2026-11-21",
+    "type": "tournament",
+    "endDate": "2026-11-21",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 60.0,
+      "raw": "G/60 d5",
+      "delaySeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 60.0,
+        "raw": "G/60 d5",
+        "delaySeconds": 5
+      }
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$20, $35 for non-BCF members",
+    "sections": [
+      {
+        "name": "U1800",
+        "maxRating": 1799
+      },
+      {
+        "name": "U1800",
+        "maxRating": 1799
+      }
+    ],
+    "website": "https://boylstonchess.org/events/1606/tornado-150",
+    "notes": "9:30am, 12:30pm, 3:00pm, last round starts immediately after 3rd Round",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1606/tornado-150",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Saturday, November 21, 2026"
+  },
+  {
+    "id": "boylston-93156777a453f16a-2026-12-01",
+    "name": "December Tuesday Night Swiss (OTB)",
+    "date": "2026-12-01",
+    "type": "tournament",
+    "endDate": "2026-12-29",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 90.0,
+      "raw": "G/90 + 5",
+      "incrementSeconds": 5
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 90.0,
+        "raw": "G/90 + 5",
+        "incrementSeconds": 5
+      }
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$25, $40 for non-BCF members; Free for GM's and IM's, and also for club members who are rated at least 2200",
+    "sections": [
+      {
+        "name": "U1910",
+        "maxRating": 1909
+      },
+      {
+        "name": "U1510",
+        "maxRating": 1509
+      },
+      {
+        "name": "U1910",
+        "maxRating": 1909
+      },
+      {
+        "name": "U1510",
+        "maxRating": 1509
+      }
+    ],
+    "website": "https://boylstonchess.org/events/1585/december-tuesday-night-swiss-otb",
+    "notes": "7:15pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1585/december-tuesday-night-swiss-otb",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Tuesdays, December 1, 8, 15, 22, and 29"
+  },
+  {
+    "id": "boylston-1b63035d4cbe265b-2026-12-05",
+    "name": "December Quads",
+    "date": "2026-12-05",
+    "type": "tournament",
+    "endDate": "2026-12-05",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "format": "classical",
+    "timeControl": {
+      "kind": "classical",
+      "baseMinutes": 65.0,
+      "raw": "G/65 d10",
+      "delaySeconds": 10
+    },
+    "timeControls": [
+      {
+        "kind": "classical",
+        "baseMinutes": 65.0,
+        "raw": "G/65 d10",
+        "delaySeconds": 10
+      }
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "$20, $35 for non-BCF members, $5 more after December 3.",
+    "website": "https://boylstonchess.org/events/1565/december-quads",
+    "notes": "10:00am, 1:15pm, 3:45pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1565/december-quads",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Saturday, December 5, 2026"
+  },
+  {
+    "id": "boylston-e9da0837e746f7ff-2026-12-18",
+    "name": "21+ BCC Winter Social",
+    "date": "2026-12-18",
+    "type": "meetup",
+    "endDate": "2026-12-18",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "entryFeeText": "Please donate food/drinks or donate to the club",
+    "website": "https://boylstonchess.org/events/1607/21-bcc-winter-social",
+    "notes": "7:00pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1607/21-bcc-winter-social",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Friday, December 18, 2026"
+  },
+  {
+    "id": "boylston-1d1fdda835b07abc-2027-01-17",
+    "name": "Boston Queens Series - Event 3",
+    "date": "2027-01-17",
+    "type": "tournament",
+    "endDate": "2027-01-17",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "website": "https://boylstonchess.org/events/1555/boston-queens-series-event-3",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1555/boston-queens-series-event-3",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Sunday, January 17, 2027"
+  },
+  {
+    "id": "boylston-512db9ad7aed3cc4-2027-02-15",
+    "name": "Scholastic February Clinic",
+    "date": "2027-02-15",
+    "type": "tournament",
+    "endDate": "2027-02-15",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "entryFeeText": "$625",
+    "website": "https://boylstonchess.org/events/1610/scholastic-february-clinic",
+    "notes": "9:00am - 4:00pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1610/scholastic-february-clinic",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Monday, February 15, 2027"
+  },
+  {
+    "id": "boylston-db4f40803a94e82d-2027-03-14",
+    "name": "Boston Queens Series - Event 4",
+    "date": "2027-03-14",
+    "type": "tournament",
+    "endDate": "2027-03-14",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "website": "https://boylstonchess.org/events/1556/boston-queens-series-event-4",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1556/boston-queens-series-event-4",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Sunday, March 14, 2027"
+  },
+  {
+    "id": "boylston-11b1b367eb9ed264-2027-03-15",
+    "name": "Scholastic March Clinic",
+    "date": "2027-03-15",
+    "type": "tournament",
+    "endDate": "2027-03-15",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "entryFeeText": "$625",
+    "website": "https://boylstonchess.org/events/1611/scholastic-march-clinic",
+    "notes": "9:00am - 4:00pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1611/scholastic-march-clinic",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Monday, March 15, 2027"
+  },
+  {
+    "id": "boylston-b05684bc82101881-2027-04-19",
+    "name": "Scholastic April Clinic",
+    "date": "2027-04-19",
+    "type": "tournament",
+    "endDate": "2027-04-19",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "entryFeeText": "$625",
+    "website": "https://boylstonchess.org/events/1612/scholastic-april-clinic",
+    "notes": "9:00am - 4:00pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1612/scholastic-april-clinic",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Monday, April 19, 2027"
+  },
+  {
+    "id": "boylston-a6dcd957c0f30a37-2027-07-12",
+    "name": "July Scholastic Summer Clinic",
+    "date": "2027-07-12",
+    "type": "tournament",
+    "endDate": "2027-07-12",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "entryFeeText": "$625",
+    "website": "https://boylstonchess.org/events/1608/july-scholastic-summer-clinic",
+    "notes": "9:00am - 4:00pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1608/july-scholastic-summer-clinic",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Monday, July 12, 2027"
+  },
+  {
+    "id": "boylston-28f12ed308c49b9f-2027-08-09",
+    "name": "August Scholastic Summer Clinic",
+    "date": "2027-08-09",
+    "type": "tournament",
+    "endDate": "2027-08-09",
+    "hostClubId": "boylston_chess_club",
+    "venue": "Boylston Chess Foundation",
+    "address": "35 Kingston St, Unit 1, Boston, MA 02111",
+    "lat": 42.3535593,
+    "lng": -71.0593018,
+    "entryFeeText": "$625",
+    "website": "https://boylstonchess.org/events/1609/august-scholastic-summer-clinic",
+    "notes": "9:00am - 4:00pm",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "online": false,
+    "audience": "scholastic",
+    "organizer": "Boylston Chess Foundation",
+    "source": "boylston",
+    "sources": [
+      {
+        "id": "boylston",
+        "url": "https://boylstonchess.org/events/1609/august-scholastic-summer-clinic",
+        "fetchedAt": "2026-11-10T18:37:08+00:00"
+      }
+    ],
+    "locationPrecision": "venue",
+    "dateText": "Monday, August 9, 2027"
+  }
+]
