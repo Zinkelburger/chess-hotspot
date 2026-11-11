@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:06:27+00:00",
+  "updatedAt": "2026-11-11T06:13:05+00:00",
   "sources": [
     {
       "id": "nachesshub",
@@ -90,20 +90,29 @@
       "lastAttempt": "2026-11-11T06:06:27+00:00",
       "lastSuccess": "2026-11-11T06:06:27+00:00",
       "count": 26
+    },
+    {
+      "id": "stlouis",
+      "name": "Saint Louis Chess Club",
+      "url": "https://saintlouischessclub.org/events/events-we-offer/",
+      "status": "ok",
+      "lastAttempt": "2026-11-11T06:13:05+00:00",
+      "lastSuccess": "2026-11-11T06:13:05+00:00",
+      "count": 4
     }
   ],
-  "eventCount": 1108,
-  "mappedCount": 1062,
+  "eventCount": 1112,
+  "mappedCount": 1066,
   "quality": {
-    "checkedAt": "2026-11-11T06:06:29+00:00",
+    "checkedAt": "2026-11-11T06:13:48+00:00",
     "passed": true,
     "coverage": {
-      "events": 1108,
-      "withFees": 648,
+      "events": 1112,
+      "withFees": 652,
       "withSchedule": 506,
       "withRegistration": 503,
-      "physicalEvents": 1088,
-      "mapped": 1062,
+      "physicalEvents": 1092,
+      "mapped": 1066,
       "venueCoordinates": 19
     },
     "issueCounts": {

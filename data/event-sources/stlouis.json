@@ -1,0 +1,170 @@
+[
+  {
+    "id": "stlouis-11a35ce1af1d89aa-2026-11-20",
+    "name": "Friday Night Quads",
+    "date": "2026-11-20",
+    "type": "tournament",
+    "endDate": "2026-11-20",
+    "venue": "Saint Louis Chess Club",
+    "address": "4663 Maryland Ave, St. Louis, MO 63108",
+    "lat": 38.6445,
+    "lng": -90.2544,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 15.0,
+      "raw": "G/15"
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 15.0,
+        "raw": "G/15"
+      }
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry is $15",
+    "website": "https://saintlouischessclub.org/event/friday-night-quads/",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "US",
+    "online": false,
+    "organizer": "Saint Louis Chess Club",
+    "source": "stlouis",
+    "sources": [
+      {
+        "id": "stlouis",
+        "url": "https://saintlouischessclub.org/event/friday-night-quads/",
+        "fetchedAt": "2026-11-11T06:13:28+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "stlouis-679b96dd8039fdac-2026-11-21",
+    "name": "Saturday Rated Games",
+    "date": "2026-11-21",
+    "type": "tournament",
+    "endDate": "2026-11-21",
+    "venue": "Saint Louis Chess Club",
+    "address": "4663 Maryland Ave, St. Louis, MO 63108",
+    "lat": 38.6445,
+    "lng": -90.2544,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 45.0,
+      "raw": "G/45"
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 45.0,
+        "raw": "G/45"
+      }
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry is free",
+    "website": "https://saintlouischessclub.org/event/saturday-rated-games/",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "US",
+    "online": false,
+    "organizer": "Saint Louis Chess Club",
+    "source": "stlouis",
+    "sources": [
+      {
+        "id": "stlouis",
+        "url": "https://saintlouischessclub.org/event/saturday-rated-games/",
+        "fetchedAt": "2026-11-11T06:13:28+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "stlouis-21e1e588051447b9-2026-11-21",
+    "name": "Saturday Night Blitz",
+    "date": "2026-11-21",
+    "type": "tournament",
+    "endDate": "2026-11-21",
+    "venue": "Saint Louis Chess Club",
+    "address": "4663 Maryland Ave, St. Louis, MO 63108",
+    "lat": 38.6445,
+    "lng": -90.2544,
+    "format": "blitz",
+    "timeControl": {
+      "kind": "blitz",
+      "baseMinutes": 3.0,
+      "raw": "G/3"
+    },
+    "timeControls": [
+      {
+        "kind": "blitz",
+        "baseMinutes": 3.0,
+        "raw": "G/3"
+      }
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry is $15",
+    "website": "https://saintlouischessclub.org/event/saturday-night-blitz/",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "US",
+    "online": false,
+    "organizer": "Saint Louis Chess Club",
+    "source": "stlouis",
+    "sources": [
+      {
+        "id": "stlouis",
+        "url": "https://saintlouischessclub.org/event/saturday-night-blitz/",
+        "fetchedAt": "2026-11-11T06:13:28+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  },
+  {
+    "id": "stlouis-486a3c8a9a0202a8-2026-11-22",
+    "name": "Sunday Rated Games",
+    "date": "2026-11-22",
+    "type": "tournament",
+    "endDate": "2026-11-22",
+    "venue": "Saint Louis Chess Club",
+    "address": "4663 Maryland Ave, St. Louis, MO 63108",
+    "lat": 38.6445,
+    "lng": -90.2544,
+    "format": "rapid",
+    "timeControl": {
+      "kind": "rapid",
+      "baseMinutes": 26.0,
+      "raw": "G/26"
+    },
+    "timeControls": [
+      {
+        "kind": "rapid",
+        "baseMinutes": 26.0,
+        "raw": "G/26"
+      }
+    ],
+    "rated": true,
+    "ratingSystem": "USCF",
+    "entryFeeText": "Entry is free",
+    "website": "https://saintlouischessclub.org/event/sunday-rated-games/",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "US",
+    "online": false,
+    "organizer": "Saint Louis Chess Club",
+    "source": "stlouis",
+    "sources": [
+      {
+        "id": "stlouis",
+        "url": "https://saintlouischessclub.org/event/sunday-rated-games/",
+        "fetchedAt": "2026-11-11T06:13:28+00:00"
+      }
+    ],
+    "locationPrecision": "postal"
+  }
+]
